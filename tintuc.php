@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
-
-<head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Tin tức - Onplaza Việt Pháp</title>
-
-	<meta name="description"
+	<title>Tin tức - Onplaza Việt Pháp</title>	<meta name="description"
 		content="Dinh dưỡng Việt Pháp, Dinh dưỡng sức khỏe, Chăm sóc sức khỏe, Thế giới dinh dưỡng, Thế giới chăm sóc sức khỏe,">
 	<meta name="keywords" content="Tin tức,Onplaza Việt Pháp">
-	<!-- <meta name="COPYRIGHT" content="https://delecweb.com" /> -->
-	<!-- <meta name="DEVELOPER" content="https://delecweb.com" /> -->
-	<meta name="dc.language" content="VN">
 	
-
-	<meta name="dc.title" content="Tin tức - Onplaza Việt Pháp">
+	<meta name="dc.language" content="VN">
+		<meta name="dc.title" content="Tin tức - Onplaza Việt Pháp">
 	<meta name="dc.keywords" content="Tin tức,Onplaza Việt Pháp">
 	<meta name="dc.subject" content="Tin tức - Onplaza Việt Pháp">
 	<meta name="dc.description"
@@ -44,14 +37,10 @@
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-173996513-1');
+		gtag('js', new Date());		gtag('config', 'UA-173996513-1');
 	</script>
 	<!-- <link rel="author" href="delecweb.com" /> -->
-	<meta property="og:type" content="website">
-
-	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
+	<meta property="og:type" content="website">	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:title" content="Tin tức - Onplaza Việt Pháp">
 	<meta property="og:url" content="tintuc.php">
@@ -59,107 +48,69 @@
 		content="Dinh dưỡng Việt Pháp, Dinh dưỡng sức khỏe, Chăm sóc sức khỏe, Thế giới dinh dưỡng, Thế giới chăm sóc sức khỏe,">
 	
 	
-	
-
-	<link rel="canonical" href="tintuc.php">
-
-	<meta content="INDEX,FOLLOW" name="robots">
+		<link rel="canonical" href="tintuc.php">	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
-	
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/base.prod.css">
-
-	<meta name="geo.placename" content="Hà Nội">
+	<link rel="stylesheet" href="assets/css/base.prod.css">	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
-	<meta name="ICBM" content="21, 105.83">
-
-	<style amp-custom="">
-
-
+	<meta name="ICBM" content="21, 105.83">	<style amp-custom="">
 		/*# sourceMappingURL=admin_edit.css.map */
 		.owl-carousel .animated {
 			-webkit-animation-duration: 1000ms;
 			animation-duration: 1000ms;
 			-webkit-animation-fill-mode: both;
 			animation-fill-mode: both
-		}
-
-		.owl-carousel .owl-animated-in {
+		}		.owl-carousel .owl-animated-in {
 			z-index: 0
-		}
-
-		.owl-carousel .owl-animated-out {
+		}		.owl-carousel .owl-animated-out {
 			z-index: 1
-		}
-
-		.owl-carousel .fadeOut {
+		}		.owl-carousel .fadeOut {
 			-webkit-animation-name: fadeOut;
 			animation-name: fadeOut
-		}
-
-		@-webkit-keyframes fadeOut {
+		}		@-webkit-keyframes fadeOut {
 			0% {
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				opacity: 0
 			}
-		}
-
-		@keyframes fadeOut {
+		}		@keyframes fadeOut {
 			0% {
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				opacity: 0
 			}
-		}
-
-		.owl-height {
+		}		.owl-height {
 			-webkit-transition: height 500ms ease-in-out;
 			-moz-transition: height 500ms ease-in-out;
 			-ms-transition: height 500ms ease-in-out;
 			-o-transition: height 500ms ease-in-out;
 			transition: height 500ms ease-in-out
-		}
-
-		.owl-carousel {
+		}		.owl-carousel {
 			display: none;
 			width: 100%;
 			-webkit-tap-highlight-color: transparent;
 			position: relative;
 			z-index: 1
-		}
-
-		.owl-carousel .owl-stage {
+		}		.owl-carousel .owl-stage {
 			position: relative;
 			-ms-touch-action: pan-Y
-		}
-
-		.owl-carousel .owl-stage:after {
+		}		.owl-carousel .owl-stage:after {
 			content: ".";
 			display: block;
 			clear: both;
 			visibility: hidden;
 			line-height: 0;
 			height: 0
-		}
-
-		.owl-carousel .owl-stage-outer {
+		}		.owl-carousel .owl-stage-outer {
 			position: relative;
 			overflow: hidden;
 			-webkit-transform: translate3d(0px, 0px, 0px)
-		}
-
-		.owl-carousel .owl-controls .owl-nav .owl-prev,
+		}		.owl-carousel .owl-controls .owl-nav .owl-prev,
 		.owl-carousel .owl-controls .owl-nav .owl-next,
 		.owl-carousel .owl-controls .owl-dot {
 			cursor: pointer;
@@ -169,26 +120,16 @@
 			-moz-user-select: none;
 			-ms-user-select: none;
 			user-select: none
-		}
-
-		.owl-carousel.owl-loaded {
+		}		.owl-carousel.owl-loaded {
 			display: block
-		}
-
-		.owl-carousel.owl-loading {
+		}		.owl-carousel.owl-loading {
 			opacity: 0;
 			display: block
-		}
-
-		.owl-carousel.owl-hidden {
+		}		.owl-carousel.owl-hidden {
 			opacity: 0
-		}
-
-		.owl-carousel .owl-refresh .owl-item {
+		}		.owl-carousel .owl-refresh .owl-item {
 			display: none
-		}
-
-		.owl-carousel .owl-item {
+		}		.owl-carousel .owl-item {
 			position: relative;
 			min-height: 1px;
 			float: left;
@@ -199,59 +140,39 @@
 			-moz-user-select: none;
 			-ms-user-select: none;
 			user-select: none
-		}
-
-		.owl-carousel .owl-item img {
+		}		.owl-carousel .owl-item img {
 			-webkit-transform-style: preserve-3d
-		}
-
-		.owl-carousel.owl-text-select-on .owl-item {
+		}		.owl-carousel.owl-text-select-on .owl-item {
 			-webkit-user-select: auto;
 			-moz-user-select: auto;
 			-ms-user-select: auto;
 			user-select: auto
-		}
-
-		.owl-carousel .owl-grab {
+		}		.owl-carousel .owl-grab {
 			cursor: move;
 			cursor: -webkit-grab;
 			cursor: -o-grab;
 			cursor: -ms-grab;
 			cursor: grab
-		}
-
-		.owl-carousel.owl-rtl {
+		}		.owl-carousel.owl-rtl {
 			direction: rtl
-		}
-
-		.owl-carousel.owl-rtl .owl-item {
+		}		.owl-carousel.owl-rtl .owl-item {
 			float: right
-		}
-
-		.no-js .owl-carousel {
+		}		.no-js .owl-carousel {
 			display: block
-		}
-
-		.owl-carousel .owl-item .owl-lazy {
+		}		.owl-carousel .owl-item .owl-lazy {
 			opacity: 0;
 			-webkit-transition: opacity 400ms ease;
 			-moz-transition: opacity 400ms ease;
 			-ms-transition: opacity 400ms ease;
 			-o-transition: opacity 400ms ease;
 			transition: opacity 400ms ease
-		}
-
-		.owl-carousel .owl-item img {
+		}		.owl-carousel .owl-item img {
 			transform-style: preserve-3d
-		}
-
-		.owl-carousel .owl-video-wrapper {
+		}		.owl-carousel .owl-video-wrapper {
 			position: relative;
 			height: 100%;
 			background: #000
-		}
-
-		.owl-carousel .owl-video-play-icon {
+		}		.owl-carousel .owl-video-play-icon {
 			position: absolute;
 			height: 80px;
 			width: 80px;
@@ -268,22 +189,16 @@
 			-ms-transition: scale 100ms ease;
 			-o-transition: scale 100ms ease;
 			transition: scale 100ms ease
-		}
-
-		.owl-carousel .owl-video-play-icon:hover {
+		}		.owl-carousel .owl-video-play-icon:hover {
 			-webkit-transition: scale(1.3, 1.3);
 			-moz-transition: scale(1.3, 1.3);
 			-ms-transition: scale(1.3, 1.3);
 			-o-transition: scale(1.3, 1.3);
 			transition: scale(1.3, 1.3)
-		}
-
-		.owl-carousel .owl-video-playing .owl-video-tn,
+		}		.owl-carousel .owl-video-playing .owl-video-tn,
 		.owl-carousel .owl-video-playing .owl-video-play-icon {
 			display: none
-		}
-
-		.owl-carousel .owl-video-tn {
+		}		.owl-carousel .owl-video-tn {
 			opacity: 0;
 			height: 100%;
 			background-position: center center;
@@ -297,149 +212,99 @@
 			-ms-transition: opacity 400ms ease;
 			-o-transition: opacity 400ms ease;
 			transition: opacity 400ms ease
-		}
-
-		.owl-carousel .owl-video-frame {
+		}		.owl-carousel .owl-video-frame {
 			position: relative;
 			z-index: 1
-		}
-
-		/*# sourceMappingURL=owl.carousel.css.map */
+		}		/*# sourceMappingURL=owl.carousel.css.map */
 		.news_home {
 			box-sizing: border-box
-		}
-
-		.header_l {
+		}		.header_l {
 			float: left;
 			width: 64%;
 			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 550px) {
+		}		@media only screen and (max-width: 550px) {
 			.header_l {
 				width: 100%
 			}
-		}
-
-		.header_l .date {
+		}		.header_l .date {
 			margin-top: 30px;
 			font-size: 13px;
 			color: var(--main-color)
-		}
-
-		.header_l .date .left_content {
+		}		.header_l .date .left_content {
 			float: left
-		}
-
-		.header_l .date .right_content {
+		}		.header_l .date .right_content {
 			float: right;
 			display: flex;
 			align-items: center
-		}
-
-		.header_l .date .right_content svg {
+		}		.header_l .date .right_content svg {
 			fill: var(--main-color);
 			margin-right: 8px;
 			width: 13px;
 			height: 13px
-		}
-
-		.header_l .title {
+		}		.header_l .title {
 			font-size: 17px;
 			margin-top: 10px
-		}
-
-		.header_l .title a {
+		}		.header_l .title a {
 			color: #fff
-		}
-
-		.header_l .summary {
+		}		.header_l .summary {
 			font-weight: normal;
 			margin-top: 15px;
 			text-align: justify;
 			color: #dadada;
 			font-size: 14px;
 			line-height: 22px
-		}
-
-		.header_r {
+		}		.header_r {
 			width: 36%;
 			float: right;
 			box-sizing: border-box;
 			padding-left: 25px;
 			overflow: hidden
-		}
-
-		@media only screen and (max-width: 550px) {
+		}		@media only screen and (max-width: 550px) {
 			.header_r {
 				width: 100%;
 				padding-left: 0px
 			}
-		}
-
-		.header_r img {
+		}		.header_r img {
 			max-height: 214px;
 			width: 100%
-		}
-
-		.header_r_inner {
+		}		.header_r_inner {
 			margin-right: -20px
-		}
-
-		@media only screen and (max-width: 550px) {
+		}		@media only screen and (max-width: 550px) {
 			.header_r_inner {
 				margin: 0px -5px
 			}
-		}
-
-		.header_r .item {
+		}		.header_r .item {
 			float: left;
 			margin-bottom: 20px;
 			box-sizing: border-box;
 			padding-right: 20px
-		}
-
-		@media only screen and (max-width: 550px) {
+		}		@media only screen and (max-width: 550px) {
 			.header_r .item {
 				width: calc(50% - 10px);
 				padding-right: 0px;
 				margin: 0px 5px
 			}
-		}
-
-		.header_r .item:nth-child(odd) {
+		}		.header_r .item:nth-child(odd) {
 			clear: left
-		}
-
-		.news_home .frame_img {
+		}		.news_home .frame_img {
 			text-align: center;
 			overflow: hidden
-		}
-
-		.news_home .item img {
+		}		.news_home .item img {
 			transition: all 0.3s ease 0s;
 			-webkit-transition: all 0.3s ease 0s
-		}
-
-		.news_home .item:hover img {
+		}		.news_home .item:hover img {
 			transform: scale(1.1);
 			-webkit-transform: scale(1.1);
 			opacity: 0.5
-		}
-
-		.header_r .item_title {
+		}		.header_r .item_title {
 			font-weight: normal;
 			margin-top: 5px;
 			text-align: justify
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.header_r .item_title {
 				line-height: 22px;
 				text-align: left
-			}
-
-			.header_r .item_title a {
+			}			.header_r .item_title a {
 				text-overflow: ellipsis;
 				-webkit-line-clamp: 2;
 				display: -webkit-box;
@@ -449,98 +314,64 @@
 				overflow: hidden;
 				color: #fff
 			}
-		}
-
-		.header_r .item_title a {
+		}		.header_r .item_title a {
 			color: #fff;
 			font-weight: 700
-		}
-
-		.list-news .item {
+		}		.list-news .item {
 			border-bottom: 1px solid #EEE;
 			padding-bottom: 15px;
 			margin-bottom: 15px
-		}
-
-		.list-news .frame_img {
+		}		.list-news .frame_img {
 			float: left;
 			margin-right: 20px
-		}
-
-		.list-news .datetime {
+		}		.list-news .datetime {
 			color: #888;
 			margin-top: 5px;
 			margin-bottom: 8px
-		}
-
-		.list-news .sum {
+		}		.list-news .sum {
 			color: #333
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.header_l {
 				width: 100%
-			}
-
-			.header_r {
+			}			.header_r {
 				width: 100%;
 				padding-left: 0
 			}
-		}
-
-		.right-col .block {
+		}		.right-col .block {
 			background: unset;
 			margin-top: 0px;
 			box-sizing: border-box;
 			padding: 0px 0px 0px
-		}
-
-		#wrapper_seachn {
+		}		#wrapper_seachn {
 			padding: 0px 10px
-		}
-
-		.main-area-2col-right {
+		}		.main-area-2col-right {
 			width: -webkit-calc(100% - 315px);
 			width: -moz-calc(100% - 315px);
 			width: calc(100% - 315px);
 			padding-right: 25px
-		}
-
-		@media only screen and (max-width: 768px) {
+		}		@media only screen and (max-width: 768px) {
 			.main-area-2col-right {
 				width: 100%;
 				padding-right: 0px;
 				margin-bottom: 20px
 			}
-		}
-
-		.right-col {
+		}		.right-col {
 			width: 315px
-		}
-
-		@media only screen and (max-width: 1140px) {
+		}		@media only screen and (max-width: 1140px) {
 			.right-col {
 				display: block
 			}
-		}
-
-		@media only screen and (max-width: 768px) {
+		}		@media only screen and (max-width: 768px) {
 			.right-col {
 				width: 100%
 			}
-		}
-
-		.cat-title-main {
+		}		.cat-title-main {
 			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 768px) {
+		}		@media only screen and (max-width: 768px) {
 			.cat-title-main {
 				margin-bottom: 15px
 			}
-		}
-
-		.cat-title-main .name_title {
+		}		.cat-title-main .name_title {
 			font-size: 22px;
 			text-transform: uppercase;
 			padding: 12px 120px 12px 15px;
@@ -551,16 +382,12 @@
 			position: relative;
 			background-color: #5D1C00;
 			color: #FFB26F
-		}
-
-		@media only screen and (max-width: 768px) {
+		}		@media only screen and (max-width: 768px) {
 			.cat-title-main .name_title {
 				font-size: 20px;
 				padding: 10px 100px 10px 15px
 			}
-		}
-
-		.cat-title-main .name_title:before {
+		}		.cat-title-main .name_title:before {
 			width: calc(100% - 25px);
 			position: absolute;
 			top: 0;
@@ -570,74 +397,50 @@
 			clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
 			-webkit-clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
 			background-color: #471500
-		}
-
-		@media only screen and (max-width: 768px) {
+		}		@media only screen and (max-width: 768px) {
 			.cat-title-main .name_title:before {
 				width: calc(100% - 18px);
 				right: 12px
 			}
-		}
-
-		.cat-title-main .name_title .title {
+		}		.cat-title-main .name_title .title {
 			position: inherit;
 			z-index: 99
-		}
-
-		.wrapper_header {
+		}		.wrapper_header {
 			margin-bottom: 30px
-		}
-
-		.default_cat {
+		}		.default_cat {
 			display: flex;
 			flex-wrap: wrap;
 			margin: 0px -13px
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.default_cat {
 				margin: 0px 0px 20px 0px
 			}
-		}
-
-		.default_cat .wrapper_ap {
+		}		.default_cat .wrapper_ap {
 			overflow: hidden
-		}
-
-		.default_cat .wraper_block {
+		}		.default_cat .wraper_block {
 			padding: 40px 0px;
 			width: 100%;
 			justify-content: center;
 			display: flex
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.default_cat .wraper_block {
 				padding: 20px 0px 20px
 			}
-		}
-
-		.default_cat .cat_item_store {
+		}		.default_cat .cat_item_store {
 			width: calc(33.333% - 26px);
 			margin: 0px 13px;
 			padding-bottom: 50px
-		}
-
-		@media only screen and (max-width: 850px) {
+		}		@media only screen and (max-width: 850px) {
 			.default_cat .cat_item_store {
 				width: calc(50% - 26px)
 			}
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.default_cat .cat_item_store {
 				width: 100%;
 				margin: 0px 0px 20px;
 				padding-bottom: 30px
 			}
-		}
-
-		.default_cat .cat_item_store .owl-controls .owl-nav div {
+		}		.default_cat .cat_item_store .owl-controls .owl-nav div {
 			display: inline-block;
 			zoom: 1;
 			position: absolute;
@@ -654,33 +457,21 @@
 			border: 1px solid #fff;
 			align-items: center;
 			justify-content: center
-		}
-
-		.default_cat .cat_item_store .owl-controls .owl-nav div:hover {
+		}		.default_cat .cat_item_store .owl-controls .owl-nav div:hover {
 			border: 1px solid var(--main-color)
-		}
-
-		.default_cat .cat_item_store .owl-prev {
+		}		.default_cat .cat_item_store .owl-prev {
 			left: 0px
-		}
-
-		.default_cat .cat_item_store .owl-next {
+		}		.default_cat .cat_item_store .owl-next {
 			left: 40px
-		}
-
-		.default_cat .cat_item_store .title_cat {
+		}		.default_cat .cat_item_store .title_cat {
 			border-bottom: 2px solid #5d1c00;
 			margin-bottom: 26px;
 			border-left: 2px solid #ffb26f
-		}
-
-		@media only screen and (max-width: 500px) {
+		}		@media only screen and (max-width: 500px) {
 			.default_cat .cat_item_store .title_cat {
 				margin-bottom: 15px
 			}
-		}
-
-		.default_cat .cat_item_store .title_cat a {
+		}		.default_cat .cat_item_store .title_cat a {
 			color: #fff;
 			text-transform: uppercase;
 			font-size: 16px;
@@ -690,129 +481,85 @@
 			background: #5d1c00;
 			clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
 			-webkit-clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%)
-		}
-
-		@media only screen and (max-width: 850px) {
+		}		@media only screen and (max-width: 850px) {
 			.default_cat .cat_item_store .title_cat a {
 				padding: 10px 20px 10px 15px
 			}
-		}
-
-		.default_cat .cat_item_store .item .frame_img {
+		}		.default_cat .cat_item_store .item .frame_img {
 			float: left;
 			width: 100px;
 			margin-right: 10px;
 			overflow: hidden;
 			margin-bottom: 25px
-		}
-
-		.default_cat .cat_item_store .item .frame_img img {
+		}		.default_cat .cat_item_store .item .frame_img img {
 			transition: all .3s ease-out
-		}
-
-		@media only screen and (max-width: 850px) {
+		}		@media only screen and (max-width: 850px) {
 			.default_cat .cat_item_store .item .frame_img img {
 				width: 100%
 			}
-		}
-
-		.default_cat .cat_item_store .item a {
+		}		.default_cat .cat_item_store .item a {
 			color: #fff;
 			font-weight: normal;
 			display: grid;
 			font-size: 14px
-		}
-
-		.default_cat .cat_item_store .item .datetime {
+		}		.default_cat .cat_item_store .item .datetime {
 			margin-top: 10px;
 			color: var(--main-color);
 			font-size: 13px
-		}
-
-		.default_cat .cat_item_store .item_0 {
+		}		.default_cat .cat_item_store .item_0 {
 			position: relative
-		}
-
-		.default_cat .cat_item_store .item_0 .frame_right {
+		}		.default_cat .cat_item_store .item_0 .frame_right {
 			position: absolute;
 			bottom: 0px;
 			padding: 10px 15px;
 			box-sizing: border-box
-		}
-
-		.default_cat .cat_item_store .item_0 .frame_right a {
+		}		.default_cat .cat_item_store .item_0 .frame_right a {
 			text-shadow: 2px 2px 3px #000;
 			font-weight: 700;
 			font-size: 16px
-		}
-
-		.default_cat .cat_item_store .item_0 .frame_img {
+		}		.default_cat .cat_item_store .item_0 .frame_img {
 			float: unset;
 			width: 100%
-		}
-
-		.frame_video {
+		}		.frame_video {
 			position: relative
-		}
-
-		.frame_video img {
+		}		.frame_video img {
 			cursor: pointer
-		}
-
-		.frame_video .youtube-button {
+		}		.frame_video .youtube-button {
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
 			cursor: pointer
-		}
-
-		.frame_video .youtube-button svg {
+		}		.frame_video .youtube-button svg {
 			width: 60px;
 			height: 60px;
 			fill: #292929f7
-		}
-
-		.frame_video:hover svg {
+		}		.frame_video:hover svg {
 			fill: #ff0000
-		}
-
-		/*# sourceMappingURL=home.css.map */
+		}		/*# sourceMappingURL=home.css.map */
 		.breadcrumb {
 			padding: 12px 0 12px 0
-		}
-
-		@media screen and (max-width: 400px) {
+		}		@media screen and (max-width: 400px) {
 			.breadcrumb {
 				padding: 3px 0 5px 0
 			}
-		}
-
-		.breadcrumb::after {
+		}		.breadcrumb::after {
 			display: block;
 			clear: both;
 			content: " "
-		}
-
-		.breadcrumb__item {
+		}		.breadcrumb__item {
 			display: inline-block;
 			margin-right: 20px;
 			list-style: none;
 			color: #eee;
 			font-size: 14px;
 			position: relative
-		}
-
-		.breadcrumb__item a {
+		}		.breadcrumb__item a {
 			color: #999;
 			text-decoration: none
-		}
-
-		.breadcrumb__item a:hover {
+		}		.breadcrumb__item a:hover {
 			color: #000
-		}
-
-		.breadcrumb__item::after {
+		}		.breadcrumb__item::after {
 			display: block;
 			width: 14px;
 			height: 15px;
@@ -823,58 +570,38 @@
 			position: absolute;
 			top: 6px;
 			right: -21px
-		}
-
-		.breadcrumb__item:last-child a {
+		}		.breadcrumb__item:last-child a {
 			color: var(--main-color);
 			font-size: 14px
-		}
-
-		.breadcrumb__item:last-child::after {
+		}		.breadcrumb__item:last-child::after {
 			content: "" !important;
 			display: none
-		}
-
-		@media screen and (max-width: 400px) {
+		}		@media screen and (max-width: 400px) {
 			.breadcrumb__item {
 				font-size: 13px
 			}
-		}
-
-		@media screen and (max-width: 360px) {
+		}		@media screen and (max-width: 360px) {
 			.breadcrumb__item {
 				font-size: 12px
 			}
-		}
-
-		/*# sourceMappingURL=breadcrumbs_simple.css.map */
+		}		/*# sourceMappingURL=breadcrumbs_simple.css.map */
 		.newslist_grid li {
 			display: block;
 			padding: 12px 15px
-		}
-
-		.newslist_grid li:hover img {
+		}		.newslist_grid li:hover img {
 			transform: scale(1.1)
-		}
-
-		.newslist_grid li:last-child {
+		}		.newslist_grid li:last-child {
 			border-bottom: unset
-		}
-
-		.newslist_grid li a {
+		}		.newslist_grid li a {
 			display: block;
 			overflow: hidden
-		}
-
-		.newslist_grid li img {
+		}		.newslist_grid li img {
 			float: left;
 			width: 100px;
 			margin-right: 10px;
 			overflow: hidden;
 			transition: all .3s ease-out
-		}
-
-		.newslist_grid li h3 {
+		}		.newslist_grid li h3 {
 			display: block;
 			overflow: hidden;
 			height: 38px;
@@ -884,164 +611,64 @@
 			margin-bottom: 5px;
 			margin: 0;
 			font-weight: normal
-		}
-
-		.newslist_grid li span {
+		}		.newslist_grid li span {
 			font-size: 12px;
 			color: #999;
 			margin-right: 10px
-		}
-
-		.newslist_grid li .date {
+		}		.newslist_grid li .date {
 			font-size: 13px;
 			margin-top: 10px;
 			color: var(--main-color)
-		}
-
-		.right-col .block_title {
+		}		.right-col .block_title {
 			background: #5d1c00;
 			border-bottom: 2px solid #ffb26f;
 			padding: 12px 0px;
 			font-weight: 500
-		}
-
-		.main_wrapper .right-col .block {
+		}		.main_wrapper .right-col .block {
 			border: unset
-		}
-
-		/*# sourceMappingURL=newslist_grid.css.map */
+		}		/*# sourceMappingURL=newslist_grid.css.map */
 		.banners_wrapper .item {
 			position: relative
-		}
-
-		.banners_wrapper .item span {
+		}		.banners_wrapper .item span {
 			display: grid
-		}
-
-		.banners_wrapper .wrapper_text {
+		}		.banners_wrapper .wrapper_text {
 			padding: 60px 0px;
 			float: right
-		}
-
-		@media only screen and (max-width: 1050px) {
+		}		@media only screen and (max-width: 1050px) {
 			.banners_wrapper .wrapper_text {
 				padding: 60px 10px 60px 0px
 			}
-		}
-
-		@media only screen and (max-width: 625px) {
+		}		@media only screen and (max-width: 625px) {
 			.banners_wrapper .wrapper_text {
 				padding: 40px 10px 40px 0px
 			}
-		}
-
-		@media only screen and (max-width: 414px) {
+		}		@media only screen and (max-width: 414px) {
 			.banners_wrapper .wrapper_text {
 				padding: 18px 10px 18px 10px
 			}
-		}
-
-		.banners_wrapper .wrapper_text .text_ab {
+		}		.banners_wrapper .wrapper_text .text_ab {
 			font-size: 22px;
 			font-weight: bold;
 			color: #fff;
 			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 414px) {
+		}		@media only screen and (max-width: 414px) {
 			.banners_wrapper .wrapper_text .text_ab {
 				font-size: 20px;
 				text-align: center
 			}
-		}
-
-		.banners_wrapper .wrapper_text .text_wrapper {
+		}		.banners_wrapper .wrapper_text .text_wrapper {
 			display: flex;
 			align-items: center
-		}
-
-		.banners_wrapper .wrapper_text .text_left {
+		}		.banners_wrapper .wrapper_text .text_left {
 			color: #fff;
 			line-height: 25px;
 			font-size: 18px;
 			width: 50%
-		}
-
-		@media only screen and (max-width: 414px) {
+		}		@media only screen and (max-width: 414px) {
 			.banners_wrapper .wrapper_text .text_left {
 				font-size: 15px
 			}
-		}
-
-		.banners_wrapper .wrapper_text legend {
-			text-align: right;
-			color: #fff;
-			font-size: 18px;
-			letter-spacing: 1px;
-			text-transform: uppercase
-		}
-
-		.banners_wrapper .wrapper_text fieldset {
-			width: calc(50% - 20px);
-			margin-left: 20px;
-			border: 1px solid #d6d6d6;
-			border-radius: 5px;
-			text-align: center
-		}
-
-		.banners_wrapper .wrapper_text fieldset .summary {
-			font-size: 58px;
-			color: #fff;
-			line-height: 37px;
-			font-family: monospace;
-			letter-spacing: 1.5px;
-			font-weight: bold;
-			display: inline-block;
-			animation: quick-zoom 5s running infinite ease
-		}
-
-		.banners_wrapper .wrapper_text .read_more {
-			text-align: left
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more {
-				margin-top: 10px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a {
-			background: #fff;
-			color: var(--main-color);
-			display: inline-block;
-			margin: 15px 0px 5px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease;
-			border-radius: 10px;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 18px;
-			padding: 10px 20px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more a {
-				padding: 8px 12px;
-				font-size: 15px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:hover {
-			padding-right: 30px
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:after {
-			display: none;
-			content: ''
-		}
-
-		/*# sourceMappingURL=default_wrapper.css.map */
+		}				/*# sourceMappingURL=default_wrapper.css.map */
 		.popup-login-resgister {
 			width: 600px;
 			position: fixed;
@@ -1057,18 +684,12 @@
 			overflow-y: auto;
 			overflow-x: hidden;
 			height: calc(100% - 50px)
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-track {
+		}		.popup-login-resgister::-webkit-scrollbar-track {
 			border-radius: 5px;
 			background-color: #000 !important
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-thumb {
+		}		.popup-login-resgister::-webkit-scrollbar-thumb {
 			border: 0
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			.popup-login-resgister {
 				top: 0px;
 				left: 50%;
@@ -1076,9 +697,7 @@
 				width: 100%;
 				overflow-y: auto
 			}
-		}
-
-		.popup-login-resgister .close_popup {
+		}		.popup-login-resgister .close_popup {
 			position: absolute;
 			top: 0px;
 			right: 0px;
@@ -1092,44 +711,32 @@
 			box-sizing: border-box;
 			border-radius: 50%;
 			cursor: pointer
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			.popup-login-resgister .close_popup {
 				top: 0px;
 				right: 0px
 			}
-		}
-
-		.popup-login-resgister .close_popup svg {
+		}		.popup-login-resgister .close_popup svg {
 			width: 14px;
 			height: 14px
-		}
-
-		.popup-login-resgister .title {
+		}		.popup-login-resgister .title {
 			text-align: center;
 			font-size: 22px;
 			color: #fff;
 			padding-bottom: 15px;
 			border-bottom: 1px solid #ddd;
 			margin-bottom: 18px
-		}
-
-		.popup-login-resgister .social_login {
+		}		.popup-login-resgister .social_login {
 			padding: 0px 0px 22px;
 			position: relative;
 			float: right;
 			margin-bottom: 30px;
 			width: 75%
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			.popup-login-resgister .social_login {
 				width: 100%
 			}
-		}
-
-		.popup-login-resgister .social_login>a {
+		}		.popup-login-resgister .social_login>a {
 			display: block;
 			position: relative;
 			height: 45px;
@@ -1143,1555 +750,13 @@
 			box-sizing: border-box;
 			color: #fff;
 			width: 80%
-		}
-
-		
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub {
-			width: 45%;
-			float: left;
-			box-sizing: border-box;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub a {
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto;
-			width: 100%;
-			height: 330px;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item {
-			width: 90%;
-			float: left;
-			padding: 5px 0px;
-			border-bottom: 1px solid #e8d29c38
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1 {
-			color: var(--main-color);
-			text-transform: capitalize;
-			font-size: 13px;
-			line-height: 20px;
-			display: block;
-			font-weight: 700;
-			float: left;
-			display: block;
-			width: 27%;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1:hover {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul {
-			float: left;
-			width: 70%
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li a {
-			color: #fff;
-			text-transform: unset;
-			font-size: 13px;
-			line-height: 20px;
-			margin: 0px 12px 5px;
-			display: block;
-			float: left;
-			display: block;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li:hover a {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat {
-			height: 155px;
-			width: 40%;
-			float: left;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_view {
-			width: 60%;
-			height: 165px;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item-info {
-			width: 100%;
-			float: left;
-			padding-left: 10px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .name {
-			font-weight: bold;
-			font-size: 16px;
-			margin-bottom: 10px;
-			line-height: 20px;
-			color: #555
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .price {
-			font-weight: bold;
-			color: #ff0000;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item:hover .item_lv1 {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .cat_item2 {
-			padding-bottom: 0px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0 {
-			position: relative
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0:after {
-			content: "";
-			position: absolute;
-			right: 5px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			color: #02587b;
-			line-height: 41px;
-			width: 13px;
-			height: 13px;
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat;
-			text-align: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .wraper_item {
-			position: absolute;
-			left: 256px;
-			z-index: 999;
-			top: 0px;
-			background: #00000091;
-			width: calc(100% - 256px);
-			padding: 10px 20px 20px;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			box-sizing: border-box;
-			opacity: 0;
-			transition: 0.2s all ease;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child:hover .wraper_item {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu ul.menu .level_0:hover .highlight {
-			opacity: 1;
-			visibility: initial;
-			transition: 0.2s
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover {
-			cursor: pointer;
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover .level_0 {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1 .active_n {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .has_child:hover .level_0:after {
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .logo_img {
-			max-height: 75px
-		}
-
-		.slide-down {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-down .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-down .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-down .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-down .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-up .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-up .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-up .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: left
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.top_menu #megamenu {
-				position: absolute;
-				background: var(--main-color);
-				width: 100%;
-				left: 0px;
-				top: 70px;
-				z-index: 999;
-				border-left: 1px solid #EFEFEF;
-				border-bottom: 1px solid #EFEFEF;
-				display: none
-			}
-
-			.dcjq-mega-menu .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left svg {
-				color: black;
-				width: 25px;
-				height: 25px;
-				position: absolute;
-				top: 50%;
-				right: 10px;
-				transform: translate(0px, -50%);
-				fill: var(--main-color)
-			}
-
-			.dcjq-mega-menu .menu_item_a {
-				display: block;
-				float: none;
-				text-align: left;
-				padding: 10px 0 10px 10px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				border-top: 1px solid rgba(255, 255, 255, 0.56);
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu ul.menu li.mega-hover a,
-			.dcjq-mega-menu ul.menu>li.activated>a,
-			.dcjq-mega-menu ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1:hover {
-				background: #9c0278
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu .home {
-			padding: 9px 18px 7px 0px;
-			justify-content: flex-start;
-			width: 15%;
-			transition: 0.5s all ease;
-			align-items: center
-		}
-
-		#megamenu .home:hover {
-			justify-content: center;
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .home svg {
-			width: 20px;
-			height: 20px;
-			fill: #fff
-		}
-
-		#megamenu .active_home {
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .activated {
-			justify-content: center
-		}
-
-		#megamenu .activated .icon_svg svg,
-		#megamenu .activated .drop_down svg {
-			fill: var(--extra-color)
-		}
-
-		.dcjq-mega-menu .level_0>a {
-			display: flex;
-			position: relative
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg {
-			box-sizing: border-box;
-			border-radius: 50px;
-			justify-content: center;
-			margin-right: 7px;
-			position: absolute;
-			left: 10px
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg svg {
-			width: 17px;
-			fill: var(--main-color);
-			height: 17px;
-			box-sizing: border-box
-		}
-
-		.dcjq-mega-menu .product_home_active {
-			opacity: 1;
-			visibility: visible
-		}
-
-		/*# sourceMappingURL=megamenu.css.map */
-		.search-contain .search-content {
-			border: none
-		}
-
-		.search-contain input[type="text"] {
-			outline: none;
-			border: none;
-			background: no-repeat;
-			width: 100%;
-			height: 36px;
-			padding-left: 15px;
-			box-sizing: border-box;
-			font-family: arial;
-			font-size: 13px;
-			border: 3px solid #210e02;
-			color: #c4ac9c;
-			background: #443226;
-			border-radius: 50px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.search-contain input[type="text"] {
-				border: 0px;
-				height: 40px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.search-contain input[type="text"] {
-				height: 35px
-			}
-		}
-
-		.search-contain input::-webkit-input-placeholder {
-			color: #c4ac9c
-		}
-
-		#search_form_home {
-			position: relative
-		}
-
-		#search_form_home .dclose {
-			display: inline;
-			position: absolute;
-			padding: 2px;
-			cursor: pointer;
-			box-sizing: border-box;
-			right: 0px;
-			width: 40px;
-			height: 40px;
-			background: var(--main-color);
-			text-align: center;
-			border-radius: 0 4px 4px 0
-		}
-
-		#search_form_home .dclose span {
-			cursor: pointer;
-			font-size: 25px;
-			color: #fff
-		}
-
-		.button-search {
-			outline: none;
-			height: 30px;
-			width: 75px;
-			position: absolute;
-			background: none;
-			justify-content: center;
-			border: none;
-			align-items: center;
-			right: 3px;
-			top: 3px;
-			border-radius: 50px;
-			display: flex;
-			cursor: pointer;
-			background: var(--extra-color)
-		}
-
-		.button-search svg {
-			fill: var(--main-color);
-			width: 17px;
-			height: 17px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.button-search {
-				height: 40px;
-				width: 95px;
-				right: 0px;
-				top: 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.button-search {
-				height: 35px
-			}
-		}
-
-		
-
-		
-
-		/*# sourceMappingURL=top_search_home.css.map */
-		.dcjq-mega-menu-mobile #megamenu3 {
-			position: relative;
-			z-index: 99;
-			background: var(--main-color);
-			width: 100%;
-			z-index: 999
-		}
-
-		@media all and (max-width: 400px) {
-			.dcjq-mega-menu-mobile #megamenu3 {
-				margin-top: 0
-			}
-		}
-
-		.top_menu .active a {
-			color: var(--main-color)
-		}
-
-		#megamenu3 .menu-sepa {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0 {
-			float: left;
-			position: relative;
-			padding: 0px 0px 0px 10px;
-			margin: 0px 0px 0px 10px;
-			text-align: center;
-			box-sizing: border-box;
-			-webkit-transition: 0.5s ease-in-out all;
-			transition: 0.5s ease-in-out all;
-			display: flex
-		}
-
-		@media screen and (min-width: 990px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				flex: 1
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:first-child {
-			border-left: 0px solid #eee
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:last-child {
-			border-right: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a {
-			float: left;
-			font-size: 14px;
-			color: #585858;
-			white-space: nowrap;
-			display: flex;
-			align-items: center
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				color: var(--main-color)
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-			width: 13px;
-			height: 13px;
-			margin-right: 5px;
-			fill: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-				fill: #fff;
-				width: 16px;
-				height: 16px
-			}
-		}
-
-		.drop_down {
-			color: #FFFFFF;
-			display: block;
-			float: left;
-			padding: 0 10px;
-			position: relative
-		}
-
-		.drop_down svg {
-			fill: #8e8e8e;
-			top: 5px;
-			width: 9px;
-			height: 9px;
-			position: absolute
-		}
-
-		@media screen and (max-width: 990px) {
-			.drop_down svg {
-				fill: #fff;
-				width: 11px;
-				height: 11px;
-				top: 50%;
-				transform: translate(0px, -50%)
-			}
-		}
-
-		@media all and (max-width: 990px) {
-			.drop_down {
-				display: block;
-				width: 20px;
-				height: 20px;
-				float: left;
-				padding: 10px 10px 10px 50px;
-				display: flex;
-				align-items: center;
-				position: absolute;
-				justify-content: center;
-				right: 0px;
-				top: 0px;
-				-webkit-transition: 0.7s ease-in-out all;
-				transition: 0.7s ease-in-out all
-			}
-		}
-
-		.dcjq-mega-menu-mobile .highlight {
-			position: absolute;
-			text-align: left;
-			top: 75px;
-			padding-top: 25px;
-			left: 9px;
-			width: 215px;
-			z-index: 99999999;
-			opacity: 0;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu-mobile .highlight .highlight1 {
-			background: #FFF;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li:hover .highlight {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-			border-top: 1px solid #E7E7E7;
-			padding: 9px 0 9px 12px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-			cursor: pointer;
-			border-left: 3px solid var(--main-color);
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a img {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		.header_wraper .m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper .m-slide-up .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search {
-				width: 100%
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%);
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			.m-slide-down .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.m-slide-down .search_home #search {
-				width: 100%
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: left;
-				padding-left: 15px;
-				padding-right: 15px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper #megamenu3 {
-				height: 100%;
-				width: 0;
-				position: fixed;
-				z-index: 9999;
-				top: 0;
-				right: 0;
-				background-color: #240500d6;
-				overflow-x: hidden;
-				transition: 0.5s
-			}
-
-			#menu-mobile-mega {
-				position: absolute;
-				top: 50%;
-				right: 25px;
-				transform: translate(0px, -50%)
-			}
-
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				color: black;
-				width: 35px;
-				height: 35px;
-				fill: var(--main-color)
-			}
-		}
-
-		@media only screen and (max-width: 990px) and (max-width: 414px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				float: none;
-				text-align: left;
-				padding: 20px 0 20px 40px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-				background: var(--extra-color)
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#menu-mobile-mega {
-				right: 10px
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu3 .home {
-			padding: 15px 10px 14px
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home {
-				padding: 0px
-			}
-		}
-
-		#megamenu3 .home svg {
-			width: 18px;
-			height: 18px;
-			fill: #000
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home svg {
-				width: 16px;
-				height: 16px;
-				fill: #fff
-			}
-		}
-
-		#megamenu3 .activated svg {
-			fill: #ffffff
-		}
-
-		#menu_mb .login {
-			color: #fff
-		}
-
-		#menu_mb .login a {
-			display: inline-block;
-			float: left
-		}
-
-		#menu_mb .login span {
-			padding: 0px 5px;
-			color: #fff
-		}
-
-		#megamenu3 .hide_nows {
-			text-align: right;
-			padding: 20px
-		}
-
-		#megamenu3 .hide_nows svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#megamenu3 .log_success {
-			padding-bottom: 30px
-		}
-
-		#megamenu3 .log_success .exit {
-			text-decoration: underline
-		}
-
-		#megamenu3 .log_success a {
-			text-transform: unset;
-			padding-bottom: 0px;
-			padding-top: 10px;
-			display: block
-		}
-
-		#megamenu3 .log_success a span {
-			color: #fff;
-			display: inline-block;
-			padding-right: 5px
-		}
-
-		#megamenu3 .log_success a .noti3 {
-			display: block;
-			font-style: italic
-		}
-
-		#login_nw {
-			padding-left: 5px
-		}
-
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		#product_menu_mobile .menu_label {
-			color: #FFF;
-			font-size: 16px;
-			padding: 13px 43px 13px 40px;
-			position: relative;
-			text-transform: uppercase;
-			position: absolute;
-			cursor: pointer;
-			white-space: nowrap;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			font-weight: bold;
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile .menu_label {
-				font-size: 15px;
-				padding: 13px 0px 14px 25px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label {
-				padding: 13px 0px 13px 10px
-			}
-
-			#product_menu_mobile .menu_label span {
-				display: grid
-			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 {
-			background: #e2dbdb;
-			box-sizing: border-box;
-			margin-right: 12px;
-			border-radius: 10px
-		}
-
-		#product_menu_mobile .child_menu_down li {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile .child_menu_down .pr_child {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #e1d7d3;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 5px 0px 15px;
-			height: 85px;
-			background: #efeae8
-		}
-
-		#product_menu_mobile .child_menu_down .svg_cat {
-			min-width: 33px;
-			min-height: 30px;
-			margin-right: 10px;
-			display: inline-block
-		}
-
-		#product_menu_mobile .child_menu_down .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-			width: 30px;
-			height: 30px;
-			fill: #c60100
-		}
-
-		@media screen and (max-width: 410px) {
-			#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-				width: 22px;
-				height: 22px;
-				display: none
-			}
-		}
-
-		#product_menu_mobile .menu_label svg {
-			width: 35px;
-			height: 35px;
-			fill: var(--main-color)
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		#product_menu_mobile .menu_label .icon-menu {
-			position: absolute;
-			left: 0px
-		}
-
-		#product_menu_mobile #product_menu_ul {
-			left: 0px;
-			position: fixed;
-			top: 0px;
-			width: 100%;
-			z-index: 999;
-			height: 100%;
-			display: none;
-			overflow-x: auto;
-			background: #3e120ae3
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows {
-			padding: 35px 20px 35px 45px;
-			font-size: 25px;
-			color: var(--main-color);
-			text-transform: uppercase;
-			font-weight: 700;
-			box-sizing: border-box
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .hide_nows {
-				padding: 27px 20px 27px 22px;
-				font-size: 22px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a {
-			float: right
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#product_menu_mobile #product_menu_ul>ul {
-			position: relative
-		}
-
-		#product_menu_mobile #product_menu_ul>ul .activated .wp_item {
-			background-color: #f8ad6f;
-			border-bottom: 3px solid #f2630b
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .menu_item_a {
-			display: flex;
-			color: #FFF;
-			align-items: center
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #eac467;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 15px;
-			height: 85px;
-			background: var(--main-color)
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-				padding: 0px 5px;
-				height: 76px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .img-menu {
-			margin-right: 7px;
-			float: left
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-			position: absolute;
-			right: 14px;
-			top: 17px
-		}
-
-		@media screen and (max-width: 1024px) {
-
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-				position: absolute;
-				right: 3px;
-				top: -2px;
-				width: 21px;
-				display: flex;
-				vertical-align: middle;
-				text-align: center;
-				display: block;
-				padding: 15px 20px;
-				box-sizing: border-box
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row svg,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 svg {
-			width: 10px;
-			height: 10px;
-			fill: #cccccc
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .img-menu .grayscale {
-			filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values=' 0  0  0  1  0  0  0  0  1  0 0  0  0  1  0 0  0  0  1  0'/></filter></svg>#grayscale")
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 14px;
-				line-height: 20px;
-				margin-left: 0px;
-				text-transform: unset
-			}
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 13px
-			}
-		}
-
-		@media only screen and (max-width: 320px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 12px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat {
-			margin-right: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 {
-			border-bottom: medium none;
-			padding: 2px 0 2px 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 .text-menu {
-			font-weight: normal;
-			padding-left: 29px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .highlight {
-			display: flex
-		}
-
-		#product_menu_mobile #product_menu_ul .second-level-menu ul li {
-			padding: 4px 0 4px 16px
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight {
-			background: #FFFFFF;
-			border: 1px solid #E7E7E7;
-			display: none;
-			left: 43px;
-			margin-left: 226px;
-			padding: 12px 0;
-			position: absolute;
-			z-index: 99999;
-			top: 0;
-			width: 912px;
-			height: 385px;
-			overflow: hidden
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight1 {
-			display: inline-block;
-			float: left;
-			min-width: 118px;
-			padding: 0 30px
-		}
-
-		#product_menu_mobile #product_menu_ul .menu_col:FIRST-LETTER {
-			border-right: none
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name {
-			border-bottom: medium none;
-			color: #2E2E2E;
-			font-weight: bold;
-			padding: 10px 25px;
-			width: 178px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 {
-			margin-bottom: 2px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 a {
-			color: #3F3F3F;
-			font-weight: bold
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 {
-			position: relative;
-			border-bottom: 1px solid #8c1a04b8;
-			padding-bottom: 15px;
-			margin-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-			color: #f8ad6f;
-			font-size: 16px;
-			font-weight: 700
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-				font-size: 15px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .level_pr {
-			padding-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-			width: calc(33.33% - 20px);
-			margin: 10px 20px 10px 0px;
-			text-align: center
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-				width: calc(33.33% - 10px);
-				margin: 5px 5px 5px 5px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-			display: inline-block;
-			line-height: 23px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-				line-height: 20px;
-				height: 40px;
-				overflow: hidden
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 img {
-			max-width: 55px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-			color: #210101;
-			position: relative;
-			display: inline-block;
-			float: left
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-				font-size: 13px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1>a {
-			line-height: 22px;
-			display: block;
-			position: relative;
-			font-size: 14px;
-			color: #fff
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .image_sub {
-			display: none
-		}
-
-		#product_menu_mobile #product_menu_ul .second_field {
-			border-top: 1px dotted #D3D3D3;
-			margin-top: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 a {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name .read_more a {
-			color: #348AD4;
-			text-decoration: underline
-		}
-
-		#product_menu_mobile #product_menu_ul .field_label {
-			color: #3F3F3F;
-			margin-bottom: 5px
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 li {
-			float: left;
-			margin-right: 30px;
-			margin-bottom: 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-manu-level1 {
-			padding: 4px 10px;
-			width: 33.33%;
-			float: left;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 330px) {
+		}																														/*# sourceMappingURL=megamenu_mobile.css.map */
+								
+				@media screen and (max-width: 330px) {
 			#product_menu_mobile .menu_label span font {
 				display: none
 			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper {
+		}		#product_menu_mobile .cat_filters_home_wrapper {
 			float: right;
 			width: 70%;
 			top: 99px;
@@ -2701,25 +766,17 @@
 			right: 0px;
 			transition: 0.5s all ease;
 			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			#product_menu_mobile .cat_filters_home_wrapper {
 				width: calc(73% - 10px)
 			}
-		}
-
-		#product_menu_mobile {
+		}		#product_menu_mobile {
 			display: none
-		}
-
-		@media screen and (max-width: 990px) {
+		}		@media screen and (max-width: 990px) {
 			#product_menu_mobile {
 				display: block
 			}
-		}
-
-		#product_menu_mobile .content_lv0 {
+		}		#product_menu_mobile .content_lv0 {
 			position: fixed;
 			width: 27%;
 			height: calc(100% - 99px);
@@ -2728,34 +785,24 @@
 			overflow-x: hidden;
 			transition: 0.5s all ease;
 			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			#product_menu_mobile .content_lv0 {
 				width: 27%
 			}
-		}
-
-		/*# sourceMappingURL=drop_down_mobile.css.map */
+		}		/*# sourceMappingURL=drop_down_mobile.css.map */
 		.strengths_retangle2_block {
 			display: flex;
 			flex-wrap: wrap;
 			margin: 0px -10px
-		}
-
-		@media all and (max-width: 900px) {
+		}		@media all and (max-width: 900px) {
 			.strengths_retangle2_block {
 				margin: 0px -7px
 			}
-		}
-
-		@media screen and (max-width: 768px) {
+		}		@media screen and (max-width: 768px) {
 			.strengths_retangle2_block {
 				margin: 0px -5px
 			}
-		}
-
-		.strengths_retangle2_block .item {
+		}		.strengths_retangle2_block .item {
 			cursor: pointer;
 			transition: 0.5s;
 			border-top: 0;
@@ -2770,41 +817,29 @@
 			border-left: 0;
 			display: flex;
 			align-items: center
-		}
-
-		.strengths_retangle2_block .item:nth-child(2) {
+		}		.strengths_retangle2_block .item:nth-child(2) {
 			width: calc(20% - 20px)
-		}
-
-		@media all and (max-width: 900px) {
+		}		@media all and (max-width: 900px) {
 			.strengths_retangle2_block .item {
 				width: calc(20% - 14px);
 				margin: 15px 7px
 			}
-		}
-
-		@media all and (max-width: 768px) {
+		}		@media all and (max-width: 768px) {
 			.strengths_retangle2_block .item {
 				width: calc(20% - 10px);
 				margin: 12px 5px
 			}
-		}
-
-		.strengths_retangle2_block .item .item-inner {
+		}		.strengths_retangle2_block .item .item-inner {
 			transition: 0.5s;
 			box-sizing: border-box;
 			width: 100%;
 			display: flex;
 			align-items: center
-		}
-
-		@media screen and (max-width: 500px) {
+		}		@media screen and (max-width: 500px) {
 			.strengths_retangle2_block .item .item-inner {
 				display: block
 			}
-		}
-
-		.strengths_retangle2_block .item .item-l {
+		}		.strengths_retangle2_block .item .item-l {
 			vertical-align: middle;
 			display: block;
 			box-sizing: border-box;
@@ -2812,757 +847,43 @@
 			text-align: center;
 			float: left;
 			margin-right: 18px
-		}
-
-		@media screen and (max-width: 500px) {
+		}		@media screen and (max-width: 500px) {
 			.strengths_retangle2_block .item .item-l {
 				float: unset
 			}
-		}
-
-		@media screen and (max-width: 414px) {
+		}		@media screen and (max-width: 414px) {
 			.strengths_retangle2_block .item .item-l {
 				margin-right: 10px
 			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg {
+		}		.strengths_retangle2_block .item .item-l .isvg {
 			box-sizing: border-box;
 			float: left
-		}
-
-		@media screen and (max-width: 500px) {
+		}		@media screen and (max-width: 500px) {
 			.strengths_retangle2_block .item .item-l .isvg {
 				float: unset
-			}
-
-			.strengths_retangle2_block .item .item-l .isvg img {
+			}			.strengths_retangle2_block .item .item-l .isvg img {
 				width: auto
 			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg svg {
+		}		.strengths_retangle2_block .item .item-l .isvg svg {
 			fill: #ffb26f;
 			width: 40px;
 			height: 40px;
 			transition: 0.5s
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-l .isvg svg {
-				width: 35px;
-				height: 35px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r {
-			vertical-align: middle;
-			text-align: left;
-			box-sizing: border-box;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		.strengths_retangle2_block .item .item-r .name {
-			display: block;
-			font-size: 20px;
-			color: #000;
-			font-weight: bold;
-			text-transform: uppercase
-		}
-
-		.strengths_retangle2_block .item .item-r .name font {
-			font-weight: bold;
-			color: #dc0000
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r .title {
-			font-size: 20px;
-			text-transform: uppercase;
-			color: #fff
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo {
-			width: calc(52% - 20px)
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo {
-				width: 100%;
-				margin: 0px;
-				padding: 15px 0px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		.strengths_retangle2_block .item_logo_mobile {
-			width: 100%
-		}
-
-		.strengths_retangle2_block .item_logo_mobile .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo_mobile .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		@media screen and (max-width: 500px) {
-			.block_strengths {
-				box-shadow: 0px 0px 10px #000;
-				background: -webkit-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: -o-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: linear-gradient(to top, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%)
-			}
-		}
-
-		/*# sourceMappingURL=retangle2.css.map */
-		.menu-bottom {
-			margin: 0px -10px
-		}
-
-		@media screen and (max-width: 768px) {
-			.menu-bottom {
-				margin: 0px
-			}
-		}
-
-		ul.menu-bottom li.level0 {
-			float: left;
-			width: calc(100% - 20px);
-			margin: 0px 10px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				padding: 0px 0px 0px 0px
-			}
-		}
-
-		ul.menu-bottom li.level0>a,
-		ul.menu-bottom li.level0>span {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			font-weight: bold;
-			color: #fff
-		}
-
-		@media screen and (max-width: 500px) {
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				font-size: 15px
-			}
-		}
-
-		ul.menu-bottom li.level0 ul {
-			margin-top: 4px
-		}
-
-		ul.menu-bottom li.level0 ul li {
-			margin-bottom: 20px;
-			position: relative;
-			padding-left: 15px
-		}
-
-		ul.menu-bottom li.level0 ul li:before {
-			width: 9px;
-			height: 9px;
-			content: '';
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%) rotate(175deg);
-			background: url('data:image/svg+xml;utf8,<svg width="9px" height="9px" fill="rgb(255, 255, 255)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right" d="M57.633,129.007L165.93,237.268c4.752,4.74,12.451,4.74,17.215,0c4.752-4.74,4.752-12.439,0-17.179 l-99.707-99.671l99.695-99.671c4.752-4.74,4.752-12.439,0-17.191c-4.752-4.74-12.463-4.74-17.215,0L57.621,111.816 C52.942,116.507,52.942,124.327,57.633,129.007z"/></g></svg>');
-			background-repeat: no-repeat;
-			transition: 0.25s all ease;
-			-webkit-transition: 0.25s all ease
-		}
-
-		ul.menu-bottom li.level0 ul li a {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li span {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li a:hover {
-			color: var(--main-color)
-		}
-
-		ul li.level1 a:hover,
-		ul li.level1 span:hover {
-			color: #0066b2
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click.png") no-repeat scroll center;
-			position: absolute;
-			cursor: pointer;
-			padding: 16px;
-			right: 0px;
-			top: 0px;
-			display: none
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile.active {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click-active.png") no-repeat scroll center
-		}
-
-		.menu-bottom ul li.mid-sitem>span i {
-			background: transparent url(https://onplaza.vn/blocks/mainmenu/assets/images/bo-cong-thuong.png) no-repeat scroll left bottom;
-			content: ' ';
-			height: 47px;
-			display: block;
-			margin-top: 23px;
-			padding-top: 12px
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				float: left;
-				width: 100%;
-				border: 1px solid #7c7c7c;
-				margin-bottom: 10px;
-				position: relative
-			}
-
-			ul.menu-bottom li.level0 span.click-mobile {
-				display: block
-			}
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				display: block;
-				padding: 8px;
-				margin-bottom: 0;
-				color: #fff
-			}
-
-			ul.menu-bottom li.level0 ul {
-				display: none
-			}
-
-			ul li.level1 {
-				border-top: 1px solid #383838;
-				padding: 8px 0px 7px 0px;
-				margin-left: 22px
-			}
-
-			ul.menu-bottom li.level0 ul li {
-				margin-bottom: 8px
-			}
-
-			ul li.level1.first-sitem,
-			ul li.level1:first-child {
-				border-top: 0
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			ul.menu-bottom li.level0 {
-				margin: 0px;
-				margin-bottom: 10px;
-				text-align: center
-			}
-		}
-
-		/*# sourceMappingURL=bottommenu.css.map */
-		.share_fast_small {
-			text-align: left
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small {
-				text-align: center
-			}
-		}
-
-		.share_fast_small .title {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			color: #fff;
-			font-weight: 700
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small .title {
-				text-align: center;
-				margin-bottom: 15px
-			}
-		}
-
-		@media all and (max-width: 750px) {
-			.share_fast_small {
-				margin-bottom: 0px
-			}
-		}
-
-		.share_fast_small svg {
-			height: 22px;
-			width: 22px
-		}
-
-		.share_fast_small svg:hover {
-			transition: 0.5s
-		}
-
-		.share_fast_small .youtube-icon svg {
-			height: 25px;
-			width: 25px
-		}
-
-		.share_fast_small .fb,
-		.share_fast_small .prin,
-		.share_fast_small .zl,
-		.share_fast_small .gp,
-		.share_fast_small .yt,
-		.share_fast_small .sk,
-		.share_fast_small .tw {
-			box-sizing: border-box;
-			margin-left: 20px;
-			float: left;
-			border-radius: 50%;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				margin-bottom: 8px
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				float: unset;
-				display: inline-block
-			}
-		}
-
-		.share_fast_small .fb svg,
-		.share_fast_small .prin svg,
-		.share_fast_small .zl svg,
-		.share_fast_small .gp svg,
-		.share_fast_small .yt svg,
-		.share_fast_small .sk svg,
-		.share_fast_small .tw svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		.share_fast_small .zl {
-			padding: 0
-		}
-
-		.share_fast_small .zl svg {
-			width: 40px;
-			height: 40px
-		}
-
-		.share_fast_small .fb {
-			margin-left: 0px
-		}
-
-		/*# sourceMappingURL=fast_small.css.map */
-		.wrap-by-fast .footer_phone {
-			border-bottom: 1px solid #757575;
-			padding-top: 50px;
-			background: #222222;
-			padding-bottom: 50px
-		}
-
-		.wrap-by-fast .phone-left {
-			color: white
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .phone-left {
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .phone-tittle {
-			text-transform: uppercase;
-			font-size: 18px;
-			font-weight: bold;
-			color: #fff;
-			letter-spacing: 1px
-		}
-
-		.wrap-by-fast .phone-content {
-			font-size: 14px;
-			margin-top: 15px;
-			line-height: 20px;
-			color: #f2f2f2
-		}
-
-		@media only screen and (max-width: 414px) {
-			.wrap-by-fast .phone-content {
-				font-size: 14px
-			}
-		}
-
-		.wrap-by-fast .fast-left {
-			width: 658px;
-			float: left
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left {
-				width: 100%;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-icon {
-			width: calc(100% - 552px);
-			float: left;
-			height: 102px;
-			background: var(--black-color);
-			position: relative;
-			animation: 2s ease-in-out 0s normal none infinite running change-translate;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-icon {
-				display: none
-			}
-		}
-
-		.wrap-by-fast .fast-left .icon_phone {
-			width: 58px;
-			height: 75px;
-			margin: 14px 5px 0px 60px;
-			z-index: 2;
-			position: absolute
-		}
-
-		.wrap-by-fast .fast-left .icon_v1 {
-			background-position: -35px 75px;
-			z-index: 3
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text {
-			float: right;
-			width: 505px;
-			margin: 26px 0px;
-			color: #fff;
-			padding-left: 13px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text {
-				width: 100%;
-				margin: 5px 0px 0px 0px;
-				padding-left: 0px
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-top {
-			font-size: 24px;
-			font-family: RobotoCondensed-Bold;
-			margin-top: -3px
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-			font-size: 16px
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-				box-sizing: border-box
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast {
-			position: relative
-		}
-
-		@media all and (max-width: 1100px) {
-			.wrap-by-fast .wrap-by-fast {
-				padding: 20px 0px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .item .svg_mail {
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%)
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .wrap-by-fast .item {
-				position: relative
-			}
-		}
-
-		.wrap-by-fast .buy_fast {
-			padding-top: 20px;
-			justify-content: center;
-			display: flex
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast {
-				display: unset
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast {
-				padding-top: 10px
-			}
-		}
-
-		@keyframes change-translate {
-			from {
-				transform: translateX(-88px)
-			}
-		}
-
-		.wrap-by-fast .fast-right {
-			width: calc(100% - 658px);
-			float: right;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-right {
-				width: calc(100% - 10px);
-				margin: -15px 5px;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast {
-			padding-left: 20px;
-			box-sizing: border-box;
-			line-height: 35px;
-			background: no-repeat;
-			margin: 0px;
-			font-size: 16px;
-			color: #fff;
-			width: 100%;
-			outline: none;
-			border: 1px solid var(--main-color)
-		}
-
-		@media only screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				line-height: 35px
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast::placeholder {
-			color: #fff;
-			font-style: italic
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast :placeholder {
-			color: #fff;
-			font-style: italic;
-			margin-left: -10px
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast {
-			width: 120px;
-			border: none;
-			color: #230d03;
-			background-color: var(--main-color);
-			border-radius: unset;
-			cursor: pointer;
-			line-height: 35px;
-			margin-top: 10px;
-			margin-left: 0px;
-			font-weight: bold;
-			padding-left: 0px;
-			display: inline-block;
-			font-size: 16px;
-			position: relative;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast .button-buy-fast {
-				margin: 0px;
-				line-height: 37px
-			}
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover {
-			background: #fff;
-			color: var(--main-color)
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast svg {
-			fill: #fff;
-			transition: 0.5s
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .buy_fast_body {
-				margin-top: 5px;
-				margin-bottom: 5px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title {
-			color: white
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title span {
-			font-size: 25px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			line-height: 20px
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title p {
-			margin-top: 10px;
-			font-size: 60px;
-			font-weight: bold;
-			text-transform: uppercase;
-			line-height: 60px;
-			margin-bottom: 0
-		}
-
-		.wrap-by-fast .wrap-by-fast h3 {
-			font-size: 40px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			color: #fff;
-			font-weight: bold;
-			margin-top: 0px
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				width: calc(100% - 120px);
-				float: left
-			}
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .footer_phone {
-				padding: 20px 20px 0
-			}
-
-			.wrap-by-fast .footer_phone .phone-left {
-				width: 100%;
-				padding: 0
-			}
-		}
-
-		@media all and (max-width: 414px) {
-			.wrap-by-fast {
-				position: inherit;
-				z-index: 9
-			}
-		}
-
-		/*# sourceMappingURL=newsletter.css.map */
+		}																		/*# sourceMappingURL=newsletter.css.map */
 	</style>
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
 		href="https://onplaza.vn/rss.xml">
-
-
-
-
 	<meta http-equiv="origin-trial"
 		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async=""
 		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688486766081&amp;cv=11&amp;fst=1688486766081&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Ftin-tuc.html&amp;ref=https%3A%2F%2Fonplaza.vn%2Ftra-sam-ngoc-linh&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Tin%20t%E1%BB%A9c%20-%20Onplaza%20Vi%E1%BB%87t%20Ph%C3%A1p&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
-</head>
-
-
-
-<body style="">
+</head><body style="">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-
-
-
-
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
-
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
@@ -3574,9 +895,7 @@
 								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
 							</path>
 						</g>
-					</g>
-
-				</svg>
+					</g>				</svg>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
@@ -3585,11 +904,7 @@
 						</li>
 						<li class="register cls"><a href="#register-now">Tạo tài khoản</a></li>
 					</ul>
-				</div>
-
-				<div class="website_login" id="login-now" style="display: block;">
-
-					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
+				</div>				<div class="website_login" id="login-now" style="display: block;">					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
 						method="post" onsubmit="javascript: return checkFormsubmit_login();">
 						<div class="row-register cf ">
 							<label for="username">Email</label>
@@ -3601,31 +916,23 @@
 							<input type="password" name="password" id="password_login" class="txt-login pass"
 								autocomplete="off" placeholder="Mật khẩu" required="">
 						</div>
-						<div class="cls save_resetpass">
-
-							<div class="reset_pass">
+						<div class="cls save_resetpass">							<div class="reset_pass">
 								Quên mật khẩu? Nhấn vào
 								<a onclick="OpenforgetPass()" href="javascript:void(0);" class="forget"> đây?</a>
 							</div>
 						</div>
-						<div class="clear"></div>
-
-						<div class="wrapper-bt-register">
+						<div class="clear"></div>						<div class="wrapper-bt-register">
 							<div class="row-register cf ">
 								<input type="button" name="login" class="lg login btn-submit signin-submit"
 									value="Đăng nhập">
 							</div>
-
-
 						</div>
 						<div class="clear"></div>
 						<input type="hidden" name="return" value="L3Rpbi10dWMuaHRtbA==">
 						<input type="hidden" name="module" value="users">
 						<input type="hidden" name="view" value="users">
 						<input type="hidden" name="task" value="login_save">
-						<input type="hidden" name="Itemid" value="44">
-
-					</form>
+						<input type="hidden" name="Itemid" value="44">					</form>
 					<div class="social_login">
 						<a class="login_fb" title="Đăng nhập bằng Facebook"
 							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=ce52762b0921a9cd8eaa59f58b2f84d8&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
@@ -3634,9 +941,7 @@
 									d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z">
 								</path>
 							</svg>
-							Đăng nhập bằng Facebook
-
-						</a>
+							Đăng nhập bằng Facebook						</a>
 						<a class="login_gg" title="Đăng nhập bằng Google" href="#google_login"
 							data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10"
 							data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);">
@@ -3673,17 +978,13 @@
 								</g>
 							</svg>
 							Đăng nhập bằng Google
-						</a>
-
-					</div>
+						</a>					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="website_login regis_user hide" id="register-now" style="display: none;">
 					<div class="box-register">
 						<form action="https://onplaza.vn/index.php?module=users" name="register_form"
-							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">
-
-							<div class="message"></div>
+							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">							<div class="message"></div>
 							<div class="form-login">
 								<div class="row-register cf ">
 									<label for="full_name">Họ và tên</label>
@@ -3720,11 +1021,7 @@
 										</label>
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-								<div class="row-register row-register-sl cf ">
+								<div class="clear"></div>								<div class="row-register row-register-sl cf ">
 									<label for="date">Ngày sinh</label>
 									<div class="date_l">
 										<select class="date" name="date" id="date">
@@ -3840,9 +1137,7 @@
 											<option value="2019">2019</option>
 											<option value="2020">2020</option>
 										</select>
-									</div>
-
-									<!-- <div class="date_r">
+									</div>									<!-- <div class="date_r">
 								<div class="title-t">Giới tính</div>
 								<select class="sex" name="gender" id="gender">
 									<option value="">Lựa chọn</option>
@@ -3867,41 +1162,25 @@
 										</div><iframe style="display: none;"></iframe>
 									</div>
 									<span id="captcha_error" class="text-danger"></span>
-								</div>
-
-
-
-								<div class="clear"></div>
-
-
+								</div>								<div class="clear"></div>
 								<div class="row-register cf row-register-btn">
 									<div class=" wrapper-bt-register wrapper-bt-register-btn">
 										<input type="button" class="submitbt login btn-submit register-submit"
 											name="submitbt" value="Tạo tài khoản">
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-							</div>
-
-							<input type="hidden" name="return" value="L3Rpbi10dWMuaHRtbA==">
+								<div class="clear"></div>							</div>							<input type="hidden" name="return" value="L3Rpbi10dWMuaHRtbA==">
 							<input type="hidden" name="module" value="users">
 							<input type="hidden" name="view" value="users">
 							<input type="hidden" name="Itemid" value="44">
 							<input type="hidden" name="task" value="register_save">
-						</form>
-
-					</div>
+						</form>					</div>
 					<div class="text-bot">
 						Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán
 						theo <a href="" title="Điều khoản sử dụng">điều kiện sử dụng và chính sách của Thế Giới Dinh
 							Dưỡng</a>
 					</div>
-				</div>
-
-			</div>
+				</div>			</div>
 		</div>
 		<div class="tab_reset_pass hide">
 			<div class="title">Quên mật khẩu</div>
@@ -3936,11 +1215,7 @@
 					<input type="hidden" name="task" value="forget_save">
 				</form>
 			</div>
-		</div>
-
-
-
-	</div>
+		</div>	</div>
 	<div class="menu_head">
 		<div class="wrapper_top cls">
 			<div class="phone left_item">
@@ -3950,11 +1225,7 @@
                     <li>HCN: <a href="tel:0969531991">096 953 1991</a></li>
                 </ul>
 			</div>
-			<div class="register right_item">
-
-				<div class="share_fast1">
-
-					<div class="fb share_item"><a class="facebook-icon"
+			<div class="register right_item">				<div class="share_fast1">					<div class="fb share_item"><a class="facebook-icon"
 							href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow"
 							target="_blank">
 							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
@@ -3964,8 +1235,6 @@
 							</svg>
 						</a>
 					</div>
-
-
 					<div class="tw share_item">
 						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter"
 							rel="nofollow" target="_blank">
@@ -3975,9 +1244,7 @@
 								</path>
 							</svg>
 						</a>
-					</div>
-
-					<div class="yt share_item">
+					</div>					<div class="yt share_item">
 						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
 							title="Link instagram" rel="nofollow" target="_blank">
 							<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
@@ -3990,12 +1257,8 @@
 								<path
 									d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
 								</path>
-							</svg>
-
-						</a>
-					</div>
-
-					<div class="yt share_item">
+							</svg>						</a>
+					</div>					<div class="yt share_item">
 						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
 							title="Link youtube" rel="nofollow" target="_blank">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -4006,27 +1269,13 @@
 										d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z">
 									</path>
 								</g>
-
-
-							</svg>
-
-						</a>
+							</svg>						</a>
 					</div>
-
-
 					<div class="clear"></div>
-				</div>
-
-				<div class="logs">
+				</div>				<div class="logs">
 					<a onclick="OpenLoginPopup()" class="login user_item" title="Tài khoản" href="javascript:void(0)">
-						Tài khoản</a>
-
-
-
-				</div> <!-- end logs -->
-				<div class="pc_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+						Tài khoản</a>				</div> <!-- end logs -->
+				<div class="pc_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -4038,23 +1287,15 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>Giỏ hàng (0)</span>
+								</svg>								<span>Giỏ hàng (0)</span>
 							</a>
 						</div>
 					</div>
 				</div>
-			</div>
-
-		</div>
+			</div>		</div>
 		<div class="clear"></div>
 	</div>
-	<div class="header_wraper cls">
-
-		<div class="home_index no-home">
-
-			<div id="nav-mainmenu"
+	<div class="header_wraper cls">		<div class="home_index no-home">			<div id="nav-mainmenu"
 				class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home nav-mainmenu-black"
 				style="top: 0px; position: relative;">
 				<div class="header_left head-t">
@@ -4064,18 +1305,12 @@
 						<img class="logo_img" src="assets/img/logo/logo.gif"
 							alt="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 					</a>
-					<div class="search_home">
-
-						<div id="search" class="search search-contain s_close ">
+					<div class="search_home">						<div id="search" class="search search-contain s_close ">
 							<div class="search-content">
 								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2"
-									method="get" onsubmit="javascript: submit_form_search22();return false;">
-
-									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
+									method="get" onsubmit="javascript: submit_form_search22();return false;">									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
 										name="keyword" class="keyword input-text" autocomplete="off">
 									<button type="submit" class="button-search button_s">
-
-
 										<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
 											style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 											<g>
@@ -4087,26 +1322,18 @@
 													<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 												</g>
-											</g>
-
-										</svg>
-
-									</button>
+											</g>										</svg>									</button>
 									<input type="hidden" name="module" value="news">
 									<input type="hidden" name="module" id="link_search2"
 										value="https://onplaza.vn/tim-kiem/keyword.html">
 									<input type="hidden" name="view" value="search">
 									<input type="hidden" name="Itemid" value="10">
 								</form>
-							</div>
-
-						</div>
+							</div>						</div>
 					</div>
 				</div>
 				<div class="dcjq-mega-menu-mobile" id="menu-mobile-mega">
-					<div class="sb-toggle-left navbar-left">
-
-						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
+					<div class="sb-toggle-left navbar-left">						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink"
 							enable-background="new 0 0 24 24">
 							<g>
@@ -4122,12 +1349,8 @@
 							</g>
 						</svg>
 					</div>
-
-
 				</div>
-				<div class="mobile_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+				<div class="mobile_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -4139,15 +1362,11 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>0</span>
+								</svg>								<span>0</span>
 							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="product_menu" id="product_menu_mobile">
+				</div>				<div class="product_menu" id="product_menu_mobile">
 					<div class="menu_label " data-id="product_menu_ul">
 						<span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
@@ -4199,14 +1418,10 @@
 				</div>
 				<div class="wrapper_menupc">
 					<div class="dcjq-mega-menu-product cls">
-
-
 						<ul id="megamenu" class="menu mypopup">
 							<li class="cat_level_0 level_0 sort">
 								<a href="javascript:void(0)" id="menu_item_861" class="menu_item_a" title="Sản phẩm">
-									<span class="icon_svg cls">
-
-										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									<span class="icon_svg cls">										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 											viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
 											xml:space="preserve">
@@ -4253,8 +1468,6 @@
 												</g>
 											</g>
 										</svg>
-
-
 									</span>
 									Sản phẩm <span class="drop_down">
 										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -4265,38 +1478,10 @@
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 									</span>
-								</a>
-
-
-
-								<div class="highlight">
-
-
-
-									<div class="highlight1 container cls">
-										<div class="menu-child_list">
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="sanphamduoclieu.php"
+								</a>								<div class="highlight">									<div class="highlight1 container cls">
+										<div class="menu-child_list">											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="sanphamduoclieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="908"
 													id="menu_item_908" title="Dược liệu cao cấp">
 													<span class="icon"><svg height="30" viewBox="-22 0 511 511.998"
@@ -4305,298 +1490,194 @@
 																d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 															</path>
 														</svg></span>
-													Dược liệu cao cấp </a>
-
-
-
-												<div class="wraper_item cls " alt="Dược liệu cao cấp"
+													Dược liệu cao cấp </a>												<div class="wraper_item cls " alt="Dược liệu cao cấp"
 													data-menu_tags="908" data-menu_idt="0"
 													style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;"
-													nhansamhanquoc.php>
-
-													<div class="product_item cls">
-
-
+													nhansamhanquoc.php>													<div class="product_item cls">
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhansam6tuoi.php"
+															<ul class="item_lv2">																<li><a href="nhansam6tuoi.php"
 																		title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
 																	</a></li>
-
-
 																<li><a href="hongsamhanquoc.php"
 																		title="Hồng sâm Hàn Quốc">
 																		Hồng sâm Hàn Quốc
 																	</a></li>
-
-
 																<li><a href="hongsamcukho.php"
 																		title="Hồng sâm củ khô">
 																		Hồng sâm củ khô
 																	</a></li>
-
-
 																<li><a href="caohongsam.php"
 																		title="Cao hồng sâm">
 																		Cao hồng sâm
 																	</a></li>
-
-
 																<li><a href="nuochongsam.php"
 																		title="Nước hồng sâm">
 																		Nước hồng sâm
 																	</a></li>
-
-
 																<li><a href="samtammatong.php"
 																		title="Sâm tẩm mật ong">
 																		Sâm tẩm mật ong
 																	</a></li>
-
-
 																<li><a href="vienhongsam.php"
 																		title="Viên Hồng Sâm">
 																		Viên Hồng Sâm
 																	</a></li>
-
-
 																<li><a href="keosam.php"
 																		title="Kẹo sâm">
 																		Kẹo sâm
 																	</a></li>
-
-
 																<li><a href="hongsambaby.php"
 																		title="Hồng sâm baby">
 																		Hồng sâm baby
 																	</a></li>
-
-
 																<li><a href="trasam.php"
 																		title="Trà sâm">
 																		Trà sâm
 																	</a></li>
-
-
 																<li><a href="ruousamhanquoc.php"
 																		title="Rượu sâm hàn quốc">
 																		Rượu sâm hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="dongtrunghathao.php"
 																title="Đông trùng hạ thảo">
 																Đông trùng hạ thảo
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="dongtrungtaytang.php"
+															<ul class="item_lv2">																<li><a href="dongtrungtaytang.php"
 																		title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
 																	</a></li>
-
-
 																<li><a href="namdongtrunghathao.php"
 																		title="Nấm Đông Trùng Hạ Thảo">
 																		Nấm Đông Trùng Hạ Thảo
 																	</a></li>
-
-
 																<li><a href="viendongtrunghathao.php"
 																		title="Viên đông trùng hạ thảo">
 																		Viên đông trùng hạ thảo
 																	</a></li>
-
-
 																<li><a href="nuocdongtrunghathao.php"
 																		title="Nước đông trùng hạ thảo">
 																		Nước đông trùng hạ thảo
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="namlinhchivang.php"
+															<ul class="item_lv2">																<li><a href="namlinhchivang.php"
 																		title="Nấm linh chi vàng">
 																		Nấm linh chi vàng
 																	</a></li>
-
-
 																<li><a href="tranamlinhchi.php"
 																		title="Trà nấm linh chi">
 																		Trà nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchido.php"
 																		title="Nấm linh chi đỏ">
 																		Nấm linh chi đỏ
 																	</a></li>
-
-
 																<li><a href="caonamlinhchi.php"
 																		title="Cao nấm linh chi">
 																		Cao nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchithuonghoang.php"
 																		title="Nấm linh chi thượng hoàng">
 																		Nấm linh chi thượng hoàng
 																	</a></li>
-
-
 																<li><a href="namlinhchithailat.php"
 																		title="Nấm linh chi thái lát">
 																		Nấm linh chi thái lát
 																	</a></li>
-
-
 																<li><a href="namlinhxanh.php"
 																		title="Nấm Lim xanh">
 																		Nấm Lim xanh
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="toyentho.php"
+															<ul class="item_lv2">																<li><a href="toyentho.php"
 																		title="Tổ Yến Thô">
 																		Tổ Yến Thô
 																	</a></li>
-
-
 																<li><a href="yensochenguyento.php"
 																		title="Yến sơ chế nguyên tổ">
 																		Yến sơ chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yentinhchenguyento.php"
 																		title="Yến tinh chế nguyên tổ">
 																		Yến tinh chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhongnguyento.php"
 																		title="Yến hồng nguyên tổ">
 																		Yến hồng nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhuyetnguyento.php"
 																		title="Yến huyết nguyên tổ">
 																		Yến huyết nguyên tổ
 																	</a></li>
-
-
 																<li><a href="nuocyensanest.php"
 																		title="Nước yến sanest">
 																		Nước yến sanest
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhunghuoutuoi.php"
+															<ul class="item_lv2">																<li><a href="nhunghuoutuoi.php"
 																		title="Nhung hươu tươi">
 																		Nhung hươu tươi
 																	</a></li>
-
-
 																<li><a href="caobanlong.php"
 																		title="Cao ban long">
 																		Cao ban long
 																	</a></li>
-
-
 																<li><a href="nhunghuoukhothailat.php"
 																		title="Nhung hươu khô thái lát">
 																		Nhung hươu khô thái lát
 																	</a></li>
-
-
 																<li><a href="viennhunghuou.php"
 																		title="Viên nhung hươu">
 																		Viên nhung hươu
 																	</a></li>
-
-
 																<li><a href="botnhunghuou.php"
 																		title="Bột nhung hươu">
 																		Bột nhung hươu
 																	</a></li>
-
-
 																<li><a href="dauhuoumynghe.php"
 																		title="Đầu hươu mỹ nghệ">
 																		Đầu hươu mỹ nghệ
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="ancungnguutrungquoc.php"
+															<ul class="item_lv2">																<li><a href="ancungnguutrungquoc.php"
 																		title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
 																	</a></li>
-
-
 																<li><a href="ancungnguuhanquoc.php"
 																		title="An cung ngưu hàn quốc">
 																		An cung ngưu hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="tinhdauthongdo.php"
@@ -4604,75 +1685,27 @@
 																Tinh dầu thông đỏ
 															</a>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="matongrung.php"
+															<ul class="item_lv2">																<li><a href="matongrung.php"
 																		title="Mật Ong Rừng">
 																		Mật Ong Rừng
 																	</a></li>
-
-
 																<li><a href="suaongchua.php"
 																		title="Sữa Ong Chúa">
 																		Sữa Ong Chúa
 																	</a></li>
-
-
 																<li><a href="phanhoa.php"
 																		title="Phấn Hoa">
 																		Phấn Hoa
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="thucphamchucnang.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="thucphamchucnang.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="909"
 													id="menu_item_909" title="Thực phẩm chức năng">
 													<span class="icon"><svg version="1.1" id="Layer_1"
@@ -4692,16 +1725,10 @@
 			c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
 			C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Thực phẩm chức năng </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
 													<div class="product_item cls">
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="khoangchatvitamin.php"
@@ -4709,46 +1736,8 @@
 																Khoáng chất - Vitamin
 															</a>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="thuonghieu.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="thuonghieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="910"
 													id="menu_item_910" title="Sản phẩm thương hiệu">
 													<span class="icon"><svg id="Capa_1"
@@ -4769,48 +1758,8 @@
 															</path>
 														</svg></span>
 													Sản phẩm thương hiệu </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="quabieucaocap.php"
+												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="quabieucaocap.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="911"
 													id="menu_item_911" title="Quà biếu cao cấp">
 													<span class="icon"><svg version="1.1" id="Capa_1"
@@ -4845,52 +1794,10 @@
 																		d="M288,271.692v224h160c17.664,0,32-14.336,32-32v-192H288z">
 																	</path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Quà biếu cao cấp </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="samvietnam.php"
+												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="samvietnam.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1021"
 													id="menu_item_1021" title="Sâm Việt Nam">
 													<span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
@@ -4904,53 +1811,35 @@
 															</path>
 														</svg></span>
 													Sâm Việt Nam </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="1021" data-menu_idt="4">
 													<div class="product_item cls">
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="samngoclinh.php"
 																title="Sâm ngọc linh">
 																Sâm ngọc linh
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="ruousamngoclinh.php"
+															<ul class="item_lv2">																<li><a href="ruousamngoclinh.php"
 																		title="Rượu sâm ngọc linh">
 																		Rượu sâm ngọc linh
 																	</a></li>
-
-
 																<li><a href="samngoclinhmatong.php"
 																		title="Sâm ngọc linh mật ong">
 																		Sâm ngọc linh mật ong
 																	</a></li>
-
-
 																<li><a href="samngoclinhtunhien.php"
 																		title="Sâm ngọc linh tự nhiên">
 																		Sâm ngọc linh tự nhiên
 																	</a></li>
-
-
 																<li><a href="samngoclinhtrong.php"
 																		title="Sâm Ngọc Linh trồng">
 																		Sâm Ngọc Linh trồng
 																	</a></li>
-
-
 																<li><a href="trasamngoclinh.php"
 																		title="Trà sâm ngọc linh">
 																		Trà sâm ngọc linh
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="samlaichau.php"
@@ -4958,32 +1847,8 @@
 																Sâm Lai Châu
 															</a>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-										</div>
-									</div>
-
-								</div>
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->										</div>
+									</div>								</div>
 							</li>
 							<!--	CHILDREN				-->
 						</ul>
@@ -5006,54 +1871,14 @@
 								</g>
 							</svg>
 						</div>
-
-
 						<ul id="megamenu" class="menu mypopup">
-
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865">
-
-								<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865">								<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
 									title="Giới thiệu">
-									Giới thiệu </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870">
-
-								<a href="#" id="menu_item_870" class="menu_item_a"
+									Giới thiệu </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870">								<a href="#" id="menu_item_870" class="menu_item_a"
 									title="Khuyến mãi">
-									Khuyến mãi </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort activated  menu_level_0" id=" level_883">
-
-								<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
+									Khuyến mãi </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort activated  menu_level_0" id=" level_883">								<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
 									title="Tin tức">
 									Tin tức <span class="drop_down">
 										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -5064,181 +1889,57 @@
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 									</span>
-								</a>
-
-								<!--	LEVEL 1			-->
+								</a>								<!--	LEVEL 1			-->
 								<div class="highlight">
-
-
 									<div class="highlight1 container cls">
-										<div class="menu-child_list">
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="duoclieu.php"
+										<div class="menu-child_list">											<div class="sub-menu sub-menu-level1   ">												<a href="duoclieu.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="961"
 													id="menu_item_961" title="Dược liệu">
 													<span class="icon"></span>
-													Dược liệu </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="suckhoe.php"
+													Dược liệu </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="suckhoe.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="907"
 													id="menu_item_907" title="Sức khỏe">
 													<span class="icon"></span>
-													Sức khỏe </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="benhhoc.php"
+													Sức khỏe </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="benhhoc.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="1020"
 													id="menu_item_1020" title="Bệnh học">
 													<span class="icon"></span>
-													Bệnh học </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tintucyensao.php"
+													Bệnh học </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tintucyensao.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="1017"
 													id="menu_item_1017" title="Tin Tức Yến Sào">
 													<span class="icon"></span>
-													Tin Tức Yến Sào </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tintucdongtrung.php"
+													Tin Tức Yến Sào </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tintucdongtrung.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="1018"
 													id="menu_item_1018" title="Tin tức Đông Trùng">
 													<span class="icon"></span>
-													Tin tức Đông Trùng </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tinnhansam.php"
+													Tin tức Đông Trùng </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tinnhansam.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="962"
 													id="menu_item_962" title="Tin Nhân sâm">
 													<span class="icon"></span>
-													Tin Nhân sâm </a>
-
-
-
-											</div>
-
-
-										</div>
-
-
-
-
-
-									</div>
+													Tin Nhân sâm </a>											</div>
+										</div>									</div>
 									<div class="menu_desc"></div>
 								</div>
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871">
-
-								<a href="chinhsachbaomat.php" id="menu_item_871"
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871">								<a href="chinhsachbaomat.php" id="menu_item_871"
 									class="menu_item_a" title="Chính sách">
-									Chính sách </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884">
-
-								<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
+									Chính sách </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884">								<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
 									title="Liên hệ">
-									Liên hệ </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
+									Liên hệ </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>
 							<!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
 				<div class="header_right head-t">
-				</div>
-
-				<div class="search_home">
-
-					<div id="search" class="search search-contain s_close ">
+				</div>				<div class="search_home">					<div id="search" class="search search-contain s_close ">
 						<div class="search-content">
 							<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form_home"
-								method="get" onsubmit="javascript: submit_form_search_home();return false;">
-
-								<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
+								method="get" onsubmit="javascript: submit_form_search_home();return false;">								<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
 									name="keyword" class="keyword input-text" autocomplete="off">
 								<button type="submit" class="button-search button_s">
-
-
 									<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
 										style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 										<g>
@@ -5250,31 +1951,19 @@
 												<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 											</g>
-										</g>
-
-									</svg>
-
-								</button>
+										</g>									</svg>								</button>
 								<input type="hidden" name="module" value="news">
 								<input type="hidden" name="module" id="link_search_home"
 									value="https://onplaza.vn/tim-kiem/keyword.html">
 								<input type="hidden" name="view" value="search">
 								<input type="hidden" name="Itemid" value="10">
 							</form>
-						</div>
-
-					</div>
+						</div>					</div>
 				</div>
 			</div>
-
-
 			<div class="modal-menu-full-screen"></div>
-
-
 			<div id="menu_mb">
 				<div class="dcjq-mega-menu-mobile cls">
-
-
 					<ul id="megamenu3" class="menu mypopup">
 						<li class="hide_nows">
 							<a href="javascript:void(0)" class="close-off" onclick="closeNav()">
@@ -5287,61 +1976,25 @@
 									</path>
 								</svg>
 							</a>
-						</li>
-
-						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
+						</li>						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
 								title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" rel="home">Trang chủ</a> </li>
 						<li class="level_0 sort login">
 							<a onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)"
 								title="Đăng ký">Đăng ký <span>|</span> </a> <a id="login_nw" onclick="OpenLoginPopup()"
 								class="menu_item_a" href="javascript:void(0)" title="Đăng nhập"> Đăng nhập</a>
 						</li>
-						<div class="clear"></div>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_865">
+						<div class="clear"></div>						<li class="level_0 sort " id="level_865">
 							<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
 								title="Giới thiệu">
-								Giới thiệu </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_870">
+								Giới thiệu </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_870">
 							<a href="#" id="menu_item_870" class="menu_item_a"
 								title="Khuyến mãi">
-								Khuyến mãi </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort activated  " id="level_883">
+								Khuyến mãi </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort activated  " id="level_883">
 							<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
 								title="Tin tức">
-								Tin tức </a>
-
-							<!--	LEVEL 1			-->
+								Tin tức </a>							<!--	LEVEL 1			-->
 							<span class="drop_down">
 								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px"
@@ -5351,172 +2004,58 @@
 										<g id="arrow-drop-down">
 											<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 										</g>
-									</g>
-
-								</svg>
+									</g>								</svg>
 							</span>
 							<div class="highlight">
-								<ul class="highlight1 container">
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+								<ul class="highlight1 container">									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="duoclieu.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_961"
 												title="Dược liệu">
-												Dược liệu </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Dược liệu </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="suckhoe.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_907"
 												title="Sức khỏe">
-												Sức khỏe </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Sức khỏe </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="benhhoc.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_1020"
 												title="Bệnh học">
-												Bệnh học </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Bệnh học </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tintucyensao.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_1017"
 												title="Tin Tức Yến Sào">
-												Tin Tức Yến Sào </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Tin Tức Yến Sào </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tintucdongtrung.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_1018"
 												title="Tin tức Đông Trùng">
-												Tin tức Đông Trùng </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Tin tức Đông Trùng </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tinnhansam.php"
 												class="level_0 sort activated  sub-menu-item" id="menu_item_962"
 												title="Tin Nhân sâm">
-												Tin Nhân sâm </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-
-
-
-
-								</ul>
+												Tin Nhân sâm </a>										</div>									</li>								</ul>
 								<div class="menu_desc"></div>
 							</div>
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_871">
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_871">
 							<a href="chinhsachbaomat.php" id="menu_item_871"
 								class="menu_item_a" title="Chính sách">
-								Chính sách </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_884">
+								Chính sách </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_884">
 							<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
 								title="Liên hệ">
-								Liên hệ </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-						<!--	CHILDREN				-->
+								Liên hệ </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<!--	CHILDREN				-->
 					</ul>
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="product_menu_mobile">
-				<div class="product_menu" id="product_menu_mobile">
-
-					<div id="product_menu_ul" class="menu">
-						<ul class="product_menu_ul_innner scroll-bar">
-
-							<li class="hide_nows">
+				<div class="product_menu" id="product_menu_mobile">					<div id="product_menu_ul" class="menu">
+						<ul class="product_menu_ul_innner scroll-bar">							<li class="hide_nows">
 								Sản phẩm
 								<a href="javascript:void(0)" class="close-off" onclick="closeNpr()">
 									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -5526,99 +2065,47 @@
 										<path
 											d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
 										</path>
-									</svg>
-
-								</a>
+									</svg>								</a>
 							</li>
-							<div class="clear"></div>
-
-							<div class="content_lv0 cls">
-
-								<!--	LEVEL 0			-->
-								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965">
-
-									<a href="javascript:void(0)" id="menu_item_965"
-										class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp">
-
-										<span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30"
+							<div class="clear"></div>							<div class="content_lv0 cls">								<!--	LEVEL 0			-->
+								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965">									<a href="javascript:void(0)" id="menu_item_965"
+										class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp">										<span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
 													d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 												</path>
-											</svg></span>
-
-										<span class="text-menu">Dược liệu cao cấp</span>
-
-									</a>
+											</svg></span>										<span class="text-menu">Dược liệu cao cấp</span>									</a>
 									<div class="clear"></div>
 									<ul class="child_menu_down  " id="child_menu_down_965">
-										<li class=" child_down_968 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_968 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_968" title="Nhân sâm Hàn Quốc">
-
-
-
-
 												<span class="text-menu">Nhân sâm Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_976 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_976 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_976" title="Đông trùng hạ thảo">
-
-
-
-
 												<span class="text-menu">Đông trùng hạ thảo</span>
 											</a>
 										</li>
-										<li class=" child_down_981 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_981 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_981" title="Nấm linh chi Hàn Quốc">
-
-
-
-
 												<span class="text-menu">Nấm linh chi Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_984 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_984 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_984" title="Yến sào Khánh Hoà">
-
-
-
-
 												<span class="text-menu">Yến sào Khánh Hoà</span>
 											</a>
 										</li>
-										<li class=" child_down_994 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_994 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_994" title="Nhung hươu">
-
-
-
-
 												<span class="text-menu">Nhung hươu</span>
 											</a>
 										</li>
-
-
 									</ul>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966">
-
-									<a href="thucphamchucnang.php" id="menu_item_966"
-										class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng">
-
-										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966">									<a href="thucphamchucnang.php" id="menu_item_966"
+										class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
 												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
 												preserveAspectRatio="xMidYMid meet" version="1.0">
@@ -5637,20 +2124,10 @@
 												<path fill="rgb(100%, 100%, 0%)"
 													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
 													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>
-
-										<span class="text-menu">Thực phẩm chức năng</span>
-
-									</a>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967">
-
-									<a href="thuonghieu.php" id="menu_item_967"
-										class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu">
-
-										<span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512"
+											</svg></span>										<span class="text-menu">Thực phẩm chức năng</span>									</a>
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967">									<a href="thuonghieu.php" id="menu_item_967"
+										class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu">										<span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512"
 												height="30" viewBox="0 0 512 512" width="30"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -5665,20 +2142,10 @@
 												<path
 													d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
 												</path>
-											</svg></span>
-
-										<span class="text-menu">Sản phẩm thương hiệu</span>
-
-									</a>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008">
-
-									<a href="vienhongsam.php" id="menu_item_1008"
-										class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm">
-
-										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
+											</svg></span>										<span class="text-menu">Sản phẩm thương hiệu</span>									</a>
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008">									<a href="vienhongsam.php" id="menu_item_1008"
+										class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
 												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
 												preserveAspectRatio="xMidYMid meet" version="1.0">
@@ -5697,540 +2164,214 @@
 												<path fill="rgb(100%, 100%, 0%)"
 													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
 													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>
-
-										<span class="text-menu">Viên Hồng Sâm</span>
-
-									</a>
+											</svg></span>										<span class="text-menu">Viên Hồng Sâm</span>									</a>
 								</li>
 							</div>
-
-
 							<!--	LEVEL 0			-->
-
-
 							<!--	LEVEL 1			-->
 							<div class="cat_filters_home_wrapper  cat_filters_965">
-								<ul class="cat_filters_home_ul">
-
-									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php"
+								<ul class="cat_filters_home_ul">									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php"
 											id="menu_item_968" title="Nhân sâm Hàn Quốc">
-											Nhân sâm Hàn Quốc </a>
-
-										<!--	LEVEL 2			-->
+											Nhân sâm Hàn Quốc </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="nhansam6tuoi.php" id=" menu_item_969"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nhansam6tuoi.php" id=" menu_item_969"
 														title="Nhân sâm tươi">
-
-
 														<img class="lazy after-lazy" alt="Nhân sâm tươi"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg.webp"
 															style="display: inline;">
-														<span>Nhân sâm tươi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="hongsamcukho.php" id=" menu_item_970"
+														<span>Nhân sâm tươi</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="hongsamcukho.php" id=" menu_item_970"
 														title="Hồng sâm củ khô">
-
-
 														<img class="lazy after-lazy" alt="Hồng sâm củ khô"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg.webp"
 															style="display: inline;">
-														<span>Hồng sâm củ khô</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="caohongsam.php" id=" menu_item_971"
+														<span>Hồng sâm củ khô</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="caohongsam.php" id=" menu_item_971"
 														title="Cao hồng sâm">
-
-
 														<img class="lazy after-lazy" alt="Cao hồng sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg.webp"
 															style="display: inline;">
-														<span>Cao hồng sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="nuochongsam.php" id=" menu_item_972"
+														<span>Cao hồng sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nuochongsam.php" id=" menu_item_972"
 														title="Nước hồng sâm">
-
-
 														<img class="lazy after-lazy" alt="Nước hồng sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg.webp"
 															style="display: inline;">
-														<span>Nước hồng sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="samtammatong.php" id=" menu_item_973"
+														<span>Nước hồng sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="samtammatong.php" id=" menu_item_973"
 														title="Sâm tẩm mật ong">
-
-
 														<img class="lazy after-lazy" alt="Sâm tẩm mật ong"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg.webp"
 															style="display: inline;">
-														<span>Sâm tẩm mật ong</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="trasam.php" id=" menu_item_974"
+														<span>Sâm tẩm mật ong</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="trasam.php" id=" menu_item_974"
 														title="Trà sâm">
-
-
 														<img class="lazy after-lazy" alt="Trà sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg.webp"
 															style="display: inline;">
-														<span>Trà sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="keosam.php" id=" menu_item_975"
+														<span>Trà sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="keosam.php" id=" menu_item_975"
 														title="Kẹo sâm">
-
-
 														<img class="lazy after-lazy" alt="Kẹo sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg.webp"
 															style="display: inline;">
-														<span>Kẹo sâm</span>
-
-													</a>
+														<span>Kẹo sâm</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="dongtrunghathao.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  ">										<a class="pr_cls1 level_pr" href="dongtrunghathao.php"
 											id="menu_item_976" title="Đông trùng hạ thảo">
-											Đông trùng hạ thảo </a>
-
-										<!--	LEVEL 2			-->
+											Đông trùng hạ thảo </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="dongtrungtaytang.php"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="dongtrungtaytang.php"
 														id=" menu_item_977" title="Đông trùng Tây Tạng">
-
-
-														<span>Đông trùng Tây Tạng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="namdongtrunghathao.php"
+														<span>Đông trùng Tây Tạng</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="namdongtrunghathao.php"
 														id=" menu_item_978" title="Nấm Đông Trùng Hạ Thảo">
-
-
-														<span>Nấm Đông Trùng Hạ Thảo</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="viendongtrunghathao.php"
+														<span>Nấm Đông Trùng Hạ Thảo</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="viendongtrunghathao.php"
 														id=" menu_item_979" title="Viên Đông trùng hạ thảo">
-
-
-														<span>Viên Đông trùng hạ thảo</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="nuocdongtrunghathao.php"
+														<span>Viên Đông trùng hạ thảo</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="nuocdongtrunghathao.php"
 														id=" menu_item_980" title="Nước đông trùng hạ thảo">
-
-
-														<span>Nước đông trùng hạ thảo</span>
-
-													</a>
+														<span>Nước đông trùng hạ thảo</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="namlinhchihanquoc.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  ">										<a class="pr_cls1 level_pr" href="namlinhchihanquoc.php"
 											id="menu_item_981" title="Nấm linh chi Hàn Quốc">
-											Nấm linh chi Hàn Quốc </a>
-
-										<!--	LEVEL 2			-->
+											Nấm linh chi Hàn Quốc </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchido.php" id=" menu_item_982"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="namlinhchido.php" id=" menu_item_982"
 														title="Nấm linh chi đỏ">
-
-
 														<img class="lazy after-lazy" alt="Nấm linh chi đỏ"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg.webp"
 															style="display: inline;">
-														<span>Nấm linh chi đỏ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchivang.php" id=" menu_item_983"
+														<span>Nấm linh chi đỏ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchivang.php" id=" menu_item_983"
 														title="Nấm linh chi vàng">
-
-
-														<span>Nấm linh chi vàng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">
-
-													<a href="caonamlinhchi.php" id=" menu_item_985"
+														<span>Nấm linh chi vàng</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="caonamlinhchi.php" id=" menu_item_985"
 														title="Cao nấm linh chi">
-
-
 														<img class="lazy after-lazy" alt="Cao nấm linh chi"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg.webp"
 															style="display: inline;">
-														<span>Cao nấm linh chi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchithuonghoang.php"
+														<span>Cao nấm linh chi</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithuonghoang.php"
 														id=" menu_item_986" title="Nấm linh chi thượng hoàng">
-
-
-														<span>Nấm linh chi thượng hoàng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchithailat.php"
+														<span>Nấm linh chi thượng hoàng</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithailat.php"
 														id=" menu_item_987" title="Nấm linh chi thái lát">
-
-
-														<span>Nấm linh chi thái lát</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="tranamlinhchi.php" id=" menu_item_988"
+														<span>Nấm linh chi thái lát</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="tranamlinhchi.php" id=" menu_item_988"
 														title="Trà nấm linh chi">
-
-
-														<span>Trà nấm linh chi</span>
-
-													</a>
+														<span>Trà nấm linh chi</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="yensaokhanhhoa.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  ">										<a class="pr_cls1 level_pr" href="yensaokhanhhoa.php"
 											id="menu_item_984" title="Yến sào Khánh Hoà">
-											Yến sào Khánh Hoà </a>
-
-										<!--	LEVEL 2			-->
+											Yến sào Khánh Hoà </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yentinhchenguyento.php" id=" menu_item_989"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yentinhchenguyento.php" id=" menu_item_989"
 														title="Yến tinh chế nguyên tổ">
-
-
-														<span>Yến tinh chế nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yensochenguyento.php" id=" menu_item_990"
+														<span>Yến tinh chế nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yensochenguyento.php" id=" menu_item_990"
 														title="Yến sơ chế nguyên tổ">
-
-
-														<span>Yến sơ chế nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yenhuyetnguyento.php" id=" menu_item_991"
+														<span>Yến sơ chế nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yenhuyetnguyento.php" id=" menu_item_991"
 														title="Yến huyết nguyên tổ">
-
-
-														<span>Yến huyết nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yenhongnguyento.php" id=" menu_item_992"
+														<span>Yến huyết nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yenhongnguyento.php" id=" menu_item_992"
 														title="Yến hồng nguyên tổ">
-
-
-														<span>Yến hồng nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="nuocyensanest.php" id=" menu_item_993"
+														<span>Yến hồng nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="nuocyensanest.php" id=" menu_item_993"
 														title="Nước yến sanest">
-
-
-														<span>Nước yến sanest</span>
-
-													</a>
+														<span>Nước yến sanest</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  ">										<a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou"
 											id="menu_item_994" title="Nhung hươu">
-											Nhung hươu </a>
-
-										<!--	LEVEL 2			-->
+											Nhung hươu </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="nhunghuoutuoi.php" id=" menu_item_995"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="nhunghuoutuoi.php" id=" menu_item_995"
 														title="Nhung hươu tươi">
-
-
-														<span>Nhung hươu tươi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="caobanlong.php" id=" menu_item_996"
+														<span>Nhung hươu tươi</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="caobanlong.php" id=" menu_item_996"
 														title="Cao ban long">
-
-
-														<span>Cao ban long</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="nhunghuoukhothailat.php"
+														<span>Cao ban long</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="nhunghuoukhothailat.php"
 														id=" menu_item_997" title="Nhung hươu khô thái lát">
-
-
-														<span>Nhung hươu khô thái lát</span>
-
-													</a>
+														<span>Nhung hươu khô thái lát</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  ">
-
-										<a class="pr_cls1 level_pr"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  ">										<a class="pr_cls1 level_pr"
 											href="ancungnguu.php"
 											id="menu_item_998" title="An cung ngưu">
-											An cung ngưu </a>
-
-										<!--	LEVEL 2			-->
+											An cung ngưu </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">
-
-													<a href="ancungnguutrungquoc.php" id=" menu_item_999"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="ancungnguutrungquoc.php" id=" menu_item_999"
 														title="An cung ngưu trung quốc">
-
-
-														<span>An cung ngưu trung quốc</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">
-
-													<a href="ancungnguuhanquoc.php" id=" menu_item_1000"
+														<span>An cung ngưu trung quốc</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="ancungnguuhanquoc.php" id=" menu_item_1000"
 														title="An cung ngưu hàn quốc">
-
-
-														<span>An cung ngưu hàn quốc</span>
-
-													</a>
+														<span>An cung ngưu hàn quốc</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-
-								</ul>
+										<span class="bt_after_child"></span>									</li>								</ul>
 							</div>
-							<span class="bt_after"></span>
-
-							<div class="clear"></div>
-
-
+							<span class="bt_after"></span>							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-
+							<!--	LEVEL 1			-->							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-
+							<!--	LEVEL 1			-->							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-							<!--	CHILDREN				-->
+							<!--	LEVEL 1			-->							<div class="clear"></div>							<!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
 			<div class="clear"> </div>
-
-
 			<style>
 				.background_all {}
 			</style>
 			<div class="background_all" alt="Thế giới dinh dưỡng"
 				style="background-image: url(https://onplaza.vn/images/background/compress/trang_tintuc_1591873805.jpg.webp); display: block;background-color:#140600;background-position:unset"
 				nhansamhanquoc.php> <!-- Content -->
-				<div class="main_wrapper  main_wrapper_nohome  container">
-
-					<div class="main-area main-area-1col main-area-full">
-
-						<div class="breadcrumbs cls">
-
-							<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
+				<div class="main_wrapper  main_wrapper_nohome  container">					<div class="main-area main-area-1col main-area-full">						<div class="breadcrumbs cls">							<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
 								<ul class="breadcrumb" itemscope="itemscope"
-									itemtype="https://schema.org/BreadcrumbList">
-
-									<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
+									itemtype="https://schema.org/BreadcrumbList">									<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
 										itemtype="http://schema.org/ListItem">
 										<a title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" href="https://onplaza.vn/"
 											itemprop="item">
 											<span itemprop="name">Home</span>
 											<meta content="1" itemprop="position">
-										</a>
-
-									</li>
+										</a>									</li>
 									<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
 										itemtype="http://schema.org/ListItem">
-
-
 										<a title="Tin tức" href="tintuc.php" itemprop="item">
 											<span itemprop="name">Tin tức</span>
 											<meta content="2" itemprop="position">
-										</a>
-
-									</li>
-
-
+										</a>									</li>
 								</ul>
-							</div>
-
-						</div>
+							</div>						</div>
 						<div class="news_home news_page">
 							<h1 class="cat-title-main">
 								<span class="name_title"><span class="title">Tin tức</span></span>
@@ -6238,9 +2379,7 @@
 							<div class="wrapper_header cls">
 								<div class="news_header main-area-2col-right cls">
 									<div class="header_l item">
-										<figure class="frame_img">
-
-											<a class="item-img"
+										<figure class="frame_img">											<a class="item-img"
 												href="https://onplaza.vn/tin-tuc-sam/phan-biet-sam-lai-chau-va-sam-ngoc-linh-n462.html">
 												<img class="lazy after-lazy"
 													alt="Phân biệt sâm lai châu và sâm ngọc linh"
@@ -6255,9 +2394,7 @@
 										<h3 class="summary">Sâm Lai Châu và sâm ngọc linh là 2 dòng sâm nổi tiếng quý
 											hiếm của Việt Nam bởi tác dụng tốt cho sức khỏe. Tuy nhiên 2 dòng sâm này
 											thường bị nhầm lẫn bởi hình dáng khá tương đồng. Nếu bạn có ý định chọn mua,
-											sử dụng...</h3>
-
-										<div class="date">
+											sử dụng...</h3>										<div class="date">
 											<div class="left_content"> 12/05/2023</div>
 											<div class="right_content"><span class="icon"><svg width="15px"
 														height="15px" version="1.1" id="Capa_1"
@@ -6282,19 +2419,13 @@
 					c45.92,23.392,87.808,27.712,112.448,27.68c13.504,0,21.824-1.28,22.752-1.44c7.488-1.216,13.088-7.552,13.408-15.136
 					C512.306,487.855,507.25,481.071,499.858,479.279z"></path>
 															</g>
-														</g>
-
-													</svg></span>0 bình luận</div>
-
-										</div>
+														</g>													</svg></span>0 bình luận</div>										</div>
 									</div>
 									<div class="header_r">
 										<div class="header_r_inner">
 											<div class="item ">
 												<div class="inner-item">
-													<figure class="frame_img">
-
-														<a class="item-img"
+													<figure class="frame_img">														<a class="item-img"
 															href="https://onplaza.vn/tin-tuc-sam/cach-trong-sam-lai-chau-n461.html">
 															<img class="lazy after-lazy"
 																alt="Kĩ thuật trồng và cách chăm sóc giống sâm lai châu chất lượng cao"
@@ -6308,15 +2439,11 @@
 																title="Kĩ thuật trồng và cách chăm sóc giống sâm lai châu chất lượng cao">Kĩ
 																thuật trồng và cách chăm sóc giống sâm lai châu chất
 																lượng cao</a></h2>
-													</div>
-
-												</div>
+													</div>												</div>
 											</div>
 											<div class="item ">
 												<div class="inner-item">
-													<figure class="frame_img">
-
-														<a class="item-img"
+													<figure class="frame_img">														<a class="item-img"
 															href="https://onplaza.vn/tin-tuc-sam/sam-lai-chau-co-tot-khong-n460.html">
 															<img class="lazy after-lazy"
 																alt="Sâm lai châu có tốt không? Tìm hiểu tác dụng của sâm lai châu"
@@ -6330,15 +2457,11 @@
 																title="Sâm lai châu có tốt không? Tìm hiểu tác dụng của sâm lai châu">Sâm
 																lai châu có tốt không? Tìm hiểu tác dụng của sâm lai
 																châu</a></h2>
-													</div>
-
-												</div>
+													</div>												</div>
 											</div>
 										</div> <!-- .header_r_inner -->
 									</div> <!-- .header_r -->
-								</div>
-
-								<div class="right-col">
+								</div>								<div class="right-col">
 									<div class="wraper_block" style="background-color:#230D03">
 										<div class="block_newslist newslist-_news_list newslist_0 block"
 											id="block_id_86">
@@ -6414,8 +2537,6 @@
 													</a>
 												</li>
 											</ul>
-
-
 											<style>
 												.newslist_grid li a h3 {
 													color: #FFFFFF
@@ -6423,41 +2544,19 @@
 											</style>
 										</div>
 									</div>
-								</div>
-
-							</div>
-							<div class="clear"></div>
-
-							<div class="default_cat">
-
-								<div class="cat_item_store cat_news_store">
+								</div>							</div>
+							<div class="clear"></div>							<div class="default_cat">								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="suckhoe.php" title="Sức khoẻ">Sức khoẻ</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_4">
-
-
-
-
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 2238px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/he-mien-dich-cua-ba-bau-n451.html"
 																	title="Vai trò của hệ miễn dịch của bà bầu qua các giai đoạn thai kỳ">
 																	<img class="owl-lazy"
@@ -6466,8 +2565,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/20/resized/he-mien-dich-cua-ba-bau_1655711026.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6475,14 +2572,10 @@
 																		title="Vai trò của hệ miễn dịch của bà bầu qua các giai đoạn thai kỳ">Vai
 																		trò của hệ miễn dịch của bà bầu qua các giai
 																		đoạn thai kỳ</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/tang-cuong-he-mien-dich-cho-tre-n450.html"
 																	title="Các loại sữa - thực phẩm tăng cường hệ miễn dịch tốt cho trẻ">
 																	<img class="owl-lazy"
@@ -6491,8 +2584,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/18/resized/tang-cuong-he-mien-dich-cho-tre_1655535882.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6502,14 +2593,10 @@
 																		cho trẻ</a></h2>
 																<div class="datetime">
 																	18/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/thuoc-tang-cuong-he-mien-dich-tot-nhat-hien-nay-n449.html"
 																	title="Thuốc tăng cường hệ miễn dịch tốt nhất hiện nay">
 																	<img class="owl-lazy"
@@ -6518,8 +2605,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/17/resized/thuoc-tang-cuong-he-thong-mien-dich_1655455307.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6529,14 +2614,10 @@
 																</h2>
 																<div class="datetime">
 																	17/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/thuc-pham-tang-cuong-he-mien-dich-n448.html"
 																	title="Thực phẩm tăng cường hệ miễn dịch hiệu quả ai cũng nên ăn">
 																	<img class="owl-lazy"
@@ -6545,8 +2626,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/17/resized/thuc-pham-tang-cuong-mien-dich_1655435184.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6556,8 +2635,6 @@
 																		nên ăn</a></h2>
 																<div class="datetime">
 																	17/06/2022 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -6565,17 +2642,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/cach-tang-cuong-he-mien-dich-n442.html"
 																	title="10+ Cách tăng cường hệ miễn dịch tự nhiên cho cơ thể hiệu quả">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2022/06/09/resized/cach-tang-cuong-he-mien-dich_1654745366.jpg"
 																		alt="10+ Cách tăng cường hệ miễn dịch tự nhiên cho cơ thể hiệu quả">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6583,22 +2656,16 @@
 																		title="10+ Cách tăng cường hệ miễn dịch tự nhiên cho cơ thể hiệu quả">10+
 																		Cách tăng cường hệ miễn dịch tự nhiên cho cơ thể
 																		hiệu quả</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/suy-giam-he-mien-dich-n441.html"
 																	title="5 dấu hiệu nhận biết người bị suy giảm hệ miễn dịch">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2022/06/08/resized/suy-giam-he-mien-dich_1654677814.jpg"
 																		alt="5 dấu hiệu nhận biết người bị suy giảm hệ miễn dịch">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6608,22 +2675,16 @@
 																		dịch</a></h2>
 																<div class="datetime">
 																	08/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/roi-loan-he-thong-mien-dich-n440.html"
 																	title="Rối loạn hệ miễn dịch: Nguyên nhân, hậu quả &amp; cách điều trị">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2022/06/08/resized/roi-loan-he-thong-mien-dich_1654660672.jpg"
 																		alt="Rối loạn hệ miễn dịch: Nguyên nhân, hậu quả &amp; cách điều trị">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6633,22 +2694,16 @@
 																		cách điều trị</a></h2>
 																<div class="datetime">
 																	08/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/he-mien-dich-la-gi-n439.html"
 																	title="Hệ miễn dịch là gì? Vai trò, tầm quan trọng với cơ thể">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2022/06/07/resized/he-mien-dich-la-gi_1654575423.jpg"
 																		alt="Hệ miễn dịch là gì? Vai trò, tầm quan trọng với cơ thể">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6658,8 +2713,6 @@
 																		thể</a></h2>
 																<div class="datetime">
 																	07/06/2022 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -6667,17 +2720,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-suc-khoe-n437.html"
 																	title="Quà sức khỏe - Trao gửi yêu thương đến người nhận">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/17/resized/qua-suc-khoe_1639716390.jpg"
 																		alt="Quà sức khỏe - Trao gửi yêu thương đến người nhận">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6685,22 +2734,16 @@
 																		title="Quà sức khỏe - Trao gửi yêu thương đến người nhận">Quà
 																		sức khỏe - Trao gửi yêu thương đến người
 																		nhận</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-tet-n238.html"
 																	title="Quà tặng tết độc đáo - ý nghĩa cho từng đối tượng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/gio-qua-bieu-dong-trung-trung-ha-thao_1617767711.jpg"
 																		alt="Quà tặng tết độc đáo - ý nghĩa cho từng đối tượng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6710,22 +2753,16 @@
 																		tượng</a></h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-me-n244.html"
 																	title="20+ MÓN QUÀ TẶNG MẸ, BÁO HIẾU KHIẾN MẸ VUI LÒNG">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-me_1617771174.jpg"
 																		alt="20+ MÓN QUÀ TẶNG MẸ, BÁO HIẾU KHIẾN MẸ VUI LÒNG">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6735,22 +2772,16 @@
 																</h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-doanh-nghiep-n240.html"
 																	title="5 MÓN QUÀ BIẾU DOANH NGHIỆP, ĐỐI TÁC “VỪA TÚI TIỀN” ĐƯỢC ƯA CHUỘNG NHẤT">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-doanh-nghiep-cao-hong-sam_1617769112.jpg"
 																		alt="5 MÓN QUÀ BIẾU DOANH NGHIỆP, ĐỐI TÁC “VỪA TÚI TIỀN” ĐƯỢC ƯA CHUỘNG NHẤT">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6760,8 +2791,6 @@
 																		TIỀN” ĐƯỢC ƯA CHUỘNG NHẤT</a></h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -6769,17 +2798,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-sep-n243.html"
 																	title="NHỮNG MÓN QUÀ BIẾU SẾP VÀ CÁCH TẶNG QUÀ SẾP TẾ NHỊ BẠN NÊN BIẾT">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-sep_1617770534.jpg"
 																		alt="NHỮNG MÓN QUÀ BIẾU SẾP VÀ CÁCH TẶNG QUÀ SẾP TẾ NHỊ BẠN NÊN BIẾT">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6787,22 +2812,16 @@
 																		title="NHỮNG MÓN QUÀ BIẾU SẾP VÀ CÁCH TẶNG QUÀ SẾP TẾ NHỊ BẠN NÊN BIẾT">NHỮNG
 																		MÓN QUÀ BIẾU SẾP VÀ CÁCH TẶNG QUÀ SẾP TẾ NHỊ BẠN
 																		NÊN BIẾT</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-hoi-nghi-khach-hang-n257.html"
 																	title="Quà tặng cho các cuộc hội nghị khách hàng lớn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/05/04/resized/chon-qua-tang-hoi-nghi-can-xac-dinh-dung-doi-tuong_1620100038.jpg"
 																		alt="Quà tặng cho các cuộc hội nghị khách hàng lớn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6812,22 +2831,16 @@
 																</h2>
 																<div class="datetime">
 																	08/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-bo-n245.html"
 																	title="10 MÓN QUÀ TẶNG BỐ ĐỘC ĐÁO THIẾT THỰC KHÔNG NÊN BỎ LỠ">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-bo_1617778093.jpg"
 																		alt="10 MÓN QUÀ TẶNG BỐ ĐỘC ĐÁO THIẾT THỰC KHÔNG NÊN BỎ LỠ">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6837,22 +2850,16 @@
 																		LỠ</a></h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-thay-co-20-11-n270.html"
 																	title="Quà tặng 20/11 cho thầy cô phù hợp với mọi đối tượng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/05/04/resized/qua-tang-20-11-cho-thay-co_1620099858.png"
 																		alt="Quà tặng 20/11 cho thầy cô phù hợp với mọi đối tượng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6862,8 +2869,6 @@
 																		tượng</a></h2>
 																<div class="datetime">
 																	12/04/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -6871,17 +2876,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-tan-gia-n255.html"
 																	title="Quà tặng tân gia nhà mới, khai trương cửa hàng ý nghĩa hợp phong thủy">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/12/resized/qua-tan-gia_1618196111.jpg"
 																		alt="Quà tặng tân gia nhà mới, khai trương cửa hàng ý nghĩa hợp phong thủy">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6889,22 +2890,16 @@
 																		title="Quà tặng tân gia nhà mới, khai trương cửa hàng ý nghĩa hợp phong thủy">Quà
 																		tặng tân gia nhà mới, khai trương cửa hàng ý
 																		nghĩa hợp phong thủy</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-cho-ba-bau-n254.html"
 																	title="Quà tặng sức khỏe cho bà bầu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/08/resized/qua-tang-suc-khoe-cho-ba-bau-1_1617872761.jpg"
 																		alt="Quà tặng sức khỏe cho bà bầu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6913,22 +2908,16 @@
 																		sức khỏe cho bà bầu</a></h2>
 																<div class="datetime">
 																	08/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-cho-nguoi-nuoc-ngoai-n250.html"
 																	title="Top 5 món quà tặng cho người nước ngoài ý nghĩa">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/top-5-qua-tang-cho-nguoi-nuoc-ngoai-1_1617790685.jpg"
 																		alt="Top 5 món quà tặng cho người nước ngoài ý nghĩa">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6938,22 +2927,16 @@
 																</h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-nhan-vien-n249.html"
 																	title="Quà tặng nhân viên ý nghĩa - tạo sự bất ngờ, gắn kết tinh thần đồng nghiệp">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-nhan-vien-y-nghia-1_1617782579.jpg"
 																		alt="Quà tặng nhân viên ý nghĩa - tạo sự bất ngờ, gắn kết tinh thần đồng nghiệp">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6963,8 +2946,6 @@
 																		tinh thần đồng nghiệp</a></h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -6972,17 +2953,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-cho-nam-n247.html"
 																	title="GỢI Ý CÁC MÓN QUÀ TẶNG CHO NAM GIỚI – MÓN QUÀ TẶNG CHỒNG Ý NGHĨA">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-cho-nam_1617779241.jpg"
 																		alt="GỢI Ý CÁC MÓN QUÀ TẶNG CHO NAM GIỚI – MÓN QUÀ TẶNG CHỒNG Ý NGHĨA">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -6990,22 +2967,16 @@
 																		title="GỢI Ý CÁC MÓN QUÀ TẶNG CHO NAM GIỚI – MÓN QUÀ TẶNG CHỒNG Ý NGHĨA">GỢI
 																		Ý CÁC MÓN QUÀ TẶNG CHO NAM GIỚI – MÓN QUÀ TẶNG
 																		CHỒNG Ý NGHĨA</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-nguoi-gia-n246.html"
 																	title="CÁCH LỰA CHỌN MÓN QUÀ Ý NGHĨA CHO NGƯỜI GIÀ CAO TUỔI, QUÀ CHÚC THỌ&nbsp;">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/07/resized/qua-tang-nguoi-gia_1617778639.jpg"
 																		alt="CÁCH LỰA CHỌN MÓN QUÀ Ý NGHĨA CHO NGƯỜI GIÀ CAO TUỔI, QUÀ CHÚC THỌ&nbsp;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7015,22 +2986,16 @@
 																		QUÀ CHÚC THỌ&nbsp;</a></h2>
 																<div class="datetime">
 																	07/04/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/suc-khoe/qua-tang-vo-8-3-20-10-valentine-n265.html"
 																	title="Top 10 quà tặng vợ ngày 8 - 3, 20 -10 , valentine vô cùng lãng mạn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/04/12/resized/top-10-qua-tang-ngay-8-3-1_1618192031.jpg"
 																		alt="Top 10 quà tặng vợ ngày 8 - 3, 20 -10 , valentine vô cùng lãng mạn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7040,8 +3005,6 @@
 																		cùng lãng mạn</a></h2>
 																<div class="datetime">
 																	10/04/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7057,37 +3020,19 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="tinnhansam.php" title="Tin Tức Sâm">Tin Tức
 											Sâm</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_9">
-
-
-
-
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 2238px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/phan-biet-sam-lai-chau-va-sam-ngoc-linh-n462.html"
 																	title="Phân biệt sâm lai châu và sâm ngọc linh">
 																	<img class="owl-lazy"
@@ -7096,22 +3041,16 @@
 																		src="https://onplaza.vn/images/news/2023/05/13/resized/phan-biet-sam-lai-chau-va-sam-ngoc-linh_1683947909.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/tin-tuc-sam/phan-biet-sam-lai-chau-va-sam-ngoc-linh-n462.html"
 																		title="Phân biệt sâm lai châu và sâm ngọc linh">Phân
 																		biệt sâm lai châu và sâm ngọc linh</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-trong-sam-lai-chau-n461.html"
 																	title="Kĩ thuật trồng và cách chăm sóc giống sâm lai châu chất lượng cao">
 																	<img class="owl-lazy"
@@ -7120,8 +3059,6 @@
 																		src="https://onplaza.vn/images/news/2023/05/06/resized/cach-trong-sam-lai-chau_1683363956.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7131,14 +3068,10 @@
 																		chất lượng cao</a></h2>
 																<div class="datetime">
 																	05/05/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-lai-chau-co-tot-khong-n460.html"
 																	title="Sâm lai châu có tốt không? Tìm hiểu tác dụng của sâm lai châu">
 																	<img class="owl-lazy"
@@ -7147,8 +3080,6 @@
 																		src="https://onplaza.vn/images/news/2023/05/04/resized/sam-lai-chau-co-tot-khong_1683190343.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7158,14 +3089,10 @@
 																		lai châu</a></h2>
 																<div class="datetime">
 																	04/05/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-lai-chau-n459.html"
 																	title="Sâm Lai Châu là gì? Tiềm năng phát triển của cây sâm lai châu">
 																	<img class="owl-lazy"
@@ -7174,8 +3101,6 @@
 																		src="https://onplaza.vn/images/news/2023/04/22/resized/sam-lai-chau_1682153053.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7185,8 +3110,6 @@
 																		lai châu</a></h2>
 																<div class="datetime">
 																	22/04/2023 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7194,17 +3117,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ngam-ruou-sam-veit-nam-n458.html"
 																	title="Chia sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/05/04/resized/binh-ruou-sam-viet-nam_1683186824.jpg"
 																		alt="Chia sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7212,22 +3131,16 @@
 																		title="Chia sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn">Chia
 																		sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn</a>
 																</h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ky-thuat-trong-sam-viet-nam-n457.html"
 																	title="Hướng dẫn kỹ thật, cách trồng nhân sâm Việt Nam từ nhà vườn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/05/03/resized/dieu-kien-dia-hinh-trong-sam-viet-nam_1683094861.jpg"
 																		alt="Hướng dẫn kỹ thật, cách trồng nhân sâm Việt Nam từ nhà vườn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7237,22 +3150,16 @@
 																		vườn</a></h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/tac-dung-tra-sam-viet-nam-n456.html"
 																	title="Trà sâm Việt Nam - mang đến nhiều lợi ích tuyệt vời sức khỏe&nbsp;">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/27/resized/sam-viet-nam-thai-lat-pha-tra_1682566650.jpg"
 																		alt="Trà sâm Việt Nam - mang đến nhiều lợi ích tuyệt vời sức khỏe&nbsp;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7262,22 +3169,16 @@
 																		sức khỏe&nbsp;</a></h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-dat-nhat-viet-nam-n455.html"
 																	title="Mục sở thị củ sâm đắt nhất Việt Nam của doanh nhân Hà Nội">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/25/resized/can-canh-cu-sam-dat-nhat-viet-nam_1682406682.jpg"
 																		alt="Mục sở thị củ sâm đắt nhất Việt Nam của doanh nhân Hà Nội">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7287,8 +3188,6 @@
 																		Hà Nội</a></h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7296,17 +3195,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-viet-nam-n454.html"
 																	title="Tổng hợp các loại sâm Việt Nam phổ biến hiện nay">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/25/resized/hoa-sam-ngoc-linh_1682393248.jpg"
 																		alt="Tổng hợp các loại sâm Việt Nam phổ biến hiện nay">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7314,22 +3209,16 @@
 																		title="Tổng hợp các loại sâm Việt Nam phổ biến hiện nay">Tổng
 																		hợp các loại sâm Việt Nam phổ biến hiện nay</a>
 																</h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-bao-quan-nhan-sam-tuoi-n436.html"
 																	title="Các cách bảo quản nhân sâm tươi đúng cách để được lâu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/bao-quan-sam-tuoi-han-quoc_1638352529.jpg"
 																		alt="Các cách bảo quản nhân sâm tươi đúng cách để được lâu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7339,22 +3228,16 @@
 																		lâu</a></h2>
 																<div class="datetime">
 																	01/12/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ga-ham-sam-han-quoc-n435.html"
 																	title="Cách chế biến gà hầm sâm Hàn Quốc bổ dưỡng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/ga-ham-nhan-sam_1638351248.jpg"
 																		alt="Cách chế biến gà hầm sâm Hàn Quốc bổ dưỡng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7363,22 +3246,16 @@
 																		chế biến gà hầm sâm Hàn Quốc bổ dưỡng</a></h2>
 																<div class="datetime">
 																	01/12/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/nhan-sam-ngam-mat-ong-n434.html"
 																	title="Hướng dẫn cách làm nhân sâm ngâm mật ong">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/sam-tuoi-ngam-mat-ong_1638347047.jpg"
 																		alt="Hướng dẫn cách làm nhân sâm ngâm mật ong">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7387,8 +3264,6 @@
 																		dẫn cách làm nhân sâm ngâm mật ong</a></h2>
 																<div class="datetime">
 																	01/12/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7396,17 +3271,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cay-giong-sam-ngoc-linh-n433.html"
 																	title="Giống cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ bán">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/10/26/resized/giong-sam-ngoc-linh_1635241582.jpg"
 																		alt="Giống cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ bán">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7414,22 +3285,16 @@
 																		title="Giống cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ bán">Giống
 																		cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ
 																		bán</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-trong-sam-ngoc-linh-n405.html"
 																	title="Cách trồng sâm ngọc linh theo kĩ thuật cho củ to, chất lượng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/07/31/resized/trong-sam-ngoc-linh_1627717815.jpg"
 																		alt="Cách trồng sâm ngọc linh theo kĩ thuật cho củ to, chất lượng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7439,22 +3304,16 @@
 																		chất lượng</a></h2>
 																<div class="datetime">
 																	26/07/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-dung-sam-ngoc-linh-n402.html"
 																	title="Hướng dẫn cách dùng sâm ngọc linh tươi - Ai không nên sử dụng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/07/13/resized/sam-ngoc-linh-ham-tra_1626171252.jpg"
 																		alt="Hướng dẫn cách dùng sâm ngọc linh tươi - Ai không nên sử dụng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7464,22 +3323,16 @@
 																		sử dụng</a></h2>
 																<div class="datetime">
 																	13/07/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/phan-biet-sam-ngoc-linh-gia-chuan-nhat-n401.html"
 																	title="Phân biệt sâm Ngọc Linh giả chuẩn nhất từ chuyên gia">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/07/13/resized/cach-phan-biet-sam-ngoc-linh-va-tam-that-ruot-vang_1626162122.jpg"
 																		alt="Phân biệt sâm Ngọc Linh giả chuẩn nhất từ chuyên gia">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7489,8 +3342,6 @@
 																		gia</a></h2>
 																<div class="datetime">
 																	13/07/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7498,17 +3349,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-ngoc-linh-ngam-mat-ong-n400.html"
 																	title="[Hướng dẫn] Cách ngâm, sử dụng Sâm ngọc linh ngâm mật ong">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/07/13/resized/banner-dm-sam-ngoc-linh-ngam-mat-ong_1618634309_1626159977.jpg"
 																		alt="[Hướng dẫn] Cách ngâm, sử dụng Sâm ngọc linh ngâm mật ong">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7516,22 +3363,16 @@
 																		title="[Hướng dẫn] Cách ngâm, sử dụng Sâm ngọc linh ngâm mật ong">[Hướng
 																		dẫn] Cách ngâm, sử dụng Sâm ngọc linh ngâm mật
 																		ong</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-ngoc-linh-ngam-ruou-n399.html"
 																	title="Rượu sâm ngọc linh có tác dụng gì? Hướng dẫn cách ngâm chuẩn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/10/27/resized/ruou-sam-ngoc-linh_1635318942.jpg"
 																		alt="Rượu sâm ngọc linh có tác dụng gì? Hướng dẫn cách ngâm chuẩn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7541,22 +3382,16 @@
 																		ngâm chuẩn</a></h2>
 																<div class="datetime">
 																	13/07/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/gia-sam-chinh-phu-n390.html"
 																	title="Các loại sản phẩm sâm Chính phủ KGC Hàn Quốc">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/06/14/resized/san-pham-sam-chinh-phu_1623663842.jpg"
 																		alt="Các loại sản phẩm sâm Chính phủ KGC Hàn Quốc">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7566,22 +3401,16 @@
 																</h2>
 																<div class="datetime">
 																	14/06/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-chinh-phu-n389.html"
 																	title="SÂM CHÍNH PHỦ - KHÔNG CÓ ĐỐI THỦ Ở HÀN QUỐC">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/06/14/resized/ava-sam-chinh-phu_1623642617.jpg"
 																		alt="SÂM CHÍNH PHỦ - KHÔNG CÓ ĐỐI THỦ Ở HÀN QUỐC">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7590,8 +3419,6 @@
 																		CHÍNH PHỦ - KHÔNG CÓ ĐỐI THỦ Ở HÀN QUỐC</a></h2>
 																<div class="datetime">
 																	14/06/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7599,39 +3426,29 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/tac-dung-sam-tam-mat-ong-n374.html"
 																	title="Tác dụng và cách dùng hồng sâm tẩm mật ong">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/05/13/resized/tac-dung-cua-hong-sam-tam-mat-ong_1620892093.jpg"
 																		alt="Tác dụng và cách dùng hồng sâm tẩm mật ong">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/tin-tuc-sam/tac-dung-sam-tam-mat-ong-n374.html"
 																		title="Tác dụng và cách dùng hồng sâm tẩm mật ong">Tác
 																		dụng và cách dùng hồng sâm tẩm mật ong</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/tac-dung-hong-sam-tre-em-n373.html"
 																	title="Tác dụng của hồng sâm baby khi sử dụng đúng cách">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/05/13/resized/cong-dung-hong-sam-baby_1620890346.jpg"
 																		alt="Tác dụng của hồng sâm baby khi sử dụng đúng cách">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7641,22 +3458,16 @@
 																</h2>
 																<div class="datetime">
 																	11/05/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/tac-dung-cua-keo-sam-n372.html"
 																	title="Tác dụng của kẹo sâm Hàn Quốc đối với từng đối tượng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/05/11/resized/ava-tac-dung-cach-dung-keo-sam_1620702995.jpg"
 																		alt="Tác dụng của kẹo sâm Hàn Quốc đối với từng đối tượng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7666,8 +3477,6 @@
 																		tượng</a></h2>
 																<div class="datetime">
 																	11/05/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7683,28 +3492,18 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="https://onplaza.vn/author.html" title="author">author</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_10">
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 746px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/author/nguyen-thuy-quynh-n421.html"
 																	title="Nguyễn Thúy Quỳnh">
 																	<img class="owl-lazy"
@@ -7713,22 +3512,16 @@
 																		src="https://onplaza.vn/images/news/2021/09/21/resized/bien-tap-thuy-quynh_1632191010.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/author/nguyen-thuy-quynh-n421.html"
 																		title="Nguyễn Thúy Quỳnh">Nguyễn Thúy Quỳnh</a>
 																</h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/author/bac-si-bui-phuong-thao-n45.html"
 																	title="Thạc sĩ - Bác sĩ Bùi Phương Thảo">
 																	<img class="owl-lazy"
@@ -7737,8 +3530,6 @@
 																		src="https://onplaza.vn/images/news/2020/11/12/resized/duoc-si-bui-phuong-thao_1605163511.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7747,14 +3538,10 @@
 																		- Bác sĩ Bùi Phương Thảo</a></h2>
 																<div class="datetime">
 																	12/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/author/luong-y-tran-quoc-binh-n44.html"
 																	title="Thầy thuốc - Lương y Trần Quốc Bình">
 																	<img class="owl-lazy"
@@ -7763,8 +3550,6 @@
 																		src="https://onplaza.vn/images/news/2020/11/12/resized/thay-thuoc-tran-quoc-binh_1605154719.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7773,14 +3558,10 @@
 																		thuốc - Lương y Trần Quốc Bình</a></h2>
 																<div class="datetime">
 																	12/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/author/luong-y-ly-quang-an-n43.html"
 																	title="Lương y Lý Quảng An">
 																	<img class="owl-lazy"
@@ -7789,8 +3570,6 @@
 																		src="https://onplaza.vn/images/news/2020/11/12/resized/luong-y-ly-quang-an_1605154349.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -7799,8 +3578,6 @@
 																		An</a></h2>
 																<div class="datetime">
 																	12/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -7808,25 +3585,19 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/author/luong-y-nguyen-xuan-huong-n27.html"
 																	title="Lương y Nguyễn Xuân Hướng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/08/21/resized/nguyen-xuan-huong_1597984390.png"
 																		alt="Lương y Nguyễn Xuân Hướng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/author/luong-y-nguyen-xuan-huong-n27.html"
 																		title="Lương y Nguyễn Xuân Hướng">Lương y Nguyễn
 																		Xuân Hướng</a></h2>
-
-
 															</div>
 														</div>
 													</div>
@@ -7842,71 +3613,45 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="wraper_block">
+								</div>								<div class="wraper_block">
 									<div class="block_banners banners-_banner banners_0 block" id="block_id_149">
 										<div
 											class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 											<div class="item">
 												<a rel="nofollow" href="" title="Banner news" id="banner_item_102"
-													class="banner_item">
-
-													<span class="wrapper_ap">
+													class="banner_item">													<span class="wrapper_ap">
 														<img class="lazy after-lazy" alt="Banner news"
 															src="https://onplaza.vn/images/banners/compress/banner_new_1591861791.jpg"
 															srcset="https://onplaza.vn/images/banners/compress/banner_new_1591861791.jpg.webp"
 															style="display: inline;">
-													</span>
-
-
-
-												</a>
-											</div>
-
-											<div class="clear"></div>
+													</span>												</a>
+											</div>											<div class="clear"></div>
 										</div>
-										<div class="clear"></div>
-
-									</div>
+										<div class="clear"></div>									</div>
 								</div>
-
-
 								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="https://onplaza.vn/cong-ty-dai-ly.html" title="Công ty đại lý">Công ty
 											đại lý</a>
-									</div>
-
-									<div class="news_home_slideshow" id="news_home_slideshow">
-
-										<div class="item_inner">
+									</div>									<div class="news_home_slideshow" id="news_home_slideshow">										<div class="item_inner">
 											<div class=" item item_0 cls">
-												<figure class="frame_img ">
-
-													<a class="item-img"
+												<figure class="frame_img ">													<a class="item-img"
 														href="https://onplaza.vn/cong-ty-dai-ly/cong-ty-yen-khanh-hoa-n137.html"
 														title="Công ty Yến sào Khánh Hòa">
 														<img class="lazy after-lazy" alt="Công ty Yến sào Khánh Hòa"
 															src="https://onplaza.vn/images/news/2021/01/19/resized/cong-ty-yen-sao-khanh-hoa_1611030523.jpg"
 															style="display: inline;">
 													</a>
-
-
 												</figure>
 												<div class="frame_right">
 													<h2 class="title"><a
 															href="https://onplaza.vn/cong-ty-dai-ly/cong-ty-yen-khanh-hoa-n137.html"
 															title="Công ty Yến sào Khánh Hòa">Công ty Yến sào Khánh
 															Hòa</a></h2>
-
-
 												</div>
 											</div>
 											<div class=" item item_1 cls">
-												<figure class="frame_img ">
-
-													<a class="item-img"
+												<figure class="frame_img ">													<a class="item-img"
 														href="https://onplaza.vn/cong-ty-dai-ly/kwangdong-n61.html"
 														title="Thương hiệu An cung ngưu Kwangdong Hàn Quốc">
 														<img class="lazy after-lazy"
@@ -7914,8 +3659,6 @@
 															src="https://onplaza.vn/images/news/2021/01/18/resized/kwangdong_1610965634.jpg"
 															style="display: inline;">
 													</a>
-
-
 												</figure>
 												<div class="frame_right">
 													<h2 class="title"><a
@@ -7924,14 +3667,10 @@
 															hiệu An cung ngưu Kwangdong Hàn Quốc</a></h2>
 													<div class="datetime">
 														24/11/2020 </div>
-
-
 												</div>
 											</div>
 											<div class=" item item_2 cls">
-												<figure class="frame_img ">
-
-													<a class="item-img"
+												<figure class="frame_img ">													<a class="item-img"
 														href="https://onplaza.vn/cong-ty-dai-ly/dong-nhan-duong-n60.html"
 														title="Tập đoàn Đồng Nhân Đường Bắc Kinh - An cung ngưu">
 														<img class="lazy after-lazy"
@@ -7939,8 +3678,6 @@
 															src="https://onplaza.vn/images/news/2021/01/20/resized/nha-thuoc-dong-nha-duong_1611114058.jpg"
 															style="display: inline;">
 													</a>
-
-
 												</figure>
 												<div class="frame_right">
 													<h2 class="title"><a
@@ -7949,43 +3686,23 @@
 															đoàn Đồng Nhân Đường Bắc Kinh - An cung ngưu</a></h2>
 													<div class="datetime">
 														24/11/2020 </div>
-
-
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="duoclieu.php" title="Dược liệu">Dược liệu</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_13">
-
-
-
-
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 2238px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img frame_video">
-
-																<img class="owl-lazy"
+															<figure class="frame_img frame_video">																<img class="owl-lazy"
 																	data-src="https://onplaza.vn/images/news/2020/12/08/resized/cay-tri-mau_1607395536.jpg"
 																	alt="Cây tri mẫu có công dụng gì"
 																	link-video="https://www.youtube.com/embed/2Ekqk52LyQM"
@@ -7999,22 +3716,16 @@
 																		</path>
 																	</svg>
 																</div>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/duoc-lieu/tri-mau-n76.html"
 																		title="Cây tri mẫu có công dụng gì">Cây tri mẫu
 																		có công dụng gì</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/phan-biet-sam-lai-chau-va-sam-ngoc-linh-n462.html"
 																	title="Phân biệt sâm lai châu và sâm ngọc linh">
 																	<img class="owl-lazy"
@@ -8023,8 +3734,6 @@
 																		src="https://onplaza.vn/images/news/2023/05/13/resized/phan-biet-sam-lai-chau-va-sam-ngoc-linh_1683947909.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8033,14 +3742,10 @@
 																		biệt sâm lai châu và sâm ngọc linh</a></h2>
 																<div class="datetime">
 																	12/05/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-trong-sam-lai-chau-n461.html"
 																	title="Kĩ thuật trồng và cách chăm sóc giống sâm lai châu chất lượng cao">
 																	<img class="owl-lazy"
@@ -8049,8 +3754,6 @@
 																		src="https://onplaza.vn/images/news/2023/05/06/resized/cach-trong-sam-lai-chau_1683363956.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8060,14 +3763,10 @@
 																		chất lượng cao</a></h2>
 																<div class="datetime">
 																	05/05/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-lai-chau-co-tot-khong-n460.html"
 																	title="Sâm lai châu có tốt không? Tìm hiểu tác dụng của sâm lai châu">
 																	<img class="owl-lazy"
@@ -8076,8 +3775,6 @@
 																		src="https://onplaza.vn/images/news/2023/05/04/resized/sam-lai-chau-co-tot-khong_1683190343.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8087,8 +3784,6 @@
 																		lai châu</a></h2>
 																<div class="datetime">
 																	04/05/2023 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8096,17 +3791,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-lai-chau-n459.html"
 																	title="Sâm Lai Châu là gì? Tiềm năng phát triển của cây sâm lai châu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/22/resized/sam-lai-chau_1682153053.jpg"
 																		alt="Sâm Lai Châu là gì? Tiềm năng phát triển của cây sâm lai châu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8114,22 +3805,16 @@
 																		title="Sâm Lai Châu là gì? Tiềm năng phát triển của cây sâm lai châu">Sâm
 																		Lai Châu là gì? Tiềm năng phát triển của cây sâm
 																		lai châu</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ngam-ruou-sam-veit-nam-n458.html"
 																	title="Chia sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/05/04/resized/binh-ruou-sam-viet-nam_1683186824.jpg"
 																		alt="Chia sẻ cách ngâm rượu sâm Việt Nam đúng chuẩn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8139,22 +3824,16 @@
 																</h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ky-thuat-trong-sam-viet-nam-n457.html"
 																	title="Hướng dẫn kỹ thật, cách trồng nhân sâm Việt Nam từ nhà vườn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/05/03/resized/dieu-kien-dia-hinh-trong-sam-viet-nam_1683094861.jpg"
 																		alt="Hướng dẫn kỹ thật, cách trồng nhân sâm Việt Nam từ nhà vườn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8164,22 +3843,16 @@
 																		vườn</a></h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/tac-dung-tra-sam-viet-nam-n456.html"
 																	title="Trà sâm Việt Nam - mang đến nhiều lợi ích tuyệt vời sức khỏe&nbsp;">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/27/resized/sam-viet-nam-thai-lat-pha-tra_1682566650.jpg"
 																		alt="Trà sâm Việt Nam - mang đến nhiều lợi ích tuyệt vời sức khỏe&nbsp;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8189,8 +3862,6 @@
 																		sức khỏe&nbsp;</a></h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8198,17 +3869,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-dat-nhat-viet-nam-n455.html"
 																	title="Mục sở thị củ sâm đắt nhất Việt Nam của doanh nhân Hà Nội">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/25/resized/can-canh-cu-sam-dat-nhat-viet-nam_1682406682.jpg"
 																		alt="Mục sở thị củ sâm đắt nhất Việt Nam của doanh nhân Hà Nội">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8216,22 +3883,16 @@
 																		title="Mục sở thị củ sâm đắt nhất Việt Nam của doanh nhân Hà Nội">Mục
 																		sở thị củ sâm đắt nhất Việt Nam của doanh nhân
 																		Hà Nội</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/sam-viet-nam-n454.html"
 																	title="Tổng hợp các loại sâm Việt Nam phổ biến hiện nay">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2023/04/25/resized/hoa-sam-ngoc-linh_1682393248.jpg"
 																		alt="Tổng hợp các loại sâm Việt Nam phổ biến hiện nay">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8241,22 +3902,16 @@
 																</h2>
 																<div class="datetime">
 																	21/04/2023 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cach-bao-quan-nhan-sam-tuoi-n436.html"
 																	title="Các cách bảo quản nhân sâm tươi đúng cách để được lâu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/bao-quan-sam-tuoi-han-quoc_1638352529.jpg"
 																		alt="Các cách bảo quản nhân sâm tươi đúng cách để được lâu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8266,22 +3921,16 @@
 																		lâu</a></h2>
 																<div class="datetime">
 																	01/12/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/ga-ham-sam-han-quoc-n435.html"
 																	title="Cách chế biến gà hầm sâm Hàn Quốc bổ dưỡng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/ga-ham-nhan-sam_1638351248.jpg"
 																		alt="Cách chế biến gà hầm sâm Hàn Quốc bổ dưỡng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8290,8 +3939,6 @@
 																		chế biến gà hầm sâm Hàn Quốc bổ dưỡng</a></h2>
 																<div class="datetime">
 																	01/12/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8299,39 +3946,29 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/nhan-sam-ngam-mat-ong-n434.html"
 																	title="Hướng dẫn cách làm nhân sâm ngâm mật ong">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/12/01/resized/sam-tuoi-ngam-mat-ong_1638347047.jpg"
 																		alt="Hướng dẫn cách làm nhân sâm ngâm mật ong">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
 																		href="https://onplaza.vn/tin-tuc-sam/nhan-sam-ngam-mat-ong-n434.html"
 																		title="Hướng dẫn cách làm nhân sâm ngâm mật ong">Hướng
 																		dẫn cách làm nhân sâm ngâm mật ong</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-sam/cay-giong-sam-ngoc-linh-n433.html"
 																	title="Giống cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ bán">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/10/26/resized/giong-sam-ngoc-linh_1635241582.jpg"
 																		alt="Giống cây sâm ngọc linh - Kĩ thuật ươm trồng, địa chỉ bán">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8341,22 +3978,16 @@
 																		bán</a></h2>
 																<div class="datetime">
 																	26/10/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/duoc-lieu/7-dac-diem-phan-biet-tinh-dau-thong-do-gia-va-tinh-dau-thong-do-that-n432.html"
 																	title="Phân biệt tinh dầu thông đỏ thật và giả">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/30/resized/phan-biet-tinh-dau-thong-do-that-gia_1632994121.jpg"
 																		alt="Phân biệt tinh dầu thông đỏ thật và giả">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8365,22 +3996,16 @@
 																		biệt tinh dầu thông đỏ thật và giả</a></h2>
 																<div class="datetime">
 																	29/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/duoc-lieu/tong-hop-nhung-cach-su-dung-tinh-dau-thong-do-chuan-n431.html"
 																	title="Cách sử dụng tinh dầu thông đỏ chuẩn">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/30/resized/tinh-dau-thong-do-red-pine-gold_01_1632991271.jpg"
 																		alt="Cách sử dụng tinh dầu thông đỏ chuẩn">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8389,8 +4014,6 @@
 																		sử dụng tinh dầu thông đỏ chuẩn</a></h2>
 																<div class="datetime">
 																	29/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8398,17 +4021,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-n46.html"
 																	title="Đông trùng hạ thảo là gì? Tìm hiểu thành phần, tác dụng và phân loại">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/11/20/resized/dong-trung-ha-thao_1605856786.jpg"
 																		alt="Đông trùng hạ thảo là gì? Tìm hiểu thành phần, tác dụng và phân loại">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8416,22 +4035,16 @@
 																		title="Đông trùng hạ thảo là gì? Tìm hiểu thành phần, tác dụng và phân loại">Đông
 																		trùng hạ thảo là gì? Tìm hiểu thành phần, tác
 																		dụng và phân loại</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-dung-cho-doi-tuong-nao-n427.html"
 																	title="Đối tượng nào nên và không nên dùng đông trùng hạ thảo">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/23/resized/doi-tuong-nao-nen-dung-dong-trung_1632385277.png"
 																		alt="Đối tượng nào nên và không nên dùng đông trùng hạ thảo">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8441,22 +4054,16 @@
 																		thảo</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/ruou-dong-trung-ha-thao-n426.html"
 																	title="Rượu đông trùng hạ thảo có tác dùng gì?">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/24/resized/ruou-dong-trung-ha-thao_1632465873.jpg"
 																		alt="Rượu đông trùng hạ thảo có tác dùng gì?">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8465,22 +4072,16 @@
 																		đông trùng hạ thảo có tác dùng gì?</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-bi-moc-n425.html"
 																	title="Dấu hiệu nhận biết đông trùng hạ thảo bị mốc">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/24/resized/dong-trung-ha-thao-bi-moc_1632455730.jpg"
 																		alt="Dấu hiệu nhận biết đông trùng hạ thảo bị mốc">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8490,8 +4091,6 @@
 																</h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8499,17 +4098,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/duoc-lieu/la-voi-n424.html"
 																	title="Lá vối&nbsp;- Công dụng và cách dùng trong điều trị bệnh">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/21/resized/ava-la-voi_1632207900.jpg"
 																		alt="Lá vối&nbsp;- Công dụng và cách dùng trong điều trị bệnh">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8517,22 +4112,16 @@
 																		title="Lá vối&nbsp;- Công dụng và cách dùng trong điều trị bệnh">Lá
 																		vối&nbsp;- Công dụng và cách dùng trong điều trị
 																		bệnh</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/duoc-lieu/hat-oc-cho-n423.html"
 																	title="Quả óc chó là gì? Thành phần, tác dụng của quả óc chó">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/21/resized/qua-oc-cho_1632199154.jpg"
 																		alt="Quả óc chó là gì? Thành phần, tác dụng của quả óc chó">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8542,22 +4131,16 @@
 																		chó</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/duoc-lieu/hoa-atiso-n422.html"
 																	title="Hoa Atiso&nbsp;- Tìm hiểu chi tiết về dược liệu này">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/21/resized/ava-hoa-atiso_1632195466.jpg"
 																		alt="Hoa Atiso&nbsp;- Tìm hiểu chi tiết về dược liệu này">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8567,8 +4150,6 @@
 																		này</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8584,21 +4165,13 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="https://onplaza.vn/tin-cong-ty.html" title="Tin công ty">Tin công
 											ty</a>
-									</div>
-
-									<div class="news_home_slideshow" id="news_home_slideshow">
-
-										<div class="item_inner">
+									</div>									<div class="news_home_slideshow" id="news_home_slideshow">										<div class="item_inner">
 											<div class=" item item_0 cls">
-												<figure class="frame_img ">
-
-													<a class="item-img"
+												<figure class="frame_img ">													<a class="item-img"
 														href="https://onplaza.vn/tin-cong-ty/onplaza-lua-dao-n73.html"
 														title="Lý do On Plaza bị nói “lừa đảo”, bán hàng kém chất lượng">
 														<img class="lazy after-lazy"
@@ -8606,8 +4179,6 @@
 															src="https://onplaza.vn/images/news/2020/12/02/resized/dia-chi-ban-dong-trung-ha-thao_1606879670.jpg"
 															style="display: inline;">
 													</a>
-
-
 												</figure>
 												<div class="frame_right">
 													<h2 class="title"><a
@@ -8615,35 +4186,23 @@
 															title="Lý do On Plaza bị nói “lừa đảo”, bán hàng kém chất lượng">Lý
 															do On Plaza bị nói “lừa đảo”, bán hàng kém chất lượng</a>
 													</h2>
-
-
 												</div>
 											</div>
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="benhhoc.php" title="Bệnh học">Bệnh học</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_18">
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 746px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/benh-hoc/huyet-ap-la-gi-n443.html"
 																	title="Huyết áp là gì? Hướng dẫn cách duy trì huyết áp ổn định">
 																	<img class="owl-lazy"
@@ -8652,8 +4211,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/14/resized/huyet-ap_1655191082.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8661,14 +4218,10 @@
 																		title="Huyết áp là gì? Hướng dẫn cách duy trì huyết áp ổn định">Huyết
 																		áp là gì? Hướng dẫn cách duy trì huyết áp ổn
 																		định</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/benh-hoc/nguoi-benh-cao-huyet-ap-nen-an-gi-n446.html"
 																	title="Người bệnh cao huyết áp nên ăn gì, kiêng gì phòng đột quỵ">
 																	<img class="owl-lazy"
@@ -8677,8 +4230,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/14/resized/cac-loai-trai-cay-co-mui_1655200081.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8688,14 +4239,10 @@
 																		quỵ</a></h2>
 																<div class="datetime">
 																	14/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/benh-hoc/bien-chung-tang-huyet-ap-n445.html"
 																	title="Biến chứng khó lường của tăng huyết áp và cách phòng ngừa">
 																	<img class="owl-lazy"
@@ -8704,8 +4251,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/14/resized/bien-chung-dot-quy_1655198501.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8715,14 +4260,10 @@
 																		ngừa</a></h2>
 																<div class="datetime">
 																	14/06/2022 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/benh-hoc/cach-ha-huyet-ap-n447.html"
 																	title="Hướng dẫn cách hạ huyết áp tại nhà cần biết">
 																	<img class="owl-lazy"
@@ -8731,8 +4272,6 @@
 																		src="https://onplaza.vn/images/news/2022/06/15/resized/cach-ha-huyet-ap_1655258660.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8741,8 +4280,6 @@
 																		dẫn cách hạ huyết áp tại nhà cần biết</a></h2>
 																<div class="datetime">
 																	14/06/2022 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8750,17 +4287,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/benh-hoc/huyet-ap-cao-n444.html"
 																	title="Huyết áp cao: Nhận biết triệu chứng, nguyên nhân và cách điều trị">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2022/06/14/resized/huyet-ap-cao_1655195227.jpg"
 																		alt="Huyết áp cao: Nhận biết triệu chứng, nguyên nhân và cách điều trị">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8768,8 +4301,6 @@
 																		title="Huyết áp cao: Nhận biết triệu chứng, nguyên nhân và cách điều trị">Huyết
 																		áp cao: Nhận biết triệu chứng, nguyên nhân và
 																		cách điều trị</a></h2>
-
-
 															</div>
 														</div>
 													</div>
@@ -8785,34 +4316,18 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="https://onplaza.vn/mon-an.html" title="Món ăn">Món ăn</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_19">
-
-
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 1865px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/gia-to-yen-sao-n429.html"
 																	title="Giá tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở đâu tốt?">
 																	<img class="owl-lazy"
@@ -8821,8 +4336,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/22/resized/gia-to-yen-sao_1632283385.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8830,14 +4343,10 @@
 																		title="Giá tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở đâu tốt?">Giá
 																		tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở
 																		đâu tốt?</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/to-yen-cho-ba-bau-n428.html"
 																	title="Tổ yến cho bà bầu có tốt không? Tác dụng với thai nhi">
 																	<img class="owl-lazy"
@@ -8846,8 +4355,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/22/resized/to-yen-sao-cho-ba-bau_1632278324.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8857,14 +4364,10 @@
 																		nhi</a></h2>
 																<div class="datetime">
 																	22/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/uong-nuoc-yen-nhieu-co-tot-khong-n417.html"
 																	title="Uống nước yến nhiều có tốt không? Hướng dẫn cách uống đúng">
 																	<img class="owl-lazy"
@@ -8873,8 +4376,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/20/resized/uong-nuoc-yen-nhieu-co-tot-khong_1632123143.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8884,14 +4385,10 @@
 																		đúng</a></h2>
 																<div class="datetime">
 																	20/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/che-to-yen-n416.html"
 																	title="10+ Cách nấu chè tổ yến đơn giản cho cả nhà">
 																	<img class="owl-lazy"
@@ -8900,8 +4397,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/20/resized/che-to-yen_1632107543.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8910,8 +4405,6 @@
 																		Cách nấu chè tổ yến đơn giản cho cả nhà</a></h2>
 																<div class="datetime">
 																	20/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -8919,17 +4412,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/sup-to-yen-sao-n415.html"
 																	title="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/sup-to-yen-sao_1631959907.jpg"
 																		alt="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8937,22 +4426,16 @@
 																		title="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">Súp
 																		tổ yến sào - 5 Công thức nấu đặc biệt bổ
 																		dưỡng</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/chao-to-yen-n414.html"
 																	title="6 cách nấu Cháo Tổ Yến cho trẻ ngon mà dễ làm">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/chao-to-yen_1631958231.jpg"
 																		alt="6 cách nấu Cháo Tổ Yến cho trẻ ngon mà dễ làm">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8962,22 +4445,16 @@
 																</h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-to-yen-voi-tre-em-n413.html"
 																	title="Tác dụng của tổ yến với trẻ em? Bé mấy tháng ăn được yến?">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/tac-dung-cua-to-yen-voi-tre-em_1631957313.jpg"
 																		alt="Tác dụng của tổ yến với trẻ em? Bé mấy tháng ăn được yến?">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -8987,22 +4464,16 @@
 																		yến?</a></h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/gia-tri-dinh-duong-cua-to-yen-n410.html"
 																	title="[Phân tích] Giá trị dinh dưỡng của tổ yến sào | Onplaza">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/gia-tri-dinh-duong-cua-to-yen_1631948315.jpg"
 																		alt="[Phân tích] Giá trị dinh dưỡng của tổ yến sào | Onplaza">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9012,8 +4483,6 @@
 																		Onplaza</a></h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9021,17 +4490,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-to-yen-sao-n409.html"
 																	title="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/tac-dung-cua-yen-sao_1631939449.jpg"
 																		alt="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9039,22 +4504,16 @@
 																		title="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">Tác
 																		dụng của yến sào với sức khỏe mà không phải ai
 																		cũng biết</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-bao-quan-yen-n136.html"
 																	title="Hướng dẫn bảo quản yến tươi và yến đã chưng đúng cách">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/01/19/resized/bao-quan-yen_1611030544.jpg"
 																		alt="Hướng dẫn bảo quản yến tươi và yến đã chưng đúng cách">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9064,22 +4523,16 @@
 																		cách</a></h2>
 																<div class="datetime">
 																	15/01/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-su-dung-yen-sao-n135.html"
 																	title="Ăn tổ yến bao nhiêu là đủ? Cách dùng tổ yến tốt từng độ tuổi">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/01/19/resized/lieu-luong-su-dung-yen_1611030559.jpg"
 																		alt="Ăn tổ yến bao nhiêu là đủ? Cách dùng tổ yến tốt từng độ tuổi">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9089,22 +4542,16 @@
 																		từng độ tuổi</a></h2>
 																<div class="datetime">
 																	15/01/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-nuoc-yen-n71.html"
 																	title="Tác dụng của nước yến và những lưu ý quan trọng khi uống">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/thung-nuoc-yen_1607327393.jpg"
 																		alt="Tác dụng của nước yến và những lưu ý quan trọng khi uống">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9114,8 +4561,6 @@
 																		uống</a></h2>
 																<div class="datetime">
 																	25/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9123,17 +4568,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/phan-biet-to-yen-that-gia-n69.html"
 																	title="Cách phân biệt tổ yến thật giả đơn giản - chính xác">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/phan-biet-to-yen_1607327208.jpg"
 																		alt="Cách phân biệt tổ yến thật giả đơn giản - chính xác">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9141,22 +4582,16 @@
 																		title="Cách phân biệt tổ yến thật giả đơn giản - chính xác">Cách
 																		phân biệt tổ yến thật giả đơn giản - chính
 																		xác</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/ky-thuat-nuoi-yen-lay-to-n68.html"
 																	title="Kỹ thuật nuôi yến lấy tổ cho số lượng đàn chim lớn, nhiều tổ">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/ky-thuat-khai-thac-to-chim-yen_1607327141.jpg"
 																		alt="Kỹ thuật nuôi yến lấy tổ cho số lượng đàn chim lớn, nhiều tổ">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9166,22 +4601,16 @@
 																		nhiều tổ</a></h2>
 																<div class="datetime">
 																	25/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html"
 																	title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/nhat-long-to-yen-tho_1607327033.jpg"
 																		alt="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9191,22 +4620,16 @@
 																		nhất</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html"
 																	title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/06_1607326910.jpg"
 																		alt="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9216,8 +4639,6 @@
 																		bầu</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9225,17 +4646,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html"
 																	title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/22/resized/cach-chung-to-yen_1632299512.jpg"
 																		alt="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9243,22 +4660,16 @@
 																		title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">Cách
 																		chưng tổ yến sào ngon với đường phèn, hạt sen,
 																		táo đỏ</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html"
 																	title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/1959976383_1683553997_1607326001.jpg"
 																		alt="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9268,8 +4679,6 @@
 																		sào trước khi dùng</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9285,35 +4694,19 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="tintucyensao.php" title="Tin Tức Yến Sào">Tin Tức
 											Yến Sào</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_20">
-
-
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 1865px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/gia-to-yen-sao-n429.html"
 																	title="Giá tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở đâu tốt?">
 																	<img class="owl-lazy"
@@ -9322,8 +4715,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/22/resized/gia-to-yen-sao_1632283385.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9331,14 +4722,10 @@
 																		title="Giá tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở đâu tốt?">Giá
 																		tổ yến sào bao nhiêu tiền 100gr? Mua tổ yến ở
 																		đâu tốt?</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/to-yen-cho-ba-bau-n428.html"
 																	title="Tổ yến cho bà bầu có tốt không? Tác dụng với thai nhi">
 																	<img class="owl-lazy"
@@ -9347,8 +4734,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/22/resized/to-yen-sao-cho-ba-bau_1632278324.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9358,14 +4743,10 @@
 																		nhi</a></h2>
 																<div class="datetime">
 																	22/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/uong-nuoc-yen-nhieu-co-tot-khong-n417.html"
 																	title="Uống nước yến nhiều có tốt không? Hướng dẫn cách uống đúng">
 																	<img class="owl-lazy"
@@ -9374,8 +4755,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/20/resized/uong-nuoc-yen-nhieu-co-tot-khong_1632123143.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9385,14 +4764,10 @@
 																		đúng</a></h2>
 																<div class="datetime">
 																	20/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/che-to-yen-n416.html"
 																	title="10+ Cách nấu chè tổ yến đơn giản cho cả nhà">
 																	<img class="owl-lazy"
@@ -9401,8 +4776,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/20/resized/che-to-yen_1632107543.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9411,8 +4784,6 @@
 																		Cách nấu chè tổ yến đơn giản cho cả nhà</a></h2>
 																<div class="datetime">
 																	20/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9420,17 +4791,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/sup-to-yen-sao-n415.html"
 																	title="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/sup-to-yen-sao_1631959907.jpg"
 																		alt="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9438,22 +4805,16 @@
 																		title="Súp tổ yến sào - 5 Công thức nấu đặc biệt bổ dưỡng">Súp
 																		tổ yến sào - 5 Công thức nấu đặc biệt bổ
 																		dưỡng</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/chao-to-yen-n414.html"
 																	title="6 cách nấu Cháo Tổ Yến cho trẻ ngon mà dễ làm">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/chao-to-yen_1631958231.jpg"
 																		alt="6 cách nấu Cháo Tổ Yến cho trẻ ngon mà dễ làm">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9463,22 +4824,16 @@
 																</h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-to-yen-voi-tre-em-n413.html"
 																	title="Tác dụng của tổ yến với trẻ em? Bé mấy tháng ăn được yến?">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/tac-dung-cua-to-yen-voi-tre-em_1631957313.jpg"
 																		alt="Tác dụng của tổ yến với trẻ em? Bé mấy tháng ăn được yến?">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9488,22 +4843,16 @@
 																		yến?</a></h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/gia-tri-dinh-duong-cua-to-yen-n410.html"
 																	title="[Phân tích] Giá trị dinh dưỡng của tổ yến sào | Onplaza">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/gia-tri-dinh-duong-cua-to-yen_1631948315.jpg"
 																		alt="[Phân tích] Giá trị dinh dưỡng của tổ yến sào | Onplaza">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9513,8 +4862,6 @@
 																		Onplaza</a></h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9522,17 +4869,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-to-yen-sao-n409.html"
 																	title="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/18/resized/tac-dung-cua-yen-sao_1631939449.jpg"
 																		alt="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9540,22 +4883,16 @@
 																		title="Tác dụng của yến sào với sức khỏe mà không phải ai cũng biết">Tác
 																		dụng của yến sào với sức khỏe mà không phải ai
 																		cũng biết</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-bao-quan-yen-n136.html"
 																	title="Hướng dẫn bảo quản yến tươi và yến đã chưng đúng cách">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/01/19/resized/bao-quan-yen_1611030544.jpg"
 																		alt="Hướng dẫn bảo quản yến tươi và yến đã chưng đúng cách">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9565,22 +4902,16 @@
 																		cách</a></h2>
 																<div class="datetime">
 																	15/01/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-su-dung-yen-sao-n135.html"
 																	title="Ăn tổ yến bao nhiêu là đủ? Cách dùng tổ yến tốt từng độ tuổi">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/01/19/resized/lieu-luong-su-dung-yen_1611030559.jpg"
 																		alt="Ăn tổ yến bao nhiêu là đủ? Cách dùng tổ yến tốt từng độ tuổi">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9590,22 +4921,16 @@
 																		từng độ tuổi</a></h2>
 																<div class="datetime">
 																	15/01/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/tac-dung-cua-nuoc-yen-n71.html"
 																	title="Tác dụng của nước yến và những lưu ý quan trọng khi uống">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/thung-nuoc-yen_1607327393.jpg"
 																		alt="Tác dụng của nước yến và những lưu ý quan trọng khi uống">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9615,8 +4940,6 @@
 																		uống</a></h2>
 																<div class="datetime">
 																	25/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9624,17 +4947,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/phan-biet-to-yen-that-gia-n69.html"
 																	title="Cách phân biệt tổ yến thật giả đơn giản - chính xác">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/phan-biet-to-yen_1607327208.jpg"
 																		alt="Cách phân biệt tổ yến thật giả đơn giản - chính xác">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9642,22 +4961,16 @@
 																		title="Cách phân biệt tổ yến thật giả đơn giản - chính xác">Cách
 																		phân biệt tổ yến thật giả đơn giản - chính
 																		xác</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/ky-thuat-nuoi-yen-lay-to-n68.html"
 																	title="Kỹ thuật nuôi yến lấy tổ cho số lượng đàn chim lớn, nhiều tổ">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/ky-thuat-khai-thac-to-chim-yen_1607327141.jpg"
 																		alt="Kỹ thuật nuôi yến lấy tổ cho số lượng đàn chim lớn, nhiều tổ">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9667,22 +4980,16 @@
 																		nhiều tổ</a></h2>
 																<div class="datetime">
 																	25/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html"
 																	title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/nhat-long-to-yen-tho_1607327033.jpg"
 																		alt="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9692,22 +4999,16 @@
 																		nhất</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html"
 																	title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/06_1607326910.jpg"
 																		alt="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9717,8 +5018,6 @@
 																		bầu</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9726,17 +5025,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html"
 																	title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/22/resized/cach-chung-to-yen_1632299512.jpg"
 																		alt="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9744,22 +5039,16 @@
 																		title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">Cách
 																		chưng tổ yến sào ngon với đường phèn, hạt sen,
 																		táo đỏ</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html"
 																	title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/07/resized/1959976383_1683553997_1607326001.jpg"
 																		alt="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9769,8 +5058,6 @@
 																		sào trước khi dùng</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9786,33 +5073,19 @@
 										</div>
 									</div>
 									<div class="clear"></div>
-								</div>
-
-								<div class="cat_item_store cat_news_store">
+								</div>								<div class="cat_item_store cat_news_store">
 									<div class="title_cat">
 										<a href="tintucdongtrung.php"
 											title="Tin tức Đông Trùng Hạ Thảo">Tin tức Đông Trùng Hạ Thảo</a>
-									</div>
-
-									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
+									</div>									<div class="news_home_slideshow owl-carousel owl-theme owl-responsive--1 owl-loaded"
 										id="news_home_slideshow_21">
-
-
-
-
-
-
-
-
 										<div class="owl-stage-outer">
 											<div class="owl-stage"
 												style="width: 1492px; transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
 												<div class="owl-item active" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-n46.html"
 																	title="Đông trùng hạ thảo là gì? Tìm hiểu thành phần, tác dụng và phân loại">
 																	<img class="owl-lazy"
@@ -9821,8 +5094,6 @@
 																		src="https://onplaza.vn/images/news/2020/11/20/resized/dong-trung-ha-thao_1605856786.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9830,14 +5101,10 @@
 																		title="Đông trùng hạ thảo là gì? Tìm hiểu thành phần, tác dụng và phân loại">Đông
 																		trùng hạ thảo là gì? Tìm hiểu thành phần, tác
 																		dụng và phân loại</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-dung-cho-doi-tuong-nao-n427.html"
 																	title="Đối tượng nào nên và không nên dùng đông trùng hạ thảo">
 																	<img class="owl-lazy"
@@ -9846,8 +5113,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/23/resized/doi-tuong-nao-nen-dung-dong-trung_1632385277.png"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9857,14 +5122,10 @@
 																		thảo</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/ruou-dong-trung-ha-thao-n426.html"
 																	title="Rượu đông trùng hạ thảo có tác dùng gì?">
 																	<img class="owl-lazy"
@@ -9873,8 +5134,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/24/resized/ruou-dong-trung-ha-thao_1632465873.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9883,14 +5142,10 @@
 																		đông trùng hạ thảo có tác dùng gì?</a></h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-bi-moc-n425.html"
 																	title="Dấu hiệu nhận biết đông trùng hạ thảo bị mốc">
 																	<img class="owl-lazy"
@@ -9899,8 +5154,6 @@
 																		src="https://onplaza.vn/images/news/2021/09/24/resized/dong-trung-ha-thao-bi-moc_1632455730.jpg"
 																		style="opacity: 1;">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9910,8 +5163,6 @@
 																</h2>
 																<div class="datetime">
 																	21/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -9919,17 +5170,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-ngam-mat-ong-n412.html"
 																	title="Hướng dẫn cách ngâm đông trùng hạ thảo với mật ong">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/24/resized/dong-trung-ha-thao-tay-tang-ngam-mat-ong_1632468394.jpg"
 																		alt="Hướng dẫn cách ngâm đông trùng hạ thảo với mật ong">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9937,22 +5184,16 @@
 																		title="Hướng dẫn cách ngâm đông trùng hạ thảo với mật ong">Hướng
 																		dẫn cách ngâm đông trùng hạ thảo với mật ong</a>
 																</h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-ky-gi-n411.html"
 																	title="Đông trùng hạ thảo kỵ gì? Lưu ý tác dụng phụ khi sử dụng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/23/resized/dong-trung-ha-thao-ky-gi_1632388964.jpg"
 																		alt="Đông trùng hạ thảo kỵ gì? Lưu ý tác dụng phụ khi sử dụng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9962,22 +5203,16 @@
 																		dụng</a></h2>
 																<div class="datetime">
 																	18/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-bhutan-n407.html"
 																	title="Đông trùng hạ thảo Bhutan có đắt không?">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/17/resized/ava-dong-trung-bhutan_1631871688.jpg"
 																		alt="Đông trùng hạ thảo Bhutan có đắt không?">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -9986,22 +5221,16 @@
 																		trùng hạ thảo Bhutan có đắt không?</a></h2>
 																<div class="datetime">
 																	17/09/2021 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/ga-ham-dong-trung-ha-thao-n430.html"
 																	title="5 công thức gà hầm đông trùng hạ thảo bồi bổ sức khỏe">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/24/resized/ga-ham-dong-trung-ha-thao_1632470092.jpg"
 																		alt="5 công thức gà hầm đông trùng hạ thảo bồi bổ sức khỏe">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10011,8 +5240,6 @@
 																		khỏe</a></h2>
 																<div class="datetime">
 																	23/09/2021 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -10020,17 +5247,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/phan-biet-dong-trung-ha-thao-that-gia-n64.html"
 																	title="Cách phân biệt đông trùng hạ thảo thật giả chính xác 100%">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/11/24/resized/phan-biet-dong-trung-ha-thao-that-gia_1606208746.jpg"
 																		alt="Cách phân biệt đông trùng hạ thảo thật giả chính xác 100%">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10038,22 +5261,16 @@
 																		title="Cách phân biệt đông trùng hạ thảo thật giả chính xác 100%">Cách
 																		phân biệt đông trùng hạ thảo thật giả chính xác
 																		100%</a></h2>
-
-
 															</div>
 														</div>
 														<div class=" item item_1 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-trung-quoc-n63.html"
 																	title="Đông trùng hạ thảo Trung Quốc: Phân loại và tác dụng">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/12/03/resized/dong-trung-ha-thao-trung-quoc_1606985887.jpg"
 																		alt="Đông trùng hạ thảo Trung Quốc: Phân loại và tác dụng">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10063,22 +5280,16 @@
 																		dụng</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_2 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/dong-trung-ha-thao-han-quoc-n62.html"
 																	title="Đông trùng hạ thảo Hàn Quốc nhập khẩu chính hãng 100%">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/11/28/resized/dong-trung-ha-thao-han-quoc_1606553755.jpg"
 																		alt="Đông trùng hạ thảo Hàn Quốc nhập khẩu chính hãng 100%">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10088,22 +5299,16 @@
 																		100%</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 														<div class=" item item_3 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/nuoi-dong-trung-ha-thao-n65.html"
 																	title="Phương pháp nuôi cấy đông trùng hạ thảo">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2021/09/25/resized/quy-trinh--nuoi-cay-nam-dong-trung_1632541301.jpg"
 																		alt="Phương pháp nuôi cấy đông trùng hạ thảo">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10112,8 +5317,6 @@
 																		pháp nuôi cấy đông trùng hạ thảo</a></h2>
 																<div class="datetime">
 																	24/11/2020 </div>
-
-
 															</div>
 														</div>
 													</div>
@@ -10121,17 +5324,13 @@
 												<div class="owl-item" style="width: 373px; margin-right: 0px;">
 													<div class="item_inner">
 														<div class=" item item_0 cls">
-															<figure class="frame_img ">
-
-																<a class="item-img"
+															<figure class="frame_img ">																<a class="item-img"
 																	href="https://onplaza.vn/tin-tuc-dong-trung/cach-dung-dong-trung-ha-thao-n39.html"
 																	title="Cách dùng đông trùng hạ thảo hiệu quả cần phải biết">
 																	<img class="owl-lazy"
 																		data-src="https://onplaza.vn/images/news/2020/11/20/resized/cach-dung-dong-trung-ha-thao_1605864308.jpg"
 																		alt="Cách dùng đông trùng hạ thảo hiệu quả cần phải biết">
 																</a>
-
-
 															</figure>
 															<div class="frame_right">
 																<h2 class="title"><a
@@ -10139,8 +5338,6 @@
 																		title="Cách dùng đông trùng hạ thảo hiệu quả cần phải biết">Cách
 																		dùng đông trùng hạ thảo hiệu quả cần phải
 																		biết</a></h2>
-
-
 															</div>
 														</div>
 													</div>
@@ -10157,73 +5354,37 @@
 									</div>
 									<div class="clear"></div>
 								</div>
-							</div>
-
-						</div>
+							</div>						</div>
 						<style>
 							.wrapper_header .title a,
 							.header_l .summary,
 							.header_r .item_title a,
 							.default_cat .cat_item_store .item a {
-								color: #FFFFFF;
-
-							}
+								color: #FFFFFF;							}
 						</style>
 					</div>
 					<div class="clear"></div>
 				</div>
 				<!-- end.Content -->
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-			<div class="clear"></div>
-
-
-
-			<!--Trên Footer-->
-
-
-
-
+			</div>			<div class="clear"></div>			<!--Trên Footer-->
 			<div class="introdu pos_footer">
 				<div class="wraper_block">
 					<div class="block_banners banners-_banner banners_0 block" id="block_id_148">
 						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 							<div class="item">
 								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101"
-									class="banner_item">
-
-									<span class="wrapper_ap">
+									class="banner_item">									<span class="wrapper_ap">
 										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
 											src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg"
 											srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp"
 											style="display: inline;">
-									</span>
-
-
-
-								</a>
-							</div>
-
-							<div class="clear"></div>
+									</span>								</a>
+							</div>							<div class="clear"></div>
 						</div>
-						<div class="clear"></div>
-
-					</div>
+						<div class="clear"></div>					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-
-			<div class="introdu pos_strength">
+			<div class="clear"></div>			<div class="introdu pos_strength">
 				<div class="wraper_block" style="background-color:#1C0702">
 					<div class="block_strengths strengths-_strengths strengths_0 block" id="block_id_139">
 						<div class="container">
@@ -10241,13 +5402,9 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													CÔNG TY ONPLAZA VIỆT PHÁP </div>
-
-											</div>
+													CÔNG TY ONPLAZA VIỆT PHÁP </div>											</div>
 										</div>
-									</div>
-
-									<div class="item ">
+									</div>									<div class="item ">
 										<div class="item-inner">
 											<div class="item-l">
 												<div class="isvg">
@@ -10289,13 +5446,9 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													Hỗ trợ 24/7 </div>
-
-											</div>
+													Hỗ trợ 24/7 </div>											</div>
 										</div>
 									</div>
-
-
 									<div class="item ">
 										<div class="item-inner">
 											<div class="item-l">
@@ -10351,38 +5504,20 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													Bảo mật thanh toán </div>
-
-											</div>
+													Bảo mật thanh toán </div>											</div>
 										</div>
-									</div>
-
-
-
-								</div>
-
-							</div>
+									</div>								</div>							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-
-			<div class="footer lazy after-lazy"
+			<div class="clear"></div>			<div class="footer lazy after-lazy"
 				style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
 				<footer>
-					<div class="container cls">
-
-						<div class="footer_top cls">
-
-							<div class="all-hotline-ft cls">
-
-								<div class="share_fast_small">
+					<div class="container cls">						<div class="footer_top cls">							<div class="all-hotline-ft cls">								<div class="share_fast_small">
 									<div class="title">HỆ THỐNG SHOWROOM</div>
 								</div>
 								<div class="block_content address_content">
-
-
 									<div class="title">
 										<svg width="20px" height="20px" version="1.1" id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
@@ -10395,15 +5530,9 @@
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 										Hà Nội:
-									</div>
-
-									<ul class="item">
-
-										<li>
+									</div>									<ul class="item">										<li>
 											<p>LK: 76 Hai Bà Trưng</p>
 										</li>
 										<li>
@@ -10413,15 +5542,7 @@
 										<li>
 											<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55 -
 												09.66.60.61.69</p>
-										</li>
-
-
-
-									</ul>
-
-									<ul class="item">
-
-										<li>
+										</li>									</ul>									<ul class="item">										<li>
 											<p>LK: 327 Trường Chinh</p>
 										</li>
 										<li>
@@ -10431,15 +5552,7 @@
 										<li>
 											<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
 												09.65.69.63.64</p>
-										</li>
-
-
-
-									</ul>
-
-
-
-
+										</li>									</ul>
 									<div class="title">
 										<svg width="20px" height="20px" version="1.1" id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
@@ -10452,15 +5565,9 @@
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 										Hồ Chí Minh:
-									</div>
-
-									<ul class="item">
-
-										<li>
+									</div>									<ul class="item">										<li>
 											<p>LK: Hồ Chí Minh</p>
 										</li>
 										<li>
@@ -10470,19 +5577,9 @@
 										</li>
 										<li>
 											<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69</p>
-										</li>
-
-
-
-									</ul>
-
-
-
-
+										</li>									</ul>
 								</div>
-							</div>
-
-							<div class="footer-menu cls">
+							</div>							<div class="footer-menu cls">
 								<ul class="menu-bottom cls">
 									<li class="  level0  first-item">
 										<span class="click-mobile" data-id="menu-sub1"></span> <span data-id="item_1">
@@ -10516,14 +5613,8 @@
 											</li>
 										</ul>
 									</li>
-								</ul>
-
-							</div>
-
-
+								</ul>							</div>
 							<div class="footer_r cls">
-
-
 								<div class="share_fast_small">
 									<div class="title">Kết nối</div>
 									<div class="fb share_item"><a class="facebook-icon"
@@ -10554,8 +5645,6 @@
 		</a>
 		
 	</div>	 -->
-
-
 									<div class="tw share_item">
 										<a class="twitter-icon" href="https://twitter.com/onplazavietphap"
 											title="Link twitter" rel="nofollow" target="_blank">
@@ -10566,9 +5655,7 @@
 												</path>
 											</svg>
 										</a>
-									</div>
-
-									<div class="yt share_item">
+									</div>									<div class="yt share_item">
 										<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
 											title="Link instagram" rel="nofollow" target="_blank">
 											<svg height="15" viewBox="0 0 511 511.9" width="15"
@@ -10582,14 +5669,8 @@
 												<path
 													d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
 												</path>
-											</svg>
-
-										</a>
+											</svg>										</a>
 									</div>
-
-
-
-
 									<div class="yt share_item">
 										<a class="youtube-icon"
 											href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
@@ -10600,60 +5681,34 @@
 												style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
 												<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
 	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>
-
-											</svg>
+	L90.547,145.583z"></path>											</svg>
 										</a>
 									</div>
-
-
 									<div class="clear"></div>
-								</div>
-
-
-
-								<div class="wrap-by-fast cls">
-									<div class="item">
-
-										<div class="phone-left">
+								</div>								<div class="wrap-by-fast cls">
+									<div class="item">										<div class="phone-left">
 											<p class="phone-content">Onplaza </p>
 										</div>
 									</div>
-									<div class="buy_fast">
-
-										<div class="">
+									<div class="buy_fast">										<div class="">
 											<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
 												onsubmit="javascript: return check_Formsubmitemail();">
 												<div class="cls buy_fast_body">
 													<input type="text" value="" placeholder="E-mail address..."
 														id="email1_buy_fast" name="email_buy_fast"
 														class="keyword input-text">
-													<button type="submit" class="button-buy-fast button">
-
-														Đăng ký </button>
-
-												</div>
+													<button type="submit" class="button-buy-fast button">														Đăng ký </button>												</div>
 												<input type="hidden" name="module" value="users">
 												<input type="hidden" name="view" value="users">
 												<input type="hidden" name="task" value="buy_fast_save">
 												<input type="hidden" name="Itemid" value="10">
-											</form>
-
-										</div>
-
-
+											</form>										</div>
 									</div>
 								</div>
-							</div>
-
-						</div>
+							</div>						</div>
 						<div class="clear"></div>
-
-
 					</div>
-					<div class="footer_im cls">
-
-						<div class="image_wrapper">
+					<div class="footer_im cls">						<div class="image_wrapper">
 							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=tintuc.php"
 								title="DMCA.com Protection Status" class="dmca-badge"> <img
 									src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
@@ -10671,18 +5726,12 @@
 								chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
 								747/2014/ATTP-CNDK </div>
 						</div>
-
-
 					</div>
 					<div class="copyright ">
 						<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
 					</div>
 				</footer>
-			</div>
-
-		</div>
-
-
+			</div>		</div>
 		<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
 			<div id="bar-inner">
 				<a class="go-top" href="#page-wrapper" title="Back to top">
@@ -10698,18 +5747,10 @@
 					</svg>
 				</a>
 			</div>
-		</div>
-
-		<input type="hidden" id="Itid" name="Itid" value="44">
-
-
+		</div>		<input type="hidden" id="Itid" name="Itid" value="44">
 		<div id="loading_box">
 			<div id="loading_image"></div>
 		</div>
-
-
-
-
 		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
 		<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
 			<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
@@ -10908,9 +5949,7 @@
 			});
 //]]></script>
 		<!-- end arcontactus widget -->
-		<!--  -->
-
-		<div id="modal_alert1" class="hide">
+		<!--  -->		<div id="modal_alert1" class="hide">
 			<div class="modal_alert_inner">
 				<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
 						onclick="javascript:close_modal_alert1()">X</a></div>
@@ -10948,6 +5987,4 @@
 				sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
 				style="width: 100%; height: 100%;"></iframe></div>
 	</div>
-</body>
-
-</html>
+</body></html>

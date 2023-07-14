@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
-
-<head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp</title>
-
-	<meta name="description"
+	<title>Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp</title>	<meta name="description"
 		content="Tổng hợp tất cả các loại dược liệu quý tại Việt Nam - Là trung tập của mọi loại danh sách dược liệu quý có trong y học của Việt Nam. Mua sử dụng dễ dàng,Dược liệu cao cấp,">
 	<meta name="keywords" content="Dược liệu cao cấp">
-	<!-- <meta name="COPYRIGHT" content="https://delecweb.com" /> -->
-	<!-- <meta name="DEVELOPER" content="https://delecweb.com" /> -->
-	<meta name="dc.language" content="VN">
 	
-
-	<meta name="dc.title" content="Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp">
+	<meta name="dc.language" content="VN">
+		<meta name="dc.title" content="Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp">
 	<meta name="dc.keywords" content="Dược liệu cao cấp">
 	<meta name="dc.subject" content="Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp">
 	<meta name="dc.description"
@@ -40,14 +33,10 @@
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-173996513-1');
+		gtag('js', new Date());		gtag('config', 'UA-173996513-1');
 	</script>
 	<!-- <link rel="author" href="delecweb.com" /> -->
-	<meta property="og:type" content="website">
-
-	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
+	<meta property="og:type" content="website">	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:title" content="Giới thiệu các sản phẩm dược liệu cao cấp - Onplaza Việt Pháp">
 	<meta property="og:url" content="sanphamduoclieu.php">
@@ -56,72 +45,32 @@
 	
 	
 	
-
-
-	<link rel="canonical" href="sanphamduoclieu.php">
-
-	<meta content="INDEX,FOLLOW" name="robots">
+	<link rel="canonical" href="sanphamduoclieu.php">	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
 	
 	<meta property="og:image"
 		content="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg">
 	<meta property="og:image:width" content="600 ">
-	<meta property="og:image:height" content="315">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta property="og:image:height" content="315">	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/base.prod.css">
-
-	<meta name="geo.placename" content="Hà Nội">
+	<link rel="stylesheet" href="assets/css/base.prod.css">	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
-	<meta name="ICBM" content="21, 105.83">
-
-	<style amp-custom="">
-
-
+	<meta name="ICBM" content="21, 105.83">	<style amp-custom="">
 		/*# sourceMappingURL=admin_edit.css.map */
-		
-
-		
-
-		
-
-		
-		
-
-		
-
-		
-
-		
-
-		/*# sourceMappingURL=products.css.map */
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		.readmore,
+								
+										/*# sourceMappingURL=products.css.map */
+														.readmore,
 		.readmore_open {
 			text-align: center;
 			display: block;
 			margin-top: 20px;
 			margin-bottom: 28px;
 			font-size: 15px
-		}
-
-		.readmore span,
+		}		.readmore span,
 		.readmore_open span {
 			text-align: center;
 			color: var(--main-color);
@@ -134,17 +83,13 @@
 			box-sizing: border-box;
 			-moz-transition: all 0.2s ease-in 0;
 			-webkit-transition: all 0.2s ease-in
-		}
-
-		.readmore span svg,
+		}		.readmore span svg,
 		.readmore_open span svg {
 			width: 8px;
 			height: 8px;
 			fill: var(--main-color);
 			margin-left: 8px
-		}
-
-		.readmore span::before,
+		}		.readmore span::before,
 		.readmore_open span::before {
 			display: inline-block;
 			width: 10px;
@@ -156,142 +101,92 @@
 			background: url('data:image/svg+xml;utf8,  <svg width="10px" height="10px" fill="rgb(244, 224, 175)" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve"><g><g><path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848 L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128 c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084 c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224 C491.996,136.902,489.204,130.046,484.132,124.986z"/></g></g></svg>');
 			background-repeat: no-repeat;
 			content: ''
-		}
-
-		.readmore span:hover:after,
+		}		.readmore span:hover:after,
 		.readmore_open span::before:after {
 			border-top: 7px solid #cc0012 !important
-		}
-
-		.readmore span:hover::after,
+		}		.readmore span:hover::after,
 		.readmore_open span:hover::after {
 			-moz-transition: all 0.2s ease-in 0;
 			-webkit-transition: all 0.2s ease-in;
 			-webkit-transition-delay: 0;
 			transition: all 0.2s ease-in 0;
 			border-top: 10px solid var(--main-color)
-		}
-
-		#box_conten_linfo {
+		}		#box_conten_linfo {
 			overflow: hidden
-		}
-
-		.banners_wrapper span {
+		}		.banners_wrapper span {
 			display: grid
-		}
-
-		.pro_cattt {
+		}		.pro_cattt {
 			padding: 50px 0px 0px;
 			border-bottom: 3px solid #782400
-		}
-
-		@media screen and (max-width: 990px) {
+		}		@media screen and (max-width: 990px) {
 			.pro_cattt {
 				padding: 15px 0px 0px;
 				border-bottom: 1px solid #782400
 			}
-		}
-
-		.pro_cattt .title-name {
+		}		.pro_cattt .title-name {
 			margin-bottom: 20px
-		}
-
-		#readmore_desc2 {
+		}		#readmore_desc2 {
 			margin: 0px
-		}
-
-		.wraper_block .banners_wrapper {
+		}		.wraper_block .banners_wrapper {
 			margin-top: 0px !important
-		}
-
-		#products-cat .cat-title-main {
+		}		#products-cat .cat-title-main {
 			margin-bottom: 25px
-		}
-
-		@media screen and (max-width: 900px) {
+		}		@media screen and (max-width: 900px) {
 			#products-cat .cat-title-main {
 				margin-bottom: 15px
 			}
-		}
-
-		/*# sourceMappingURL=cat.css.map */
+		}		/*# sourceMappingURL=cat.css.map */
 		.owl-carousel .animated {
 			-webkit-animation-duration: 1000ms;
 			animation-duration: 1000ms;
 			-webkit-animation-fill-mode: both;
 			animation-fill-mode: both
-		}
-
-		.owl-carousel .owl-animated-in {
+		}		.owl-carousel .owl-animated-in {
 			z-index: 0
-		}
-
-		.owl-carousel .owl-animated-out {
+		}		.owl-carousel .owl-animated-out {
 			z-index: 1
-		}
-
-		.owl-carousel .fadeOut {
+		}		.owl-carousel .fadeOut {
 			-webkit-animation-name: fadeOut;
 			animation-name: fadeOut
-		}
-
-		@-webkit-keyframes fadeOut {
+		}		@-webkit-keyframes fadeOut {
 			0% {
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				opacity: 0
 			}
-		}
-
-		@keyframes fadeOut {
+		}		@keyframes fadeOut {
 			0% {
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				opacity: 0
 			}
-		}
-
-		.owl-height {
+		}		.owl-height {
 			-webkit-transition: height 500ms ease-in-out;
 			-moz-transition: height 500ms ease-in-out;
 			-ms-transition: height 500ms ease-in-out;
 			-o-transition: height 500ms ease-in-out;
 			transition: height 500ms ease-in-out
-		}
-
-		.owl-carousel {
+		}		.owl-carousel {
 			display: none;
 			width: 100%;
 			-webkit-tap-highlight-color: transparent;
 			position: relative;
 			z-index: 1
-		}
-
-		.owl-carousel .owl-stage {
+		}		.owl-carousel .owl-stage {
 			position: relative;
 			-ms-touch-action: pan-Y
-		}
-
-		.owl-carousel .owl-stage:after {
+		}		.owl-carousel .owl-stage:after {
 			content: ".";
 			display: block;
 			clear: both;
 			visibility: hidden;
 			line-height: 0;
 			height: 0
-		}
-
-		.owl-carousel .owl-stage-outer {
+		}		.owl-carousel .owl-stage-outer {
 			position: relative;
 			overflow: hidden;
 			-webkit-transform: translate3d(0px, 0px, 0px)
-		}
-
-		.owl-carousel .owl-controls .owl-nav .owl-prev,
+		}		.owl-carousel .owl-controls .owl-nav .owl-prev,
 		.owl-carousel .owl-controls .owl-nav .owl-next,
 		.owl-carousel .owl-controls .owl-dot {
 			cursor: pointer;
@@ -301,26 +196,16 @@
 			-moz-user-select: none;
 			-ms-user-select: none;
 			user-select: none
-		}
-
-		.owl-carousel.owl-loaded {
+		}		.owl-carousel.owl-loaded {
 			display: block
-		}
-
-		.owl-carousel.owl-loading {
+		}		.owl-carousel.owl-loading {
 			opacity: 0;
 			display: block
-		}
-
-		.owl-carousel.owl-hidden {
+		}		.owl-carousel.owl-hidden {
 			opacity: 0
-		}
-
-		.owl-carousel .owl-refresh .owl-item {
+		}		.owl-carousel .owl-refresh .owl-item {
 			display: none
-		}
-
-		.owl-carousel .owl-item {
+		}		.owl-carousel .owl-item {
 			position: relative;
 			min-height: 1px;
 			float: left;
@@ -331,59 +216,39 @@
 			-moz-user-select: none;
 			-ms-user-select: none;
 			user-select: none
-		}
-
-		.owl-carousel .owl-item img {
+		}		.owl-carousel .owl-item img {
 			-webkit-transform-style: preserve-3d
-		}
-
-		.owl-carousel.owl-text-select-on .owl-item {
+		}		.owl-carousel.owl-text-select-on .owl-item {
 			-webkit-user-select: auto;
 			-moz-user-select: auto;
 			-ms-user-select: auto;
 			user-select: auto
-		}
-
-		.owl-carousel .owl-grab {
+		}		.owl-carousel .owl-grab {
 			cursor: move;
 			cursor: -webkit-grab;
 			cursor: -o-grab;
 			cursor: -ms-grab;
 			cursor: grab
-		}
-
-		.owl-carousel.owl-rtl {
+		}		.owl-carousel.owl-rtl {
 			direction: rtl
-		}
-
-		.owl-carousel.owl-rtl .owl-item {
+		}		.owl-carousel.owl-rtl .owl-item {
 			float: right
-		}
-
-		.no-js .owl-carousel {
+		}		.no-js .owl-carousel {
 			display: block
-		}
-
-		.owl-carousel .owl-item .owl-lazy {
+		}		.owl-carousel .owl-item .owl-lazy {
 			opacity: 0;
 			-webkit-transition: opacity 400ms ease;
 			-moz-transition: opacity 400ms ease;
 			-ms-transition: opacity 400ms ease;
 			-o-transition: opacity 400ms ease;
 			transition: opacity 400ms ease
-		}
-
-		.owl-carousel .owl-item img {
+		}		.owl-carousel .owl-item img {
 			transform-style: preserve-3d
-		}
-
-		.owl-carousel .owl-video-wrapper {
+		}		.owl-carousel .owl-video-wrapper {
 			position: relative;
 			height: 100%;
 			background: #000
-		}
-
-		.owl-carousel .owl-video-play-icon {
+		}		.owl-carousel .owl-video-play-icon {
 			position: absolute;
 			height: 80px;
 			width: 80px;
@@ -400,22 +265,16 @@
 			-ms-transition: scale 100ms ease;
 			-o-transition: scale 100ms ease;
 			transition: scale 100ms ease
-		}
-
-		.owl-carousel .owl-video-play-icon:hover {
+		}		.owl-carousel .owl-video-play-icon:hover {
 			-webkit-transition: scale(1.3, 1.3);
 			-moz-transition: scale(1.3, 1.3);
 			-ms-transition: scale(1.3, 1.3);
 			-o-transition: scale(1.3, 1.3);
 			transition: scale(1.3, 1.3)
-		}
-
-		.owl-carousel .owl-video-playing .owl-video-tn,
+		}		.owl-carousel .owl-video-playing .owl-video-tn,
 		.owl-carousel .owl-video-playing .owl-video-play-icon {
 			display: none
-		}
-
-		.owl-carousel .owl-video-tn {
+		}		.owl-carousel .owl-video-tn {
 			opacity: 0;
 			height: 100%;
 			background-position: center center;
@@ -429,14 +288,10 @@
 			-ms-transition: opacity 400ms ease;
 			-o-transition: opacity 400ms ease;
 			transition: opacity 400ms ease
-		}
-
-		.owl-carousel .owl-video-frame {
+		}		.owl-carousel .owl-video-frame {
 			position: relative;
 			z-index: 1
-		}
-
-		/*# sourceMappingURL=owl.carousel.css.map */
+		}		/*# sourceMappingURL=owl.carousel.css.map */
 		.slideshow .owl-item .item .item_ordering {
 			position: absolute;
 			top: 120px;
@@ -445,33 +300,19 @@
 			color: #fff;
 			z-index: 14;
 			display: none
-		}
-
-		.slideshow .owl-item .item:hover:after {
+		}		.slideshow .owl-item .item:hover:after {
 			opacity: 0.3
-		}
-
-		.slider-home-wrapper {
+		}		.slider-home-wrapper {
 			position: relative
-		}
-
-		#fs-slider-home {
+		}		#fs-slider-home {
 			display: block
-		}
-
-		#fs-slider-home .item:first-child {
+		}		#fs-slider-home .item:first-child {
 			display: block
-		}
-
-		.slider-home-wrapper .owl-carousel {
+		}		.slider-home-wrapper .owl-carousel {
 			position: initial
-		}
-
-		#fs-slider-home img {
+		}		#fs-slider-home img {
 			width: 100%
-		}
-
-		#fs-slider-home h3 {
+		}		#fs-slider-home h3 {
 			background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
 			bottom: 0;
 			color: #fff;
@@ -483,17 +324,11 @@
 			padding: 8px 20px;
 			position: absolute;
 			width: 100%
-		}
-
-		#fs-slider-home .item {
+		}		#fs-slider-home .item {
 			text-align: center
-		}
-
-		#fs-slider-home .item a {
+		}		#fs-slider-home .item a {
 			display: grid
-		}
-
-		.owl-dot {
+		}		.owl-dot {
 			background: #ffb26f;
 			margin: 0px 8px;
 			width: 10px;
@@ -501,21 +336,15 @@
 			border-radius: 50%;
 			display: inline-block;
 			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			.owl-dot {
 				width: 8px;
 				height: 8px;
 				margin: 0px 5px
 			}
-		}
-
-		#fs-slider-home:hover .owl-dot {
+		}		#fs-slider-home:hover .owl-dot {
 			opacity: 1
-		}
-
-		#fs-slider-home .owl-dots {
+		}		#fs-slider-home .owl-dots {
 			text-align: center;
 			position: absolute;
 			bottom: 35px;
@@ -523,19 +352,13 @@
 			border-radius: 19px;
 			left: 50%;
 			transform: translate(-50%, 0)
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			#fs-slider-home .owl-dots {
 				bottom: 15px
 			}
-		}
-
-		#fs-slider-home .owl-dot {
+		}		#fs-slider-home .owl-dot {
 			position: relative
-		}
-
-		#fs-slider-home .owl-dot:before {
+		}		#fs-slider-home .owl-dot:before {
 			width: 20px;
 			height: 20px;
 			position: absolute;
@@ -545,37 +368,25 @@
 			border: 1px solid transparent;
 			transition: 0.5s;
 			content: ""
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			#fs-slider-home .owl-dot:before {
 				width: 14px;
 				height: 14px;
 				top: -4px;
 				left: -4px
 			}
-		}
-
-		#fs-slider-home .owl-dot.active,
+		}		#fs-slider-home .owl-dot.active,
 		#fs-slider-home .owl-dot:hover {
 			background: #ffb26f;
 			box-shadow: inset rgba(255, 255, 255, 0.37) -1px 1px 1px
-		}
-
-		#fs-slider-home .owl-dot.active:before,
+		}		#fs-slider-home .owl-dot.active:before,
 		#fs-slider-home .owl-dot:hover:before {
 			border: 1px solid #ffb26f
-		}
-
-		.slider-home {
+		}		.slider-home {
 			min-width: 1360px
-		}
-
-		#fs-slider-home:hover .owl-controls .owl-nav {
+		}		#fs-slider-home:hover .owl-controls .owl-nav {
 			display: block
-		}
-
-		#fs-slider-home .owl-controls .owl-nav div {
+		}		#fs-slider-home .owl-controls .owl-nav div {
 			display: inline-block;
 			zoom: 1;
 			position: absolute;
@@ -597,131 +408,85 @@
 			padding: 10px;
 			border-radius: 5px;
 			opacity: 0
-		}
-
-		@media screen and (max-width: 650px) {
+		}		@media screen and (max-width: 650px) {
 			#fs-slider-home .owl-controls .owl-nav div {
 				display: none
 			}
-		}
-
-		#fs-slider-home .owl-controls .owl-nav div:hover {
+		}		#fs-slider-home .owl-controls .owl-nav div:hover {
 			background: var(--main-color)
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			#fs-slider-home .owl-controls .owl-nav div {
 				padding: 8px 15px 4px
 			}
-		}
-
-		#fs-slider-home:hover .owl-controls .owl-nav div {
+		}		#fs-slider-home:hover .owl-controls .owl-nav div {
 			transition: all 0.3s;
 			opacity: 1
-		}
-
-		#fs-slider-home .owl-controls .owl-prev {
+		}		#fs-slider-home .owl-controls .owl-prev {
 			left: 80px;
 			transition: all 0.5s
-		}
-
-		#fs-slider-home .owl-controls .owl-prev::before {
+		}		#fs-slider-home .owl-controls .owl-prev::before {
 			content: '';
 			background: url("https://onplaza.vn/blocks/slideshow/assets/images/prev.png") 0 0 no-repeat;
 			background-size: 18px;
 			vertical-align: middle;
 			transition: all 0.5s
-		}
-
-		@media all and (max-width: 960px) {
+		}		@media all and (max-width: 960px) {
 			#fs-slider-home .owl-controls .owl-prev::before {
 				background-size: 15px
 			}
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			#fs-slider-home .owl-controls .owl-prev::before {
 				background-size: 27px
 			}
-		}
-
-		#fs-slider-home .owl-controls .owl-prev:hover::before {
+		}		#fs-slider-home .owl-controls .owl-prev:hover::before {
 			opacity: 1;
 			transition: all 0.5s
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			#fs-slider-home .owl-controls .owl-prev {
 				left: 40px
 			}
-		}
-
-		#fs-slider-home .owl-controls .owl-next {
+		}		#fs-slider-home .owl-controls .owl-next {
 			right: 80px;
 			transition: all 0.5s
-		}
-
-		#fs-slider-home .owl-controls .owl-next::after {
+		}		#fs-slider-home .owl-controls .owl-next::after {
 			content: '';
 			background: url("https://onplaza.vn/blocks/slideshow/assets/images/next.png") 0 0 no-repeat;
 			background-size: 18px;
 			vertical-align: middle;
 			transition: all 0.5s
-		}
-
-		@media all and (max-width: 960px) {
+		}		@media all and (max-width: 960px) {
 			#fs-slider-home .owl-controls .owl-next::after {
 				background-size: 15px
 			}
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			#fs-slider-home .owl-controls .owl-next::after {
 				background-size: 27px
 			}
-		}
-
-		#fs-slider-home .owl-controls .owl-next::after:hover {
+		}		#fs-slider-home .owl-controls .owl-next::after:hover {
 			opacity: 1
-		}
-
-		#fs-slider-home .owl-controls .owl-next:hover::after {
+		}		#fs-slider-home .owl-controls .owl-next:hover::after {
 			opacity: 1;
 			transition: all 0.5s
-		}
-
-		@media all and (max-width: 600px) {
+		}		@media all and (max-width: 600px) {
 			#fs-slider-home .owl-controls .owl-next {
 				right: 40px
 			}
-		}
-
-		.owl-controls .owl-next::after,
+		}		.owl-controls .owl-next::after,
 		.owl-controls .owl-prev::before {
 			width: 18px;
 			height: 16px;
 			display: inline-block;
 			opacity: 0.4
-		}
-
-		@media all and (max-width: 600px) {
-
-			.owl-controls .owl-next::after,
+		}		@media all and (max-width: 600px) {			.owl-controls .owl-next::after,
 			.owl-controls .owl-prev::before {
 				width: 27px;
 				height: 25px
 			}
-		}
-
-		@media all and (max-width: 600px) {
-
-			.owl-controls .owl-prev::after,
+		}		@media all and (max-width: 600px) {			.owl-controls .owl-prev::after,
 			.owl-controls .owl-next::before {
 				display: none
 			}
-		}
-
-		.slide-content {
+		}		.slide-content {
 			position: absolute;
 			top: 25%;
 			right: 8%;
@@ -735,9 +500,7 @@
 			min-height: 300px;
 			z-index: 1;
 			text-align: right
-		}
-
-		.slide-content .title-banner-big,
+		}		.slide-content .title-banner-big,
 		.slide-content .title-banner-small {
 			font-size: 40px;
 			text-transform: uppercase;
@@ -745,57 +508,31 @@
 			transform: translate(0px, -200px);
 			font-weight: normal;
 			line-height: 45px
-		}
-
-		@media all and (max-width: 1240px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 1240px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				font-size: 40px
 			}
-		}
-
-		@media all and (max-width: 1170px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 1170px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				font-size: 36px
 			}
-		}
-
-		@media all and (max-width: 990px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 990px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				font-size: 30px
 			}
-		}
-
-		@media all and (max-width: 740px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 740px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				letter-spacing: 3px
 			}
-		}
-
-		@media all and (max-width: 630px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 630px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				font-size: 25px
 			}
-		}
-
-		@media all and (max-width: 530px) {
-
-			.slide-content .title-banner-big,
+		}		@media all and (max-width: 530px) {			.slide-content .title-banner-big,
 			.slide-content .title-banner-small {
 				font-size: 20px
 			}
-		}
-
-		.slide-content .description-slide {
+		}		.slide-content .description-slide {
 			font-size: 16px;
 			text-align: center;
 			position: absolute;
@@ -803,34 +540,24 @@
 			padding-top: 20px;
 			text-align: right;
 			width: 100%
-		}
-
-		@media all and (max-width: 1240px) {
+		}		@media all and (max-width: 1240px) {
 			.slide-content .description-slide {
 				font-size: 18px
 			}
-		}
-
-		@media all and (max-width: 990px) {
+		}		@media all and (max-width: 990px) {
 			.slide-content .description-slide {
 				font-size: 16px
 			}
-		}
-
-		@media all and (max-width: 960px) {
+		}		@media all and (max-width: 960px) {
 			.slide-content .description-slide {
 				line-height: 30px;
 				margin: 15px 0px
 			}
-		}
-
-		@media all and (max-width: 700px) {
+		}		@media all and (max-width: 700px) {
 			.slide-content .description-slide {
 				display: none
 			}
-		}
-
-		.slide-content .button-slide-basic {
+		}		.slide-content .button-slide-basic {
 			display: inline-block;
 			padding: 13px 40px;
 			font-size: 14px;
@@ -842,2763 +569,152 @@
 			border: 0;
 			margin-top: 100px;
 			transform: translate(-500px, 0px)
-		}
-
-		.slide-content .button-slide-basic:hover {
+		}		.slide-content .button-slide-basic:hover {
 			color: #fff;
 			background-color: #323232;
 			-webkit-box-shadow: none;
 			box-shadow: none;
 			outline: none !important
-		}
-
-		.slide-content .button-slide-basic img {
+		}		.slide-content .button-slide-basic img {
 			width: 20px;
 			height: 20px
-		}
-
-		@media all and (max-width: 1240px) {
+		}		@media all and (max-width: 1240px) {
 			.slide-content .button-slide-basic {
 				border-radius: 20px;
 				padding: 12px 20px;
 				font-size: 14px;
 				letter-spacing: 3px
 			}
-		}
-
-		@media all and (max-width: 1170px) {
+		}		@media all and (max-width: 1170px) {
 			.slide-content .button-slide-basic {
 				font-size: 12px
 			}
-		}
-
-		@media all and (max-width: 990px) {
+		}		@media all and (max-width: 990px) {
 			.slide-content .button-slide-basic {
 				padding: 8px 15px
 			}
-		}
-
-		@media all and (max-width: 780px) {
+		}		@media all and (max-width: 780px) {
 			.slide-content .button-slide-basic {
 				display: none
 			}
-		}
-
-		@media all and (max-width: 1170px) {
+		}		@media all and (max-width: 1170px) {
 			.slide-content {
 				top: 25%
 			}
-		}
-
-		@media all and (max-width: 990px) {
+		}		@media all and (max-width: 990px) {
 			.slide-content {
 				width: 50%
 			}
-		}
-
-		@media all and (max-width: 740px) {
+		}		@media all and (max-width: 740px) {
 			.slide-content {
 				top: 20%
 			}
-		}
-
-		@media all and (max-width: 700px) {
+		}		@media all and (max-width: 700px) {
 			.slide-content {
 				top: 37%;
 				right: 12%
 			}
-		}
-
-		@media all and (max-width: 670px) {
+		}		@media all and (max-width: 670px) {
 			.slide-content {
 				width: 45%;
 				display: none
 			}
-		}
-
-		.active .sl-content {
+		}		.active .sl-content {
 			transform: translate(0)
-		}
-
-		.active .title-banner-big {
+		}		.active .title-banner-big {
 			animation: title-up 5s running ease-out 1s
-		}
-
-		.active .title-banner-small {
+		}		.active .title-banner-small {
 			animation: title-up2 5s running ease-out 1s
-		}
-
-		.active .description-slide {
+		}		.active .description-slide {
 			animation: des-run 5s running ease-out 1s
-		}
-
-		.active .button-slide {
+		}		.active .button-slide {
 			animation: btn-run 5s running ease-out 1s
-		}
-
-		@keyframes title-up {
+		}		@keyframes title-up {
 			20% {
 				transform: translate(0px, 0px)
-			}
-
-			85% {
+			}			85% {
 				transform: translate(0px, 0px)
-			}
-
-			100% {
+			}			100% {
 				transform: translate(0px, -200px)
 			}
-		}
-
-		@keyframes title-up2 {
+		}		@keyframes title-up2 {
 			20% {
 				transform: translate(0px, 0px);
 				opacity: 0
-			}
-
-			85% {
+			}			85% {
 				transform: translate(0px, 0px);
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				transform: translate(0px, -200px);
 				opacity: 0
 			}
-		}
-
-		@keyframes des-run {
+		}		@keyframes des-run {
 			0% {
 				transform: scale(2);
 				opacity: 0
-			}
-
-			20% {
+			}			20% {
 				transform: scale(1);
 				opacity: 1
-			}
-
-			85% {
+			}			85% {
 				transform: scale(1);
 				opacity: 1
-			}
-
-			100% {
+			}			100% {
 				transform: scale(0);
 				opacity: 0
 			}
-		}
-
-		@keyframes btn-run {
+		}		@keyframes btn-run {
 			20% {
 				transform: translate(0px, 0px)
-			}
-
-			85% {
+			}			85% {
 				transform: translate(0px, 0px)
-			}
-
-			100% {
+			}			100% {
 				transform: translate(-500px, 0px)
 			}
-		}
-
-		@media screen and (max-width: 700px) {
+		}		@media screen and (max-width: 700px) {
 			.slider-home-wrapper {
 				overflow: hidden
-			}
-
-			.slider-home {
+			}			.slider-home {
 				margin-left: -40%;
 				margin-right: -40%
 			}
-		}
-
-		.wraper_block .banners_wrapper {
+		}		.wraper_block .banners_wrapper {
 			margin-top: -50px
-		}
-
-		.wraper_block .banners_wrapper .wrapper_ap {
+		}		.wraper_block .banners_wrapper .wrapper_ap {
 			display: grid
-		}
-
-		/*# sourceMappingURL=owl_carousel_home.css.map */
+		}		/*# sourceMappingURL=owl_carousel_home.css.map */
 		.breadcrumb {
 			padding: 12px 0 12px 0
-		}
-
-		@media screen and (max-width: 400px) {
+		}		@media screen and (max-width: 400px) {
 			.breadcrumb {
 				padding: 3px 0 5px 0
 			}
-		}
-
-		.breadcrumb::after {
+		}		.breadcrumb::after {
 			display: block;
 			clear: both;
 			content: " "
-		}
-
-		.breadcrumb__item {
+		}		.breadcrumb__item {
 			display: inline-block;
 			margin-right: 20px;
 			list-style: none;
 			color: #eee;
 			font-size: 14px;
 			position: relative
-		}
-
-		
-
-		
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub {
-			width: 45%;
-			float: left;
-			box-sizing: border-box;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub a {
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto;
-			width: 100%;
-			height: 330px;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item {
-			width: 90%;
-			float: left;
-			padding: 5px 0px;
-			border-bottom: 1px solid #e8d29c38
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1 {
-			color: var(--main-color);
-			text-transform: capitalize;
-			font-size: 13px;
-			line-height: 20px;
-			display: block;
-			font-weight: 700;
-			float: left;
-			display: block;
-			width: 27%;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1:hover {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul {
-			float: left;
-			width: 70%
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li a {
-			color: #fff;
-			text-transform: unset;
-			font-size: 13px;
-			line-height: 20px;
-			margin: 0px 12px 5px;
-			display: block;
-			float: left;
-			display: block;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li:hover a {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat {
-			height: 155px;
-			width: 40%;
-			float: left;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_view {
-			width: 60%;
-			height: 165px;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item-info {
-			width: 100%;
-			float: left;
-			padding-left: 10px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .name {
-			font-weight: bold;
-			font-size: 16px;
-			margin-bottom: 10px;
-			line-height: 20px;
-			color: #555
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .price {
-			font-weight: bold;
-			color: #ff0000;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item:hover .item_lv1 {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .cat_item2 {
-			padding-bottom: 0px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0 {
-			position: relative
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0:after {
-			content: "";
-			position: absolute;
-			right: 5px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			color: #02587b;
-			line-height: 41px;
-			width: 13px;
-			height: 13px;
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat;
-			text-align: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .wraper_item {
-			position: absolute;
-			left: 256px;
-			z-index: 999;
-			top: 0px;
-			background: #00000091;
-			width: calc(100% - 256px);
-			padding: 10px 20px 20px;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			box-sizing: border-box;
-			opacity: 0;
-			transition: 0.2s all ease;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child:hover .wraper_item {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu ul.menu .level_0:hover .highlight {
-			opacity: 1;
-			visibility: initial;
-			transition: 0.2s
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover {
-			cursor: pointer;
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover .level_0 {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1 .active_n {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .has_child:hover .level_0:after {
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .logo_img {
-			max-height: 75px
-		}
-
-		.slide-down {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-down .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-down .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-down .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-down .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-up .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-up .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-up .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: left
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.top_menu #megamenu {
-				position: absolute;
-				background: var(--main-color);
-				width: 100%;
-				left: 0px;
-				top: 70px;
-				z-index: 999;
-				border-left: 1px solid #EFEFEF;
-				border-bottom: 1px solid #EFEFEF;
-				display: none
-			}
-
-			.dcjq-mega-menu .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left svg {
-				color: black;
-				width: 25px;
-				height: 25px;
-				position: absolute;
-				top: 50%;
-				right: 10px;
-				transform: translate(0px, -50%);
-				fill: var(--main-color)
-			}
-
-			.dcjq-mega-menu .menu_item_a {
-				display: block;
-				float: none;
-				text-align: left;
-				padding: 10px 0 10px 10px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				border-top: 1px solid rgba(255, 255, 255, 0.56);
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu ul.menu li.mega-hover a,
-			.dcjq-mega-menu ul.menu>li.activated>a,
-			.dcjq-mega-menu ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1:hover {
-				background: #9c0278
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu .home {
-			padding: 9px 18px 7px 0px;
-			justify-content: flex-start;
-			width: 15%;
-			transition: 0.5s all ease;
-			align-items: center
-		}
-
-		#megamenu .home:hover {
-			justify-content: center;
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .home svg {
-			width: 20px;
-			height: 20px;
-			fill: #fff
-		}
-
-		#megamenu .active_home {
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .activated {
-			justify-content: center
-		}
-
-		#megamenu .activated .icon_svg svg,
-		#megamenu .activated .drop_down svg {
-			fill: var(--extra-color)
-		}
-
-		.dcjq-mega-menu .level_0>a {
-			display: flex;
-			position: relative
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg {
-			box-sizing: border-box;
-			border-radius: 50px;
-			justify-content: center;
-			margin-right: 7px;
-			position: absolute;
-			left: 10px
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg svg {
-			width: 17px;
-			fill: var(--main-color);
-			height: 17px;
-			box-sizing: border-box
-		}
-
-		.dcjq-mega-menu .product_home_active {
-			opacity: 1;
-			visibility: visible
-		}
-
-		/*# sourceMappingURL=megamenu.css.map */
-		.search-contain .search-content {
-			border: none
-		}
-
-		.search-contain input[type="text"] {
-			outline: none;
-			border: none;
-			background: no-repeat;
-			width: 100%;
-			height: 36px;
-			padding-left: 15px;
-			box-sizing: border-box;
-			font-family: arial;
-			font-size: 13px;
-			border: 3px solid #210e02;
-			color: #c4ac9c;
-			background: #443226;
-			border-radius: 50px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.search-contain input[type="text"] {
-				border: 0px;
-				height: 40px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.search-contain input[type="text"] {
-				height: 35px
-			}
-		}
-
-		.search-contain input::-webkit-input-placeholder {
-			color: #c4ac9c
-		}
-
-		#search_form_home {
-			position: relative
-		}
-
-		#search_form_home .dclose {
-			display: inline;
-			position: absolute;
-			padding: 2px;
-			cursor: pointer;
-			box-sizing: border-box;
-			right: 0px;
-			width: 40px;
-			height: 40px;
-			background: var(--main-color);
-			text-align: center;
-			border-radius: 0 4px 4px 0
-		}
-
-		#search_form_home .dclose span {
-			cursor: pointer;
-			font-size: 25px;
-			color: #fff
-		}
-
-		.button-search {
-			outline: none;
-			height: 30px;
-			width: 75px;
-			position: absolute;
-			background: none;
-			justify-content: center;
-			border: none;
-			align-items: center;
-			right: 3px;
-			top: 3px;
-			border-radius: 50px;
-			display: flex;
-			cursor: pointer;
-			background: var(--extra-color)
-		}
-
-		.button-search svg {
-			fill: var(--main-color);
-			width: 17px;
-			height: 17px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.button-search {
-				height: 40px;
-				width: 95px;
-				right: 0px;
-				top: 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.button-search {
-				height: 35px
-			}
-		}
-
-		
-
-		
-
-		/*# sourceMappingURL=top_search_home.css.map */
-		.dcjq-mega-menu-mobile #megamenu3 {
-			position: relative;
-			z-index: 99;
-			background: var(--main-color);
-			width: 100%;
-			z-index: 999
-		}
-
-		@media all and (max-width: 400px) {
-			.dcjq-mega-menu-mobile #megamenu3 {
-				margin-top: 0
-			}
-		}
-
-		.top_menu .active a {
-			color: var(--main-color)
-		}
-
-		#megamenu3 .menu-sepa {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0 {
-			float: left;
-			position: relative;
-			padding: 0px 0px 0px 10px;
-			margin: 0px 0px 0px 10px;
-			text-align: center;
-			box-sizing: border-box;
-			-webkit-transition: 0.5s ease-in-out all;
-			transition: 0.5s ease-in-out all;
-			display: flex
-		}
-
-		@media screen and (min-width: 990px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				flex: 1
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:first-child {
-			border-left: 0px solid #eee
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:last-child {
-			border-right: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a {
-			float: left;
-			font-size: 14px;
-			color: #585858;
-			white-space: nowrap;
-			display: flex;
-			align-items: center
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				color: var(--main-color)
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-			width: 13px;
-			height: 13px;
-			margin-right: 5px;
-			fill: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-				fill: #fff;
-				width: 16px;
-				height: 16px
-			}
-		}
-
-		.drop_down {
-			color: #FFFFFF;
-			display: block;
-			float: left;
-			padding: 0 10px;
-			position: relative
-		}
-
-		.drop_down svg {
-			fill: #8e8e8e;
-			top: 5px;
-			width: 9px;
-			height: 9px;
-			position: absolute
-		}
-
-		@media screen and (max-width: 990px) {
-			.drop_down svg {
-				fill: #fff;
-				width: 11px;
-				height: 11px;
-				top: 50%;
-				transform: translate(0px, -50%)
-			}
-		}
-
-		@media all and (max-width: 990px) {
-			.drop_down {
-				display: block;
-				width: 20px;
-				height: 20px;
-				float: left;
-				padding: 10px 10px 10px 50px;
-				display: flex;
-				align-items: center;
-				position: absolute;
-				justify-content: center;
-				right: 0px;
-				top: 0px;
-				-webkit-transition: 0.7s ease-in-out all;
-				transition: 0.7s ease-in-out all
-			}
-		}
-
-		.dcjq-mega-menu-mobile .highlight {
-			position: absolute;
-			text-align: left;
-			top: 75px;
-			padding-top: 25px;
-			left: 9px;
-			width: 215px;
-			z-index: 99999999;
-			opacity: 0;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu-mobile .highlight .highlight1 {
-			background: #FFF;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li:hover .highlight {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-			border-top: 1px solid #E7E7E7;
-			padding: 9px 0 9px 12px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-			cursor: pointer;
-			border-left: 3px solid var(--main-color);
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a img {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		.header_wraper .m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper .m-slide-up .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search {
-				width: 100%
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%);
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			.m-slide-down .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.m-slide-down .search_home #search {
-				width: 100%
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: left;
-				padding-left: 15px;
-				padding-right: 15px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper #megamenu3 {
-				height: 100%;
-				width: 0;
-				position: fixed;
-				z-index: 9999;
-				top: 0;
-				right: 0;
-				background-color: #240500d6;
-				overflow-x: hidden;
-				transition: 0.5s
-			}
-
-			#menu-mobile-mega {
-				position: absolute;
-				top: 50%;
-				right: 25px;
-				transform: translate(0px, -50%)
-			}
-
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				color: black;
-				width: 35px;
-				height: 35px;
-				fill: var(--main-color)
-			}
-		}
-
-		@media only screen and (max-width: 990px) and (max-width: 414px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				float: none;
-				text-align: left;
-				padding: 20px 0 20px 40px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-				background: var(--extra-color)
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#menu-mobile-mega {
-				right: 10px
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu3 .home {
-			padding: 15px 10px 14px
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home {
-				padding: 0px
-			}
-		}
-
-		#megamenu3 .home svg {
-			width: 18px;
-			height: 18px;
-			fill: #000
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home svg {
-				width: 16px;
-				height: 16px;
-				fill: #fff
-			}
-		}
-
-		#megamenu3 .activated svg {
-			fill: #ffffff
-		}
-
-		#menu_mb .login {
-			color: #fff
-		}
-
-		#menu_mb .login a {
-			display: inline-block;
-			float: left
-		}
-
-		#menu_mb .login span {
-			padding: 0px 5px;
-			color: #fff
-		}
-
-		#megamenu3 .hide_nows {
-			text-align: right;
-			padding: 20px
-		}
-
-		#megamenu3 .hide_nows svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#megamenu3 .log_success {
-			padding-bottom: 30px
-		}
-
-		#megamenu3 .log_success .exit {
-			text-decoration: underline
-		}
-
-		#megamenu3 .log_success a {
-			text-transform: unset;
-			padding-bottom: 0px;
-			padding-top: 10px;
-			display: block
-		}
-
-		#megamenu3 .log_success a span {
-			color: #fff;
-			display: inline-block;
-			padding-right: 5px
-		}
-
-		#megamenu3 .log_success a .noti3 {
-			display: block;
-			font-style: italic
-		}
-
-		#login_nw {
-			padding-left: 5px
-		}
-
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		#product_menu_mobile .menu_label {
-			color: #FFF;
-			font-size: 16px;
-			padding: 13px 43px 13px 40px;
-			position: relative;
-			text-transform: uppercase;
-			position: absolute;
-			cursor: pointer;
-			white-space: nowrap;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			font-weight: bold;
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile .menu_label {
-				font-size: 15px;
-				padding: 13px 0px 14px 25px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label {
-				padding: 13px 0px 13px 10px
-			}
-
-			#product_menu_mobile .menu_label span {
-				display: grid
-			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 {
-			background: #e2dbdb;
-			box-sizing: border-box;
-			margin-right: 12px;
-			border-radius: 10px
-		}
-
-		#product_menu_mobile .child_menu_down li {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile .child_menu_down .pr_child {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #e1d7d3;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 5px 0px 15px;
-			height: 85px;
-			background: #efeae8
-		}
-
-		#product_menu_mobile .child_menu_down .svg_cat {
-			min-width: 33px;
-			min-height: 30px;
-			margin-right: 10px;
-			display: inline-block
-		}
-
-		#product_menu_mobile .child_menu_down .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-			width: 30px;
-			height: 30px;
-			fill: #c60100
-		}
-
-		@media screen and (max-width: 410px) {
-			#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-				width: 22px;
-				height: 22px;
-				display: none
-			}
-		}
-
-		#product_menu_mobile .menu_label svg {
-			width: 35px;
-			height: 35px;
-			fill: var(--main-color)
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		#product_menu_mobile .menu_label .icon-menu {
-			position: absolute;
-			left: 0px
-		}
-
-		#product_menu_mobile #product_menu_ul {
-			left: 0px;
-			position: fixed;
-			top: 0px;
-			width: 100%;
-			z-index: 999;
-			height: 100%;
-			display: none;
-			overflow-x: auto;
-			background: #3e120ae3
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows {
-			padding: 35px 20px 35px 45px;
-			font-size: 25px;
-			color: var(--main-color);
-			text-transform: uppercase;
-			font-weight: 700;
-			box-sizing: border-box
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .hide_nows {
-				padding: 27px 20px 27px 22px;
-				font-size: 22px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a {
-			float: right
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#product_menu_mobile #product_menu_ul>ul {
-			position: relative
-		}
-
-		#product_menu_mobile #product_menu_ul>ul .activated .wp_item {
-			background-color: #f8ad6f;
-			border-bottom: 3px solid #f2630b
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .menu_item_a {
-			display: flex;
-			color: #FFF;
-			align-items: center
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #eac467;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 15px;
-			height: 85px;
-			background: var(--main-color)
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-				padding: 0px 5px;
-				height: 76px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .img-menu {
-			margin-right: 7px;
-			float: left
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-			position: absolute;
-			right: 14px;
-			top: 17px
-		}
-
-		@media screen and (max-width: 1024px) {
-
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-				position: absolute;
-				right: 3px;
-				top: -2px;
-				width: 21px;
-				display: flex;
-				vertical-align: middle;
-				text-align: center;
-				display: block;
-				padding: 15px 20px;
-				box-sizing: border-box
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row svg,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 svg {
-			width: 10px;
-			height: 10px;
-			fill: #cccccc
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .img-menu .grayscale {
-			filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values=' 0  0  0  1  0  0  0  0  1  0 0  0  0  1  0 0  0  0  1  0'/></filter></svg>#grayscale")
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 14px;
-				line-height: 20px;
-				margin-left: 0px;
-				text-transform: unset
-			}
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 13px
-			}
-		}
-
-		@media only screen and (max-width: 320px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 12px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat {
-			margin-right: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 {
-			border-bottom: medium none;
-			padding: 2px 0 2px 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 .text-menu {
-			font-weight: normal;
-			padding-left: 29px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .highlight {
-			display: flex
-		}
-
-		#product_menu_mobile #product_menu_ul .second-level-menu ul li {
-			padding: 4px 0 4px 16px
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight {
-			background: #FFFFFF;
-			border: 1px solid #E7E7E7;
-			display: none;
-			left: 43px;
-			margin-left: 226px;
-			padding: 12px 0;
-			position: absolute;
-			z-index: 99999;
-			top: 0;
-			width: 912px;
-			height: 385px;
-			overflow: hidden
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight1 {
-			display: inline-block;
-			float: left;
-			min-width: 118px;
-			padding: 0 30px
-		}
-
-		#product_menu_mobile #product_menu_ul .menu_col:FIRST-LETTER {
-			border-right: none
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name {
-			border-bottom: medium none;
-			color: #2E2E2E;
-			font-weight: bold;
-			padding: 10px 25px;
-			width: 178px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 {
-			margin-bottom: 2px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 a {
-			color: #3F3F3F;
-			font-weight: bold
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 {
-			position: relative;
-			border-bottom: 1px solid #8c1a04b8;
-			padding-bottom: 15px;
-			margin-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-			color: #f8ad6f;
-			font-size: 16px;
-			font-weight: 700
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-				font-size: 15px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .level_pr {
-			padding-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-			width: calc(33.33% - 20px);
-			margin: 10px 20px 10px 0px;
-			text-align: center
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-				width: calc(33.33% - 10px);
-				margin: 5px 5px 5px 5px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-			display: inline-block;
-			line-height: 23px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-				line-height: 20px;
-				height: 40px;
-				overflow: hidden
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 img {
-			max-width: 55px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-			color: #210101;
-			position: relative;
-			display: inline-block;
-			float: left
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-				font-size: 13px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1>a {
-			line-height: 22px;
-			display: block;
-			position: relative;
-			font-size: 14px;
-			color: #fff
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .image_sub {
-			display: none
-		}
-
-		#product_menu_mobile #product_menu_ul .second_field {
-			border-top: 1px dotted #D3D3D3;
-			margin-top: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 a {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name .read_more a {
-			color: #348AD4;
-			text-decoration: underline
-		}
-
-		#product_menu_mobile #product_menu_ul .field_label {
-			color: #3F3F3F;
-			margin-bottom: 5px
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 li {
-			float: left;
-			margin-right: 30px;
-			margin-bottom: 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-manu-level1 {
-			padding: 4px 10px;
-			width: 33.33%;
-			float: left;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 330px) {
-			#product_menu_mobile .menu_label span font {
-				display: none
-			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper {
-			float: right;
-			width: 70%;
-			top: 99px;
-			position: fixed;
-			overflow-y: auto;
-			height: calc(100% - 99px);
-			right: 0px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .cat_filters_home_wrapper {
-				width: calc(73% - 10px)
-			}
-		}
-
-		#product_menu_mobile {
-			display: none
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile {
-				display: block
-			}
-		}
-
-		#product_menu_mobile .content_lv0 {
-			position: fixed;
-			width: 27%;
-			height: calc(100% - 99px);
-			overflow: hidden;
-			overflow-y: auto;
-			overflow-x: hidden;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .content_lv0 {
-				width: 27%
-			}
-		}
-
-		/*# sourceMappingURL=drop_down_mobile.css.map */
-		.banners_wrapper .item {
-			position: relative
-		}
-
-		.banners_wrapper .item span {
-			display: grid
-		}
-
-		.banners_wrapper .wrapper_text {
-			padding: 60px 0px;
-			float: right
-		}
-
-		@media only screen and (max-width: 1050px) {
-			.banners_wrapper .wrapper_text {
-				padding: 60px 10px 60px 0px
-			}
-		}
-
-		@media only screen and (max-width: 625px) {
-			.banners_wrapper .wrapper_text {
-				padding: 40px 10px 40px 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text {
-				padding: 18px 10px 18px 10px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_ab {
-			font-size: 22px;
-			font-weight: bold;
-			color: #fff;
-			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_ab {
-				font-size: 20px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_wrapper {
-			display: flex;
-			align-items: center
-		}
-
-		.banners_wrapper .wrapper_text .text_left {
-			color: #fff;
-			line-height: 25px;
-			font-size: 18px;
-			width: 50%
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_left {
-				font-size: 15px
-			}
-		}
-
-		.banners_wrapper .wrapper_text legend {
-			text-align: right;
-			color: #fff;
-			font-size: 18px;
-			letter-spacing: 1px;
-			text-transform: uppercase
-		}
-
-		.banners_wrapper .wrapper_text fieldset {
-			width: calc(50% - 20px);
-			margin-left: 20px;
-			border: 1px solid #d6d6d6;
-			border-radius: 5px;
-			text-align: center
-		}
-
-		.banners_wrapper .wrapper_text fieldset .summary {
-			font-size: 58px;
-			color: #fff;
-			line-height: 37px;
-			font-family: monospace;
-			letter-spacing: 1.5px;
-			font-weight: bold;
-			display: inline-block;
-			animation: quick-zoom 5s running infinite ease
-		}
-
-		.banners_wrapper .wrapper_text .read_more {
-			text-align: left
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more {
-				margin-top: 10px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a {
-			background: #fff;
-			color: var(--main-color);
-			display: inline-block;
-			margin: 15px 0px 5px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease;
-			border-radius: 10px;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 18px;
-			padding: 10px 20px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more a {
-				padding: 8px 12px;
-				font-size: 15px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:hover {
-			padding-right: 30px
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:after {
-			display: none;
-			content: ''
-		}
-
-		/*# sourceMappingURL=default_wrapper.css.map */
-		.strengths_retangle2_block {
-			display: flex;
-			flex-wrap: wrap;
-			margin: 0px -10px
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block {
-				margin: 0px -7px
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			.strengths_retangle2_block {
-				margin: 0px -5px
-			}
-		}
-
-		.strengths_retangle2_block .item {
-			cursor: pointer;
-			transition: 0.5s;
-			border-top: 0;
-			margin: 0px;
-			box-sizing: border-box;
-			transition: 0.5s;
-			color: #777;
-			position: relative;
-			float: left;
-			width: calc(26% - 20px);
-			margin: 10px 10px;
-			border-left: 0;
-			display: flex;
-			align-items: center
-		}
-
-		.strengths_retangle2_block .item:nth-child(2) {
-			width: calc(20% - 20px)
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item {
-				width: calc(20% - 14px);
-				margin: 15px 7px
-			}
-		}
-
-		@media all and (max-width: 768px) {
-			.strengths_retangle2_block .item {
-				width: calc(20% - 10px);
-				margin: 12px 5px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-inner {
-			transition: 0.5s;
-			box-sizing: border-box;
-			width: 100%;
-			display: flex;
-			align-items: center
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-inner {
-				display: block
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l {
-			vertical-align: middle;
-			display: block;
-			box-sizing: border-box;
-			color: #fff;
-			text-align: center;
-			float: left;
-			margin-right: 18px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-l {
-				float: unset
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-l {
-				margin-right: 10px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg {
-			box-sizing: border-box;
-			float: left
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-l .isvg {
-				float: unset
-			}
-
-			.strengths_retangle2_block .item .item-l .isvg img {
-				width: auto
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg svg {
-			fill: #ffb26f;
-			width: 40px;
-			height: 40px;
-			transition: 0.5s
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-l .isvg svg {
-				width: 35px;
-				height: 35px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r {
-			vertical-align: middle;
-			text-align: left;
-			box-sizing: border-box;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		.strengths_retangle2_block .item .item-r .name {
-			display: block;
-			font-size: 20px;
-			color: #000;
-			font-weight: bold;
-			text-transform: uppercase
-		}
-
-		.strengths_retangle2_block .item .item-r .name font {
-			font-weight: bold;
-			color: #dc0000
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r .title {
-			font-size: 20px;
-			text-transform: uppercase;
-			color: #fff
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo {
-			width: calc(52% - 20px)
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo {
-				width: 100%;
-				margin: 0px;
-				padding: 15px 0px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		.strengths_retangle2_block .item_logo_mobile {
-			width: 100%
-		}
-
-		.strengths_retangle2_block .item_logo_mobile .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo_mobile .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		@media screen and (max-width: 500px) {
-			.block_strengths {
-				box-shadow: 0px 0px 10px #000;
-				background: -webkit-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: -o-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: linear-gradient(to top, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%)
-			}
-		}
-
-		/*# sourceMappingURL=retangle2.css.map */
-		.menu-bottom {
-			margin: 0px -10px
-		}
-
-		@media screen and (max-width: 768px) {
-			.menu-bottom {
-				margin: 0px
-			}
-		}
-
-		ul.menu-bottom li.level0 {
-			float: left;
-			width: calc(100% - 20px);
-			margin: 0px 10px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				padding: 0px 0px 0px 0px
-			}
-		}
-
-		ul.menu-bottom li.level0>a,
-		ul.menu-bottom li.level0>span {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			font-weight: bold;
-			color: #fff
-		}
-
-		@media screen and (max-width: 500px) {
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				font-size: 15px
-			}
-		}
-
-		ul.menu-bottom li.level0 ul {
-			margin-top: 4px
-		}
-
-		ul.menu-bottom li.level0 ul li {
-			margin-bottom: 20px;
-			position: relative;
-			padding-left: 15px
-		}
-
-		ul.menu-bottom li.level0 ul li:before {
-			width: 9px;
-			height: 9px;
-			content: '';
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%) rotate(175deg);
-			background: url('data:image/svg+xml;utf8,<svg width="9px" height="9px" fill="rgb(255, 255, 255)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right" d="M57.633,129.007L165.93,237.268c4.752,4.74,12.451,4.74,17.215,0c4.752-4.74,4.752-12.439,0-17.179 l-99.707-99.671l99.695-99.671c4.752-4.74,4.752-12.439,0-17.191c-4.752-4.74-12.463-4.74-17.215,0L57.621,111.816 C52.942,116.507,52.942,124.327,57.633,129.007z"/></g></svg>');
-			background-repeat: no-repeat;
-			transition: 0.25s all ease;
-			-webkit-transition: 0.25s all ease
-		}
-
-		ul.menu-bottom li.level0 ul li a {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li span {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li a:hover {
-			color: var(--main-color)
-		}
-
-		ul li.level1 a:hover,
-		ul li.level1 span:hover {
-			color: #0066b2
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click.png") no-repeat scroll center;
-			position: absolute;
-			cursor: pointer;
-			padding: 16px;
-			right: 0px;
-			top: 0px;
-			display: none
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile.active {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click-active.png") no-repeat scroll center
-		}
-
-		.menu-bottom ul li.mid-sitem>span i {
-			background: transparent url(https://onplaza.vn/blocks/mainmenu/assets/images/bo-cong-thuong.png) no-repeat scroll left bottom;
-			content: ' ';
-			height: 47px;
-			display: block;
-			margin-top: 23px;
-			padding-top: 12px
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				float: left;
-				width: 100%;
-				border: 1px solid #7c7c7c;
-				margin-bottom: 10px;
-				position: relative
-			}
-
-			ul.menu-bottom li.level0 span.click-mobile {
-				display: block
-			}
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				display: block;
-				padding: 8px;
-				margin-bottom: 0;
-				color: #fff
-			}
-
-			ul.menu-bottom li.level0 ul {
-				display: none
-			}
-
-			ul li.level1 {
-				border-top: 1px solid #383838;
-				padding: 8px 0px 7px 0px;
-				margin-left: 22px
-			}
-
-			ul.menu-bottom li.level0 ul li {
-				margin-bottom: 8px
-			}
-
-			ul li.level1.first-sitem,
-			ul li.level1:first-child {
-				border-top: 0
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			ul.menu-bottom li.level0 {
-				margin: 0px;
-				margin-bottom: 10px;
-				text-align: center
-			}
-		}
-
-		/*# sourceMappingURL=bottommenu.css.map */
-		.share_fast_small {
-			text-align: left
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small {
-				text-align: center
-			}
-		}
-
-		.share_fast_small .title {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			color: #fff;
-			font-weight: 700
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small .title {
-				text-align: center;
-				margin-bottom: 15px
-			}
-		}
-
-		@media all and (max-width: 750px) {
-			.share_fast_small {
-				margin-bottom: 0px
-			}
-		}
-
-		.share_fast_small svg {
-			height: 22px;
-			width: 22px
-		}
-
-		.share_fast_small svg:hover {
-			transition: 0.5s
-		}
-
-		.share_fast_small .youtube-icon svg {
-			height: 25px;
-			width: 25px
-		}
-
-		.share_fast_small .fb,
-		.share_fast_small .prin,
-		.share_fast_small .zl,
-		.share_fast_small .gp,
-		.share_fast_small .yt,
-		.share_fast_small .sk,
-		.share_fast_small .tw {
-			box-sizing: border-box;
-			margin-left: 20px;
-			float: left;
-			border-radius: 50%;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				margin-bottom: 8px
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				float: unset;
-				display: inline-block
-			}
-		}
-
-		.share_fast_small .fb svg,
-		.share_fast_small .prin svg,
-		.share_fast_small .zl svg,
-		.share_fast_small .gp svg,
-		.share_fast_small .yt svg,
-		.share_fast_small .sk svg,
-		.share_fast_small .tw svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		.share_fast_small .zl {
-			padding: 0
-		}
-
-		.share_fast_small .zl svg {
-			width: 40px;
-			height: 40px
-		}
-
-		.share_fast_small .fb {
-			margin-left: 0px
-		}
-
-		/*# sourceMappingURL=fast_small.css.map */
-		.wrap-by-fast .footer_phone {
-			border-bottom: 1px solid #757575;
-			padding-top: 50px;
-			background: #222222;
-			padding-bottom: 50px
-		}
-
-		.wrap-by-fast .phone-left {
-			color: white
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .phone-left {
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .phone-tittle {
-			text-transform: uppercase;
-			font-size: 18px;
-			font-weight: bold;
-			color: #fff;
-			letter-spacing: 1px
-		}
-
-		.wrap-by-fast .phone-content {
-			font-size: 14px;
-			margin-top: 15px;
-			line-height: 20px;
-			color: #f2f2f2
-		}
-
-		@media only screen and (max-width: 414px) {
-			.wrap-by-fast .phone-content {
-				font-size: 14px
-			}
-		}
-
-		.wrap-by-fast .fast-left {
-			width: 658px;
-			float: left
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left {
-				width: 100%;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-icon {
-			width: calc(100% - 552px);
-			float: left;
-			height: 102px;
-			background: var(--black-color);
-			position: relative;
-			animation: 2s ease-in-out 0s normal none infinite running change-translate;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-icon {
-				display: none
-			}
-		}
-
-		.wrap-by-fast .fast-left .icon_phone {
-			width: 58px;
-			height: 75px;
-			margin: 14px 5px 0px 60px;
-			z-index: 2;
-			position: absolute
-		}
-
-		.wrap-by-fast .fast-left .icon_v1 {
-			background-position: -35px 75px;
-			z-index: 3
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text {
-			float: right;
-			width: 505px;
-			margin: 26px 0px;
-			color: #fff;
-			padding-left: 13px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text {
-				width: 100%;
-				margin: 5px 0px 0px 0px;
-				padding-left: 0px
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-top {
-			font-size: 24px;
-			font-family: RobotoCondensed-Bold;
-			margin-top: -3px
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-			font-size: 16px
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-				box-sizing: border-box
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast {
-			position: relative
-		}
-
-		@media all and (max-width: 1100px) {
-			.wrap-by-fast .wrap-by-fast {
-				padding: 20px 0px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .item .svg_mail {
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%)
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .wrap-by-fast .item {
-				position: relative
-			}
-		}
-
-		.wrap-by-fast .buy_fast {
-			padding-top: 20px;
-			justify-content: center;
-			display: flex
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast {
-				display: unset
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast {
-				padding-top: 10px
-			}
-		}
-
-		@keyframes change-translate {
-			from {
-				transform: translateX(-88px)
-			}
-		}
-
-		.wrap-by-fast .fast-right {
-			width: calc(100% - 658px);
-			float: right;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-right {
-				width: calc(100% - 10px);
-				margin: -15px 5px;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast {
-			padding-left: 20px;
-			box-sizing: border-box;
-			line-height: 35px;
-			background: no-repeat;
-			margin: 0px;
-			font-size: 16px;
-			color: #fff;
-			width: 100%;
-			outline: none;
-			border: 1px solid var(--main-color)
-		}
-
-		@media only screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				line-height: 35px
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast::placeholder {
-			color: #fff;
-			font-style: italic
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast :placeholder {
-			color: #fff;
-			font-style: italic;
-			margin-left: -10px
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast {
-			width: 120px;
-			border: none;
-			color: #230d03;
-			background-color: var(--main-color);
-			border-radius: unset;
-			cursor: pointer;
-			line-height: 35px;
-			margin-top: 10px;
-			margin-left: 0px;
-			font-weight: bold;
-			padding-left: 0px;
-			display: inline-block;
-			font-size: 16px;
-			position: relative;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast .button-buy-fast {
-				margin: 0px;
-				line-height: 37px
-			}
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover {
-			background: #fff;
-			color: var(--main-color)
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast svg {
-			fill: #fff;
-			transition: 0.5s
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .buy_fast_body {
-				margin-top: 5px;
-				margin-bottom: 5px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title {
-			color: white
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title span {
-			font-size: 25px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			line-height: 20px
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title p {
-			margin-top: 10px;
-			font-size: 60px;
-			font-weight: bold;
-			text-transform: uppercase;
-			line-height: 60px;
-			margin-bottom: 0
-		}
-
-		.wrap-by-fast .wrap-by-fast h3 {
-			font-size: 40px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			color: #fff;
-			font-weight: bold;
-			margin-top: 0px
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				width: calc(100% - 120px);
-				float: left
-			}
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .footer_phone {
-				padding: 20px 20px 0
-			}
-
-			.wrap-by-fast .footer_phone .phone-left {
-				width: 100%;
-				padding: 0
-			}
-		}
-
-		@media all and (max-width: 414px) {
-			.wrap-by-fast {
-				position: inherit;
-				z-index: 9
-			}
-		}
-
-		/*# sourceMappingURL=newsletter.css.map */
+		}																																/*# sourceMappingURL=megamenu_mobile.css.map */
+								
+																										/*# sourceMappingURL=newsletter.css.map */
 	</style>
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
 		href="https://onplaza.vn/rss.xml">
-
-
-
-
 	<meta http-equiv="origin-trial"
 		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async=""
 		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470081319&amp;cv=11&amp;fst=1688470081319&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fsan-pham-duoc-lieu&amp;ref=https%3A%2F%2Fonplaza.vn%2Fsan-pham-duoc-lieu&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Gi%E1%BB%9Bi%20thi%E1%BB%87u%20c%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20d%C6%B0%E1%BB%A3c%20li%E1%BB%87u%20cao%20c%E1%BA%A5p%20-%20Onplaza%20Vi%E1%BB%87t%20Ph%C3%A1p&amp;auid=568503462.1688460212&amp;uaa=x86&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B8.0.0.0%7CChromium%3B114.0.5735.199%7CGoogle%2520Chrome%3B114.0.5735.199&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
-</head>
-
-
-
-<body style="">
+</head><body style="">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-
-
-
-
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
-
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
@@ -3610,9 +726,7 @@
 								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
 							</path>
 						</g>
-					</g>
-
-				</svg>
+					</g>				</svg>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
@@ -3621,11 +735,7 @@
 						</li>
 						<li class="register cls"><a href="#register-now">Tạo tài khoản</a></li>
 					</ul>
-				</div>
-
-				<div class="website_login" id="login-now" style="display: block;">
-
-					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
+				</div>				<div class="website_login" id="login-now" style="display: block;">					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
 						method="post" onsubmit="javascript: return checkFormsubmit_login();">
 						<div class="row-register cf ">
 							<label for="username">Email</label>
@@ -3637,31 +747,23 @@
 							<input type="password" name="password" id="password_login" class="txt-login pass"
 								autocomplete="off" placeholder="Mật khẩu" required="">
 						</div>
-						<div class="cls save_resetpass">
-
-							<div class="reset_pass">
+						<div class="cls save_resetpass">							<div class="reset_pass">
 								Quên mật khẩu? Nhấn vào
 								<a onclick="OpenforgetPass()" href="javascript:void(0);" class="forget"> đây?</a>
 							</div>
 						</div>
-						<div class="clear"></div>
-
-						<div class="wrapper-bt-register">
+						<div class="clear"></div>						<div class="wrapper-bt-register">
 							<div class="row-register cf ">
 								<input type="button" name="login" class="lg login btn-submit signin-submit"
 									value="Đăng nhập">
 							</div>
-
-
 						</div>
 						<div class="clear"></div>
 						<input type="hidden" name="return" value="L3Nhbi1waGFtLWR1b2MtbGlldQ==">
 						<input type="hidden" name="module" value="users">
 						<input type="hidden" name="view" value="users">
 						<input type="hidden" name="task" value="login_save">
-						<input type="hidden" name="Itemid" value="9">
-
-					</form>
+						<input type="hidden" name="Itemid" value="9">					</form>
 					<div class="social_login">
 						<a class="login_fb" title="Đăng nhập bằng Facebook"
 							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=b0c23585203b018e9e24eb5de1878809&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
@@ -3670,9 +772,7 @@
 									d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z">
 								</path>
 							</svg>
-							Đăng nhập bằng Facebook
-
-						</a>
+							Đăng nhập bằng Facebook						</a>
 						<a class="login_gg" title="Đăng nhập bằng Google" href="#google_login"
 							data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10"
 							data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);">
@@ -3709,17 +809,13 @@
 								</g>
 							</svg>
 							Đăng nhập bằng Google
-						</a>
-
-					</div>
+						</a>					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="website_login regis_user hide" id="register-now" style="display: none;">
 					<div class="box-register">
 						<form action="https://onplaza.vn/index.php?module=users" name="register_form"
-							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">
-
-							<div class="message"></div>
+							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">							<div class="message"></div>
 							<div class="form-login">
 								<div class="row-register cf ">
 									<label for="full_name">Họ và tên</label>
@@ -3756,11 +852,7 @@
 										</label>
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-								<div class="row-register row-register-sl cf ">
+								<div class="clear"></div>								<div class="row-register row-register-sl cf ">
 									<label for="date">Ngày sinh</label>
 									<div class="date_l">
 										<select class="date" name="date" id="date">
@@ -3876,9 +968,7 @@
 											<option value="2019">2019</option>
 											<option value="2020">2020</option>
 										</select>
-									</div>
-
-									<!-- <div class="date_r">
+									</div>									<!-- <div class="date_r">
 								<div class="title-t">Giới tính</div>
 								<select class="sex" name="gender" id="gender">
 									<option value="">Lựa chọn</option>
@@ -3893,41 +983,25 @@
 									<div class="g-recaptcha" data-sitekey="6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci">
 									</div>
 									<span id="captcha_error" class="text-danger"></span>
-								</div>
-
-
-
-								<div class="clear"></div>
-
-
+								</div>								<div class="clear"></div>
 								<div class="row-register cf row-register-btn">
 									<div class=" wrapper-bt-register wrapper-bt-register-btn">
 										<input type="button" class="submitbt login btn-submit register-submit"
 											name="submitbt" value="Tạo tài khoản">
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-							</div>
-
-							<input type="hidden" name="return" value="L3Nhbi1waGFtLWR1b2MtbGlldQ==">
+								<div class="clear"></div>							</div>							<input type="hidden" name="return" value="L3Nhbi1waGFtLWR1b2MtbGlldQ==">
 							<input type="hidden" name="module" value="users">
 							<input type="hidden" name="view" value="users">
 							<input type="hidden" name="Itemid" value="9">
 							<input type="hidden" name="task" value="register_save">
-						</form>
-
-					</div>
+						</form>					</div>
 					<div class="text-bot">
 						Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán
 						theo <a href="" title="Điều khoản sử dụng">điều kiện sử dụng và chính sách của Thế Giới Dinh
 							Dưỡng</a>
 					</div>
-				</div>
-
-			</div>
+				</div>			</div>
 		</div>
 		<div class="tab_reset_pass hide">
 			<div class="title">Quên mật khẩu</div>
@@ -3962,11 +1036,7 @@
 					<input type="hidden" name="task" value="forget_save">
 				</form>
 			</div>
-		</div>
-
-
-
-	</div>
+		</div>	</div>
 	<div class="menu_head">
 		<div class="wrapper_top cls">
 			<div class="phone left_item">
@@ -3976,11 +1046,7 @@
                     <li>HCN: <a href="tel:0969531991">096 953 1991</a></li>
                 </ul>
 			</div>
-			<div class="register right_item">
-
-				<div class="share_fast1">
-
-					<div class="fb share_item"><a class="facebook-icon"
+			<div class="register right_item">				<div class="share_fast1">					<div class="fb share_item"><a class="facebook-icon"
 							href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow"
 							target="_blank">
 							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
@@ -3990,8 +1056,6 @@
 							</svg>
 						</a>
 					</div>
-
-
 					<div class="tw share_item">
 						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter"
 							rel="nofollow" target="_blank">
@@ -4001,9 +1065,7 @@
 								</path>
 							</svg>
 						</a>
-					</div>
-
-					<div class="yt share_item">
+					</div>					<div class="yt share_item">
 						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
 							title="Link instagram" rel="nofollow" target="_blank">
 							<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
@@ -4016,12 +1078,8 @@
 								<path
 									d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
 								</path>
-							</svg>
-
-						</a>
-					</div>
-
-					<div class="yt share_item">
+							</svg>						</a>
+					</div>					<div class="yt share_item">
 						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
 							title="Link youtube" rel="nofollow" target="_blank">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -4032,27 +1090,13 @@
 										d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z">
 									</path>
 								</g>
-
-
-							</svg>
-
-						</a>
+							</svg>						</a>
 					</div>
-
-
 					<div class="clear"></div>
-				</div>
-
-				<div class="logs">
+				</div>				<div class="logs">
 					<a onclick="OpenLoginPopup()" class="login user_item" title="Tài khoản" href="javascript:void(0)">
-						Tài khoản</a>
-
-
-
-				</div> <!-- end logs -->
-				<div class="pc_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+						Tài khoản</a>				</div> <!-- end logs -->
+				<div class="pc_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -4064,23 +1108,15 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>Giỏ hàng (0)</span>
+								</svg>								<span>Giỏ hàng (0)</span>
 							</a>
 						</div>
 					</div>
 				</div>
-			</div>
-
-		</div>
+			</div>		</div>
 		<div class="clear"></div>
 	</div>
-	<div class="header_wraper cls">
-
-		<div class="home_index no-home">
-
-			<div id="nav-mainmenu" class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home">
+	<div class="header_wraper cls">		<div class="home_index no-home">			<div id="nav-mainmenu" class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home">
 				<div class="header_left head-t">
 				</div>
 				<div class="logo_top">
@@ -4088,18 +1124,12 @@
 						<img class="logo_img" src="assets/img/logo/logo.gif"
 							alt="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 					</a>
-					<div class="search_home">
-
-						<div id="search" class="search search-contain s_close ">
+					<div class="search_home">						<div id="search" class="search search-contain s_close ">
 							<div class="search-content">
 								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2"
-									method="get" onsubmit="javascript: submit_form_search22();return false;">
-
-									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
+									method="get" onsubmit="javascript: submit_form_search22();return false;">									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
 										name="keyword" class="keyword input-text" autocomplete="off">
 									<button type="submit" class="button-search button_s">
-
-
 										<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
 											style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 											<g>
@@ -4111,26 +1141,18 @@
 													<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 												</g>
-											</g>
-
-										</svg>
-
-									</button>
+											</g>										</svg>									</button>
 									<input type="hidden" name="module" value="news">
 									<input type="hidden" name="module" id="link_search2"
 										value="https://onplaza.vn/tim-kiem/keyword.html">
 									<input type="hidden" name="view" value="search">
 									<input type="hidden" name="Itemid" value="10">
 								</form>
-							</div>
-
-						</div>
+							</div>						</div>
 					</div>
 				</div>
 				<div class="dcjq-mega-menu-mobile" id="menu-mobile-mega">
-					<div class="sb-toggle-left navbar-left">
-
-						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
+					<div class="sb-toggle-left navbar-left">						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink"
 							enable-background="new 0 0 24 24">
 							<g>
@@ -4146,12 +1168,8 @@
 							</g>
 						</svg>
 					</div>
-
-
 				</div>
-				<div class="mobile_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+				<div class="mobile_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -4163,15 +1181,11 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>0</span>
+								</svg>								<span>0</span>
 							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="product_menu" id="product_menu_mobile">
+				</div>				<div class="product_menu" id="product_menu_mobile">
 					<div class="menu_label " data-id="product_menu_ul">
 						<span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
@@ -4223,14 +1237,10 @@
 				</div>
 				<div class="wrapper_menupc">
 					<div class="dcjq-mega-menu-product cls">
-
-
 						<ul id="megamenu" class="menu mypopup">
 							<li class="cat_level_0 level_0 sort">
 								<a href="javascript:void(0)" id="menu_item_861" class="menu_item_a" title="Sản phẩm">
-									<span class="icon_svg cls">
-
-										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									<span class="icon_svg cls">										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 											viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
 											xml:space="preserve">
@@ -4277,8 +1287,6 @@
 												</g>
 											</g>
 										</svg>
-
-
 									</span>
 									Sản phẩm <span class="drop_down">
 										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -4289,38 +1297,10 @@
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 									</span>
-								</a>
-
-
-
-								<div class="highlight">
-
-
-
-									<div class="highlight1 container cls">
-										<div class="menu-child_list">
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="sanphamduoclieu.php"
+								</a>								<div class="highlight">									<div class="highlight1 container cls">
+										<div class="menu-child_list">											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="sanphamduoclieu.php"
 													class="level_0 sort activated  sub-menu-item" data-menu_tags="908"
 													id="menu_item_908" title="Dược liệu cao cấp">
 													<span class="icon"><svg height="30" viewBox="-22 0 511 511.998"
@@ -4329,298 +1309,194 @@
 																d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 															</path>
 														</svg></span>
-													Dược liệu cao cấp </a>
-
-
-
-												<div class="wraper_item cls " alt="Dược liệu cao cấp"
+													Dược liệu cao cấp </a>												<div class="wraper_item cls " alt="Dược liệu cao cấp"
 													data-menu_tags="908" data-menu_idt="0"
 													style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;"
-													nhansamhanquoc.php>
-
-													<div class="product_item cls">
-
-
+													nhansamhanquoc.php>													<div class="product_item cls">
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhansam6tuoi.php"
+															<ul class="item_lv2">																<li><a href="nhansam6tuoi.php"
 																		title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
 																	</a></li>
-
-
 																<li><a href="hongsamhanquoc.php"
 																		title="Hồng sâm Hàn Quốc">
 																		Hồng sâm Hàn Quốc
 																	</a></li>
-
-
 																<li><a href="hongsamcukho.php"
 																		title="Hồng sâm củ khô">
 																		Hồng sâm củ khô
 																	</a></li>
-
-
 																<li><a href="caohongsam.php"
 																		title="Cao hồng sâm">
 																		Cao hồng sâm
 																	</a></li>
-
-
 																<li><a href="nuochongsam.php"
 																		title="Nước hồng sâm">
 																		Nước hồng sâm
 																	</a></li>
-
-
 																<li><a href="samtammatong.php"
 																		title="Sâm tẩm mật ong">
 																		Sâm tẩm mật ong
 																	</a></li>
-
-
 																<li><a href="vienhongsam.php"
 																		title="Viên Hồng Sâm">
 																		Viên Hồng Sâm
 																	</a></li>
-
-
 																<li><a href="keosam.php"
 																		title="Kẹo sâm">
 																		Kẹo sâm
 																	</a></li>
-
-
 																<li><a href="hongsambaby.php"
 																		title="Hồng sâm baby">
 																		Hồng sâm baby
 																	</a></li>
-
-
 																<li><a href="trasam.php"
 																		title="Trà sâm">
 																		Trà sâm
 																	</a></li>
-
-
 																<li><a href="ruousamhanquoc.php"
 																		title="Rượu sâm hàn quốc">
 																		Rượu sâm hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="dongtrunghathao.php"
 																title="Đông trùng hạ thảo">
 																Đông trùng hạ thảo
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="dongtrungtaytang.php"
+															<ul class="item_lv2">																<li><a href="dongtrungtaytang.php"
 																		title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
 																	</a></li>
-
-
 																<li><a href="namdongtrunghathao.php"
 																		title="Nấm Đông Trùng Hạ Thảo">
 																		Nấm Đông Trùng Hạ Thảo
 																	</a></li>
-
-
 																<li><a href="viendongtrunghathao.php"
 																		title="Viên đông trùng hạ thảo">
 																		Viên đông trùng hạ thảo
 																	</a></li>
-
-
 																<li><a href="nuocdongtrunghathao.php"
 																		title="Nước đông trùng hạ thảo">
 																		Nước đông trùng hạ thảo
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="namlinhchivang.php"
+															<ul class="item_lv2">																<li><a href="namlinhchivang.php"
 																		title="Nấm linh chi vàng">
 																		Nấm linh chi vàng
 																	</a></li>
-
-
 																<li><a href="tranamlinhchi.php"
 																		title="Trà nấm linh chi">
 																		Trà nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchido.php"
 																		title="Nấm linh chi đỏ">
 																		Nấm linh chi đỏ
 																	</a></li>
-
-
 																<li><a href="caonamlinhchi.php"
 																		title="Cao nấm linh chi">
 																		Cao nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchithuonghoang.php"
 																		title="Nấm linh chi thượng hoàng">
 																		Nấm linh chi thượng hoàng
 																	</a></li>
-
-
 																<li><a href="namlinhchithailat.php"
 																		title="Nấm linh chi thái lát">
 																		Nấm linh chi thái lát
 																	</a></li>
-
-
 																<li><a href="namlinhxanh.php"
 																		title="Nấm Lim xanh">
 																		Nấm Lim xanh
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="toyentho.php"
+															<ul class="item_lv2">																<li><a href="toyentho.php"
 																		title="Tổ Yến Thô">
 																		Tổ Yến Thô
 																	</a></li>
-
-
 																<li><a href="yensochenguyento.php"
 																		title="Yến sơ chế nguyên tổ">
 																		Yến sơ chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yentinhchenguyento.php"
 																		title="Yến tinh chế nguyên tổ">
 																		Yến tinh chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhongnguyento.php"
 																		title="Yến hồng nguyên tổ">
 																		Yến hồng nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhuyetnguyento.php"
 																		title="Yến huyết nguyên tổ">
 																		Yến huyết nguyên tổ
 																	</a></li>
-
-
 																<li><a href="nuocyensanest.php"
 																		title="Nước yến sanest">
 																		Nước yến sanest
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhunghuoutuoi.php"
+															<ul class="item_lv2">																<li><a href="nhunghuoutuoi.php"
 																		title="Nhung hươu tươi">
 																		Nhung hươu tươi
 																	</a></li>
-
-
 																<li><a href="caobanlong.php"
 																		title="Cao ban long">
 																		Cao ban long
 																	</a></li>
-
-
 																<li><a href="nhunghuoukhothailat.php"
 																		title="Nhung hươu khô thái lát">
 																		Nhung hươu khô thái lát
 																	</a></li>
-
-
 																<li><a href="viennhunghuou.php"
 																		title="Viên nhung hươu">
 																		Viên nhung hươu
 																	</a></li>
-
-
 																<li><a href="botnhunghuou.php"
 																		title="Bột nhung hươu">
 																		Bột nhung hươu
 																	</a></li>
-
-
 																<li><a href="dauhuoumynghe.php"
 																		title="Đầu hươu mỹ nghệ">
 																		Đầu hươu mỹ nghệ
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="ancungnguutrungquoc.php"
+															<ul class="item_lv2">																<li><a href="ancungnguutrungquoc.php"
 																		title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
 																	</a></li>
-
-
 																<li><a href="ancungnguuhanquoc.php"
 																		title="An cung ngưu hàn quốc">
 																		An cung ngưu hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="tinhdauthongdo.php"
@@ -4628,75 +1504,27 @@
 																Tinh dầu thông đỏ
 															</a>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="matongrung.php"
+															<ul class="item_lv2">																<li><a href="matongrung.php"
 																		title="Mật Ong Rừng">
 																		Mật Ong Rừng
 																	</a></li>
-
-
 																<li><a href="suaongchua.php"
 																		title="Sữa Ong Chúa">
 																		Sữa Ong Chúa
 																	</a></li>
-
-
 																<li><a href="phanhoa.php"
 																		title="Phấn Hoa">
 																		Phấn Hoa
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="thucphamchucnang.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="thucphamchucnang.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="909"
 													id="menu_item_909" title="Thực phẩm chức năng">
 													<span class="icon"><svg version="1.1" id="Layer_1"
@@ -4716,16 +1544,10 @@
 			c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
 			C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Thực phẩm chức năng </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
 													<div class="product_item cls">
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="khoangchatvitamin.php"
@@ -4733,46 +1555,8 @@
 																Khoáng chất - Vitamin
 															</a>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="thuonghieu.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="thuonghieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="910"
 													id="menu_item_910" title="Sản phẩm thương hiệu">
 													<span class="icon"><svg id="Capa_1"
@@ -4793,48 +1577,8 @@
 															</path>
 														</svg></span>
 													Sản phẩm thương hiệu </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="quabieucaocap.php"
+												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="quabieucaocap.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="911"
 													id="menu_item_911" title="Quà biếu cao cấp">
 													<span class="icon"><svg version="1.1" id="Capa_1"
@@ -4869,52 +1613,10 @@
 																		d="M288,271.692v224h160c17.664,0,32-14.336,32-32v-192H288z">
 																	</path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Quà biếu cao cấp </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="samvietnam.php"
+												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="samvietnam.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1021"
 													id="menu_item_1021" title="Sâm Việt Nam">
 													<span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
@@ -4928,12 +1630,8 @@
 															</path>
 														</svg></span>
 													Sâm Việt Nam </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="1021" data-menu_idt="4">
 													<div class="product_item cls">
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="samngoclinh.php"

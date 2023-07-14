@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
-
-<head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao</title>
-
-	<meta name="description"
+	<title>Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao</title>	<meta name="description"
 		content="Tình dầu thông đỏ được các chuyên gia hàng đầu Hàn Quốc nghiên cứu ra đời mang đến nhiều công dụng mạnh mẽ như thải độc, hỗ trợ u.ng t.h.ư,Tinh dầu thông đỏ,">
 	<meta name="keywords" content="Tinh dầu thông đỏ">
-	<!-- <meta name="COPYRIGHT" content="https://delecweb.com" /> -->
-	<!-- <meta name="DEVELOPER" content="https://delecweb.com" /> -->
-	<meta name="dc.language" content="VN">
 	
-
-	<meta name="dc.title" content="Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao">
+	<meta name="dc.language" content="VN">
+		<meta name="dc.title" content="Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao">
 	<meta name="dc.keywords" content="Tinh dầu thông đỏ">
 	<meta name="dc.subject" content="Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao">
 	<meta name="dc.description"
@@ -44,14 +37,10 @@
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'UA-173996513-1');
+		gtag('js', new Date());		gtag('config', 'UA-173996513-1');
 	</script>
 	<!-- <link rel="author" href="delecweb.com" /> -->
-	<meta property="og:type" content="website">
-
-	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
+	<meta property="og:type" content="website">	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:title" content="Tinh dầu thông đỏ là gì? Cách dùng chữa bệnh, giá bán sao">
 	<meta property="og:url" content="tinhdauthongdo.php">
@@ -60,2580 +49,34 @@
 	
 	
 	
-
-
-	<link rel="canonical" href="tinhdauthongdo.php">
-
-	<meta content="INDEX,FOLLOW" name="robots">
+	<link rel="canonical" href="tinhdauthongdo.php">	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
 	
 	<meta property="og:image"
 		content="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-kwangdong-chinh-hang-120-vien_1598943926.jpg">
 	<meta property="og:image:width" content="600 ">
-	<meta property="og:image:height" content="315">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<meta property="og:image:height" content="315">	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/base.prod.css">
-
-	<meta name="geo.placename" content="Hà Nội">
+	<link rel="stylesheet" href="assets/css/base.prod.css">	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
-	<meta name="ICBM" content="21, 105.83">
-
-	<style amp-custom="">
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub {
-			width: 45%;
-			float: left;
-			box-sizing: border-box;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub a {
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .image_sub img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto;
-			width: 100%;
-			height: 330px;
-			transition: 0s
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item {
-			width: 90%;
-			float: left;
-			padding: 5px 0px;
-			border-bottom: 1px solid #e8d29c38
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1 {
-			color: var(--main-color);
-			text-transform: capitalize;
-			font-size: 13px;
-			line-height: 20px;
-			display: block;
-			font-weight: 700;
-			float: left;
-			display: block;
-			width: 27%;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item_lv1:hover {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul {
-			float: left;
-			width: 70%
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li a {
-			color: #fff;
-			text-transform: unset;
-			font-size: 13px;
-			line-height: 20px;
-			margin: 0px 12px 5px;
-			display: block;
-			float: left;
-			display: block;
-			padding: 0;
-			border-bottom: none
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item ul li:hover a {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat {
-			height: 155px;
-			width: 40%;
-			float: left;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_img_cat img {
-			max-width: 100%;
-			max-height: 100%;
-			object-fit: cover;
-			display: block;
-			margin: 0 auto
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .frame_view {
-			width: 60%;
-			height: 165px;
-			display: flex;
-			align-items: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .item-info {
-			width: 100%;
-			float: left;
-			padding-left: 10px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .name {
-			font-weight: bold;
-			font-size: 16px;
-			margin-bottom: 10px;
-			line-height: 20px;
-			color: #555
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item .price {
-			font-weight: bold;
-			color: #ff0000;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .item:hover .item_lv1 {
-			color: #9f0100
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .wraper_item .product_item .cat_item2 {
-			padding-bottom: 0px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0 {
-			position: relative
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .level_0:after {
-			content: "";
-			position: absolute;
-			right: 5px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			color: #02587b;
-			line-height: 41px;
-			width: 13px;
-			height: 13px;
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat;
-			text-align: center
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child .wraper_item {
-			position: absolute;
-			left: 256px;
-			z-index: 999;
-			top: 0px;
-			background: #00000091;
-			width: calc(100% - 256px);
-			padding: 10px 20px 20px;
-			background-repeat: no-repeat;
-			background-size: 100% 100%;
-			box-sizing: border-box;
-			opacity: 0;
-			transition: 0.2s all ease;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .has_child:hover .wraper_item {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu ul.menu .level_0:hover .highlight {
-			opacity: 1;
-			visibility: initial;
-			transition: 0.2s
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover {
-			cursor: pointer;
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1:hover .level_0 {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .sub-menu-level1 .active_n {
-			background: #9f0100;
-			color: var(--main-color)
-		}
-
-		.dcjq-mega-menu .highlight .highlight1 .menu-child_list .has_child:hover .level_0:after {
-			background: url('data:image/svg+xml;utf8,<svg width="13px" height="13px" fill="rgb(244, 224, 175)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 284.935 284.936" style="enable-background:new 0 0 284.935 284.936;" xml:space="preserve"><g><path d="M222.701,135.9L89.652,2.857C87.748,0.955,85.557,0,83.084,0c-2.474,0-4.664,0.955-6.567,2.857L62.244,17.133 c-1.906,1.903-2.855,4.089-2.855,6.567c0,2.478,0.949,4.664,2.855,6.567l112.204,112.204L62.244,254.677 c-1.906,1.903-2.855,4.093-2.855,6.564c0,2.477,0.949,4.667,2.855,6.57l14.274,14.271c1.903,1.905,4.093,2.854,6.567,2.854 c2.473,0,4.663-0.951,6.567-2.854l133.042-133.044c1.902-1.902,2.854-4.093,2.854-6.567S224.603,137.807,222.701,135.9z"/></g></svg>');
-			background-repeat: no-repeat
-		}
-
-		.dcjq-mega-menu .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .logo_img {
-			max-height: 75px
-		}
-
-		.slide-down {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-down .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-down .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-down .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-down .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0);
-			background: var(--main-color);
-			transition: bottom 1s linear
-		}
-
-		.slide-up .dcjq-mega-menu .menu_item_a {
-			padding: 40px 35px
-		}
-
-		.slide-up .dcjq-mega-menu ul.menu li.cat_level_0:first-child>a {
-			padding: 40px 40px 40px 60px
-		}
-
-		.slide-up .logo_top img {
-			max-height: 90px;
-			width: auto
-		}
-
-		.slide-up .dcjq-mega-menu .highlight {
-			padding-top: 15px;
-			top: 90px
-		}
-
-		.m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: left
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.top_menu #megamenu {
-				position: absolute;
-				background: var(--main-color);
-				width: 100%;
-				left: 0px;
-				top: 70px;
-				z-index: 999;
-				border-left: 1px solid #EFEFEF;
-				border-bottom: 1px solid #EFEFEF;
-				display: none
-			}
-
-			.dcjq-mega-menu .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu .sb-toggle-left svg {
-				color: black;
-				width: 25px;
-				height: 25px;
-				position: absolute;
-				top: 50%;
-				right: 10px;
-				transform: translate(0px, -50%);
-				fill: var(--main-color)
-			}
-
-			.dcjq-mega-menu .menu_item_a {
-				display: block;
-				float: none;
-				text-align: left;
-				padding: 10px 0 10px 10px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				border-top: 1px solid rgba(255, 255, 255, 0.56);
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu ul.menu li.mega-hover a,
-			.dcjq-mega-menu ul.menu>li.activated>a,
-			.dcjq-mega-menu ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu .highlight .sub-menu-level1:hover {
-				background: #9c0278
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu .home {
-			padding: 9px 18px 7px 0px;
-			justify-content: flex-start;
-			width: 15%;
-			transition: 0.5s all ease;
-			align-items: center
-		}
-
-		#megamenu .home:hover {
-			justify-content: center;
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .home svg {
-			width: 20px;
-			height: 20px;
-			fill: #fff
-		}
-
-		#megamenu .active_home {
-			padding: 9px 10px 7px 10px
-		}
-
-		#megamenu .activated {
-			justify-content: center
-		}
-
-		#megamenu .activated .icon_svg svg,
-		#megamenu .activated .drop_down svg {
-			fill: var(--extra-color)
-		}
-
-		.dcjq-mega-menu .level_0>a {
-			display: flex;
-			position: relative
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg {
-			box-sizing: border-box;
-			border-radius: 50px;
-			justify-content: center;
-			margin-right: 7px;
-			position: absolute;
-			left: 10px
-		}
-
-		.dcjq-mega-menu .level_0>a .icon_svg svg {
-			width: 17px;
-			fill: var(--main-color);
-			height: 17px;
-			box-sizing: border-box
-		}
-
-		.dcjq-mega-menu .product_home_active {
-			opacity: 1;
-			visibility: visible
-		}
-
-		/*# sourceMappingURL=megamenu.css.map */
-		.search-contain .search-content {
-			border: none
-		}
-
-		.search-contain input[type="text"] {
-			outline: none;
-			border: none;
-			background: no-repeat;
-			width: 100%;
-			height: 36px;
-			padding-left: 15px;
-			box-sizing: border-box;
-			font-family: arial;
-			font-size: 13px;
-			border: 3px solid #210e02;
-			color: #c4ac9c;
-			background: #443226;
-			border-radius: 50px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.search-contain input[type="text"] {
-				border: 0px;
-				height: 40px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.search-contain input[type="text"] {
-				height: 35px
-			}
-		}
-
-		.search-contain input::-webkit-input-placeholder {
-			color: #c4ac9c
-		}
-
-		#search_form_home {
-			position: relative
-		}
-
-		#search_form_home .dclose {
-			display: inline;
-			position: absolute;
-			padding: 2px;
-			cursor: pointer;
-			box-sizing: border-box;
-			right: 0px;
-			width: 40px;
-			height: 40px;
-			background: var(--main-color);
-			text-align: center;
-			border-radius: 0 4px 4px 0
-		}
-
-		#search_form_home .dclose span {
-			cursor: pointer;
-			font-size: 25px;
-			color: #fff
-		}
-
-		.button-search {
-			outline: none;
-			height: 30px;
-			width: 75px;
-			position: absolute;
-			background: none;
-			justify-content: center;
-			border: none;
-			align-items: center;
-			right: 3px;
-			top: 3px;
-			border-radius: 50px;
-			display: flex;
-			cursor: pointer;
-			background: var(--extra-color)
-		}
-
-		.button-search svg {
-			fill: var(--main-color);
-			width: 17px;
-			height: 17px
-		}
-
-		@media only screen and (max-width: 550px) {
-			.button-search {
-				height: 40px;
-				width: 95px;
-				right: 0px;
-				top: 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.button-search {
-				height: 35px
-			}
-		}
-
-		
-
-		
-
-		/*# sourceMappingURL=top_search_home.css.map */
-		.dcjq-mega-menu-mobile #megamenu3 {
-			position: relative;
-			z-index: 99;
-			background: var(--main-color);
-			width: 100%;
-			z-index: 999
-		}
-
-		@media all and (max-width: 400px) {
-			.dcjq-mega-menu-mobile #megamenu3 {
-				margin-top: 0
-			}
-		}
-
-		.top_menu .active a {
-			color: var(--main-color)
-		}
-
-		#megamenu3 .menu-sepa {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0 {
-			float: left;
-			position: relative;
-			padding: 0px 0px 0px 10px;
-			margin: 0px 0px 0px 10px;
-			text-align: center;
-			box-sizing: border-box;
-			-webkit-transition: 0.5s ease-in-out all;
-			transition: 0.5s ease-in-out all;
-			display: flex
-		}
-
-		@media screen and (min-width: 990px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				flex: 1
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:first-child {
-			border-left: 0px solid #eee
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.level_0:last-child {
-			border-right: none
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-		.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-		.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-			color: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-
-			.dcjq-mega-menu-mobile ul.menu li.home.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.home.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li.home:hover>a {
-				color: #fff
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a {
-			float: left;
-			font-size: 14px;
-			color: #585858;
-			white-space: nowrap;
-			display: flex;
-			align-items: center
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				color: var(--main-color)
-			}
-		}
-
-		.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-			width: 13px;
-			height: 13px;
-			margin-right: 5px;
-			fill: var(--main-color)
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a .icon_svg svg {
-				fill: #fff;
-				width: 16px;
-				height: 16px
-			}
-		}
-
-		.drop_down {
-			color: #FFFFFF;
-			display: block;
-			float: left;
-			padding: 0 10px;
-			position: relative
-		}
-
-		.drop_down svg {
-			fill: #8e8e8e;
-			top: 5px;
-			width: 9px;
-			height: 9px;
-			position: absolute
-		}
-
-		@media screen and (max-width: 990px) {
-			.drop_down svg {
-				fill: #fff;
-				width: 11px;
-				height: 11px;
-				top: 50%;
-				transform: translate(0px, -50%)
-			}
-		}
-
-		@media all and (max-width: 990px) {
-			.drop_down {
-				display: block;
-				width: 20px;
-				height: 20px;
-				float: left;
-				padding: 10px 10px 10px 50px;
-				display: flex;
-				align-items: center;
-				position: absolute;
-				justify-content: center;
-				right: 0px;
-				top: 0px;
-				-webkit-transition: 0.7s ease-in-out all;
-				transition: 0.7s ease-in-out all
-			}
-		}
-
-		.dcjq-mega-menu-mobile .highlight {
-			position: absolute;
-			text-align: left;
-			top: 75px;
-			padding-top: 25px;
-			left: 9px;
-			width: 215px;
-			z-index: 99999999;
-			opacity: 0;
-			visibility: hidden
-		}
-
-		.dcjq-mega-menu-mobile .highlight .highlight1 {
-			background: #FFF;
-			font-size: 16px
-		}
-
-		.dcjq-mega-menu-mobile ul.menu li:hover .highlight {
-			opacity: 1;
-			visibility: visible
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-			border-top: 1px solid #E7E7E7;
-			padding: 9px 0 9px 12px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a {
-			color: #555;
-			font-size: 14px
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-			cursor: pointer;
-			border-left: 3px solid var(--main-color);
-			-webkit-transition: 0.15s ease-in-out all;
-			transition: 0.15s ease-in-out all
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover a {
-			text-decoration: none
-		}
-
-		.dcjq-mega-menu-mobile .highlight .sub-menu-level1 a img {
-			display: none
-		}
-
-		.dcjq-mega-menu-mobile .sb-toggle-left {
-			float: left;
-			display: none;
-			cursor: pointer;
-			margin-top: 2px;
-			position: relative;
-			margin-left: 10px;
-			z-index: 99
-		}
-
-		.slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%)
-		}
-
-		.header_wraper .m-slide-up {
-			-ms-transform: translateY(0);
-			transform: translateY(0)
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper .m-slide-up .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search {
-				width: 100%
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 38px
-			}
-
-			.header_wraper .m-slide-up .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.header_wraper .m-slide-up .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.header_wraper .m-slide-up .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.header_wraper .m-slide-up .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		.m-slide-down {
-			-ms-transform: translateY(-100%);
-			transform: translateY(-100%);
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			.m-slide-down .logo_top .logo {
-				-ms-transform: translateY(-100%);
-				transform: translateY(-100%);
-				display: none
-			}
-
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-30px, 0px) !important;
-				transform: translateY(0) translate(-30px, 0px) !important;
-				display: block !important
-			}
-
-			.m-slide-down .search_home #search {
-				width: 100%
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				background: var(--main-color);
-				color: #555555;
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 38px
-			}
-
-			.m-slide-down .search_home #search input::placeholder {
-				color: #555555
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.m-slide-down .search_home {
-				-ms-transform: translateY(0) translate(-18px, 0px) !important;
-				transform: translateY(0) translate(-18px, 0px) !important
-			}
-
-			.m-slide-down .search_home #search input[type="text"] {
-				height: 32px
-			}
-
-			.m-slide-down .search_home #search .button-search {
-				height: 32px;
-				width: 70px;
-				right: -2px
-			}
-		}
-
-		@media screen and (max-width: 1170px) {
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: left;
-				padding-left: 15px;
-				padding-right: 15px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.header_wraper #megamenu3 {
-				height: 100%;
-				width: 0;
-				position: fixed;
-				z-index: 9999;
-				top: 0;
-				right: 0;
-				background-color: #240500d6;
-				overflow-x: hidden;
-				transition: 0.5s
-			}
-
-			#menu-mobile-mega {
-				position: absolute;
-				top: 50%;
-				right: 25px;
-				transform: translate(0px, -50%)
-			}
-
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				display: block;
-				position: relative
-			}
-		}
-
-		@media screen and (max-width: 990px) and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left {
-				position: unset
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				color: black;
-				width: 35px;
-				height: 35px;
-				fill: var(--main-color)
-			}
-		}
-
-		@media only screen and (max-width: 990px) and (max-width: 414px) {
-			.dcjq-mega-menu-mobile .sb-toggle-left svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		@media screen and (max-width: 990px) {
-			.dcjq-mega-menu-mobile .menu_item_a {
-				float: none;
-				text-align: left;
-				padding: 20px 0 20px 40px;
-				text-transform: uppercase;
-				text-decoration: unset
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0 {
-				float: none;
-				padding: 0px;
-				margin: 0;
-				display: block
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:before {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.level_0:after {
-				display: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight {
-				background: transparent;
-				border: none;
-				box-shadow: none;
-				position: relative;
-				text-align: left;
-				float: none;
-				top: 0px;
-				width: auto;
-				display: none;
-				opacity: 1;
-				visibility: visible;
-				left: 0;
-				padding-top: 0
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 {
-				background: transparent;
-				border: none;
-				border-top: 1px solid rgba(255, 255, 255, 0.5);
-				text-transform: none
-			}
-
-			.dcjq-mega-menu-mobile .highlight .highlight1 a {
-				color: #FFF
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1 {
-				border-top: none;
-				padding: 9px 0 9px 22px
-			}
-
-			.dcjq-mega-menu-mobile ul.menu li.mega-hover a,
-			.dcjq-mega-menu-mobile ul.menu>li.activated>a,
-			.dcjq-mega-menu-mobile ul.menu>li:hover>a {
-				-webkit-transition: 0.25s ease-in-out all;
-				transition: 0.25s ease-in-out all;
-				background: var(--extra-color)
-			}
-
-			.dcjq-mega-menu-mobile .highlight .sub-menu-level1:hover {
-				background: var(--extra-color)
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#menu-mobile-mega {
-				right: 10px
-			}
-		}
-
-		.activated .drop_down svg {
-			fill: var(--main-color)
-		}
-
-		#megamenu3 .home {
-			padding: 15px 10px 14px
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home {
-				padding: 0px
-			}
-		}
-
-		#megamenu3 .home svg {
-			width: 18px;
-			height: 18px;
-			fill: #000
-		}
-
-		@media screen and (max-width: 990px) {
-			#megamenu3 .home svg {
-				width: 16px;
-				height: 16px;
-				fill: #fff
-			}
-		}
-
-		#megamenu3 .activated svg {
-			fill: #ffffff
-		}
-
-		#menu_mb .login {
-			color: #fff
-		}
-
-		#menu_mb .login a {
-			display: inline-block;
-			float: left
-		}
-
-		#menu_mb .login span {
-			padding: 0px 5px;
-			color: #fff
-		}
-
-		#megamenu3 .hide_nows {
-			text-align: right;
-			padding: 20px
-		}
-
-		#megamenu3 .hide_nows svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#megamenu3 .log_success {
-			padding-bottom: 30px
-		}
-
-		#megamenu3 .log_success .exit {
-			text-decoration: underline
-		}
-
-		#megamenu3 .log_success a {
-			text-transform: unset;
-			padding-bottom: 0px;
-			padding-top: 10px;
-			display: block
-		}
-
-		#megamenu3 .log_success a span {
-			color: #fff;
-			display: inline-block;
-			padding-right: 5px
-		}
-
-		#megamenu3 .log_success a .noti3 {
-			display: block;
-			font-style: italic
-		}
-
-		#login_nw {
-			padding-left: 5px
-		}
-
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		#product_menu_mobile .menu_label {
-			color: #FFF;
-			font-size: 16px;
-			padding: 13px 43px 13px 40px;
-			position: relative;
-			text-transform: uppercase;
-			position: absolute;
-			cursor: pointer;
-			white-space: nowrap;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%);
-			font-weight: bold;
-			z-index: 99
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile .menu_label {
-				font-size: 15px;
-				padding: 13px 0px 14px 25px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label {
-				padding: 13px 0px 13px 10px
-			}
-
-			#product_menu_mobile .menu_label span {
-				display: grid
-			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 {
-			background: #e2dbdb;
-			box-sizing: border-box;
-			margin-right: 12px;
-			border-radius: 10px
-		}
-
-		#product_menu_mobile .child_menu_down li {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile .child_menu_down .pr_child {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #e1d7d3;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 5px 0px 15px;
-			height: 85px;
-			background: #efeae8
-		}
-
-		#product_menu_mobile .child_menu_down .svg_cat {
-			min-width: 33px;
-			min-height: 30px;
-			margin-right: 10px;
-			display: inline-block
-		}
-
-		#product_menu_mobile .child_menu_down .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-			width: 30px;
-			height: 30px;
-			fill: #c60100
-		}
-
-		@media screen and (max-width: 410px) {
-			#product_menu_mobile #product_menu_ul .level_0 .svg_cat svg {
-				width: 22px;
-				height: 22px;
-				display: none
-			}
-		}
-
-		#product_menu_mobile .menu_label svg {
-			width: 35px;
-			height: 35px;
-			fill: var(--main-color)
-		}
-
-		@media only screen and (max-width: 414px) {
-			#product_menu_mobile .menu_label svg {
-				width: 25px;
-				height: 25px
-			}
-		}
-
-		#product_menu_mobile .menu_label .icon-menu {
-			position: absolute;
-			left: 0px
-		}
-
-		#product_menu_mobile #product_menu_ul {
-			left: 0px;
-			position: fixed;
-			top: 0px;
-			width: 100%;
-			z-index: 999;
-			height: 100%;
-			display: none;
-			overflow-x: auto;
-			background: #3e120ae3
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows {
-			padding: 35px 20px 35px 45px;
-			font-size: 25px;
-			color: var(--main-color);
-			text-transform: uppercase;
-			font-weight: 700;
-			box-sizing: border-box
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .hide_nows {
-				padding: 27px 20px 27px 22px;
-				font-size: 22px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a {
-			float: right
-		}
-
-		#product_menu_mobile #product_menu_ul .hide_nows a svg {
-			width: 32px;
-			height: 32px;
-			fill: #c60100
-		}
-
-		#product_menu_mobile #product_menu_ul>ul {
-			position: relative
-		}
-
-		#product_menu_mobile #product_menu_ul>ul .activated .wp_item {
-			background-color: #f8ad6f;
-			border-bottom: 3px solid #f2630b
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 {
-			display: block;
-			overflow: visible;
-			transition: all .3s ease-out
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .menu_item_a {
-			display: flex;
-			color: #FFF;
-			align-items: center
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-			position: relative;
-			display: flex;
-			color: #000;
-			float: left;
-			align-items: center;
-			border-bottom: 3px solid #eac467;
-			box-sizing: border-box;
-			width: 100%;
-			padding: 0px 15px;
-			height: 85px;
-			background: var(--main-color)
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .wp_item {
-				padding: 0px 5px;
-				height: 76px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .img-menu {
-			margin-right: 7px;
-			float: left
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-			position: absolute;
-			right: 14px;
-			top: 17px
-		}
-
-		@media screen and (max-width: 1024px) {
-
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row,
-			#product_menu_mobile #product_menu_ul .level_0 .cat_row2 {
-				position: absolute;
-				right: 3px;
-				top: -2px;
-				width: 21px;
-				display: flex;
-				vertical-align: middle;
-				text-align: center;
-				display: block;
-				padding: 15px 20px;
-				box-sizing: border-box
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row svg,
-		#product_menu_mobile #product_menu_ul .level_0 .cat_row2 svg {
-			width: 10px;
-			height: 10px;
-			fill: #cccccc
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .img-menu .grayscale {
-			filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values=' 0  0  0  1  0  0  0  0  1  0 0  0  0  1  0 0  0  0  1  0'/></filter></svg>#grayscale")
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-			color: #3c120b;
-			font-size: 16px;
-			text-transform: uppercase;
-			line-height: 25px;
-			font-weight: 600;
-			margin-left: 5px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 14px;
-				line-height: 20px;
-				margin-left: 0px;
-				text-transform: unset
-			}
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 13px
-			}
-		}
-
-		@media only screen and (max-width: 320px) {
-			#product_menu_mobile #product_menu_ul .level_0 .text-menu {
-				font-size: 12px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0 .svg_cat {
-			margin-right: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 {
-			border-bottom: medium none;
-			padding: 2px 0 2px 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0.level_1_same_0 .text-menu {
-			font-weight: normal;
-			padding-left: 29px
-		}
-
-		#product_menu_mobile #product_menu_ul .level_0:hover .highlight {
-			display: flex
-		}
-
-		#product_menu_mobile #product_menu_ul .second-level-menu ul li {
-			padding: 4px 0 4px 16px
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight {
-			background: #FFFFFF;
-			border: 1px solid #E7E7E7;
-			display: none;
-			left: 43px;
-			margin-left: 226px;
-			padding: 12px 0;
-			position: absolute;
-			z-index: 99999;
-			top: 0;
-			width: 912px;
-			height: 385px;
-			overflow: hidden
-		}
-
-		#product_menu_mobile #product_menu_ul .highlight1 {
-			display: inline-block;
-			float: left;
-			min-width: 118px;
-			padding: 0 30px
-		}
-
-		#product_menu_mobile #product_menu_ul .menu_col:FIRST-LETTER {
-			border-right: none
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name {
-			border-bottom: medium none;
-			color: #2E2E2E;
-			font-weight: bold;
-			padding: 10px 25px;
-			width: 178px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 {
-			margin-bottom: 2px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level0 a {
-			color: #3F3F3F;
-			font-weight: bold
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 {
-			position: relative;
-			border-bottom: 1px solid #8c1a04b8;
-			padding-bottom: 15px;
-			margin-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-			color: #f8ad6f;
-			font-size: 16px;
-			font-weight: 700
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .pr_cls1 {
-				font-size: 15px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .level_pr {
-			padding-bottom: 15px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-			width: calc(33.33% - 20px);
-			margin: 10px 20px 10px 0px;
-			text-align: center
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 {
-				width: calc(33.33% - 10px);
-				margin: 5px 5px 5px 5px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-			display: inline-block;
-			line-height: 23px
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 span {
-				line-height: 20px;
-				height: 40px;
-				overflow: hidden
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .icon_level2 img {
-			max-width: 55px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-			color: #210101;
-			position: relative;
-			display: inline-block;
-			float: left
-		}
-
-		@media only screen and (max-width: 380px) {
-			#product_menu_mobile #product_menu_ul .sub-menu-level2 a {
-				font-size: 13px
-			}
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1>a {
-			line-height: 22px;
-			display: block;
-			position: relative;
-			font-size: 14px;
-			color: #fff
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-menu-level1 .image_sub {
-			display: none
-		}
-
-		#product_menu_mobile #product_menu_ul .second_field {
-			border-top: 1px dotted #D3D3D3;
-			margin-top: 10px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name h3 a {
-			color: #000;
-			margin-bottom: 4px
-		}
-
-		#product_menu_mobile #product_menu_ul .field_name .read_more a {
-			color: #348AD4;
-			text-decoration: underline
-		}
-
-		#product_menu_mobile #product_menu_ul .field_label {
-			color: #3F3F3F;
-			margin-bottom: 5px
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper_sub_level2 li {
-			float: left;
-			margin-right: 30px;
-			margin-bottom: 12px
-		}
-
-		#product_menu_mobile #product_menu_ul .sub-manu-level1 {
-			padding: 4px 10px;
-			width: 33.33%;
-			float: left;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 330px) {
-			#product_menu_mobile .menu_label span font {
-				display: none
-			}
-		}
-
-		#product_menu_mobile .cat_filters_home_wrapper {
-			float: right;
-			width: 70%;
-			top: 99px;
-			position: fixed;
-			overflow-y: auto;
-			height: calc(100% - 99px);
-			right: 0px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .cat_filters_home_wrapper {
-				width: calc(73% - 10px)
-			}
-		}
-
-		#product_menu_mobile {
-			display: none
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile {
-				display: block
-			}
-		}
-
-		#product_menu_mobile .content_lv0 {
-			position: fixed;
-			width: 27%;
-			height: calc(100% - 99px);
-			overflow: hidden;
-			overflow-y: auto;
-			overflow-x: hidden;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .content_lv0 {
-				width: 27%
-			}
-		}
-
-		/*# sourceMappingURL=drop_down_mobile.css.map */
-		.banners_wrapper .item {
-			position: relative
-		}
-
-		.banners_wrapper .item span {
-			display: grid
-		}
-
-		.banners_wrapper .wrapper_text {
-			padding: 60px 0px;
-			float: right
-		}
-
-		@media only screen and (max-width: 1050px) {
-			.banners_wrapper .wrapper_text {
-				padding: 60px 10px 60px 0px
-			}
-		}
-
-		@media only screen and (max-width: 625px) {
-			.banners_wrapper .wrapper_text {
-				padding: 40px 10px 40px 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text {
-				padding: 18px 10px 18px 10px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_ab {
-			font-size: 22px;
-			font-weight: bold;
-			color: #fff;
-			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_ab {
-				font-size: 20px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_wrapper {
-			display: flex;
-			align-items: center
-		}
-
-		.banners_wrapper .wrapper_text .text_left {
-			color: #fff;
-			line-height: 25px;
-			font-size: 18px;
-			width: 50%
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_left {
-				font-size: 15px
-			}
-		}
-
-		.banners_wrapper .wrapper_text legend {
-			text-align: right;
-			color: #fff;
-			font-size: 18px;
-			letter-spacing: 1px;
-			text-transform: uppercase
-		}
-
-		.banners_wrapper .wrapper_text fieldset {
-			width: calc(50% - 20px);
-			margin-left: 20px;
-			border: 1px solid #d6d6d6;
-			border-radius: 5px;
-			text-align: center
-		}
-
-		.banners_wrapper .wrapper_text fieldset .summary {
-			font-size: 58px;
-			color: #fff;
-			line-height: 37px;
-			font-family: monospace;
-			letter-spacing: 1.5px;
-			font-weight: bold;
-			display: inline-block;
-			animation: quick-zoom 5s running infinite ease
-		}
-
-		.banners_wrapper .wrapper_text .read_more {
-			text-align: left
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more {
-				margin-top: 10px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a {
-			background: #fff;
-			color: var(--main-color);
-			display: inline-block;
-			margin: 15px 0px 5px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease;
-			border-radius: 10px;
-			text-transform: uppercase;
-			font-weight: bold;
-			font-size: 18px;
-			padding: 10px 20px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .read_more a {
-				padding: 8px 12px;
-				font-size: 15px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:hover {
-			padding-right: 30px
-		}
-
-		.banners_wrapper .wrapper_text .read_more a:after {
-			display: none;
-			content: ''
-		}
-
-		/*# sourceMappingURL=default_wrapper.css.map */
-		.strengths_retangle2_block {
-			display: flex;
-			flex-wrap: wrap;
-			margin: 0px -10px
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block {
-				margin: 0px -7px
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			.strengths_retangle2_block {
-				margin: 0px -5px
-			}
-		}
-
-		.strengths_retangle2_block .item {
-			cursor: pointer;
-			transition: 0.5s;
-			border-top: 0;
-			margin: 0px;
-			box-sizing: border-box;
-			transition: 0.5s;
-			color: #777;
-			position: relative;
-			float: left;
-			width: calc(26% - 20px);
-			margin: 10px 10px;
-			border-left: 0;
-			display: flex;
-			align-items: center
-		}
-
-		.strengths_retangle2_block .item:nth-child(2) {
-			width: calc(20% - 20px)
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item {
-				width: calc(20% - 14px);
-				margin: 15px 7px
-			}
-		}
-
-		@media all and (max-width: 768px) {
-			.strengths_retangle2_block .item {
-				width: calc(20% - 10px);
-				margin: 12px 5px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-inner {
-			transition: 0.5s;
-			box-sizing: border-box;
-			width: 100%;
-			display: flex;
-			align-items: center
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-inner {
-				display: block
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l {
-			vertical-align: middle;
-			display: block;
-			box-sizing: border-box;
-			color: #fff;
-			text-align: center;
-			float: left;
-			margin-right: 18px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-l {
-				float: unset
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-l {
-				margin-right: 10px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg {
-			box-sizing: border-box;
-			float: left
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item .item-l .isvg {
-				float: unset
-			}
-
-			.strengths_retangle2_block .item .item-l .isvg img {
-				width: auto
-			}
-		}
-
-		.strengths_retangle2_block .item .item-l .isvg svg {
-			fill: #ffb26f;
-			width: 40px;
-			height: 40px;
-			transition: 0.5s
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-l .isvg svg {
-				width: 35px;
-				height: 35px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r {
-			vertical-align: middle;
-			text-align: left;
-			box-sizing: border-box;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		.strengths_retangle2_block .item .item-r .name {
-			display: block;
-			font-size: 20px;
-			color: #000;
-			font-weight: bold;
-			text-transform: uppercase
-		}
-
-		.strengths_retangle2_block .item .item-r .name font {
-			font-weight: bold;
-			color: #dc0000
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .name {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item .item-r .title {
-			font-size: 20px;
-			text-transform: uppercase;
-			color: #fff
-		}
-
-		@media all and (max-width: 900px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 18px
-			}
-		}
-
-		@media screen and (max-width: 414px) {
-			.strengths_retangle2_block .item .item-r .title {
-				font-size: 16px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo {
-			width: calc(52% - 20px)
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo {
-				width: 100%;
-				margin: 0px;
-				padding: 15px 0px
-			}
-		}
-
-		.strengths_retangle2_block .item_logo .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		.strengths_retangle2_block .item_logo_mobile {
-			width: 100%
-		}
-
-		.strengths_retangle2_block .item_logo_mobile .item-r .title {
-			color: #f4e0af;
-			font-size: 28px
-		}
-
-		@media screen and (max-width: 500px) {
-			.strengths_retangle2_block .item_logo_mobile .item-r .title {
-				font-size: 18px;
-				text-align: center;
-				padding-top: 10px;
-				font-weight: 700
-			}
-		}
-
-		@media screen and (max-width: 500px) {
-			.block_strengths {
-				box-shadow: 0px 0px 10px #000;
-				background: -webkit-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: -o-linear-gradient(bottom, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%);
-				background: linear-gradient(to top, #380a00 0%, #611202 48%, #611202 52%, #380a00 100%)
-			}
-		}
-
-		/*# sourceMappingURL=retangle2.css.map */
-		.menu-bottom {
-			margin: 0px -10px
-		}
-
-		@media screen and (max-width: 768px) {
-			.menu-bottom {
-				margin: 0px
-			}
-		}
-
-		ul.menu-bottom li.level0 {
-			float: left;
-			width: calc(100% - 20px);
-			margin: 0px 10px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				padding: 0px 0px 0px 0px
-			}
-		}
-
-		ul.menu-bottom li.level0>a,
-		ul.menu-bottom li.level0>span {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			font-weight: bold;
-			color: #fff
-		}
-
-		@media screen and (max-width: 500px) {
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				font-size: 15px
-			}
-		}
-
-		ul.menu-bottom li.level0 ul {
-			margin-top: 4px
-		}
-
-		ul.menu-bottom li.level0 ul li {
-			margin-bottom: 20px;
-			position: relative;
-			padding-left: 15px
-		}
-
-		ul.menu-bottom li.level0 ul li:before {
-			width: 9px;
-			height: 9px;
-			content: '';
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%) rotate(175deg);
-			background: url('data:image/svg+xml;utf8,<svg width="9px" height="9px" fill="rgb(255, 255, 255)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 240.823 240.823" style="enable-background:new 0 0 240.823 240.823;" xml:space="preserve"><g><path id="Chevron_Right" d="M57.633,129.007L165.93,237.268c4.752,4.74,12.451,4.74,17.215,0c4.752-4.74,4.752-12.439,0-17.179 l-99.707-99.671l99.695-99.671c4.752-4.74,4.752-12.439,0-17.191c-4.752-4.74-12.463-4.74-17.215,0L57.621,111.816 C52.942,116.507,52.942,124.327,57.633,129.007z"/></g></svg>');
-			background-repeat: no-repeat;
-			transition: 0.25s all ease;
-			-webkit-transition: 0.25s all ease
-		}
-
-		ul.menu-bottom li.level0 ul li a {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li span {
-			color: #fff;
-			font-size: 14px
-		}
-
-		ul.menu-bottom li.level0 ul li a:hover {
-			color: var(--main-color)
-		}
-
-		ul li.level1 a:hover,
-		ul li.level1 span:hover {
-			color: #0066b2
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click.png") no-repeat scroll center;
-			position: absolute;
-			cursor: pointer;
-			padding: 16px;
-			right: 0px;
-			top: 0px;
-			display: none
-		}
-
-		ul.menu-bottom li.level0 span.click-mobile.active {
-			background: transparent url("https://onplaza.vn/blocks/mainmenu/assets/images/icon-click-active.png") no-repeat scroll center
-		}
-
-		.menu-bottom ul li.mid-sitem>span i {
-			background: transparent url(https://onplaza.vn/blocks/mainmenu/assets/images/bo-cong-thuong.png) no-repeat scroll left bottom;
-			content: ' ';
-			height: 47px;
-			display: block;
-			margin-top: 23px;
-			padding-top: 12px
-		}
-
-		@media screen and (max-width: 900px) {
-			ul.menu-bottom li.level0 {
-				float: left;
-				width: 100%;
-				border: 1px solid #7c7c7c;
-				margin-bottom: 10px;
-				position: relative
-			}
-
-			ul.menu-bottom li.level0 span.click-mobile {
-				display: block
-			}
-
-			ul.menu-bottom li.level0>a,
-			ul.menu-bottom li.level0>span {
-				display: block;
-				padding: 8px;
-				margin-bottom: 0;
-				color: #fff
-			}
-
-			ul.menu-bottom li.level0 ul {
-				display: none
-			}
-
-			ul li.level1 {
-				border-top: 1px solid #383838;
-				padding: 8px 0px 7px 0px;
-				margin-left: 22px
-			}
-
-			ul.menu-bottom li.level0 ul li {
-				margin-bottom: 8px
-			}
-
-			ul li.level1.first-sitem,
-			ul li.level1:first-child {
-				border-top: 0
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			ul.menu-bottom li.level0 {
-				margin: 0px;
-				margin-bottom: 10px;
-				text-align: center
-			}
-		}
-
-		/*# sourceMappingURL=bottommenu.css.map */
-		.share_fast_small {
-			text-align: left
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small {
-				text-align: center
-			}
-		}
-
-		.share_fast_small .title {
-			margin-bottom: 28px;
-			display: block;
-			font-size: 17px;
-			text-transform: uppercase;
-			color: #fff;
-			font-weight: 700
-		}
-
-		@media screen and (max-width: 768px) {
-			.share_fast_small .title {
-				text-align: center;
-				margin-bottom: 15px
-			}
-		}
-
-		@media all and (max-width: 750px) {
-			.share_fast_small {
-				margin-bottom: 0px
-			}
-		}
-
-		.share_fast_small svg {
-			height: 22px;
-			width: 22px
-		}
-
-		.share_fast_small svg:hover {
-			transition: 0.5s
-		}
-
-		.share_fast_small .youtube-icon svg {
-			height: 25px;
-			width: 25px
-		}
-
-		.share_fast_small .fb,
-		.share_fast_small .prin,
-		.share_fast_small .zl,
-		.share_fast_small .gp,
-		.share_fast_small .yt,
-		.share_fast_small .sk,
-		.share_fast_small .tw {
-			box-sizing: border-box;
-			margin-left: 20px;
-			float: left;
-			border-radius: 50%;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				margin-bottom: 8px
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-
-			.share_fast_small .fb,
-			.share_fast_small .prin,
-			.share_fast_small .zl,
-			.share_fast_small .gp,
-			.share_fast_small .yt,
-			.share_fast_small .sk,
-			.share_fast_small .tw {
-				float: unset;
-				display: inline-block
-			}
-		}
-
-		.share_fast_small .fb svg,
-		.share_fast_small .prin svg,
-		.share_fast_small .zl svg,
-		.share_fast_small .gp svg,
-		.share_fast_small .yt svg,
-		.share_fast_small .sk svg,
-		.share_fast_small .tw svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		.share_fast_small .zl {
-			padding: 0
-		}
-
-		.share_fast_small .zl svg {
-			width: 40px;
-			height: 40px
-		}
-
-		.share_fast_small .fb {
-			margin-left: 0px
-		}
-
-		/*# sourceMappingURL=fast_small.css.map */
-		.wrap-by-fast .footer_phone {
-			border-bottom: 1px solid #757575;
-			padding-top: 50px;
-			background: #222222;
-			padding-bottom: 50px
-		}
-
-		.wrap-by-fast .phone-left {
-			color: white
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .phone-left {
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .phone-tittle {
-			text-transform: uppercase;
-			font-size: 18px;
-			font-weight: bold;
-			color: #fff;
-			letter-spacing: 1px
-		}
-
-		.wrap-by-fast .phone-content {
-			font-size: 14px;
-			margin-top: 15px;
-			line-height: 20px;
-			color: #f2f2f2
-		}
-
-		@media only screen and (max-width: 414px) {
-			.wrap-by-fast .phone-content {
-				font-size: 14px
-			}
-		}
-
-		.wrap-by-fast .fast-left {
-			width: 658px;
-			float: left
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left {
-				width: 100%;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-icon {
-			width: calc(100% - 552px);
-			float: left;
-			height: 102px;
-			background: var(--black-color);
-			position: relative;
-			animation: 2s ease-in-out 0s normal none infinite running change-translate;
-			-webkit-transition: 0.3s ease-in-out all;
-			transition: 0.3s ease-in-out all
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-icon {
-				display: none
-			}
-		}
-
-		.wrap-by-fast .fast-left .icon_phone {
-			width: 58px;
-			height: 75px;
-			margin: 14px 5px 0px 60px;
-			z-index: 2;
-			position: absolute
-		}
-
-		.wrap-by-fast .fast-left .icon_v1 {
-			background-position: -35px 75px;
-			z-index: 3
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text {
-			float: right;
-			width: 505px;
-			margin: 26px 0px;
-			color: #fff;
-			padding-left: 13px;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text {
-				width: 100%;
-				margin: 5px 0px 0px 0px;
-				padding-left: 0px
-			}
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-top {
-			font-size: 24px;
-			font-family: RobotoCondensed-Bold;
-			margin-top: -3px
-		}
-
-		.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-			font-size: 16px
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-left .fast-left-text .fast-bottom {
-				box-sizing: border-box
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast {
-			position: relative
-		}
-
-		@media all and (max-width: 1100px) {
-			.wrap-by-fast .wrap-by-fast {
-				padding: 20px 0px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .item .svg_mail {
-			position: absolute;
-			left: 0px;
-			top: 50%;
-			transform: translate(0px, -50%)
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .wrap-by-fast .item {
-				position: relative
-			}
-		}
-
-		.wrap-by-fast .buy_fast {
-			padding-top: 20px;
-			justify-content: center;
-			display: flex
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast {
-				display: unset
-			}
-		}
-
-		@media screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast {
-				padding-top: 10px
-			}
-		}
-
-		@keyframes change-translate {
-			from {
-				transform: translateX(-88px)
-			}
-		}
-
-		.wrap-by-fast .fast-right {
-			width: calc(100% - 658px);
-			float: right;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 1040px) {
-			.wrap-by-fast .fast-right {
-				width: calc(100% - 10px);
-				margin: -15px 5px;
-				text-align: center
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast {
-			padding-left: 20px;
-			box-sizing: border-box;
-			line-height: 35px;
-			background: no-repeat;
-			margin: 0px;
-			font-size: 16px;
-			color: #fff;
-			width: 100%;
-			outline: none;
-			border: 1px solid var(--main-color)
-		}
-
-		@media only screen and (max-width: 768px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				line-height: 35px
-			}
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast::placeholder {
-			color: #fff;
-			font-style: italic
-		}
-
-		.wrap-by-fast .buy_fast #email1_buy_fast :placeholder {
-			color: #fff;
-			font-style: italic;
-			margin-left: -10px
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast {
-			width: 120px;
-			border: none;
-			color: #230d03;
-			background-color: var(--main-color);
-			border-radius: unset;
-			cursor: pointer;
-			line-height: 35px;
-			margin-top: 10px;
-			margin-left: 0px;
-			font-weight: bold;
-			padding-left: 0px;
-			display: inline-block;
-			font-size: 16px;
-			position: relative;
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast .button-buy-fast {
-				margin: 0px;
-				line-height: 37px
-			}
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover {
-			background: #fff;
-			color: var(--main-color)
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast svg {
-			fill: #fff;
-			transition: 0.5s
-		}
-
-		.wrap-by-fast .buy_fast .button-buy-fast:hover svg {
-			fill: var(--main-color);
-			transition: 0.5s
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .buy_fast_body {
-				margin-top: 5px;
-				margin-bottom: 5px
-			}
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title {
-			color: white
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title span {
-			font-size: 25px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			line-height: 20px
-		}
-
-		.wrap-by-fast .wrap-by-fast .form-title p {
-			margin-top: 10px;
-			font-size: 60px;
-			font-weight: bold;
-			text-transform: uppercase;
-			line-height: 60px;
-			margin-bottom: 0
-		}
-
-		.wrap-by-fast .wrap-by-fast h3 {
-			font-size: 40px;
-			font-style: italic;
-			font-family: 'Lobster Two', cursive !important;
-			color: #fff;
-			font-weight: bold;
-			margin-top: 0px
-		}
-
-		@media all and (max-width: 1000px) {
-			.wrap-by-fast .buy_fast #email1_buy_fast {
-				width: calc(100% - 120px);
-				float: left
-			}
-		}
-
-		@media all and (max-width: 800px) {
-			.wrap-by-fast .footer_phone {
-				padding: 20px 20px 0
-			}
-
-			.wrap-by-fast .footer_phone .phone-left {
-				width: 100%;
-				padding: 0
-			}
-		}
-
-		@media all and (max-width: 414px) {
-			.wrap-by-fast {
-				position: inherit;
-				z-index: 9
-			}
-		}
-
-		/*# sourceMappingURL=newsletter.css.map */
-	</style>
+	<meta name="ICBM" content="21, 105.83">	
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
 		href="https://onplaza.vn/rss.xml">
-
-
-
-
 	<meta http-equiv="origin-trial"
 		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async=""
 		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470722342&amp;cv=11&amp;fst=1688470722342&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Ftinh-dau-thong-do&amp;ref=https%3A%2F%2Fonplaza.vn%2Fan-cung-nguu-hoang-hoan-gia-bao-nhieu&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Tinh%20d%E1%BA%A7u%20th%C3%B4ng%20%C4%91%E1%BB%8F%20l%C3%A0%20g%C3%AC%3F%20C%C3%A1ch%20d%C3%B9ng%20ch%E1%BB%AFa%20b%E1%BB%87nh%2C%20gi%C3%A1%20b%C3%A1n%20sao&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
-</head>
-
-
-
-<body style="">
+</head><body style="">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-
-
-
-
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
-
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
@@ -2645,9 +88,7 @@
 								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
 							</path>
 						</g>
-					</g>
-
-				</svg>
+					</g>				</svg>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
@@ -2656,11 +97,7 @@
 						</li>
 						<li class="register cls"><a href="#register-now">Tạo tài khoản</a></li>
 					</ul>
-				</div>
-
-				<div class="website_login" id="login-now" style="display: block;">
-
-					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
+				</div>				<div class="website_login" id="login-now" style="display: block;">					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
 						method="post" onsubmit="javascript: return checkFormsubmit_login();">
 						<div class="row-register cf ">
 							<label for="username">Email</label>
@@ -2672,31 +109,23 @@
 							<input type="password" name="password" id="password_login" class="txt-login pass"
 								autocomplete="off" placeholder="Mật khẩu" required="">
 						</div>
-						<div class="cls save_resetpass">
-
-							<div class="reset_pass">
+						<div class="cls save_resetpass">							<div class="reset_pass">
 								Quên mật khẩu? Nhấn vào
 								<a onclick="OpenforgetPass()" href="javascript:void(0);" class="forget"> đây?</a>
 							</div>
 						</div>
-						<div class="clear"></div>
-
-						<div class="wrapper-bt-register">
+						<div class="clear"></div>						<div class="wrapper-bt-register">
 							<div class="row-register cf ">
 								<input type="button" name="login" class="lg login btn-submit signin-submit"
 									value="Đăng nhập">
 							</div>
-
-
 						</div>
 						<div class="clear"></div>
 						<input type="hidden" name="return" value="L3RpbmgtZGF1LXRob25nLWRv">
 						<input type="hidden" name="module" value="users">
 						<input type="hidden" name="view" value="users">
 						<input type="hidden" name="task" value="login_save">
-						<input type="hidden" name="Itemid" value="9">
-
-					</form>
+						<input type="hidden" name="Itemid" value="9">					</form>
 					<div class="social_login">
 						<a class="login_fb" title="Đăng nhập bằng Facebook"
 							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=b0c23585203b018e9e24eb5de1878809&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
@@ -2705,9 +134,7 @@
 									d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z">
 								</path>
 							</svg>
-							Đăng nhập bằng Facebook
-
-						</a>
+							Đăng nhập bằng Facebook						</a>
 						<a class="login_gg" title="Đăng nhập bằng Google" href="#google_login"
 							data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10"
 							data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);">
@@ -2744,17 +171,13 @@
 								</g>
 							</svg>
 							Đăng nhập bằng Google
-						</a>
-
-					</div>
+						</a>					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="website_login regis_user hide" id="register-now" style="display: none;">
 					<div class="box-register">
 						<form action="https://onplaza.vn/index.php?module=users" name="register_form"
-							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">
-
-							<div class="message"></div>
+							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">							<div class="message"></div>
 							<div class="form-login">
 								<div class="row-register cf ">
 									<label for="full_name">Họ và tên</label>
@@ -2791,11 +214,7 @@
 										</label>
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-								<div class="row-register row-register-sl cf ">
+								<div class="clear"></div>								<div class="row-register row-register-sl cf ">
 									<label for="date">Ngày sinh</label>
 									<div class="date_l">
 										<select class="date" name="date" id="date">
@@ -2911,9 +330,7 @@
 											<option value="2019">2019</option>
 											<option value="2020">2020</option>
 										</select>
-									</div>
-
-									<!-- <div class="date_r">
+									</div>									<!-- <div class="date_r">
 								<div class="title-t">Giới tính</div>
 								<select class="sex" name="gender" id="gender">
 									<option value="">Lựa chọn</option>
@@ -2938,41 +355,25 @@
 										</div><iframe style="display: none;"></iframe>
 									</div>
 									<span id="captcha_error" class="text-danger"></span>
-								</div>
-
-
-
-								<div class="clear"></div>
-
-
+								</div>								<div class="clear"></div>
 								<div class="row-register cf row-register-btn">
 									<div class=" wrapper-bt-register wrapper-bt-register-btn">
 										<input type="button" class="submitbt login btn-submit register-submit"
 											name="submitbt" value="Tạo tài khoản">
 									</div>
 								</div>
-								<div class="clear"></div>
-
-
-
-							</div>
-
-							<input type="hidden" name="return" value="L3RpbmgtZGF1LXRob25nLWRv">
+								<div class="clear"></div>							</div>							<input type="hidden" name="return" value="L3RpbmgtZGF1LXRob25nLWRv">
 							<input type="hidden" name="module" value="users">
 							<input type="hidden" name="view" value="users">
 							<input type="hidden" name="Itemid" value="9">
 							<input type="hidden" name="task" value="register_save">
-						</form>
-
-					</div>
+						</form>					</div>
 					<div class="text-bot">
 						Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán
 						theo <a href="" title="Điều khoản sử dụng">điều kiện sử dụng và chính sách của Thế Giới Dinh
 							Dưỡng</a>
 					</div>
-				</div>
-
-			</div>
+				</div>			</div>
 		</div>
 		<div class="tab_reset_pass hide">
 			<div class="title">Quên mật khẩu</div>
@@ -3007,11 +408,7 @@
 					<input type="hidden" name="task" value="forget_save">
 				</form>
 			</div>
-		</div>
-
-
-
-	</div>
+		</div>	</div>
 	<div class="menu_head">
 		<div class="wrapper_top cls">
 			<div class="phone left_item">
@@ -3021,11 +418,7 @@
                     <li>HCN: <a href="tel:0969531991">096 953 1991</a></li>
                 </ul>
 			</div>
-			<div class="register right_item">
-
-				<div class="share_fast1">
-
-					<div class="fb share_item"><a class="facebook-icon"
+			<div class="register right_item">				<div class="share_fast1">					<div class="fb share_item"><a class="facebook-icon"
 							href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow"
 							target="_blank">
 							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
@@ -3035,8 +428,6 @@
 							</svg>
 						</a>
 					</div>
-
-
 					<div class="tw share_item">
 						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter"
 							rel="nofollow" target="_blank">
@@ -3046,9 +437,7 @@
 								</path>
 							</svg>
 						</a>
-					</div>
-
-					<div class="yt share_item">
+					</div>					<div class="yt share_item">
 						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
 							title="Link instagram" rel="nofollow" target="_blank">
 							<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
@@ -3061,12 +450,8 @@
 								<path
 									d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
 								</path>
-							</svg>
-
-						</a>
-					</div>
-
-					<div class="yt share_item">
+							</svg>						</a>
+					</div>					<div class="yt share_item">
 						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
 							title="Link youtube" rel="nofollow" target="_blank">
 							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -3077,27 +462,13 @@
 										d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z">
 									</path>
 								</g>
-
-
-							</svg>
-
-						</a>
+							</svg>						</a>
 					</div>
-
-
 					<div class="clear"></div>
-				</div>
-
-				<div class="logs">
+				</div>				<div class="logs">
 					<a onclick="OpenLoginPopup()" class="login user_item" title="Tài khoản" href="javascript:void(0)">
-						Tài khoản</a>
-
-
-
-				</div> <!-- end logs -->
-				<div class="pc_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+						Tài khoản</a>				</div> <!-- end logs -->
+				<div class="pc_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -3109,23 +480,15 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>Giỏ hàng (0)</span>
+								</svg>								<span>Giỏ hàng (0)</span>
 							</a>
 						</div>
 					</div>
 				</div>
-			</div>
-
-		</div>
+			</div>		</div>
 		<div class="clear"></div>
 	</div>
-	<div class="header_wraper cls">
-
-		<div class="home_index no-home">
-
-			<div id="nav-mainmenu"
+	<div class="header_wraper cls">		<div class="home_index no-home">			<div id="nav-mainmenu"
 				class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home nav-mainmenu-black"
 				style="top: 0px; position: relative;">
 				<div class="header_left head-t">
@@ -3135,18 +498,12 @@
 						<img class="logo_img" src="assets/img/logo/logo.gif"
 							alt="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 					</a>
-					<div class="search_home">
-
-						<div id="search" class="search search-contain s_close ">
+					<div class="search_home">						<div id="search" class="search search-contain s_close ">
 							<div class="search-content">
 								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2"
-									method="get" onsubmit="javascript: submit_form_search22();return false;">
-
-									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
+									method="get" onsubmit="javascript: submit_form_search22();return false;">									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
 										name="keyword" class="keyword input-text" autocomplete="off">
 									<button type="submit" class="button-search button_s">
-
-
 										<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
 											style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 											<g>
@@ -3158,26 +515,18 @@
 													<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 												</g>
-											</g>
-
-										</svg>
-
-									</button>
+											</g>										</svg>									</button>
 									<input type="hidden" name="module" value="news">
 									<input type="hidden" name="module" id="link_search2"
 										value="https://onplaza.vn/tim-kiem/keyword.html">
 									<input type="hidden" name="view" value="search">
 									<input type="hidden" name="Itemid" value="10">
 								</form>
-							</div>
-
-						</div>
+							</div>						</div>
 					</div>
 				</div>
 				<div class="dcjq-mega-menu-mobile" id="menu-mobile-mega">
-					<div class="sb-toggle-left navbar-left">
-
-						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
+					<div class="sb-toggle-left navbar-left">						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink"
 							enable-background="new 0 0 24 24">
 							<g>
@@ -3193,12 +542,8 @@
 							</g>
 						</svg>
 					</div>
-
-
 				</div>
-				<div class="mobile_shopcart">
-
-					<div class="shopcart_simple block_content fl">
+				<div class="mobile_shopcart">					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
 								rel="nofollow">
@@ -3210,15 +555,11 @@
 											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
 										</path>
 									</g>
-								</svg>
-
-								<span>0</span>
+								</svg>								<span>0</span>
 							</a>
 						</div>
 					</div>
-				</div>
-
-				<div class="product_menu" id="product_menu_mobile">
+				</div>				<div class="product_menu" id="product_menu_mobile">
 					<div class="menu_label " data-id="product_menu_ul">
 						<span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
@@ -3270,14 +611,10 @@
 				</div>
 				<div class="wrapper_menupc">
 					<div class="dcjq-mega-menu-product cls">
-
-
 						<ul id="megamenu" class="menu mypopup">
 							<li class="cat_level_0 level_0 sort">
 								<a href="javascript:void(0)" id="menu_item_861" class="menu_item_a" title="Sản phẩm">
-									<span class="icon_svg cls">
-
-										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									<span class="icon_svg cls">										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 											viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
 											xml:space="preserve">
@@ -3324,8 +661,6 @@
 												</g>
 											</g>
 										</svg>
-
-
 									</span>
 									Sản phẩm <span class="drop_down">
 										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -3336,38 +671,10 @@
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 									</span>
-								</a>
-
-
-
-								<div class="highlight">
-
-
-
-									<div class="highlight1 container cls">
-										<div class="menu-child_list">
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="sanphamduoclieu.php"
+								</a>								<div class="highlight">									<div class="highlight1 container cls">
+										<div class="menu-child_list">											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="sanphamduoclieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="908"
 													id="menu_item_908" title="Dược liệu cao cấp">
 													<span class="icon"><svg height="30" viewBox="-22 0 511 511.998"
@@ -3376,298 +683,194 @@
 																d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 															</path>
 														</svg></span>
-													Dược liệu cao cấp </a>
-
-
-
-												<div class="wraper_item cls " alt="Dược liệu cao cấp"
+													Dược liệu cao cấp </a>												<div class="wraper_item cls " alt="Dược liệu cao cấp"
 													data-menu_tags="908" data-menu_idt="0"
 													style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;"
-													nhansamhanquoc.php>
-
-													<div class="product_item cls">
-
-
+													nhansamhanquoc.php>													<div class="product_item cls">
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhansam6tuoi.php"
+															<ul class="item_lv2">																<li><a href="nhansam6tuoi.php"
 																		title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
 																	</a></li>
-
-
 																<li><a href="hongsamhanquoc.php"
 																		title="Hồng sâm Hàn Quốc">
 																		Hồng sâm Hàn Quốc
 																	</a></li>
-
-
 																<li><a href="hongsamcukho.php"
 																		title="Hồng sâm củ khô">
 																		Hồng sâm củ khô
 																	</a></li>
-
-
 																<li><a href="caohongsam.php"
 																		title="Cao hồng sâm">
 																		Cao hồng sâm
 																	</a></li>
-
-
 																<li><a href="nuochongsam.php"
 																		title="Nước hồng sâm">
 																		Nước hồng sâm
 																	</a></li>
-
-
 																<li><a href="samtammatong.php"
 																		title="Sâm tẩm mật ong">
 																		Sâm tẩm mật ong
 																	</a></li>
-
-
 																<li><a href="vienhongsam.php"
 																		title="Viên Hồng Sâm">
 																		Viên Hồng Sâm
 																	</a></li>
-
-
 																<li><a href="keosam.php"
 																		title="Kẹo sâm">
 																		Kẹo sâm
 																	</a></li>
-
-
 																<li><a href="hongsambaby.php"
 																		title="Hồng sâm baby">
 																		Hồng sâm baby
 																	</a></li>
-
-
 																<li><a href="trasam.php"
 																		title="Trà sâm">
 																		Trà sâm
 																	</a></li>
-
-
 																<li><a href="ruousamhanquoc.php"
 																		title="Rượu sâm hàn quốc">
 																		Rượu sâm hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="dongtrunghathao.php"
 																title="Đông trùng hạ thảo">
 																Đông trùng hạ thảo
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="dongtrungtaytang.php"
+															<ul class="item_lv2">																<li><a href="dongtrungtaytang.php"
 																		title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
 																	</a></li>
-
-
 																<li><a href="namdongtrunghathao.php"
 																		title="Nấm Đông Trùng Hạ Thảo">
 																		Nấm Đông Trùng Hạ Thảo
 																	</a></li>
-
-
 																<li><a href="viendongtrunghathao.php"
 																		title="Viên đông trùng hạ thảo">
 																		Viên đông trùng hạ thảo
 																	</a></li>
-
-
 																<li><a href="nuocdongtrunghathao.php"
 																		title="Nước đông trùng hạ thảo">
 																		Nước đông trùng hạ thảo
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="namlinhchivang.php"
+															<ul class="item_lv2">																<li><a href="namlinhchivang.php"
 																		title="Nấm linh chi vàng">
 																		Nấm linh chi vàng
 																	</a></li>
-
-
 																<li><a href="tranamlinhchi.php"
 																		title="Trà nấm linh chi">
 																		Trà nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchido.php"
 																		title="Nấm linh chi đỏ">
 																		Nấm linh chi đỏ
 																	</a></li>
-
-
 																<li><a href="caonamlinhchi.php"
 																		title="Cao nấm linh chi">
 																		Cao nấm linh chi
 																	</a></li>
-
-
 																<li><a href="namlinhchithuonghoang.php"
 																		title="Nấm linh chi thượng hoàng">
 																		Nấm linh chi thượng hoàng
 																	</a></li>
-
-
 																<li><a href="namlinhchithailat.php"
 																		title="Nấm linh chi thái lát">
 																		Nấm linh chi thái lát
 																	</a></li>
-
-
 																<li><a href="namlinhxanh.php"
 																		title="Nấm Lim xanh">
 																		Nấm Lim xanh
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="toyentho.php"
+															<ul class="item_lv2">																<li><a href="toyentho.php"
 																		title="Tổ Yến Thô">
 																		Tổ Yến Thô
 																	</a></li>
-
-
 																<li><a href="yensochenguyento.php"
 																		title="Yến sơ chế nguyên tổ">
 																		Yến sơ chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yentinhchenguyento.php"
 																		title="Yến tinh chế nguyên tổ">
 																		Yến tinh chế nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhongnguyento.php"
 																		title="Yến hồng nguyên tổ">
 																		Yến hồng nguyên tổ
 																	</a></li>
-
-
 																<li><a href="yenhuyetnguyento.php"
 																		title="Yến huyết nguyên tổ">
 																		Yến huyết nguyên tổ
 																	</a></li>
-
-
 																<li><a href="nuocyensanest.php"
 																		title="Nước yến sanest">
 																		Nước yến sanest
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="nhunghuoutuoi.php"
+															<ul class="item_lv2">																<li><a href="nhunghuoutuoi.php"
 																		title="Nhung hươu tươi">
 																		Nhung hươu tươi
 																	</a></li>
-
-
 																<li><a href="caobanlong.php"
 																		title="Cao ban long">
 																		Cao ban long
 																	</a></li>
-
-
 																<li><a href="nhunghuoukhothailat.php"
 																		title="Nhung hươu khô thái lát">
 																		Nhung hươu khô thái lát
 																	</a></li>
-
-
 																<li><a href="viennhunghuou.php"
 																		title="Viên nhung hươu">
 																		Viên nhung hươu
 																	</a></li>
-
-
 																<li><a href="botnhunghuou.php"
 																		title="Bột nhung hươu">
 																		Bột nhung hươu
 																	</a></li>
-
-
 																<li><a href="dauhuoumynghe.php"
 																		title="Đầu hươu mỹ nghệ">
 																		Đầu hươu mỹ nghệ
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="ancungnguutrungquoc.php"
+															<ul class="item_lv2">																<li><a href="ancungnguutrungquoc.php"
 																		title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
 																	</a></li>
-
-
 																<li><a href="ancungnguuhanquoc.php"
 																		title="An cung ngưu hàn quốc">
 																		An cung ngưu hàn quốc
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="tinhdauthongdo.php"
@@ -3675,75 +878,27 @@
 																Tinh dầu thông đỏ
 															</a>
 														</div>
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="matongrung.php"
+															<ul class="item_lv2">																<li><a href="matongrung.php"
 																		title="Mật Ong Rừng">
 																		Mật Ong Rừng
 																	</a></li>
-
-
 																<li><a href="suaongchua.php"
 																		title="Sữa Ong Chúa">
 																		Sữa Ong Chúa
 																	</a></li>
-
-
 																<li><a href="phanhoa.php"
 																		title="Phấn Hoa">
 																		Phấn Hoa
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="thucphamchucnang.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="thucphamchucnang.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="909"
 													id="menu_item_909" title="Thực phẩm chức năng">
 													<span class="icon"><svg version="1.1" id="Layer_1"
@@ -3763,16 +918,10 @@
 			c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
 			C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Thực phẩm chức năng </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
 													<div class="product_item cls">
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="khoangchatvitamin.php"
@@ -3780,46 +929,8 @@
 																Khoáng chất - Vitamin
 															</a>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="thuonghieu.php"
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="thuonghieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="910"
 													id="menu_item_910" title="Sản phẩm thương hiệu">
 													<span class="icon"><svg id="Capa_1"
@@ -3840,48 +951,8 @@
 															</path>
 														</svg></span>
 													Sản phẩm thương hiệu </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="quabieucaocap.php"
+												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="quabieucaocap.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="911"
 													id="menu_item_911" title="Quà biếu cao cấp">
 													<span class="icon"><svg version="1.1" id="Capa_1"
@@ -3916,52 +987,10 @@
 																		d="M288,271.692v224h160c17.664,0,32-14.336,32-32v-192H288z">
 																	</path>
 																</g>
-															</g>
-
-														</svg></span>
+															</g>														</svg></span>
 													Quà biếu cao cấp </a>
-
-
-												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1 has_child  ">
-
-												<a href="samvietnam.php"
+												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">												</div>											</div>											<!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="samvietnam.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1021"
 													id="menu_item_1021" title="Sâm Việt Nam">
 													<span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
@@ -3975,53 +1004,35 @@
 															</path>
 														</svg></span>
 													Sâm Việt Nam </a>
-
-
 												<div class="wraper_item cls" data-menu_tags="1021" data-menu_idt="4">
 													<div class="product_item cls">
-
-
 														<div class="item cls cat_item2">
 															<a class="item_lv1"
 																href="samngoclinh.php"
 																title="Sâm ngọc linh">
 																Sâm ngọc linh
 															</a>
-															<ul class="item_lv2">
-
-																<li><a href="ruousamngoclinh.php"
+															<ul class="item_lv2">																<li><a href="ruousamngoclinh.php"
 																		title="Rượu sâm ngọc linh">
 																		Rượu sâm ngọc linh
 																	</a></li>
-
-
 																<li><a href="samngoclinhmatong.php"
 																		title="Sâm ngọc linh mật ong">
 																		Sâm ngọc linh mật ong
 																	</a></li>
-
-
 																<li><a href="samngoclinhtunhien.php"
 																		title="Sâm ngọc linh tự nhiên">
 																		Sâm ngọc linh tự nhiên
 																	</a></li>
-
-
 																<li><a href="samngoclinhtrong.php"
 																		title="Sâm Ngọc Linh trồng">
 																		Sâm Ngọc Linh trồng
 																	</a></li>
-
-
 																<li><a href="trasamngoclinh.php"
 																		title="Trà sâm ngọc linh">
 																		Trà sâm ngọc linh
-																	</a></li>
-
-															</ul>
+																	</a></li>															</ul>
 														</div>
-
-
 														<div class="item cls ">
 															<a class="item_lv1"
 																href="samlaichau.php"
@@ -4029,32 +1040,8 @@
 																Sâm Lai Châu
 															</a>
 														</div>
-													</div>
-
-												</div>
-
-
-
-											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-										</div>
-									</div>
-
-								</div>
+													</div>												</div>											</div>											<!--	end LEVEL 1			-->										</div>
+									</div>								</div>
 							</li>
 							<!--	CHILDREN				-->
 						</ul>
@@ -4077,54 +1064,14 @@
 								</g>
 							</svg>
 						</div>
-
-
 						<ul id="megamenu" class="menu mypopup">
-
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865">
-
-								<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865">								<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
 									title="Giới thiệu">
-									Giới thiệu </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870">
-
-								<a href="#" id="menu_item_870" class="menu_item_a"
+									Giới thiệu </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870">								<a href="#" id="menu_item_870" class="menu_item_a"
 									title="Khuyến mãi">
-									Khuyến mãi </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_883">
-
-								<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
+									Khuyến mãi </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_883">								<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
 									title="Tin tức">
 									Tin tức <span class="drop_down">
 										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -4135,181 +1082,57 @@
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 									</span>
-								</a>
-
-								<!--	LEVEL 1			-->
+								</a>								<!--	LEVEL 1			-->
 								<div class="highlight">
-
-
 									<div class="highlight1 container cls">
-										<div class="menu-child_list">
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="duoclieu.php"
+										<div class="menu-child_list">											<div class="sub-menu sub-menu-level1   ">												<a href="duoclieu.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="961"
 													id="menu_item_961" title="Dược liệu">
 													<span class="icon"></span>
-													Dược liệu </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="suckhoe.php"
+													Dược liệu </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="suckhoe.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="907"
 													id="menu_item_907" title="Sức khỏe">
 													<span class="icon"></span>
-													Sức khỏe </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="benhhoc.php"
+													Sức khỏe </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="benhhoc.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1020"
 													id="menu_item_1020" title="Bệnh học">
 													<span class="icon"></span>
-													Bệnh học </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tintucyensao.php"
+													Bệnh học </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tintucyensao.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1017"
 													id="menu_item_1017" title="Tin Tức Yến Sào">
 													<span class="icon"></span>
-													Tin Tức Yến Sào </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tintucdongtrung.php"
+													Tin Tức Yến Sào </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tintucdongtrung.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="1018"
 													id="menu_item_1018" title="Tin tức Đông Trùng">
 													<span class="icon"></span>
-													Tin tức Đông Trùng </a>
-
-
-
-											</div>
-
-
-
-
-
-											<div class="sub-menu sub-menu-level1   ">
-
-												<a href="tinnhansam.php"
+													Tin tức Đông Trùng </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="tinnhansam.php"
 													class="level_0 sort sub-menu-item" data-menu_tags="962"
 													id="menu_item_962" title="Tin Nhân sâm">
 													<span class="icon"></span>
-													Tin Nhân sâm </a>
-
-
-
-											</div>
-
-
-										</div>
-
-
-
-
-
-									</div>
+													Tin Nhân sâm </a>											</div>
+										</div>									</div>
 									<div class="menu_desc"></div>
 								</div>
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871">
-
-								<a href="chinhsachbaomat.php" id="menu_item_871"
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871">								<a href="chinhsachbaomat.php" id="menu_item_871"
 									class="menu_item_a" title="Chính sách">
-									Chính sách </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
-
-
-
-
-
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884">
-
-								<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
+									Chính sách </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884">								<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
 									title="Liên hệ">
-									Liên hệ </a>
-
-								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->
-
-							</li>
-
-
+									Liên hệ </a>								<!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->							</li>
 							<!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
 				<div class="header_right head-t">
-				</div>
-
-				<div class="search_home">
-
-					<div id="search" class="search search-contain s_close ">
+				</div>				<div class="search_home">					<div id="search" class="search search-contain s_close ">
 						<div class="search-content">
 							<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form_home"
-								method="get" onsubmit="javascript: submit_form_search_home();return false;">
-
-								<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
+								method="get" onsubmit="javascript: submit_form_search_home();return false;">								<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
 									name="keyword" class="keyword input-text" autocomplete="off">
 								<button type="submit" class="button-search button_s">
-
-
 									<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
 										style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 										<g>
@@ -4321,31 +1144,19 @@
 												<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 											</g>
-										</g>
-
-									</svg>
-
-								</button>
+										</g>									</svg>								</button>
 								<input type="hidden" name="module" value="news">
 								<input type="hidden" name="module" id="link_search_home"
 									value="https://onplaza.vn/tim-kiem/keyword.html">
 								<input type="hidden" name="view" value="search">
 								<input type="hidden" name="Itemid" value="10">
 							</form>
-						</div>
-
-					</div>
+						</div>					</div>
 				</div>
 			</div>
-
-
 			<div class="modal-menu-full-screen"></div>
-
-
 			<div id="menu_mb">
 				<div class="dcjq-mega-menu-mobile cls">
-
-
 					<ul id="megamenu3" class="menu mypopup">
 						<li class="hide_nows">
 							<a href="javascript:void(0)" class="close-off" onclick="closeNav()">
@@ -4358,61 +1169,25 @@
 									</path>
 								</svg>
 							</a>
-						</li>
-
-						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
+						</li>						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
 								title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" rel="home">Trang chủ</a> </li>
 						<li class="level_0 sort login">
 							<a onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)"
 								title="Đăng ký">Đăng ký <span>|</span> </a> <a id="login_nw" onclick="OpenLoginPopup()"
 								class="menu_item_a" href="javascript:void(0)" title="Đăng nhập"> Đăng nhập</a>
 						</li>
-						<div class="clear"></div>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_865">
+						<div class="clear"></div>						<li class="level_0 sort " id="level_865">
 							<a href="gioithieu.php" id="menu_item_865" class="menu_item_a"
 								title="Giới thiệu">
-								Giới thiệu </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_870">
+								Giới thiệu </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_870">
 							<a href="#" id="menu_item_870" class="menu_item_a"
 								title="Khuyến mãi">
-								Khuyến mãi </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_883">
+								Khuyến mãi </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_883">
 							<a href="tintuc.php" id="menu_item_883" class="menu_item_a"
 								title="Tin tức">
-								Tin tức </a>
-
-							<!--	LEVEL 1			-->
+								Tin tức </a>							<!--	LEVEL 1			-->
 							<span class="drop_down">
 								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px"
@@ -4422,169 +1197,55 @@
 										<g id="arrow-drop-down">
 											<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 										</g>
-									</g>
-
-								</svg>
+									</g>								</svg>
 							</span>
 							<div class="highlight">
-								<ul class="highlight1 container">
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+								<ul class="highlight1 container">									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="duoclieu.php"
 												class="level_0 sort sub-menu-item" id="menu_item_961" title="Dược liệu">
-												Dược liệu </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Dược liệu </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="suckhoe.php"
 												class="level_0 sort sub-menu-item" id="menu_item_907" title="Sức khỏe">
-												Sức khỏe </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Sức khỏe </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="benhhoc.php"
 												class="level_0 sort sub-menu-item" id="menu_item_1020" title="Bệnh học">
-												Bệnh học </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Bệnh học </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tintucyensao.php"
 												class="level_0 sort sub-menu-item" id="menu_item_1017"
 												title="Tin Tức Yến Sào">
-												Tin Tức Yến Sào </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Tin Tức Yến Sào </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tintucdongtrung.php"
 												class="level_0 sort sub-menu-item" id="menu_item_1018"
 												title="Tin tức Đông Trùng">
-												Tin tức Đông Trùng </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-									<li class="sub-menu sub-menu-level1  ">
+												Tin tức Đông Trùng </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
 											<a href="tinnhansam.php"
 												class="level_0 sort sub-menu-item" id="menu_item_962"
 												title="Tin Nhân sâm">
-												Tin Nhân sâm </a>
-
-										</div>
-
-
-
-
-
-									</li>
-
-
-
-
-
-
-
-								</ul>
+												Tin Nhân sâm </a>										</div>									</li>								</ul>
 								<div class="menu_desc"></div>
 							</div>
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_871">
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_871">
 							<a href="chinhsachbaomat.php" id="menu_item_871"
 								class="menu_item_a" title="Chính sách">
-								Chính sách </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-
-
-
-
-
-
-						<li class="level_0 sort " id="level_884">
+								Chính sách </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_884">
 							<a href="lienhe.php" id="menu_item_884" class="menu_item_a"
 								title="Liên hệ">
-								Liên hệ </a>
-
-							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->
-
-						</li>
-
-						<!--	CHILDREN				-->
+								Liên hệ </a>							<!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->						</li>						<!--	CHILDREN				-->
 					</ul>
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="product_menu_mobile">
-				<div class="product_menu" id="product_menu_mobile">
-
-					<div id="product_menu_ul" class="menu">
-						<ul class="product_menu_ul_innner scroll-bar">
-
-							<li class="hide_nows">
+				<div class="product_menu" id="product_menu_mobile">					<div id="product_menu_ul" class="menu">
+						<ul class="product_menu_ul_innner scroll-bar">							<li class="hide_nows">
 								Sản phẩm
 								<a href="javascript:void(0)" class="close-off" onclick="closeNpr()">
 									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -4594,99 +1255,47 @@
 										<path
 											d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
 										</path>
-									</svg>
-
-								</a>
+									</svg>								</a>
 							</li>
-							<div class="clear"></div>
-
-							<div class="content_lv0 cls">
-
-								<!--	LEVEL 0			-->
-								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965">
-
-									<a href="javascript:void(0)" id="menu_item_965"
-										class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp">
-
-										<span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30"
+							<div class="clear"></div>							<div class="content_lv0 cls">								<!--	LEVEL 0			-->
+								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965">									<a href="javascript:void(0)" id="menu_item_965"
+										class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp">										<span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
 													d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 												</path>
-											</svg></span>
-
-										<span class="text-menu">Dược liệu cao cấp</span>
-
-									</a>
+											</svg></span>										<span class="text-menu">Dược liệu cao cấp</span>									</a>
 									<div class="clear"></div>
 									<ul class="child_menu_down  " id="child_menu_down_965">
-										<li class=" child_down_968 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_968 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_968" title="Nhân sâm Hàn Quốc">
-
-
-
-
 												<span class="text-menu">Nhân sâm Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_976 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_976 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_976" title="Đông trùng hạ thảo">
-
-
-
-
 												<span class="text-menu">Đông trùng hạ thảo</span>
 											</a>
 										</li>
-										<li class=" child_down_981 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_981 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_981" title="Nấm linh chi Hàn Quốc">
-
-
-
-
 												<span class="text-menu">Nấm linh chi Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_984 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_984 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_984" title="Yến sào Khánh Hoà">
-
-
-
-
 												<span class="text-menu">Yến sào Khánh Hoà</span>
 											</a>
 										</li>
-										<li class=" child_down_994 cls">
-
-											<a class="pr_child" data-id="965" href="javascript:void(0)"
+										<li class=" child_down_994 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
 												id="menu_item_994" title="Nhung hươu">
-
-
-
-
 												<span class="text-menu">Nhung hươu</span>
 											</a>
 										</li>
-
-
 									</ul>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966">
-
-									<a href="thucphamchucnang.php" id="menu_item_966"
-										class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng">
-
-										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966">									<a href="thucphamchucnang.php" id="menu_item_966"
+										class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
 												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
 												preserveAspectRatio="xMidYMid meet" version="1.0">
@@ -4705,20 +1314,10 @@
 												<path fill="rgb(100%, 100%, 0%)"
 													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
 													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>
-
-										<span class="text-menu">Thực phẩm chức năng</span>
-
-									</a>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967">
-
-									<a href="thuonghieu.php" id="menu_item_967"
-										class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu">
-
-										<span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512"
+											</svg></span>										<span class="text-menu">Thực phẩm chức năng</span>									</a>
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967">									<a href="thuonghieu.php" id="menu_item_967"
+										class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu">										<span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512"
 												height="30" viewBox="0 0 512 512" width="30"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -4733,20 +1332,10 @@
 												<path
 													d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
 												</path>
-											</svg></span>
-
-										<span class="text-menu">Sản phẩm thương hiệu</span>
-
-									</a>
-								</li>
-
-								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008">
-
-									<a href="vienhongsam.php" id="menu_item_1008"
-										class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm">
-
-										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
+											</svg></span>										<span class="text-menu">Sản phẩm thương hiệu</span>									</a>
+								</li>								<!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008">									<a href="vienhongsam.php" id="menu_item_1008"
+										class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
 												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
 												preserveAspectRatio="xMidYMid meet" version="1.0">
@@ -4765,564 +1354,237 @@
 												<path fill="rgb(100%, 100%, 0%)"
 													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
 													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>
-
-										<span class="text-menu">Viên Hồng Sâm</span>
-
-									</a>
+											</svg></span>										<span class="text-menu">Viên Hồng Sâm</span>									</a>
 								</li>
 							</div>
-
-
 							<!--	LEVEL 0			-->
-
-
 							<!--	LEVEL 1			-->
 							<div class="cat_filters_home_wrapper  cat_filters_965">
-								<ul class="cat_filters_home_ul">
-
-									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php"
+								<ul class="cat_filters_home_ul">									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php"
 											id="menu_item_968" title="Nhân sâm Hàn Quốc">
-											Nhân sâm Hàn Quốc </a>
-
-										<!--	LEVEL 2			-->
+											Nhân sâm Hàn Quốc </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="nhansam6tuoi.php" id=" menu_item_969"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nhansam6tuoi.php" id=" menu_item_969"
 														title="Nhân sâm tươi">
-
-
 														<img class="lazy after-lazy" alt="Nhân sâm tươi"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg.webp"
 															style="display: inline;">
-														<span>Nhân sâm tươi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="hongsamcukho.php" id=" menu_item_970"
+														<span>Nhân sâm tươi</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="hongsamcukho.php" id=" menu_item_970"
 														title="Hồng sâm củ khô">
-
-
 														<img class="lazy after-lazy" alt="Hồng sâm củ khô"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg.webp"
 															style="display: inline;">
-														<span>Hồng sâm củ khô</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="caohongsam.php" id=" menu_item_971"
+														<span>Hồng sâm củ khô</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="caohongsam.php" id=" menu_item_971"
 														title="Cao hồng sâm">
-
-
 														<img class="lazy after-lazy" alt="Cao hồng sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg.webp"
 															style="display: inline;">
-														<span>Cao hồng sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="nuochongsam.php" id=" menu_item_972"
+														<span>Cao hồng sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nuochongsam.php" id=" menu_item_972"
 														title="Nước hồng sâm">
-
-
 														<img class="lazy after-lazy" alt="Nước hồng sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg.webp"
 															style="display: inline;">
-														<span>Nước hồng sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="samtammatong.php" id=" menu_item_973"
+														<span>Nước hồng sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="samtammatong.php" id=" menu_item_973"
 														title="Sâm tẩm mật ong">
-
-
 														<img class="lazy after-lazy" alt="Sâm tẩm mật ong"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg.webp"
 															style="display: inline;">
-														<span>Sâm tẩm mật ong</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="trasam.php" id=" menu_item_974"
+														<span>Sâm tẩm mật ong</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="trasam.php" id=" menu_item_974"
 														title="Trà sâm">
-
-
 														<img class="lazy after-lazy" alt="Trà sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg.webp"
 															style="display: inline;">
-														<span>Trà sâm</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">
-
-													<a href="keosam.php" id=" menu_item_975"
+														<span>Trà sâm</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="keosam.php" id=" menu_item_975"
 														title="Kẹo sâm">
-
-
 														<img class="lazy after-lazy" alt="Kẹo sâm"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg.webp"
 															style="display: inline;">
-														<span>Kẹo sâm</span>
-
-													</a>
+														<span>Kẹo sâm</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="dongtrunghathao.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  ">										<a class="pr_cls1 level_pr" href="dongtrunghathao.php"
 											id="menu_item_976" title="Đông trùng hạ thảo">
-											Đông trùng hạ thảo </a>
-
-										<!--	LEVEL 2			-->
+											Đông trùng hạ thảo </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="dongtrungtaytang.php"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="dongtrungtaytang.php"
 														id=" menu_item_977" title="Đông trùng Tây Tạng">
-
-
-														<span>Đông trùng Tây Tạng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="namdongtrunghathao.php"
+														<span>Đông trùng Tây Tạng</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="namdongtrunghathao.php"
 														id=" menu_item_978" title="Nấm Đông Trùng Hạ Thảo">
-
-
-														<span>Nấm Đông Trùng Hạ Thảo</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="viendongtrunghathao.php"
+														<span>Nấm Đông Trùng Hạ Thảo</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="viendongtrunghathao.php"
 														id=" menu_item_979" title="Viên Đông trùng hạ thảo">
-
-
-														<span>Viên Đông trùng hạ thảo</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">
-
-													<a href="nuocdongtrunghathao.php"
+														<span>Viên Đông trùng hạ thảo</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="nuocdongtrunghathao.php"
 														id=" menu_item_980" title="Nước đông trùng hạ thảo">
-
-
-														<span>Nước đông trùng hạ thảo</span>
-
-													</a>
+														<span>Nước đông trùng hạ thảo</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="namlinhchihanquoc.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  ">										<a class="pr_cls1 level_pr" href="namlinhchihanquoc.php"
 											id="menu_item_981" title="Nấm linh chi Hàn Quốc">
-											Nấm linh chi Hàn Quốc </a>
-
-										<!--	LEVEL 2			-->
+											Nấm linh chi Hàn Quốc </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchido.php" id=" menu_item_982"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="namlinhchido.php" id=" menu_item_982"
 														title="Nấm linh chi đỏ">
-
-
 														<img class="lazy after-lazy" alt="Nấm linh chi đỏ"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg.webp"
 															style="display: inline;">
-														<span>Nấm linh chi đỏ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchivang.php" id=" menu_item_983"
+														<span>Nấm linh chi đỏ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchivang.php" id=" menu_item_983"
 														title="Nấm linh chi vàng">
-
-
-														<span>Nấm linh chi vàng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">
-
-													<a href="caonamlinhchi.php" id=" menu_item_985"
+														<span>Nấm linh chi vàng</span>													</a>
+												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="caonamlinhchi.php" id=" menu_item_985"
 														title="Cao nấm linh chi">
-
-
 														<img class="lazy after-lazy" alt="Cao nấm linh chi"
 															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg"
 															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg.webp"
 															style="display: inline;">
-														<span>Cao nấm linh chi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchithuonghoang.php"
+														<span>Cao nấm linh chi</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithuonghoang.php"
 														id=" menu_item_986" title="Nấm linh chi thượng hoàng">
-
-
-														<span>Nấm linh chi thượng hoàng</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="namlinhchithailat.php"
+														<span>Nấm linh chi thượng hoàng</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithailat.php"
 														id=" menu_item_987" title="Nấm linh chi thái lát">
-
-
-														<span>Nấm linh chi thái lát</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">
-
-													<a href="tranamlinhchi.php" id=" menu_item_988"
+														<span>Nấm linh chi thái lát</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="tranamlinhchi.php" id=" menu_item_988"
 														title="Trà nấm linh chi">
-
-
-														<span>Trà nấm linh chi</span>
-
-													</a>
+														<span>Trà nấm linh chi</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="yensaokhanhhoa.php"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  ">										<a class="pr_cls1 level_pr" href="yensaokhanhhoa.php"
 											id="menu_item_984" title="Yến sào Khánh Hoà">
-											Yến sào Khánh Hoà </a>
-
-										<!--	LEVEL 2			-->
+											Yến sào Khánh Hoà </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yentinhchenguyento.php" id=" menu_item_989"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yentinhchenguyento.php" id=" menu_item_989"
 														title="Yến tinh chế nguyên tổ">
-
-
-														<span>Yến tinh chế nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yensochenguyento.php" id=" menu_item_990"
+														<span>Yến tinh chế nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yensochenguyento.php" id=" menu_item_990"
 														title="Yến sơ chế nguyên tổ">
-
-
-														<span>Yến sơ chế nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yenhuyetnguyento.php" id=" menu_item_991"
+														<span>Yến sơ chế nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yenhuyetnguyento.php" id=" menu_item_991"
 														title="Yến huyết nguyên tổ">
-
-
-														<span>Yến huyết nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="yenhongnguyento.php" id=" menu_item_992"
+														<span>Yến huyết nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="yenhongnguyento.php" id=" menu_item_992"
 														title="Yến hồng nguyên tổ">
-
-
-														<span>Yến hồng nguyên tổ</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">
-
-													<a href="nuocyensanest.php" id=" menu_item_993"
+														<span>Yến hồng nguyên tổ</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="nuocyensanest.php" id=" menu_item_993"
 														title="Nước yến sanest">
-
-
-														<span>Nước yến sanest</span>
-
-													</a>
+														<span>Nước yến sanest</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  ">
-
-										<a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  ">										<a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou"
 											id="menu_item_994" title="Nhung hươu">
-											Nhung hươu </a>
-
-										<!--	LEVEL 2			-->
+											Nhung hươu </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="nhunghuoutuoi.php" id=" menu_item_995"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="nhunghuoutuoi.php" id=" menu_item_995"
 														title="Nhung hươu tươi">
-
-
-														<span>Nhung hươu tươi</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="caobanlong.php" id=" menu_item_996"
+														<span>Nhung hươu tươi</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="caobanlong.php" id=" menu_item_996"
 														title="Cao ban long">
-
-
-														<span>Cao ban long</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">
-
-													<a href="nhunghuoukhothailat.php"
+														<span>Cao ban long</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="nhunghuoukhothailat.php"
 														id=" menu_item_997" title="Nhung hươu khô thái lát">
-
-
-														<span>Nhung hươu khô thái lát</span>
-
-													</a>
+														<span>Nhung hươu khô thái lát</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  ">
-
-										<a class="pr_cls1 level_pr"
+										<span class="bt_after_child"></span>									</li>
+									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  ">										<a class="pr_cls1 level_pr"
 											href="ancungnguu.php"
 											id="menu_item_998" title="An cung ngưu">
-											An cung ngưu </a>
-
-										<!--	LEVEL 2			-->
+											An cung ngưu </a>										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">
-
-													<a href="ancungnguutrungquoc.php" id=" menu_item_999"
+											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="ancungnguutrungquoc.php" id=" menu_item_999"
 														title="An cung ngưu trung quốc">
-
-
-														<span>An cung ngưu trung quốc</span>
-
-													</a>
-												</li>
-
-												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">
-
-													<a href="ancungnguuhanquoc.php" id=" menu_item_1000"
+														<span>An cung ngưu trung quốc</span>													</a>
+												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="ancungnguuhanquoc.php" id=" menu_item_1000"
 														title="An cung ngưu hàn quốc">
-
-
-														<span>An cung ngưu hàn quốc</span>
-
-													</a>
+														<span>An cung ngưu hàn quốc</span>													</a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>
-
-									</li>
-
-
-
-								</ul>
+										<span class="bt_after_child"></span>									</li>								</ul>
 							</div>
-							<span class="bt_after"></span>
-
-							<div class="clear"></div>
-
-
+							<span class="bt_after"></span>							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-
+							<!--	LEVEL 1			-->							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-
+							<!--	LEVEL 1			-->							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-
-
-							<!--	LEVEL 1			-->
-
-							<div class="clear"></div>
-
-							<!--	CHILDREN				-->
+							<!--	LEVEL 1			-->							<div class="clear"></div>							<!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
 			</div>
-
-
-
-
-
-
-
-
 			<div class="clear"> </div>
-
-
 			<style>
 				.background_all {}
 			</style>
 			<div class="background_all" alt="Thế giới dinh dưỡng"
 				style="background-image: url(https://onplaza.vn/images/background/compress/trang_tintuc_1591873805.jpg.webp); display: block;background-color:#140600;background-position:unset"
 				nhansamhanquoc.php> <!-- Content -->
-				<div class="main_wrapper  main_wrapper_nohome  ">
-
-					<div class="main-area main-area-1col main-area-full">
-						<div class="slideshow">
-
-						</div>
+				<div class="main_wrapper  main_wrapper_nohome  ">					<div class="main-area main-area-1col main-area-full">
+						<div class="slideshow">						</div>
 						<div class="clear"></div>
 						<div class="breadcrumbs cls">
-							<div class="container">
-
-								<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
+							<div class="container">								<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
 									<ul class="breadcrumb" itemscope="itemscope"
-										itemtype="https://schema.org/BreadcrumbList">
-
-										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
+										itemtype="https://schema.org/BreadcrumbList">										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
 											itemtype="http://schema.org/ListItem">
 											<a title="Onplaza Việt Pháp - Thế Giới dinh dưỡng"
 												href="https://onplaza.vn/" itemprop="item">
 												<span itemprop="name">Home</span>
 												<meta content="1" itemprop="position">
-											</a>
-
-										</li>
+											</a>										</li>
 										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
 											itemtype="http://schema.org/ListItem">
-
-
 											<a title="Tinh dầu thông đỏ" href="tinhdauthongdo.php"
 												itemprop="item">
 												<span itemprop="name">Tinh dầu thông đỏ</span>
 												<meta content="2" itemprop="position">
-											</a>
-
-										</li>
-
-
+											</a>										</li>
 									</ul>
-								</div>
-
-							</div>
-
-						</div>
-
-						<input type="hidden" name="name_cat" id="name_cat" value="Tinh dầu thông đỏ">
+								</div>							</div>						</div>						<input type="hidden" name="name_cat" id="name_cat" value="Tinh dầu thông đỏ">
 						<div class="products-cat-frame-inner pro_cattt description" style="background-color:#220A00">
 							<div class="filter_products_cat container">
-								<div class="block_products_filter cls">
-
-									<div class="field_title field_title2">
+								<div class="block_products_filter cls">									<div class="field_title field_title2">
 										<div class="title-name">
 											<div class="cat-title">
-												<div class="cat-title-main" id="cat-tinh-dau-thong-do">
-
-													<h1>Tinh dầu thông đỏ</h1>
-
-
+												<div class="cat-title-main" id="cat-tinh-dau-thong-do">													<h1>Tinh dầu thông đỏ</h1>
 													<div class="kk-star-ratings hidden" data-id="102">
-														<div class="kksr-stars">
-
+														<div class="kksr-stars">															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
 															<div class="star_on">
 																<svg fill="#FF9727" width="15px" aria-hidden="true"
 																	data-prefix="fas" data-icon="star" role="img"
@@ -5334,8 +1596,6 @@
 																		class=""></path>
 																</svg>
 															</div>
-
-
 															<div class="star_on">
 																<svg fill="#FF9727" width="15px" aria-hidden="true"
 																	data-prefix="fas" data-icon="star" role="img"
@@ -5347,8 +1607,6 @@
 																		class=""></path>
 																</svg>
 															</div>
-
-
 															<div class="star_on">
 																<svg fill="#FF9727" width="15px" aria-hidden="true"
 																	data-prefix="fas" data-icon="star" role="img"
@@ -5360,21 +1618,6 @@
 																		class=""></path>
 																</svg>
 															</div>
-
-
-															<div class="star_on">
-																<svg fill="#FF9727" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
-																</svg>
-															</div>
-
-
 															<div class="star_on">
 																<svg fill="#dcdcdc" width="15px" aria-hidden="true"
 																	data-prefix="fas" data-icon="star" role="img"
@@ -5385,42 +1628,20 @@
 																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
 																		class=""></path>
 																</svg>
-															</div>
-
-
-
-														</div>
+															</div>														</div>
 														<div class="kksr-legend">
 															<div>
 																<div class="kksr-title hidden">Tinh dầu thông đỏ</div>
 																<span content="4.1"></span>( <span></span> Evaluate )
-
-
 															</div>
 														</div>
 													</div>
-
-
 												</div>
 												<div class="clear"></div>
 											</div>
-										</div>
-
-									</div>
-									<div class="multipe_fiter cls">
-
-										<div class="list_fiter">
-
-
-
-
-
-
-
-											<div class="scroll_mb">
+										</div>									</div>
+									<div class="multipe_fiter cls">										<div class="list_fiter">											<div class="scroll_mb">
 												<div class="block_product_filter">
-
-
 													<div class="field_area field_item field_area_0" id="m-price">
 														<div class="field_name normal field  field_opened "
 															data-id="id_field_price"><span>Mức giá</span></div>
@@ -5572,36 +1793,14 @@
 													</div>
 												</div>
 											</div>
-
-
 										</div>
 										<div class="readmore " id="readmore_desc2"><span class="closed">Xem thêm
-											</span></div>
-
-									</div>
+											</span></div>									</div>
 								</div>
 								<div class="show-filter_current">
-								</div>
-
-							</div>
-
-						</div>
-
-
-
-
-
-
-
-
-						<div class="clear"></div>
-
-						<div class="products-cat" id="products-cat">
-
-							<div class="container">
-								<article class="cat_summary cls">
-
-									<div class="summary_content summary_content_detail">
+								</div>							</div>						</div>
+						<div class="clear"></div>						<div class="products-cat" id="products-cat">							<div class="container">
+								<article class="cat_summary cls">									<div class="summary_content summary_content_detail">
 										<p style="text-align:justify"><span
 												style="font-family:Times New Roman,Times,serif"><span
 													style="font-size:10pt"><span style="font-size:14.0pt">Tinh dầu thông
@@ -5610,15 +1809,9 @@
 															title="dược liệu quý">dược liệu quý</a> đang được bán nhiều
 														tại Hàn Quốc mang đến nhiều công dụng hỗ trợ điều trị bệnh mạnh
 														mẽ.</span></span></span></p>
-									</div>
-
-								</article>
-
-
+									</div>								</article>
 								<section class="products-cat-frame">
-									<div class="field_title">
-
-										<select class="order-select" name="order-select">
+									<div class="field_title">										<select class="order-select" name="order-select">
 											<option value="">Sắp xếp theo</option>
 											<option value="tinhdauthongdo.php/sap-xep-ban-chay-nhat">
 												Bán chạy nhất</option>
@@ -5631,544 +1824,284 @@
 											<option value="tinhdauthongdo.php/sap-xep-moi-nhat">Mới
 												nhất</option>
 											<option value="tinhdauthongdo.php/sap-xep-xem-nhieu">Xem
-												nhiều</option>
-
-										</select>
+												nhiều</option>										</select>
 										<div class="clear"></div>
 									</div>
-									<div class="product_grid">
-
-										<div class="item ">
+									<div class="product_grid">										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-kwangdong/"
+												<figure class="product_image ">													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-kwangdong/"
 														title="Viên Tinh Dầu Thông Đỏ Hàn Quốc Kwangdong Chính hãng hộp 120 viên K411">
 														<img class="lazy after-lazy"
 															alt="Viên Tinh Dầu Thông Đỏ Hàn Quốc Kwangdong Chính hãng hộp 120 viên K411"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-kwangdong-chinh-hang-120-vien_1598943926.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-kwangdong-chinh-hang-120-vien_1598943926.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="https://onplaza.vn/vien-tinh-dau-thong-do-kwangdong/"
 															title="Viên Tinh Dầu Thông Đỏ Hàn Quốc Kwangdong Chính hãng hộp 120 viên K411"
 															class="name">
 															Viên Tinh Dầu Thông Đỏ Hàn Quốc Kwangdong Chính hãng hộp 120
 															viên K411 </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">2.600.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">3.710.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-kwangdong/"
 														title="Mua sản phẩm Viên Tinh Dầu Thông Đỏ Hàn Quốc Kwangdong Chính hãng hộp 120 viên K411">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="tinhdauthongdo.php-han-quoc-cheon-bi-sol/"
+												<figure class="product_image ">													<a href="tinhdauthongdo.php-han-quoc-cheon-bi-sol/"
 														title="Viên tinh dầu thông đỏ Hàn Quốc Cheon Bi Sol cao cấp hộp 180 viên K413">
 														<img class="lazy after-lazy"
 															alt="Viên tinh dầu thông đỏ Hàn Quốc Cheon Bi Sol cao cấp hộp 180 viên K413"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-cheon-bi-sol-cao-cap-hop-180-vien_1598946637.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-cheon-bi-sol-cao-cap-hop-180-vien_1598946637.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="tinhdauthongdo.php-han-quoc-cheon-bi-sol/"
 															title="Viên tinh dầu thông đỏ Hàn Quốc Cheon Bi Sol cao cấp hộp 180 viên K413"
 															class="name">
 															Viên tinh dầu thông đỏ Hàn Quốc Cheon Bi Sol cao cấp hộp 180
 															viên... </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">7.900.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">11.290.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="tinhdauthongdo.php-han-quoc-cheon-bi-sol/"
 														title="Mua sản phẩm Viên tinh dầu thông đỏ Hàn Quốc Cheon Bi Sol cao cấp hộp 180 viên K413">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="https://onplaza.vn/dami-hansongwong-120-vien/"
+												<figure class="product_image ">													<a href="https://onplaza.vn/dami-hansongwong-120-vien/"
 														title="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc Dami Hansongwong cao cấp 120 viên K412">
 														<img class="lazy after-lazy"
 															alt="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc Dami Hansongwong cao cấp 120 viên K412"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-chinh-phu-han-quoc-dami-hansongwong-cao-cap-120-vien_1598947102.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-chinh-phu-han-quoc-dami-hansongwong-cao-cap-120-vien_1598947102.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="https://onplaza.vn/dami-hansongwong-120-vien/"
 															title="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc Dami Hansongwong cao cấp 120 viên K412"
 															class="name">
 															Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc Dami Hansongwong
 															cao cấp 120 viên... </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">7.900.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">11.290.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="https://onplaza.vn/dami-hansongwong-120-vien/"
 														title="Mua sản phẩm Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc Dami Hansongwong cao cấp 120 viên K412">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-pine-jeok-song-gold/"
+												<figure class="product_image ">													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-pine-jeok-song-gold/"
 														title="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc cao cấp Pine Jeok Song Gold 120 viên K415">
 														<img class="lazy after-lazy"
 															alt="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc cao cấp Pine Jeok Song Gold 120 viên K415"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-chinh-phu-han-quoc-cao-cap-pine-jeok-song-gold-120-vien_1598945653.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-chinh-phu-han-quoc-cao-cap-pine-jeok-song-gold-120-vien_1598945653.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="https://onplaza.vn/vien-tinh-dau-thong-do-pine-jeok-song-gold/"
 															title="Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc cao cấp Pine Jeok Song Gold 120 viên K415"
 															class="name">
 															Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc cao cấp Pine Jeok
 															Song Gold... </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">6.900.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">9.860.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-pine-jeok-song-gold/"
 														title="Mua sản phẩm Viên tinh dầu thông đỏ Chính Phủ Hàn Quốc cao cấp Pine Jeok Song Gold 120 viên K415">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="tinhdauthongdo.php-red-pine-gold/"
+												<figure class="product_image ">													<a href="tinhdauthongdo.php-red-pine-gold/"
 														title="Tinh dầu thông đỏ Hàn Quốc Red Pine Gold 100 viên K416">
 														<img class="lazy after-lazy"
 															alt="Tinh dầu thông đỏ Hàn Quốc Red Pine Gold 100 viên K416"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-red-pine-gold_1598948154.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-red-pine-gold_1598948154.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="tinhdauthongdo.php-red-pine-gold/"
 															title="Tinh dầu thông đỏ Hàn Quốc Red Pine Gold 100 viên K416"
 															class="name">
 															Tinh dầu thông đỏ Hàn Quốc Red Pine Gold 100 viên K416 </a>
 													</h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">1.050.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">3.500.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="tinhdauthongdo.php-red-pine-gold/"
 														title="Mua sản phẩm Tinh dầu thông đỏ Hàn Quốc Red Pine Gold 100 viên K416">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="tinhdauthongdo.php-edally/"
+												<figure class="product_image ">													<a href="tinhdauthongdo.php-edally/"
 														title="Tinh dầu thông đỏ Edally K418">
 														<img class="lazy after-lazy" alt="Tinh dầu thông đỏ Edally K418"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-edally_1598952217.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-edally_1598952217.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="tinhdauthongdo.php-edally/"
 															title="Tinh dầu thông đỏ Edally K418" class="name">
 															Tinh dầu thông đỏ Edally K418 </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">3.200.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">4.570.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="tinhdauthongdo.php-edally/"
 														title="Mua sản phẩm Tinh dầu thông đỏ Edally K418">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="https://onplaza.vn/royal-red-pine-hop-120-vien/"
+												<figure class="product_image ">													<a href="https://onplaza.vn/royal-red-pine-hop-120-vien/"
 														title="Tinh dầu thông đỏ chính phủ Royal Red Pine hộp 120 viên K419">
 														<img class="lazy after-lazy"
 															alt="Tinh dầu thông đỏ chính phủ Royal Red Pine hộp 120 viên K419"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-chinh-phu-royal-red-pine-hop-120-vien_1598949065.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-chinh-phu-royal-red-pine-hop-120-vien_1598949065.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="https://onplaza.vn/royal-red-pine-hop-120-vien/"
 															title="Tinh dầu thông đỏ chính phủ Royal Red Pine hộp 120 viên K419"
 															class="name">
 															Tinh dầu thông đỏ chính phủ Royal Red Pine hộp 120 viên K419
 														</a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">6.880.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">9.830.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="https://onplaza.vn/royal-red-pine-hop-120-vien/"
 														title="Mua sản phẩm Tinh dầu thông đỏ chính phủ Royal Red Pine hộp 120 viên K419">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="tinhdauthongdo.php-tam-lan-han-quoc-cao-cap/"
+												<figure class="product_image ">													<a href="tinhdauthongdo.php-tam-lan-han-quoc-cao-cap/"
 														title="Tinh dầu thông đỏ Tâm Lan Hàn Quốc cao cấp K417">
 														<img class="lazy after-lazy"
 															alt="Tinh dầu thông đỏ Tâm Lan Hàn Quốc cao cấp K417"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-tam-lan-han-quoc-cao-cap_1598947526.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/tinh-dau-thong-do-tam-lan-han-quoc-cao-cap_1598947526.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="tinhdauthongdo.php-tam-lan-han-quoc-cao-cap/"
 															title="Tinh dầu thông đỏ Tâm Lan Hàn Quốc cao cấp K417"
 															class="name">
 															Tinh dầu thông đỏ Tâm Lan Hàn Quốc cao cấp K417 </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">1.200.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">1.710.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="tinhdauthongdo.php-tam-lan-han-quoc-cao-cap/"
 														title="Mua sản phẩm Tinh dầu thông đỏ Tâm Lan Hàn Quốc cao cấp K417">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
-
-										<div class="item ">
+											</div> <!-- end .frame_inner -->										</div>										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">
-
-													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-cheong-song-won/"
+												<figure class="product_image ">													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-cheong-song-won/"
 														title="Viên tinh dầu thông đỏ Hàn Quốc Cheong Song Won 180 viên hộp xanh K414">
 														<img class="lazy after-lazy"
 															alt="Viên tinh dầu thông đỏ Hàn Quốc Cheong Song Won 180 viên hộp xanh K414"
 															src="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-cheong-song-won-180-vien-hop-xanh_1598932781.jpg"
 															srcset="https://onplaza.vn/images/products/2020/09/01/resized/vien-tinh-dau-thong-do-han-quoc-cheong-song-won-180-vien-hop-xanh_1598932781.jpg.webp"
-															style="display: inline;"> </a>
-
-												</figure>
-
-
-
-												<div class="name">
+															style="display: inline;"> </a>												</figure>												<div class="name">
 													<h3><a style="color:#FFFFFF"
 															href="https://onplaza.vn/vien-tinh-dau-thong-do-cheong-song-won/"
 															title="Viên tinh dầu thông đỏ Hàn Quốc Cheong Song Won 180 viên hộp xanh K414"
 															class="name">
 															Viên tinh dầu thông đỏ Hàn Quốc Cheong Song Won 180 viên hộp
 															xanh K414... </a> </h3>
-
-
-												</div>
-
-												<div class="price_arae">
+												</div>												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">2.400.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">3.430.000₫ </span>
 													</span>
-												</div>
-
-
-
-
-
-
-
-												<div class="buy_nows">
+												</div>												<div class="buy_nows">
 													<a href="https://onplaza.vn/vien-tinh-dau-thong-do-cheong-song-won/"
 														title="Mua sản phẩm Viên tinh dầu thông đỏ Hàn Quốc Cheong Song Won 180 viên hộp xanh K414">
 														Mua sản phẩm
 													</a>
 												</div>
-
-
-											</div> <!-- end .frame_inner -->
-
-										</div>
+											</div> <!-- end .frame_inner -->										</div>
 										<div class="clear"></div>
-									</div><!--end: .vertical-->
-
-								</section>
-
-
+									</div><!--end: .vertical-->								</section>
 							</div>
-						</div>
-
-						<div class="clear"></div>
+						</div>						<div class="clear"></div>
 						<div class="description_start bg_white" style="background-color:#39231A">
 							<div class="container">
-
-
 								<div class="cat_description description cls" id="box_conten_linfo">
 									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Hiện nay, các sản
 													phẩm tinh dầu thông đỏ đang có mặt tại Việt Nam nhưng nhiều người
 													vẫn không tinh dầu thông đỏ Hàn Quốc là gì và nó mang đến tác dụng
-													gì cho sức khỏe con người.</span></span></span></h2>
-
-									<h2 style="text-align:justify"><span
+													gì cho sức khỏe con người.</span></span></span></h2>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">GIỚI THIỆU TINH DẦU THÔNG ĐỎ HÀN
-															QUỐC </span></strong></span></span></span></h2>
-
-									<h3 style="text-align:justify"><span
+															QUỐC </span></strong></span></span></span></h2>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><span style="font-size:14.0pt">Tinh dầu
-														thông đỏ Hàn Quốc là gì?</span></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+														thông đỏ Hàn Quốc là gì?</span></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Tinh dầu thông đỏ
 													vốn là loại tinh dầu được chiết xuất từ lá cây thông - loại cây
 													thông đỏ lá kim, giống cây này được phân bố tại rất nhiều nơi như
-													Hàn Quốc, Trung Quốc, Nga, Nhật Bản. </span></span></span></p>
-
-									<p style="text-align:center"><img class="lazy2" alt="Cây tinh dầu thông đỏ"
+													Hàn Quốc, Trung Quốc, Nga, Nhật Bản. </span></span></span></p>									<p style="text-align:center"><img class="lazy2" alt="Cây tinh dầu thông đỏ"
 											height="660" width="1000"
-											src="/upload_images/images/tinh-dau-thong-do/Cay-thong-do-han-quoc.jpg"></p>
-
-									<p style="text-align:justify"><span
+											src="/upload_images/images/tinh-dau-thong-do/Cay-thong-do-han-quoc.jpg"></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ở Hàn Quốc, cây
 													thông chủ yếu chỉ xuất hiện tại vùng núi cao, nơi có khí hậu ôn đới,
 													trong lành và độ cao từ 1300 - 1700m. Trong nhiều năm trở lại đây,
 													cây thông đỏ lá kim đã được đưa vào trong danh sách cần bảo tồn, cấm
 													khai thác (CITES 2010) do sự giảm sút mật độ nghiêm trọng của chung.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Tinh dầu thông đỏ
 													được chiết xuất từ bộ phận “lá” của cây thông đỏ với tuổi thọ trung
 													bình khoảng từ 100-200 năm. 1 viên tinh dầu thông đỏ ra đời là kết
 													quả của một quá trình chưng cất kéo dài khoảng 1 tháng từ việc chiết
-													xuất khoảng 2,7kg lá thông đỏ.</span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													xuất khoảng 2,7kg lá thông đỏ.</span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><span style="font-size:14.0pt">Quy trình
 														sản xuất Tinh dầu thông đỏ Hàn
-														Quốc</span></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+														Quốc</span></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Quy trình san xuát
 													tinh dầu thông đỏ được tiến hành rất nghiêm ngặt dựa trên công nghệ
@@ -6177,149 +2110,105 @@
 													vẹn được tinh chất quý giá của tinh dầu thông. Và đây cũng là công
 													nghệ tối ưu nhất dành cho dòng sản phẩm Tinh dầu thông đến từ Hàn
 													Quốc, cụ thể hơn là từ tỉnh Chungcheong Buk-do.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><strong><span
 													style="font-size:10pt"><span style="font-size:14.0pt">Quy trình
 														chưng cất tinh dầu thông đỏ Hàn Quốc được thực hiện như
-														sau:</span></span></strong></span></p>
-
-									<p style="text-align:justify"><span
+														sau:</span></span></strong></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 1: Lựa chọn
-													nguồn nguyên liệu chưng cất</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													nguồn nguyên liệu chưng cất</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Chọn những lá
 													thông tươi, không quá già, không quá non để giúp đảm bảo cho lượng
 													tinh dầu thành phẩm được nhiều nhất có thể. </span></span></span>
-									</p>
-
-									<p style="text-align:justify"><span
+									</p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 2: Hong khô
-													và làm héo nguyên liệu là lá thông </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													và làm héo nguyên liệu là lá thông </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Lá thông sau khi
 													chọn xong được phơi héo cho đến khi độ ẩm chỉ còn khoảng từ 50% so
 													với nguyên trạng ban đầu. Điều này nhằm mục đích chính là giúp tiết
-													kiệm nhiên liệu và thời gian chưng cất. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													kiệm nhiên liệu và thời gian chưng cất. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 3: Tiến
-													hành quy trình chưng cất </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													hành quy trình chưng cất </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Đưa nguyên liệu lá
 													thông vào trong nồi chưng cất, đã được lọc và loại bỏ những loại lá
 													không cùng loại và cỏ dại, giúp tránh làm ảnh hưởng chất lượng của
-													tinh dầu. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													tinh dầu. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 4: Thực
-													hiện quá trình ngưng tụ chất đốt </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													hiện quá trình ngưng tụ chất đốt </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Sau khi đã chưng
 													cất được khoảng từ 3-5h, lượng tinh dầu thành phẩm sẽ được truyền
 													theo ống dẫn hơi đến bồn làm lạnh và được ngưng tụ lại. Nhiệt độ bắt
 													buộc cần phải có trong quá trình này là khoảng tầm 35-40 độ C.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 5: Tinh dầu
 													và nước được trộn lẫn vào nhau sẽ được tách ra trong quá trình phân
-													ly. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													ly. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bước 6: Tinh dầu
 													thông đỏ thô trải qua quy trình tách sẽ được lọc tinh chất thêm một
 													lần nữa bằng phương pháp làm khô bằng Na2SO4 khan, sau đó sẽ thu
-													được tinh dầu thành phẩm.</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													được tinh dầu thành phẩm.</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">Thành phần trong tinh dầu thông đỏ
-															Hàn Quốc </span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+															Hàn Quốc </span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Theo nghiên cứu
 													khoa học, thành phần của tinh dầu thông đỏ Hàn Quốc được chiết xuất
 													hoàn toàn từ lá thông đỏ. Trong đó, thành phần trong 1 viên tinh dầu
 													thông có chứa tới hơn 5000 hợp chất hữu cơ tự nhiên và những hợp
 													chất hữu cơ này cũng có dược tính tương đối, điển hình là Tecpen,
-													Flavonoid, Polyphenol và các Axit Amin,…</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													Flavonoid, Polyphenol và các Axit Amin,…</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Mặc dù chứa nhiều
 													dược tính, nhưng tinh dầu thông đỏ lại không chứa thành phần hóa học
 													và mọi độc tố trong thành phần nguyên liệu đã được loại bỏ thông qua
 													quá trình chưng cất hơi nước. Đó cũng là cơ sở để các nhà sản xuất
 													cam kết với người dùng: Uống tinh dầu thông đỏ không gây tác dụng
-													phụ và dị ứng. </span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													phụ và dị ứng. </span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">Tác dụng của Tinh dầu thông đỏ Hàn
-															Quốc </span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+															Quốc </span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ngay từ thời xa
 													xưa, tinh dầu thông đỏ đã được các thầy thuốc Đông y Hàn Quốc sử
 													dụng trong qua strifnh hỗ trợ chữa trị bệnh cho các bệnh nhân của
-													mình. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													mình. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Y học hiện đại
 													cũng ứng dụng công nghệ nà trong việc sản xuất các sản phẩm thực
 													phẩm chức năng, dược liệu tốt cho sức khỏe người dùng mang đến nhiều
-													công dụng khác nhau như:</span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													công dụng khác nhau như:</span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Hỗ trợ
 															đối với bệnh u.n.g th.ư </span></em></strong></span></span>
-									</h3>
-
-									<p style="text-align:justify"><span
+									</h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Mặc dù không mang
 													đến tác dụng điều trị u.n.g th.ư nhưng trong nghiên cứu Tạp chí
 													International Journal of Biological Macromolecules vào năm 2016,
 													thành phần trong tinh dầu thông đỏ có khả năng giúp trung hòa các
 													gốc tự do, hỗ trợ những bệnh nhân đang điều trị u.n.g th.ư bị suy
-													giảm miễn dịch, ăn ngon, ngủ kém. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													giảm miễn dịch, ăn ngon, ngủ kém. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ngoài việc điều
 													trị bệnh, tinh dầu thông đỏ Hàn Quốc còn mang đến tác dụng giúp đẩy
 													lùi quá trình lão hóa các tế bào da và tóc, giúp cho da và tóc luôn
-													chắc khỏe, căng tràn sức sống. </span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													chắc khỏe, căng tràn sức sống. </span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Hỗ trợ
 															điều trị tim mạch, tiểu đường
-														</span></em></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Không những giúp
 													tăng cường sức đề kháng, tinh dầu thông đỏ còn có tác dụng giúp ngăn
@@ -6327,200 +2216,136 @@
 													cholesterol hiệu. Đây cũng là lý do mà tinh dầu thông đỏ rất tốt
 													dành cho những người bị rối loạn mỡ máu, nhồi máu cơ tim, tiểu
 													đường, người có nguy cơ đột quỵ, huyết áp cao, người có vấn đề về
-													tim mạch. </span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													tim mạch. </span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Hỗ trợ
 															chống lão hóa, chăm sóc
-															da</span></em></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+															da</span></em></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Bên cạnh những
 													công dụng chăm sóc sức khỏe thì Tinh dầu thông đỏ Hàn Quốc còn được
 													biết đến với khả năng giúp làm chậm quá trình lão hóa của các tế bào
 													trong cơ thể, giúp người dùng duy trì tuổi thanh xuân, chăm sóc làn
-													da hiệu quả nhất. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													da hiệu quả nhất. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ngoài ra, tinh dầu
 													thông đỏ còn giúp cân bằng nội tiết tố bên trong ở cả nam và nữ hiệu
 													quả, làm đẹp da sâu từ bên trong, chống rụng tóc rất tốt.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ngoài ra, Tinh dầu
 													thông đỏ Hàn Quốc còn mang đến một số tác dụng khác như hỗ trợ chống
 													virut, vi khuẩn, ký sinh trùng, chống viêm, hỗ trợ điều trị viêm
-													xoang, viêm loét dạ dày…</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													xoang, viêm loét dạ dày…</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">Cách sử dụng Tinh dầu thông đỏ Hàn
-															Quốc đúng cách </span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+															Quốc đúng cách </span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Trước tiên, cần
 													phải lưu ý, Tinh dầu thông đỏ Hàn Quốc là thực phẩm chức năng, không
 													phải là thuốc. Nếu muốn hiệu quả, cần phải dùng đúng cách.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Theo các chuyên
 													gia, mỗi người chỉ nên uống tối đa 3 viên Tinh dầu thông đỏ/ngày
-													nhưng tốt nhất là 2 viên/ngày. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													nhưng tốt nhất là 2 viên/ngày. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Những người mới
-													dùng thì uống 1 viên/ngày. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													dùng thì uống 1 viên/ngày. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Thời điểm lý
 													tưởng nhất để uống Tinh dầu thông đỏ là sau ăn sáng khoảng 30 phút,
 													lúc này các dưỡng chất trong tinh dầu thông đỏ sẽ hấp thụ tốt nhất
-													vào cơ thể. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													vào cơ thể. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Liệu trình sử
 													dụng tinh dầu thông đỏ chỉ nên kéo dài từ 3-6 tháng, sau đó ngưng sử
 													dụng từ 1-2 tháng trước khi có nhu cầu sử dụng lại.
-												</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+												</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">Đối tượng nên sử dụng Tinh dầu
-															thông đỏ Hàn Quốc</span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+															thông đỏ Hàn Quốc</span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Ở dạng thực phẩm
 													chức năng, tinh dầu thông đỏ phù hợp với nhiều đối tượng sử dụng
-													khác nhau: </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													khác nhau: </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Những người bị
-													cao huyết áp cao và không ổn định. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													cao huyết áp cao và không ổn định. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Người bị xơ vữa
-													động mạch, mắc các bệnh về tim mạch. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													động mạch, mắc các bệnh về tim mạch. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Người bị gan
 													nhiễm mỡ, hàm lượng cholesterol trong máu tăng cao.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Những người mắc
-													bệnh về cơ bắp, xương khớp. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													bệnh về cơ bắp, xương khớp. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Những người đang
-													trong quá trình điều trị u.ng th.ư</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													trong quá trình điều trị u.ng th.ư</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Những người bị
-													suy giảm hệ miễn dịch hoặc bị lao lực. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													suy giảm hệ miễn dịch hoặc bị lao lực. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Phụ nữ đang bước
-													vào thời kỳ tiền mãn kinh, bị lão hóa da. </span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													vào thời kỳ tiền mãn kinh, bị lão hóa da. </span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">Đối tượng không nên dùng Tinh dầu
-															thông đỏ Hàn Quốc</span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+															thông đỏ Hàn Quốc</span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Phụ nữ có thai
 													và cho con bú không nên dùng Tinh dầu thông đỏ bởi tinh dầu thông
 													rất nóng, có khả năng sinh nhiệt và làm nóng cơ thể.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Trẻ em dưới 10
 													tuổi không nên dùng vì các bộ phận trong cơ thể chưa hoàn thiện.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Người bị đau dạ
 													dày nặng không nên dùng vì tinh dầu nóng có thể làm bụng nóng lên và
 													dạ dày đau hơn. Với những người bị đau dạ dày bình thường, vẫn có
 													thể dùng Tinh dầu thông đỏ Hàn Quốc (theo chỉ định của bác sĩ).
-												</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+												</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">LƯU Ý KHI SỬ DỤNG TINH DẦU THÔNG ĐỎ
-														</span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+														</span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Không nên dùng
 													tinh dầu thông đỏ Hàn Quốc có viên bị nứt, vỡ, biến dạng chuyển màu.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Với những người
 													có tiền sử mẫn cảm với bất cứ thành phần nào của thuốc hoặc bị bệnh
 													nặng nên tham khảo ý kiến bác sĩ trước khi sử
-													dụng.</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													dụng.</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Bảo quản sản
 													phẩm nơi khô ráo thoáng mát, tránh ánh nắng trực tiếp, tránh xa tầm
-													tay trẻ em.</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													tay trẻ em.</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Tinh dầu thông
 													đỏ là thực phẩm chức năng, không phải là thuốc, không có tác dụng
-													thay thế thuốc chữa bệnh.</span></span></span></p>
-
-									<p style="text-align:justify"><span
+													thay thế thuốc chữa bệnh.</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Hiệu quả sử dụng
 													sản phẩm tùy thuộc vào cơ địa và tình trạng sức khỏe của mỗi
-													người.</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													người.</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">TOP NHỮNG SẢN PHẨM TINH DẦU THÔNG
 															ĐỎ HÀN QUỐC ĐƯỢC ƯA CHUỘNG NHẤT
-														</span></strong></span></span></span></h2>
-
-									<p style="text-align:justify"><span
+														</span></strong></span></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Viên
 															tinh dầu thông đỏ KwangDong
-														</span></em></strong></span></span></p>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">KwangDong là một
 													trong những thương hiệu vô cùng nổi tiếng tại Hàn Quốc. Các sản phẩm
@@ -6533,15 +2358,11 @@
 													càng lan tỏa nhiều như vậy. Tinh dầu thông đỏ KwangDong còn được Bộ
 													Y tế Hàn Quốc khuyến khích sử dụng trong việc hỗ trợ điều trị u.n.g
 													thư, làm sạch máu và hỗ trợ cho bệnh nhân tiểu đường.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Viên
 															tinh dầu thông đỏ Hàn Quốc Cheong Song
-															Won</span></em></strong></span></span></p>
-
-									<p style="text-align:justify"><span
+															Won</span></em></strong></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Viên tinh dầu
 													thông đỏ Hàn Quốc Cheong Song Won là một trong những sản phẩm Tinh
@@ -6549,37 +2370,27 @@
 													thông cao cấp. Đây là sản phẩm thực phẩm chức năng hỗ trợ thải độc
 													gan thận, cân bằng tim mạch, huyết áp, được đánh giá là thần dược hỗ
 													trợ phòng ngừa một số bệnh vô cùng nguy hiểm. </span></span></span>
-									</p>
-
-									<p style="text-align:justify"><span
+									</p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Tinh dầu thông đỏ
 													Cheong Song Won có thiết kế cực sang nhờ màu xanh siêu bắt mắt, hiện
 													đang ngày càng gây chú ý ở nhiều quốc gia khác, đặc biệt là thị
-													trường Việt Nam. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													trường Việt Nam. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Tinh
 															dầu thông đỏ Dami HangSongWon
-														</span></em></strong></span></span></p>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Cũng tương tự như
 													các sản phẩm Tinh dầu thông đỏ Hàn Quốc khác, Viên Tinh dầu thông đỏ
 													Dami HangSongWon đang mang trong mình không ít lợi thế với thiết kế
 													sang trọng, bắt mắt. Đặc biệt là thiết kế dạng viên uống mang đến
 													công dụng hoàn hảo với chiết xuất 100% từ loại cây thông đỏ quý hiếm
-													của xứ Hàn. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													của xứ Hàn. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Viên
 															tinh dầu thông đỏ Hàn Quốc Red Pine Gold
-														</span></em></strong></span></span></p>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Viên tinh dầu
 													thông đỏ Hàn Quốc Red Pine Gold được sản xuất dưới dây chuyền hiện
@@ -6588,15 +2399,11 @@
 													trường, đảm bảo an toàn dành cho sức khỏe người dùng. Đặc biệt, Viên
 													tinh dầu thông đỏ Hàn Quốc Red Pine Gole không chứa các thành phần
 													độc hại nên không gây ảnh hưởng cho sức khỏe người dùng.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">Viên
 															tinh dầu thông đỏ Hàn Quốc Cheon Bi
-															Sol</span></em></strong></span></span></p>
-
-									<p style="text-align:justify"><span
+															Sol</span></em></strong></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Cùng cách thiết kế
 													bao bì bắt mắt, chất lượng sản phẩm cao, giá thành hợp lý, Viên tinh
@@ -6604,16 +2411,12 @@
 													thị trường Việt Nam. Tinh dầu thông đỏ Cheon Bi Sol được chiết xuất
 													từ 100% thành phần cây thông đỏ xứ Hàn cũng như được công nhận bởi
 													các tổ chức FDA Hoa Kỳ, GMP và an toàn tuyệt đối với sức khỏe người
-													sử dụng. </span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+													sử dụng. </span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="color:#d35400"><span style="font-size:10pt"><strong><span
 															style="font-size:14.0pt">MUA TINH DẦU THÔNG ĐỎ HÀN QUỐC CẦN
 															PHẢI LƯU Ý ĐIỀU GÌ?</span></strong></span></span></span>
-									</h2>
-
-									<p style="text-align:justify"><span
+									</h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Với nhu cầu ngay
 													càng gia tăng của người tiêu dùng, tinh dầu thông đỏ Hàn Quốc đang
@@ -6622,15 +2425,11 @@
 													việc mua tinh dầu thông đỏ. Tuy nhiên, cũng chính bởi điều này nên
 													người tiêu dùng rất dễ gặp phải hàng fake, hàng kém chất lượng. Vì
 													thế, khi mua tinh dầu thông đỏ Hàn Quốc, người tiêu dùng cần hết sức
-													lưu ý như sau:</span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													lưu ý như sau:</span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">- Lựa
 															chọn những thương hiệu uy tín
-														</span></em></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Hiện nay, trên thị
 													trường Việt Nam có rất nhiều thương hiệu tinh dầu thông đỏ Hàn
@@ -6638,15 +2437,11 @@
 													Tinh dầu thông đỏ uy tín như Samsung, CheongSongWon, Red Pine Oil,
 													KwangDong... Tiếp theo là dù mua tại kênh offline hay online, bạn
 													cũng nên tìm đến các đơn vị phân phối uy tín để giúp làm giảm thiểu
-													rủi ro mua phải hàng kém chất lượng. </span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+													rủi ro mua phải hàng kém chất lượng. </span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">- Kiểm
 															tra bao bì của sản phẩm</span></em></strong></span></span>
-									</h3>
-
-									<p style="text-align:justify"><span
+									</h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Khi chọn mua hàng,
 													người mua cần phải kiểm tra logo thương hiệu, tem mác, hạn sử dụng,
@@ -6655,15 +2450,11 @@
 													minh bạch cũng cần phải cân nhắc do hiện nay hình thức mua online là
 													khá phổ biết. Do vậy, cần phải trao đổi với người bán kiểm tra hàng
 													trước khi thanh toán để giúp đảm bảo chất lượng.
-												</span></span></span></p>
-
-									<h3 style="text-align:justify"><span
+												</span></span></span></p>									<h3 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><em><span style="font-size:14.0pt">- Hãy
 															thật "cẩn thận" khi mua hàng xách tay
-														</span></em></strong></span></span></h3>
-
-									<p style="text-align:justify"><span
+														</span></em></strong></span></span></h3>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">Rất nhiều người
 													bán Tinh dầu thông đỏ Hàn Quốc qua hình thức xách tay nhưng thực tế
@@ -6672,15 +2463,11 @@
 													mua khó có thể kiểm soát được vấn đề hàng thật giả. Vì thế nên khi
 													mua hàng thông qua đường xách tay, bạn cũng nên tìm hiểu kĩ nguồn
 													hàng cũng như uy tín của người xách tay, tránh tiềm ẩn rủi ro.
-												</span></span></span></p>
-
-									<h2 style="text-align:justify"><span
+												</span></span></span></p>									<h2 style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><strong><span style="font-size:14.0pt">TINH DẦU
 														THÔNG ĐỎ HÀN QUỐC ON PLAZA CAM KẾT UY TÍN NHẤT THỊ TRƯỜNG
-													</span></strong></span></span></h2>
-
-									<p style="text-align:justify"><span
+													</span></strong></span></span></h2>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- <a
 														href="https://onplaza.vn/"
@@ -6688,147 +2475,83 @@
 														Việt Pháp</a>&nbsp;cam kết tất cả các sản phẩm tinh dầu thông đỏ
 													Hàn Quốc được bán đều là hàng chính hãng, không bán hàng giả, hàng
 													kém chất lượng. Có đầy đủ thông tin, hình ảnh chụp thật để khách
-													hàng xem xét, nắm bắt và lựa chọn. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													hàng xem xét, nắm bắt và lựa chọn. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- On Plaza cam kết
 													bán đúng giá, đảm bảo mức giá canh tranh nhất thị trường.
-												</span></span></span></p>
-
-									<p style="text-align:justify"><span
+												</span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- On Plaza có
 													nhiều chương trình ưu đãi, khuyến mãi đặc biệt, giao hàng trên toàn
-													quốc. Khách hàng nhận hàng mới thanh toán. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													quốc. Khách hàng nhận hàng mới thanh toán. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- On Plaza sở hữu
 													đội ngũ nhân viên tư vấn trình độ cao, thân thiện, nhiệt tình và
 													luôn thấu hiểu khách hàng. Luôn luôn tư vấn khách hàng tận tình, chu
-													đáo nhất. </span></span></span></p>
-
-									<p style="text-align:justify"><span
+													đáo nhất. </span></span></span></p>									<p style="text-align:justify"><span
 											style="font-family:Times New Roman,Times,serif"><span
 												style="font-size:10pt"><span style="font-size:14.0pt">- Hệ thống 3
 													showroom lớn tại 2 miền Nam Bắc chắc chắn sẽ khiến khách hàng bị
 													"choáng ngợp" ngay từ khi vừa bước vào. </span></span></span></p>
-								</div>
-
-								<!-- <div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
+								</div>								<!-- <div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
 		</span></div> -->
-							</div>
-
-						</div>
-
-
-
-
-
-
-
-						<script type="text/javascript">
+							</div>						</div>						<script type="text/javascript">
 							var cr_layout_type = 'viewList';
 							var cr_items = ["227", "230", "231"];
 						</script>
-
-
 						<style>
 							.products-cat-frame-inner .cat-title {
 								background-color: #220A005c;
 								text-align: left;
 								padding-bottom: 0px;
-
-
-							}
-
-							.products-cat-frame-inner .cat-title h1 {
+							}							.products-cat-frame-inner .cat-title h1 {
 								color: #FFB26F;
-							}
-
-							.products-cat-frame-inner .summary_content {
+							}							.products-cat-frame-inner .summary_content {
 								color: #;
 								padding-top: 0px;
-							}
-
-							.products-cat-frame-inner {}
-
-							#products-cat {
+							}							.products-cat-frame-inner {}							#products-cat {
 								background-color: #220A00;
-							}
-
-							.product_ajj .products_home_slideshow {
+							}							.product_ajj .products_home_slideshow {
 								display: flex;
 								flex-wrap: wrap;
-								margin: 0px -10px;
-
-							}
-
-							.products-cat-frame .product_grid .item {
+								margin: 0px -10px;							}							.products-cat-frame .product_grid .item {
 								width: calc(calc(100% / 3) - 20px);
 								margin: 0px 10px 30px;
-							}
-
-							@media screen and (max-width:900px) {
+							}							@media screen and (max-width:900px) {
 								.products-cat-frame .product_grid .item {
 									width: calc(calc(100% / 3) - 20px);
 									margin: 0px 10px 20px;
 									padding: 0px;
 								}
-							}
-
-							@media screen and (max-width:650px) {
+							}							@media screen and (max-width:650px) {
 								.products-cat-frame .product_grid .item {
 									width: calc(calc(100% / 2) - 10px);
 									margin: 0px 5px 20px;
 									padding: 0px;
 								}
-							}
-
-							/* .products-cat-frame .product_grid .item2{
+							}							/* .products-cat-frame .product_grid .item2{
 			width: calc(calc(100% / ) - 20px);
 			margin: 0px 10px 30px;
 			} */
-
-
 							#products-cat .cat-title-main a {
 								background-color: #5D1C00;
-								color: #FFB26F;
-
-							}
-
-							#products-cat .cat-title-main a:before {
+								color: #FFB26F;							}							#products-cat .cat-title-main a:before {
 								background-color: #471500;
-							}
-
-							.breadcrumbs {
+							}							.breadcrumbs {
 								background-color: #370008;
 								border: unset;
-							}
-
-							.description_start {
+							}							.description_start {
 								color: #FFFFFF;
-							}
-
-							.block_products_filter .field_item {
+							}							.block_products_filter .field_item {
 								background: #5B0000;
-							}
-
-							.block_products_filter .field_label .item a {
+							}							.block_products_filter .field_label .item a {
 								color: #FFFFFF;
-							}
-
-							.block_products_filter .field_label .item a:before {
+							}							.block_products_filter .field_label .item a:before {
 								background: #FFFFFF;
 							}
-
-
 							.block_products_filter .field_item {
 								border: 1px solid #BB0101;
-							}
-
-							.block_products_filter .field_item .field_name {
+							}							.block_products_filter .field_item .field_name {
 								border-right: 1px solid #BB0101;
 							}
 						</style>
@@ -6836,57 +2559,25 @@
 					<div class="clear"></div>
 				</div>
 				<!-- end.Content -->
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-			<div class="clear"></div>
-
-
-
-			<!--Trên Footer-->
-
-
-
-
+			</div>			<div class="clear"></div>			<!--Trên Footer-->
 			<div class="introdu pos_footer">
 				<div class="wraper_block">
 					<div class="block_banners banners-_banner banners_0 block" id="block_id_148">
 						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 							<div class="item">
 								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101"
-									class="banner_item">
-
-									<span class="wrapper_ap">
+									class="banner_item">									<span class="wrapper_ap">
 										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
 											src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg"
 											srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp"
 											style="display: inline;">
-									</span>
-
-
-
-								</a>
-							</div>
-
-							<div class="clear"></div>
+									</span>								</a>
+							</div>							<div class="clear"></div>
 						</div>
-						<div class="clear"></div>
-
-					</div>
+						<div class="clear"></div>					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-
-			<div class="introdu pos_strength">
+			<div class="clear"></div>			<div class="introdu pos_strength">
 				<div class="wraper_block" style="background-color:#1C0702">
 					<div class="block_strengths strengths-_strengths strengths_0 block" id="block_id_139">
 						<div class="container">
@@ -6904,13 +2595,9 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													CÔNG TY ONPLAZA VIỆT PHÁP </div>
-
-											</div>
+													CÔNG TY ONPLAZA VIỆT PHÁP </div>											</div>
 										</div>
-									</div>
-
-									<div class="item ">
+									</div>									<div class="item ">
 										<div class="item-inner">
 											<div class="item-l">
 												<div class="isvg">
@@ -6952,13 +2639,9 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													Hỗ trợ 24/7 </div>
-
-											</div>
+													Hỗ trợ 24/7 </div>											</div>
 										</div>
 									</div>
-
-
 									<div class="item ">
 										<div class="item-inner">
 											<div class="item-l">
@@ -7014,38 +2697,20 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													Bảo mật thanh toán </div>
-
-											</div>
+													Bảo mật thanh toán </div>											</div>
 										</div>
-									</div>
-
-
-
-								</div>
-
-							</div>
+									</div>								</div>							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-
-			<div class="footer lazy after-lazy"
+			<div class="clear"></div>			<div class="footer lazy after-lazy"
 				style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
 				<footer>
-					<div class="container cls">
-
-						<div class="footer_top cls">
-
-							<div class="all-hotline-ft cls">
-
-								<div class="share_fast_small">
+					<div class="container cls">						<div class="footer_top cls">							<div class="all-hotline-ft cls">								<div class="share_fast_small">
 									<div class="title">HỆ THỐNG SHOWROOM</div>
 								</div>
 								<div class="block_content address_content">
-
-
 									<div class="title">
 										<svg width="20px" height="20px" version="1.1" id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
@@ -7058,15 +2723,9 @@
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 										Hà Nội:
-									</div>
-
-									<ul class="item">
-
-										<li>
+									</div>									<ul class="item">										<li>
 											<p>LK: 76 Hai Bà Trưng</p>
 										</li>
 										<li>
@@ -7076,15 +2735,7 @@
 										<li>
 											<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55 -
 												09.66.60.61.69</p>
-										</li>
-
-
-
-									</ul>
-
-									<ul class="item">
-
-										<li>
+										</li>									</ul>									<ul class="item">										<li>
 											<p>LK: 327 Trường Chinh</p>
 										</li>
 										<li>
@@ -7094,15 +2745,7 @@
 										<li>
 											<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
 												09.65.69.63.64</p>
-										</li>
-
-
-
-									</ul>
-
-
-
-
+										</li>									</ul>
 									<div class="title">
 										<svg width="20px" height="20px" version="1.1" id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
@@ -7115,15 +2758,9 @@
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>
-
-										</svg>
+											</g>										</svg>
 										Hồ Chí Minh:
-									</div>
-
-									<ul class="item">
-
-										<li>
+									</div>									<ul class="item">										<li>
 											<p>LK: Hồ Chí Minh</p>
 										</li>
 										<li>
@@ -7133,19 +2770,9 @@
 										</li>
 										<li>
 											<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69</p>
-										</li>
-
-
-
-									</ul>
-
-
-
-
+										</li>									</ul>
 								</div>
-							</div>
-
-							<div class="footer-menu cls">
+							</div>							<div class="footer-menu cls">
 								<ul class="menu-bottom cls">
 									<li class="  level0  first-item">
 										<span class="click-mobile" data-id="menu-sub1"></span> <span data-id="item_1">
@@ -7179,14 +2806,8 @@
 											</li>
 										</ul>
 									</li>
-								</ul>
-
-							</div>
-
-
+								</ul>							</div>
 							<div class="footer_r cls">
-
-
 								<div class="share_fast_small">
 									<div class="title">Kết nối</div>
 									<div class="fb share_item"><a class="facebook-icon"
@@ -7217,8 +2838,6 @@
 		</a>
 		
 	</div>	 -->
-
-
 									<div class="tw share_item">
 										<a class="twitter-icon" href="https://twitter.com/onplazavietphap"
 											title="Link twitter" rel="nofollow" target="_blank">
@@ -7229,9 +2848,7 @@
 												</path>
 											</svg>
 										</a>
-									</div>
-
-									<div class="yt share_item">
+									</div>									<div class="yt share_item">
 										<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
 											title="Link instagram" rel="nofollow" target="_blank">
 											<svg height="15" viewBox="0 0 511 511.9" width="15"
@@ -7245,14 +2862,8 @@
 												<path
 													d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
 												</path>
-											</svg>
-
-										</a>
+											</svg>										</a>
 									</div>
-
-
-
-
 									<div class="yt share_item">
 										<a class="youtube-icon"
 											href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
@@ -7263,60 +2874,34 @@
 												style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
 												<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
 	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>
-
-											</svg>
+	L90.547,145.583z"></path>											</svg>
 										</a>
 									</div>
-
-
 									<div class="clear"></div>
-								</div>
-
-
-
-								<div class="wrap-by-fast cls">
-									<div class="item">
-
-										<div class="phone-left">
+								</div>								<div class="wrap-by-fast cls">
+									<div class="item">										<div class="phone-left">
 											<p class="phone-content">Onplaza </p>
 										</div>
 									</div>
-									<div class="buy_fast">
-
-										<div class="">
+									<div class="buy_fast">										<div class="">
 											<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
 												onsubmit="javascript: return check_Formsubmitemail();">
 												<div class="cls buy_fast_body">
 													<input type="text" value="" placeholder="E-mail address..."
 														id="email1_buy_fast" name="email_buy_fast"
 														class="keyword input-text">
-													<button type="submit" class="button-buy-fast button">
-
-														Đăng ký </button>
-
-												</div>
+													<button type="submit" class="button-buy-fast button">														Đăng ký </button>												</div>
 												<input type="hidden" name="module" value="users">
 												<input type="hidden" name="view" value="users">
 												<input type="hidden" name="task" value="buy_fast_save">
 												<input type="hidden" name="Itemid" value="10">
-											</form>
-
-										</div>
-
-
+											</form>										</div>
 									</div>
 								</div>
-							</div>
-
-						</div>
+							</div>						</div>
 						<div class="clear"></div>
-
-
 					</div>
-					<div class="footer_im cls">
-
-						<div class="image_wrapper">
+					<div class="footer_im cls">						<div class="image_wrapper">
 							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=tinhdauthongdo.php"
 								title="DMCA.com Protection Status" class="dmca-badge"> <img
 									src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
@@ -7334,18 +2919,12 @@
 								chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
 								747/2014/ATTP-CNDK </div>
 						</div>
-
-
 					</div>
 					<div class="copyright ">
 						<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
 					</div>
 				</footer>
-			</div>
-
-		</div>
-
-
+			</div>		</div>
 		<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
 			<div id="bar-inner">
 				<a class="go-top" href="#page-wrapper" title="Back to top">
@@ -7361,18 +2940,10 @@
 					</svg>
 				</a>
 			</div>
-		</div>
-
-		<input type="hidden" id="Itid" name="Itid" value="9">
-
-
+		</div>		<input type="hidden" id="Itid" name="Itid" value="9">
 		<div id="loading_box">
 			<div id="loading_image"></div>
 		</div>
-
-
-
-
 		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
 		<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
 			<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
@@ -7571,9 +3142,7 @@
 			});
 //]]></script>
 		<!-- end arcontactus widget -->
-		<!--  -->
-
-		<div id="modal_alert1" class="hide">
+		<!--  -->		<div id="modal_alert1" class="hide">
 			<div class="modal_alert_inner">
 				<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
 						onclick="javascript:close_modal_alert1()">X</a></div>
@@ -7611,6 +3180,4 @@
 				sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
 				style="width: 100%; height: 100%;"></iframe></div>
 	</div>
-</body>
-
-</html>
+</body></html>
