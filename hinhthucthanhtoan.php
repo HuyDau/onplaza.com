@@ -66,191 +66,6 @@
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
 	<meta name="ICBM" content="21, 105.83">
-	<style amp-custom="">
-		/*# sourceMappingURL=admin_edit.css.map */
-		.description p,
-		.description ul li,
-		.description div,
-		.description h2,
-		.description h3 {
-			margin-bottom: 12px
-		}
-
-		.content_title {
-			margin: 5px 0 30px
-		}
-
-		.description img {
-			max-width: 100%;
-			height: auto !important
-		}
-
-		.description iframe {
-			max-width: 100%
-		}
-
-		.content_detail {
-			background: #230d03;
-			padding: 20px;
-			color: #Fff;
-			font-size: 14px;
-			margin-bottom: 20px
-		}
-
-		@media screen and (max-width: 800px) {
-			.content_detail {
-				padding: 0px
-			}
-		}
-
-		.content_title>span {
-			color: #ffb26f;
-			font-weight: 500;
-			font-size: 22px;
-			margin-top: 9px
-		}
-
-		@media only screen and (max-width: 1200px) {
-			#oc-column-left {
-				display: none
-			}
-		}
-
-		@media only screen and (max-width: 500px) {
-			.description iframe[src*=youtube] {
-				max-width: 100%;
-				height: auto
-			}
-		}
-
-		.right-col .block {
-			background: #fff;
-			margin-top: 20px;
-			box-sizing: border-box;
-			padding: 0px 0px 0px
-		}
-
-		.menu_content {
-			background: #5b0000;
-			margin: 20px 0px
-		}
-
-		@media screen and (max-width: 800px) {
-			.menu_content {
-				background: unset;
-				margin: 20px 0px;
-				margin-top: 0px;
-				padding-top: 20px
-			}
-		}
-
-		.menu_content li {
-			transition: 0.5s all ease;
-			text-align: center;
-			float: left
-		}
-
-		@media screen and (max-width: 800px) {
-			.menu_content li {
-				border: 1px solid var(--main-color);
-				margin: 0px 10px 10px 0px
-			}
-		}
-
-		.menu_content li a {
-			padding: 10px 30px;
-			display: inline-block;
-			color: #fff;
-			box-sizing: border-box
-		}
-
-		@media screen and (max-width: 800px) {
-			.menu_content li a {
-				padding: 10px
-			}
-		}
-
-		.menu_content li:hover {
-			background: var(--main-color)
-		}
-
-		.menu_content li:hover a {
-			color: #230d03
-		}
-
-		.menu_content .actived {
-			background: var(--main-color)
-		}
-
-		@media screen and (max-width: 800px) {
-			.menu_content .actived {
-				background: #5d1c00
-			}
-		}
-
-		.menu_content .actived a {
-			color: #230d03
-		}
-
-		@media screen and (max-width: 800px) {
-			.menu_content .actived a {
-				color: #fff
-			}
-		}
-
-		.main_wrapper_nohome .content_title {
-			margin: 5px 0px 15px
-		}
-
-		.description {
-			line-height: 22px
-		}
-
-		@media screen and (max-width: 500px) {
-			.description {
-				text-align: justify
-			}
-
-			.description .image td {
-				width: 100%;
-				display: block;
-				margin-bottom: 10px
-			}
-
-			.description table td {
-				width: 100%;
-				display: block;
-				margin-bottom: 10px
-			}
-		}
-
-		.description table {
-			font-size: 14px
-		}
-
-		.description table td,
-		.description table th,
-		.description table p,
-		.description table span {
-			color: #fff
-		}
-
-		@media screen and (max-width: 800px) {
-			.background_all .container {
-				background: #220a00
-			}
-		}
-
-		/*# sourceMappingURL=detail.css.map */
-		
-
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		
-
-		
-
-		/*# sourceMappingURL=newsletter.css.map */
-	</style>
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688469822043&amp;cv=11&amp;fst=1688469822043&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fct-hinh-thuc-thanh-toan.html&amp;ref=https%3A%2F%2Fonplaza.vn%2Fct-chinh-sach-bao-mat.html&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=H%C3%ACnh%20th%E1%BB%A9c%20thanh%20to%C3%A1n%20t%E1%BA%A1i%20Onplaza%20t%E1%BB%AB%20Tr%E1%BB%B1c%20tuy%E1%BA%BFn%2C%20t%E1%BA%A1i%20c%E1%BB%ADa%20h%C3%A0ng%2C%20online&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
@@ -259,13 +74,9 @@
 <body style=""> <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <!-- End Google Tag Manager (noscript) --> <!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
-			<div class="close_popup" onclick="HideLoginPopup()"> <svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
-					<g>
-						<g>
-							<path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z"> </path>
-						</g>
-					</g>
-				</svg> </div>
+			<div class="close_popup" onclick="HideLoginPopup()">
+                <i class="las la-times"></i>
+            </div>
 			<div class="tab_login">
 				<div class="wrapper_log">
 					<ul class="login_select cls">
@@ -286,13 +97,7 @@
 						</div>
 						<div class="clear"></div> <input type="hidden" name="return" value="L2N0LWhpbmgtdGh1Yy10aGFuaC10b2FuLmh0bWw="> <input type="hidden" name="module" value="users"> <input type="hidden" name="view" value="users"> <input type="hidden" name="task" value="login_save"> <input type="hidden" name="Itemid" value="8">
 					</form>
-					<div class="social_login"> <a class="login_fb" title="Đăng nhập bằng Facebook" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=b0c23585203b018e9e24eb5de1878809&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile"> <svg width="30px" height="30px" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-								<path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"> </path>
-							</svg> Đăng nhập bằng Facebook </a> <a class="login_gg" title="Đăng nhập bằng Google" href="#google_login" data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10" data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);"> <svg width="30px" height="30px" x="0px" y="0px" viewBox="0 0 23.952 23.952" style="enable-background:new 0 0 23.952 23.952;" xml:space="preserve">
-								<g>
-									<path d="M18.174,1.157h-2.116l0.709,0.576c0.282,0.234,0.547,0.524,0.802,0.871							c0.252,0.346,0.468,0.749,0.646,1.205c0.176,0.457,0.266,0.979,0.266,1.566c0,0.562-0.083,1.064-0.252,1.5							c-0.165,0.438-0.381,0.832-0.643,1.183S17.018,8.723,16.674,9l-1.06,0.811c-0.218,0.216-0.431,0.439-0.645,0.674							c-0.21,0.231-0.317,0.527-0.317,0.884c0,0.351,0.125,0.633,0.372,0.84c0.251,0.21,0.479,0.376,0.682,0.504l1.223,0.885							c0.337,0.29,0.653,0.582,0.957,0.878c0.302,0.295,0.574,0.614,0.815,0.957c0.236,0.345,0.427,0.723,0.561,1.136							c0.135,0.413,0.199,0.888,0.199,1.426c0,0.75-0.182,1.481-0.551,2.188c-0.368,0.709-0.912,1.346-1.638,1.909							c-0.724,0.564-1.621,1.015-2.691,1.353c-1.073,0.338-2.306,0.507-3.707,0.507c-1.232,0-2.302-0.125-3.207-0.378							c-0.908-0.252-1.666-0.587-2.271-1.006c-0.605-0.418-1.057-0.895-1.353-1.432c-0.295-0.537-0.44-1.1-0.44-1.691							c0-0.569,0.182-1.212,0.551-1.933c0.368-0.719,1.042-1.353,2.023-1.899c0.52-0.29,1.076-0.524,1.67-0.709							c0.592-0.183,1.176-0.324,1.758-0.427c0.582-0.101,1.133-0.173,1.655-0.217c0.52-0.042,0.971-0.075,1.343-0.097							c-0.231-0.287-0.448-0.592-0.648-0.909c-0.195-0.316-0.294-0.726-0.294-1.231c0-0.268,0.033-0.49,0.099-0.669							c0.065-0.181,0.137-0.362,0.221-0.543c-0.169,0.021-0.344,0.037-0.527,0.047c-0.186,0.011-0.368,0.018-0.543,0.018							c-0.906,0-1.704-0.141-2.398-0.429C7.822,10.164,7.228,9.79,6.743,9.33C6.26,8.868,5.895,8.34,5.655,7.743							C5.41,7.148,5.29,6.544,5.29,5.931c0-0.728,0.179-1.463,0.525-2.209c0.352-0.748,0.882-1.414,1.594-2.004							c0.978-0.75,1.993-1.224,3.051-1.421C11.515,0.1,12.499,0,13.415,0h6.935L18.174,1.157z M17.354,19.195							c0-0.389-0.064-0.744-0.196-1.069c-0.131-0.321-0.327-0.633-0.592-0.934c-0.265-0.301-0.639-0.619-1.121-0.955							c-0.483-0.337-1.03-0.719-1.646-1.149c-0.127-0.043-0.247-0.067-0.354-0.067H13.03c-0.086,0-0.248,0.007-0.489,0.016							c-0.241,0.011-0.53,0.035-0.868,0.071c-0.337,0.038-0.697,0.089-1.084,0.152c-0.384,0.065-0.752,0.148-1.104,0.256							c-0.197,0.064-0.452,0.163-0.771,0.296c-0.323,0.131-0.64,0.324-0.956,0.573c-0.317,0.249-0.59,0.568-0.817,0.95							c-0.233,0.383-0.346,0.845-0.346,1.389c0,0.562,0.134,1.072,0.405,1.531c0.271,0.457,0.668,0.86,1.185,1.213							c0.512,0.35,1.135,0.616,1.865,0.795c0.726,0.181,1.538,0.271,2.433,0.271c1.62,0,2.837-0.313,3.65-0.941							S17.354,20.166,17.354,19.195z M14.668,9.079c0.381-0.373,0.615-0.773,0.697-1.2c0.083-0.425,0.124-0.782,0.124-1.067							c0-0.564-0.086-1.179-0.255-1.846c-0.171-0.664-0.43-1.285-0.774-1.859c-0.347-0.576-0.777-1.059-1.289-1.453							c-0.521-0.397-1.115-0.592-1.797-0.592c-0.438,0-0.872,0.099-1.298,0.294C9.65,1.553,9.295,1.802,9.021,2.099							C8.731,2.43,8.539,2.793,8.435,3.185C8.335,3.581,8.284,3.986,8.284,4.4c0,0.521,0.083,1.105,0.244,1.748							c0.164,0.646,0.419,1.247,0.768,1.813c0.35,0.563,0.785,1.039,1.3,1.42c0.52,0.385,1.135,0.576,1.854,0.576							c0.423,0,0.834-0.078,1.232-0.24C14.079,9.557,14.41,9.343,14.668,9.079z"></path>
-								</g>
-							</svg> Đăng nhập bằng Google </a> </div>
+					<div class="social_login"> <a class="login_fb" title="Đăng nhập bằng Facebook" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=b0c23585203b018e9e24eb5de1878809&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile"> <i class="lab la-facebook-f"></i> Đăng nhập bằng Facebook </a> <a class="login_gg" title="Đăng nhập bằng Google" href="#google_login" data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10" data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);"> <i class="lab la-google-plus"></i> Đăng nhập bằng Google </a> </div>
 					<div class="clear"></div>
 				</div>
 				<div class="website_login regis_user hide" id="register-now" style="display: none;">
@@ -311,114 +116,34 @@
 								<div class="row-register row-register-sl cf "> <label for="date">Ngày sinh</label>
 									<div class="date_l"> <select class="date" name="date" id="date">
 											<option value="">Ngày</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
-											<option value="13">13</option>
-											<option value="14">14</option>
-											<option value="15">15</option>
-											<option value="16">16</option>
-											<option value="17">17</option>
-											<option value="18">18</option>
-											<option value="19">19</option>
-											<option value="20">20</option>
-											<option value="21">21</option>
-											<option value="22">22</option>
-											<option value="23">23</option>
-											<option value="24">24</option>
-											<option value="25">25</option>
-											<option value="26">26</option>
-											<option value="27">27</option>
-											<option value="28">28</option>
-											<option value="29">29</option>
-											<option value="30">30</option>
-											<option value="31">31</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 31; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select> <select class="month" name="month" id="month">
 											<option value="">Tháng</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 12; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select> <select class="year" name="year" id="year">
 											<option value="">Năm</option>
-											<option value="1960">1960</option>
-											<option value="1961">1961</option>
-											<option value="1962">1962</option>
-											<option value="1963">1963</option>
-											<option value="1964">1964</option>
-											<option value="1965">1965</option>
-											<option value="1966">1966</option>
-											<option value="1967">1967</option>
-											<option value="1968">1968</option>
-											<option value="1969">1969</option>
-											<option value="1970">1970</option>
-											<option value="1971">1971</option>
-											<option value="1972">1972</option>
-											<option value="1973">1973</option>
-											<option value="1974">1974</option>
-											<option value="1975">1975</option>
-											<option value="1976">1976</option>
-											<option value="1977">1977</option>
-											<option value="1978">1978</option>
-											<option value="1979">1979</option>
-											<option value="1980">1980</option>
-											<option value="1981">1981</option>
-											<option value="1982">1982</option>
-											<option value="1983">1983</option>
-											<option value="1984">1984</option>
-											<option value="1985">1985</option>
-											<option value="1986">1986</option>
-											<option value="1987">1987</option>
-											<option value="1988">1988</option>
-											<option value="1989">1989</option>
-											<option value="1990">1990</option>
-											<option value="1991">1991</option>
-											<option value="1992">1992</option>
-											<option value="1993">1993</option>
-											<option value="1994">1994</option>
-											<option value="1995">1995</option>
-											<option value="1996">1996</option>
-											<option value="1997">1997</option>
-											<option value="1998">1998</option>
-											<option value="1999">1999</option>
-											<option value="2000">2000</option>
-											<option value="2001">2001</option>
-											<option value="2002">2002</option>
-											<option value="2003">2003</option>
-											<option value="2004">2004</option>
-											<option value="2005">2005</option>
-											<option value="2006">2006</option>
-											<option value="2007">2007</option>
-											<option value="2008">2008</option>
-											<option value="2009">2009</option>
-											<option value="2010">2010</option>
-											<option value="2011">2011</option>
-											<option value="2012">2012</option>
-											<option value="2013">2013</option>
-											<option value="2014">2014</option>
-											<option value="2015">2015</option>
-											<option value="2016">2016</option>
-											<option value="2017">2017</option>
-											<option value="2018">2018</option>
-											<option value="2019">2019</option>
-											<option value="2020">2020</option>
+											<?php
+                                            $i;
+                                            for ($i = 1970; $i <= 2023; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select> </div> <!-- <div class="date_r">								<div class="title-t">Giới tính</div>								<select class="sex" name="gender" id="gender">									<option value="">Lựa chọn</option>									<option value="1">Nam</option>									<option value="2">Nữ</option>								</select>							</div> -->
 								</div>
 								<div class="clear"></div>
@@ -463,32 +188,16 @@
 			</div>
 			<div class="register right_item">
 				<div class="share_fast1">
-					<div class="fb share_item"><a class="facebook-icon" href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow" target="_blank"> <svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h236.574219v-198h-66.5v-77.5h66.5v-57.035156c0-66.140625 40.378906-102.140625 99.378906-102.140625 28.257813 0 52.542969 2.105469 59.621094 3.046875v69.128906h-40.683594c-32.101562 0-38.316406 15.253906-38.316406 37.640625v49.359375h76.75l-10 77.5h-66.75v198h121.574219c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm0 0"> </path>
-							</svg> </a> </div>
-					<div class="tw share_item"> <a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank"> <svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"> </path>
-							</svg> </a> </div>
-					<div class="yt share_item"> <a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank"> <svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
-								<path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"> </path>
-								<path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"> </path>
-								<path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"> </path>
-							</svg> </a> </div>
-					<div class="yt share_item"> <a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="13" height="13">
-								<g>
-									<path d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z"> </path>
-								</g>
-							</svg> </a> </div>
+					<div class="fb share_item"><a class="facebook-icon" href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow" target="_blank"> <i class="lab la-facebook-square"></i> </a> </div>
+					<div class="tw share_item"> <a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank"> <i class="lab la-facebook-square"></i> </a> </div>
+					<div class="yt share_item"> <a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank"> <i class="lab la-twitter-square"></i> </a> </div>
+					<div class="yt share_item"> <a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank"> <i class="lab la-instagram"></i></a> </div>
 					<div class="clear"></div>
 				</div>
 				<div class="logs"> <a onclick="OpenLoginPopup()" class="login user_item" title="Tài khoản" href="javascript:void(0)"> Tài khoản</a> </div> <!-- end logs -->
 				<div class="pc_shopcart">
 					<div class="shopcart_simple block_content fl">
-						<div class="count"> <a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow"> <svg x="0px" y="0px" viewBox="0 0 30.511 30.511" style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px" height="22px">
-									<g>
-										<path d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z"> </path>
-									</g>
-								</svg> <span>Giỏ hàng (0)</span> </a> </div>
+						<div class="count"> <a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow"> <i class="las la-shopping-cart"></i> <span>Giỏ hàng (0)</span> </a> </div>
 					</div>
 				</div>
 			</div>
@@ -503,14 +212,7 @@
 					<div class="search_home">
 						<div id="search" class="search search-contain s_close ">
 							<div class="search-content">
-								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2" method="get" onsubmit="javascript: submit_form_search22();return false;"> <input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2" name="keyword" class="keyword input-text" autocomplete="off"> <button type="submit" class="button-search button_s"> <svg x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
-											<g>
-												<g>
-													<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951						C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46						c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465						C318.424,257.208,257.206,318.416,181.956,318.416z"></path>
-													<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
-												</g>
-											</g>
-										</svg> </button> <input type="hidden" name="module" value="news"> <input type="hidden" name="module" id="link_search2" value="https://onplaza.vn/tim-kiem/keyword.html"> <input type="hidden" name="view" value="search"> <input type="hidden" name="Itemid" value="10"> </form>
+								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2" method="get" onsubmit="javascript: submit_form_search22();return false;"> <input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2" name="keyword" class="keyword input-text" autocomplete="off"> <button type="submit" class="button-search button_s"> <i class="las la-search"></i> </button> <input type="hidden" name="module" value="news"> <input type="hidden" name="module" id="link_search2" value="https://onplaza.vn/tim-kiem/keyword.html"> <input type="hidden" name="view" value="search"> <input type="hidden" name="Itemid" value="10"> </form>
 							</div>
 						</div>
 					</div>
@@ -526,11 +228,7 @@
 				</div>
 				<div class="mobile_shopcart">
 					<div class="shopcart_simple block_content fl">
-						<div class="count"> <a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow"> <svg x="0px" y="0px" viewBox="0 0 30.511 30.511" style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px" height="22px">
-									<g>
-										<path d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z"> </path>
-									</g>
-								</svg> <span>0</span> </a> </div>
+						<div class="count"> <a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow"> <i class="las la-shopping-cart"></i> <span>0</span> </a> </div>
 					</div>
 				</div>
 				<div class="product_menu" id="product_menu_mobile">

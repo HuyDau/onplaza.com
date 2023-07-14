@@ -19,6 +19,60 @@
             }
         }
     }
-
-
 }
+
+.menu_head{
+    .wrapper_top{
+        .right_item{
+            .share_fast1{
+                a{
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+            .pc_shopcart{
+                .shopcart_simple{
+                    .buy_img{
+                        .la-shopping-cart{
+                            font-size: 20px;
+                            color: var(--main-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header_wraper{
+    .home_index{
+        .menu-fixed-bar{
+            .logo_top{
+                .search_home{
+                    .search-contain{
+                        .search-content{
+                            .button-search{
+                                .la-search{
+                                    font-size: 20px;
+                                    color: var(--main-color);;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .mobile_shopcart{
+                .shopcart_simple{
+                    .buy_img{
+                        .la-shopping-cart{
+                            font-size: 20px;
+                            color: var(--main-color);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

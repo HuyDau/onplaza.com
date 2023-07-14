@@ -1,120 +1,126 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi"><head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
+
+<head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường</title>	<meta name="description"
-		content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
+	<title>Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường</title>
+	<meta name="description" content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
 	<meta name="keywords" content="Tổ Yến Thô">
-	
+
 	<meta name="dc.language" content="VN">
-		<meta name="dc.title" content="Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường">
+	<meta name="dc.title" content="Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường">
 	<meta name="dc.keywords" content="Tổ Yến Thô">
 	<meta name="dc.subject" content="Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường">
-	<meta name="dc.description"
-		content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
+	<meta name="dc.description" content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
 	<!-- Google Tag Manager -->
-	<script type="text/javascript" async=""
-		src="https://www.gstatic.com/recaptcha/releases/khH7Ei3klcvfRI74FvDcfuOo/recaptcha__vi.js"
-		crossorigin="anonymous"
-		integrity="sha384-UL4gpwnwxxxsV0iKJbujQODc2RZ+xFJZbe1zrnAFA+voyVvurFjSZH6kO9Nz+rpI"></script>
+	<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/khH7Ei3klcvfRI74FvDcfuOo/recaptcha__vi.js" crossorigin="anonymous" integrity="sha384-UL4gpwnwxxxsV0iKJbujQODc2RZ+xFJZbe1zrnAFA+voyVvurFjSZH6kO9Nz+rpI"></script>
 	<script async="" src="https://www.clarity.ms/s/0.7.8/clarity.js"></script>
 	<script async="" src="https://www.clarity.ms/tag/9301me865a?ref=bwt"></script>
 	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-	<script type="text/javascript" async=""
-		src="https://www.googletagmanager.com/gtag/js?id=G-DKLCST0PP1&amp;l=dataLayer&amp;cx=c"></script>
+	<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-DKLCST0PP1&amp;l=dataLayer&amp;cx=c"></script>
 	<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NSJGFXL"></script>
-	<script>(function (w, d, s, l, i) {
-			w[l] = w[l] || []; w[l].push({
-				'gtm.start':
-					new Date().getTime(), event: 'gtm.js'
-			}); var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-					'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');</script>
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
+	</script>
 	<!-- End Google Tag Manager -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());		gtag('config', 'UA-173996513-1');
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-173996513-1');
 	</script>
 	<!-- <link rel="author" href="delecweb.com" /> -->
-	<meta property="og:type" content="website">	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:title" content="Tổ yến thô nguyên chất là gì? Giá tổ yến thô trên thị trường">
 	<meta property="og:url" content="toyentho.php">
-	<meta property="og:description"
-		content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
-	
-	
-	
-	<link rel="canonical" href="toyentho.php">	<meta content="INDEX,FOLLOW" name="robots">
+	<meta property="og:description" content="Tổ yến thô nguyên chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế nào. Yến sào thô được thu hoạch từ đảo hoặc nhà nuôi sau đó được đóng hộp và bán ra thị trường.,Tổ Yến Thô,">
+
+
+
+	<link rel="canonical" href="toyentho.php">
+	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
-	
-	<meta property="og:image"
-		content="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg">
+
+	<meta property="og:image" content="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg">
 	<meta property="og:image:width" content="600 ">
 	<meta property="og:image:height" content="315">
 	<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [{
-	"@type": "Question",
-	"name": "Dùng tổ yến thô có tốt không?",
-	"acceptedAnswer": {
-	  "@type": "Answer",
-	  "text": "Tổ yến thô là loại nguyên chất nhất, chưa qua bước xử lý lý nào nên dùng tổ yến thô rất tốt bởi vẫn còn nguyên các dưỡng chất. Sợi yến cũng dai, giòn và ngon hơn. Tuy nhiên, việc làm sạch tổ yến thổ thì mất nhiều thời gian hơn."
-	}
-  },{
-	"@type": "Question",
-	"name": "Giá tổ yến thô trên thị trường",
-	"acceptedAnswer": {
-	  "@type": "Answer",
-	  "text": "Giá của tổ yến thô dao động từ 2.5 triệu đến 3.5 triệu 1 lạng (100gr) với yến nuôi, yến đảo giá dao động từ 3 – 6 triệu/ lạng. Ngoài ra, thị trường cũng có nhiều loại tổ yến thô giá rẻ, giá dao động từ khoảng 1.5 – 2 triệu 1 lạng. Hiện có rất nhiều tổ yến thô độn hóa chất tăng trọng lượng, chất tẩy trắng... Vì vậy cần thận trọng khi lựa chọn mua."
-	}
-  }]
-}
-</script>
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [{
+				"@type": "Question",
+				"name": "Dùng tổ yến thô có tốt không?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Tổ yến thô là loại nguyên chất nhất, chưa qua bước xử lý lý nào nên dùng tổ yến thô rất tốt bởi vẫn còn nguyên các dưỡng chất. Sợi yến cũng dai, giòn và ngon hơn. Tuy nhiên, việc làm sạch tổ yến thổ thì mất nhiều thời gian hơn."
+				}
+			}, {
+				"@type": "Question",
+				"name": "Giá tổ yến thô trên thị trường",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Giá của tổ yến thô dao động từ 2.5 triệu đến 3.5 triệu 1 lạng (100gr) với yến nuôi, yến đảo giá dao động từ 3 – 6 triệu/ lạng. Ngoài ra, thị trường cũng có nhiều loại tổ yến thô giá rẻ, giá dao động từ khoảng 1.5 – 2 triệu 1 lạng. Hiện có rất nhiều tổ yến thô độn hóa chất tăng trọng lượng, chất tẩy trắng... Vì vậy cần thận trọng khi lựa chọn mua."
+				}
+			}]
+		}
+	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
-    <!-- Css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/base.css">
+	<link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
+	<!-- Css -->
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
 
-    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    	<meta name="geo.placename" content="Hà Nội">
+	<link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/home.css">
+	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
-	<meta name="ICBM" content="21, 105.83">	
-	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
-		href="https://onplaza.vn/rss.xml">
-	<meta http-equiv="origin-trial"
-		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
-	<script type="text/javascript" async=""
-		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688484696944&amp;cv=11&amp;fst=1688484696944&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fto-yen-tho&amp;ref=https%3A%2F%2Fonplaza.vn%2Fnam-lim-xanh-viet-nam&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=T%E1%BB%95%20y%E1%BA%BFn%20th%C3%B4%20nguy%C3%AAn%20ch%E1%BA%A5t%20l%C3%A0%20g%C3%AC%3F%20Gi%C3%A1%20t%E1%BB%95%20y%E1%BA%BFn%20th%C3%B4%20tr%C3%AAn%20th%E1%BB%8B%20tr%C6%B0%E1%BB%9Dng&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
+	<meta name="ICBM" content="21, 105.83">
+	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
+	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
+	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688484696944&amp;cv=11&amp;fst=1688484696944&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fto-yen-tho&amp;ref=https%3A%2F%2Fonplaza.vn%2Fnam-lim-xanh-viet-nam&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=T%E1%BB%95%20y%E1%BA%BFn%20th%C3%B4%20nguy%C3%AAn%20ch%E1%BA%A5t%20l%C3%A0%20g%C3%AC%3F%20Gi%C3%A1%20t%E1%BB%95%20y%E1%BA%BFn%20th%C3%B4%20tr%C3%AAn%20th%E1%BB%8B%20tr%C6%B0%E1%BB%9Dng&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
-</head><body style="">
+</head>
+
+<body style="">
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0"
-			style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-				<svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
-					xml:space="preserve">
+				<svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
 					<g>
 						<g>
-							<path
-								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
+							<path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
 							</path>
 						</g>
-					</g>				</svg>
+					</g>
+				</svg>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
@@ -123,27 +129,27 @@
 						</li>
 						<li class="register cls"><a href="#register-now">Tạo tài khoản</a></li>
 					</ul>
-				</div>				<div class="website_login" id="login-now" style="display: block;">					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form"
-						method="post" onsubmit="javascript: return checkFormsubmit_login();">
+				</div>
+				<div class="website_login" id="login-now" style="display: block;">
+					<form action="https://onplaza.vn/index.php?module=users" name="login_form" class="login_form" method="post" onsubmit="javascript: return checkFormsubmit_login();">
 						<div class="row-register cf ">
 							<label for="username">Email</label>
-							<input type="text" name="username" id="email_login" value="" class="txt-login"
-								placeholder="Email" required="">
+							<input type="text" name="username" id="email_login" value="" class="txt-login" placeholder="Email" required="">
 						</div>
 						<div class="row-register cf ">
 							<label for="password">Mật khẩu</label>
-							<input type="password" name="password" id="password_login" class="txt-login pass"
-								autocomplete="off" placeholder="Mật khẩu" required="">
+							<input type="password" name="password" id="password_login" class="txt-login pass" autocomplete="off" placeholder="Mật khẩu" required="">
 						</div>
-						<div class="cls save_resetpass">							<div class="reset_pass">
+						<div class="cls save_resetpass">
+							<div class="reset_pass">
 								Quên mật khẩu? Nhấn vào
 								<a onclick="OpenforgetPass()" href="javascript:void(0);" class="forget"> đây?</a>
 							</div>
 						</div>
-						<div class="clear"></div>						<div class="wrapper-bt-register">
+						<div class="clear"></div>
+						<div class="wrapper-bt-register">
 							<div class="row-register cf ">
-								<input type="button" name="login" class="lg login btn-submit signin-submit"
-									value="Đăng nhập">
+								<input type="button" name="login" class="lg login btn-submit signin-submit" value="Đăng nhập">
 							</div>
 						</div>
 						<div class="clear"></div>
@@ -151,79 +157,39 @@
 						<input type="hidden" name="module" value="users">
 						<input type="hidden" name="view" value="users">
 						<input type="hidden" name="task" value="login_save">
-						<input type="hidden" name="Itemid" value="9">					</form>
+						<input type="hidden" name="Itemid" value="9">
+					</form>
 					<div class="social_login">
-						<a class="login_fb" title="Đăng nhập bằng Facebook"
-							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=ce52762b0921a9cd8eaa59f58b2f84d8&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
-							<svg width="30px" height="30px" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
-								<path
-									d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z">
-								</path>
-							</svg>
-							Đăng nhập bằng Facebook						</a>
-						<a class="login_gg" title="Đăng nhập bằng Google" href="#google_login"
-							data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10"
-							data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);">
-							<svg width="30px" height="30px" x="0px" y="0px" viewBox="0 0 23.952 23.952"
-								style="enable-background:new 0 0 23.952 23.952;" xml:space="preserve">
-								<g>
-									<path d="M18.174,1.157h-2.116l0.709,0.576c0.282,0.234,0.547,0.524,0.802,0.871
-							c0.252,0.346,0.468,0.749,0.646,1.205c0.176,0.457,0.266,0.979,0.266,1.566c0,0.562-0.083,1.064-0.252,1.5
-							c-0.165,0.438-0.381,0.832-0.643,1.183S17.018,8.723,16.674,9l-1.06,0.811c-0.218,0.216-0.431,0.439-0.645,0.674
-							c-0.21,0.231-0.317,0.527-0.317,0.884c0,0.351,0.125,0.633,0.372,0.84c0.251,0.21,0.479,0.376,0.682,0.504l1.223,0.885
-							c0.337,0.29,0.653,0.582,0.957,0.878c0.302,0.295,0.574,0.614,0.815,0.957c0.236,0.345,0.427,0.723,0.561,1.136
-							c0.135,0.413,0.199,0.888,0.199,1.426c0,0.75-0.182,1.481-0.551,2.188c-0.368,0.709-0.912,1.346-1.638,1.909
-							c-0.724,0.564-1.621,1.015-2.691,1.353c-1.073,0.338-2.306,0.507-3.707,0.507c-1.232,0-2.302-0.125-3.207-0.378
-							c-0.908-0.252-1.666-0.587-2.271-1.006c-0.605-0.418-1.057-0.895-1.353-1.432c-0.295-0.537-0.44-1.1-0.44-1.691
-							c0-0.569,0.182-1.212,0.551-1.933c0.368-0.719,1.042-1.353,2.023-1.899c0.52-0.29,1.076-0.524,1.67-0.709
-							c0.592-0.183,1.176-0.324,1.758-0.427c0.582-0.101,1.133-0.173,1.655-0.217c0.52-0.042,0.971-0.075,1.343-0.097
-							c-0.231-0.287-0.448-0.592-0.648-0.909c-0.195-0.316-0.294-0.726-0.294-1.231c0-0.268,0.033-0.49,0.099-0.669
-							c0.065-0.181,0.137-0.362,0.221-0.543c-0.169,0.021-0.344,0.037-0.527,0.047c-0.186,0.011-0.368,0.018-0.543,0.018
-							c-0.906,0-1.704-0.141-2.398-0.429C7.822,10.164,7.228,9.79,6.743,9.33C6.26,8.868,5.895,8.34,5.655,7.743
-							C5.41,7.148,5.29,6.544,5.29,5.931c0-0.728,0.179-1.463,0.525-2.209c0.352-0.748,0.882-1.414,1.594-2.004
-							c0.978-0.75,1.993-1.224,3.051-1.421C11.515,0.1,12.499,0,13.415,0h6.935L18.174,1.157z M17.354,19.195
-							c0-0.389-0.064-0.744-0.196-1.069c-0.131-0.321-0.327-0.633-0.592-0.934c-0.265-0.301-0.639-0.619-1.121-0.955
-							c-0.483-0.337-1.03-0.719-1.646-1.149c-0.127-0.043-0.247-0.067-0.354-0.067H13.03c-0.086,0-0.248,0.007-0.489,0.016
-							c-0.241,0.011-0.53,0.035-0.868,0.071c-0.337,0.038-0.697,0.089-1.084,0.152c-0.384,0.065-0.752,0.148-1.104,0.256
-							c-0.197,0.064-0.452,0.163-0.771,0.296c-0.323,0.131-0.64,0.324-0.956,0.573c-0.317,0.249-0.59,0.568-0.817,0.95
-							c-0.233,0.383-0.346,0.845-0.346,1.389c0,0.562,0.134,1.072,0.405,1.531c0.271,0.457,0.668,0.86,1.185,1.213
-							c0.512,0.35,1.135,0.616,1.865,0.795c0.726,0.181,1.538,0.271,2.433,0.271c1.62,0,2.837-0.313,3.65-0.941
-							S17.354,20.166,17.354,19.195z M14.668,9.079c0.381-0.373,0.615-0.773,0.697-1.2c0.083-0.425,0.124-0.782,0.124-1.067
-							c0-0.564-0.086-1.179-0.255-1.846c-0.171-0.664-0.43-1.285-0.774-1.859c-0.347-0.576-0.777-1.059-1.289-1.453
-							c-0.521-0.397-1.115-0.592-1.797-0.592c-0.438,0-0.872,0.099-1.298,0.294C9.65,1.553,9.295,1.802,9.021,2.099
-							C8.731,2.43,8.539,2.793,8.435,3.185C8.335,3.581,8.284,3.986,8.284,4.4c0,0.521,0.083,1.105,0.244,1.748
-							c0.164,0.646,0.419,1.247,0.768,1.813c0.35,0.563,0.785,1.039,1.3,1.42c0.52,0.385,1.135,0.576,1.854,0.576
-							c0.423,0,0.834-0.078,1.232-0.24C14.079,9.557,14.41,9.343,14.668,9.079z"></path>
-								</g>
-							</svg>
+						<a class="login_fb" title="Đăng nhập bằng Facebook" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=ce52762b0921a9cd8eaa59f58b2f84d8&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
+							<i class="lab la-facebook-f"></i>
+							Đăng nhập bằng Facebook </a>
+						<a class="login_gg" title="Đăng nhập bằng Google" href="#google_login" data-url="https://onplaza.vn/index.php?module=users&amp;view=google&amp;raw=1&amp;task=google_login&amp;Itemid=10" data-width="800" data-height="500" data-id="google-login" onclick="openPopupWindow(this);">
+							<i class="lab la-google-plus"></i>
 							Đăng nhập bằng Google
-						</a>					</div>
+						</a>
+					</div>
 					<div class="clear"></div>
 				</div>
 				<div class="website_login regis_user hide" id="register-now" style="display: none;">
 					<div class="box-register">
-						<form action="https://onplaza.vn/index.php?module=users" name="register_form"
-							class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">							<div class="message"></div>
+						<form action="https://onplaza.vn/index.php?module=users" name="register_form" class="register_form" method="post" onsubmit="javascript: return checkFormsubmit();">
+							<div class="message"></div>
 							<div class="form-login">
 								<div class="row-register cf ">
 									<label for="full_name">Họ và tên</label>
-									<input placeholder="Họ và tên" type="text" id="full_name" name="name"
-										class="txtinput fr txt-login" value="">
+									<input placeholder="Họ và tên" type="text" id="full_name" name="name" class="txtinput fr txt-login" value="">
 								</div>
 								<div class="row-register cf ">
 									<label for="telephone">Số điện thoại</label>
-									<input required="" placeholder="Số điện thoại" type="tel" name="telephone"
-										id="telephone" class="txtinput numberCheck fr txt-login" value="">
+									<input required="" placeholder="Số điện thoại" type="tel" name="telephone" id="telephone" class="txtinput numberCheck fr txt-login" value="">
 								</div>
 								<div class="row-register cf ">
 									<label for="email">Email</label>
-									<input placeholder="Email" type="text" id="email" name="email"
-										class="txtinput fr txt-login" value="">
+									<input placeholder="Email" type="text" id="email" name="email" class="txtinput fr txt-login" value="">
 								</div>
 								<div class="row-register cf ">
 									<label for="password">Mật khẩu</label>
-									<input required="" placeholder="Mật khẩu" type="password" name="r_password"
-										id="password" class="txtinput fr txt-login" autocomplete="off">
+									<input required="" placeholder="Mật khẩu" type="password" name="r_password" id="password" class="txtinput fr txt-login" autocomplete="off">
 								</div>
 								<div class="row-register2 cf ">
 									<label id="gender2" for="gender">Giới tính</label>
@@ -240,172 +206,82 @@
 										</label>
 									</div>
 								</div>
-								<div class="clear"></div>								<div class="row-register row-register-sl cf ">
+								<div class="clear"></div>
+								<div class="row-register row-register-sl cf ">
 									<label for="date">Ngày sinh</label>
 									<div class="date_l">
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
-											<option value="13">13</option>
-											<option value="14">14</option>
-											<option value="15">15</option>
-											<option value="16">16</option>
-											<option value="17">17</option>
-											<option value="18">18</option>
-											<option value="19">19</option>
-											<option value="20">20</option>
-											<option value="21">21</option>
-											<option value="22">22</option>
-											<option value="23">23</option>
-											<option value="24">24</option>
-											<option value="25">25</option>
-											<option value="26">26</option>
-											<option value="27">27</option>
-											<option value="28">28</option>
-											<option value="29">29</option>
-											<option value="30">30</option>
-											<option value="31">31</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 31; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 12; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
-											<option value="1960">1960</option>
-											<option value="1961">1961</option>
-											<option value="1962">1962</option>
-											<option value="1963">1963</option>
-											<option value="1964">1964</option>
-											<option value="1965">1965</option>
-											<option value="1966">1966</option>
-											<option value="1967">1967</option>
-											<option value="1968">1968</option>
-											<option value="1969">1969</option>
-											<option value="1970">1970</option>
-											<option value="1971">1971</option>
-											<option value="1972">1972</option>
-											<option value="1973">1973</option>
-											<option value="1974">1974</option>
-											<option value="1975">1975</option>
-											<option value="1976">1976</option>
-											<option value="1977">1977</option>
-											<option value="1978">1978</option>
-											<option value="1979">1979</option>
-											<option value="1980">1980</option>
-											<option value="1981">1981</option>
-											<option value="1982">1982</option>
-											<option value="1983">1983</option>
-											<option value="1984">1984</option>
-											<option value="1985">1985</option>
-											<option value="1986">1986</option>
-											<option value="1987">1987</option>
-											<option value="1988">1988</option>
-											<option value="1989">1989</option>
-											<option value="1990">1990</option>
-											<option value="1991">1991</option>
-											<option value="1992">1992</option>
-											<option value="1993">1993</option>
-											<option value="1994">1994</option>
-											<option value="1995">1995</option>
-											<option value="1996">1996</option>
-											<option value="1997">1997</option>
-											<option value="1998">1998</option>
-											<option value="1999">1999</option>
-											<option value="2000">2000</option>
-											<option value="2001">2001</option>
-											<option value="2002">2002</option>
-											<option value="2003">2003</option>
-											<option value="2004">2004</option>
-											<option value="2005">2005</option>
-											<option value="2006">2006</option>
-											<option value="2007">2007</option>
-											<option value="2008">2008</option>
-											<option value="2009">2009</option>
-											<option value="2010">2010</option>
-											<option value="2011">2011</option>
-											<option value="2012">2012</option>
-											<option value="2013">2013</option>
-											<option value="2014">2014</option>
-											<option value="2015">2015</option>
-											<option value="2016">2016</option>
-											<option value="2017">2017</option>
-											<option value="2018">2018</option>
-											<option value="2019">2019</option>
-											<option value="2020">2020</option>
+											<?php
+                                            $i;
+                                            for ($i = 1970; $i <= 2023; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
-									</div>									<!-- <div class="date_r">
-								<div class="title-t">Giới tính</div>
-								<select class="sex" name="gender" id="gender">
-									<option value="">Lựa chọn</option>
-									<option value="1">Nam</option>
-									<option value="2">Nữ</option>
-								</select>
-							</div> -->
+									</div> 
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
 									<label for="capcha">Captcha</label>
 									<div class="g-recaptcha" data-sitekey="6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci">
 										<div style="width: 304px; height: 78px;">
-											<div><iframe title="reCAPTCHA"
-													src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci&amp;co=aHR0cHM6Ly9vbnBsYXphLnZuOjQ0Mw..&amp;hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;size=normal&amp;cb=qcujjrrkf5zd"
-													width="304" height="78" role="presentation" name="a-8gq0amp2tzpb"
-													frameborder="0" scrolling="no"
-													sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
-											</div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
-												class="g-recaptcha-response"
-												style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+											<div><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci&amp;co=aHR0cHM6Ly9vbnBsYXphLnZuOjQ0Mw..&amp;hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;size=normal&amp;cb=qcujjrrkf5zd" width="304" height="78" role="presentation" name="a-8gq0amp2tzpb" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+											</div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
 										</div><iframe style="display: none;"></iframe>
 									</div>
 									<span id="captcha_error" class="text-danger"></span>
-								</div>								<div class="clear"></div>
+								</div>
+								<div class="clear"></div>
 								<div class="row-register cf row-register-btn">
 									<div class=" wrapper-bt-register wrapper-bt-register-btn">
-										<input type="button" class="submitbt login btn-submit register-submit"
-											name="submitbt" value="Tạo tài khoản">
+										<input type="button" class="submitbt login btn-submit register-submit" name="submitbt" value="Tạo tài khoản">
 									</div>
 								</div>
-								<div class="clear"></div>							</div>							<input type="hidden" name="return" value="L3RvLXllbi10aG8=">
+								<div class="clear"></div>
+							</div> <input type="hidden" name="return" value="L3RvLXllbi10aG8=">
 							<input type="hidden" name="module" value="users">
 							<input type="hidden" name="view" value="users">
 							<input type="hidden" name="Itemid" value="9">
 							<input type="hidden" name="task" value="register_save">
-						</form>					</div>
+						</form>
+					</div>
 					<div class="text-bot">
 						Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán
 						theo <a href="" title="Điều khoản sử dụng">điều kiện sử dụng và chính sách của Thế Giới Dinh
 							Dưỡng</a>
 					</div>
-				</div>			</div>
+				</div>
+			</div>
 		</div>
 		<div class="tab_reset_pass hide">
 			<div class="title">Quên mật khẩu</div>
 			<div class="divforget">
-				<form action="https://onplaza.vn/index.php?module=users" name="forget_form" class="forget_form"
-					method="post">
+				<form action="https://onplaza.vn/index.php?module=users" name="forget_form" class="forget_form" method="post">
 					<div class="form-login">
 						<div class="row-register" width="183">
 							<label for="email">Email</label>
@@ -413,14 +289,11 @@
 						</div>
 						<div class="row-register row-register-capcha">
 							<label for="txtCaptcha">Mã hiển thị</label>
-							<input type="text" placeholder="Mã hiển thị" id="txtCaptcha" value="" name="txtCaptcha"
-								maxlength="10" size="7" class="capcha txt-login">
+							<input type="text" placeholder="Mã hiển thị" id="txtCaptcha" value="" name="txtCaptcha" maxlength="10" size="7" class="capcha txt-login">
 							<div class="clear"></div>
-							<a href="javascript:changeCaptcha();" title="Click here to change the captcha"
-								class="code-view">
+							<a href="javascript:changeCaptcha();" title="Click here to change the captcha" class="code-view">
 								<label></label>
-								<img id="imgCaptcha"
-									src="https://onplaza.vn/libraries/jquery/ajax_captcha/create_image.php">
+								<img id="imgCaptcha" src="https://onplaza.vn/libraries/jquery/ajax_captcha/create_image.php">
 							</a>
 						</div>
 						<div class="row-register submit_check">
@@ -434,104 +307,75 @@
 					<input type="hidden" name="task" value="forget_save">
 				</form>
 			</div>
-		</div>	</div>
+		</div>
+	</div>
 	<div class="menu_head">
 		<div class="wrapper_top cls">
 			<div class="phone left_item">
 				<ul>
-                    <li>HN: <a href="tel:0969531991">096 953 1991</a></li>
-                    <li>TH: <a href="tel:0969531991">096 953 1991</a></li>
-                    <li>HCN: <a href="tel:0969531991">096 953 1991</a></li>
-                </ul>
+					<li>HN: <a href="tel:0969531991">096 953 1991</a></li>
+					<li>TH: <a href="tel:0969531991">096 953 1991</a></li>
+					<li>HCN: <a href="tel:0969531991">096 953 1991</a></li>
+				</ul>
 			</div>
-			<div class="register right_item">				<div class="share_fast1">					<div class="fb share_item"><a class="facebook-icon"
-							href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow"
-							target="_blank">
-							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h236.574219v-198h-66.5v-77.5h66.5v-57.035156c0-66.140625 40.378906-102.140625 99.378906-102.140625 28.257813 0 52.542969 2.105469 59.621094 3.046875v69.128906h-40.683594c-32.101562 0-38.316406 15.253906-38.316406 37.640625v49.359375h76.75l-10 77.5h-66.75v198h121.574219c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm0 0">
-								</path>
-							</svg>
+			<div class="register right_item">
+				<div class="share_fast1">
+					<div class="fb share_item"><a class="facebook-icon" href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow" target="_blank">
+							<i class="lab la-facebook-square"></i>
 						</a>
 					</div>
 					<div class="tw share_item">
-						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter"
-							rel="nofollow" target="_blank">
-							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
-								</path>
-							</svg>
+						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank">
+							<i class="lab la-twitter-square"></i>
 						</a>
-					</div>					<div class="yt share_item">
-						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
-							title="Link instagram" rel="nofollow" target="_blank">
-							<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
-								</path>
-								<path
-									d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
-								</path>
-								<path
-									d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
-								</path>
-							</svg>						</a>
-					</div>					<div class="yt share_item">
-						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
-							title="Link youtube" rel="nofollow" target="_blank">
-							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-								version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512"
-								style="enable-background:new 0 0 512 512;" xml:space="preserve" width="13" height="13">
+					</div>
+					<div class="yt share_item">
+						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank">
+							<i class="lab la-instagram"></i> </a>
+					</div>
+					<div class="yt share_item">
+						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="13" height="13">
 								<g>
-									<path
-										d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z">
+									<path d="M437,61H75C33.6,61,0,94.6,0,136v240c0,41.4,33.6,75,75,75h362c41.4,0,75-33.6,75-75V136C512,94.6,478.4,61,437,61z    M338.5,268.9l-135,77.699c-4.816,2.41-10.179,2.412-15,0c-4.501-2.699-7.5-7.798-7.5-13.2V181c0-5.4,2.701-10.201,7.5-12.9   c4.501-2.701,10.201-2.701,14.7-0.3l135,75c4.801,2.699,7.8,7.8,7.8,13.2S343.299,266.199,338.5,268.9z M211,307.599l89.399-51.299   L211,206.499V307.599z">
 									</path>
 								</g>
-							</svg>						</a>
+							</svg> </a>
 					</div>
 					<div class="clear"></div>
-				</div>				<div class="logs">
+				</div>
+				<div class="logs">
 					<a onclick="OpenLoginPopup()" class="login user_item" title="Tài khoản" href="javascript:void(0)">
-						Tài khoản</a>				</div> <!-- end logs -->
-				<div class="pc_shopcart">					<div class="shopcart_simple block_content fl">
+						Tài khoản</a>
+				</div> <!-- end logs -->
+				<div class="pc_shopcart">
+					<div class="shopcart_simple block_content fl">
 						<div class="count">
-							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
-								rel="nofollow">
-								<svg x="0px" y="0px" viewBox="0 0 30.511 30.511"
-									style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px"
-									height="22px">
-									<g>
-										<path
-											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
-										</path>
-									</g>
-								</svg>								<span>Giỏ hàng (0)</span>
+							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow">
+								<i class="las la-shopping-cart"></i> <span>Giỏ hàng (0)</span>
 							</a>
 						</div>
 					</div>
 				</div>
-			</div>		</div>
+			</div>
+		</div>
 		<div class="clear"></div>
 	</div>
-	<div class="header_wraper cls">		<div class="home_index no-home">			<div id="nav-mainmenu"
-				class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home nav-mainmenu-black"
-				style="top: 0px; position: relative;">
+	<div class="header_wraper cls">
+		<div class="home_index no-home">
+			<div id="nav-mainmenu" class="menu-fixed-bar hidden-md hidden-sm hidden-xs  nav-mainmenu-no-home nav-mainmenu-black" style="top: 0px; position: relative;">
 				<div class="header_left head-t">
 				</div>
 				<div class="logo_top">
 					<a class="logo" href="index.php" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
-						<img class="logo_img" src="https://onplaza.vn/images/config/logo-onplaza_1672198061.gif"
-							alt="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
+						<img class="logo_img" src="https://onplaza.vn/images/config/logo-onplaza_1672198061.gif" alt="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 					</a>
-					<div class="search_home">						<div id="search" class="search search-contain s_close ">
+					<div class="search_home">
+						<div id="search" class="search search-contain s_close ">
 							<div class="search-content">
-								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2"
-									method="get" onsubmit="javascript: submit_form_search22();return false;">									<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2"
-										name="keyword" class="keyword input-text" autocomplete="off">
+								<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form2" method="get" onsubmit="javascript: submit_form_search22();return false;"> <input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword2" name="keyword" class="keyword input-text" autocomplete="off">
 									<button type="submit" class="button-search button_s">
-										<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
-											style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
+										<svg x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 											<g>
 												<g>
 													<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951
@@ -541,94 +385,75 @@
 													<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 												</g>
-											</g>										</svg>									</button>
+											</g>
+										</svg> </button>
 									<input type="hidden" name="module" value="news">
-									<input type="hidden" name="module" id="link_search2"
-										value="https://onplaza.vn/tim-kiem/keyword.html">
+									<input type="hidden" name="module" id="link_search2" value="https://onplaza.vn/tim-kiem/keyword.html">
 									<input type="hidden" name="view" value="search">
 									<input type="hidden" name="Itemid" value="10">
 								</form>
-							</div>						</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="dcjq-mega-menu-mobile" id="menu-mobile-mega">
-					<div class="sb-toggle-left navbar-left">						<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink"
-							enable-background="new 0 0 24 24">
+					<div class="sb-toggle-left navbar-left"> <svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24">
 							<g>
-								<path
-									d="M24,3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3z">
+								<path d="M24,3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3z">
 								</path>
-								<path
-									d="M24,11c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V11z">
+								<path d="M24,11c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V11z">
 								</path>
-								<path
-									d="M24,19c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V19z">
+								<path d="M24,19c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V19z">
 								</path>
 							</g>
 						</svg>
 					</div>
 				</div>
-				<div class="mobile_shopcart">					<div class="shopcart_simple block_content fl">
+				<div class="mobile_shopcart">
+					<div class="shopcart_simple block_content fl">
 						<div class="count">
-							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán"
-								rel="nofollow">
-								<svg x="0px" y="0px" viewBox="0 0 30.511 30.511"
-									style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px"
-									height="22px">
-									<g>
-										<path
-											d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
-										</path>
-									</g>
-								</svg>								<span>0</span>
+							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow">
+								<i class="las la-shopping-cart"></i> <span>0</span>
 							</a>
 						</div>
 					</div>
-				</div>				<div class="product_menu" id="product_menu_mobile">
+				</div>
+				<div class="product_menu" id="product_menu_mobile">
 					<div class="menu_label " data-id="product_menu_ul">
-						<span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
-								style="enable-background:new 0 0 512 512;" xml:space="preserve">
+						<span><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 								<g>
 									<g>
-										<path
-											d="M63,33C28.262,33,0,61.262,0,96c0,34.738,28.262,63,63,63s63-28.262,63-63S97.738,33,63,33z">
+										<path d="M63,33C28.262,33,0,61.262,0,96c0,34.738,28.262,63,63,63s63-28.262,63-63S97.738,33,63,33z">
 										</path>
 									</g>
 								</g>
 								<g>
 									<g>
-										<path
-											d="M63,193c-34.738,0-63,28.262-63,63c0,34.738,28.262,63,63,63s63-28.262,63-63C126,221.262,97.738,193,63,193z">
+										<path d="M63,193c-34.738,0-63,28.262-63,63c0,34.738,28.262,63,63,63s63-28.262,63-63C126,221.262,97.738,193,63,193z">
 										</path>
 									</g>
 								</g>
 								<g>
 									<g>
-										<path
-											d="M63,353c-34.738,0-63,28.262-63,63c0,34.738,28.262,63,63,63s63-28.262,63-63C126,381.262,97.738,353,63,353z">
+										<path d="M63,353c-34.738,0-63,28.262-63,63c0,34.738,28.262,63,63,63s63-28.262,63-63C126,381.262,97.738,353,63,353z">
 										</path>
 									</g>
 								</g>
 								<g>
 									<g>
-										<path
-											d="M465,49H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,49,465,49z">
+										<path d="M465,49H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,49,465,49z">
 										</path>
 									</g>
 								</g>
 								<g>
 									<g>
-										<path
-											d="M465,209H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,209,465,209z">
+										<path d="M465,209H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,209,465,209z">
 										</path>
 									</g>
 								</g>
 								<g>
 									<g>
-										<path
-											d="M465,369H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,369,465,369z">
+										<path d="M465,369H207c-25.916,0-47,21.084-47,47s21.084,47,47,47h258c25.916,0,47-21.084,47-47S490.916,369,465,369z">
 										</path>
 									</g>
 								</g>
@@ -640,299 +465,243 @@
 						<ul id="megamenu" class="menu mypopup">
 							<li class="cat_level_0 level_0 sort">
 								<a href="javascript:void(0)" id="menu_item_861" class="menu_item_a" title="Sản phẩm">
-									<span class="icon_svg cls">										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-											xml:space="preserve">
+									<span class="icon_svg cls"> <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 											<g>
 												<g>
-													<path
-														d="M467,61H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,81.19,491.81,61,467,61z">
+													<path d="M467,61H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,81.19,491.81,61,467,61z">
 													</path>
 												</g>
 											</g>
 											<g>
 												<g>
-													<path
-														d="M467,211H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,231.19,491.81,211,467,211z">
+													<path d="M467,211H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,231.19,491.81,211,467,211z">
 													</path>
 												</g>
 											</g>
 											<g>
 												<g>
-													<path
-														d="M467,361H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,381.19,491.81,361,467,361z">
+													<path d="M467,361H165c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45h302c24.81,0,45-20.18,45-45C512,381.19,491.81,361,467,361z">
 													</path>
 												</g>
 											</g>
 											<g>
 												<g>
-													<path
-														d="M45,61C20.18,61,0,81.19,0,106c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,81.19,69.81,61,45,61z">
+													<path d="M45,61C20.18,61,0,81.19,0,106c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,81.19,69.81,61,45,61z">
 													</path>
 												</g>
 											</g>
 											<g>
 												<g>
-													<path
-														d="M45,211c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,231.19,69.81,211,45,211z">
+													<path d="M45,211c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,231.19,69.81,211,45,211z">
 													</path>
 												</g>
 											</g>
 											<g>
 												<g>
-													<path
-														d="M45,361c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,381.19,69.81,361,45,361z">
+													<path d="M45,361c-24.82,0-45,20.19-45,45c0,24.82,20.18,45,45,45c24.81,0,45-20.18,45-45C90,381.19,69.81,361,45,361z">
 													</path>
 												</g>
 											</g>
 										</svg>
 									</span>
 									Sản phẩm <span class="drop_down">
-										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px"
-											height="255px" viewBox="0 0 255 255"
-											style="enable-background:new 0 0 255 255;" xml:space="preserve">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
 											<g>
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>										</svg>
+											</g>
+										</svg>
 									</span>
-								</a>								<div class="highlight">									<div class="highlight1 container cls">
-										<div class="menu-child_list">											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="sanphamduoclieu.php"
-													class="level_0 sort sub-menu-item" data-menu_tags="908"
-													id="menu_item_908" title="Dược liệu cao cấp">
-													<span class="icon"><svg height="30" viewBox="-22 0 511 511.998"
-															width="30" xmlns="http://www.w3.org/2000/svg">
-															<path
-																d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
+								</a>
+								<div class="highlight">
+									<div class="highlight1 container cls">
+										<div class="menu-child_list"> <!--	LEVEL 1			-->
+											<div class="sub-menu sub-menu-level1 has_child  "> <a href="sanphamduoclieu.php" class="level_0 sort sub-menu-item" data-menu_tags="908" id="menu_item_908" title="Dược liệu cao cấp">
+													<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30" xmlns="http://www.w3.org/2000/svg">
+															<path d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 															</path>
 														</svg></span>
-													Dược liệu cao cấp </a>												<div class="wraper_item cls " alt="Dược liệu cao cấp"
-													data-menu_tags="908" data-menu_idt="0"
-													style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;"
-													nhansamhanquoc.php>													<div class="product_item cls">
+													Dược liệu cao cấp </a>
+												<div class="wraper_item cls " alt="Dược liệu cao cấp" data-menu_tags="908" data-menu_idt="0" style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;" nhansamhanquoc.php>
+													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="nhansamhanquoc.php"
-																title="Nhân sâm hàn quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php" title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
-															<ul class="item_lv2">																<li><a href="nhansam6tuoi.php"
-																		title="Nhân sâm tươi 6 năm tuổi">
+															<ul class="item_lv2">
+																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
 																	</a></li>
-																<li><a href="hongsamhanquoc.php"
-																		title="Hồng sâm Hàn Quốc">
+																<li><a href="hongsamhanquoc.php" title="Hồng sâm Hàn Quốc">
 																		Hồng sâm Hàn Quốc
 																	</a></li>
-																<li><a href="hongsamcukho.php"
-																		title="Hồng sâm củ khô">
+																<li><a href="hongsamcukho.php" title="Hồng sâm củ khô">
 																		Hồng sâm củ khô
 																	</a></li>
-																<li><a href="caohongsam.php"
-																		title="Cao hồng sâm">
+																<li><a href="caohongsam.php" title="Cao hồng sâm">
 																		Cao hồng sâm
 																	</a></li>
-																<li><a href="nuochongsam.php"
-																		title="Nước hồng sâm">
+																<li><a href="nuochongsam.php" title="Nước hồng sâm">
 																		Nước hồng sâm
 																	</a></li>
-																<li><a href="samtammatong.php"
-																		title="Sâm tẩm mật ong">
+																<li><a href="samtammatong.php" title="Sâm tẩm mật ong">
 																		Sâm tẩm mật ong
 																	</a></li>
-																<li><a href="vienhongsam.php"
-																		title="Viên Hồng Sâm">
+																<li><a href="vienhongsam.php" title="Viên Hồng Sâm">
 																		Viên Hồng Sâm
 																	</a></li>
-																<li><a href="keosam.php"
-																		title="Kẹo sâm">
+																<li><a href="keosam.php" title="Kẹo sâm">
 																		Kẹo sâm
 																	</a></li>
-																<li><a href="hongsambaby.php"
-																		title="Hồng sâm baby">
+																<li><a href="hongsambaby.php" title="Hồng sâm baby">
 																		Hồng sâm baby
 																	</a></li>
-																<li><a href="trasam.php"
-																		title="Trà sâm">
+																<li><a href="trasam.php" title="Trà sâm">
 																		Trà sâm
 																	</a></li>
-																<li><a href="ruousamhanquoc.php"
-																		title="Rượu sâm hàn quốc">
+																<li><a href="ruousamhanquoc.php" title="Rượu sâm hàn quốc">
 																		Rượu sâm hàn quốc
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="dongtrunghathao.php"
-																title="Đông trùng hạ thảo">
+															<a class="item_lv1" href="dongtrunghathao.php" title="Đông trùng hạ thảo">
 																Đông trùng hạ thảo
 															</a>
-															<ul class="item_lv2">																<li><a href="dongtrungtaytang.php"
-																		title="Đông trùng Tây Tạng">
+															<ul class="item_lv2">
+																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
 																	</a></li>
-																<li><a href="namdongtrunghathao.php"
-																		title="Nấm Đông Trùng Hạ Thảo">
+																<li><a href="namdongtrunghathao.php" title="Nấm Đông Trùng Hạ Thảo">
 																		Nấm Đông Trùng Hạ Thảo
 																	</a></li>
-																<li><a href="viendongtrunghathao.php"
-																		title="Viên đông trùng hạ thảo">
+																<li><a href="viendongtrunghathao.php" title="Viên đông trùng hạ thảo">
 																		Viên đông trùng hạ thảo
 																	</a></li>
-																<li><a href="nuocdongtrunghathao.php"
-																		title="Nước đông trùng hạ thảo">
+																<li><a href="nuocdongtrunghathao.php" title="Nước đông trùng hạ thảo">
 																		Nước đông trùng hạ thảo
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="namlinhchihanquoc.php"
-																title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="namlinhchihanquoc.php" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
-															<ul class="item_lv2">																<li><a href="namlinhchivang.php"
-																		title="Nấm linh chi vàng">
+															<ul class="item_lv2">
+																<li><a href="namlinhchivang.php" title="Nấm linh chi vàng">
 																		Nấm linh chi vàng
 																	</a></li>
-																<li><a href="tranamlinhchi.php"
-																		title="Trà nấm linh chi">
+																<li><a href="tranamlinhchi.php" title="Trà nấm linh chi">
 																		Trà nấm linh chi
 																	</a></li>
-																<li><a href="namlinhchido.php"
-																		title="Nấm linh chi đỏ">
+																<li><a href="namlinhchido.php" title="Nấm linh chi đỏ">
 																		Nấm linh chi đỏ
 																	</a></li>
-																<li><a href="caonamlinhchi.php"
-																		title="Cao nấm linh chi">
+																<li><a href="caonamlinhchi.php" title="Cao nấm linh chi">
 																		Cao nấm linh chi
 																	</a></li>
-																<li><a href="namlinhchithuonghoang.php"
-																		title="Nấm linh chi thượng hoàng">
+																<li><a href="namlinhchithuonghoang.php" title="Nấm linh chi thượng hoàng">
 																		Nấm linh chi thượng hoàng
 																	</a></li>
-																<li><a href="namlinhchithailat.php"
-																		title="Nấm linh chi thái lát">
+																<li><a href="namlinhchithailat.php" title="Nấm linh chi thái lát">
 																		Nấm linh chi thái lát
 																	</a></li>
-																<li><a href="namlinhxanh.php"
-																		title="Nấm Lim xanh">
+																<li><a href="namlinhxanh.php" title="Nấm Lim xanh">
 																		Nấm Lim xanh
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="yensaokhanhhoa.php"
-																title="Yến sào Khánh Hoà">
+															<a class="item_lv1" href="yensaokhanhhoa.php" title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
-															<ul class="item_lv2">																<li><a href="toyentho.php"
-																		title="Tổ Yến Thô">
+															<ul class="item_lv2">
+																<li><a href="toyentho.php" title="Tổ Yến Thô">
 																		Tổ Yến Thô
 																	</a></li>
-																<li><a href="https://onplaza.vn/yen-so-che"
-																		title="Yến sơ chế nguyên tổ">
+																<li><a href="https://onplaza.vn/yen-so-che" title="Yến sơ chế nguyên tổ">
 																		Yến sơ chế nguyên tổ
 																	</a></li>
-																<li><a href="https://onplaza.vn/yen-tinh-che"
-																		title="Yến tinh chế nguyên tổ">
+																<li><a href="https://onplaza.vn/yen-tinh-che" title="Yến tinh chế nguyên tổ">
 																		Yến tinh chế nguyên tổ
 																	</a></li>
-																<li><a href="https://onplaza.vn/to-yen-hong"
-																		title="Yến hồng nguyên tổ">
+																<li><a href="https://onplaza.vn/to-yen-hong" title="Yến hồng nguyên tổ">
 																		Yến hồng nguyên tổ
 																	</a></li>
-																<li><a href="https://onplaza.vn/yen-huyet"
-																		title="Yến huyết nguyên tổ">
+																<li><a href="https://onplaza.vn/yen-huyet" title="Yến huyết nguyên tổ">
 																		Yến huyết nguyên tổ
 																	</a></li>
-																<li><a href="https://onplaza.vn/nuoc-yen-sanest"
-																		title="Nước yến sanest">
+																<li><a href="https://onplaza.vn/nuoc-yen-sanest" title="Nước yến sanest">
 																		Nước yến sanest
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="https://onplaza.vn/gia-nhung-huou"
-																title="Nhung hươu">
+															<a class="item_lv1" href="https://onplaza.vn/gia-nhung-huou" title="Nhung hươu">
 																Nhung hươu
 															</a>
-															<ul class="item_lv2">																<li><a href="https://onplaza.vn/nhung-huou-tuoi"
-																		title="Nhung hươu tươi">
+															<ul class="item_lv2">
+																<li><a href="https://onplaza.vn/nhung-huou-tuoi" title="Nhung hươu tươi">
 																		Nhung hươu tươi
 																	</a></li>
-																<li><a href="https://onplaza.vn/cao-ban-long"
-																		title="Cao ban long">
+																<li><a href="https://onplaza.vn/cao-ban-long" title="Cao ban long">
 																		Cao ban long
 																	</a></li>
-																<li><a href="https://onplaza.vn/nhung-huou-kho-thai-lat"
-																		title="Nhung hươu khô thái lát">
+																<li><a href="https://onplaza.vn/nhung-huou-kho-thai-lat" title="Nhung hươu khô thái lát">
 																		Nhung hươu khô thái lát
 																	</a></li>
-																<li><a href="https://onplaza.vn/vien-nhung-huou"
-																		title="Viên nhung hươu">
+																<li><a href="https://onplaza.vn/vien-nhung-huou" title="Viên nhung hươu">
 																		Viên nhung hươu
 																	</a></li>
-																<li><a href="https://onplaza.vn/bot-nhung-huou"
-																		title="Bột nhung hươu">
+																<li><a href="https://onplaza.vn/bot-nhung-huou" title="Bột nhung hươu">
 																		Bột nhung hươu
 																	</a></li>
-																<li><a href="https://onplaza.vn/dau-huou-my-nghe"
-																		title="Đầu hươu mỹ nghệ">
+																<li><a href="https://onplaza.vn/dau-huou-my-nghe" title="Đầu hươu mỹ nghệ">
 																		Đầu hươu mỹ nghệ
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="https://onplaza.vn/an-cung-nguu-hoang-hoan-gia-bao-nhieu"
-																title="An cung ngưu">
+															<a class="item_lv1" href="https://onplaza.vn/an-cung-nguu-hoang-hoan-gia-bao-nhieu" title="An cung ngưu">
 																An cung ngưu
 															</a>
-															<ul class="item_lv2">																<li><a href="https://onplaza.vn/an-cung-trung-quoc"
-																		title="An cung ngưu trung quốc">
+															<ul class="item_lv2">
+																<li><a href="https://onplaza.vn/an-cung-trung-quoc" title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
 																	</a></li>
-																<li><a href="https://onplaza.vn/an-cung-han-quoc"
-																		title="An cung ngưu hàn quốc">
+																<li><a href="https://onplaza.vn/an-cung-han-quoc" title="An cung ngưu hàn quốc">
 																		An cung ngưu hàn quốc
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1"
-																href="https://onplaza.vn/tinh-dau-thong-do"
-																title="Tinh dầu thông đỏ">
+															<a class="item_lv1" href="https://onplaza.vn/tinh-dau-thong-do" title="Tinh dầu thông đỏ">
 																Tinh dầu thông đỏ
 															</a>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="https://onplaza.vn/mat-ong-nguyen-chat"
-																title="Mật Ong Nguyên Chất">
+															<a class="item_lv1" href="https://onplaza.vn/mat-ong-nguyen-chat" title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
-															<ul class="item_lv2">																<li><a href="https://onplaza.vn/mat-ong-rung"
-																		title="Mật Ong Rừng">
+															<ul class="item_lv2">
+																<li><a href="https://onplaza.vn/mat-ong-rung" title="Mật Ong Rừng">
 																		Mật Ong Rừng
 																	</a></li>
-																<li><a href="https://onplaza.vn/sua-ong-chua"
-																		title="Sữa Ong Chúa">
+																<li><a href="https://onplaza.vn/sua-ong-chua" title="Sữa Ong Chúa">
 																		Sữa Ong Chúa
 																	</a></li>
-																<li><a href="https://onplaza.vn/phan-hoa"
-																		title="Phấn Hoa">
+																<li><a href="https://onplaza.vn/phan-hoa" title="Phấn Hoa">
 																		Phấn Hoa
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
-													</div>												</div>											</div>											<!--	end LEVEL 1			-->
-											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="https://onplaza.vn/thuc-pham-chuc-nang"
-													class="level_0 sort sub-menu-item" data-menu_tags="909"
-													id="menu_item_909" title="Thực phẩm chức năng">
-													<span class="icon"><svg version="1.1" id="Layer_1"
-															xmlns="http://www.w3.org/2000/svg"
-															xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-															viewBox="0 0 469.333 469.333"
-															style="enable-background:new 0 0 469.333 469.333;"
-															xml:space="preserve">
+													</div>
+												</div>
+											</div> <!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->
+											<div class="sub-menu sub-menu-level1 has_child  "> <a href="https://onplaza.vn/thuc-pham-chuc-nang" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
+													<span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
 															<g>
 																<g>
 																	<path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
@@ -944,53 +713,40 @@
 			c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
 			C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
 																</g>
-															</g>														</svg></span>
+															</g>
+														</svg></span>
 													Thực phẩm chức năng </a>
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
 													<div class="product_item cls">
 														<div class="item cls ">
-															<a class="item_lv1"
-																href="https://onplaza.vn/khoang-chat-vitamin"
-																title="Khoáng chất - Vitamin">
+															<a class="item_lv1" href="https://onplaza.vn/khoang-chat-vitamin" title="Khoáng chất - Vitamin">
 																Khoáng chất - Vitamin
 															</a>
 														</div>
-													</div>												</div>											</div>											<!--	end LEVEL 1			-->
-											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/thuong-hieu"
-													class="level_0 sort sub-menu-item" data-menu_tags="910"
-													id="menu_item_910" title="Sản phẩm thương hiệu">
-													<span class="icon"><svg id="Capa_1"
-															enable-background="new 0 0 512 512" height="30"
-															viewBox="0 0 512 512" width="30"
-															xmlns="http://www.w3.org/2000/svg">
-															<path
-																d="m337.903 358.822 23.413-37.992 42.252-14.41 4.681-44.377 31.789-31.295-15.114-42.006 15.114-42.007-31.788-31.295-4.681-44.376-42.252-14.41-23.413-37.993-44.285 5.347-37.619-24.008-37.619 24.01-44.284-5.347-23.413 37.992-42.252 14.41-4.681 44.376-31.789 31.295 15.114 42.007-15.114 42.007 31.788 31.294 4.681 44.377 42.252 14.41 23.413 37.992 44.285-5.346 37.619 24.009 37.619-24.009zm-211.332-170.079c0-71.367 58.062-129.429 129.429-129.429s129.429 58.062 129.429 129.429-58.062 129.429-129.429 129.429-129.429-58.062-129.429-129.429z">
+													</div>
+												</div>
+											</div> <!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/thuong-hieu" class="level_0 sort sub-menu-item" data-menu_tags="910" id="menu_item_910" title="Sản phẩm thương hiệu">
+													<span class="icon"><svg id="Capa_1" enable-background="new 0 0 512 512" height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg">
+															<path d="m337.903 358.822 23.413-37.992 42.252-14.41 4.681-44.377 31.789-31.295-15.114-42.006 15.114-42.007-31.788-31.295-4.681-44.376-42.252-14.41-23.413-37.993-44.285 5.347-37.619-24.008-37.619 24.01-44.284-5.347-23.413 37.992-42.252 14.41-4.681 44.376-31.789 31.295 15.114 42.007-15.114 42.007 31.788 31.294 4.681 44.377 42.252 14.41 23.413 37.992 44.285-5.346 37.619 24.009 37.619-24.009zm-211.332-170.079c0-71.367 58.062-129.429 129.429-129.429s129.429 58.062 129.429 129.429-58.062 129.429-129.429 129.429-129.429-58.062-129.429-129.429z">
 															</path>
-															<path
-																d="m256 89.333c-54.815 0-99.41 44.595-99.41 99.41s44.595 99.41 99.41 99.41 99.41-44.595 99.41-99.41-44.595-99.41-99.41-99.41z">
+															<path d="m256 89.333c-54.815 0-99.41 44.595-99.41 99.41s44.595 99.41 99.41 99.41 99.41-44.595 99.41-99.41-44.595-99.41-99.41-99.41z">
 															</path>
-															<path
-																d="m211.299 384.568-52.68 6.36-27.833-45.167-9.462-3.226-40.813 127.566 73.475-4.041 57.485 45.94 33.828-105.732z">
+															<path d="m211.299 384.568-52.68 6.36-27.833-45.167-9.462-3.226-40.813 127.566 73.475-4.041 57.485 45.94 33.828-105.732z">
 															</path>
-															<path
-																d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
+															<path d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
 															</path>
 														</svg></span>
 													Sản phẩm thương hiệu </a>
-												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2">												</div>											</div>											<!--	end LEVEL 1			-->
-											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/qua-bieu-cao-cap"
-													class="level_0 sort sub-menu-item" data-menu_tags="911"
-													id="menu_item_911" title="Quà biếu cao cấp">
-													<span class="icon"><svg version="1.1" id="Capa_1"
-															xmlns="http://www.w3.org/2000/svg"
-															xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-															viewBox="0 0 512 512"
-															style="enable-background:new 0 0 512 512;"
-															xml:space="preserve">
+												<div class="wraper_item cls" data-menu_tags="910" data-menu_idt="2"> </div>
+											</div> <!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/qua-bieu-cao-cap" class="level_0 sort sub-menu-item" data-menu_tags="911" id="menu_item_911" title="Quà biếu cao cấp">
+													<span class="icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 															<g>
 																<g>
-																	<path
-																		d="M32,271.692v192c0,17.664,14.368,32,32,32h160v-224H32z">
+																	<path d="M32,271.692v192c0,17.664,14.368,32,32,32h160v-224H32z">
 																	</path>
 																</g>
 															</g>
@@ -1009,158 +765,142 @@
 															</g>
 															<g>
 																<g>
-																	<path
-																		d="M288,271.692v224h160c17.664,0,32-14.336,32-32v-192H288z">
+																	<path d="M288,271.692v224h160c17.664,0,32-14.336,32-32v-192H288z">
 																	</path>
 																</g>
-															</g>														</svg></span>
+															</g>
+														</svg></span>
 													Quà biếu cao cấp </a>
-												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3">												</div>											</div>											<!--	end LEVEL 1			-->
-											<!--	LEVEL 1			-->											<div class="sub-menu sub-menu-level1 has_child  ">												<a href="https://onplaza.vn/gia-sam-viet-nam"
-													class="level_0 sort sub-menu-item" data-menu_tags="1021"
-													id="menu_item_1021" title="Sâm Việt Nam">
-													<span class="icon"><svg xmlns="http://www.w3.org/2000/svg"
-															width="16" height="16" fill="currentColor"
-															class="bi bi-info-square" viewBox="0 0 16 16">
-															<path
-																d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z">
+												<div class="wraper_item cls" data-menu_tags="911" data-menu_idt="3"> </div>
+											</div> <!--	end LEVEL 1			-->
+											<!--	LEVEL 1			-->
+											<div class="sub-menu sub-menu-level1 has_child  "> <a href="https://onplaza.vn/gia-sam-viet-nam" class="level_0 sort sub-menu-item" data-menu_tags="1021" id="menu_item_1021" title="Sâm Việt Nam">
+													<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-square" viewBox="0 0 16 16">
+															<path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z">
 															</path>
-															<path
-																d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z">
+															<path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z">
 															</path>
 														</svg></span>
 													Sâm Việt Nam </a>
 												<div class="wraper_item cls" data-menu_tags="1021" data-menu_idt="4">
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1"
-																href="https://onplaza.vn/gia-sam-ngoc-linh"
-																title="Sâm ngọc linh">
+															<a class="item_lv1" href="https://onplaza.vn/gia-sam-ngoc-linh" title="Sâm ngọc linh">
 																Sâm ngọc linh
 															</a>
-															<ul class="item_lv2">																<li><a href="https://onplaza.vn/ruou-sam-ngoc-linh"
-																		title="Rượu sâm ngọc linh">
+															<ul class="item_lv2">
+																<li><a href="https://onplaza.vn/ruou-sam-ngoc-linh" title="Rượu sâm ngọc linh">
 																		Rượu sâm ngọc linh
 																	</a></li>
-																<li><a href="https://onplaza.vn/gia-sam-ngoc-linh-ngam-mat-ong"
-																		title="Sâm ngọc linh mật ong">
+																<li><a href="https://onplaza.vn/gia-sam-ngoc-linh-ngam-mat-ong" title="Sâm ngọc linh mật ong">
 																		Sâm ngọc linh mật ong
 																	</a></li>
-																<li><a href="https://onplaza.vn/sam-ngoc-linh-rung"
-																		title="Sâm ngọc linh tự nhiên">
+																<li><a href="https://onplaza.vn/sam-ngoc-linh-rung" title="Sâm ngọc linh tự nhiên">
 																		Sâm ngọc linh tự nhiên
 																	</a></li>
-																<li><a href="https://onplaza.vn/sam-ngoc-linh-trong"
-																		title="Sâm Ngọc Linh trồng">
+																<li><a href="https://onplaza.vn/sam-ngoc-linh-trong" title="Sâm Ngọc Linh trồng">
 																		Sâm Ngọc Linh trồng
 																	</a></li>
-																<li><a href="trasam.php-ngoc-linh"
-																		title="Trà sâm ngọc linh">
+																<li><a href="trasam.php-ngoc-linh" title="Trà sâm ngọc linh">
 																		Trà sâm ngọc linh
-																	</a></li>															</ul>
+																	</a></li>
+															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1"
-																href="https://onplaza.vn/gia-sam-lai-chau"
-																title="Sâm Lai Châu">
+															<a class="item_lv1" href="https://onplaza.vn/gia-sam-lai-chau" title="Sâm Lai Châu">
 																Sâm Lai Châu
 															</a>
 														</div>
-													</div>												</div>											</div>											<!--	end LEVEL 1			-->										</div>
-									</div>								</div>
+													</div>
+												</div>
+											</div> <!--	end LEVEL 1			-->
+										</div>
+									</div>
+								</div>
 							</li>
 							<!--	CHILDREN				-->
 						</ul>
 					</div>
 					<div class="dcjq-mega-menu cls">
 						<div class="sb-toggle-left navbar-left">
-							<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink"
-								enable-background="new 0 0 24 24">
+							<svg width="15" height="15" fill="#fff" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24">
 								<g>
-									<path
-										d="M24,3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3z">
+									<path d="M24,3c0-0.6-0.4-1-1-1H1C0.4,2,0,2.4,0,3v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V3z">
 									</path>
-									<path
-										d="M24,11c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V11z">
+									<path d="M24,11c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V11z">
 									</path>
-									<path
-										d="M24,19c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V19z">
+									<path d="M24,19c0-0.6-0.4-1-1-1H1c-0.6,0-1,0.4-1,1v2c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V19z">
 									</path>
 								</g>
 							</svg>
 						</div>
 						<ul id="megamenu" class="menu mypopup">
-							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865">								<a href="https://onplaza.vn/ct-gioi-thieu.html" id="menu_item_865" class="menu_item_a"
-									title="Giới thiệu">
-									Giới thiệu </a>								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870">								<a href="https://onplaza.vn/khuyen-mai.html" id="menu_item_870" class="menu_item_a"
-									title="Khuyến mãi">
-									Khuyến mãi </a>								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_883">								<a href="https://onplaza.vn/tin-tuc.html" id="menu_item_883" class="menu_item_a"
-									title="Tin tức">
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_865"> <a href="https://onplaza.vn/ct-gioi-thieu.html" id="menu_item_865" class="menu_item_a" title="Giới thiệu">
+									Giới thiệu </a> <!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->
+							</li>
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_870"> <a href="https://onplaza.vn/khuyen-mai.html" id="menu_item_870" class="menu_item_a" title="Khuyến mãi">
+									Khuyến mãi </a> <!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->
+							</li>
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_883"> <a href="https://onplaza.vn/tin-tuc.html" id="menu_item_883" class="menu_item_a" title="Tin tức">
 									Tin tức <span class="drop_down">
-										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px"
-											height="255px" viewBox="0 0 255 255"
-											style="enable-background:new 0 0 255 255;" xml:space="preserve">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
 											<g>
 												<g id="arrow-drop-down">
 													<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 												</g>
-											</g>										</svg>
+											</g>
+										</svg>
 									</span>
-								</a>								<!--	LEVEL 1			-->
+								</a> <!--	LEVEL 1			-->
 								<div class="highlight">
 									<div class="highlight1 container cls">
-										<div class="menu-child_list">											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/duoc-lieu.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="961"
-													id="menu_item_961" title="Dược liệu">
+										<div class="menu-child_list">
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/duoc-lieu.html" class="level_0 sort sub-menu-item" data-menu_tags="961" id="menu_item_961" title="Dược liệu">
 													<span class="icon"></span>
-													Dược liệu </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/suc-khoe.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="907"
-													id="menu_item_907" title="Sức khỏe">
+													Dược liệu </a> </div>
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/suc-khoe.html" class="level_0 sort sub-menu-item" data-menu_tags="907" id="menu_item_907" title="Sức khỏe">
 													<span class="icon"></span>
-													Sức khỏe </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/benh-hoc.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="1020"
-													id="menu_item_1020" title="Bệnh học">
+													Sức khỏe </a> </div>
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/benh-hoc.html" class="level_0 sort sub-menu-item" data-menu_tags="1020" id="menu_item_1020" title="Bệnh học">
 													<span class="icon"></span>
-													Bệnh học </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/tin-tuc-yen.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="1017"
-													id="menu_item_1017" title="Tin Tức Yến Sào">
+													Bệnh học </a> </div>
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/tin-tuc-yen.html" class="level_0 sort sub-menu-item" data-menu_tags="1017" id="menu_item_1017" title="Tin Tức Yến Sào">
 													<span class="icon"></span>
-													Tin Tức Yến Sào </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/tin-tuc-dong-trung.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="1018"
-													id="menu_item_1018" title="Tin tức Đông Trùng">
+													Tin Tức Yến Sào </a> </div>
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/tin-tuc-dong-trung.html" class="level_0 sort sub-menu-item" data-menu_tags="1018" id="menu_item_1018" title="Tin tức Đông Trùng">
 													<span class="icon"></span>
-													Tin tức Đông Trùng </a>											</div>											<div class="sub-menu sub-menu-level1   ">												<a href="https://onplaza.vn/tin-tuc-sam.html"
-													class="level_0 sort sub-menu-item" data-menu_tags="962"
-													id="menu_item_962" title="Tin Nhân sâm">
+													Tin tức Đông Trùng </a> </div>
+											<div class="sub-menu sub-menu-level1   "> <a href="https://onplaza.vn/tin-tuc-sam.html" class="level_0 sort sub-menu-item" data-menu_tags="962" id="menu_item_962" title="Tin Nhân sâm">
 													<span class="icon"></span>
-													Tin Nhân sâm </a>											</div>
-										</div>									</div>
+													Tin Nhân sâm </a> </div>
+										</div>
+									</div>
 									<div class="menu_desc"></div>
 								</div>
-								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871">								<a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html" id="menu_item_871"
-									class="menu_item_a" title="Chính sách">
-									Chính sách </a>								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->							</li>							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884">								<a href="https://onplaza.vn/lien-he.html" id="menu_item_884" class="menu_item_a"
-									title="Liên hệ">
-									Liên hệ </a>								<!--	LEVEL 1			-->
-								<!--	end LEVEL 1			-->							</li>
+								<!--	end LEVEL 1			-->
+							</li>
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_871"> <a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html" id="menu_item_871" class="menu_item_a" title="Chính sách">
+									Chính sách </a> <!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->
+							</li>
+							<li class="cat_level_0 level_0 sort menu_level_0" id=" level_884"> <a href="https://onplaza.vn/lien-he.html" id="menu_item_884" class="menu_item_a" title="Liên hệ">
+									Liên hệ </a> <!--	LEVEL 1			-->
+								<!--	end LEVEL 1			-->
+							</li>
 							<!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
 				<div class="header_right head-t">
-				</div>				<div class="search_home">					<div id="search" class="search search-contain s_close ">
+				</div>
+				<div class="search_home">
+					<div id="search" class="search search-contain s_close ">
 						<div class="search-content">
-							<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form_home"
-								method="get" onsubmit="javascript: submit_form_search_home();return false;">								<input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
-									name="keyword" class="keyword input-text" autocomplete="off">
+							<form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form_home" method="get" onsubmit="javascript: submit_form_search_home();return false;"> <input type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home" name="keyword" class="keyword input-text" autocomplete="off">
 								<button type="submit" class="button-search button_s">
-									<svg x="0px" y="0px" viewBox="0 0 485.213 485.213"
-										style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
+									<svg x="0px" y="0px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve">
 										<g>
 											<g>
 												<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951
@@ -1170,14 +910,15 @@
 												<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324
 						c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z"></path>
 											</g>
-										</g>									</svg>								</button>
+										</g>
+									</svg> </button>
 								<input type="hidden" name="module" value="news">
-								<input type="hidden" name="module" id="link_search_home"
-									value="https://onplaza.vn/tim-kiem/keyword.html">
+								<input type="hidden" name="module" id="link_search_home" value="https://onplaza.vn/tim-kiem/keyword.html">
 								<input type="hidden" name="view" value="search">
 								<input type="hidden" name="Itemid" value="10">
 							</form>
-						</div>					</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="modal-menu-full-screen"></div>
@@ -1186,380 +927,329 @@
 					<ul id="megamenu3" class="menu mypopup">
 						<li class="hide_nows">
 							<a href="javascript:void(0)" class="close-off" onclick="closeNav()">
-								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
-									height="30px" viewBox="0 0 348.333 348.334"
-									style="enable-background:new 0 0 348.333 348.334;" xml:space="preserve">
-									<path
-										d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
+								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 348.333 348.334" style="enable-background:new 0 0 348.333 348.334;" xml:space="preserve">
+									<path d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
 									</path>
 								</svg>
 							</a>
-						</li>						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
-								title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" rel="home">Trang chủ</a> </li>
-						<li class="level_0 sort login">
-							<a onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)"
-								title="Đăng ký">Đăng ký <span>|</span> </a> <a id="login_nw" onclick="OpenLoginPopup()"
-								class="menu_item_a" href="javascript:void(0)" title="Đăng nhập"> Đăng nhập</a>
 						</li>
-						<div class="clear"></div>						<li class="level_0 sort " id="level_865">
-							<a href="https://onplaza.vn/ct-gioi-thieu.html" id="menu_item_865" class="menu_item_a"
-								title="Giới thiệu">
-								Giới thiệu </a>							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_870">
-							<a href="https://onplaza.vn/khuyen-mai.html" id="menu_item_870" class="menu_item_a"
-								title="Khuyến mãi">
-								Khuyến mãi </a>							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_883">
-							<a href="https://onplaza.vn/tin-tuc.html" id="menu_item_883" class="menu_item_a"
-								title="Tin tức">
-								Tin tức </a>							<!--	LEVEL 1			-->
+						<li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" rel="home">Trang chủ</a> </li>
+						<li class="level_0 sort login">
+							<a onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)" title="Đăng ký">Đăng ký <span>|</span> </a> <a id="login_nw" onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)" title="Đăng nhập"> Đăng nhập</a>
+						</li>
+						<div class="clear"></div>
+						<li class="level_0 sort " id="level_865">
+							<a href="https://onplaza.vn/ct-gioi-thieu.html" id="menu_item_865" class="menu_item_a" title="Giới thiệu">
+								Giới thiệu </a> <!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->
+						</li>
+						<li class="level_0 sort " id="level_870">
+							<a href="https://onplaza.vn/khuyen-mai.html" id="menu_item_870" class="menu_item_a" title="Khuyến mãi">
+								Khuyến mãi </a> <!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->
+						</li>
+						<li class="level_0 sort " id="level_883">
+							<a href="https://onplaza.vn/tin-tuc.html" id="menu_item_883" class="menu_item_a" title="Tin tức">
+								Tin tức </a> <!--	LEVEL 1			-->
 							<span class="drop_down">
-								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px"
-									height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;"
-									xml:space="preserve">
+								<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="255px" height="255px" viewBox="0 0 255 255" style="enable-background:new 0 0 255 255;" xml:space="preserve">
 									<g>
 										<g id="arrow-drop-down">
 											<polygon points="0,63.75 127.5,191.25 255,63.75 		"></polygon>
 										</g>
-									</g>								</svg>
+									</g>
+								</svg>
 							</span>
 							<div class="highlight">
-								<ul class="highlight1 container">									<li class="sub-menu sub-menu-level1  ">
+								<ul class="highlight1 container">
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/duoc-lieu.html"
-												class="level_0 sort sub-menu-item" id="menu_item_961" title="Dược liệu">
-												Dược liệu </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
+											<a href="https://onplaza.vn/duoc-lieu.html" class="level_0 sort sub-menu-item" id="menu_item_961" title="Dược liệu">
+												Dược liệu </a>
+										</div>
+									</li>
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/suc-khoe.html"
-												class="level_0 sort sub-menu-item" id="menu_item_907" title="Sức khỏe">
-												Sức khỏe </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
+											<a href="https://onplaza.vn/suc-khoe.html" class="level_0 sort sub-menu-item" id="menu_item_907" title="Sức khỏe">
+												Sức khỏe </a>
+										</div>
+									</li>
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/benh-hoc.html"
-												class="level_0 sort sub-menu-item" id="menu_item_1020" title="Bệnh học">
-												Bệnh học </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
+											<a href="https://onplaza.vn/benh-hoc.html" class="level_0 sort sub-menu-item" id="menu_item_1020" title="Bệnh học">
+												Bệnh học </a>
+										</div>
+									</li>
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/tin-tuc-yen.html"
-												class="level_0 sort sub-menu-item" id="menu_item_1017"
-												title="Tin Tức Yến Sào">
-												Tin Tức Yến Sào </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
+											<a href="https://onplaza.vn/tin-tuc-yen.html" class="level_0 sort sub-menu-item" id="menu_item_1017" title="Tin Tức Yến Sào">
+												Tin Tức Yến Sào </a>
+										</div>
+									</li>
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/tin-tuc-dong-trung.html"
-												class="level_0 sort sub-menu-item" id="menu_item_1018"
-												title="Tin tức Đông Trùng">
-												Tin tức Đông Trùng </a>										</div>									</li>									<li class="sub-menu sub-menu-level1  ">
+											<a href="https://onplaza.vn/tin-tuc-dong-trung.html" class="level_0 sort sub-menu-item" id="menu_item_1018" title="Tin tức Đông Trùng">
+												Tin tức Đông Trùng </a>
+										</div>
+									</li>
+									<li class="sub-menu sub-menu-level1  ">
 										<div class="images-sub-menu1">
-											<a href="https://onplaza.vn/tin-tuc-sam.html"
-												class="level_0 sort sub-menu-item" id="menu_item_962"
-												title="Tin Nhân sâm">
-												Tin Nhân sâm </a>										</div>									</li>								</ul>
+											<a href="https://onplaza.vn/tin-tuc-sam.html" class="level_0 sort sub-menu-item" id="menu_item_962" title="Tin Nhân sâm">
+												Tin Nhân sâm </a>
+										</div>
+									</li>
+								</ul>
 								<div class="menu_desc"></div>
 							</div>
-							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_871">
-							<a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html" id="menu_item_871"
-								class="menu_item_a" title="Chính sách">
-								Chính sách </a>							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->						</li>						<li class="level_0 sort " id="level_884">
-							<a href="https://onplaza.vn/lien-he.html" id="menu_item_884" class="menu_item_a"
-								title="Liên hệ">
-								Liên hệ </a>							<!--	LEVEL 1			-->
-							<!--	end LEVEL 1			-->						</li>						<!--	CHILDREN				-->
+							<!--	end LEVEL 1			-->
+						</li>
+						<li class="level_0 sort " id="level_871">
+							<a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html" id="menu_item_871" class="menu_item_a" title="Chính sách">
+								Chính sách </a> <!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->
+						</li>
+						<li class="level_0 sort " id="level_884">
+							<a href="https://onplaza.vn/lien-he.html" id="menu_item_884" class="menu_item_a" title="Liên hệ">
+								Liên hệ </a> <!--	LEVEL 1			-->
+							<!--	end LEVEL 1			-->
+						</li> <!--	CHILDREN				-->
 					</ul>
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="product_menu_mobile">
-				<div class="product_menu" id="product_menu_mobile">					<div id="product_menu_ul" class="menu">
-						<ul class="product_menu_ul_innner scroll-bar">							<li class="hide_nows">
+				<div class="product_menu" id="product_menu_mobile">
+					<div id="product_menu_ul" class="menu">
+						<ul class="product_menu_ul_innner scroll-bar">
+							<li class="hide_nows">
 								Sản phẩm
 								<a href="javascript:void(0)" class="close-off" onclick="closeNpr()">
-									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-										xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
-										height="30px" viewBox="0 0 348.333 348.334"
-										style="enable-background:new 0 0 348.333 348.334;" xml:space="preserve">
-										<path
-											d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
+									<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px" height="30px" viewBox="0 0 348.333 348.334" style="enable-background:new 0 0 348.333 348.334;" xml:space="preserve">
+										<path d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85 c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563 c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85 l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554 L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z">
 										</path>
-									</svg>								</a>
+									</svg> </a>
 							</li>
-							<div class="clear"></div>							<div class="content_lv0 cls">								<!--	LEVEL 0			-->
-								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965">									<a href="javascript:void(0)" id="menu_item_965"
-										class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp">										<span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
+							<div class="clear"></div>
+							<div class="content_lv0 cls"> <!--	LEVEL 0			-->
+								<li class="level_0 activated li-product-menu-item  closed" id="li-menu_item_965"> <a href="javascript:void(0)" id="menu_item_965" class="menu_item_a wp_item click_acitvepr" title="Dược liệu cao cấp"> <span class="svg_cat"><svg height="30" viewBox="-22 0 511 511.998" width="30" xmlns="http://www.w3.org/2000/svg">
+												<path d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 												</path>
-											</svg></span>										<span class="text-menu">Dược liệu cao cấp</span>									</a>
+											</svg></span> <span class="text-menu">Dược liệu cao cấp</span> </a>
 									<div class="clear"></div>
 									<ul class="child_menu_down  " id="child_menu_down_965">
-										<li class=" child_down_968 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
-												id="menu_item_968" title="Nhân sâm Hàn Quốc">
+										<li class=" child_down_968 cls"> <a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_968" title="Nhân sâm Hàn Quốc">
 												<span class="text-menu">Nhân sâm Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_976 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
-												id="menu_item_976" title="Đông trùng hạ thảo">
+										<li class=" child_down_976 cls"> <a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_976" title="Đông trùng hạ thảo">
 												<span class="text-menu">Đông trùng hạ thảo</span>
 											</a>
 										</li>
-										<li class=" child_down_981 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
-												id="menu_item_981" title="Nấm linh chi Hàn Quốc">
+										<li class=" child_down_981 cls"> <a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_981" title="Nấm linh chi Hàn Quốc">
 												<span class="text-menu">Nấm linh chi Hàn Quốc</span>
 											</a>
 										</li>
-										<li class=" child_down_984 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
-												id="menu_item_984" title="Yến sào Khánh Hoà">
+										<li class=" child_down_984 cls"> <a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_984" title="Yến sào Khánh Hoà">
 												<span class="text-menu">Yến sào Khánh Hoà</span>
 											</a>
 										</li>
-										<li class=" child_down_994 cls">											<a class="pr_child" data-id="965" href="javascript:void(0)"
-												id="menu_item_994" title="Nhung hươu">
+										<li class=" child_down_994 cls"> <a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_994" title="Nhung hươu">
 												<span class="text-menu">Nhung hươu</span>
 											</a>
 										</li>
 									</ul>
-								</li>								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966">									<a href="https://onplaza.vn/thuc-pham-chuc-nang" id="menu_item_966"
-										class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
-												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
-												preserveAspectRatio="xMidYMid meet" version="1.0">
+								</li> <!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_966"> <a href="https://onplaza.vn/thuc-pham-chuc-nang" id="menu_item_966" class="menu_item_a wp_item click_acitvepr" title="Thực phẩm chức năng"> <span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0">
 												<defs>
 													<clipPath id="id1">
-														<path
-															d="M 2.449219 5.457031 L 26.402344 5.457031 L 26.402344 22.878906 L 2.449219 22.878906 Z M 2.449219 5.457031 "
-															clip-rule="nonzero"></path>
+														<path d="M 2.449219 5.457031 L 26.402344 5.457031 L 26.402344 22.878906 L 2.449219 22.878906 Z M 2.449219 5.457031 " clip-rule="nonzero"></path>
 													</clipPath>
 												</defs>
 												<g clip-path="url(#id1)">
-													<path fill="rgb(85.488892%, 14.509583%, 11.369324%)"
-														d="M 23.734375 5.457031 L 5.121094 5.457031 C 3.652344 5.457031 2.460938 6.65625 2.460938 8.136719 L 2.460938 20.195312 C 2.460938 21.675781 3.652344 22.878906 5.121094 22.878906 L 23.734375 22.878906 C 25.203125 22.878906 26.390625 21.675781 26.390625 20.195312 L 26.390625 8.136719 C 26.390625 6.65625 25.203125 5.457031 23.734375 5.457031 Z M 23.734375 5.457031 "
-														fill-opacity="1" fill-rule="nonzero"></path>
+													<path fill="rgb(85.488892%, 14.509583%, 11.369324%)" d="M 23.734375 5.457031 L 5.121094 5.457031 C 3.652344 5.457031 2.460938 6.65625 2.460938 8.136719 L 2.460938 20.195312 C 2.460938 21.675781 3.652344 22.878906 5.121094 22.878906 L 23.734375 22.878906 C 25.203125 22.878906 26.390625 21.675781 26.390625 20.195312 L 26.390625 8.136719 C 26.390625 6.65625 25.203125 5.457031 23.734375 5.457031 Z M 23.734375 5.457031 " fill-opacity="1" fill-rule="nonzero"></path>
 												</g>
-												<path fill="rgb(100%, 100%, 0%)"
-													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
-													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>										<span class="text-menu">Thực phẩm chức năng</span>									</a>
-								</li>								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967">									<a href="https://onplaza.vn/thuong-hieu" id="menu_item_967"
-										class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu">										<span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512"
-												height="30" viewBox="0 0 512 512" width="30"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="m337.903 358.822 23.413-37.992 42.252-14.41 4.681-44.377 31.789-31.295-15.114-42.006 15.114-42.007-31.788-31.295-4.681-44.376-42.252-14.41-23.413-37.993-44.285 5.347-37.619-24.008-37.619 24.01-44.284-5.347-23.413 37.992-42.252 14.41-4.681 44.376-31.789 31.295 15.114 42.007-15.114 42.007 31.788 31.294 4.681 44.377 42.252 14.41 23.413 37.992 44.285-5.346 37.619 24.009 37.619-24.009zm-211.332-170.079c0-71.367 58.062-129.429 129.429-129.429s129.429 58.062 129.429 129.429-58.062 129.429-129.429 129.429-129.429-58.062-129.429-129.429z">
+												<path fill="rgb(100%, 100%, 0%)" d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 " fill-opacity="1" fill-rule="nonzero"></path>
+											</svg></span> <span class="text-menu">Thực phẩm chức năng</span> </a>
+								</li> <!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_967"> <a href="https://onplaza.vn/thuong-hieu" id="menu_item_967" class="menu_item_a wp_item click_acitvepr" title="Sản phẩm thương hiệu"> <span class="svg_cat"><svg id="Capa_1" enable-background="new 0 0 512 512" height="30" viewBox="0 0 512 512" width="30" xmlns="http://www.w3.org/2000/svg">
+												<path d="m337.903 358.822 23.413-37.992 42.252-14.41 4.681-44.377 31.789-31.295-15.114-42.006 15.114-42.007-31.788-31.295-4.681-44.376-42.252-14.41-23.413-37.993-44.285 5.347-37.619-24.008-37.619 24.01-44.284-5.347-23.413 37.992-42.252 14.41-4.681 44.376-31.789 31.295 15.114 42.007-15.114 42.007 31.788 31.294 4.681 44.377 42.252 14.41 23.413 37.992 44.285-5.346 37.619 24.009 37.619-24.009zm-211.332-170.079c0-71.367 58.062-129.429 129.429-129.429s129.429 58.062 129.429 129.429-58.062 129.429-129.429 129.429-129.429-58.062-129.429-129.429z">
 												</path>
-												<path
-													d="m256 89.333c-54.815 0-99.41 44.595-99.41 99.41s44.595 99.41 99.41 99.41 99.41-44.595 99.41-99.41-44.595-99.41-99.41-99.41z">
+												<path d="m256 89.333c-54.815 0-99.41 44.595-99.41 99.41s44.595 99.41 99.41 99.41 99.41-44.595 99.41-99.41-44.595-99.41-99.41-99.41z">
 												</path>
-												<path
-													d="m211.299 384.568-52.68 6.36-27.833-45.167-9.462-3.226-40.813 127.566 73.475-4.041 57.485 45.94 33.828-105.732z">
+												<path d="m211.299 384.568-52.68 6.36-27.833-45.167-9.462-3.226-40.813 127.566 73.475-4.041 57.485 45.94 33.828-105.732z">
 												</path>
-												<path
-													d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
+												<path d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z">
 												</path>
-											</svg></span>										<span class="text-menu">Sản phẩm thương hiệu</span>									</a>
-								</li>								<!--	LEVEL 0			-->
-								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008">									<a href="vienhongsam.php" id="menu_item_1008"
-										class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm">										<span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" width="40"
-												zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
-												preserveAspectRatio="xMidYMid meet" version="1.0">
+											</svg></span> <span class="text-menu">Sản phẩm thương hiệu</span> </a>
+								</li> <!--	LEVEL 0			-->
+								<li class="level_0  li-product-menu-item  closed" id="li-menu_item_1008"> <a href="vienhongsam.php" id="menu_item_1008" class="menu_item_a wp_item click_acitvepr" title="Viên Hồng Sâm"> <span class="svg_cat"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0">
 												<defs>
 													<clipPath id="id1">
-														<path
-															d="M 2.449219 5.457031 L 26.402344 5.457031 L 26.402344 22.878906 L 2.449219 22.878906 Z M 2.449219 5.457031 "
-															clip-rule="nonzero"></path>
+														<path d="M 2.449219 5.457031 L 26.402344 5.457031 L 26.402344 22.878906 L 2.449219 22.878906 Z M 2.449219 5.457031 " clip-rule="nonzero"></path>
 													</clipPath>
 												</defs>
 												<g clip-path="url(#id1)">
-													<path fill="rgb(85.488892%, 14.509583%, 11.369324%)"
-														d="M 23.734375 5.457031 L 5.121094 5.457031 C 3.652344 5.457031 2.460938 6.65625 2.460938 8.136719 L 2.460938 20.195312 C 2.460938 21.675781 3.652344 22.878906 5.121094 22.878906 L 23.734375 22.878906 C 25.203125 22.878906 26.390625 21.675781 26.390625 20.195312 L 26.390625 8.136719 C 26.390625 6.65625 25.203125 5.457031 23.734375 5.457031 Z M 23.734375 5.457031 "
-														fill-opacity="1" fill-rule="nonzero"></path>
+													<path fill="rgb(85.488892%, 14.509583%, 11.369324%)" d="M 23.734375 5.457031 L 5.121094 5.457031 C 3.652344 5.457031 2.460938 6.65625 2.460938 8.136719 L 2.460938 20.195312 C 2.460938 21.675781 3.652344 22.878906 5.121094 22.878906 L 23.734375 22.878906 C 25.203125 22.878906 26.390625 21.675781 26.390625 20.195312 L 26.390625 8.136719 C 26.390625 6.65625 25.203125 5.457031 23.734375 5.457031 Z M 23.734375 5.457031 " fill-opacity="1" fill-rule="nonzero"></path>
 												</g>
-												<path fill="rgb(100%, 100%, 0%)"
-													d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 "
-													fill-opacity="1" fill-rule="nonzero"></path>
-											</svg></span>										<span class="text-menu">Viên Hồng Sâm</span>									</a>
+												<path fill="rgb(100%, 100%, 0%)" d="M 15.589844 12.851562 L 14.425781 9.238281 L 13.261719 12.851562 L 9.492188 12.851562 L 12.542969 15.085938 L 11.375 18.699219 L 14.425781 16.464844 L 17.476562 18.699219 L 16.3125 15.085938 L 19.363281 12.851562 Z M 15.589844 12.851562 " fill-opacity="1" fill-rule="nonzero"></path>
+											</svg></span> <span class="text-menu">Viên Hồng Sâm</span> </a>
 								</li>
 							</div>
 							<!--	LEVEL 0			-->
 							<!--	LEVEL 1			-->
 							<div class="cat_filters_home_wrapper  cat_filters_965">
-								<ul class="cat_filters_home_ul">									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php"
-											id="menu_item_968" title="Nhân sâm Hàn Quốc">
-											Nhân sâm Hàn Quốc </a>										<!--	LEVEL 2			-->
+								<ul class="cat_filters_home_ul">
+									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  "> <a class="pr_cls1 level_pr" href="nhansamhanquoc.php" id="menu_item_968" title="Nhân sâm Hàn Quốc">
+											Nhân sâm Hàn Quốc </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nhansam6tuoi.php" id=" menu_item_969"
-														title="Nhân sâm tươi">
-														<img class="lazy after-lazy" alt="Nhân sâm tươi"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg.webp"
-															style="display: inline;">
-														<span>Nhân sâm tươi</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="hongsamcukho.php" id=" menu_item_970"
-														title="Hồng sâm củ khô">
-														<img class="lazy after-lazy" alt="Hồng sâm củ khô"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg.webp"
-															style="display: inline;">
-														<span>Hồng sâm củ khô</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="caohongsam.php" id=" menu_item_971"
-														title="Cao hồng sâm">
-														<img class="lazy after-lazy" alt="Cao hồng sâm"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg.webp"
-															style="display: inline;">
-														<span>Cao hồng sâm</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="nuochongsam.php" id=" menu_item_972"
-														title="Nước hồng sâm">
-														<img class="lazy after-lazy" alt="Nước hồng sâm"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg.webp"
-															style="display: inline;">
-														<span>Nước hồng sâm</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="samtammatong.php" id=" menu_item_973"
-														title="Sâm tẩm mật ong">
-														<img class="lazy after-lazy" alt="Sâm tẩm mật ong"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg.webp"
-															style="display: inline;">
-														<span>Sâm tẩm mật ong</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="trasam.php" id=" menu_item_974"
-														title="Trà sâm">
-														<img class="lazy after-lazy" alt="Trà sâm"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg.webp"
-															style="display: inline;">
-														<span>Trà sâm</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  ">													<a href="keosam.php" id=" menu_item_975"
-														title="Kẹo sâm">
-														<img class="lazy after-lazy" alt="Kẹo sâm"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg.webp"
-															style="display: inline;">
-														<span>Kẹo sâm</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="nhansam6tuoi.php" id=" menu_item_969" title="Nhân sâm tươi">
+														<img class="lazy after-lazy" alt="Nhân sâm tươi" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452420.jpg.webp" style="display: inline;">
+														<span>Nhân sâm tươi</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="hongsamcukho.php" id=" menu_item_970" title="Hồng sâm củ khô">
+														<img class="lazy after-lazy" alt="Hồng sâm củ khô" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452415.jpg.webp" style="display: inline;">
+														<span>Hồng sâm củ khô</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="caohongsam.php" id=" menu_item_971" title="Cao hồng sâm">
+														<img class="lazy after-lazy" alt="Cao hồng sâm" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452448.jpg.webp" style="display: inline;">
+														<span>Cao hồng sâm</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="nuochongsam.php" id=" menu_item_972" title="Nước hồng sâm">
+														<img class="lazy after-lazy" alt="Nước hồng sâm" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452409.jpg.webp" style="display: inline;">
+														<span>Nước hồng sâm</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="samtammatong.php" id=" menu_item_973" title="Sâm tẩm mật ong">
+														<img class="lazy after-lazy" alt="Sâm tẩm mật ong" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452402.jpg.webp" style="display: inline;">
+														<span>Sâm tẩm mật ong</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="trasam.php" id=" menu_item_974" title="Trà sâm">
+														<img class="lazy after-lazy" alt="Trà sâm" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601452395.jpg.webp" style="display: inline;">
+														<span>Trà sâm</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_968  "> <a href="keosam.php" id=" menu_item_975" title="Kẹo sâm">
+														<img class="lazy after-lazy" alt="Kẹo sâm" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601453799.jpg.webp" style="display: inline;">
+														<span>Kẹo sâm</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>
-									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  ">										<a class="pr_cls1 level_pr" href="dongtrunghathao.php"
-											id="menu_item_976" title="Đông trùng hạ thảo">
-											Đông trùng hạ thảo </a>										<!--	LEVEL 2			-->
+										<span class="bt_after_child"></span>
+									</li>
+									<li class="sub-menu sub-menu-level1  child_type_976 child_of_965  "> <a class="pr_cls1 level_pr" href="dongtrunghathao.php" id="menu_item_976" title="Đông trùng hạ thảo">
+											Đông trùng hạ thảo </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="dongtrungtaytang.php"
-														id=" menu_item_977" title="Đông trùng Tây Tạng">
-														<span>Đông trùng Tây Tạng</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="namdongtrunghathao.php"
-														id=" menu_item_978" title="Nấm Đông Trùng Hạ Thảo">
-														<span>Nấm Đông Trùng Hạ Thảo</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="viendongtrunghathao.php"
-														id=" menu_item_979" title="Viên Đông trùng hạ thảo">
-														<span>Viên Đông trùng hạ thảo</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_976  ">													<a href="nuocdongtrunghathao.php"
-														id=" menu_item_980" title="Nước đông trùng hạ thảo">
-														<span>Nước đông trùng hạ thảo</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu  sub-menu-level2 cls child_of_976  "> <a href="dongtrungtaytang.php" id=" menu_item_977" title="Đông trùng Tây Tạng">
+														<span>Đông trùng Tây Tạng</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_976  "> <a href="namdongtrunghathao.php" id=" menu_item_978" title="Nấm Đông Trùng Hạ Thảo">
+														<span>Nấm Đông Trùng Hạ Thảo</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_976  "> <a href="viendongtrunghathao.php" id=" menu_item_979" title="Viên Đông trùng hạ thảo">
+														<span>Viên Đông trùng hạ thảo</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_976  "> <a href="nuocdongtrunghathao.php" id=" menu_item_980" title="Nước đông trùng hạ thảo">
+														<span>Nước đông trùng hạ thảo</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>
-									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  ">										<a class="pr_cls1 level_pr" href="namlinhchihanquoc.php"
-											id="menu_item_981" title="Nấm linh chi Hàn Quốc">
-											Nấm linh chi Hàn Quốc </a>										<!--	LEVEL 2			-->
+										<span class="bt_after_child"></span>
+									</li>
+									<li class="sub-menu sub-menu-level1  child_type_981 child_of_965  "> <a class="pr_cls1 level_pr" href="namlinhchihanquoc.php" id="menu_item_981" title="Nấm linh chi Hàn Quốc">
+											Nấm linh chi Hàn Quốc </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="namlinhchido.php" id=" menu_item_982"
-														title="Nấm linh chi đỏ">
-														<img class="lazy after-lazy" alt="Nấm linh chi đỏ"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg.webp"
-															style="display: inline;">
-														<span>Nấm linh chi đỏ</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchivang.php" id=" menu_item_983"
-														title="Nấm linh chi vàng">
-														<span>Nấm linh chi vàng</span>													</a>
-												</li>												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  ">													<a href="caonamlinhchi.php" id=" menu_item_985"
-														title="Cao nấm linh chi">
-														<img class="lazy after-lazy" alt="Cao nấm linh chi"
-															src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg"
-															srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg.webp"
-															style="display: inline;">
-														<span>Cao nấm linh chi</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithuonghoang.php"
-														id=" menu_item_986" title="Nấm linh chi thượng hoàng">
-														<span>Nấm linh chi thượng hoàng</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="namlinhchithailat.php"
-														id=" menu_item_987" title="Nấm linh chi thái lát">
-														<span>Nấm linh chi thái lát</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_981  ">													<a href="tranamlinhchi.php" id=" menu_item_988"
-														title="Trà nấm linh chi">
-														<span>Trà nấm linh chi</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  "> <a href="namlinhchido.php" id=" menu_item_982" title="Nấm linh chi đỏ">
+														<img class="lazy after-lazy" alt="Nấm linh chi đỏ" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454184.jpg.webp" style="display: inline;">
+														<span>Nấm linh chi đỏ</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_981  "> <a href="namlinhchivang.php" id=" menu_item_983" title="Nấm linh chi vàng">
+														<span>Nấm linh chi vàng</span> </a>
+												</li>
+												<li class="sub-menu icon_level2 sub-menu-level2 cls child_of_981  "> <a href="caonamlinhchi.php" id=" menu_item_985" title="Cao nấm linh chi">
+														<img class="lazy after-lazy" alt="Cao nấm linh chi" src="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg" srcset="https://onplaza.vn/images/menus/2020/09/30/resized/menu_1601454492.jpg.webp" style="display: inline;">
+														<span>Cao nấm linh chi</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_981  "> <a href="namlinhchithuonghoang.php" id=" menu_item_986" title="Nấm linh chi thượng hoàng">
+														<span>Nấm linh chi thượng hoàng</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_981  "> <a href="namlinhchithailat.php" id=" menu_item_987" title="Nấm linh chi thái lát">
+														<span>Nấm linh chi thái lát</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_981  "> <a href="tranamlinhchi.php" id=" menu_item_988" title="Trà nấm linh chi">
+														<span>Trà nấm linh chi</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>
-									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  ">										<a class="pr_cls1 level_pr" href="yensaokhanhhoa.php"
-											id="menu_item_984" title="Yến sào Khánh Hoà">
-											Yến sào Khánh Hoà </a>										<!--	LEVEL 2			-->
+										<span class="bt_after_child"></span>
+									</li>
+									<li class="sub-menu sub-menu-level1  child_type_984 child_of_965  "> <a class="pr_cls1 level_pr" href="yensaokhanhhoa.php" id="menu_item_984" title="Yến sào Khánh Hoà">
+											Yến sào Khánh Hoà </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="https://onplaza.vn/yen-tinh-che" id=" menu_item_989"
-														title="Yến tinh chế nguyên tổ">
-														<span>Yến tinh chế nguyên tổ</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="https://onplaza.vn/yen-so-che" id=" menu_item_990"
-														title="Yến sơ chế nguyên tổ">
-														<span>Yến sơ chế nguyên tổ</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="https://onplaza.vn/yen-huyet" id=" menu_item_991"
-														title="Yến huyết nguyên tổ">
-														<span>Yến huyết nguyên tổ</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="https://onplaza.vn/to-yen-hong" id=" menu_item_992"
-														title="Yến hồng nguyên tổ">
-														<span>Yến hồng nguyên tổ</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_984  ">													<a href="https://onplaza.vn/nuoc-yen-sanest" id=" menu_item_993"
-														title="Nước yến sanest">
-														<span>Nước yến sanest</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu  sub-menu-level2 cls child_of_984  "> <a href="https://onplaza.vn/yen-tinh-che" id=" menu_item_989" title="Yến tinh chế nguyên tổ">
+														<span>Yến tinh chế nguyên tổ</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_984  "> <a href="https://onplaza.vn/yen-so-che" id=" menu_item_990" title="Yến sơ chế nguyên tổ">
+														<span>Yến sơ chế nguyên tổ</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_984  "> <a href="https://onplaza.vn/yen-huyet" id=" menu_item_991" title="Yến huyết nguyên tổ">
+														<span>Yến huyết nguyên tổ</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_984  "> <a href="https://onplaza.vn/to-yen-hong" id=" menu_item_992" title="Yến hồng nguyên tổ">
+														<span>Yến hồng nguyên tổ</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_984  "> <a href="https://onplaza.vn/nuoc-yen-sanest" id=" menu_item_993" title="Nước yến sanest">
+														<span>Nước yến sanest</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>
-									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  ">										<a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou"
-											id="menu_item_994" title="Nhung hươu">
-											Nhung hươu </a>										<!--	LEVEL 2			-->
+										<span class="bt_after_child"></span>
+									</li>
+									<li class="sub-menu sub-menu-level1  child_type_994 child_of_965  "> <a class="pr_cls1 level_pr" href="https://onplaza.vn/nhung-huou" id="menu_item_994" title="Nhung hươu">
+											Nhung hươu </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="https://onplaza.vn/nhung-huou-tuoi" id=" menu_item_995"
-														title="Nhung hươu tươi">
-														<span>Nhung hươu tươi</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="https://onplaza.vn/cao-ban-long" id=" menu_item_996"
-														title="Cao ban long">
-														<span>Cao ban long</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_994  ">													<a href="https://onplaza.vn/nhung-huou-kho-thai-lat"
-														id=" menu_item_997" title="Nhung hươu khô thái lát">
-														<span>Nhung hươu khô thái lát</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu  sub-menu-level2 cls child_of_994  "> <a href="https://onplaza.vn/nhung-huou-tuoi" id=" menu_item_995" title="Nhung hươu tươi">
+														<span>Nhung hươu tươi</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_994  "> <a href="https://onplaza.vn/cao-ban-long" id=" menu_item_996" title="Cao ban long">
+														<span>Cao ban long</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_994  "> <a href="https://onplaza.vn/nhung-huou-kho-thai-lat" id=" menu_item_997" title="Nhung hươu khô thái lát">
+														<span>Nhung hươu khô thái lát</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>
-									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  ">										<a class="pr_cls1 level_pr"
-											href="https://onplaza.vn/an-cung-nguu-hoang-hoan-gia-bao-nhieu"
-											id="menu_item_998" title="An cung ngưu">
-											An cung ngưu </a>										<!--	LEVEL 2			-->
+										<span class="bt_after_child"></span>
+									</li>
+									<li class="sub-menu sub-menu-level1  child_type_998 child_of_965  "> <a class="pr_cls1 level_pr" href="https://onplaza.vn/an-cung-nguu-hoang-hoan-gia-bao-nhieu" id="menu_item_998" title="An cung ngưu">
+											An cung ngưu </a> <!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
-											<ul class="cat_filters_home_ul">												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="https://onplaza.vn/an-cung-trung-quoc" id=" menu_item_999"
-														title="An cung ngưu trung quốc">
-														<span>An cung ngưu trung quốc</span>													</a>
-												</li>												<li class="sub-menu  sub-menu-level2 cls child_of_998  ">													<a href="https://onplaza.vn/an-cung-han-quoc" id=" menu_item_1000"
-														title="An cung ngưu hàn quốc">
-														<span>An cung ngưu hàn quốc</span>													</a>
+											<ul class="cat_filters_home_ul">
+												<li class="sub-menu  sub-menu-level2 cls child_of_998  "> <a href="https://onplaza.vn/an-cung-trung-quoc" id=" menu_item_999" title="An cung ngưu trung quốc">
+														<span>An cung ngưu trung quốc</span> </a>
+												</li>
+												<li class="sub-menu  sub-menu-level2 cls child_of_998  "> <a href="https://onplaza.vn/an-cung-han-quoc" id=" menu_item_1000" title="An cung ngưu hàn quốc">
+														<span>An cung ngưu hàn quốc</span> </a>
 												</li>
 											</ul>
 										</div>
-										<span class="bt_after_child"></span>									</li>								</ul>
+										<span class="bt_after_child"></span>
+									</li>
+								</ul>
 							</div>
-							<span class="bt_after"></span>							<div class="clear"></div>
+							<span class="bt_after"></span>
+							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-							<!--	LEVEL 1			-->							<div class="clear"></div>
+							<!--	LEVEL 1			-->
+							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-							<!--	LEVEL 1			-->							<div class="clear"></div>
+							<!--	LEVEL 1			-->
+							<div class="clear"></div>
 							<!--	LEVEL 0			-->
-							<!--	LEVEL 1			-->							<div class="clear"></div>							<!--	CHILDREN				-->
+							<!--	LEVEL 1			-->
+							<div class="clear"></div> <!--	CHILDREN				-->
 						</ul>
 					</div>
 				</div>
@@ -1568,106 +1258,79 @@
 			<style>
 				.background_all {}
 			</style>
-			<div class="background_all" alt="Thế giới dinh dưỡng"
-				style="background-image: url(https://onplaza.vn/images/background/compress/trang_tintuc_1591873805.jpg.webp); display: block;background-color:#140600;background-position:unset"
-				nhansamhanquoc.php> <!-- Content -->
-				<div class="main_wrapper  main_wrapper_nohome  ">					<div class="main-area main-area-1col main-area-full">
-						<div class="slideshow">						</div>
+			<div class="background_all" alt="Thế giới dinh dưỡng" style="background-image: url(https://onplaza.vn/images/background/compress/trang_tintuc_1591873805.jpg.webp); display: block;background-color:#140600;background-position:unset" nhansamhanquoc.php> <!-- Content -->
+				<div class="main_wrapper  main_wrapper_nohome  ">
+					<div class="main-area main-area-1col main-area-full">
+						<div class="slideshow"> </div>
 						<div class="clear"></div>
 						<div class="breadcrumbs cls">
-							<div class="container">								<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
-									<ul class="breadcrumb" itemscope="itemscope"
-										itemtype="https://schema.org/BreadcrumbList">										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
-											itemtype="http://schema.org/ListItem">
-											<a title="Onplaza Việt Pháp - Thế Giới dinh dưỡng"
-												href="https://onplaza.vn/" itemprop="item">
+							<div class="container">
+								<div class="breadcrumbs_wrapper" itemscope="" itemtype="http://schema.org/WebPage">
+									<ul class="breadcrumb" itemscope="itemscope" itemtype="https://schema.org/BreadcrumbList">
+										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+											<a title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" href="https://onplaza.vn/" itemprop="item">
 												<span itemprop="name">Home</span>
 												<meta content="1" itemprop="position">
-											</a>										</li>
-										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
-											itemtype="http://schema.org/ListItem">
-											<a title="Dược liệu cao cấp" href="sanphamduoclieu.php"
-												itemprop="item">
+											</a>
+										</li>
+										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+											<a title="Dược liệu cao cấp" href="sanphamduoclieu.php" itemprop="item">
 												<span itemprop="name">Dược liệu cao cấp</span>
 												<meta content="2" itemprop="position">
-											</a>										</li>
-										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
-											itemtype="http://schema.org/ListItem">
-											<a title="Yến sào Khánh Hoà" href="yensaokhanhhoa.php"
-												itemprop="item">
+											</a>
+										</li>
+										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
+											<a title="Yến sào Khánh Hoà" href="yensaokhanhhoa.php" itemprop="item">
 												<span itemprop="name">Yến sào Khánh Hoà</span>
 												<meta content="3" itemprop="position">
-											</a>										</li>
-										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
-											itemtype="http://schema.org/ListItem">
+											</a>
+										</li>
+										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope" itemtype="http://schema.org/ListItem">
 											<a title="Tổ Yến Thô" href="toyentho.php" itemprop="item">
 												<span itemprop="name">Tổ Yến Thô</span>
 												<meta content="4" itemprop="position">
-											</a>										</li>
+											</a>
+										</li>
 									</ul>
-								</div>							</div>						</div>						<input type="hidden" name="name_cat" id="name_cat" value="Tổ Yến Thô">
+								</div>
+							</div>
+						</div> <input type="hidden" name="name_cat" id="name_cat" value="Tổ Yến Thô">
 						<div class="products-cat-frame-inner pro_cattt description" style="background-color:#220A00">
 							<div class="filter_products_cat container">
-								<div class="block_products_filter cls">									<div class="field_title field_title2">
+								<div class="block_products_filter cls">
+									<div class="field_title field_title2">
 										<div class="title-name">
 											<div class="cat-title">
-												<div class="cat-title-main" id="cat-san-pham-duoc-lieu">													<h1>Tổ Yến Thô</h1>
+												<div class="cat-title-main" id="cat-san-pham-duoc-lieu">
+													<h1>Tổ Yến Thô</h1>
 													<div class="kk-star-ratings hidden" data-id="111">
-														<div class="kksr-stars">															<div class="star_on">
-																<svg fill="#FF9727" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
+														<div class="kksr-stars">
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18">
+																	<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class=""></path>
 																</svg>
 															</div>
 															<div class="star_on">
-																<svg fill="#FF9727" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
+																<svg fill="#FF9727" width="15px" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18">
+																	<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class=""></path>
 																</svg>
 															</div>
 															<div class="star_on">
-																<svg fill="#FF9727" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
+																<svg fill="#FF9727" width="15px" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18">
+																	<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class=""></path>
 																</svg>
 															</div>
 															<div class="star_on">
-																<svg fill="#FF9727" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
+																<svg fill="#FF9727" width="15px" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18">
+																	<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class=""></path>
 																</svg>
 															</div>
 															<div class="star_on">
-																<svg fill="#dcdcdc" width="15px" aria-hidden="true"
-																	data-prefix="fas" data-icon="star" role="img"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 576 512"
-																	class="svg-inline--fa fa-star fa-w-18">
-																	<path
-																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																		class=""></path>
+																<svg fill="#dcdcdc" width="15px" aria-hidden="true" data-prefix="fas" data-icon="star" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-star fa-w-18">
+																	<path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z" class=""></path>
 																</svg>
-															</div>														</div>
+															</div>
+														</div>
 														<div class="kksr-legend">
 															<div>
 																<div class="kksr-title hidden">Tổ Yến Thô</div>
@@ -1678,75 +1341,49 @@
 												</div>
 												<div class="clear"></div>
 											</div>
-										</div>									</div>
-									<div class="multipe_fiter cls">										<div class="list_fiter">											<div class="scroll_mb">
+										</div>
+									</div>
+									<div class="multipe_fiter cls">
+										<div class="list_fiter">
+											<div class="scroll_mb">
 												<div class="block_product_filter">
 													<div class="field_area field_item field_area_0" id="m-price">
-														<div class="field_name normal field  field_opened "
-															data-id="id_field_price"><span>Mức giá</span></div>
-														<div id="price"
-															class="field_label filters_in_field filters_in_field_0_column filter_4_price">
-															<div class="filters_in_field_inner cls"><span
-																	class="close"><svg height="10px" viewBox="0 0 64 64"
-																		enable-background="new 0 0 64 64">
+														<div class="field_name normal field  field_opened " data-id="id_field_price"><span>Mức giá</span></div>
+														<div id="price" class="field_label filters_in_field filters_in_field_0_column filter_4_price">
+															<div class="filters_in_field_inner cls"><span class="close"><svg height="10px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
 																		<g>
-																			<path fill="#4e4b4b"
-																				d="M28.941,31.786L0.613,60.114c-0.787,0.787-0.787,2.062,0,2.849c0.393,0.394,0.909,0.59,1.424,0.59   c0.516,0,1.031-0.196,1.424-0.59l28.541-28.541l28.541,28.541c0.394,0.394,0.909,0.59,1.424,0.59c0.515,0,1.031-0.196,1.424-0.59   c0.787-0.787,0.787-2.062,0-2.849L35.064,31.786L63.41,3.438c0.787-0.787,0.787-2.062,0-2.849c-0.787-0.786-2.062-0.786-2.848,0   L32.003,29.15L3.441,0.59c-0.787-0.786-2.061-0.786-2.848,0c-0.787,0.787-0.787,2.062,0,2.849L28.941,31.786z">
+																			<path fill="#4e4b4b" d="M28.941,31.786L0.613,60.114c-0.787,0.787-0.787,2.062,0,2.849c0.393,0.394,0.909,0.59,1.424,0.59   c0.516,0,1.031-0.196,1.424-0.59l28.541-28.541l28.541,28.541c0.394,0.394,0.909,0.59,1.424,0.59c0.515,0,1.031-0.196,1.424-0.59   c0.787-0.787,0.787-2.062,0-2.849L35.064,31.786L63.41,3.438c0.787-0.787,0.787-2.062,0-2.849c-0.787-0.786-2.062-0.786-2.848,0   L32.003,29.15L3.441,0.59c-0.787-0.786-2.061-0.786-2.848,0c-0.787,0.787-0.787,2.062,0,2.849L28.941,31.786z">
 																			</path>
 																		</g>
 																	</svg></span>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-1-2trieu"
-																		title="Từ 1 triệu đến 2 triệu"><i
-																			class="icon_v1 "></i>Từ 1 triệu đến 2
+																<div class="cls item"><a href="toyentho.php/loc-1-2trieu" title="Từ 1 triệu đến 2 triệu"><i class="icon_v1 "></i>Từ 1 triệu đến 2
 																		triệu</a></div>
 															</div>
 														</div>
 													</div>
 													<div class="field_area field_item field_area_1" id="m-trong_luong">
-														<div class="field_name normal field  field_opened "
-															data-id="id_field_trong_luong"><span>Trọng Lượng</span>
+														<div class="field_name normal field  field_opened " data-id="id_field_trong_luong"><span>Trọng Lượng</span>
 														</div>
-														<div id="trong_luong"
-															class="field_label filters_in_field filters_in_field_1_column filter_4_trong_luong">
-															<div class="filters_in_field_inner cls"><span
-																	class="close"><svg height="10px" viewBox="0 0 64 64"
-																		enable-background="new 0 0 64 64">
+														<div id="trong_luong" class="field_label filters_in_field filters_in_field_1_column filter_4_trong_luong">
+															<div class="filters_in_field_inner cls"><span class="close"><svg height="10px" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
 																		<g>
-																			<path fill="#4e4b4b"
-																				d="M28.941,31.786L0.613,60.114c-0.787,0.787-0.787,2.062,0,2.849c0.393,0.394,0.909,0.59,1.424,0.59   c0.516,0,1.031-0.196,1.424-0.59l28.541-28.541l28.541,28.541c0.394,0.394,0.909,0.59,1.424,0.59c0.515,0,1.031-0.196,1.424-0.59   c0.787-0.787,0.787-2.062,0-2.849L35.064,31.786L63.41,3.438c0.787-0.787,0.787-2.062,0-2.849c-0.787-0.786-2.062-0.786-2.848,0   L32.003,29.15L3.441,0.59c-0.787-0.786-2.061-0.786-2.848,0c-0.787,0.787-0.787,2.062,0,2.849L28.941,31.786z">
+																			<path fill="#4e4b4b" d="M28.941,31.786L0.613,60.114c-0.787,0.787-0.787,2.062,0,2.849c0.393,0.394,0.909,0.59,1.424,0.59   c0.516,0,1.031-0.196,1.424-0.59l28.541-28.541l28.541,28.541c0.394,0.394,0.909,0.59,1.424,0.59c0.515,0,1.031-0.196,1.424-0.59   c0.787-0.787,0.787-2.062,0-2.849L35.064,31.786L63.41,3.438c0.787-0.787,0.787-2.062,0-2.849c-0.787-0.786-2.062-0.786-2.848,0   L32.003,29.15L3.441,0.59c-0.787-0.786-2.061-0.786-2.848,0c-0.787,0.787-0.787,2.062,0,2.849L28.941,31.786z">
 																			</path>
 																		</g>
 																	</svg></span>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-1g"
-																		title="1g"><i class="icon_v1 "></i>1g</a></div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-5g"
-																		title="5g"><i class="icon_v1 "></i>5g</a></div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-10g"
-																		title="10g"><i class="icon_v1 "></i>10g</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-1g" title="1g"><i class="icon_v1 "></i>1g</a></div>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-5g" title="5g"><i class="icon_v1 "></i>5g</a></div>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-10g" title="10g"><i class="icon_v1 "></i>10g</a>
 																</div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-20g"
-																		title="20g"><i class="icon_v1 "></i>20g</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-20g" title="20g"><i class="icon_v1 "></i>20g</a>
 																</div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-30g"
-																		title="30g"><i class="icon_v1 "></i>30g</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-30g" title="30g"><i class="icon_v1 "></i>30g</a>
 																</div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-50g"
-																		title="50g"><i class="icon_v1 "></i>50g</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-50g" title="50g"><i class="icon_v1 "></i>50g</a>
 																</div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-100g"
-																		title="100g"><i class="icon_v1 "></i>100g</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-100g" title="100g"><i class="icon_v1 "></i>100g</a>
 																</div>
-																<div class="cls item"><a
-																		href="toyentho.php/loc-dtht-nguyen-con-tay-tang-1kg"
-																		title="1kg"><i class="icon_v1 "></i>1kg</a>
+																<div class="cls item"><a href="toyentho.php/loc-dtht-nguyen-con-tay-tang-1kg" title="1kg"><i class="icon_v1 "></i>1kg</a>
 																</div>
 															</div>
 														</div>
@@ -1754,25 +1391,30 @@
 												</div>
 											</div>
 										</div>
-										<div class="readmore " id="readmore_desc2" style="display: none;"><span
-												class="closed">Xem thêm
-											</span></div>									</div>
+										<div class="readmore " id="readmore_desc2" style="display: none;"><span class="closed">Xem thêm
+											</span></div>
+									</div>
 								</div>
 								<div class="show-filter_current">
-								</div>							</div>						</div>
-						<div class="clear"></div>						<div class="products-cat" id="products-cat">							<div class="container">
-								<article class="cat_summary cls">									<div class="summary_content summary_content_detail">
-										<p style="text-align:justify">Trên thị trường&nbsp;<strong><a
-													href="http://onplaza.vn/to-yen-tho">tổ yến thô</a></strong> nguyên
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<div class="products-cat" id="products-cat">
+							<div class="container">
+								<article class="cat_summary cls">
+									<div class="summary_content summary_content_detail">
+										<p style="text-align:justify">Trên thị trường&nbsp;<strong><a href="http://onplaza.vn/to-yen-tho">tổ yến thô</a></strong> nguyên
 											chất là loại tổ yến vẫn còn lông và chưa qua bất kỳ 1 bước xử lý, sơ chế
 											nào. Yến sào thô có màu trắng ngà, trên tổ vẫn còn dính nguyên lông chim,
 											được thu hoạch ở ngoài đảo hoặc trong nhà nuôi sau đó được đóng hộp và bán
 											ra thị trường. Yến thô rất khó để làm giả, và khi nấu sợi yến thường nở gấp
 											4-5 lần so với các loại yến sơ chế hay yến tinh chế. Tuy nhiên, công đoạn
 											làm sạch tổ yến thô mất nhiều thời gian nên khiến nhiều người rất ngại.</p>
-									</div>								</article>
+									</div>
+								</article>
 								<section class="products-cat-frame">
-									<div class="field_title">										<select class="order-select" name="order-select">
+									<div class="field_title"> <select class="order-select" name="order-select">
 											<option value="">Sắp xếp theo</option>
 											<option value="toyentho.php/sap-xep-ban-chay-nhat">Bán chạy
 												nhất</option>
@@ -1785,64 +1427,66 @@
 											<option value="toyentho.php/sap-xep-moi-nhat">Mới nhất
 											</option>
 											<option value="toyentho.php/sap-xep-xem-nhieu">Xem nhiều
-											</option>										</select>
+											</option>
+										</select>
 										<div class="clear"></div>
 									</div>
-									<div class="product_grid">										<div class="item ">
+									<div class="product_grid">
+										<div class="item ">
 											<div class="frame_inner">
-												<figure class="product_image ">													<a href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/"
-														title="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065">
-														<img class="lazy after-lazy"
-															alt="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065"
-															src="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg"
-															srcset="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg.webp"
-															style="display: inline;"> </a>												</figure>												<div class="name">
-													<h3><a style="color:#FFFFFF"
-															href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/"
-															title="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065"
-															class="name">
+												<figure class="product_image "> <a href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/" title="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065">
+														<img class="lazy after-lazy" alt="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065" src="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/y065-avatar_1680072966.jpg.webp" style="display: inline;"> </a> </figure>
+												<div class="name">
+													<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/" title="Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065" class="name">
 															Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) -
 															Y065 </a> </h3>
-												</div>												<div class="price_arae">
+												</div>
+												<div class="price_arae">
 													<span class="price_current" style="color:#FFE2B8">4.500.000₫</span>
 													<span class="price_old" style="color:#FFE2B8">
 														<span class="item_old">5.850.000₫ </span>
 													</span>
-												</div>												<div class="buy_nows">
-													<a href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/"
-														title="Mua sản phẩm Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065">
+												</div>
+												<div class="buy_nows">
+													<a href="https://onplaza.vn/yen-trang-tho-nha-trang-hop-100g-y065/" title="Mua sản phẩm Yến trắng thô thượng hạng Nhà yến Nha Trang (100g/hộp) - Y065">
 														Mua sản phẩm
 													</a>
 												</div>
-											</div> <!-- end .frame_inner -->										</div>
+											</div> <!-- end .frame_inner -->
+										</div>
 										<div class="clear"></div>
-									</div><!--end: .vertical-->								</section>
+									</div><!--end: .vertical-->
+								</section>
 							</div>
-						</div>						<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
 						<div class="description_start bg_white" style="background-color:#39231A">
 							<div class="container">
 								<div class="cat_description description cls" id="box_conten_linfo">
-									<h2 style="text-align:justify">Tổ yến thô là gì? Ưu - nhược điểm</h2>									<p style="text-align:justify">Tổ yến thô được xem là loại <strong><a
-												href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html">tổ
+									<h2 style="text-align:justify">Tổ yến thô là gì? Ưu - nhược điểm</h2>
+									<p style="text-align:justify">Tổ yến thô được xem là loại <strong><a href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html">tổ
 												yến</a></strong> nguyên chất nhất bởi vì chưa qua bất kì một cộng đoạn
 										xử lý nào. Trên tổ yến thô vẫn còn dính các tạp chất như lông chim, sạn đá hoặc
 										mùn gỗ ở bên trong. Khi mua tổ yến thô về dùng, cần phải lấy sạch lông chim và
 										các tạp chất có&nbsp;lẫn trong các sợi yến rồi mới có thể đem đi chế biến thành
 										món ăn khác nhau.&nbsp;Khi mua tổ yến thô&nbsp;cần phải làm sạch lông và các tạp
-										chất trước khi đem đi chế biến chưng đường phèn hoặc nấu cháo, súp....</p>									<div style="text-align:center">
-										<figure class="image" style="display:inline-block"><img class="lazy2"
-												alt="Tổ yến thô" src="/upload_images/images/yen-sao/to-yen-tho.jpg">
+										chất trước khi đem đi chế biến chưng đường phèn hoặc nấu cháo, súp....</p>
+									<div style="text-align:center">
+										<figure class="image" style="display:inline-block"><img class="lazy2" alt="Tổ yến thô" src="/upload_images/images/yen-sao/to-yen-tho.jpg">
 											<figcaption><em>Tổ yến thô có màu trắng ngà, vẫn còn nguyên lông chim lẫn
 													trong các sợi yến</em></figcaption>
 										</figure>
-									</div>									<p style="text-align:justify">Yến thô&nbsp;là loại khó bị làm giả nhất, vẫn còn giữ
+									</div>
+									<p style="text-align:justify">Yến thô&nbsp;là loại khó bị làm giả nhất, vẫn còn giữ
 										nguyên chất giá trị dinh dưỡng, khi chưng&nbsp;yến nở gấp 4 - 5 lần so với các
 										loại khác, sợi yến giai, giòn&nbsp;nhưng tuy nhiên quá trình làm sạch lông yến
 										cần sự tỉ mỉ, mất nhiều thời gian nên sẽ bất tiện với người bận rộn. Nếu không
 										có thời gian, nên mua loại <strong><a href="https://onplaza.vn/yen-so-che">yến
 												sơ chế</a></strong>&nbsp;đã được làm sạch thủ công đến 90% các tạp chất,
-										khi dùng chỉ cần ngâm 20 - 30 phút cho sợi yến nở là có thể sử dụng để nấu.</p>									<p style="text-align:justify"><strong>➤ Ưu điểm của yến thô nguyên tổ&nbsp;</strong>
-									</p>									<ul>
+										khi dùng chỉ cần ngâm 20 - 30 phút cho sợi yến nở là có thể sử dụng để nấu.</p>
+									<p style="text-align:justify"><strong>➤ Ưu điểm của yến thô nguyên tổ&nbsp;</strong>
+									</p>
+									<ul>
 										<li style="text-align:justify">Nguyên chất 100%, chưa qua ngâm nước, xử lý</li>
 										<li style="text-align:justify">Tổ yến thô có mùi thơm đặc trưng của chim
 											yến&nbsp;</li>
@@ -1850,29 +1494,35 @@
 										</li>
 										<li style="text-align:justify">Yến thô rất khó làm giả nên khi mua không lo mua
 											phải tổ yến kém chất lượng</li>
-									</ul>									<p style="text-align:justify"><strong>➤ Nhược điểm</strong></p>									<ul>
+									</ul>
+									<p style="text-align:justify"><strong>➤ Nhược điểm</strong></p>
+									<ul>
 										<li style="text-align:justify">Vì nguyên chất chưa qua sơ chế nên tổ yến thô còn
 											nhiều lông, mất nhiều thời&nbsp;gian để làm sạch</li>
 										<li style="text-align:justify">Các công đoạn trong việc làm sạch tổ yến thô đòi
 											hỏi phải thật cẩn thận và tỉ mỉ khiến nhiều người e ngại, đặc biệt với những
 											người không có thời gian.</li>
-									</ul>									<h2 style="text-align:justify">Giá tổ yến thô trên thị trường</h2>									<p style="text-align:justify">Giá của tổ yến thô bao nhiêu? Giá của tổ yến thô dao
+									</ul>
+									<h2 style="text-align:justify">Giá tổ yến thô trên thị trường</h2>
+									<p style="text-align:justify">Giá của tổ yến thô bao nhiêu? Giá của tổ yến thô dao
 										động từ <strong>2.5 triệu đến 3.5 triệu 1 lạng&nbsp;(100gr)</strong> với yến
 										nuôi, yến đảo giá dao động từ 3 – 6 triệu/ lạng. Ngoài ra, thị trường cũng có
 										nhiều loại tổ yến thô giá rẻ, giá dao động từ khoảng 1.5 – 2 triệu 1 lạng. Hiện
 										có rất nhiều tổ yến thô độn hóa chất tăng trọng lượng, chất tẩy trắng... Vì vậy
-										cần thận trọng khi lựa chọn cơ sở, địa chỉ mua.</p>									<p style="text-align:justify">Yến thô nguyên tổ có nhiều mức giác khác nhau, phụ
+										cần thận trọng khi lựa chọn cơ sở, địa chỉ mua.</p>
+									<p style="text-align:justify">Yến thô nguyên tổ có nhiều mức giác khác nhau, phụ
 										thuộc vào kích thước, hình dáng, màu sắc, chất lượng của tổ yến. Một số thương
 										hiệu lớn&nbsp;có tổ yến thô nguyên chất chất lượng cao, được đánh giá tốt, giá
 										cũng cao hơn như: Yến sào Khánh Hòa, Yến sào Quy Nhơn, Yến sào Bình Định, Yến
-										sào Cần Giờ....&nbsp;</p>									<p style="text-align:center"><img class="lazy2"
-											alt="Giá tổ yến thô nguyên chất trên thị trường"
-											src="/upload_images/images/yen-sao/gia-to-yen-tho.jpg"></p>									<p style="text-align:justify">Dưới đây là bảng giá tổ yến thô còn nguyên
+										sào Cần Giờ....&nbsp;</p>
+									<p style="text-align:center"><img class="lazy2" alt="Giá tổ yến thô nguyên chất trên thị trường" src="/upload_images/images/yen-sao/gia-to-yen-tho.jpg"></p>
+									<p style="text-align:justify">Dưới đây là bảng giá tổ yến thô còn nguyên
 										lông&nbsp;trên thị trường được chúng tôi tổng hợp lại. Quý vị có thể tham khảo
-										bảng giá này làm tiền đề để lựa chọn loại tổ yến thô chất lượng phù hợp.</p>									<p style="text-align:justify">*** <em><u><strong>Lưu ý</strong></u></em>: Đây là
+										bảng giá này làm tiền đề để lựa chọn loại tổ yến thô chất lượng phù hợp.</p>
+									<p style="text-align:justify">*** <em><u><strong>Lưu ý</strong></u></em>: Đây là
 										bảng giá tổ yến thô tham khảo, giá có thể thay đổi cao hơn hoặc thấp hơn tùy vào
-										từng thời điểm trên thị trường.&nbsp;</p>									<table align="center" border="1" cellpadding="1" cellspacing="1"
-										style="width:800px">
+										từng thời điểm trên thị trường.&nbsp;</p>
+									<table align="center" border="1" cellpadding="1" cellspacing="1" style="width:800px">
 										<caption><strong>Bảng giá tổ yến thô nguyên chất trên thị trường</strong>
 										</caption>
 										<tbody>
@@ -1912,60 +1562,75 @@
 												<td>3,850,000</td>
 											</tr>
 										</tbody>
-									</table>									<p style="text-align:justify">&nbsp;</p>									<p style="text-align:justify"><strong>Giá tổ yến thô còn lông được bán tại
+									</table>
+									<p style="text-align:justify">&nbsp;</p>
+									<p style="text-align:justify"><strong>Giá tổ yến thô còn lông được bán tại
 											Onplaza</strong> dao động trong khoảng <strong>từ 2.700.000 -
-											7.500.000/100gr</strong>, đây là thương hiệu&nbsp;<strong><a
-												href="yensaokhanhhoa.php">Yến sào Khánh
+											7.500.000/100gr</strong>, đây là thương hiệu&nbsp;<strong><a href="yensaokhanhhoa.php">Yến sào Khánh
 												Hòa</a></strong> được khai thác ở ngoài đảo tự nhiên. Tổ yến Khánh Hòa
 										được hình thành một cách tự nhiên, không có bất kì một tác đông nào từ con
 										người, chim yến làm tổ ở các vách đá trên đảo, sau khi hết mùa sinh sản thì tổ
-										yến mới được thu hoạch để sử dụng.</p>									<div style="text-align:center">
-										<figure class="image" style="display:inline-block"><img class="lazy2"
-												alt="Hộp Yến sào Khánh Hòa"
-												src="/upload_images/images/yen-sao/yen-sao-khanh-hoa.jpg">
+										yến mới được thu hoạch để sử dụng.</p>
+									<div style="text-align:center">
+										<figure class="image" style="display:inline-block"><img class="lazy2" alt="Hộp Yến sào Khánh Hòa" src="/upload_images/images/yen-sao/yen-sao-khanh-hoa.jpg">
 											<figcaption><em>Yến sào Khánh Hòa - Loại yến đảo thiên nhiên</em>
 											</figcaption>
 										</figure>
-									</div>									<h3 style="text-align:justify"><strong>Các yếu tố ảnh hưởng đến giá của tổ yến
-											thô</strong></h3>									<p style="text-align:justify"><strong>➤ Thương hiệu&nbsp;</strong></p>									<p style="text-align:justify">Tại Việt Nam có 1 vài thương hiệu khai thác yến đảo
+									</div>
+									<h3 style="text-align:justify"><strong>Các yếu tố ảnh hưởng đến giá của tổ yến
+											thô</strong></h3>
+									<p style="text-align:justify"><strong>➤ Thương hiệu&nbsp;</strong></p>
+									<p style="text-align:justify">Tại Việt Nam có 1 vài thương hiệu khai thác yến đảo
 										thiên nhiên lớn như yến sào Khánh Hòa và 1 số đơn vị yến nuôi nổi tiếng: yến sào
-										Cần Giờ, Yến nhà Khánh Hòa, Yến sào Phú Yên...</p>									<p style="text-align:justify">Các thương hiệu lớn được đầu tư kỹ thuật bài bản, quy
+										Cần Giờ, Yến nhà Khánh Hòa, Yến sào Phú Yên...</p>
+									<p style="text-align:justify">Các thương hiệu lớn được đầu tư kỹ thuật bài bản, quy
 										trình khai thác, làm nhà yến đảm bảo quy trình. Từ đó chất lượng tổ yến thô đảm
 										bảo chất lượng, tổ yến ăn không tanh, không hôi, sợi yến giai dòn, không chứa
 										hóa chất.&nbsp;Khâu đóng gói, sơ chế tổ yến thô được đảm bảo nghiêm ngặt. Do đó
 										hộp bao bì đẹp, sang trọng, có thương hiệu, uy tín trên thị trường, giá thành
-										cũng cao hơn.&nbsp;</p>									<p style="text-align:justify"><strong>➤ Chất lượng tổ yến thô&nbsp;</strong></p>									<p style="text-align:justify">Tổ yến thô chất lượng càng tốt, giá thành càng cao. Để
+										cũng cao hơn.&nbsp;</p>
+									<p style="text-align:justify"><strong>➤ Chất lượng tổ yến thô&nbsp;</strong></p>
+									<p style="text-align:justify">Tổ yến thô chất lượng càng tốt, giá thành càng cao. Để
 										có tổ yến chất lượng đảm bảo phải đầu tư rất lớn: Quy trình kỹ thuật, nhân công,
 										nhà máy, máy móc, phương tiện... Nên chỉ những thương hiệu yến lớn mới đủ tiềm
 										lực đầu tư.&nbsp;Các tổ yến thô chất lượng cao, thành phần dưỡng chất đảm bảo,
 										hương vị thơm ngon. Công năng, tác dụng tốt hơn so với các tổ yến thô chất lượng
-										kém.</p>									<p style="text-align:justify">&nbsp;<strong>➤ Nguồn gốc &nbsp;&nbsp; &nbsp;</strong>
-									</p>									<p style="text-align:justify">Tổ yến thô khai thác từ đảo tự nhiên: Tổ yến sạch
+										kém.</p>
+									<p style="text-align:justify">&nbsp;<strong>➤ Nguồn gốc &nbsp;&nbsp; &nbsp;</strong>
+									</p>
+									<p style="text-align:justify">Tổ yến thô khai thác từ đảo tự nhiên: Tổ yến sạch
 										100%, khai thác hoàn toàn từ tự nhiên, hương vị thơm ngon, đảm bảo chất lượng.
-										Loại tổ yến này số lượng rất ít, khan hiên nên giá cao hơn.&nbsp;</p>									<p style="text-align:justify">Tổ yến thô nuôi: Nuôi theo đúng quy trình, đảm bảo kỹ
+										Loại tổ yến này số lượng rất ít, khan hiên nên giá cao hơn.&nbsp;</p>
+									<p style="text-align:justify">Tổ yến thô nuôi: Nuôi theo đúng quy trình, đảm bảo kỹ
 										thuật thì tổ yến thô vẫn được ghi nhận chất &nbsp;lượng tốt, giá thành đảm
-										bảo.&nbsp;</p>									<p style="text-align:justify">Tổ yến thô từ yến nhà nuôi độn hóa chất, phẩm màu: Giá
+										bảo.&nbsp;</p>
+									<p style="text-align:justify">Tổ yến thô từ yến nhà nuôi độn hóa chất, phẩm màu: Giá
 										rẻ, tanh, hôi hoặc không có hương vị, đóng gói sơ sài, mua tại các cơ sở không
-										uy tín.&nbsp;</p>									<p style="text-align:justify"><strong>➤ Nhà phân phối, chính sách bảo hành</strong>
-									</p>									<p style="text-align:justify">Nhà phân phối bán đúng giá niêm yết với đơn vị sản
+										uy tín.&nbsp;</p>
+									<p style="text-align:justify"><strong>➤ Nhà phân phối, chính sách bảo hành</strong>
+									</p>
+									<p style="text-align:justify">Nhà phân phối bán đúng giá niêm yết với đơn vị sản
 										xuất. Các nhà phân phối uy tín luôn xây dựng chính sách bán hàng, bảo hành uy
 										tín, chuyên nghiệp. Chất lượng tổ yến đảm bảo, được nhập từ các thương hiệu lớn,
-										uy tín trên thị trường.&nbsp;</p>									<h2 style="text-align:justify">Dùng tổ yến thô có tốt không?</h2>									<p style="text-align:justify">Ngay từ thời xa xưa, yến sào đã được coi như món ăn
+										uy tín trên thị trường.&nbsp;</p>
+									<h2 style="text-align:justify">Dùng tổ yến thô có tốt không?</h2>
+									<p style="text-align:justify">Ngay từ thời xa xưa, yến sào đã được coi như món ăn
 										“cao lương mĩ vị”, thường được sử dụng để tẩm bổ vua chúa, quý tộc hoặc sử dụng
 										nguyên liệu nấu ăn trong các bữa tiệc quan trọng của cung đình. Ẩm thực Việt Nam
 										xưa coi yến sào là một trong 8 món ăn bát trân gắn liền với các buổi tiệc hậu
-										đãi xa xỉ của bậc vua chúa.</p>									<p style="text-align:justify">Điển tích xưa tương truyền rằng, Hoàng đế Tần Thủy
+										đãi xa xỉ của bậc vua chúa.</p>
+									<p style="text-align:justify">Điển tích xưa tương truyền rằng, Hoàng đế Tần Thủy
 										Hoàng (Trung Hoa) và Vua Minh Mạng (Việt Nam) tin rằng, yến sào chính là thứ
-										thuốc dùng để cải lão hoàn đồng nên dùng để ăn thay cơm hàng ngày.</p>									<p style="text-align:justify">Theo khoa học chứng minh, trong <strong><a
-												href="https://onplaza.vn/tin-tuc-yen/gia-tri-dinh-duong-cua-to-yen-n410.html">thành
-												phần của tổ yến</a></strong> có chứa khoảng từ 45-55 % lượng <a
-											href="https://vi.wikipedia.org/wiki/Protein">protein</a>, ngoài ra còn có 18
-										loại axit amin, các <a
-											href="https://vi.wikipedia.org/wiki/Amino_acid_thi%E1%BA%BFt_y%E1%BA%BFu">acid
+										thuốc dùng để cải lão hoàn đồng nên dùng để ăn thay cơm hàng ngày.</p>
+									<p style="text-align:justify">Theo khoa học chứng minh, trong <strong><a href="https://onplaza.vn/tin-tuc-yen/gia-tri-dinh-duong-cua-to-yen-n410.html">thành
+												phần của tổ yến</a></strong> có chứa khoảng từ 45-55 % lượng <a href="https://vi.wikipedia.org/wiki/Protein">protein</a>, ngoài ra còn có 18
+										loại axit amin, các <a href="https://vi.wikipedia.org/wiki/Amino_acid_thi%E1%BA%BFt_y%E1%BA%BFu">acid
 											amin N-EAA</a>, cùng 31 nguyên tố vi lượng khác,.... Đây đều là những chất
 										dinh dưỡng thiết yếu cho cơ thể con người, trong đó có một số loại mà cơ thể
-										không tự tổng hợp được.</p>									<p style="text-align:justify">Nhờ vào những dưỡng chất phong phú, đa dạng nên tổ yến
-										thô có nhiều tác dụng tốt với sức khỏe như:</p>									<ul>
+										không tự tổng hợp được.</p>
+									<p style="text-align:justify">Nhờ vào những dưỡng chất phong phú, đa dạng nên tổ yến
+										thô có nhiều tác dụng tốt với sức khỏe như:</p>
+									<ul>
 										<li style="text-align:justify">Giúp tăng cường trí nhớ, ổn định thần kinh, tác
 											dụng an thần, tốt cho giấc ngủ.</li>
 										<li style="text-align:justify">Kích thích hệ tiêu hóa tốt hơn, từ đó giúp ăn
@@ -1981,16 +1646,22 @@
 										</li>
 										<li style="text-align:justify">Ăn yến sào có tác dụng bổ phế, long đờm, bảo vệ
 											hệ hô hấp</li>
-									</ul>									<h2 style="text-align:justify">Phân&nbsp;biết tổ yến thô và các loại yến khác</h2>									<p style="text-align:justify"><strong>➤ Cách phân biệt tổ yến thô nguyên tổ loại I
-											và loại II&nbsp;</strong></p>									<p style="text-align:justify"><u>Loại I</u>: Đều còn lông, tổ yến nguyên chất chưa
+									</ul>
+									<h2 style="text-align:justify">Phân&nbsp;biết tổ yến thô và các loại yến khác</h2>
+									<p style="text-align:justify"><strong>➤ Cách phân biệt tổ yến thô nguyên tổ loại I
+											và loại II&nbsp;</strong></p>
+									<p style="text-align:justify"><u>Loại I</u>: Đều còn lông, tổ yến nguyên chất chưa
 										qua sơ chế, ngâm nước nhưng tổ yến thô loại I có kích thước - khối lượng tổ to,
 										hàng chọn lọc, dày tổ, sợi yến rõ ràng, ngâm thấy nở, khi ăn fai và gòn. Độ nở
-										gấp nhiều lần yến thô II.</p>									<p style="text-align:justify"><u>Loại II</u>: Còn nguyên lông, nguyên chất, chưa qua
+										gấp nhiều lần yến thô II.</p>
+									<p style="text-align:justify"><u>Loại II</u>: Còn nguyên lông, nguyên chất, chưa qua
 										ngâm nước nhưng kích thước -&nbsp;khối lượng tổ&nbsp;nhỏ hơn, tai yến bé, mỏng,
 										sợi yến không rõ ràng. Tùy vào từng tiêu chuẩn mỗi nơi mà tổ yến thô
 										nguyên&nbsp;loại II còn nguyên vẹn hay bị mất chân, mất sợi trong quá trình khai
-										thác.&nbsp;</p>									<p style="text-align:justify"><strong>➤ Cách nhận biết tổ yến thô tiêu
-											chuẩn</strong></p>									<ul>
+										thác.&nbsp;</p>
+									<p style="text-align:justify"><strong>➤ Cách nhận biết tổ yến thô tiêu
+											chuẩn</strong></p>
+									<ul>
 										<li style="text-align:justify">Tổ yến còn lông, nguyên hình dáng tổ yến khai
 											thác được, chưa qua xử lý, ngâm nước.</li>
 										<li style="text-align:justify">Tổ yến nguyên chất, khô đanh, sờ thấy rõ từng sợi
@@ -1999,9 +1670,12 @@
 											mất thời gian ngâm lâu mới nở. Khi nấu sợi yến nở rất to, nhiều hơn.</li>
 										<li style="text-align:justify">Màu sắc trắng đục đến trắng vàng, ít loại tổ yến
 											thô nào có màu trắng tinh.</li>
-									</ul>									<p style="text-align:justify"><strong>➤ Nhận biết tổ yến thô với tổ yến tinh chế, sơ
-											chế</strong></p>									<p style="text-align:justify">Để nhận biết yến thô với các loại yến sơ chế, yến tinh
-										chế ngườ ta thường&nbsp;dựa vào mức độ sạch lông trên tổ để phân biệt.</p>									<ul>
+									</ul>
+									<p style="text-align:justify"><strong>➤ Nhận biết tổ yến thô với tổ yến tinh chế, sơ
+											chế</strong></p>
+									<p style="text-align:justify">Để nhận biết yến thô với các loại yến sơ chế, yến tinh
+										chế ngườ ta thường&nbsp;dựa vào mức độ sạch lông trên tổ để phân biệt.</p>
+									<ul>
 										<li style="text-align:justify">Yến thô: sợi yến khít, cả bên trong lẫn bên ngoài
 											tổ đều có nhiều sợi lông chim bị lẫn vào. Tổ có màu trắng ngà. Khi ngửi có
 											mùi thơm đặc trưng.</li>
@@ -2011,22 +1685,28 @@
 										<li style="text-align:justify">Yến tinh chế: sợi yến thô sần sùi, tổ yến sạch
 											màu trắng tinh, không lẫn tạp chất. Là loại tổ yến gãy, vỡ&nbsp;được ép
 											khuôn giống hình dáng tổ tự nhiên.</li>
-									</ul>									<p style="text-align:center"><img class="lazy2" alt="So sánh các loại tổ yến"
-											src="/upload_images/images/yen-sao/so-sanh-cac-loai-to-yen.jpg"></p>									<h2 style="text-align:justify">Tổ yến thô để được bao lâu? Cách bảo quản</h2>									<p style="text-align:justify">Yến thô nguyên tổ nếu vẫn ở trong môi trường tự nhiên
+									</ul>
+									<p style="text-align:center"><img class="lazy2" alt="So sánh các loại tổ yến" src="/upload_images/images/yen-sao/so-sanh-cac-loai-to-yen.jpg"></p>
+									<h2 style="text-align:justify">Tổ yến thô để được bao lâu? Cách bảo quản</h2>
+									<p style="text-align:justify">Yến thô nguyên tổ nếu vẫn ở trong môi trường tự nhiên
 										(vẫn được gắn trên các vách đá) thì có thể&nbsp;để&nbsp;thời gian là vô hạn
 										không lo bị hỏng, thâm chí càng để lâu sợi yến sẽ càng giai và ngon hơn. Tuy
 										nhiên nếu đã khai thác tổ yến xuống và chưa qua xử lý làm sạch lông
 										thì&nbsp;dùng&nbsp;được trong vòng từ 2- 3 năm và cần phải bảo quản đúng cách.
-									</p>									<ul>
+									</p>
+									<ul>
 										<li style="text-align:justify">Cần để tổ yến thô ở trong hộp kín hoặc cho tổ yến
 											vào túi nilong hút chân không.</li>
 										<li style="text-align:justify">Đặt các hộp tổ yến ở nơi thoáng mát, khô ráo</li>
 										<li style="text-align:justify">Không để tổ yến thô ở nơi kín, quá nóng sẽ tạo
 											điều kiện cho nấm mốc phát triển làm hư hỏng tổ yến.</li>
-									</ul>									<h2 style="text-align:justify">Cách làm sạch lông tổ yến thô</h2>									<p style="text-align:justify">Để <strong><a
-												href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html">làm
+									</ul>
+									<h2 style="text-align:justify">Cách làm sạch lông tổ yến thô</h2>
+									<p style="text-align:justify">Để <strong><a href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html">làm
 												sạch tổ yến thô</a></strong> cần chuẩn bị các dụng cụ và làm theo các
-										bước hướng dẫn dưới đây:</p>									<p style="text-align:justify">Chuẩn bị:&nbsp;</p>									<ul>
+										bước hướng dẫn dưới đây:</p>
+									<p style="text-align:justify">Chuẩn bị:&nbsp;</p>
+									<ul>
 										<li style="text-align:justify">bát tô, thau, chậu nhỏ&nbsp;</li>
 										<li style="text-align:justify">Rây lọc đường kính 20 cm, chọn loại rây có cỡ
 											vừa&nbsp;</li>
@@ -2034,14 +1714,15 @@
 										<li style="text-align:justify">1 đĩa màu trắng đựng tổ yến sau khi nhặt sạch
 											lông&nbsp;</li>
 										<li style="text-align:justify">1 bát nước sạch</li>
-									</ul>									<div style="text-align:center">
-										<figure class="image" style="display:inline-block"><img class="lazy2"
-												alt="Cách làm tổ yến còn lông"
-												src="/upload_images/images/yen-sao/Tin-tuc-yen/lam-sach-to-yen-con-long.jpg">
+									</ul>
+									<div style="text-align:center">
+										<figure class="image" style="display:inline-block"><img class="lazy2" alt="Cách làm tổ yến còn lông" src="/upload_images/images/yen-sao/Tin-tuc-yen/lam-sach-to-yen-con-long.jpg">
 											<figcaption><em>Làm sạch lông trên tổ yến bằng phương pháp thủ công</em>
 											</figcaption>
 										</figure>
-									</div>									<p style="text-align:justify">Các bước làm sạch tổ yến thô:</p>									<ul>
+									</div>
+									<p style="text-align:justify">Các bước làm sạch tổ yến thô:</p>
+									<ul>
 										<li style="text-align:justify">Bước 1: Dùng bàn chải đánh rang chà nhẹ
 											nhangfleen tổ yến, giúp làm sạch các bụi bẩn bám bên ngoài bề mặt tổ
 											yến.&nbsp;</li>
@@ -2055,31 +1736,36 @@
 											lại như đãi gạo. Cho yến đã làm sạch ra đĩa, dùng ngón tay để đãi từng nhúm
 											yến nhỏ, tạo thành lớp mỏng rồi dùng nhíp chuyên dụng để nhặt sợi lông còn
 											sót lại.</li>
-									</ul>									<h2 style="text-align:justify">Địa chỉ mua tổ yến thô chuẩn</h2>									<p style="text-align:justify">Hiện nay có rất nhiều địa chỉ bán tổ yến thô còn
+									</ul>
+									<h2 style="text-align:justify">Địa chỉ mua tổ yến thô chuẩn</h2>
+									<p style="text-align:justify">Hiện nay có rất nhiều địa chỉ bán tổ yến thô còn
 										nguyên lông với các mức giá khác nhau. Tùy vào số lượng tổ yến, chất lượng tổ
 										yến, nguồn gốc khai thác, hình thức, mẫu mã. Tổ yến thô vẫn là sản phẩm dinh
 										dưỡng có giá trị cao, được khuyên lựa chọn sử dụng thay vì các sản phẩm yến chế
-										biến sẵn, tinh chế.</p>									<p style="text-align:justify">Để mua được tổ yến thô chính hãng, không độn hóa chất,
+										biến sẵn, tinh chế.</p>
+									<p style="text-align:justify">Để mua được tổ yến thô chính hãng, không độn hóa chất,
 										đảm bảo chất lượng nên tìm đến địa chỉ uy tín, phân phối từ các thương hiệu yến
 										lớn trên thị trường. Đầy đủ chính sách bán hàng, các cam kết, bảo hành, hướng
-										dẫn sử dụng.&nbsp;</p>									<div style="text-align:center">
-										<figure class="image" style="display:inline-block"><img class="lazy2"
-												alt="Cửa hàng Yến sào Khành Hòa"
-												src="/upload_images/images/yen-sao/cua-hang-yen-sao-khanh-hoa.jpg">
+										dẫn sử dụng.&nbsp;</p>
+									<div style="text-align:center">
+										<figure class="image" style="display:inline-block"><img class="lazy2" alt="Cửa hàng Yến sào Khành Hòa" src="/upload_images/images/yen-sao/cua-hang-yen-sao-khanh-hoa.jpg">
 											<figcaption><em><strong><a href="https://onplaza.vn/">Công ty TNHH On Plaza
 															Việt Pháp</a> – Tổng đại lí phân phối Yến Sào&nbsp;lớn nhất
 														miền Bắc&nbsp;</strong></em></figcaption>
 										</figure>
-									</div>									<p style="text-align:justify"><strong><em>✔️</em></strong>&nbsp;&nbsp; &nbsp;Cam kết
+									</div>
+									<p style="text-align:justify"><strong><em>✔️</em></strong>&nbsp;&nbsp; &nbsp;Cam kết
 										hàng chính hãng, có đầy đủ giấy chứng nhận sản phẩm&nbsp;<br>
 										<strong><em>✔️</em></strong>&nbsp;&nbsp; &nbsp;Đại lí phân phối 15 năm uy tín
 										trên thị trường&nbsp;<br>
 										<strong><em>✔️</em></strong>&nbsp;&nbsp; &nbsp;80% khách dùng yến miền Bắc là
 										khách quen của cửa hàng&nbsp;
-									</p>									<p style="text-align:justify"><strong>On Plaza Việt Pháp</strong> là tổng đại lý
+									</p>
+									<p style="text-align:justify"><strong>On Plaza Việt Pháp</strong> là tổng đại lý
 										phân phối yến rất lớn tịa miền bắc. 3 thương hiệu On plaza lựa chọn phân phối
 										độc quyền là: yến đảo tự nhiên KHánh Hòa, Yến nhà Khánh Hòa và Yến sào Cần Giờ.
-										Đây là 3 thương hiệu yến lớn nhất cả nước, chất lượng cao, sản phẩm uy tín.</p>									<ol>
+										Đây là 3 thương hiệu yến lớn nhất cả nước, chất lượng cao, sản phẩm uy tín.</p>
+									<ol>
 										<li style="text-align:justify">Cơ sở 1: Số 76 Hai Bà Trưng, Q.Hoàn Kiếm, Hà
 											Nội<br>
 											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Hotline:
@@ -2094,72 +1780,51 @@
 											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Hotline:
 											0283.50.60.888 – 02862.838.999 – 09.68.60.61.69&nbsp;</li>
 									</ol>
-								</div>								<!-- <div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
+								</div> <!-- <div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
 		</span></div> -->
-							</div>						</div>						<div id="prodetails_tab50" class="prodetails_tab bg_white" style="background-color:#220A00">
+							</div>
+						</div>
+						<div id="prodetails_tab50" class="prodetails_tab bg_white" style="background-color:#220A00">
 							<div class="container">
 								<div class="tab-title cls">
 									<div class="cat-title-main" id="characteristic-label">
 										<span>Thông tin hữu ích</span>
 									</div>
 								</div>
-								<div class="default_news_inner news_related_vertical">									<div class="item-related cls">
-										<a class="img_a" target="_blank"
-											href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html"
-											title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
-											<img class="lazy after-lazy"
-												alt="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất"
-												src="https://onplaza.vn/images/news/2020/12/07/resized/nhat-long-to-yen-tho_1607327033.jpg"
-												style="display: inline;">
-										</a>										<div class="title-item-related"><a
-												href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html"
-												title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất"
-												target="_blank">5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất</a>
+								<div class="default_news_inner news_related_vertical">
+									<div class="item-related cls">
+										<a class="img_a" target="_blank" href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html" title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất">
+											<img class="lazy after-lazy" alt="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất" src="https://onplaza.vn/images/news/2020/12/07/resized/nhat-long-to-yen-tho_1607327033.jpg" style="display: inline;">
+										</a>
+										<div class="title-item-related"><a href="https://onplaza.vn/tin-tuc-yen/cach-lam-sach-to-yen-n56.html" title="5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất" target="_blank">5 bước làm sạch lông tổ yến thô tại nhà nhanh nhất</a>
 										</div>
-									</div>									<div class="item-related cls">
-										<a class="img_a" target="_blank"
-											href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html"
-											title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
-											<img class="lazy after-lazy"
-												alt="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu"
-												src="https://onplaza.vn/images/news/2020/12/07/resized/06_1607326910.jpg"
-												style="display: inline;">
-										</a>										<div class="title-item-related"><a
-												href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html"
-												title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu"
-												target="_blank">Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà
+									</div>
+									<div class="item-related cls">
+										<a class="img_a" target="_blank" href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html" title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu">
+											<img class="lazy after-lazy" alt="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu" src="https://onplaza.vn/images/news/2020/12/07/resized/06_1607326910.jpg" style="display: inline;">
+										</a>
+										<div class="title-item-related"><a href="https://onplaza.vn/tin-tuc-yen/cach-nau-to-yen-n55.html" title="Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà bầu" target="_blank">Cách nấu tổ yến ngon - dinh dưỡng nhất cho trẻ và bà
 												bầu</a></div>
-									</div>									<div class="item-related cls">
-										<a class="img_a" target="_blank"
-											href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html"
-											title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
-											<img class="lazy after-lazy"
-												alt="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ"
-												src="https://onplaza.vn/images/news/2021/09/22/resized/cach-chung-to-yen_1632299512.jpg"
-												style="display: inline;">
-										</a>										<div class="title-item-related"><a
-												href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html"
-												title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ"
-												target="_blank">Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo
+									</div>
+									<div class="item-related cls">
+										<a class="img_a" target="_blank" href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html" title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ">
+											<img class="lazy after-lazy" alt="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ" src="https://onplaza.vn/images/news/2021/09/22/resized/cach-chung-to-yen_1632299512.jpg" style="display: inline;">
+										</a>
+										<div class="title-item-related"><a href="https://onplaza.vn/tin-tuc-yen/cach-chung-to-yen-n54.html" title="Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo đỏ" target="_blank">Cách chưng tổ yến sào ngon với đường phèn, hạt sen, táo
 												đỏ</a></div>
-									</div>									<div class="item-related cls">
-										<a class="img_a" target="_blank"
-											href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html"
-											title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
-											<img class="lazy after-lazy"
-												alt="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng"
-												src="https://onplaza.vn/images/news/2020/12/07/resized/1959976383_1683553997_1607326001.jpg"
-												style="display: inline;">
-										</a>										<div class="title-item-related"><a
-												href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html"
-												title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng"
-												target="_blank">Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào
+									</div>
+									<div class="item-related cls">
+										<a class="img_a" target="_blank" href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html" title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng">
+											<img class="lazy after-lazy" alt="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng" src="https://onplaza.vn/images/news/2020/12/07/resized/1959976383_1683553997_1607326001.jpg" style="display: inline;">
+										</a>
+										<div class="title-item-related"><a href="https://onplaza.vn/tin-tuc-yen/to-yen-sao-n53.html" title="Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào trước khi dùng" target="_blank">Yến sào (tổ yến) là gì? Thông tin cần biết về tổ yến sào
 												trước khi dùng</a></div>
 									</div>
 									<div class="clear"></div>
 								</div>
 							</div>
-						</div>						<script type="text/javascript">
+						</div>
+						<script type="text/javascript">
 							var cr_layout_type = 'viewList';
 							var cr_items = ["337"];
 						</script>
@@ -2168,54 +1833,89 @@
 								background-color: #220A005c;
 								text-align: left;
 								padding-bottom: 0px;
-							}							.products-cat-frame-inner .cat-title h1 {
+							}
+
+							.products-cat-frame-inner .cat-title h1 {
 								color: #FFB26F;
-							}							.products-cat-frame-inner .summary_content {
+							}
+
+							.products-cat-frame-inner .summary_content {
 								color: #;
 								padding-top: 0px;
-							}							.products-cat-frame-inner {}							#products-cat {
+							}
+
+							.products-cat-frame-inner {}
+
+							#products-cat {
 								background-color: #220A00;
-							}							.product_ajj .products_home_slideshow {
+							}
+
+							.product_ajj .products_home_slideshow {
 								display: flex;
 								flex-wrap: wrap;
-								margin: 0px -10px;							}							.products-cat-frame .product_grid .item {
+								margin: 0px -10px;
+							}
+
+							.products-cat-frame .product_grid .item {
 								width: calc(calc(100% / 3) - 20px);
 								margin: 0px 10px 30px;
-							}							@media screen and (max-width:900px) {
+							}
+
+							@media screen and (max-width:900px) {
 								.products-cat-frame .product_grid .item {
 									width: calc(calc(100% / 3) - 20px);
 									margin: 0px 10px 20px;
 									padding: 0px;
 								}
-							}							@media screen and (max-width:650px) {
+							}
+
+							@media screen and (max-width:650px) {
 								.products-cat-frame .product_grid .item {
 									width: calc(calc(100% / 2) - 10px);
 									margin: 0px 5px 20px;
 									padding: 0px;
 								}
-							}							/* .products-cat-frame .product_grid .item2{
+							}
+
+							/* .products-cat-frame .product_grid .item2{
 			width: calc(calc(100% / ) - 20px);
 			margin: 0px 10px 30px;
 			} */
 							#products-cat .cat-title-main a {
 								background-color: #5D1C00;
-								color: #FFB26F;							}							#products-cat .cat-title-main a:before {
+								color: #FFB26F;
+							}
+
+							#products-cat .cat-title-main a:before {
 								background-color: #471500;
-							}							.breadcrumbs {
+							}
+
+							.breadcrumbs {
 								background-color: #370008;
 								border: unset;
-							}							.description_start {
+							}
+
+							.description_start {
 								color: #FFFFFF;
-							}							.block_products_filter .field_item {
+							}
+
+							.block_products_filter .field_item {
 								background: #5B0000;
-							}							.block_products_filter .field_label .item a {
+							}
+
+							.block_products_filter .field_label .item a {
 								color: #FFFFFF;
-							}							.block_products_filter .field_label .item a:before {
+							}
+
+							.block_products_filter .field_label .item a:before {
 								background: #FFFFFF;
 							}
+
 							.block_products_filter .field_item {
 								border: 1px solid #BB0101;
-							}							.block_products_filter .field_item .field_name {
+							}
+
+							.block_products_filter .field_item .field_name {
 								border-right: 1px solid #BB0101;
 							}
 						</style>
@@ -2223,25 +1923,25 @@
 					<div class="clear"></div>
 				</div>
 				<!-- end.Content -->
-			</div>			<div class="clear"></div>			<!--Trên Footer-->
+			</div>
+			<div class="clear"></div> <!--Trên Footer-->
 			<div class="introdu pos_footer">
 				<div class="wraper_block">
 					<div class="block_banners banners-_banner banners_0 block" id="block_id_148">
 						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 							<div class="item">
-								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101"
-									class="banner_item">									<span class="wrapper_ap">
-										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
-											src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg"
-											srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp"
-											style="display: inline;">
-									</span>								</a>
-							</div>							<div class="clear"></div>
+								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101" class="banner_item"> <span class="wrapper_ap">
+										<img class="lazy after-lazy" alt="Hệ thống cửa hàng" src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg" srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp" style="display: inline;">
+									</span> </a>
+							</div>
+							<div class="clear"></div>
 						</div>
-						<div class="clear"></div>					</div>
+						<div class="clear"></div>
+					</div>
 				</div>
 			</div>
-			<div class="clear"></div>			<div class="introdu pos_strength">
+			<div class="clear"></div>
+			<div class="introdu pos_strength">
 				<div class="wraper_block" style="background-color:#1C0702">
 					<div class="block_strengths strengths-_strengths strengths_0 block" id="block_id_139">
 						<div class="container">
@@ -2251,108 +1951,41 @@
 										<div class="item-inner">
 											<div class="item-l">
 												<div class="isvg">
-													<img class="lazy after-lazy" alt="CÔNG TY ONPLAZA VIỆT PHÁP"
-														src="https://onplaza.vn/images/strengths/resized/logo_1590462023.png"
-														srcset="https://onplaza.vn/images/strengths/resized/logo_1590462023.png.webp"
-														style="display: inline;">
+													<img class="lazy after-lazy" alt="CÔNG TY ONPLAZA VIỆT PHÁP" src="https://onplaza.vn/images/strengths/resized/logo_1590462023.png" srcset="https://onplaza.vn/images/strengths/resized/logo_1590462023.png.webp" style="display: inline;">
 												</div>
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													CÔNG TY ONPLAZA VIỆT PHÁP </div>											</div>
-										</div>
-									</div>									<div class="item ">
-										<div class="item-inner">
-											<div class="item-l">
-												<div class="isvg">
-													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-														xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-														viewBox="0 0 511.999 511.999"
-														style="enable-background:new 0 0 511.999 511.999;"
-														xml:space="preserve">
-														<g>
-															<g>
-																<path
-																	d="M374.821,0c-74.434,0-134.984,62.55-134.984,136.984c0,30.992,10.619,60.901,29.997,84.848v87.28l94.003-37.584 			c3.618,0.293,7.279,0.439,10.985,0.439c74.434,0,136.984-60.55,136.984-134.984S449.256,0,374.821,0z M329.827,151.982H299.83 			v-29.997h29.997V151.982z M389.82,151.982h-29.997v-29.997h29.997V151.982z M449.813,151.982h-29.997v-29.997h29.997V151.982z">
-																</path>
-															</g>
-														</g>
-														<g>
-															<g>
-																<polygon
-																	points="364.085,304.675 321.668,347.106 448.687,474.125 491.351,431.94 		">
-																</polygon>
-															</g>
-														</g>
-														<g>
-															<g>
-																<polygon
-																	points="79.865,20.455 37.44,62.879 164.699,190.137 207.131,147.72 		">
-																</polygon>
-															</g>
-														</g>
-														<g>
-															<g>
-																<path
-																	d="M19.287,87.143c-33.934,66.566-22.13,147.566,31.372,201.054l172.949,172.949c33.482,33.482,77.804,50.868,122.593,50.853 			c26.815,0,53.671-6.616,78.6-19.343C358.955,426.827,77.855,145.713,19.287,87.143z">
-																</path>
-															</g>
-														</g>
-													</svg>
-												</div>
+													CÔNG TY ONPLAZA VIỆT PHÁP </div>
 											</div>
-											<div class="item-r">
-												<div class="title" style="color: #F4E0AF">
-													Hỗ trợ 24/7 </div>											</div>
 										</div>
 									</div>
 									<div class="item ">
 										<div class="item-inner">
 											<div class="item-l">
 												<div class="isvg">
-													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-														xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-														viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-														xml:space="preserve">
+													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
 														<g>
 															<g>
-																<path
-																	d="M393.542,219.688c-0.973,2.383-1.519,4.983-1.519,7.711v31.152h32.975v-38.863H393.542z">
+																<path d="M374.821,0c-74.434,0-134.984,62.55-134.984,136.984c0,30.992,10.619,60.901,29.997,84.848v87.28l94.003-37.584 			c3.618,0.293,7.279,0.439,10.985,0.439c74.434,0,136.984-60.55,136.984-134.984S449.256,0,374.821,0z M329.827,151.982H299.83 			v-29.997h29.997V151.982z M389.82,151.982h-29.997v-29.997h29.997V151.982z M449.813,151.982h-29.997v-29.997h29.997V151.982z">
 																</path>
 															</g>
 														</g>
 														<g>
 															<g>
-																<path
-																	d="M0,219.688v87.403c0,24.162,19.656,43.819,43.818,43.819h239.189v-47.358v-30.001h19.014v-46.152 			c0-2.592,0.097-5.162,0.273-7.711H0z">
-																</path>
+																<polygon points="364.085,304.675 321.668,347.106 448.687,474.125 491.351,431.94 		">
+																</polygon>
 															</g>
 														</g>
 														<g>
 															<g>
-																<path
-																	d="M381.18,52.461H43.818C19.656,52.461,0,72.117,0,96.279v17.236v1.001h424.998v-1.001V96.279 			C424.998,72.117,405.341,52.461,381.18,52.461z">
-																</path>
+																<polygon points="79.865,20.455 37.44,62.879 164.699,190.137 207.131,147.72 		">
+																</polygon>
 															</g>
 														</g>
 														<g>
 															<g>
-																<path
-																	d="M0,144.517v42.168v3.002h308.653c6.395-17.555,17.123-33.043,30.882-45.17H0z">
-																</path>
-															</g>
-														</g>
-														<g>
-															<g>
-																<path
-																	d="M412.504,146.916c-44.377,0-80.481,36.105-80.481,80.483v46.152h30.001v-46.152c0-27.836,22.646-50.482,50.48-50.482 			s50.481,22.647,50.481,50.482v46.152h30.001v-46.152C492.986,183.021,456.881,146.916,412.504,146.916z">
-																</path>
-															</g>
-														</g>
-														<g>
-															<g>
-																<path
-																	d="M313.007,303.552v155.988H512V303.552H313.007z M427.504,397.182v32.575h-30.001v-32.575 			c-10.471-5.442-17.644-16.385-17.644-28.98c0-18,14.644-32.645,32.645-32.645s32.645,14.644,32.645,32.645 			C445.148,380.796,437.975,391.74,427.504,397.182z">
+																<path d="M19.287,87.143c-33.934,66.566-22.13,147.566,31.372,201.054l172.949,172.949c33.482,33.482,77.804,50.868,122.593,50.853 			c26.815,0,53.671-6.616,78.6-19.343C358.955,426.827,77.855,145.713,19.287,87.143z">
 																</path>
 															</g>
 														</g>
@@ -2361,35 +1994,90 @@
 											</div>
 											<div class="item-r">
 												<div class="title" style="color: #F4E0AF">
-													Bảo mật thanh toán </div>											</div>
+													Hỗ trợ 24/7 </div>
+											</div>
 										</div>
-									</div>								</div>							</div>
+									</div>
+									<div class="item ">
+										<div class="item-inner">
+											<div class="item-l">
+												<div class="isvg">
+													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+														<g>
+															<g>
+																<path d="M393.542,219.688c-0.973,2.383-1.519,4.983-1.519,7.711v31.152h32.975v-38.863H393.542z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path d="M0,219.688v87.403c0,24.162,19.656,43.819,43.818,43.819h239.189v-47.358v-30.001h19.014v-46.152 			c0-2.592,0.097-5.162,0.273-7.711H0z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path d="M381.18,52.461H43.818C19.656,52.461,0,72.117,0,96.279v17.236v1.001h424.998v-1.001V96.279 			C424.998,72.117,405.341,52.461,381.18,52.461z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path d="M0,144.517v42.168v3.002h308.653c6.395-17.555,17.123-33.043,30.882-45.17H0z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path d="M412.504,146.916c-44.377,0-80.481,36.105-80.481,80.483v46.152h30.001v-46.152c0-27.836,22.646-50.482,50.48-50.482 			s50.481,22.647,50.481,50.482v46.152h30.001v-46.152C492.986,183.021,456.881,146.916,412.504,146.916z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path d="M313.007,303.552v155.988H512V303.552H313.007z M427.504,397.182v32.575h-30.001v-32.575 			c-10.471-5.442-17.644-16.385-17.644-28.98c0-18,14.644-32.645,32.645-32.645s32.645,14.644,32.645,32.645 			C445.148,380.796,437.975,391.74,427.504,397.182z">
+																</path>
+															</g>
+														</g>
+													</svg>
+												</div>
+											</div>
+											<div class="item-r">
+												<div class="title" style="color: #F4E0AF">
+													Bảo mật thanh toán </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="clear"></div>			<div class="footer lazy after-lazy"
-				style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
+			<div class="clear"></div>
+			<div class="footer lazy after-lazy" style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
 				<footer>
-					<div class="container cls">						<div class="footer_top cls">							<div class="all-hotline-ft cls">								<div class="share_fast_small">
+					<div class="container cls">
+						<div class="footer_top cls">
+							<div class="all-hotline-ft cls">
+								<div class="share_fast_small">
 									<div class="title">HỆ THỐNG SHOWROOM</div>
 								</div>
 								<div class="block_content address_content">
 									<div class="title">
-										<svg width="20px" height="20px" version="1.1" id="Capa_1"
-											xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											viewBox="0 0 426.667 426.667"
-											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+										<svg width="20px" height="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 											<g>
 												<g>
 													<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>										</svg>
+											</g>
+										</svg>
 										Hà Nội:
-									</div>									<ul class="item">										<li>
+									</div>
+									<ul class="item">
+										<li>
 											<p>LK: 76 Hai Bà Trưng</p>
 										</li>
 										<li>
@@ -2399,7 +2087,10 @@
 										<li>
 											<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55 -
 												09.66.60.61.69</p>
-										</li>									</ul>									<ul class="item">										<li>
+										</li>
+									</ul>
+									<ul class="item">
+										<li>
 											<p>LK: 327 Trường Chinh</p>
 										</li>
 										<li>
@@ -2409,77 +2100,73 @@
 										<li>
 											<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
 												09.65.69.63.64</p>
-										</li>									</ul>
+										</li>
+									</ul>
 									<div class="title">
-										<svg width="20px" height="20px" version="1.1" id="Capa_1"
-											xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-											viewBox="0 0 426.667 426.667"
-											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+										<svg width="20px" height="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 426.667 426.667" style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 											<g>
 												<g>
 													<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
 			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
 			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
 												</g>
-											</g>										</svg>
+											</g>
+										</svg>
 										Hồ Chí Minh:
-									</div>									<ul class="item">										<li>
+									</div>
+									<ul class="item">
+										<li>
 											<p>LK: Hồ Chí Minh</p>
 										</li>
 										<li>
 											<p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 – TP.HCM
 												<br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
-												Trống Đồng )</p>
+												Trống Đồng )
+											</p>
 										</li>
 										<li>
 											<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69</p>
-										</li>									</ul>
+										</li>
+									</ul>
 								</div>
-							</div>							<div class="footer-menu cls">
+							</div>
+							<div class="footer-menu cls">
 								<ul class="menu-bottom cls">
 									<li class="  level0  first-item">
 										<span class="click-mobile" data-id="menu-sub1"></span> <span data-id="item_1">
 											Chính sách &amp; bảo hành </span>
 										<ul id="menu-sub1" class="cls">
 											<li class="  level1  first-sitem ">
-												<a href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html"
-													title="Điều khoản mua hàng"> Điều khoản mua hàng </a>
+												<a href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html" title="Điều khoản mua hàng"> Điều khoản mua hàng </a>
 											</li>
 											<li class="  level1  mid-sitem ">
 												<span> Hướng dẫn mua hàng </span>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html"
-													title="Phương thức thanh toán"> Phương thức thanh toán </a>
+												<a href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html" title="Phương thức thanh toán"> Phương thức thanh toán </a>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html"
-													title="Phương thức vận chuyển"> Phương thức vận chuyển </a>
+												<a href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html" title="Phương thức vận chuyển"> Phương thức vận chuyển </a>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html"
-													title="Chính sách bảo mật"> Chính sách bảo mật </a>
+												<a href="https://onplaza.vn/ct-chinh-sach-bao-mat.html" title="Chính sách bảo mật"> Chính sách bảo mật </a>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-chinh-sach-doi-tra.html"
-													title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a>
+												<a href="https://onplaza.vn/ct-chinh-sach-doi-tra.html" title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a>
 											</li>
 											<li class="  level1  mid-sitem ">
 												<a href="https://onplaza.vn/sitemap.xml" title="Sitemap"> Sitemap </a>
 											</li>
 										</ul>
 									</li>
-								</ul>							</div>
+								</ul>
+							</div>
 							<div class="footer_r cls">
 								<div class="share_fast_small">
 									<div class="title">Kết nối</div>
-									<div class="fb share_item"><a class="facebook-icon"
-											href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook"
-											rel="nofollow" target="_blank">
+									<div class="fb share_item"><a class="facebook-icon" href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow" target="_blank">
 											<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
+												<path d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
 												</path>
 											</svg>
 										</a>
@@ -2503,79 +2190,66 @@
 		
 	</div>	 -->
 									<div class="tw share_item">
-										<a class="twitter-icon" href="https://twitter.com/onplazavietphap"
-											title="Link twitter" rel="nofollow" target="_blank">
-											<svg height="50px" viewBox="0 0 512 512" width="50px"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
+										<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank">
+											<svg height="50px" viewBox="0 0 512 512" width="50px" xmlns="http://www.w3.org/2000/svg">
+												<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
 												</path>
 											</svg>
 										</a>
-									</div>									<div class="yt share_item">
-										<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
-											title="Link instagram" rel="nofollow" target="_blank">
-											<svg height="15" viewBox="0 0 511 511.9" width="15"
-												xmlns="http://www.w3.org/2000/svg">
-												<path
-													d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
-												</path>
-												<path
-													d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
-												</path>
-												<path
-													d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
-												</path>
-											</svg>										</a>
 									</div>
 									<div class="yt share_item">
-										<a class="youtube-icon"
-											href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
-											title="Link youtube" rel="nofollow" target="_blank">
-											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 215.094 215.094"
-												style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
+										<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank">
+											<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
+												<path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
+												</path>
+												<path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
+												</path>
+												<path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
+												</path>
+											</svg> </a>
+									</div>
+									<div class="yt share_item">
+										<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215.094 215.094" style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
 												<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
 	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>											</svg>
+	L90.547,145.583z"></path>
+											</svg>
 										</a>
 									</div>
 									<div class="clear"></div>
-								</div>								<div class="wrap-by-fast cls">
-									<div class="item">										<div class="phone-left">
+								</div>
+								<div class="wrap-by-fast cls">
+									<div class="item">
+										<div class="phone-left">
 											<p class="phone-content">Onplaza </p>
 										</div>
 									</div>
-									<div class="buy_fast">										<div class="">
-											<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
-												onsubmit="javascript: return check_Formsubmitemail();">
+									<div class="buy_fast">
+										<div class="">
+											<form action="" name="buy_fast_form" id="buy_fast_form" method="post" onsubmit="javascript: return check_Formsubmitemail();">
 												<div class="cls buy_fast_body">
-													<input type="text" value="" placeholder="E-mail address..."
-														id="email1_buy_fast" name="email_buy_fast"
-														class="keyword input-text">
-													<button type="submit" class="button-buy-fast button">														Đăng ký </button>												</div>
+													<input type="text" value="" placeholder="E-mail address..." id="email1_buy_fast" name="email_buy_fast" class="keyword input-text">
+													<button type="submit" class="button-buy-fast button"> Đăng ký </button>
+												</div>
 												<input type="hidden" name="module" value="users">
 												<input type="hidden" name="view" value="users">
 												<input type="hidden" name="task" value="buy_fast_save">
 												<input type="hidden" name="Itemid" value="10">
-											</form>										</div>
+											</form>
+										</div>
 									</div>
 								</div>
-							</div>						</div>
+							</div>
+						</div>
 						<div class="clear"></div>
 					</div>
-					<div class="footer_im cls">						<div class="image_wrapper">
-							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=toyentho.php"
-								title="DMCA.com Protection Status" class="dmca-badge"> <img
-									src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
-									alt="DMCA.com Protection Status"></a>
+					<div class="footer_im cls">
+						<div class="image_wrapper">
+							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=toyentho.php" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619" alt="DMCA.com Protection Status"></a>
 							<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-							<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=toyentho.php"
-								title="Bộ công thương" class="dmca-badge">
-								<img class="lazy item after-lazy" alt="flower"
-									src="https://onplaza.vn/images/config/dathongbao_1558687262.png"
-									style="display: inline;"></a>
+							<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=toyentho.php" title="Bộ công thương" class="dmca-badge">
+								<img class="lazy item after-lazy" alt="flower" src="https://onplaza.vn/images/config/dathongbao_1558687262.png" style="display: inline;"></a>
 							<div class="info_item">
 								Công ty TNHH Onplaza Việt Pháp - Mã số thuế :0105566586, Ngày cấp: 13/10/2011,Trụ sở
 								chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
@@ -2588,12 +2262,12 @@
 						<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
 					</div>
 				</footer>
-			</div>		</div>
+			</div>
+		</div>
 		<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
 			<div id="bar-inner">
 				<a class="go-top" href="#page-wrapper" title="Back to top">
-					<svg x="0px" y="0px" viewBox="0 0 284.929 284.929"
-						style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
+					<svg x="0px" y="0px" viewBox="0 0 284.929 284.929" style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
 						<g>
 							<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
 				C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854
@@ -2604,62 +2278,47 @@
 					</svg>
 				</a>
 			</div>
-		</div>		<input type="hidden" id="Itid" name="Itid" value="9">
+		</div> <input type="hidden" id="Itid" name="Itid" value="9">
 		<div id="loading_box">
 			<div id="loading_image"></div>
 		</div>
 		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
 		<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
-			<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
-					href="https://m.me/congtyonplazavietphap" target="_blank"><span
-						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-							<path
-								d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
+			<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1" href="https://m.me/congtyonplazavietphap" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
 							</path>
 						</svg></span>
 					<p>Messenger</p>
-				</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169"
-					target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 448 512">
-							<path
-								d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+				</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
 							</path>
 						</svg></span>
 					<p>Zalo Chat</p>
-				</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span
-						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-							<path
-								d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+				</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
 							</path>
 						</svg></span>
 					<p>Skype Chat</p>
-				</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com"
-					target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 512 512">
-							<path
-								d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+				</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<path d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
 							</path>
 						</svg></span>
 					<p>Gửi Email</p>
-				</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span
-						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-							<path
-								d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+				</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
 							</path>
 						</svg></span>
 					<p>Call 0932.144.888</p>
 				</a></div>
 			<div class="arcontactus-message-button" style="background-color: #c60100">
-				<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
-						xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Canvas" transform="translate(-825 -308)">
 							<g id="Vector">
 								<use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="#FFFFFF"></use>
 							</g>
 						</g>
 						<defs>
-							<path id="path0_fill0123"
-								d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
+							<path id="path0_fill0123" d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
 							</path>
 						</defs>
 					</svg>
@@ -2667,35 +2326,24 @@
 				</div>
 				<div class="callback-state" style="color: #c60100"></div>
 				<div class="icons">
-					<div class="icons-line" style="transform: translate(-194px, 0px);"><span style="color: #c60100"><svg
-								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-								<path
-									d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
+					<div class="icons-line" style="transform: translate(-194px, 0px);"><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
 								</path>
-							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 448 512">
-								<path
-									d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
 								</path>
-							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 448 512">
-								<path
-									d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
 								</path>
-							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 512 512">
-								<path
-									d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
 								</path>
-							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 512 512">
-								<path
-									d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+								<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
 								</path>
 							</svg></span></div>
 				</div>
-				<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1"
-						xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+				<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Canvas" transform="translate(-4087 108)">
 							<g id="Vector">
 								<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
@@ -2703,8 +2351,7 @@
 							</g>
 						</g>
 						<defs>
-							<path id="path0_fill"
-								d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+							<path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
 							</path>
 						</defs>
 					</svg></div>
@@ -2712,9 +2359,7 @@
 				<div class="pulsation" style="background-color: #c60100"></div>
 			</div>
 			<div class="arcontactus-prompt">
-				<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13"
-						viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink">
+				<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<g id="Canvas" transform="translate(-4087 108)">
 							<g id="Vector">
 								<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
@@ -2722,15 +2367,15 @@
 							</g>
 						</g>
 						<defs>
-							<path id="path0_fill"
-								d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+							<path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
 							</path>
 						</defs>
 					</svg></div>
 				<div class="arcontactus-prompt-inner"></div>
 			</div>
 		</div>
-		<script>//<![CDATA[
+		<script>
+			//<![CDATA[
 			var arCuMessages = ["Xin chào tôi có thể giúp gì cho bạn"];
 			var arCuLoop = false;
 			var arCuCloseLastMessage = false;
@@ -2741,21 +2386,21 @@
 			var arCuMessageTime = 4000;
 			var arCuClosedCookie = 0;
 			var arcItems = [];
-			window.addEventListener('load', function () {
+			window.addEventListener('load', function() {
 				arCuClosedCookie = arCuGetCookie('arcu-closed');
-				jQuery('#arcontactus').on('arcontactus.init', function () {
+				jQuery('#arcontactus').on('arcontactus.init', function() {
 					if (arCuClosedCookie) {
 						return false;
 					}
 					arCuShowMessages();
 				});
-				jQuery('#arcontactus').on('arcontactus.openMenu', function () {
+				jQuery('#arcontactus').on('arcontactus.openMenu', function() {
 					clearTimeout(_arCuTimeOut);
 					arCuPromptClosed = true;
 					jQuery('#contact').contactUs('hidePrompt');
 					arCuCreateCookie('arcu-closed', 1, 30);
 				});
-				jQuery('#arcontactus').on('arcontactus.hidePrompt', function () {
+				jQuery('#arcontactus').on('arcontactus.hidePrompt', function() {
 					clearTimeout(_arCuTimeOut);
 					arCuPromptClosed = true;
 					arCuCreateCookie('arcu-closed', 1, 30);
@@ -2804,44 +2449,85 @@
 					items: arcItems
 				});
 			});
-//]]></script>
+			//]]>
+		</script>
 		<!-- end arcontactus widget -->
-		<!--  -->		<div id="modal_alert1" class="hide">
+		<!--  -->
+		<div id="modal_alert1" class="hide">
 			<div class="modal_alert_inner">
-				<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
-						onclick="javascript:close_modal_alert1()">X</a></div>
+				<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()" onclick="javascript:close_modal_alert1()">X</a></div>
 				<div class="modal_alert_body"></div>
 			</div>
 		</div>
 		<div class="benmarch noc">0.21976 sec| 1606.047 kb</div>
-		<script async="async" language="javascript" type="text/javascript"
-			src="https://onplaza.vn/cache/js/a80e02fb2d6ef083bdfbde78afedf826.js?20230704223136"></script>
+		<script async="async" language="javascript" type="text/javascript" src="https://onplaza.vn/cache/js/a80e02fb2d6ef083bdfbde78afedf826.js?20230704223136"></script>
 	</div>
-	<script type="text/javascript"
-		id="">(function (a, e, b, f, g, c, d) { a[b] = a[b] || function () { (a[b].q = a[b].q || []).push(arguments) }; c = e.createElement(f); c.async = 1; c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt"; d = e.getElementsByTagName(f)[0]; d.parentNode.insertBefore(c, d) })(window, document, "clarity", "script", "9301me865a");</script>
+	<script type="text/javascript" id="">
+		(function(a, e, b, f, g, c, d) {
+			a[b] = a[b] || function() {
+				(a[b].q = a[b].q || []).push(arguments)
+			};
+			c = e.createElement(f);
+			c.async = 1;
+			c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt";
+			d = e.getElementsByTagName(f)[0];
+			d.parentNode.insertBefore(c, d)
+		})(window, document, "clarity", "script", "9301me865a");
+	</script>
 	<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
 	</div>
 	<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
 	</div>
-	<script type="text/javascript"
-		id="">var eventSet = !1; setTimeout(function () { var a = jQuery(".arcontactus-message-button"); if (a) a.on("click", function () { eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0) }) }, 1E3); function addEvents1() { jQuery('a[href*\x3d"m.me"]').on("click", function () { window.dataLayer.push({ event: "chat_button" }) }) } function addEvents2() { jQuery('a[href*\x3d"zalo.me"]').on("click", function () { window.dataLayer.push({ event: "chat_button" }) }) }
-			function addEvents3() { jQuery('a[href*\x3d"tel:"]').on("click", function () { window.dataLayer.push({ event: "hotline" }) }) } function addEvents4() { jQuery('a[href*\x3d"skype:"]').on("click", function () { window.dataLayer.push({ event: "chat_button" }) }) };</script>
-	<div
-		style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-		<div
-			style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+	<script type="text/javascript" id="">
+		var eventSet = !1;
+		setTimeout(function() {
+			var a = jQuery(".arcontactus-message-button");
+			if (a) a.on("click", function() {
+				eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0)
+			})
+		}, 1E3);
+
+		function addEvents1() {
+			jQuery('a[href*\x3d"m.me"]').on("click", function() {
+				window.dataLayer.push({
+					event: "chat_button"
+				})
+			})
+		}
+
+		function addEvents2() {
+			jQuery('a[href*\x3d"zalo.me"]').on("click", function() {
+				window.dataLayer.push({
+					event: "chat_button"
+				})
+			})
+		}
+
+		function addEvents3() {
+			jQuery('a[href*\x3d"tel:"]').on("click", function() {
+				window.dataLayer.push({
+					event: "hotline"
+				})
+			})
+		}
+
+		function addEvents4() {
+			jQuery('a[href*\x3d"skype:"]').on("click", function() {
+				window.dataLayer.push({
+					event: "chat_button"
+				})
+			})
+		};
+	</script>
+	<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+		<div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
 		</div>
-		<div class="g-recaptcha-bubble-arrow"
-			style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+		<div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
 		</div>
-		<div class="g-recaptcha-bubble-arrow"
-			style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+		<div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
 		</div>
-		<div style="z-index: 2000000000; position: relative;"><iframe
-				title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa"
-				src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci"
-				name="c-8gq0amp2tzpb" frameborder="0" scrolling="no"
-				sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-				style="width: 100%; height: 100%;"></iframe></div>
+		<div style="z-index: 2000000000; position: relative;"><iframe title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa" src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci" name="c-8gq0amp2tzpb" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div>
 	</div>
-</body></html>
+</body>
+
+</html>

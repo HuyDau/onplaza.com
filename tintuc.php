@@ -73,7 +73,7 @@
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
 	<meta name="ICBM" content="21, 105.83">
-	
+
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688486766081&amp;cv=11&amp;fst=1688486766081&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Ftin-tuc.html&amp;ref=https%3A%2F%2Fonplaza.vn%2Ftra-sam-ngoc-linh&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Tin%20t%E1%BB%A9c%20-%20Onplaza%20Vi%E1%BB%87t%20Ph%C3%A1p&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
@@ -180,125 +180,38 @@
 									<div class="date_l">
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
-											<option value="13">13</option>
-											<option value="14">14</option>
-											<option value="15">15</option>
-											<option value="16">16</option>
-											<option value="17">17</option>
-											<option value="18">18</option>
-											<option value="19">19</option>
-											<option value="20">20</option>
-											<option value="21">21</option>
-											<option value="22">22</option>
-											<option value="23">23</option>
-											<option value="24">24</option>
-											<option value="25">25</option>
-											<option value="26">26</option>
-											<option value="27">27</option>
-											<option value="28">28</option>
-											<option value="29">29</option>
-											<option value="30">30</option>
-											<option value="31">31</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 31; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
-											<option value="1">1</option>
-											<option value="2">2</option>
-											<option value="3">3</option>
-											<option value="4">4</option>
-											<option value="5">5</option>
-											<option value="6">6</option>
-											<option value="7">7</option>
-											<option value="8">8</option>
-											<option value="9">9</option>
-											<option value="10">10</option>
-											<option value="11">11</option>
-											<option value="12">12</option>
+											<?php
+                                            $i;
+                                            for ($i = 1; $i <= 12; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
-											<option value="1960">1960</option>
-											<option value="1961">1961</option>
-											<option value="1962">1962</option>
-											<option value="1963">1963</option>
-											<option value="1964">1964</option>
-											<option value="1965">1965</option>
-											<option value="1966">1966</option>
-											<option value="1967">1967</option>
-											<option value="1968">1968</option>
-											<option value="1969">1969</option>
-											<option value="1970">1970</option>
-											<option value="1971">1971</option>
-											<option value="1972">1972</option>
-											<option value="1973">1973</option>
-											<option value="1974">1974</option>
-											<option value="1975">1975</option>
-											<option value="1976">1976</option>
-											<option value="1977">1977</option>
-											<option value="1978">1978</option>
-											<option value="1979">1979</option>
-											<option value="1980">1980</option>
-											<option value="1981">1981</option>
-											<option value="1982">1982</option>
-											<option value="1983">1983</option>
-											<option value="1984">1984</option>
-											<option value="1985">1985</option>
-											<option value="1986">1986</option>
-											<option value="1987">1987</option>
-											<option value="1988">1988</option>
-											<option value="1989">1989</option>
-											<option value="1990">1990</option>
-											<option value="1991">1991</option>
-											<option value="1992">1992</option>
-											<option value="1993">1993</option>
-											<option value="1994">1994</option>
-											<option value="1995">1995</option>
-											<option value="1996">1996</option>
-											<option value="1997">1997</option>
-											<option value="1998">1998</option>
-											<option value="1999">1999</option>
-											<option value="2000">2000</option>
-											<option value="2001">2001</option>
-											<option value="2002">2002</option>
-											<option value="2003">2003</option>
-											<option value="2004">2004</option>
-											<option value="2005">2005</option>
-											<option value="2006">2006</option>
-											<option value="2007">2007</option>
-											<option value="2008">2008</option>
-											<option value="2009">2009</option>
-											<option value="2010">2010</option>
-											<option value="2011">2011</option>
-											<option value="2012">2012</option>
-											<option value="2013">2013</option>
-											<option value="2014">2014</option>
-											<option value="2015">2015</option>
-											<option value="2016">2016</option>
-											<option value="2017">2017</option>
-											<option value="2018">2018</option>
-											<option value="2019">2019</option>
-											<option value="2020">2020</option>
+											<?php
+                                            $i;
+                                            for ($i = 1970; $i <= 2023; $i++) {
+                                            ?>
+                                                <option value="<?= $i ?>"><?= $i ?></option>
+                                            <?php
+                                            }
+                                            ?>
 										</select>
-									</div> <!-- <div class="date_r">
-								<div class="title-t">Giới tính</div>
-								<select class="sex" name="gender" id="gender">
-									<option value="">Lựa chọn</option>
-									<option value="1">Nam</option>
-									<option value="2">Nữ</option>
-								</select>
-							</div> -->
+									</div> 
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -376,30 +289,17 @@
 			<div class="register right_item">
 				<div class="share_fast1">
 					<div class="fb share_item"><a class="facebook-icon" href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook" rel="nofollow" target="_blank">
-							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h236.574219v-198h-66.5v-77.5h66.5v-57.035156c0-66.140625 40.378906-102.140625 99.378906-102.140625 28.257813 0 52.542969 2.105469 59.621094 3.046875v69.128906h-40.683594c-32.101562 0-38.316406 15.253906-38.316406 37.640625v49.359375h76.75l-10 77.5h-66.75v198h121.574219c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm0 0">
-								</path>
-							</svg>
+							<i class="lab la-facebook-square"></i>
 						</a>
 					</div>
 					<div class="tw share_item">
 						<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank">
-							<svg height="12" viewBox="0 0 512 512" width="12" xmlns="http://www.w3.org/2000/svg">
-								<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
-								</path>
-							</svg>
+							<i class="lab la-twitter-square"></i>
 						</a>
 					</div>
 					<div class="yt share_item">
 						<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank">
-							<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
-								<path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
-								</path>
-								<path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
-								</path>
-								<path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
-								</path>
-							</svg> </a>
+							<i class="lab la-instagram"></i> </a>
 					</div>
 					<div class="yt share_item">
 						<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank">
@@ -420,12 +320,7 @@
 					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow">
-								<svg x="0px" y="0px" viewBox="0 0 30.511 30.511" style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px" height="22px">
-									<g>
-										<path d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
-										</path>
-									</g>
-								</svg> <span>Giỏ hàng (0)</span>
+								<i class="las la-shopping-cart"></i> <span>Giỏ hàng (0)</span>
 							</a>
 						</div>
 					</div>
@@ -486,12 +381,7 @@
 					<div class="shopcart_simple block_content fl">
 						<div class="count">
 							<a class="buy_img" href="giohang.php" title="Giỏ hàng thanh toán" rel="nofollow">
-								<svg x="0px" y="0px" viewBox="0 0 30.511 30.511" style="enable-background:new 0 0 30.511 30.511;" xml:space="preserve" width="22px" height="22px">
-									<g>
-										<path d="M26.818,19.037l3.607-10.796c0.181-0.519,0.044-0.831-0.102-1.037   c-0.374-0.527-1.143-0.532-1.292-0.532L8.646,6.668L8.102,4.087c-0.147-0.609-0.581-1.19-1.456-1.19H0.917   C0.323,2.897,0,3.175,0,3.73v1.49c0,0.537,0.322,0.677,0.938,0.677h4.837l3.702,15.717c-0.588,0.623-0.908,1.531-0.908,2.378   c0,1.864,1.484,3.582,3.38,3.582c1.79,0,3.132-1.677,3.35-2.677h7.21c0.218,1,1.305,2.717,3.349,2.717   c1.863,0,3.378-1.614,3.378-3.475c0-1.851-1.125-3.492-3.359-3.492c-0.929,0-2.031,0.5-2.543,1.25h-8.859   c-0.643-1-1.521-1.31-2.409-1.345l-0.123-0.655h13.479C26.438,19.897,26.638,19.527,26.818,19.037z M25.883,22.828   c0.701,0,1.27,0.569,1.27,1.27s-0.569,1.27-1.27,1.27s-1.271-0.568-1.271-1.27C24.613,23.397,25.182,22.828,25.883,22.828z    M13.205,24.098c0,0.709-0.576,1.286-1.283,1.286c-0.709-0.002-1.286-0.577-1.286-1.286s0.577-1.286,1.286-1.286   C12.629,22.812,13.205,23.389,13.205,24.098z">
-										</path>
-									</g>
-								</svg> <span>0</span>
+								<i class="las la-shopping-cart"></i> <span>0</span>
 							</a>
 						</div>
 					</div>
