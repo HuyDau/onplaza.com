@@ -93,6 +93,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/base.prod.css">
 
     <link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
         href="https://onplaza.vn/rss.xml">

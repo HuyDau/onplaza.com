@@ -3,6 +3,16 @@ session_start();
 require_once("config/config.php");
 
 $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 1");
+$sql_portfolio_dongtrung = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 2");
+$sql_portfolio_nam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 3");
+$sql_portfolio_yen = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 4");
+$sql_portfolio_nhunghuou = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 5");
+$sql_portfolio_ancungnguu = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 6");
+$sql_portfolio_tinhdauthongdo = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 7");
+$sql_portfolio_matong = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 8");
+$sql_portfolio_khoangchat = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 9");
+$sql_portfolio_samngoclinh = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 11");
+$sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 12");
 
 ?>
 
@@ -75,6 +85,7 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/base.prod.css">
 
     <link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
     <meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
@@ -735,12 +746,6 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
 
 
 
-
-
-
-
-
-
                                             <div class="sub-menu sub-menu-level1 has_child  ">
 
                                                 <a href="sanphamduoclieu.php" class="level_0 sort sub-menu-item" data-menu_tags="908" id="menu_item_908" title="Dược liệu cao cấp">
@@ -771,7 +776,7 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 <?php
                                                                 }
                                                                 ?>
-                                                                </ul>
+                                                            </ul>
                                                         </div>
 
 
@@ -780,27 +785,18 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Đông trùng hạ thảo
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
-                                                                        Đông trùng Tây Tạng
-                                                                    </a></li>
-
-
-                                                                <li><a href="namdongtrunghathao.php" title="Nấm Đông Trùng Hạ Thảo">
-                                                                        Nấm Đông Trùng Hạ Thảo
-                                                                    </a></li>
-
-
-                                                                <li><a href="viendongtrunghathao.php" title="Viên đông trùng hạ thảo">
-                                                                        Viên đông trùng hạ thảo
-                                                                    </a></li>
-
-
-                                                                <li><a href="nuocdongtrunghathao.php" title="Nước đông trùng hạ thảo">
-                                                                        Nước đông trùng hạ thảo
-                                                                    </a></li>
-
-                                                            </ul>
+                                                                <?php
+                                                                foreach ($sql_portfolio_dongtrung as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                                
+                                                            
+                                                                </ul>
                                                         </div>
 
 
@@ -809,42 +805,18 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Nấm linh chi Hàn Quốc
                                                             </a>
                                                             <ul class="item_lv2">
+                                                                <?php
+                                                                foreach ($sql_portfolio_nam as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
 
-                                                                <li><a href="namlinhchivang.php" title="Nấm linh chi vàng">
-                                                                        Nấm linh chi vàng
-                                                                    </a></li>
-
-
-                                                                <li><a href="tranamlinhchi.php" title="Trà nấm linh chi">
-                                                                        Trà nấm linh chi
-                                                                    </a></li>
-
-
-                                                                <li><a href="namlinhchido.php" title="Nấm linh chi đỏ">
-                                                                        Nấm linh chi đỏ
-                                                                    </a></li>
-
-
-                                                                <li><a href="caonamlinhchi.php" title="Cao nấm linh chi">
-                                                                        Cao nấm linh chi
-                                                                    </a></li>
-
-
-                                                                <li><a href="namlinhchithuonghoang.php" title="Nấm linh chi thượng hoàng">
-                                                                        Nấm linh chi thượng hoàng
-                                                                    </a></li>
-
-
-                                                                <li><a href="namlinhchithailat.php" title="Nấm linh chi thái lát">
-                                                                        Nấm linh chi thái lát
-                                                                    </a></li>
-
-
-                                                                <li><a href="namlinhxanh.php" title="Nấm Lim xanh">
-                                                                        Nấm Lim xanh
-                                                                    </a></li>
-
-                                                            </ul>
+                                                            
+                                                                </ul>
                                                         </div>
 
 
@@ -853,37 +825,16 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Yến sào Khánh Hoà
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="toyentho.php" title="Tổ Yến Thô">
-                                                                        Tổ Yến Thô
-                                                                    </a></li>
-
-
-                                                                <li><a href="yensochenguyento.php" title="Yến sơ chế nguyên tổ">
-                                                                        Yến sơ chế nguyên tổ
-                                                                    </a></li>
-
-
-                                                                <li><a href="yentinhchenguyento.php" title="Yến tinh chế nguyên tổ">
-                                                                        Yến tinh chế nguyên tổ
-                                                                    </a></li>
-
-
-                                                                <li><a href="yenhongnguyento.php" title="Yến hồng nguyên tổ">
-                                                                        Yến hồng nguyên tổ
-                                                                    </a></li>
-
-
-                                                                <li><a href="yenhuyetnguyento.php" title="Yến huyết nguyên tổ">
-                                                                        Yến huyết nguyên tổ
-                                                                    </a></li>
-
-
-                                                                <li><a href="nuocyensanest.php" title="Nước yến sanest">
-                                                                        Nước yến sanest
-                                                                    </a></li>
-
-                                                            </ul>
+                                                                <?php
+                                                                foreach ($sql_portfolio_yen as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                                </ul>
                                                         </div>
 
 
@@ -892,37 +843,16 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Nhung hươu
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
-                                                                        Nhung hươu tươi
-                                                                    </a></li>
-
-
-                                                                <li><a href="caobanlong.php" title="Cao ban long">
-                                                                        Cao ban long
-                                                                    </a></li>
-
-
-                                                                <li><a href="nhunghuoukhothailat.php" title="Nhung hươu khô thái lát">
-                                                                        Nhung hươu khô thái lát
-                                                                    </a></li>
-
-
-                                                                <li><a href="viennhunghuou.php" title="Viên nhung hươu">
-                                                                        Viên nhung hươu
-                                                                    </a></li>
-
-
-                                                                <li><a href="botnhunghuou.php" title="Bột nhung hươu">
-                                                                        Bột nhung hươu
-                                                                    </a></li>
-
-
-                                                                <li><a href="dauhuoumynghe.php" title="Đầu hươu mỹ nghệ">
-                                                                        Đầu hươu mỹ nghệ
-                                                                    </a></li>
-
-                                                            </ul>
+                                                                <?php
+                                                                foreach ($sql_portfolio_nhunghuou as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                                </ul>
                                                         </div>
 
 
@@ -931,17 +861,16 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 An cung ngưu
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
-                                                                        An cung ngưu trung quốc
-                                                                    </a></li>
-
-
-                                                                <li><a href="ancungnguuhanquoc.php" title="An cung ngưu hàn quốc">
-                                                                        An cung ngưu hàn quốc
-                                                                    </a></li>
-
-                                                            </ul>
+                                                                <?php
+                                                                foreach ($sql_portfolio_ancungnguu as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
+                                                                </ul>
                                                         </div>
 
 
@@ -957,22 +886,15 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Mật Ong Nguyên Chất
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="matongrung.php" title="Mật Ong Rừng">
-                                                                        Mật Ong Rừng
-                                                                    </a></li>
-
-
-                                                                <li><a href="suaongchua.php" title="Sữa Ong Chúa">
-                                                                        Sữa Ong Chúa
-                                                                    </a></li>
-
-
-                                                                <li><a href="phanhoa.php" title="Phấn Hoa">
-                                                                        Phấn Hoa
-                                                                    </a></li>
-
-                                                            </ul>
+                                                                <?php
+                                                                foreach ($sql_portfolio_matong as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?></ul>
                                                         </div>
                                                     </div>
 
@@ -1223,31 +1145,15 @@ $sql_portfolio_sam = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN cat
                                                                 Sâm ngọc linh
                                                             </a>
                                                             <ul class="item_lv2">
-
-                                                                <li><a href="ruousamngoclinh.php" title="Rượu sâm ngọc linh">
-                                                                        Rượu sâm ngọc linh
-                                                                    </a></li>
-
-
-                                                                <li><a href="samngoclinhmatong.php" title="Sâm ngọc linh mật ong">
-                                                                        Sâm ngọc linh mật ong
-                                                                    </a></li>
-
-
-                                                                <li><a href="samngoclinhtunhien.php" title="Sâm ngọc linh tự nhiên">
-                                                                        Sâm ngọc linh tự nhiên
-                                                                    </a></li>
-
-
-                                                                <li><a href="samngoclinhtrong.php" title="Sâm Ngọc Linh trồng">
-                                                                        Sâm Ngọc Linh trồng
-                                                                    </a></li>
-
-
-                                                                <li><a href="trasamngoclinh.php" title="Trà sâm ngọc linh">
-                                                                        Trà sâm ngọc linh
-                                                                    </a></li>
-
+                                                            <?php
+                                                                foreach ($sql_portfolio_samngoclinh as $item) {
+                                                                ?>
+                                                                    <li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
+                                                                            <?= $item['name_portfolio'] ?>
+                                                                        </a></li>
+                                                                <?php
+                                                                }
+                                                                ?>
                                                             </ul>
                                                         </div>
 
