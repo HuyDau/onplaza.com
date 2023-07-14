@@ -120,7 +120,11 @@
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
-	<link rel="stylesheet" href="assets/css/base.prod.css">	<meta name="geo.placename" content="Hà Nội">
+	<link rel="stylesheet" href="assets/css/base.prod.css">
+
+    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
 	<meta name="ICBM" content="21, 105.83">	<style amp-custom="">

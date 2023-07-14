@@ -4704,7 +4704,6 @@ strong {
   display: block;
   position: relative;
   height: 45px;
-  padding: 0px 0px 0px 52px;
   margin-bottom: 10px;
   line-height: 45px;
   border: 1px solid #4267b2;
@@ -4719,17 +4718,6 @@ strong {
   .popup-login-resgister .social_login > a {
     width: 100%;
   }
-}
-.popup-login-resgister .social_login > a:before {
-  background: #4267b2;
-  content: "";
-  height: 44px;
-  width: 52px;
-  position: absolute;
-  left: 0px;
-  border-radius: 50px;
-  top: 0px;
-  background: #415897;
 }
 .popup-login-resgister .social_login > a:nth-child(2) {
   color: #fff;

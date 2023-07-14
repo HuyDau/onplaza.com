@@ -74,6 +74,10 @@
     <link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
 
+    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    
+
 	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
@@ -2444,108 +2448,7 @@
 		}
 
 		/*# sourceMappingURL=cart.css.map */
-		.popup-login-resgister {
-			width: 600px;
-			position: fixed;
-			background: #331102;
-			z-index: 22222;
-			top: 50px;
-			left: 50%;
-			transform: translateX(-50%);
-			padding: 25px 0px 50px;
-			border-radius: 4px;
-			overflow: hidden;
-			box-sizing: border-box;
-			overflow-y: auto;
-			overflow-x: hidden;
-			height: calc(100% - 50px)
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-track {
-			border-radius: 5px;
-			background-color: #000 !important
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-thumb {
-			border: 0
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister {
-				top: 0px;
-				left: 50%;
-				height: 100%;
-				width: 100%;
-				overflow-y: auto
-			}
-		}
-
-		.popup-login-resgister .close_popup {
-			position: absolute;
-			top: 0px;
-			right: 0px;
-			width: 30px;
-			height: 30px;
-			background: var(--main-color);
-			font-size: 24px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			box-sizing: border-box;
-			border-radius: 50%;
-			cursor: pointer
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister .close_popup {
-				top: 0px;
-				right: 0px
-			}
-		}
-
-		.popup-login-resgister .close_popup svg {
-			width: 14px;
-			height: 14px
-		}
-
-		.popup-login-resgister .title {
-			text-align: center;
-			font-size: 22px;
-			color: #fff;
-			padding-bottom: 15px;
-			border-bottom: 1px solid #ddd;
-			margin-bottom: 18px
-		}
-
-		.popup-login-resgister .social_login {
-			padding: 0px 0px 22px;
-			position: relative;
-			float: right;
-			margin-bottom: 30px;
-			width: 75%
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister .social_login {
-				width: 100%
-			}
-		}
-
-		.popup-login-resgister .social_login>a {
-			display: block;
-			position: relative;
-			height: 45px;
-			padding: 0px 0px 0px 52px;
-			margin-bottom: 10px;
-			line-height: 45px;
-			border: 1px solid #4267b2;
-			text-align: center;
-			font-weight: 500;
-			border-radius: 50px;
-			box-sizing: border-box;
-			color: #fff;
-			width: 80%
-		}
+		
 
 		
 
@@ -2585,190 +2488,9 @@
 		
 		
 
-		@media screen and (max-width: 330px) {
-			#product_menu_mobile .menu_label span font {
-				display: none
-			}
-		}
+		
 
-		#product_menu_mobile .cat_filters_home_wrapper {
-			float: right;
-			width: 70%;
-			top: 99px;
-			position: fixed;
-			overflow-y: auto;
-			height: calc(100% - 99px);
-			right: 0px;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .cat_filters_home_wrapper {
-				width: calc(73% - 10px)
-			}
-		}
-
-		#product_menu_mobile {
-			display: none
-		}
-
-		@media screen and (max-width: 990px) {
-			#product_menu_mobile {
-				display: block
-			}
-		}
-
-		#product_menu_mobile .content_lv0 {
-			position: fixed;
-			width: 27%;
-			height: calc(100% - 99px);
-			overflow: hidden;
-			overflow-y: auto;
-			overflow-x: hidden;
-			transition: 0.5s all ease;
-			-webkit-transition: 0.5s all ease
-		}
-
-		@media screen and (max-width: 650px) {
-			#product_menu_mobile .content_lv0 {
-				width: 27%
-			}
-		}
-
-		/*# sourceMappingURL=drop_down_mobile.css.map */
-		.breadcrumb {
-			padding: 12px 0 12px 0
-		}
-
-		@media screen and (max-width: 400px) {
-			.breadcrumb {
-				padding: 3px 0 5px 0
-			}
-		}
-
-		.breadcrumb::after {
-			display: block;
-			clear: both;
-			content: " "
-		}
-
-		.breadcrumb__item {
-			display: inline-block;
-			margin-right: 20px;
-			list-style: none;
-			color: #eee;
-			font-size: 14px;
-			position: relative
-		}
-
-		.breadcrumb__item a {
-			color: #999;
-			text-decoration: none
-		}
-
-		.breadcrumb__item a:hover {
-			color: #000
-		}
-
-		.breadcrumb__item::after {
-			display: block;
-			width: 14px;
-			height: 15px;
-			color: #b6af96;
-			content: "";
-			background: url('data:image/svg+xml;utf8,<svg  width="10px" height="10px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" ><path fill="gray" d="M17.525 36.465l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L205.947 256 10.454 451.494c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l211.051-211.05c4.686-4.686 4.686-12.284 0-16.971L34.495 36.465c-4.686-4.687-12.284-4.687-16.97 0z" class=""></path></svg>');
-			background-repeat: no-repeat;
-			position: absolute;
-			top: 6px;
-			right: -21px
-		}
-
-		.breadcrumb__item:last-child a {
-			color: var(--main-color);
-			font-size: 14px
-		}
-
-		.breadcrumb__item:last-child::after {
-			content: "" !important;
-			display: none
-		}
-
-		@media screen and (max-width: 400px) {
-			.breadcrumb__item {
-				font-size: 13px
-			}
-		}
-
-		@media screen and (max-width: 360px) {
-			.breadcrumb__item {
-				font-size: 12px
-			}
-		}
-
-		/*# sourceMappingURL=breadcrumbs_simple.css.map */
-		.banners_wrapper .item {
-			position: relative
-		}
-
-		.banners_wrapper .item span {
-			display: grid
-		}
-
-		.banners_wrapper .wrapper_text {
-			padding: 60px 0px;
-			float: right
-		}
-
-		@media only screen and (max-width: 1050px) {
-			.banners_wrapper .wrapper_text {
-				padding: 60px 10px 60px 0px
-			}
-		}
-
-		@media only screen and (max-width: 625px) {
-			.banners_wrapper .wrapper_text {
-				padding: 40px 10px 40px 0px
-			}
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text {
-				padding: 18px 10px 18px 10px
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_ab {
-			font-size: 22px;
-			font-weight: bold;
-			color: #fff;
-			margin-bottom: 25px
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_ab {
-				font-size: 20px;
-				text-align: center
-			}
-		}
-
-		.banners_wrapper .wrapper_text .text_wrapper {
-			display: flex;
-			align-items: center
-		}
-
-		.banners_wrapper .wrapper_text .text_left {
-			color: #fff;
-			line-height: 25px;
-			font-size: 18px;
-			width: 50%
-		}
-
-		@media only screen and (max-width: 414px) {
-			.banners_wrapper .wrapper_text .text_left {
-				font-size: 15px
-			}
-		}
+		
 
 		
 
@@ -2822,17 +2544,7 @@
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-				<svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
-					xml:space="preserve">
-					<g>
-						<g>
-							<path
-								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
-							</path>
-						</g>
-					</g>
-
-				</svg>
+				<i class="lab la-facebook-f"></i>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">

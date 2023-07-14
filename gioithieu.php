@@ -39,8 +39,7 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');</script>
-    <!-- End Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -94,6 +93,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
+
+    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    
 
     <link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
         href="https://onplaza.vn/rss.xml">

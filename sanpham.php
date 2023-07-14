@@ -83,6 +83,10 @@
     <link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
 
+    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    
+
 	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
@@ -10476,108 +10480,7 @@ Copyright (c) 2015 Daniel Eden
 			width: 18px
 		}
 
-		.popup-login-resgister {
-			width: 600px;
-			position: fixed;
-			background: #331102;
-			z-index: 22222;
-			top: 50px;
-			left: 50%;
-			transform: translateX(-50%);
-			padding: 25px 0px 50px;
-			border-radius: 4px;
-			overflow: hidden;
-			box-sizing: border-box;
-			overflow-y: auto;
-			overflow-x: hidden;
-			height: calc(100% - 50px)
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-track {
-			border-radius: 5px;
-			background-color: #000 !important
-		}
-
-		.popup-login-resgister::-webkit-scrollbar-thumb {
-			border: 0
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister {
-				top: 0px;
-				left: 50%;
-				height: 100%;
-				width: 100%;
-				overflow-y: auto
-			}
-		}
-
-		.popup-login-resgister .close_popup {
-			position: absolute;
-			top: 0px;
-			right: 0px;
-			width: 30px;
-			height: 30px;
-			background: var(--main-color);
-			font-size: 24px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			box-sizing: border-box;
-			border-radius: 50%;
-			cursor: pointer
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister .close_popup {
-				top: 0px;
-				right: 0px
-			}
-		}
-
-		.popup-login-resgister .close_popup svg {
-			width: 14px;
-			height: 14px
-		}
-
-		.popup-login-resgister .title {
-			text-align: center;
-			font-size: 22px;
-			color: #fff;
-			padding-bottom: 15px;
-			border-bottom: 1px solid #ddd;
-			margin-bottom: 18px
-		}
-
-		.popup-login-resgister .social_login {
-			padding: 0px 0px 22px;
-			position: relative;
-			float: right;
-			margin-bottom: 30px;
-			width: 75%
-		}
-
-		@media all and (max-width: 600px) {
-			.popup-login-resgister .social_login {
-				width: 100%
-			}
-		}
-
-		.popup-login-resgister .social_login>a {
-			display: block;
-			position: relative;
-			height: 45px;
-			padding: 0px 0px 0px 52px;
-			margin-bottom: 10px;
-			line-height: 45px;
-			border: 1px solid #4267b2;
-			text-align: center;
-			font-weight: 500;
-			border-radius: 50px;
-			box-sizing: border-box;
-			color: #fff;
-			width: 80%
-		}
+		
 
 		
 
@@ -10681,17 +10584,7 @@ Copyright (c) 2015 Daniel Eden
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-				<svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
-					xml:space="preserve">
-					<g>
-						<g>
-							<path
-								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
-							</path>
-						</g>
-					</g>
-
-				</svg>
+				<i class="lab la-facebook-f"></i>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">

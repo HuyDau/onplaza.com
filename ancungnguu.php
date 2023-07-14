@@ -57,19 +57,16 @@
 	<meta property="og:image:height" content="315">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon"> <!-- Css -->
+	
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
+
 	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
 	<meta name="ICBM" content="21, 105.83">
-	<style amp-custom="">
-		/*# sourceMappingURL=admin_edit.css.map */
-		/*# sourceMappingURL=products.css.map */
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		/*# sourceMappingURL=newsletter.css.map */
-	</style>
+	
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470694556&amp;cv=11&amp;fst=1688470694556&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fan-cung-nguu-hoang-hoan-gia-bao-nhieu&amp;ref=https%3A%2F%2Fonplaza.vn%2Fgia-nhung-huou&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=An%20cung%20ng%C6%B0u%20ho%C3%A0ng%20ho%C3%A0n%20gi%C3%A1%20bao%20nhi%C3%AAu%3F%20Mua%20%E1%BB%9F%20%C4%91%C3%A2u%3F&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>

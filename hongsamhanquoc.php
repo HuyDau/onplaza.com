@@ -78,115 +78,16 @@
     <link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/base.prod.css">
 
+    <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    
+
 	<meta name="geo.placename" content="Hà Nội">
 	<meta name="geo.region" content="VN-HN">
 	<meta name="geo.position" content="21;105.83">
 	<meta name="ICBM" content="21, 105.83">
-
-	<style amp-custom="">
-
-
-		/*# sourceMappingURL=admin_edit.css.map */
-		
-
-		
-
-		
-
-		
-		
-
-		
-
-		
-
-		
-
-		/*# sourceMappingURL=products.css.map */
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		/*# sourceMappingURL=megamenu_mobile.css.map */
-		
-
-		
-
-		
-
-		
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		
-
-		/*# sourceMappingURL=newsletter.css.map */
-	</style>
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
 		href="https://onplaza.vn/rss.xml">
-
-
-
-
 	<meta http-equiv="origin-trial"
 		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async=""
@@ -201,27 +102,11 @@
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0"
 			style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-
-
-
-
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
-
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-				<svg x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;"
-					xml:space="preserve">
-					<g>
-						<g>
-							<path
-								d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717    L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859    c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287    l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285    L284.286,256.002z">
-							</path>
-						</g>
-					</g>
-
-				</svg>
+				<i class="lab la-facebook-f"></i>
 			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
