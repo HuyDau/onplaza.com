@@ -485,9 +485,12 @@ if (isset($_POST['edit_product'])) {
                                 
                                 <div class="form-group">
                                     <label for="">Mô tả: </label>
-                                    <textarea name="dess" cols="80" rows="10">
+                                    <textarea name="dess" id="editor1" cols="80" rows="10">
                                         <?php if(isset($row_prod['des1'])){echo $row_prod['des1'];} ?>
                                     </textarea>
+                                    <script>
+                                        CKEDITOR.replace('editor1')
+                                    </script>
                                 </div>
                                 <div class="form-group">
                                     <label for="">Chi tiết sản phẩm: </label>

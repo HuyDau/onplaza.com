@@ -450,6 +450,8 @@ if (isset($_POST['add_product'])) {
                                         <option value="(Korea) Hàn Quốc">(Korea) Hàn Quốc</option>
                                         <option value="Trung Quốc">Trung Quốc</option>
                                         <option value="Việt Nam">Việt Nam</option>
+                                        <option value="Triều Tiên">Triều Tiên</option>
+                                        <option value="USA (Mỹ)">USA (Mỹ)</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -466,8 +468,11 @@ if (isset($_POST['add_product'])) {
                                 </div>
                                 <div class="form-group">
                                     <label for="">Mô tả: </label>
-                                    <textarea name="dess" cols="80" rows="10">
+                                    <textarea name="dess" id="editor1" cols="80" rows="10">
                                     </textarea>
+                                    <script>
+                                        CKEDITOR.replace('editor1')
+                                    </script>
                                 </div>
                                 <div class="form-group">
                                     <label for="">Chi tiết: </label>
