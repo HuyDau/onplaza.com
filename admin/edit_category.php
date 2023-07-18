@@ -15,11 +15,23 @@ if (isset($_GET['id'])) {
 if (isset($_POST['edit_category'])) {
     $category_code = $_POST['category-code'];
     $category_name = $_POST['category-name'];
+
+    if ($_FILES['image']['name'] == "") {
+        $image = $row_info['image_category'];
+    } else {
+        $image = $_FILES['image']['name'];
+        $image_tmp = $_FILES['image']['tmp_name'];
+        move_uploaded_file($image_tmp, '../uploads/categories/' . $image);
+    }
+
+    $content = $_POST['content'];
+
     $result1 = mysqli_query($conn, "SELECT * FROM categories WHERE name_category = '$category_name' ");
 
 
     $id = $_GET['id'];
-    $edit = "UPDATE categories SET ma_category = '$category_code', name_category = '$category_name' WHERE id_category = $id";
+    $edit = "UPDATE categories SET ma_category = '$category_code', name_category = '$category_name', image_category = '$image', content = '$content' WHERE id_category = $id";
+    
     $query_edit = mysqli_query($conn, $edit);
     if ($query_edit) {
         echo "<script>window.alert('Lưu thành công!');window.location.href = 'category.php'</script>";
@@ -47,6 +59,8 @@ if (isset($_POST['edit_category'])) {
     <link href="assets\css\icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\app.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\style.css" rel="stylesheet" type="text/css">
+
+    <script src="assets/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -390,7 +404,7 @@ if (isset($_POST['edit_category'])) {
                     <div class="row">
                         <div class="col-9" style="margin: auto;">
                             <h2>CHỈNH SỦA DANH MỤC </h2>
-                            <form method="POST" action="">
+                            <form method="POST" action="" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label class="control-label">Mã danh mục: </label>
                                     <input class="form-control form-white" placeholder="Nhập mã danh mục ... " type="text" name="category-code" value="<?php if (isset($row_info['ma_category'])) {
@@ -402,6 +416,22 @@ if (isset($_POST['edit_category'])) {
                                     <input class="form-control form-white" placeholder="Nhập tên danh mục ..." type="text" name="category-name" value="<?php if (isset($row_info['name_category'])) {
                                                                                                                                                 echo $row_info['name_category'];
                                                                                                                                             } ?>">
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Hình ảnh: </label>
+                                    <input type="file" multiple="multiple" name="image" class="form-control">
+                                    <p><?php if(isset($row_info['image_category'])){
+                                      echo  $row_info['image_category'];
+                                    } ?></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">Nội dung: </label>
+                                    <textarea name="content" id="editor" cols="80" rows="10">
+                                        <?php if(isset( $row_info['content'])){echo  $row_info['content'];} ?>
+                                    </textarea>
+                                    <script>
+                                        CKEDITOR.replace('editor')
+                                    </script>
                                 </div>
                                 <div class="text-right pt-2">
                                     <button type="button" class="btn btn-light " data-dismiss="modal"><a style="color: white;" href="category.php">Trở về</a></button>

@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 15, 2023 lúc 01:14 PM
--- Phiên bản máy phục vụ: 10.4.28-MariaDB
--- Phiên bản PHP: 8.2.4
+-- Thời gian đã tạo: Th7 18, 2023 lúc 06:24 PM
+-- Phiên bản máy phục vụ: 10.4.27-MariaDB
+-- Phiên bản PHP: 8.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -30,25 +30,27 @@ SET time_zone = "+00:00";
 CREATE TABLE `categories` (
   `id_category` int(11) NOT NULL,
   `ma_category` varchar(50) NOT NULL,
-  `name_category` varchar(50) NOT NULL
+  `name_category` varchar(50) NOT NULL,
+  `image_category` varchar(255) NOT NULL,
+  `content` longtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `categories`
 --
 
-INSERT INTO `categories` (`id_category`, `ma_category`, `name_category`) VALUES
-(1, 'nhansam', 'Nhân Sâm Hàn Quốc'),
-(2, 'dongtrung', 'Đông Trùng Hạ thảo'),
-(3, 'namlinhchi', 'Nấm Linh Chi Hàn Quốc'),
-(4, 'yensao', 'Yến Sào Khánh Hòa'),
-(5, 'nhunghuou', 'Nhung Hươu'),
-(6, 'ancungnguu', 'An Cung Ngưu'),
-(7, 'tinhdau', 'Tinh Dầu Thông Đỏ'),
-(8, 'matong', 'Mật Ong Nguyên Chất'),
-(9, 'khoangchat', 'Khoáng Chất - Vitamin'),
-(11, 'sam', 'Sâm Ngọc Linh'),
-(12, 'sam', 'Sâm Lai Châu');
+INSERT INTO `categories` (`id_category`, `ma_category`, `name_category`, `image_category`, `content`) VALUES
+(1, 'nhansam', 'Nhân Sâm Hàn Quốc', 'samhanquoc.png', '<p>Trong bốn loại dược liệu tốt nhất cho sức khỏe: S&acirc;m -&nbsp;nhung -&nbsp;quế&nbsp;- phụ,&nbsp;<strong><a href=\"https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html\">nh&acirc;n s&acirc;m</a></strong>&nbsp;được xếp đứng đầu danh s&aacute;ch cho thấy c&oacute; t&aacute;c dụng rất tốt với sức khỏe của con người. Với c&ocirc;ng nghệ hiện đại ng&agrave;y nay nh&acirc;n s&acirc;m H&agrave;n Quốc c&ograve;n được chế biết th&agrave;nh những chế phẩm như cao hồng s&acirc;m, hồng s&acirc;m củ&nbsp; kh&ocirc;, nước hồng s&acirc;m, hồng s&acirc;m tẩm mật ong, tr&agrave; s&acirc;m&nbsp;... mang lại sự tiện lợi khi sử dụng.&nbsp;</p>\r\n\r\n<p>Qu&yacute; kh&aacute;ch tham khảo gi&aacute; c&aacute;c loại sản phẩm s&acirc;m H&agrave;n phổ biến hiện nay ph&iacute;a dưới. K&eacute;o xuống ph&iacute;a dưới để t&igrave;m hiểu th&ecirc;m th&ocirc;ng tin về s&acirc;m H&agrave;n Quốc trước khi mua.</p>\r\n'),
+(2, 'dongtrung', 'Đông Trùng Hạ thảo', '', '<p>C&aacute;c sản phẩm<strong>&nbsp;<a href=\"https://onplaza.vn/duoc-lieu/dong-trung-ha-thao-n46.html\">Đ&ocirc;ng tr&ugrave;ng hạ thảo</a></strong>&nbsp;được chia ra l&agrave;m 4 loại kh&aacute;c nhau: dạng nguy&ecirc;n con của T&acirc;y Tạng, dạng nấm, dạng nước v&agrave; dạng vi&ecirc;n. Trong đ&oacute;</p>\r\n\r\n<ul>\r\n	<li>Đ&ocirc;ng tr&ugrave;ng hạ thảo hộp dạng vi&ecirc;n: Gi&aacute; b&aacute;n tr&ecirc;n thị trường hiện nay l&agrave; 650.00-1.800.000 VNĐ/hộp/30 vi&ecirc;n.</li>\r\n	<li>Đ&ocirc;ng tr&ugrave;ng hạ thảo dạng nước: Gi&aacute; b&aacute;n giao động từ 900.000-1.500.000 VNĐ/hộp/ 30 g&oacute;i nước.</li>\r\n	<li>Nấm đ&ocirc;ng tr&ugrave;ng c&oacute; gi&aacute; ở mức trung b&igrave;nh khoảng 50 - 60 triệu 1kg loại tươi,</li>\r\n	<li>Nấm sấy kh&ocirc; gi&aacute; b&aacute;n khoảng 200 - 300 triệu 1kg</li>\r\n</ul>\r\n\r\n<p>V&agrave; gi&aacute; đắt đỏ nhất phải kể đến loại đ&ocirc;ng tr&ugrave;ng hạ thảo tự nhi&ecirc;n của T&acirc;y Tạng, gi&aacute; b&aacute;n&nbsp;l&ecirc;n đến gần 2 tỷ 1kg.</p>\r\n\r\n<p><strong><em>Quan trọng n&ecirc;n xem : Nghe chuy&ecirc;n gia nhận định về đ&ocirc;ng tr&ugrave;ng hạ thảo</em></strong></p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"415\" sandbox=\"\" src=\"https://www.youtube.com/embed/lw76H8EineM\" title=\"YouTube video player\" width=\"760\"></iframe></p>\r\n'),
+(3, 'namlinhchi', 'Nấm Linh Chi Hàn Quốc', 'namlinhchihanquoc.png', ''),
+(4, 'yensao', 'Yến Sào Khánh Hòa', '', ''),
+(5, 'nhunghuou', 'Nhung Hươu', 'namlinhchihanquoc.png', ''),
+(6, 'ancungnguu', 'An Cung Ngưu', '', ''),
+(7, 'tinhdau', 'Tinh Dầu Thông Đỏ', '', ''),
+(8, 'matong', 'Mật Ong Nguyên Chất', '', ''),
+(9, 'khoangchat', 'Khoáng Chất - Vitamin', '', ''),
+(11, 'sam', 'Sâm Ngọc Linh', '', ''),
+(12, 'sam', 'Sâm Lai Châu', '', '');
 
 -- --------------------------------------------------------
 
@@ -246,7 +248,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id_category` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id_category` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT cho bảng `portfolio`

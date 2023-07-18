@@ -505,9 +505,9 @@
 												<div class="wraper_item cls " alt="Dược liệu cao cấp" data-menu_tags="908" data-menu_idt="0" style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;" nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php" title="Nhân sâm hàn quốc">
-																Nhân sâm hàn quốc
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+                                                                Nhân sâm hàn quốc
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
@@ -545,9 +545,9 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="dongtrunghathao.php" title="Đông trùng hạ thảo">
-																Đông trùng hạ thảo
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+                                                                Nhân sâm hàn quốc
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
@@ -564,7 +564,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="namlinhchihanquoc.php" title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
 															<ul class="item_lv2">
@@ -592,9 +592,9 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="yensaokhanhhoa.php" title="Yến sào Khánh Hoà">
-																Yến sào Khánh Hoà
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
+                                                                Yến sào Khánh Hoà
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
 																		Tổ Yến Thô
@@ -617,9 +617,9 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhunghuou.php" title="Nhung hươu">
-																Nhung hươu
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
+                                                                Nhung hươu
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
 																		Nhung hươu tươi
@@ -642,9 +642,9 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="ancungnguu.php" title="An cung ngưu">
-																An cung ngưu
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
+                                                                An cung ngưu
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
@@ -655,14 +655,14 @@
 															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1" href="tinhdauthongdo.php" title="Tinh dầu thông đỏ">
-																Tinh dầu thông đỏ
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
+                                                                Tinh dầu thông đỏ
+                                                            </a>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="matongnguyenchat.php" title="Mật Ong Nguyên Chất">
-																Mật Ong Nguyên Chất
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
+                                                                Mật Ong Nguyên Chất
+                                                            </a>
 															<ul class="item_lv2">
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
 																		Mật Ong Rừng

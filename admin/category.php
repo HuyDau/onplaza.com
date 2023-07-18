@@ -22,17 +22,21 @@ if (isset($_POST['add'])) {
     $category_code = $_POST['category-code'];
     $category_name = $_POST['category-name'];
 
+    $image = $_FILES['image']['name'];
+    $image_tmp = $_FILES['image']['tmp_name'];
+
     $result1 = mysqli_query($conn, "SELECT * FROM categories WHERE name_category = '$category_name' ");
 
     if ( mysqli_num_rows($result1) > 0) {
         echo "<script>window.alert('Danh mục tồn tại !');</script>";
     } else {
-        $add_category = "INSERT INTO `categories`(`id_category`, `ma_category`, `name_category`) VALUES ('','$category_code','$category_name')";
+        $add_category = "INSERT INTO `categories`(`id_category`, `ma_category`, `name_category`, `image_category`) VALUES ('','$category_code','$category_name','$image')";
         $querry_add_category = mysqli_query($conn, $add_category);
         if ($querry_add_category) {
             echo "<script>window.alert('Thêm thành công!');window.location.href = 'category.php'</script>";
         }
     }
+    move_uploaded_file($image_tmp, '../uploads/categories/' . $image);
 }
 
 
@@ -64,6 +68,8 @@ if (isset($_POST['add'])) {
     <link href="assets\css\style.css" rel="stylesheet" type="text/css">
 
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+
+    <script src="assets/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -419,7 +425,7 @@ if (isset($_POST['add'])) {
                             </a>
                         </div>
                     </div>
-                    <form method="POST" class="modal fade" id="add-category" tabindex="-1">
+                    <form method="POST" class="modal fade" id="add-category" tabindex="-1"enctype="multipart/form-data" >
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -439,6 +445,19 @@ if (isset($_POST['add'])) {
                                             <input class="form-control form-white" placeholder="Nhập tên danh mục ..." type="text" name="category-name" value="<?php if (isset($var['name_category'])) {
                                                                                                                                                             echo $var['name_category'];
                                                                                                                                                         } ?>">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Hình ảnh: </label>
+                                            <input type="file" multiple="multiple" name="image" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Nội dung: </label>
+                                            <textarea name="content" id="editor" cols="80" rows="10">
+
+                                            </textarea>
+                                            <script>
+                                                CKEDITOR.replace('editor')
+                                            </script>
                                         </div>
                                         <div class="text-right pt-2">
                                             <button type="button" class="btn btn-light " data-dismiss="modal" name="close">Đóng</button>
@@ -466,6 +485,7 @@ if (isset($_POST['add'])) {
                                                 <th>STT</th>
                                                 <th>Mã danh mục</th>
                                                 <th>Tên danh mục</th>
+                                                <th>Hình ảnh</th>                                                                                                        
                                                 <th></th>
                                                 <th></th>
                                             </tr>
@@ -485,6 +505,9 @@ if (isset($_POST['add'])) {
                                                     </td>
                                                     <td>
                                                         <?= $row['name_category'] ?>
+                                                    </td>
+                                                    <td>
+                                                        <img class="image_product" src="../uploads/categories/<?=$row['image_category']?>"/>
                                                     </td>
                                                     <td><a href="edit_category.php?id=<?php echo $row['id_category']; ?>" name="edit" class="edit"><i class="icon-edit la la-edit"></i></a></td>
                                                     <td><a onclick="return Del1('<?php echo $row['name_category']; ?>')" class="delete" href="delete_category.php?id=<?php echo $row['id_category']; ?>"><i class="icon-delete la la-trash-o"></i></a></td>

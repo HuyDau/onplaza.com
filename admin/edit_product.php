@@ -423,7 +423,7 @@ if (isset($_POST['edit_product'])) {
 
                     <div class="row">
                         <div class="col-9" style="margin: auto;">
-                            <h2>Chính sửa thông tin sản phẩm</h2>
+                            <h2>Chỉnh sửa thông tin sản phẩm</h2>
                             <form method="POST" action="" enctype="multipart/form-data">
                                 <div class="form-group">
                                     <label class="control-label">Mã sản phẩm: </label>

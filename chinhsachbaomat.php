@@ -614,9 +614,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php" title="Nhân sâm hàn quốc">
-																Nhân sâm hàn quốc
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+                                                                Nhân sâm hàn quốc
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
@@ -678,9 +678,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="dongtrunghathao.php" title="Đông trùng hạ thảo">
-																Đông trùng hạ thảo
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=2" title="Đông trùng hạ thảo">
+                                                                Đông Trùng Hạ Thảo
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
@@ -707,7 +707,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="namlinhchihanquoc.php" title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
 															<ul class="item_lv2">
@@ -751,9 +751,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="yensaokhanhhoa.php" title="Yến sào Khánh Hoà">
-																Yến sào Khánh Hoà
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
+                                                                Yến sào Khánh Hoà
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
@@ -790,9 +790,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhunghuou.php" title="Nhung hươu">
-																Nhung hươu
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
+                                                                Nhung hươu
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
@@ -829,9 +829,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="ancungnguu.php" title="An cung ngưu">
-																An cung ngưu
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
+                                                                An cung ngưu
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
@@ -848,16 +848,16 @@
 
 
 														<div class="item cls ">
-															<a class="item_lv1" href="tinhdauthongdo.php" title="Tinh dầu thông đỏ">
-																Tinh dầu thông đỏ
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
+                                                                Tinh dầu thông đỏ
+                                                            </a>
 														</div>
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="matongnguyenchat.php" title="Mật Ong Nguyên Chất">
-																Mật Ong Nguyên Chất
-															</a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
+                                                                Mật Ong Nguyên Chất
+                                                            </a>
 															<ul class="item_lv2">
 
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
@@ -915,23 +915,23 @@
 
 											<div class="sub-menu sub-menu-level1 has_child  ">
 
-												<a href="thucphamchucnang.php" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
-													<span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
-															<g>
-																<g>
-																	<path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
-			c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555
-			c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381
-			c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368
-			c-1.515,1.109-2.965,2.24-4.459,3.371C79.488,250.176,0,404.821,0,458.667c0,5.888,4.779,10.667,10.667,10.667
-			s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299
-			c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
-			C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
-																</g>
-															</g>
+												<a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
+                                                    <span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
+                                                            <g>
+                                                                <g>
+                                                                    <path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
+    c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555
+    c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381
+    c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368
+    c-1.515,1.109-2.965,2.24-4.459,3.371C79.488,250.176,0,404.821,0,458.667c0,5.888,4.779,10.667,10.667,10.667
+    s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299
+    c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
+    C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
+                                                                </g>
+                                                            </g>
 
-														</svg></span>
-													Thực phẩm chức năng </a>
+                                                        </svg></span>
+                                                    Thực phẩm chức năng </a>
 
 
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">

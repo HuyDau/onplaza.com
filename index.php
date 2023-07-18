@@ -14,6 +14,9 @@ $sql_portfolio_khoangchat = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 $sql_portfolio_samngoclinh = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 11");
 $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER JOIN categories ON portfolio.id_category = categories.id_category WHERE portfolio.id_category = 12");
 
+
+// Category
+
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
@@ -27,7 +30,6 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
     <meta name="dc.language" content="VN">
     <meta name="dc.source" content="https://onplaza.vn/">
     <meta name="dc.relation" content="https://onplaza.vn/">
-
     <meta name="dc.title" content="Công Ty Onplaza - Thế giới dinh dưỡng">
     <meta name="dc.keywords" content="">
     <meta name="dc.subject" content="Công Ty Onplaza - Thế giới dinh dưỡng">
@@ -576,7 +578,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="nhansamhanquoc.php" title="Nhân sâm hàn quốc">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
                                                                 Nhân sâm hàn quốc
                                                             </a>
                                                             <ul class="item_lv2">
@@ -594,7 +596,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="dongtrunghathao.php" title="Đông trùng hạ thảo">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=2" title="Đông trùng hạ thảo">
                                                                 Đông trùng hạ thảo
                                                             </a>
                                                             <ul class="item_lv2">
@@ -614,9 +616,9 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="namlinhchihanquoc.php" title="Nấm linh chi Hàn Quốc">
-                                                                Nấm linh chi Hàn Quốc
-                                                            </a>
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
+																Nấm linh chi Hàn Quốc
+															</a>
                                                             <ul class="item_lv2">
                                                                 <?php
                                                                 foreach ($sql_portfolio_nam as $item) {
@@ -634,7 +636,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="yensaokhanhhoa.php" title="Yến sào Khánh Hoà">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
                                                                 Yến sào Khánh Hoà
                                                             </a>
                                                             <ul class="item_lv2">
@@ -652,7 +654,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="nhunghuou.php" title="Nhung hươu">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
                                                                 Nhung hươu
                                                             </a>
                                                             <ul class="item_lv2">
@@ -670,7 +672,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="ancungnguu.php" title="An cung ngưu">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
                                                                 An cung ngưu
                                                             </a>
                                                             <ul class="item_lv2">
@@ -688,14 +690,14 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
 
                                                         <div class="item cls ">
-                                                            <a class="item_lv1" href="tinhdauthongdo.php" title="Tinh dầu thông đỏ">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
                                                                 Tinh dầu thông đỏ
                                                             </a>
                                                         </div>
 
 
                                                         <div class="item cls cat_item2">
-                                                            <a class="item_lv1" href="matongnguyenchat.php" title="Mật Ong Nguyên Chất">
+                                                            <a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
                                                                 Mật Ong Nguyên Chất
                                                             </a>
                                                             <ul class="item_lv2">
@@ -749,7 +751,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                                             <div class="sub-menu sub-menu-level1 has_child  ">
 
-                                                <a href="thucphamchucnang.php" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
+                                                <a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
                                                     <span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
                                                             <g>
                                                                 <g>
