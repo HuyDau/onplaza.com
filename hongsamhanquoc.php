@@ -39,8 +39,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	<!-- End Google Tag Manager -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+	
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -52,7 +51,7 @@
 
 		gtag('config', 'UA-173996513-1');
 	</script>
-	<!-- <link rel="author" href="delecweb.com" /> -->
+	
 	<meta property="og:type" content="website">
 
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
@@ -872,33 +871,6 @@
 
 
 
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
 											<div class="sub-menu sub-menu-level1 has_child  ">
 
 												<a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
@@ -939,33 +911,6 @@
 
 
 
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
 											<div class="sub-menu sub-menu-level1   ">
 
 												<a href="thuonghieu.php" class="level_0 sort sub-menu-item" data-menu_tags="910" id="menu_item_910" title="Sản phẩm thương hiệu">
@@ -989,33 +934,6 @@
 
 
 											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
 
 
 
@@ -1060,33 +978,6 @@
 
 
 											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
 
 
 

@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("config/config.php");
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
 
@@ -36,8 +40,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	<!-- End Google Tag Manager -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -48,7 +51,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-173996513-1');
 	</script>
-	<!-- <link rel="author" href="delecweb.com" /> -->
+
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
@@ -82,6 +85,94 @@
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470161456&amp;cv=11&amp;fst=1688470161456&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fthuong-hieu&amp;ref=https%3A%2F%2Fonplaza.vn%2Fthuc-pham-chuc-nang&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=S%E1%BA%A3n%20ph%E1%BA%A9m%20th%C6%B0%C6%A1ng%20hi%E1%BB%87u%20n%E1%BB%95i%20ti%E1%BA%BFng%20do%20Onplaza%20Vi%E1%BB%87t%20Ph%C3%A1p%20cung%20c%E1%BA%A5p&amp;auid=568503462.1688460212&amp;uaa=x86&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B8.0.0.0%7CChromium%3B114.0.5735.199%7CGoogle%2520Chrome%3B114.0.5735.199&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
+
+
+	<style>
+		.products-cat-frame-inner .cat-title {
+			background-color: #220A005c;
+			text-align: left;
+			padding-bottom: 0px;
+		}
+
+		.products-cat-frame-inner .cat-title h1 {
+			color: #FFB26F;
+		}
+
+		.products-cat-frame-inner .summary_content {
+			padding-top: 0px;
+		}
+
+		.products-cat-frame-inner {}
+
+		#products-cat {
+			background-color: #220A00;
+		}
+
+		.product_ajj .products_home_slideshow {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0px -10px;
+		}
+
+		.products-cat-frame .product_grid .item {
+			width: calc(calc(100% / 2) - 20px);
+			margin: 0px 10px 30px;
+		}
+
+		@media screen and (max-width:900px) {
+			.products-cat-frame .product_grid .item {
+				width: calc(calc(100% / 3) - 20px);
+				margin: 0px 10px 20px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width:650px) {
+			.products-cat-frame .product_grid .item {
+				width: calc(calc(100% / 2) - 10px);
+				margin: 0px 5px 20px;
+				padding: 0px;
+			}
+		}
+
+		#products-cat .cat-title-main a {
+			background-color: #5D1C00;
+			color: #FFB26F;
+		}
+
+		#products-cat .cat-title-main a:before {
+			background-color: #471500;
+		}
+
+		.breadcrumbs {
+			background-color: #370008;
+			border: unset;
+		}
+
+		.description_start {
+			color: #FFFFFF;
+		}
+
+		.block_products_filter .field_item {
+			background: #5B0000;
+		}
+
+		.block_products_filter .field_label .item a {
+			color: #FFFFFF;
+		}
+
+		.block_products_filter .field_label .item a:before {
+			background: #FFFFFF;
+		}
+
+		.block_products_filter .field_item {
+			border: 1px solid #BB0101;
+		}
+
+		.block_products_filter .field_item .field_name {
+			border-right: 1px solid #BB0101;
+		}
+	</style>
 </head>
 
 <body style="">
@@ -192,37 +283,37 @@
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 31; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 31; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 12; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 12; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
 											<?php
-                                            $i;
-                                            for ($i = 1970; $i <= 2023; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1970; $i <= 2023; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
-									</div> 
+									</div>
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -506,8 +597,8 @@
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
@@ -546,8 +637,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
@@ -593,8 +684,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
-                                                                Yến sào Khánh Hoà
-                                                            </a>
+																Yến sào Khánh Hoà
+															</a>
 															<ul class="item_lv2">
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
 																		Tổ Yến Thô
@@ -618,8 +709,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
-                                                                Nhung hươu
-                                                            </a>
+																Nhung hươu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
 																		Nhung hươu tươi
@@ -643,8 +734,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
-                                                                An cung ngưu
-                                                            </a>
+																An cung ngưu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
@@ -656,13 +747,13 @@
 														</div>
 														<div class="item cls ">
 															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
-                                                                Tinh dầu thông đỏ
-                                                            </a>
+																Tinh dầu thông đỏ
+															</a>
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
-                                                                Mật Ong Nguyên Chất
-                                                            </a>
+																Mật Ong Nguyên Chất
+															</a>
 															<ul class="item_lv2">
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
 																		Mật Ong Rừng
@@ -1418,7 +1509,7 @@
 										sản phẩm chính hãng.</p>
 									<p style="text-align:center"><strong>THẾ GIỚI DINH DƯỠNG ON PLAZA - TỔNG ĐẠI LÝ PHÂN
 											PHỐI CÁC DÒNG SẢN PHẨM SỨC KHỎE HÀNG CHÍNH HÃNG, CHẤT LƯỢNG CAO</strong></p>
-									<p style="text-align:center"><img class="lazy2" alt="" height="758" width="1600" src="/upload_images/images/duoc-lieu-cao-cap/nam-linh-chi-han-quoc.jpg"></p>
+									
 									<p>- Hiện tại nhà nước ta đang cố gắng cải thiện nạn buôn bán hàng giả, hàng nhái
 										bằng một số chế tài. Tuy vậy để thị trường Việt Nam vững bước đi lên quan trọng
 										là ý thức từ chính các đơn vị phân phối trong nước, phải hiểu rõ nguồn gốc, giá
@@ -1467,97 +1558,7 @@
 							var cr_layout_type = 'viewList';
 							var cr_items = [];
 						</script>
-						<style>
-							.products-cat-frame-inner .cat-title {
-								background-color: #220A005c;
-								text-align: left;
-								padding-bottom: 0px;
-							}
 
-							.products-cat-frame-inner .cat-title h1 {
-								color: #FFB26F;
-							}
-
-							.products-cat-frame-inner .summary_content {
-								color: #;
-								padding-top: 0px;
-							}
-
-							.products-cat-frame-inner {}
-
-							#products-cat {
-								background-color: #220A00;
-							}
-
-							.product_ajj .products_home_slideshow {
-								display: flex;
-								flex-wrap: wrap;
-								margin: 0px -10px;
-							}
-
-							.products-cat-frame .product_grid .item {
-								width: calc(calc(100% / 2) - 20px);
-								margin: 0px 10px 30px;
-							}
-
-							@media screen and (max-width:900px) {
-								.products-cat-frame .product_grid .item {
-									width: calc(calc(100% / 3) - 20px);
-									margin: 0px 10px 20px;
-									padding: 0px;
-								}
-							}
-
-							@media screen and (max-width:650px) {
-								.products-cat-frame .product_grid .item {
-									width: calc(calc(100% / 2) - 10px);
-									margin: 0px 5px 20px;
-									padding: 0px;
-								}
-							}
-
-							/* .products-cat-frame .product_grid .item2{
-			width: calc(calc(100% / ) - 20px);
-			margin: 0px 10px 30px;
-			} */
-							#products-cat .cat-title-main a {
-								background-color: #5D1C00;
-								color: #FFB26F;
-							}
-
-							#products-cat .cat-title-main a:before {
-								background-color: #471500;
-							}
-
-							.breadcrumbs {
-								background-color: #370008;
-								border: unset;
-							}
-
-							.description_start {
-								color: #FFFFFF;
-							}
-
-							.block_products_filter .field_item {
-								background: #5B0000;
-							}
-
-							.block_products_filter .field_label .item a {
-								color: #FFFFFF;
-							}
-
-							.block_products_filter .field_label .item a:before {
-								background: #FFFFFF;
-							}
-
-							.block_products_filter .field_item {
-								border: 1px solid #BB0101;
-							}
-
-							.block_products_filter .field_item .field_name {
-								border-right: 1px solid #BB0101;
-							}
-						</style>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -1570,7 +1571,7 @@
 						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 							<div class="item">
 								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101" class="banner_item"> <span class="wrapper_ap">
-										<img class="lazy after-lazy" alt="Hệ thống cửa hàng" src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg" srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp" style="display: inline;">
+										<img class="lazy after-lazy" alt="Hệ thống cửa hàng" src="uploads/thuonghieu/nam-linh-chi-han-quoc.jpg" srcset="uploads/thuonghieu/nam-linh-chi-han-quoc.jpg" style="display: inline;">
 									</span> </a>
 							</div>
 							<div class="clear"></div>

@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("config/config.php");
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
 
@@ -39,8 +43,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	<!-- End Google Tag Manager -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -52,7 +55,7 @@
 
 		gtag('config', 'UA-173996513-1');
 	</script>
-	<!-- <link rel="author" href="delecweb.com" /> -->
+
 	<meta property="og:type" content="website">
 
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
@@ -60,16 +63,9 @@
 	<meta property="og:title" content="Bảng giá nhân sâm việt nam 1 kg bao nhiêu tiền - Giá sâm Việt Nam">
 	<meta property="og:url" content="samvietnam.php">
 	<meta property="og:description" content="Giá nhân sâm việt nam bao nhiêu tiền 1 kg là câu hỏi của nhiều người, tham khảo ngay bài viết sau để biết thêm chính xác giá bán của sâm việt nam hiện nay,Giá sâm Việt Nam,">
-
-
-
-
-
 	<link rel="canonical" href="samvietnam.php">
-
 	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
-
 	<meta property="og:image" content="https://onplaza.vn/images/products/2023/04/20/resized/sam-lai-chau-viet-nam-loai-30-cu-1-kg_1681974988.jpg">
 	<meta property="og:image:width" content="600 ">
 	<meta property="og:image:height" content="315">
@@ -91,12 +87,100 @@
 	<meta name="ICBM" content="21, 105.83">
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed" href="https://onplaza.vn/rss.xml">
 
-
-
-
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470228903&amp;cv=11&amp;fst=1688470228903&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fgia-sam-viet-nam&amp;ref=https%3A%2F%2Fonplaza.vn%2Fqua-bieu-cao-cap&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=B%E1%BA%A3ng%20gi%C3%A1%20nh%C3%A2n%20s%C3%A2m%20vi%E1%BB%87t%20nam%201%20kg%20bao%20nhi%C3%AAu%20ti%E1%BB%81n%20-%20Gi%C3%A1%20s%C3%A2m%20Vi%E1%BB%87t%20Nam&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
+
+	<style>
+		.products-cat-frame-inner .cat-title {
+			background-color: #220A005c;
+			border-bottom: 1px solid #3c1403;
+
+		}
+
+		.products-cat-frame-inner .cat-title h1 {
+			color: #FFB26F;
+		}
+
+		.products-cat-frame-inner .summary_content {}
+
+		.products-cat-frame-inner {}
+
+		#products-cat {
+			background-color: #220A00;
+		}
+
+		.product_ajj .products_home_slideshow {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0px -10px;
+
+		}
+
+		@media screen and (max-width:650px) {}
+
+		.product_ajj .products_home_slideshow .item {
+			width: calc(calc(100% / 3) - 20px);
+			margin: 0px 10px 30px;
+		}
+
+		@media screen and (max-width:900px) {
+			.product_ajj .products_home_slideshow .item {
+				width: calc(calc(100% / 3) - 20px);
+				margin: 0px 10px 20px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width:650px) {
+			.product_ajj .products_home_slideshow .item {
+				width: calc(calc(100% / 2) - 10px);
+				margin: 0px 5px 20px;
+				padding: 0px;
+			}
+		}
+
+		.product_ajj .products_home_slideshow .item2 {
+			width: calc(calc(100% / 4) - 20px);
+			margin: 0px 10px 30px;
+		}
+
+		@media screen and (max-width:900px) {
+			.product_ajj .products_home_slideshow .item2 {
+				width: calc(calc(100% / 3) - 20px);
+				margin: 0px 10px 20px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width:650px) {
+			.product_ajj .products_home_slideshow .item2 {
+				width: calc(calc(100% / 2) - 10px);
+				margin: 0px 5px 20px;
+				padding: 0px;
+			}
+		}
+
+
+		#products-cat .cat-title-main a {
+			background-color: #5D1C00;
+			color: #FFB26F;
+
+		}
+
+		#products-cat .cat-title-main a:before {
+			background-color: #471500;
+		}
+
+		.breadcrumbs {
+			background-color: #370008;
+			border: unset;
+		}
+
+		.description_start {
+			color: #FFFFFF;
+		}
+	</style>
 </head>
 
 
@@ -115,8 +199,8 @@
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-                <i class="las la-times"></i>
-            </div>
+				<i class="las la-times"></i>
+			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
 					<ul class="login_select cls">
@@ -222,39 +306,39 @@
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 31; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 31; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 12; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 12; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
 											<?php
-                                            $i;
-                                            for ($i = 1970; $i <= 2023; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1970; $i <= 2023; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 									</div>
 
-									
+
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -611,8 +695,8 @@
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
@@ -675,8 +759,8 @@
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=2" title="Đông trùng hạ thảo">
-                                                                Đông Trùng Hạ Thảo
-                                                            </a>
+																Đông Trùng Hạ Thảo
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
@@ -748,8 +832,8 @@
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
-                                                                Yến sào Khánh Hoà
-                                                            </a>
+																Yến sào Khánh Hoà
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
@@ -787,8 +871,8 @@
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
-                                                                Nhung hươu
-                                                            </a>
+																Nhung hươu
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
@@ -826,8 +910,8 @@
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
-                                                                An cung ngưu
-                                                            </a>
+																An cung ngưu
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
@@ -845,15 +929,15 @@
 
 														<div class="item cls ">
 															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
-                                                                Tinh dầu thông đỏ
-                                                            </a>
+																Tinh dầu thông đỏ
+															</a>
 														</div>
 
 
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
-                                                                Mật Ong Nguyên Chất
-                                                            </a>
+																Mật Ong Nguyên Chất
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
@@ -882,40 +966,13 @@
 
 
 
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
-
-
-
 											<div class="sub-menu sub-menu-level1 has_child  ">
 
 												<a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
-                                                    <span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
-                                                            <g>
-                                                                <g>
-                                                                    <path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
+													<span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
+															<g>
+																<g>
+																	<path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
     c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555
     c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381
     c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368
@@ -923,11 +980,11 @@
     s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299
     c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
     C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
-                                                                </g>
-                                                            </g>
+																</g>
+															</g>
 
-                                                        </svg></span>
-                                                    Thực phẩm chức năng </a>
+														</svg></span>
+													Thực phẩm chức năng </a>
 
 
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
@@ -946,33 +1003,6 @@
 
 
 											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
 
 
 
@@ -999,33 +1029,6 @@
 
 
 											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
 
 
 
@@ -1070,33 +1073,6 @@
 
 
 											</div>
-
-
-
-
-
-
-
-
-
-
-
-											<!--	end LEVEL 1			-->
-
-
-
-
-
-
-
-
-											<!--	LEVEL 1			-->
-
-
-
-
-
-
 
 
 
@@ -2426,36 +2402,38 @@
 										<h2 class="cat-title-main"><a href="samngoclinh.php" title="Giá sâm Việt Nam"><span>Giá sâm ngọc linh</span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Giá sâm ngọc linh" src="https://onplaza.vn/images/products/cat/large/banner-danh-muc-sam-ngoc-linh_1670653938.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-danh-muc-sam-ngoc-linh_1670653938.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Giá sâm ngọc linh" src="uploads/categories/samngoclinh.png" srcset="uploads/categories/samngoclinh.png" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_50">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<!--	EACH Product	Sâm ngọc linh			-->
+													<?php
+													$samngoclinh = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 11");
+													foreach ($samngoclinh as $item_samngoclinh) {
+													?><div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
 
-																<a href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="Bình cổ sâm Trường Thọ Ginseng 1999 Việt Nam loại đặc biệt">
-																	<img class="lazy after-lazy" alt="Bình cổ sâm Trường Thọ Ginseng 1999 Việt Nam loại đặc biệt" src="https://onplaza.vn/images/products/2022/12/09/resized/ruou-co-sam-truong-tho_1670579206.jpg" srcset="https://onplaza.vn/images/products/2022/12/09/resized/ruou-co-sam-truong-tho_1670579206.jpg.webp" style="display: inline;"> </a>
+																	<a href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="<?= $item_samngoclinh['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_samngoclinh['name_product'] ?>" src="uploads/products/<?= $item_samngoclinh['image_product'] ?>" srcset="uploads/products/<?= $item_samngoclinh['image_product'] ?>" style="display: inline;"> </a>
 
-															</figure>
+																</figure>
 
 
 
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="Bình cổ sâm Trường Thọ Ginseng 1999 Việt Nam loại đặc biệt" class="name">
-																		Bình cổ sâm Trường Thọ Ginseng 1999 Việt Nam
-																		loại đặc biệt </a> </h3>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="<?= $item_samngoclinh['name_product'] ?>" class="name">
+																			<?= $item_samngoclinh['name_product'] ?> </a> </h3>
 
 
-															</div>
+																</div>
 
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">Liên
-																	hệ</span>
-															</div>
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8">Liên
+																		hệ</span>
+																</div>
 
 
 
@@ -2463,139 +2441,20 @@
 
 
 
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="Mua sản phẩm Bình cổ sâm Trường Thọ Ginseng 1999 Việt Nam loại đặc biệt">
-																	Mua sản phẩm
-																</a>
-															</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/binh-co-sam-truong-tho-ginseng-1999-viet-nam-loai-dac-biet/" title="Mua sản phẩm <?= $item_samngoclinh['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
 
 
-														</div> <!-- end .frame_inner -->
+															</div> <!-- end .frame_inner -->
 
-													</div>
+														</div>
 
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-ngoc-linh-thai-lat-ngam-mat-ong/" title="Sâm Ngọc Linh thái lát ngâm mật ong bình 17 lít NS418">
-																	<img class="lazy after-lazy" alt="Sâm Ngọc Linh thái lát ngâm mật ong bình 17 lít NS418" src="https://onplaza.vn/images/products/2020/08/20/resized/sam-ngoc-linh-thai-lat-ngam-mat-ong-binh-17-lit-ns418_1597893534.jpg" srcset="https://onplaza.vn/images/products/2020/08/20/resized/sam-ngoc-linh-thai-lat-ngam-mat-ong-binh-17-lit-ns418_1597893534.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-ngoc-linh-thai-lat-ngam-mat-ong/" title="Sâm Ngọc Linh thái lát ngâm mật ong bình 17 lít NS418" class="name">
-																		Sâm Ngọc Linh thái lát ngâm mật ong bình 17 lít
-																		NS418 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">Liên
-																	hệ</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-ngoc-linh-thai-lat-ngam-mat-ong/" title="Mua sản phẩm Sâm Ngọc Linh thái lát ngâm mật ong bình 17 lít NS418">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-ngoc-linh-cao-cap-04-den-07-kg-cu/" title="Sâm Ngọc Linh rừng tự nhiên 0,4 đến 0,7kg/1 củ">
-																	<img class="lazy after-lazy" alt="Sâm Ngọc Linh rừng tự nhiên 0,4 đến 0,7kg/1 củ" src="https://onplaza.vn/images/products/2021/01/20/resized/sam-ngoc-linh-cao-cap-0-4-den-0-7-kg-1-cu-ns658_1611107221.jpg" srcset="https://onplaza.vn/images/products/2021/01/20/resized/sam-ngoc-linh-cao-cap-0-4-den-0-7-kg-1-cu-ns658_1611107221.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-ngoc-linh-cao-cap-04-den-07-kg-cu/" title="Sâm Ngọc Linh rừng tự nhiên 0,4 đến 0,7kg/1 củ" class="name">
-																		Sâm Ngọc Linh rừng tự nhiên 0,4 đến 0,7kg/1 củ
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">Liên
-																	hệ</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-ngoc-linh-cao-cap-04-den-07-kg-cu/" title="Mua sản phẩm Sâm Ngọc Linh rừng tự nhiên 0,4 đến 0,7kg/1 củ">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-ngoc-linh-mat-ong-hop-30-lo-nho-dong-hop-go/" title="Sâm Ngọc Linh mật ong hộp 30 lọ nhỏ đóng hộp gỗ">
-																	<img class="lazy after-lazy" alt="Sâm Ngọc Linh mật ong hộp 30 lọ nhỏ đóng hộp gỗ" src="https://onplaza.vn/images/products/2022/12/09/resized/ava-ns897_1670577894.jpg" srcset="https://onplaza.vn/images/products/2022/12/09/resized/ava-ns897_1670577894.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-ngoc-linh-mat-ong-hop-30-lo-nho-dong-hop-go/" title="Sâm Ngọc Linh mật ong hộp 30 lọ nhỏ đóng hộp gỗ" class="name">
-																		Sâm Ngọc Linh mật ong hộp 30 lọ nhỏ đóng hộp gỗ
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">Liên
-																	hệ</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-ngoc-linh-mat-ong-hop-30-lo-nho-dong-hop-go/" title="Mua sản phẩm Sâm Ngọc Linh mật ong hộp 30 lọ nhỏ đóng hộp gỗ">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
+													<?php
+													}
+													?>
 
 
 													<!--	end EACH Product				-->
@@ -2624,7 +2483,7 @@
 													<div class="frame_inner">
 														<figure class="product_image ">
 
-															<a href="https://onplaza.vn/sam-tuoi-lai-chau-viet-nam-5-6-nam-tuoi-loai-30-cu-kg/" title="Sâm Việt Nam (Sâm Lai Châu – Sâm Ngọc Linh) 5-6 tuổi loại 30 củ 1 kg">
+															<a href="https://onplaza.vn/sam-tuoi-lai-chau-viet-nam-5-6-nam-tuoi-loai-30-cu-kg/" title="">
 																<img class="lazy after-lazy" alt="Sâm Việt Nam (Sâm Lai Châu – Sâm Ngọc Linh) 5-6 tuổi loại 30 củ 1 kg" src="https://onplaza.vn/images/products/2023/04/20/resized/sam-lai-chau-viet-nam-loai-30-cu-1-kg_1681974988.jpg" srcset="https://onplaza.vn/images/products/2023/04/20/resized/sam-lai-chau-viet-nam-loai-30-cu-1-kg_1681974988.jpg.webp" style="display: inline;"> </a>
 
 														</figure>
@@ -2828,7 +2687,7 @@
 												nơi hội tụ rất nhiều <strong><a href="https://onplaza.vn/tin-tuc-sam/sam-viet-nam-n454.html">những
 														loại sâm quý hiếm nhất Việt Nam</a></strong>.</p>
 
-											<p style="text-align:center"><img class="lazy2" alt="Sâm Việt Nam có giá trị đặc biệt" height="1067" width="800" src="/upload_images/images/Sam-ngoc-linh/gia-tri-sam-viet-nam.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Sâm Việt Nam có giá trị đặc biệt" height="1067" width="800" src="uploads/samvn/gia-tri-sam-viet-nam.png">
 											</p>
 
 											<p dir="ltr" style="text-align:center"><em>Địa hình đặc biệt của Việt Nam sẽ
@@ -2861,7 +2720,7 @@
 												tương đương nhau. Công ty Onplaza thế giới dinh dưỡng&nbsp;chia
 												sẻ&nbsp;về 5 loại sâm nổi bật sau:</p>
 
-											<p dir="ltr" style="text-align:center"><img class="lazy2" alt="Các loại sâm Việt Nam được ưa chuộng nhất hiện nay" height="810" width="800" src="https://samvietnam.net.vn/wp-content/uploads/2022/05/Cac-loai-sam-viet-nam-duoc-ua-thuoc-nhat-hien-nay.jpg">
+											<p dir="ltr" style="text-align:center"><img class="lazy2" alt="Các loại sâm Việt Nam được ưa chuộng nhất hiện nay" height="810" width="800" src="uploads/samvn/Cac-loai-sam-viet-nam-duoc-ua-thuoc-nhat-hien-nay.png">
 											</p>
 
 											<p dir="ltr" style="text-align:center"><em>Các loại sâm Việt Nam hiện
@@ -2898,7 +2757,7 @@
 												với mực nước biển. Do đó khí hậu, thổ nhưỡng rất đặc biệt, địa nhân linh
 												kiệt để sâm phát triển để đạt dưỡng chất tốt trên thế giới.</p>
 
-											<p style="text-align:center"><img class="lazy2" alt="Bảng giá so sánh các loại sâm trồng" height="1641" width="800" src="https://samnuingoclinh.net/wp-content/uploads/2018/07/bang-gia-so-sanh-sam-trong.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Bảng giá so sánh các loại sâm trồng" height="1641" width="800" src="uploads/samvn/bang-gia-so-sanh-sam-trong.png">
 											</p>
 
 											<p dir="ltr" style="text-align:center"><em>Giá nhân sâm Việt Nam trên thị
@@ -2973,7 +2832,7 @@
 												</li>
 											</ul>
 
-											<p style="text-align:center"><img class="lazy2" alt="" height="307" width="800" src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="" height="307" width="800" src="uploads/samvn/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.png">
 											</p>
 
 											<p style="text-align:center"><em>Hệ thống cửa hàng <a href="gioithieu.php">thế giới dinh dưỡng
@@ -3115,101 +2974,6 @@ l13 45 13 -50 c16 -66 77 -206 118 -274 32 -52 33 -59 33 -155 -1 -56 -7 -130
 									</li>
 								</ul>
 							</div>
-
-							<style>
-								.products-cat-frame-inner .cat-title {
-									background-color: #220A005c;
-									border-bottom: 1px solid #3c1403;
-
-								}
-
-								.products-cat-frame-inner .cat-title h1 {
-									color: #FFB26F;
-								}
-
-								.products-cat-frame-inner .summary_content {
-									color: #;
-								}
-
-								.products-cat-frame-inner {}
-
-								#products-cat {
-									background-color: #220A00;
-								}
-
-								.product_ajj .products_home_slideshow {
-									display: flex;
-									flex-wrap: wrap;
-									margin: 0px -10px;
-
-								}
-
-								@media screen and (max-width:650px) {
-									margin: 0px -5px;
-								}
-
-								.product_ajj .products_home_slideshow .item {
-									width: calc(calc(100% / 3) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-								.product_ajj .products_home_slideshow .item2 {
-									width: calc(calc(100% / 4) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-
-								#products-cat .cat-title-main a {
-									background-color: #5D1C00;
-									color: #FFB26F;
-
-								}
-
-								#products-cat .cat-title-main a:before {
-									background-color: #471500;
-								}
-
-								.breadcrumbs {
-									background-color: #370008;
-									border: unset;
-								}
-
-								.description_start {
-									color: #FFFFFF;
-								}
-							</style>
 						</div>
 						<div class="clear"></div>
 					</div>

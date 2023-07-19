@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("config/config.php");
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
 
@@ -7,7 +11,6 @@
 	<title>[Top 10 Thực phập chức năng] Thực phẩm chức năng liệu có nên dùng không?</title>
 	<meta name="description" content="Thực phẩm chức năng (TPCN) được quảng cáo là bổ sung các chất dinh dưỡng cần thiết cho cơ thể, vậy liệu có nên sử dụng thực phẩm chức năng không? TOP các sản phẩm chức năng.,Thực phẩm chức năng,">
 	<meta name="keywords" content="Thực phẩm chức năng">
-
 	<meta name="dc.language" content="VN">
 	<meta name="dc.title" content="[Top 10 Thực phập chức năng] Thực phẩm chức năng liệu có nên dùng không?">
 	<meta name="dc.keywords" content="Thực phẩm chức năng">
@@ -36,8 +39,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	<!-- End Google Tag Manager -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -48,20 +50,16 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-173996513-1');
 	</script>
-	<!-- <link rel="author" href="delecweb.com" /> -->
+
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
 	<meta property="og:title" content="[Top 10 Thực phập chức năng] Thực phẩm chức năng liệu có nên dùng không?">
 	<meta property="og:url" content="thucphamchucnang.php">
 	<meta property="og:description" content="Thực phẩm chức năng (TPCN) được quảng cáo là bổ sung các chất dinh dưỡng cần thiết cho cơ thể, vậy liệu có nên sử dụng thực phẩm chức năng không? TOP các sản phẩm chức năng.,Thực phẩm chức năng,">
-
-
-
 	<link rel="canonical" href="thucphamchucnang.php">
 	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
-
 	<meta property="og:image" content="https://onplaza.vn/images/products/2021/08/13/resized/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004_1628844300.jpg">
 	<meta property="og:image:width" content="600 ">
 	<meta property="og:image:height" content="315">
@@ -82,9 +80,99 @@
 	<meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470138258&amp;cv=11&amp;fst=1688470138258&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fthuc-pham-chuc-nang&amp;ref=https%3A%2F%2Fonplaza.vn%2Fkhoang-chat-vitamin&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=%5BTop%2010%20Th%E1%BB%B1c%20ph%E1%BA%ADp%20ch%E1%BB%A9c%20n%C4%83ng%5D%20Th%E1%BB%B1c%20ph%E1%BA%A9m%20ch%E1%BB%A9c%20n%C4%83ng%20li%E1%BB%87u%20c%C3%B3%20n%C3%AAn%20d%C3%B9ng%20kh%C3%B4ng%3F&amp;auid=568503462.1688460212&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4"></script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
+
+	<style>
+		.products-cat-frame-inner .cat-title {
+			background-color: #220A005c;
+			border-bottom: 1px solid #3c1403;
+		}
+
+		.products-cat-frame-inner .cat-title h1 {
+			color: #FFB26F;
+		}
+
+		.products-cat-frame-inner .summary_content {
+			color: #FFFFFF;
+		}
+
+		.products-cat-frame-inner {}
+
+		#products-cat {
+			background-color: #220A00;
+		}
+
+		.product_ajj .products_home_slideshow {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0px -10px;
+		}
+
+		@media screen and (max-width:650px) {}
+
+		.product_ajj .products_home_slideshow .item {
+			width: calc(calc(100% / 2) - 20px);
+			margin: 0px 10px 30px;
+		}
+
+		@media screen and (max-width:900px) {
+			.product_ajj .products_home_slideshow .item {
+				width: calc(calc(100% / 3) - 20px);
+				margin: 0px 10px 20px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width:650px) {
+			.product_ajj .products_home_slideshow .item {
+				width: calc(calc(100% / 2) - 10px);
+				margin: 0px 5px 20px;
+				padding: 0px;
+			}
+		}
+
+		.product_ajj .products_home_slideshow .item2 {
+			width: calc(calc(100% / 3) - 20px);
+			margin: 0px 10px 30px;
+		}
+
+		@media screen and (max-width:900px) {
+			.product_ajj .products_home_slideshow .item2 {
+				width: calc(calc(100% / 3) - 20px);
+				margin: 0px 10px 20px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width:650px) {
+			.product_ajj .products_home_slideshow .item2 {
+				width: calc(calc(100% / 2) - 10px);
+				margin: 0px 5px 20px;
+				padding: 0px;
+			}
+		}
+
+		#products-cat .cat-title-main a {
+			background-color: #5D1C00;
+			color: #FFB26F;
+		}
+
+		#products-cat .cat-title-main a:before {
+			background-color: #471500;
+		}
+
+		.breadcrumbs {
+			background-color: #370008;
+			border: unset;
+		}
+
+		.description_start {
+			color: #FFFFFF;
+		}
+	</style>
+
 </head>
 
-<body style="">
+<body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
@@ -192,37 +280,37 @@
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 31; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 31; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 12; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 12; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
 											<?php
-                                            $i;
-                                            for ($i = 1970; $i <= 2023; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1970; $i <= 2023; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
-									</div> 
+									</div>
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -506,8 +594,8 @@
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
@@ -546,8 +634,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
@@ -593,8 +681,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
-                                                                Yến sào Khánh Hoà
-                                                            </a>
+																Yến sào Khánh Hoà
+															</a>
 															<ul class="item_lv2">
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
 																		Tổ Yến Thô
@@ -618,8 +706,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
-                                                                Nhung hươu
-                                                            </a>
+																Nhung hươu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
 																		Nhung hươu tươi
@@ -643,8 +731,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
-                                                                An cung ngưu
-                                                            </a>
+																An cung ngưu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
@@ -656,13 +744,13 @@
 														</div>
 														<div class="item cls ">
 															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
-                                                                Tinh dầu thông đỏ
-                                                            </a>
+																Tinh dầu thông đỏ
+															</a>
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
-                                                                Mật Ong Nguyên Chất
-                                                            </a>
+																Mật Ong Nguyên Chất
+															</a>
 															<ul class="item_lv2">
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
 																		Mật Ong Rừng
@@ -1341,29 +1429,37 @@
 										<div class="clear"></div>
 										<div class="product_ajj">
 											<div class="products_home_slideshow product_grid" id="products_home_slideshow_41">
-												<!--	EACH Product				-->
-												<div class="item item2">
-													<div class="frame_inner">
-														<figure class="product_image "> <a href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="Nước diệp lục cao cấp Klink Liquid Chlorophy II – thải độc cho cơ thể K004">
-																<img class="lazy after-lazy" alt="Nước diệp lục cao cấp Klink Liquid Chlorophy II – thải độc cho cơ thể K004" src="https://onplaza.vn/images/products/2021/08/13/large/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004_1628844300.jpg" srcset="https://onplaza.vn/images/products/2021/08/13/large/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004_1628844300.jpg.webp" style="display: inline;"> </a> </figure>
-														<div class="name">
-															<h3><a style="color:#fff" href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="Nước diệp lục cao cấp Klink Liquid Chlorophy II – thải độc cho cơ thể K004" class="name">
-																	Nước diệp lục cao cấp Klink Liquid Chlorophy II –
-																	thải độc cho cơ thể... </a> </h3>
-														</div>
-														<div class="price_arae">
-															<span class="price_current" style="color:#FFE2B8">370.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">481.000₫ </span>
-															</span>
-														</div>
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="Mua sản phẩm Nước diệp lục cao cấp Klink Liquid Chlorophy II – thải độc cho cơ thể K004">
-																Mua sản phẩm
-															</a>
-														</div>
-													</div> <!-- end .frame_inner -->
-												</div>
+												<!--	EACH Product		Khoáng chất Vitamin		-->
+												<?php
+												$khoangchat = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 9");
+												foreach ($khoangchat as $item_khoangchat) {
+												?><div class="item item2">
+														<div class="frame_inner">
+															<figure class="product_image "> <a href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="<?=$item_khoangchat['name_product']?>">
+																	<img class="lazy after-lazy" alt="<?=$item_khoangchat['name_product']?>" src="https://onplaza.vn/images/products/2021/08/13/large/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004_1628844300.jpg" srcset="https://onplaza.vn/images/products/2021/08/13/large/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004_1628844300.jpg.webp" style="display: inline;"> </a> </figure>
+															<div class="name">
+																<h3><a style="color:#fff" href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="<?=$item_khoangchat['name_product']?>" class="name">
+																<?=$item_khoangchat['name_product']?> </a> </h3>
+															</div>
+															<div class="price_arae">
+																<span class="price_current" style="color:#FFE2B8"><?=number_format($item_khoangchat['price'],0,"",".")?>₫</span>
+																<span class="price_old" style="color:#FFE2B8">
+																	<span class="item_old"><?=number_format($item_khoangchat['price'],0,"",".")?>₫ </span>
+																</span>
+															</div>
+															<div class="buy_nows">
+																<a href="https://onplaza.vn/nuoc-diep-luc-cao-cap-klink-liquid-chlorophy-ii-k004/" title="Mua sản phẩm <?=$item_khoangchat['name_product']?>">
+																	Mua sản phẩm
+																</a>
+															</div>
+														</div> <!-- end .frame_inner -->
+													</div>
+
+												<?php
+												}
+												?>
+
+
 												<!--	end EACH Product				-->
 											</div>
 										</div>
@@ -1439,7 +1535,7 @@
 													cơ thể, tăng cường chức năng của các bộ phận từ đó gia tăng sức
 													khỏe, hạn chế bệnh tật về sau. Bởi thế việc tạo dựng thói quen sử
 													dụng thực phẩm chức năng hàng ngày là điều rất cần thiết.</span></p>
-											<p style="text-align:center"><img class="lazy2" alt="Thực phẩm chức năng" height="364" width="600" src="/upload_images/images/Thuc-pham-chuc-nang/thuc%20pham%20chuc%20nang%20-1.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Thực phẩm chức năng" height="364" width="600" src="uploads/khoangchat/thuc pham chuc nang -1.png">
 											</p>
 											<p style="text-align:center"><span style="font-size:14px"><em>Thực phẩm chức
 														năng - sản phẩm cần thiết cho cơ thể khỏe mạnh&nbsp;</em></span>
@@ -1504,7 +1600,7 @@
 											<p><span style="font-size:14px">Sản phẩm điển hình như:</span></p>
 											<h4><span style="font-size:14px"><strong>+ Nước uống Noni Tahitian
 														Juice:</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="Tahitian Juice" height="642" width="800" src="/upload_images/images/Thuc-pham-chuc-nang/Noni%20Tahitian%20Juice.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Tahitian Juice" height="642" width="800" src="uploads/khoangchat/Noni Tahitian Juice.png">
 											</p>
 											<p>&nbsp;</p>
 											<p><span style="font-size:14px"><strong>Nguồn gốc: </strong>sản xuất tại Mỹ
@@ -1518,7 +1614,7 @@
 													tăng cường chức năng tiêu hóa tốt.</span></p>
 											<h4><span style="font-size:14px"><strong>+&nbsp;Lô hội thảo mộc cô đặc
 														Herbalife - Herbal Aloe Concentrate&nbsp;</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="Herbal Aloe Concentrate&nbsp;" height="406" width="650" src="/upload_images/images/Thuc-pham-chuc-nang/Herbalife.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="Herbal Aloe Concentrate&nbsp;" height="406" width="650" src="uploads/khoangchat/Herbalife.png"></p>
 											<p><span style="font-size:14px"><strong>Xuất xứ:</strong> Mỹ, là sản phẩm có
 													thương hiệu hàng đầu tại Mỹ, thực phẩm bổ dưỡng số 1 thế giới hiện
 													nay.</span></p>
@@ -1532,7 +1628,7 @@
 													trợ thanh lọc cơ thể, giảm mùi hôi cơ thể.</span></p>
 											<h4><span style="font-size:14px"><strong>+&nbsp;Tảo xoắn
 														Spirulina:&nbsp;</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="Tảo xoắn Spirulina" height="667" width="998" src="/upload_images/images/Thuc-pham-chuc-nang/spirulina.JPG"></p>
+											<p style="text-align:center"><img class="lazy2" alt="Tảo xoắn Spirulina" height="667" width="998" src="uploads/khoangchat/spirulina.png"></p>
 											<p><span style="font-size:14px"><strong>Nguồn gốc:</strong> Nhật Bản</span>
 											</p>
 											<p><span style="font-size:14px">Sản phẩm cung cấp nguồn dinh dưỡng dồi dào
@@ -1546,7 +1642,7 @@
 													trợ cải thiện sức khỏe rõ rệt.</span></p>
 											<h4><span style="font-size:14px"><strong>+&nbsp; Viên nhung
 														huơu</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="Vien Nhung Huou" height="637" width="806" src="/upload_images/images/Thuc-pham-chuc-nang/Vi%C3%AAn%20nhung%20hu%C6%A1u.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Vien Nhung Huou" height="637" width="806" src="uploads/khoangchat/Viên nhung huơu.png">
 											</p>
 											<p><span style="font-size:14px"><strong>Thành phần</strong>: Nhung hươu
 													(Pankal) 20mg, Bột gạc hươu (Cigapan) 75mg, Huyết hươu khô (Gemolen)
@@ -1568,7 +1664,7 @@
 													nên cơ thể có thể hấp thụ được hết tất cả các chất dinh dưỡng trong
 													một ly sữa mà bạn uống vào cho cơ thể cân đối, săn chắc, đảm bảo
 													năng lượng tối ưu nhất.</span></p>
-											<p style="text-align:center"><img class="lazy2" alt="serious mass" height="677" width="800" src="/upload_images/images/Thuc-pham-chuc-nang/Serious%20Mass.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="serious mass" height="677" width="800" src="uploads/khoangchat/Serious Mass.png">
 											</p>
 											<p><span style="font-size:14px">Thực phẩm chức năng Herbalife cũng có các
 													dòng sản phẩm chức năng chuyên biệt cho nhiều bộ phận cho cơ thể
@@ -1585,7 +1681,7 @@
 											<p><span style="font-size:14px">Sản phẩm dùng phổ biến:&nbsp;</span></p>
 											<h4><span style="font-size:16px"><strong>+&nbsp; Men vi sinh bifina Nhật
 														Bản</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="bifina" height="700" width="700" src="/upload_images/images/Thuc-pham-chuc-nang/bifina.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="bifina" height="700" width="700" src="uploads/khoangchat/bifina.png"></p>
 											<p><span style="font-size:14px">Thành phần: Mỗi gói chứa: Bifidobacterium:
 													2,5 tỷ; Lactobacillus acidophilus:1 tỷ; Oligosaccaride: 0,3g.</span>
 											</p>
@@ -1595,7 +1691,7 @@
 													bón, trĩ, ăn không tiêu.</span></p>
 											<h4><span style="font-size:16px"><strong>+&nbsp;Nước diệp lục Klink Liquid
 														Chlorophyll</strong></span></h4>
-											<p style="text-align:center"><img class="lazy2" alt="diệp lục Klink" height="700" width="700" src="/upload_images/images/Thuc-pham-chuc-nang/diep%20luc%20k%20link.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="diệp lục Klink" height="700" width="700" src="uploads/khoangchat/diep luc k link.png">
 											</p>
 											<p><span style="font-size:14px">Xuất xứ: Malaysia<br>
 													Thành phần: Nước diệp lục K Liquid được chiết xuất từ cỏ Linh lăng -
@@ -1617,7 +1713,7 @@
 													ngừa bệnh loãng xương, thiếu canxi; hỗ trợ chống đau dây thần kinh
 													hoặc các triệu chứng của viêm đa khớp, đau dây thần kinh liên
 													sườn.</span></p>
-											<p style="text-align:center"><img class="lazy2" alt="jex max" height="522" width="700" src="/upload_images/images/Thuc-pham-chuc-nang/jex%20max%20vien%20khop.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="jex max" height="522" width="700" src="uploads/khoangchat/jex max vien khop.png">
 											</p>
 											<p><span style="font-size:14px">Ngoài các nhóm thực phẩm chức năng trên còn
 													có nhiều loại thức phẩm chức năng chuyên biệt cho các bộ phận trong
@@ -1726,100 +1822,10 @@
 									</li>
 								</ul>
 							</div>
-							<style>
-								.products-cat-frame-inner .cat-title {
-									background-color: #220A005c;
-									border-bottom: 1px solid #3c1403;
-								}
 
-								.products-cat-frame-inner .cat-title h1 {
-									color: #FFB26F;
-								}
-
-								.products-cat-frame-inner .summary_content {
-									color: #FFFFFF;
-								}
-
-								.products-cat-frame-inner {}
-
-								#products-cat {
-									background-color: #220A00;
-								}
-
-								.product_ajj .products_home_slideshow {
-									display: flex;
-									flex-wrap: wrap;
-									margin: 0px -10px;
-								}
-
-								@media screen and (max-width:650px) {
-									margin: 0px -5px;
-								}
-
-								.product_ajj .products_home_slideshow .item {
-									width: calc(calc(100% / 2) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-								.product_ajj .products_home_slideshow .item2 {
-									width: calc(calc(100% / 3) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-								#products-cat .cat-title-main a {
-									background-color: #5D1C00;
-									color: #FFB26F;
-								}
-
-								#products-cat .cat-title-main a:before {
-									background-color: #471500;
-								}
-
-								.breadcrumbs {
-									background-color: #370008;
-									border: unset;
-								}
-
-								.description_start {
-									color: #FFFFFF;
-								}
-							</style>
 						</div>
 						<div class="clear"></div>
 					</div>
-					<!-- end.Content -->
 				</div>
 				<div class="clear"></div> <!--Trên Footer-->
 				<div class="introdu pos_footer">
@@ -2068,365 +2074,82 @@
 												</svg>
 											</a>
 										</div>
-										<!-- <div class="prin share_item"><a class="pinterest-icon" href="https://www.pinterest.com/onplaza/"  title="Link Pinterest" rel="nofollow" target="_blank">
-			<svg x="0px" y="0px" viewBox="0 0 310.05 310.05" style="enable-background:new 0 0 310.05 310.05;" xml:space="preserve">
-				<g>
-					<path id="" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
-					c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1
-					c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142
-					c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425
-					c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551
-					c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83
-					c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912
-					c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172
-					c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843
-					c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z"/>
-				</g>
-			</svg>
-		</a>
-		
-	</div>	 -->
-										<div class="tw share_item">
-											<a class="twitter-icon" href="https://twitter.com/onplazavietphap" title="Link twitter" rel="nofollow" target="_blank">
-												<svg height="50px" viewBox="0 0 512 512" width="50px" xmlns="http://www.w3.org/2000/svg">
-													<path d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
-													</path>
-												</svg>
-											</a>
-										</div>
-										<div class="yt share_item">
-											<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/" title="Link instagram" rel="nofollow" target="_blank">
-												<svg height="15" viewBox="0 0 511 511.9" width="15" xmlns="http://www.w3.org/2000/svg">
-													<path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
-													</path>
-													<path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
-													</path>
-													<path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
-													</path>
-												</svg> </a>
-										</div>
-										<div class="yt share_item">
-											<a class="youtube-icon" href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng" title="Link youtube" rel="nofollow" target="_blank">
-												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 215.094 215.094" style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
-													<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
-	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>
-												</svg>
-											</a>
-										</div>
-										<div class="clear"></div>
-									</div>
-									<div class="wrap-by-fast cls">
-										<div class="item">
-											<div class="phone-left">
-												<p class="phone-content">Onplaza </p>
+										<div id="modal_alert1" class="hide">
+											<div class="modal_alert_inner">
+												<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()" onclick="javascript:close_modal_alert1()">X</a></div>
+												<div class="modal_alert_body"></div>
 											</div>
 										</div>
-										<div class="buy_fast">
-											<div class="">
-												<form action="" name="buy_fast_form" id="buy_fast_form" method="post" onsubmit="javascript: return check_Formsubmitemail();">
-													<div class="cls buy_fast_body">
-														<input type="text" value="" placeholder="E-mail address..." id="email1_buy_fast" name="email_buy_fast" class="keyword input-text">
-														<button type="submit" class="button-buy-fast button"> Đăng ký </button>
-													</div>
-													<input type="hidden" name="module" value="users">
-													<input type="hidden" name="view" value="users">
-													<input type="hidden" name="task" value="buy_fast_save">
-													<input type="hidden" name="Itemid" value="10">
-												</form>
-											</div>
-										</div>
+										<div class="benmarch noc">0.19441 sec| 1576.289 kb</div>
+										<script async="async" language="javascript" type="text/javascript" src="https://onplaza.vn/cache/js/5b6f50aec6587c88a6149b5d7f41239a.js?20230704182858"></script>
 									</div>
 								</div>
-							</div>
-							<div class="clear"></div>
-						</div>
-						<div class="footer_im cls">
-							<div class="image_wrapper">
-								<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=thucphamchucnang.php" title="DMCA.com Protection Status" class="dmca-badge"> <img src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619" alt="DMCA.com Protection Status"></a>
-								<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-								<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=thucphamchucnang.php" title="Bộ công thương" class="dmca-badge">
-									<img class="lazy item after-lazy" alt="flower" src="https://onplaza.vn/images/config/dathongbao_1558687262.png" style="display: inline;"></a>
-								<div class="info_item">
-									Công ty TNHH Onplaza Việt Pháp - Mã số thuế :0105566586, Ngày cấp: 13/10/2011,Trụ sở
-									chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
-									Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội-
-									Người chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
-									747/2014/ATTP-CNDK </div>
-							</div>
-						</div>
-						<div class="copyright ">
-							<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
-						</div>
-					</footer>
-				</div>
-			</div>
-			<div id="fixed-bar" style="position: fixed; bottom: 100px; display: block;">
-				<div id="bar-inner">
-					<a class="go-top" href="#page-wrapper" title="Back to top">
-						<svg x="0px" y="0px" viewBox="0 0 284.929 284.929" style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
-							<g>
-								<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
-				C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854
-				c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848
-				c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566
-				C284.929,199.378,283.984,197.188,282.082,195.285z"></path>
-							</g>
-						</svg>
-					</a>
-				</div>
-			</div> <input type="hidden" id="Itid" name="Itid" value="9">
-			<div id="loading_box">
-				<div id="loading_image"></div>
-			</div>
-			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-			<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
-				<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1" href="https://m.me/congtyonplazavietphap" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-								<path d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
-								</path>
-							</svg></span>
-						<p>Messenger</p>
-					</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-								<path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
-								</path>
-							</svg></span>
-						<p>Zalo Chat</p>
-					</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-								<path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
-								</path>
-							</svg></span>
-						<p>Skype Chat</p>
-					</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-								<path d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
-								</path>
-							</svg></span>
-						<p>Gửi Email</p>
-					</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-								<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-								</path>
-							</svg></span>
-						<p>Call 0932.144.888</p>
-					</a></div>
-				<div class="arcontactus-message-button" style="background-color: #c60100">
-					<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-825 -308)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="#FFFFFF">
-									</use>
-								</g>
-							</g>
-							<defs>
-								<path id="path0_fill0123" d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
-								</path>
-							</defs>
-						</svg>
-						<p>Liên hệ</p>
-					</div>
-					<div class="callback-state" style="color: #c60100"></div>
-					<div class="icons">
-						<div class="icons-line" style="transform: translate(-130px, 0px);"><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-									<path d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-									<path d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-									<path d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-									<path d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-									<path d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-									</path>
-								</svg></span></div>
-					</div>
-					<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-4087 108)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
-									</use>
-								</g>
-							</g>
-							<defs>
-								<path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
-								</path>
-							</defs>
-						</svg></div>
-					<div class="pulsation" style="background-color: #c60100"></div>
-					<div class="pulsation" style="background-color: #c60100"></div>
-				</div>
-				<div class="arcontactus-prompt">
-					<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-4087 108)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
-									</use>
-								</g>
-							</g>
-							<defs>
-								<path id="path0_fill" d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
-								</path>
-							</defs>
-						</svg></div>
-					<div class="arcontactus-prompt-inner"></div>
-				</div>
-			</div>
-			<script>
-				//<![CDATA[
-				var arCuMessages = ["Xin chào tôi có thể giúp gì cho bạn"];
-				var arCuLoop = false;
-				var arCuCloseLastMessage = false;
-				var arCuPromptClosed = false;
-				var _arCuTimeOut = null;
-				var arCuDelayFirst = 2000;
-				var arCuTypingTime = 2000;
-				var arCuMessageTime = 4000;
-				var arCuClosedCookie = 0;
-				var arcItems = [];
-				window.addEventListener('load', function() {
-					arCuClosedCookie = arCuGetCookie('arcu-closed');
-					jQuery('#arcontactus').on('arcontactus.init', function() {
-						if (arCuClosedCookie) {
-							return false;
-						}
-						arCuShowMessages();
-					});
-					jQuery('#arcontactus').on('arcontactus.openMenu', function() {
-						clearTimeout(_arCuTimeOut);
-						arCuPromptClosed = true;
-						jQuery('#contact').contactUs('hidePrompt');
-						arCuCreateCookie('arcu-closed', 1, 30);
-					});
-					jQuery('#arcontactus').on('arcontactus.hidePrompt', function() {
-						clearTimeout(_arCuTimeOut);
-						arCuPromptClosed = true;
-						arCuCreateCookie('arcu-closed', 1, 30);
-					});
-					var arcItem = {};
-					arcItem.id = 'msg-item-1';
-					arcItem.class = 'msg-item-facebook-messenger';
-					arcItem.title = 'Messenger';
-					arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>';
-					arcItem.href = 'https://m.me/congtyonplazavietphap';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-9';
-					arcItem.class = 'msg-item-telegram-plane';
-					arcItem.title = 'Zalo Chat';
-					arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>';
-					arcItem.href = 'https://zalo.me/0966606169';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-6';
-					arcItem.class = 'msg-item-skype';
-					arcItem.title = 'Skype Chat';
-					arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"></path></svg>';
-					arcItem.href = 'skype:';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-7';
-					arcItem.class = 'msg-item-envelope';
-					arcItem.title = 'Gửi Email';
-					arcItem.icon = '<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>';
-					arcItem.href = 'mailto:onplazavietphap@gmail.com';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-8';
-					arcItem.class = 'msg-item-phone';
-					arcItem.title = 'Call 0932.144.888';
-					arcItem.icon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>';
-					arcItem.href = 'tel:0966606169';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					jQuery('#arcontactus').contactUs({
-						items: arcItems
-					});
-				});
-				//]]>
-			</script>
-			<!-- end arcontactus widget -->
-			<!--  -->
-			<div id="modal_alert1" class="hide">
-				<div class="modal_alert_inner">
-					<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()" onclick="javascript:close_modal_alert1()">X</a></div>
-					<div class="modal_alert_body"></div>
-				</div>
-			</div>
-			<div class="benmarch noc">0.19441 sec| 1576.289 kb</div>
-			<script async="async" language="javascript" type="text/javascript" src="https://onplaza.vn/cache/js/5b6f50aec6587c88a6149b5d7f41239a.js?20230704182858"></script>
-		</div>
-	</div>
-	<script type="text/javascript" id="">
-		(function(a, e, b, f, g, c, d) {
-			a[b] = a[b] || function() {
-				(a[b].q = a[b].q || []).push(arguments)
-			};
-			c = e.createElement(f);
-			c.async = 1;
-			c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt";
-			d = e.getElementsByTagName(f)[0];
-			d.parentNode.insertBefore(c, d)
-		})(window, document, "clarity", "script", "9301me865a");
-	</script>
-	<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
-	</div>
-	<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
-	</div>
-	<script type="text/javascript" id="">
-		var eventSet = !1;
-		setTimeout(function() {
-			var a = jQuery(".arcontactus-message-button");
-			if (a) a.on("click", function() {
-				eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0)
-			})
-		}, 1E3);
+								<script type="text/javascript" id="">
+									(function(a, e, b, f, g, c, d) {
+										a[b] = a[b] || function() {
+											(a[b].q = a[b].q || []).push(arguments)
+										};
+										c = e.createElement(f);
+										c.async = 1;
+										c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt";
+										d = e.getElementsByTagName(f)[0];
+										d.parentNode.insertBefore(c, d)
+									})(window, document, "clarity", "script", "9301me865a");
+								</script>
+								<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
+								</div>
+								<div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
+								</div>
+								<script type="text/javascript" id="">
+									var eventSet = !1;
+									setTimeout(function() {
+										var a = jQuery(".arcontactus-message-button");
+										if (a) a.on("click", function() {
+											eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0)
+										})
+									}, 1E3);
 
-		function addEvents1() {
-			jQuery('a[href*\x3d"m.me"]').on("click", function() {
-				window.dataLayer.push({
-					event: "chat_button"
-				})
-			})
-		}
+									function addEvents1() {
+										jQuery('a[href*\x3d"m.me"]').on("click", function() {
+											window.dataLayer.push({
+												event: "chat_button"
+											})
+										})
+									}
 
-		function addEvents2() {
-			jQuery('a[href*\x3d"zalo.me"]').on("click", function() {
-				window.dataLayer.push({
-					event: "chat_button"
-				})
-			})
-		}
+									function addEvents2() {
+										jQuery('a[href*\x3d"zalo.me"]').on("click", function() {
+											window.dataLayer.push({
+												event: "chat_button"
+											})
+										})
+									}
 
-		function addEvents3() {
-			jQuery('a[href*\x3d"tel:"]').on("click", function() {
-				window.dataLayer.push({
-					event: "hotline"
-				})
-			})
-		}
+									function addEvents3() {
+										jQuery('a[href*\x3d"tel:"]').on("click", function() {
+											window.dataLayer.push({
+												event: "hotline"
+											})
+										})
+									}
 
-		function addEvents4() {
-			jQuery('a[href*\x3d"skype:"]').on("click", function() {
-				window.dataLayer.push({
-					event: "chat_button"
-				})
-			})
-		};
-	</script>
-	<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-		<div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
-		</div>
-		<div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
-		</div>
-		<div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
-		</div>
-		<div style="z-index: 2000000000; position: relative;"><iframe title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa" src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci" name="c-fbdxqhjq6sfd" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div>
-	</div>
+									function addEvents4() {
+										jQuery('a[href*\x3d"skype:"]').on("click", function() {
+											window.dataLayer.push({
+												event: "chat_button"
+											})
+										})
+									};
+								</script>
+								<div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+									<div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+									</div>
+									<div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+									</div>
+									<div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+									</div>
+									<div style="z-index: 2000000000; position: relative;"><iframe title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa" src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci" name="c-fbdxqhjq6sfd" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div>
+								</div>
 </body>
 
 </html>

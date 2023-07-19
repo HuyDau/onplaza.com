@@ -7432,7 +7432,6 @@ tt {
 }
 
 #box_conten_linfo {
-  max-height: 800px;
   transition: height 75ms;
   overflow: hidden
 }

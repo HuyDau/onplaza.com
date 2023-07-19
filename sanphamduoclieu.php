@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("config/config.php");
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
 
@@ -35,8 +39,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	<!-- End Google Tag Manager -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -47,7 +50,7 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-173996513-1');
 	</script>
-	<!-- <link rel="author" href="delecweb.com" /> -->
+
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
@@ -190,37 +193,37 @@
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 31; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 31; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 12; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 12; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
 											<?php
-                                            $i;
-                                            for ($i = 1970; $i <= 2023; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1970; $i <= 2023; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
-									</div> 
+									</div>
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -499,15 +502,15 @@
 												<div class="wraper_item cls " alt="Dược liệu cao cấp" data-menu_tags="908" data-menu_idt="0" style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;" nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân Sâm Hàn Quốc">
+																Nhân Sâm Hàn Quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
 																		Nhân sâm tươi 6 năm tuổi
 																	</a></li>
-																<li><a href="hongsamhanquoc.php" title="Hồng sâm Hàn Quốc">
-																		Hồng sâm Hàn Quốc
+																<li><a href="hongsamhanquoc.php" title="Hồng Sâm Hàn Quốc">
+																		Hồng Sâm Hàn Quốc
 																	</a></li>
 																<li><a href="hongsamcukho.php" title="Hồng sâm củ khô">
 																		Hồng sâm củ khô
@@ -533,15 +536,15 @@
 																<li><a href="trasam.php" title="Trà sâm">
 																		Trà sâm
 																	</a></li>
-																<li><a href="ruousamhanquoc.php" title="Rượu sâm hàn quốc">
-																		Rượu sâm hàn quốc
+																<li><a href="ruousamhanquoc.php" title="Rượu Sâm Hàn Quốc">
+																		Rượu Sâm Hàn Quốc
 																	</a></li>
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân Sâm Hàn Quốc">
+																Nhân Sâm Hàn Quốc
+															</a>
 															<ul class="item_lv2">
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
 																		Đông trùng Tây Tạng
@@ -587,8 +590,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
-                                                                Yến sào Khánh Hoà
-                                                            </a>
+																Yến sào Khánh Hoà
+															</a>
 															<ul class="item_lv2">
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
 																		Tổ Yến Thô
@@ -612,8 +615,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
-                                                                Nhung hươu
-                                                            </a>
+																Nhung hươu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
 																		Nhung hươu tươi
@@ -637,8 +640,8 @@
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
-                                                                An cung ngưu
-                                                            </a>
+																An cung ngưu
+															</a>
 															<ul class="item_lv2">
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
 																		An cung ngưu trung quốc
@@ -650,13 +653,13 @@
 														</div>
 														<div class="item cls ">
 															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
-                                                                Tinh dầu thông đỏ
-                                                            </a>
+																Tinh dầu thông đỏ
+															</a>
 														</div>
 														<div class="item cls cat_item2">
 															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
-                                                                Mật Ong Nguyên Chất
-                                                            </a>
+																Mật Ong Nguyên Chất
+															</a>
 															<ul class="item_lv2">
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
 																		Mật Ong Rừng
@@ -1329,12 +1332,12 @@
 									<ul class="child_menu_down  " id="child_menu_down_965">
 										<li class=" child_down_968 cls">
 
-											<a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_968" title="Nhân sâm Hàn Quốc">
+											<a class="pr_child" data-id="965" href="javascript:void(0)" id="menu_item_968" title="Nhân <?= $item_nhansam['name_category'] ?>">
 
 
 
 
-												<span class="text-menu">Nhân sâm Hàn Quốc</span>
+												<span class="text-menu">Nhân <?= $item_nhansam['name_category'] ?></span>
 											</a>
 										</li>
 										<li class=" child_down_976 cls">
@@ -1458,8 +1461,8 @@
 
 									<li class="sub-menu sub-menu-level1  child_type_968 child_of_965  ">
 
-										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php" id="menu_item_968" title="Nhân sâm Hàn Quốc">
-											Nhân sâm Hàn Quốc </a>
+										<a class="pr_cls1 level_pr" href="nhansamhanquoc.php" id="menu_item_968" title="Nhân <?= $item_nhansam['name_category'] ?>">
+											Nhân <?= $item_nhansam['name_category'] ?> </a>
 
 										<!--	LEVEL 2			-->
 										<div class="cat_filters_home_wrapper_sub_level2 cls">
@@ -2043,41 +2046,48 @@
 								<div class="wapper-content-page product_home_content">
 
 									<div class="cat_item_store menu_sticky sticky_1 cls">
-										<h2 class="cat-title-main"><a href="dongtrunghathao.php" title="Dược liệu cao cấp"><span>Giá đông trùng hạ thảo</span></a></h2>
+										<?php
+										$dongtrung = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 2");
+										$item_dongtrung = mysqli_fetch_assoc($dongtrung);
+										?>
+										<h2 class="cat-title-main"><a href="dongtrunghathao.php" title="Dược liệu cao cấp"><span><?= $item_dongtrung['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Giá đông trùng hạ thảo" src="https://onplaza.vn/images/products/cat/large/banner-doc-dong-trung_1609832733.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-dong-trung_1609832733.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="<?= $item_dongtrung['name_category'] ?>" src="uploads/categories/<?= $item_dongtrung['image_category'] ?>" srcset="uploads/categories/<?= $item_dongtrung['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_39">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<!--	EACH Product	Đông trùng			-->
+													<?php
+													$dongtrung = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 2");
+													foreach ($dongtrung as $item_dongtrung) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
 
-																<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)">
-																	<img class="lazy after-lazy" alt="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)" src="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg" srcset="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg.webp" style="display: inline;"> </a>
+																	<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="<?= $item_dongtrung['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_dongtrung['name_product'] ?>" src="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg" srcset="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg.webp" style="display: inline;"> </a>
 
-															</figure>
+																</figure>
 
 
 
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)" class="name">
-																		Đông trùng hạ thảo nguyên con loại 20g/hộp D003
-																		(D400-20V1) </a> </h3>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="<?= $item_dongtrung['name_product'] ?>" class="name">
+																			<?= $item_dongtrung['name_product'] ?> </a> </h3>
 
 
-															</div>
+																</div>
 
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">22.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">32.000.000₫ </span>
-																</span>
-															</div>
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_dongtrung['price'], 0, ".", "") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_dongtrung['price1'], 0, ".", "") ?>₫ </span>
+																	</span>
+																</div>
 
 
 
@@ -2085,227 +2095,19 @@
 
 
 
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="Mua sản phẩm Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)">
-																	Mua sản phẩm
-																</a>
-															</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/" title="Mua sản phẩm <?= $item_dongtrung['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
 
 
-														</div> <!-- end .frame_inner -->
+															</div> <!-- end .frame_inner -->
 
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="dongtrungtaytang.php-cao-cap-hop-100gr/" title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
-																	<img class="lazy after-lazy" alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)" src="https://onplaza.vn/images/products/2020/08/03/resized/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg" srcset="https://onplaza.vn/images/products/2020/08/03/resized/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="dongtrungtaytang.php-cao-cap-hop-100gr/" title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)" class="name">
-																		Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr
-																		loại 500 – 600 con... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">83.000.000₫</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="dongtrungtaytang.php-cao-cap-hop-100gr/" title="Mua sản phẩm Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="dongtrungtaytang.php-nguyen-con-d001/" title="Đông trùng hạ thảo Tây Tạng hộp 5g - D001 (D400-5V1)">
-																	<img class="lazy after-lazy" alt="Đông trùng hạ thảo Tây Tạng hộp 5g - D001 (D400-5V1)" src="https://onplaza.vn/images/products/2020/07/10/resized/dtht-tay-tang-nguyen-con-cao-cap-loai-5-g-hop-d001_1594348810.jpg" srcset="https://onplaza.vn/images/products/2020/07/10/resized/dtht-tay-tang-nguyen-con-cao-cap-loai-5-g-hop-d001_1594348810.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="dongtrungtaytang.php-nguyen-con-d001/" title="Đông trùng hạ thảo Tây Tạng hộp 5g - D001 (D400-5V1)" class="name">
-																		Đông trùng hạ thảo Tây Tạng hộp 5g - D001
-																		(D400-5V1) </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">6.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">7.857.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="dongtrungtaytang.php-nguyen-con-d001/" title="Mua sản phẩm Đông trùng hạ thảo Tây Tạng hộp 5g - D001 (D400-5V1)">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/dong-trung-ha-thao-han-quoc-60-vien-hop-go-cao-cap-d023/" title="Đông trùng hạ thảo Hàn Quốc 60 viên hộp gỗ cao cấp D023">
-																	<img class="lazy after-lazy" alt="Đông trùng hạ thảo Hàn Quốc 60 viên hộp gỗ cao cấp D023" src="https://onplaza.vn/images/products/2023/03/29/resized/avatar-d023_1680078110.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/avatar-d023_1680078110.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/dong-trung-ha-thao-han-quoc-60-vien-hop-go-cao-cap-d023/" title="Đông trùng hạ thảo Hàn Quốc 60 viên hộp gỗ cao cấp D023" class="name">
-																		Đông trùng hạ thảo Hàn Quốc 60 viên hộp gỗ cao
-																		cấp D023 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.350.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.428.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/dong-trung-ha-thao-han-quoc-60-vien-hop-go-cao-cap-d023/" title="Mua sản phẩm Đông trùng hạ thảo Hàn Quốc 60 viên hộp gỗ cao cấp D023">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/dtht-hop-go-vang-60-goi-cao-cap-d043/" title="Đông trùng hạ thảo hộp gỗ vàng 60 gói cao cấp D043">
-																	<img class="lazy after-lazy" alt="Đông trùng hạ thảo hộp gỗ vàng 60 gói cao cấp D043" src="https://onplaza.vn/images/products/2023/03/29/resized/avatar-d043_1680078100.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/avatar-d043_1680078100.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/dtht-hop-go-vang-60-goi-cao-cap-d043/" title="Đông trùng hạ thảo hộp gỗ vàng 60 gói cao cấp D043" class="name">
-																		Đông trùng hạ thảo hộp gỗ vàng 60 gói cao cấp
-																		D043 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.300.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.857.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/dtht-hop-go-vang-60-goi-cao-cap-d043/" title="Mua sản phẩm Đông trùng hạ thảo hộp gỗ vàng 60 gói cao cấp D043">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namdongtrunghathao.php-de-vuong-a5000/" title="Nấm Đông trùng hạ thảo Đế Vương A5000 D231">
-																	<img class="lazy after-lazy" alt="Nấm Đông trùng hạ thảo Đế Vương A5000 D231" src="https://onplaza.vn/images/products/2022/12/09/resized/avata-d231_1670558498.jpg" srcset="https://onplaza.vn/images/products/2022/12/09/resized/avata-d231_1670558498.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namdongtrunghathao.php-de-vuong-a5000/" title="Nấm Đông trùng hạ thảo Đế Vương A5000 D231" class="name">
-																		Nấm Đông trùng hạ thảo Đế Vương A5000 D231 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">4.000.000₫</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namdongtrunghathao.php-de-vuong-a5000/" title="Mua sản phẩm Nấm Đông trùng hạ thảo Đế Vương A5000 D231">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+														</div>
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
 
 												</div>
@@ -2322,326 +2124,112 @@
 
 
 									<div class="cat_item_store menu_sticky sticky_2 cls">
-										<h2 class="cat-title-main"><a href="nhansamhanquoc.php" title="Dược liệu cao cấp"><span>Sâm Hàn Quốc</span></a></h2>
+										<?php
+										$nhansam = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 1");
+										$item_nhansam = mysqli_fetch_assoc($nhansam);
+										?>
+										<h2 class="cat-title-main"><a href="nhansamhanquoc.php" title="Dược liệu cao cấp"><span><?= $item_nhansam['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Sâm Hàn Quốc" src="https://onplaza.vn/images/products/cat/large/banner-doc-nhan-sam-han-quoc_1609833602.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-nhan-sam-han-quoc_1609833602.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="<?= $item_nhansam['name_category'] ?>" src="uploads/categories/<?= $item_nhansam['image_category'] ?>" srcset="uploads/categories/<?= $item_nhansam['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_42">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	<img class="lazy after-lazy" alt="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004" src="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004" class="name">
-																		Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.570.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/" title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																	<img class="lazy after-lazy" alt="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035" src="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/" title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035" class="name">
-																		Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2
-																		lọ NS035 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">999.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.430.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/" title="Mua sản phẩm Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/" title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																	<img class="lazy after-lazy" alt="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223" src="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/" title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223" class="name">
-																		POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30
-																		gói NS223 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.140.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/" title="Mua sản phẩm POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	<img class="lazy after-lazy" alt="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030" src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg" srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030" class="name">
-																		Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp
-																		Bio Apgold Hàn... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">980.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.400.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Mua sản phẩm Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/" title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																	<img class="lazy after-lazy" alt="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856" src="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg" srcset="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/" title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856" class="name">
-																		Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30
-																		viên NS856 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.300.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.690.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/" title="Mua sản phẩm Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/" title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																	<img class="lazy after-lazy" alt="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455" src="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg" srcset="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/" title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455" class="name">
-																		Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số
-																		30 (19 Củ) NS455... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">5.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">10.214.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/" title="Mua sản phẩm Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+													<!--	EACH Product	Nhân sâm			-->
+													<?php
+													$nhansam1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 1 LIMIT 6");
+													foreach ($nhansam1 as $item_nhansam1) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+
+																	<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="<?= $item_nhansam1['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_nhansam1['name_product'] ?>" src="uploads/products/<?= $item_nhansam1['image_product'] ?>" srcset="uploads/products/<?= $item_nhansam1['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+
+
+
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="<?= $item_nhansam1['name_product'] ?>" class="name">
+																			<?= $item_nhansam1['name_product'] ?>
+																		</a> </h3>
+
+
+																</div>
+
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_nhansam1['price'], 0, "", ".") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_nhansam1['price1'], 0, "", ".") ?>₫ </span>
+																	</span>
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Mua sản phẩm <?= $item_nhansam1['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+
+															</div> <!-- end .frame_inner -->
+
+														</div>
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
 
 												</div>
 
 											</div>
 										</div>
-
-
 									</div>
-
-
-
 									<div class="clear"></div>
-
-
 									<div class="cat_item_store menu_sticky sticky_3 cls">
-										<h2 class="cat-title-main"><a href="yensaokhanhhoa.php" title="Dược liệu cao cấp"><span>Yến sào Khánh Hoà</span></a></h2>
+										<?php
+										$yenkhanhhoa = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 4");
+										$item_yen = mysqli_fetch_assoc($yenkhanhhoa);
+										?>
+										<h2 class="cat-title-main"><a href="yensaokhanhhoa.php" title="Dược liệu cao cấp"><span><?= $item_yen['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Yến sào Khánh Hoà" src="https://onplaza.vn/images/products/cat/large/banner-doc-to-yen-huyet_1609833001.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-to-yen-huyet_1609833001.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Yến sào Khánh Hoà" src="uploads/categories/<?= $item_yen['image_category'] ?>" srcset="uploads/categories/<?= $item_yen['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_4">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<!--	EACH Product		Yến sào		-->
+													<?php
+													$yensao1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 4");
+													foreach ($yensao1 as $item_yensao1) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
 
-																<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="Yến trắng tinh chế Khánh Hòa hộp 100g Y014 | Onplaza">
-																	<img class="lazy after-lazy" alt="Yến trắng tinh chế Khánh Hòa hộp 100g Y014 | Onplaza" src="https://onplaza.vn/images/products/2023/03/29/resized/y014--avatar_1680065112.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/y014--avatar_1680065112.jpg.webp" style="display: inline;"> </a>
+																	<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="<?= $item_yensao1['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_yensao1['name_product'] ?>" src="uploads/products/<?= $item_yensao1['image_product'] ?>" srcset="uploads/products/<?= $item_yensao1['image_product'] ?>" style="display: inline;"> </a>
 
-															</figure>
+																</figure>
 
 
 
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="Yến trắng tinh chế Khánh Hòa hộp 100g Y014 | Onplaza" class="name">
-																		Yến trắng tinh chế Khánh Hòa hộp 100g Y014 |
-																		Onplaza </a> </h3>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="<?= $item_yensao1['name_product'] ?>" class="name">
+																			<?= $item_yensao1['name_product'] ?> </a> </h3>
 
 
-															</div>
+																</div>
 
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">6.600.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">9.100.000₫ </span>
-																</span>
-															</div>
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_yensao1['price'], 0, "", ".") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_yensao1['price1'], 0, "", ".") ?>₫ </span>
+																	</span>
+																</div>
 
 
 
@@ -2649,231 +2237,20 @@
 
 
 
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="Mua sản phẩm Yến trắng tinh chế Khánh Hòa hộp 100g Y014 | Onplaza">
-																	Mua sản phẩm
-																</a>
-															</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/" title="Mua sản phẩm <?= $item_yensao1['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
 
 
-														</div> <!-- end .frame_inner -->
+															</div> <!-- end .frame_inner -->
 
-													</div>
+														</div>
 
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/yen-trang-tinh-che-hop-qua-tang-100g-y017/" title="Tổ yến tinh chế Khánh Hòa hộp quà tặng 100g Y017">
-																	<img class="lazy after-lazy" alt="Tổ yến tinh chế Khánh Hòa hộp quà tặng 100g Y017" src="https://onplaza.vn/images/products/2023/03/29/resized/y017--avatar_1680065183.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/y017--avatar_1680065183.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-trang-tinh-che-hop-qua-tang-100g-y017/" title="Tổ yến tinh chế Khánh Hòa hộp quà tặng 100g Y017" class="name">
-																		Tổ yến tinh chế Khánh Hòa hộp quà tặng 100g Y017
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">6.920.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">9.600.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/yen-trang-tinh-che-hop-qua-tang-100g-y017/" title="Mua sản phẩm Tổ yến tinh chế Khánh Hòa hộp quà tặng 100g Y017">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/to-yen-trang-so-che-thuong-hang-nha-yen-100g-hop-y066/" title="Tổ yến trắng sơ chế Nhà Yến Nha Trang hộp 100gr Y066 | Onplaza">
-																	<img class="lazy after-lazy" alt="Tổ yến trắng sơ chế Nhà Yến Nha Trang hộp 100gr Y066 | Onplaza" src="https://onplaza.vn/images/products/2023/03/29/resized/y066-avatar_1680073060.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/y066-avatar_1680073060.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/to-yen-trang-so-che-thuong-hang-nha-yen-100g-hop-y066/" title="Tổ yến trắng sơ chế Nhà Yến Nha Trang hộp 100gr Y066 | Onplaza" class="name">
-																		Tổ yến trắng sơ chế Nhà Yến Nha Trang hộp 100gr
-																		Y066 | Onplaza </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">5.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">6.500.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/to-yen-trang-so-che-thuong-hang-nha-yen-100g-hop-y066/" title="Mua sản phẩm Tổ yến trắng sơ chế Nhà Yến Nha Trang hộp 100gr Y066 | Onplaza">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/yen-trang-tinh-che-loai-2-100g-hop-y063/" title="Yến tinh chế thượng hạng Nhà yến Nha Trang hộp 100g Y063 (loại 2)">
-																	<img class="lazy after-lazy" alt="Yến tinh chế thượng hạng Nhà yến Nha Trang hộp 100g Y063 (loại 2)" src="https://onplaza.vn/images/products/2023/03/29/resized/y063-avatar_1680073075.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/y063-avatar_1680073075.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-trang-tinh-che-loai-2-100g-hop-y063/" title="Yến tinh chế thượng hạng Nhà yến Nha Trang hộp 100g Y063 (loại 2)" class="name">
-																		Yến tinh chế thượng hạng Nhà yến Nha Trang hộp
-																		100g Y063 (loại 2) </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">4.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">5.720.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/yen-trang-tinh-che-loai-2-100g-hop-y063/" title="Mua sản phẩm Yến tinh chế thượng hạng Nhà yến Nha Trang hộp 100g Y063 (loại 2)">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/lo-nuoc-yen-sanest-khong-duong-y029/" title="Lọ Nước yến Sanest không đường Y029">
-																	<img class="lazy after-lazy" alt="Lọ Nước yến Sanest không đường Y029" src="https://onplaza.vn/images/products/2021/10/11/resized/lo-nuoc-yen-sanest-khong-duong-y029_1633938413.jpg" srcset="https://onplaza.vn/images/products/2021/10/11/resized/lo-nuoc-yen-sanest-khong-duong-y029_1633938413.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/lo-nuoc-yen-sanest-khong-duong-y029/" title="Lọ Nước yến Sanest không đường Y029" class="name">
-																		Lọ Nước yến Sanest không đường Y029 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">33.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">36.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/lo-nuoc-yen-sanest-khong-duong-y029/" title="Mua sản phẩm Lọ Nước yến Sanest không đường Y029">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/yen-nguyen-to-khanh-hoa-hop-100g-tp3-y003/" title="Yến sào Khánh Hòa sơ chế nguyên tổ hộp 100g TP3 Y003">
-																	<img class="lazy after-lazy" alt="Yến sào Khánh Hòa sơ chế nguyên tổ hộp 100g TP3 Y003" src="https://onplaza.vn/images/products/2020/12/31/resized/yen-nguyen-to-khanh-hoa-hop-100g-tp3-y003_1609397667.jpg" srcset="https://onplaza.vn/images/products/2020/12/31/resized/yen-nguyen-to-khanh-hoa-hop-100g-tp3-y003_1609397667.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/yen-nguyen-to-khanh-hoa-hop-100g-tp3-y003/" title="Yến sào Khánh Hòa sơ chế nguyên tổ hộp 100g TP3 Y003" class="name">
-																		Yến sào Khánh Hòa sơ chế nguyên tổ hộp 100g TP3
-																		Y003 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">8.100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">11.000.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/yen-nguyen-to-khanh-hoa-hop-100g-tp3-y003/" title="Mua sản phẩm Yến sào Khánh Hòa sơ chế nguyên tổ hộp 100g TP3 Y003">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
+													<?php
+													}
+													?>
 
 													<!--	end EACH Product				-->
 
@@ -2884,567 +2261,121 @@
 
 
 									</div>
-
-
-
 									<div class="clear"></div>
-
-
 									<div class="cat_item_store menu_sticky sticky_4 cls">
-										<h2 class="cat-title-main"><a href="https://onplaza.vn/gia-nam-linh-chi" title="Dược liệu cao cấp"><span>Giá nấm linh chi Hàn Quốc</span></a>
+										<?php
+										$nam = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 3");
+										$item_nam = mysqli_fetch_assoc($nam);
+										?>
+										<h2 class="cat-title-main"><a href="https://onplaza.vn/gia-nam-linh-chi" title="Dược liệu cao cấp"><span><?= $item_nam['name_category'] ?></span></a>
 										</h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Giá nấm linh chi Hàn Quốc" src="https://onplaza.vn/images/products/cat/large/banner-doc-nam-linh-chi-han-quoc_1609833201.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-nam-linh-chi-han-quoc_1609833201.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="<?= $item_nam['name_category'] ?>" src="uploads/categories/<?= $item_nam['image_category'] ?>" srcset="uploads/categories/<?= $item_nam['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_36">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="Nấm linh chi Hàn Quốc loại đặc biệt đóng hộp 1kg L052">
-																	<img class="lazy after-lazy" alt="Nấm linh chi Hàn Quốc loại đặc biệt đóng hộp 1kg L052" src="https://onplaza.vn/images/products/2021/12/21/resized/nam-linh-chi-han-quoc-loai-dac-biet-hop-1kg-l052_1640070367.jpg" srcset="https://onplaza.vn/images/products/2021/12/21/resized/nam-linh-chi-han-quoc-loai-dac-biet-hop-1kg-l052_1640070367.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="Nấm linh chi Hàn Quốc loại đặc biệt đóng hộp 1kg L052" class="name">
-																		Nấm linh chi Hàn Quốc loại đặc biệt đóng hộp 1kg
-																		L052 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.250.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="Mua sản phẩm Nấm linh chi Hàn Quốc loại đặc biệt đóng hộp 1kg L052">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchido.php-cao-cap-han-quoc-hop-kim-tuyen-1kg-l051/" title="Nấm linh chi đỏ cao cấp Hàn Quốc hộp kim tuyến 1kg L051">
-																	<img class="lazy after-lazy" alt="Nấm linh chi đỏ cao cấp Hàn Quốc hộp kim tuyến 1kg L051" src="https://onplaza.vn/images/products/2021/12/21/resized/nam-linh-chi-do-cao-cap-han-quoc-hop-kim-tuyen-1kg-l051_1640058100.jpg" srcset="https://onplaza.vn/images/products/2021/12/21/resized/nam-linh-chi-do-cao-cap-han-quoc-hop-kim-tuyen-1kg-l051_1640058100.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchido.php-cao-cap-han-quoc-hop-kim-tuyen-1kg-l051/" title="Nấm linh chi đỏ cao cấp Hàn Quốc hộp kim tuyến 1kg L051" class="name">
-																		Nấm linh chi đỏ cao cấp Hàn Quốc hộp kim tuyến
-																		1kg L051 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.900.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchido.php-cao-cap-han-quoc-hop-kim-tuyen-1kg-l051/" title="Mua sản phẩm Nấm linh chi đỏ cao cấp Hàn Quốc hộp kim tuyến 1kg L051">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchivang.php-thuong-hang-dac-biet-dang-tui-l038/" title="Nấm linh chi vàng thượng hạng đặc biệt dạng túi L038">
-																	<img class="lazy after-lazy" alt="Nấm linh chi vàng thượng hạng đặc biệt dạng túi L038" src="https://onplaza.vn/images/products/2023/03/29/resized/l038_1680075849.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/l038_1680075849.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchivang.php-thuong-hang-dac-biet-dang-tui-l038/" title="Nấm linh chi vàng thượng hạng đặc biệt dạng túi L038" class="name">
-																		Nấm linh chi vàng thượng hạng đặc biệt dạng túi
-																		L038 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.450.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.500.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchivang.php-thuong-hang-dac-biet-dang-tui-l038/" title="Mua sản phẩm Nấm linh chi vàng thượng hạng đặc biệt dạng túi L038">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchivang.php-hop-qua-bieu-l027/" title="Nấm linh chi vàng thượng hạng Hàn Quốc hộp quà biếu L027">
-																	<img class="lazy after-lazy" alt="Nấm linh chi vàng thượng hạng Hàn Quốc hộp quà biếu L027" src="https://onplaza.vn/images/products/2020/12/30/resized/nam-linh-chi-vang-hop-qua-bieu-l027_1609295975.jpg" srcset="https://onplaza.vn/images/products/2020/12/30/resized/nam-linh-chi-vang-hop-qua-bieu-l027_1609295975.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchivang.php-hop-qua-bieu-l027/" title="Nấm linh chi vàng thượng hạng Hàn Quốc hộp quà biếu L027" class="name">
-																		Nấm linh chi vàng thượng hạng Hàn Quốc hộp quà
-																		biếu L027 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.571.429₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchivang.php-hop-qua-bieu-l027/" title="Mua sản phẩm Nấm linh chi vàng thượng hạng Hàn Quốc hộp quà biếu L027">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchithuonghoang.php-han-quoc-l022/" title="Nấm linh chi thượng hoàng Hàn Quốc L022">
-																	<img class="lazy after-lazy" alt="Nấm linh chi thượng hoàng Hàn Quốc L022" src="https://onplaza.vn/images/products/2020/12/30/resized/nam-linh-chi-thuong-hoang-han-quoc-l022_1609295718.jpg" srcset="https://onplaza.vn/images/products/2020/12/30/resized/nam-linh-chi-thuong-hoang-han-quoc-l022_1609295718.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchithuonghoang.php-han-quoc-l022/" title="Nấm linh chi thượng hoàng Hàn Quốc L022" class="name">
-																		Nấm linh chi thượng hoàng Hàn Quốc L022 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.428.571₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchithuonghoang.php-han-quoc-l022/" title="Mua sản phẩm Nấm linh chi thượng hoàng Hàn Quốc L022">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="namlinhchido.php-han-quoc-l002/" title="Nấm linh chi đỏ Hàn Quốc L002">
-																	<img class="lazy after-lazy" alt="Nấm linh chi đỏ Hàn Quốc L002" src="https://onplaza.vn/images/products/2023/03/29/resized/l002_1680075837.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/l002_1680075837.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="namlinhchido.php-han-quoc-l002/" title="Nấm linh chi đỏ Hàn Quốc L002" class="name">
-																		Nấm linh chi đỏ Hàn Quốc L002 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.500.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="namlinhchido.php-han-quoc-l002/" title="Mua sản phẩm Nấm linh chi đỏ Hàn Quốc L002">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+													<!--	EACH Product		Nấm Linh Chi		-->
+													<?php
+													$nam1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 3 LIMIT 6");
+													foreach ($nam1 as $item_nam1) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+
+																	<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="<?= $item_nam1['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_nam1['name_product'] ?>" src="uploads/products/<?= $item_nam1['image_product'] ?>" srcset="uploads/products/<?= $item_nam1['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+
+
+
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="<?= $item_nam1['name_product'] ?>" class="name">
+																			<?= $item_nam1['name_product'] ?></a> </h3>
+
+
+																</div>
+
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_nam1['price'], 0, "", ".") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_nam1['price1'], 0, "", ".") ?>₫ </span>
+																	</span>
+																</div>
+																<div class="buy_nows">
+																	<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/" title="Mua sản phẩm <?= $item_nam1['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+														</div>
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
-
 												</div>
-
 											</div>
 										</div>
-
-
 									</div>
-
-
-
 									<div class="clear"></div>
 
 
 									<div class="cat_item_store menu_sticky sticky_5 cls">
-										<h2 class="cat-title-main"><a href="nhunghuou.php" title="Dược liệu cao cấp"><span>Giá nhung hươu</span></a></h2>
+										<?php
+										$nhunghuou = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 5");
+										$item_nhunghuou = mysqli_fetch_assoc($nhunghuou);
+										?>
+										<h2 class="cat-title-main"><a href="nhunghuou.php" title="Dược liệu cao cấp"><span><?= $item_nhunghuou['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Giá nhung hươu" src="https://onplaza.vn/images/products/cat/large/banner-doc-nhung-huou-tuoi_1609833089.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-nhung-huou-tuoi_1609833089.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="<?= $item_nhunghuou['name_category'] ?>" src="uploads/categories/<?= $item_nhunghuou['image_category'] ?>" srcset="uploads/categories/<?= $item_nhunghuou['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_48">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="Nhung Hươu Tươi Hoang Dã Săn Bắn-NH009">
-																	<img class="lazy after-lazy" alt="Nhung Hươu Tươi Hoang Dã Săn Bắn-NH009" src="https://onplaza.vn/images/products/2023/03/29/resized/avatar-nhung-huou-tuoi_1680079062.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/avatar-nhung-huou-tuoi_1680079062.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="Nhung Hươu Tươi Hoang Dã Săn Bắn-NH009" class="name">
-																		Nhung Hươu Tươi Hoang Dã Săn Bắn-NH009 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.000.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="Mua sản phẩm Nhung Hươu Tươi Hoang Dã Săn Bắn-NH009">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nhung-huou-say-kho-thai-lat-sibiri-100g-nh004/" title="Nhung hươu sấy khô thái lát Siberia 100g -NH004">
-																	<img class="lazy after-lazy" alt="Nhung hươu sấy khô thái lát Siberia 100g -NH004" src="https://onplaza.vn/images/products/2022/12/08/resized/avata-nh004_1670491161.jpg" srcset="https://onplaza.vn/images/products/2022/12/08/resized/avata-nh004_1670491161.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nhung-huou-say-kho-thai-lat-sibiri-100g-nh004/" title="Nhung hươu sấy khô thái lát Siberia 100g -NH004" class="name">
-																		Nhung hươu sấy khô thái lát Siberia 100g -NH004
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.900.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.714.286₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nhung-huou-say-kho-thai-lat-sibiri-100g-nh004/" title="Mua sản phẩm Nhung hươu sấy khô thái lát Siberia 100g -NH004">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="caobanlong.php-sibiri-cao-cap-goi-100g-nh001/" title="Cao Ban Long Siberia cao cấp (gói 100g)-NH001">
-																	<img class="lazy after-lazy" alt="Cao Ban Long Siberia cao cấp (gói 100g)-NH001" src="https://onplaza.vn/images/products/2022/12/08/resized/avata-nh001_1670491097.jpg" srcset="https://onplaza.vn/images/products/2022/12/08/resized/avata-nh001_1670491097.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="caobanlong.php-sibiri-cao-cap-goi-100g-nh001/" title="Cao Ban Long Siberia cao cấp (gói 100g)-NH001" class="name">
-																		Cao Ban Long Siberia cao cấp (gói 100g)-NH001
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.714.286₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="caobanlong.php-sibiri-cao-cap-goi-100g-nh001/" title="Mua sản phẩm Cao Ban Long Siberia cao cấp (gói 100g)-NH001">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/vien-sam-han-quoc-nhung-huou-linh-chi-dong-trung-daedong-cao-cap-hop-120-vien-nh014/" title="Viên sâm Hàn Quốc nhung hươu linh chi đông trùng Daedong cao cấp hộp 120 viên NH014">
-																	<img class="lazy after-lazy" alt="Viên sâm Hàn Quốc nhung hươu linh chi đông trùng Daedong cao cấp hộp 120 viên NH014" src="https://onplaza.vn/images/products/2021/12/30/resized/vien-sam-han-quoc-nhung-huou-linh-chi-dong-trung-daedong-cao-cap-hop-120-vien-nh014_1640848955.jpg" srcset="https://onplaza.vn/images/products/2021/12/30/resized/vien-sam-han-quoc-nhung-huou-linh-chi-dong-trung-daedong-cao-cap-hop-120-vien-nh014_1640848955.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/vien-sam-han-quoc-nhung-huou-linh-chi-dong-trung-daedong-cao-cap-hop-120-vien-nh014/" title="Viên sâm Hàn Quốc nhung hươu linh chi đông trùng Daedong cao cấp hộp 120 viên NH014" class="name">
-																		Viên sâm Hàn Quốc nhung hươu linh chi đông trùng
-																		Daedong cao cấp hộp 120... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">800.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.040.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/vien-sam-han-quoc-nhung-huou-linh-chi-dong-trung-daedong-cao-cap-hop-120-vien-nh014/" title="Mua sản phẩm Viên sâm Hàn Quốc nhung hươu linh chi đông trùng Daedong cao cấp hộp 120 viên NH014">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhunghuoutuoi.php-non-mem-huong-son-loai-hang-chat-luong-cao/" title="Nhung hươu tươi non mềm Hương Sơn loại hàng chất lượng cao">
-																	<img class="lazy after-lazy" alt="Nhung hươu tươi non mềm Hương Sơn loại hàng chất lượng cao" src="https://onplaza.vn/images/products/2020/11/24/resized/nhung-huou-tuoi-non-mem-huong-son-loai-chat-luong-cao_1606203913.jpg" srcset="https://onplaza.vn/images/products/2020/11/24/resized/nhung-huou-tuoi-non-mem-huong-son-loai-chat-luong-cao_1606203913.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="nhunghuoutuoi.php-non-mem-huong-son-loai-hang-chat-luong-cao/" title="Nhung hươu tươi non mềm Hương Sơn loại hàng chất lượng cao" class="name">
-																		Nhung hươu tươi non mềm Hương Sơn loại hàng chất
-																		lượng cao </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">7.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">10.000.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="nhunghuoutuoi.php-non-mem-huong-son-loai-hang-chat-luong-cao/" title="Mua sản phẩm Nhung hươu tươi non mềm Hương Sơn loại hàng chất lượng cao">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nhung-huou-thai-lat-50g-sibiri-nh005/" title="Nhung hươu khô thái lát 50g Siberia-NH005">
-																	<img class="lazy after-lazy" alt="Nhung hươu khô thái lát 50g Siberia-NH005" src="https://onplaza.vn/images/products/2021/08/12/resized/nhung-huou-thai-lat-50g-sibiri-nh005_1628763044.jpg" srcset="https://onplaza.vn/images/products/2021/08/12/resized/nhung-huou-thai-lat-50g-sibiri-nh005_1628763044.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nhung-huou-thai-lat-50g-sibiri-nh005/" title="Nhung hươu khô thái lát 50g Siberia-NH005" class="name">
-																		Nhung hươu khô thái lát 50g Siberia-NH005 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.428.571₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nhung-huou-thai-lat-50g-sibiri-nh005/" title="Mua sản phẩm Nhung hươu khô thái lát 50g Siberia-NH005">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+													<!--	EACH Product	Nhung hươu			-->
+													<?php
+													$nhunghuou1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 5");
+													foreach ($nhunghuou1 as $item_nhunghuou1) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+
+																	<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="<?= $item_nhunghuou1['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_nhunghuou1['name_product'] ?>" src="uploads/products/<?= $item_nhunghuou1['image_product'] ?>" srcset="uploads/products/<?= $item_nhunghuou1['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="<?= $item_nhunghuou1['name_product'] ?>" class="name">
+																			<?= $item_nhunghuou1['name_product'] ?> </a>
+																	</h3>
+																</div>
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_nhunghuou1['price'], 0, "", ".") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_nhunghuou1['price1'], 0, "", ".") ?>₫ </span>
+																	</span>
+																</div>
+																<div class="buy_nows">
+																	<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/" title="Mua sản phẩm <?= $item_nhunghuou1['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+
+
+															</div> <!-- end .frame_inner -->
+
+														</div>
+
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
 
 												</div>
@@ -3461,273 +2392,53 @@
 
 
 									<div class="cat_item_store menu_sticky sticky_6 cls">
-										<h2 class="cat-title-main"><a href="ancungnguu.php" title="Dược liệu cao cấp"><span>Bảng giá an cung ngưu</span></a></h2>
+										<?php
+										$ancungnuu = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 6");
+										$item_ancungnguu = mysqli_fetch_assoc($ancungnuu);
+										?>
+										<h2 class="cat-title-main"><a href="ancungnguu.php" title="Dược liệu cao cấp"><span><?= $item_ancungnguu['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Bảng giá an cung ngưu" src="https://onplaza.vn/images/products/cat/large/banner-doc-an-cung-nguu_1610005848.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-an-cung-nguu_1610005848.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="<?= $item_ancungnguu['name_category'] ?>" src="uploads/categories/<?= $item_ancungnguu['image_category'] ?>" srcset="uploads/categories/<?= $item_ancungnguu['image_category'] ?>" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_49">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="Viên An cung ngưu hoàng hoàn Hàn Quốc hình tổ kén A030">
-																	<img class="lazy after-lazy" alt="Viên An cung ngưu hoàng hoàn Hàn Quốc hình tổ kén A030" src="https://onplaza.vn/images/products/2023/03/29/resized/a030--avatar_1680059389.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/a030--avatar_1680059389.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="Viên An cung ngưu hoàng hoàn Hàn Quốc hình tổ kén A030" class="name">
-																		Viên An cung ngưu hoàng hoàn Hàn Quốc hình tổ
-																		kén A030 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.600.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.200.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="Mua sản phẩm Viên An cung ngưu hoàng hoàn Hàn Quốc hình tổ kén A030">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/bo-nao-hoan-nhap-khau-han-quoc-a036/" title="Bổ não hoàn nhập khẩu Hàn Quốc A036">
-																	<img class="lazy after-lazy" alt="Bổ não hoàn nhập khẩu Hàn Quốc A036" src="https://onplaza.vn/images/products/2023/03/29/resized/a036-avatar_1680059372.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/a036-avatar_1680059372.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/bo-nao-hoan-nhap-khau-han-quoc-a036/" title="Bổ não hoàn nhập khẩu Hàn Quốc A036" class="name">
-																		Bổ não hoàn nhập khẩu Hàn Quốc A036 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.600.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.857.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/bo-nao-hoan-nhap-khau-han-quoc-a036/" title="Mua sản phẩm Bổ não hoàn nhập khẩu Hàn Quốc A036">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/an-cung-nguu-hoang-hoan-hop-thiec-mau-do-a016/" title="An cung ngưu hoàng hoàn hộp thiếc màu đỏ A016">
-																	<img class="lazy after-lazy" alt="An cung ngưu hoàng hoàn hộp thiếc màu đỏ A016" src="https://onplaza.vn/images/products/2023/03/11/resized/ava-a016_1678517908.jpg" srcset="https://onplaza.vn/images/products/2023/03/11/resized/ava-a016_1678517908.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/an-cung-nguu-hoang-hoan-hop-thiec-mau-do-a016/" title="An cung ngưu hoàng hoàn hộp thiếc màu đỏ A016" class="name">
-																		An cung ngưu hoàng hoàn hộp thiếc màu đỏ A016
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.600.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.571.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/an-cung-nguu-hoang-hoan-hop-thiec-mau-do-a016/" title="Mua sản phẩm An cung ngưu hoàng hoàn hộp thiếc màu đỏ A016">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/an-cung-nguu-vu-hoang-thanh-tam-10v-hop-a004/" title="An cung ngưu Vũ Hoàng Thanh Tâm loại 10v/hộp A004">
-																	<img class="lazy after-lazy" alt="An cung ngưu Vũ Hoàng Thanh Tâm loại 10v/hộp A004" src="https://onplaza.vn/images/products/2023/03/11/resized/ava-a004_1678517954.jpg" srcset="https://onplaza.vn/images/products/2023/03/11/resized/ava-a004_1678517954.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/an-cung-nguu-vu-hoang-thanh-tam-10v-hop-a004/" title="An cung ngưu Vũ Hoàng Thanh Tâm loại 10v/hộp A004" class="name">
-																		An cung ngưu Vũ Hoàng Thanh Tâm loại 10v/hộp
-																		A004 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.750.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.072.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/an-cung-nguu-vu-hoang-thanh-tam-10v-hop-a004/" title="Mua sản phẩm An cung ngưu Vũ Hoàng Thanh Tâm loại 10v/hộp A004">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/an-cung-nguu-hoang-hoan-dai-vang-trung-quoc-a006/" title="An cung ngưu hoàng hoàn đai vàng Trung Quốc A006">
-																	<img class="lazy after-lazy" alt="An cung ngưu hoàng hoàn đai vàng Trung Quốc A006" src="https://onplaza.vn/images/products/2023/03/11/resized/ava-a006_1678517934.jpg" srcset="https://onplaza.vn/images/products/2023/03/11/resized/ava-a006_1678517934.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/an-cung-nguu-hoang-hoan-dai-vang-trung-quoc-a006/" title="An cung ngưu hoàng hoàn đai vàng Trung Quốc A006" class="name">
-																		An cung ngưu hoàng hoàn đai vàng Trung Quốc A006
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.600.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">5.140.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/an-cung-nguu-hoang-hoan-dai-vang-trung-quoc-a006/" title="Mua sản phẩm An cung ngưu hoàng hoàn đai vàng Trung Quốc A006">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/an-cung-nguu-rua-vang-1-hop-1-vien-a021/" title="An cung ngưu rùa vàng 1 hộp 1 viên A021">
-																	<img class="lazy after-lazy" alt="An cung ngưu rùa vàng 1 hộp 1 viên A021" src="https://onplaza.vn/images/products/2023/03/11/resized/ava-a021_1678517886.jpg" srcset="https://onplaza.vn/images/products/2023/03/11/resized/ava-a021_1678517886.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/an-cung-nguu-rua-vang-1-hop-1-vien-a021/" title="An cung ngưu rùa vàng 1 hộp 1 viên A021" class="name">
-																		An cung ngưu rùa vàng 1 hộp 1 viên A021 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.250.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.800.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/an-cung-nguu-rua-vang-1-hop-1-vien-a021/" title="Mua sản phẩm An cung ngưu rùa vàng 1 hộp 1 viên A021">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
+													<!--	EACH Product	AN Cung Ngưu			-->
+													<?php
+													$ancungnguu1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 6");
+													foreach ($ancungnguu1 as $item_ancungnguu1) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+
+																	<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="<?= $item_ancungnguu1['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_ancungnguu1['name_product'] ?>" src="uploads/products/<?= $item_ancungnguu1['image_product'] ?>" srcset="uploads/products/<?= $item_ancungnguu1['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="<?= $item_ancungnguu1['name_product'] ?>" class="name">
+																			<?= $item_ancungnguu1['name_product'] ?> </a> </h3>
+																</div>
+																<div class="price_arae">
+																	<span class="price_current" style="color:#FFE2B8"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫</span>
+																	<span class="price_old" style="color:#FFE2B8">
+																		<span class="item_old"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫ </span>
+																	</span>
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/" title="Mua sản phẩm <?= $item_ancungnguu1['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+
+														</div>
+													<?php
+													}
+													?>
 
 													<!--	end EACH Product				-->
 
@@ -3738,304 +2449,56 @@
 
 
 									</div>
-
-
-
 									<div class="clear"></div>
-
-
-									<div class="cat_item_store menu_sticky sticky_7 cls">
-										<h2 class="cat-title-main"><a href="namlinhxanh.php" title="Dược liệu cao cấp"><span>Nấm lim xanh Việt Nam</span></a></h2>
-										<div class="clear"></div>
-										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Nấm lim xanh Việt Nam" src="https://onplaza.vn/images/products/cat/large/banner-doc-nam-lim-xanh_1609728681.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-nam-lim-xanh_1609728681.jpg.webp" style="display: inline;">
-										</div>
-										<div class="banner_right">
-
-											<div class="product_ajj">
-												<div class="products_home_slideshow product_grid" id="products_home_slideshow_15">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nam-lim-xanh-rung-tu-nhien-tai-quang-nam-loai-1/" title="Nấm lim xanh rừng tự nhiên tại Quảng Nam loại 1">
-																	<img class="lazy after-lazy" alt="Nấm lim xanh rừng tự nhiên tại Quảng Nam loại 1" src="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-rung-tu-nhien-tai-quang-nam-loai-1_1598515633.jpg" srcset="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-rung-tu-nhien-tai-quang-nam-loai-1_1598515633.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nam-lim-xanh-rung-tu-nhien-tai-quang-nam-loai-1/" title="Nấm lim xanh rừng tự nhiên tại Quảng Nam loại 1" class="name">
-																		Nấm lim xanh rừng tự nhiên tại Quảng Nam loại 1
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">4.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">6.430.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nam-lim-xanh-rung-tu-nhien-tai-quang-nam-loai-1/" title="Mua sản phẩm Nấm lim xanh rừng tự nhiên tại Quảng Nam loại 1">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nam-lim-xanh-quang-nam-nui-tien-phuoc-loai-3/" title="Nấm lim xanh Quảng Nam núi Tiên Phước loại 3">
-																	<img class="lazy after-lazy" alt="Nấm lim xanh Quảng Nam núi Tiên Phước loại 3" src="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-quang-nam-nui-tien-phuoc-loai-3_1598504345.jpg" srcset="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-quang-nam-nui-tien-phuoc-loai-3_1598504345.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nam-lim-xanh-quang-nam-nui-tien-phuoc-loai-3/" title="Nấm lim xanh Quảng Nam núi Tiên Phước loại 3" class="name">
-																		Nấm lim xanh Quảng Nam núi Tiên Phước loại 3
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.200.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nam-lim-xanh-quang-nam-nui-tien-phuoc-loai-3/" title="Mua sản phẩm Nấm lim xanh Quảng Nam núi Tiên Phước loại 3">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nam-lim-xanh-rung-tu-quang-nam-loai-2/" title="Nấm lim xanh rừng từ Quảng Nam loại 2">
-																	<img class="lazy after-lazy" alt="Nấm lim xanh rừng từ Quảng Nam loại 2" src="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-rung-tu-quang-nam-loai-2_1598500814.jpg" srcset="https://onplaza.vn/images/products/2020/08/27/resized/nam-lim-xanh-rung-tu-quang-nam-loai-2_1598500814.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nam-lim-xanh-rung-tu-quang-nam-loai-2/" title="Nấm lim xanh rừng từ Quảng Nam loại 2" class="name">
-																		Nấm lim xanh rừng từ Quảng Nam loại 2 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.200.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nam-lim-xanh-rung-tu-quang-nam-loai-2/" title="Mua sản phẩm Nấm lim xanh rừng từ Quảng Nam loại 2">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nam-lim-xanh-nui-quang-nam-dong-thuong-hang-hop-qua-bieu-1-kg-l294/" title="Nấm lim xanh núi Quảng Nam dòng thượng hạng hộp quà biếu 1 kg  L294">
-																	<img class="lazy after-lazy" alt="Nấm lim xanh núi Quảng Nam dòng thượng hạng hộp quà biếu 1 kg  L294" src="https://onplaza.vn/images/products/2020/12/31/resized/nam-lim-xanh-nui-quang-nam-dong-thuong-hang-hop-qua-bieu-1-kg-l294_1609398002.jpg" srcset="https://onplaza.vn/images/products/2020/12/31/resized/nam-lim-xanh-nui-quang-nam-dong-thuong-hang-hop-qua-bieu-1-kg-l294_1609398002.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nam-lim-xanh-nui-quang-nam-dong-thuong-hang-hop-qua-bieu-1-kg-l294/" title="Nấm lim xanh núi Quảng Nam dòng thượng hạng hộp quà biếu 1 kg  L294" class="name">
-																		Nấm lim xanh núi Quảng Nam dòng thượng hạng hộp
-																		quà biếu 1 kg L294... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.570.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nam-lim-xanh-nui-quang-nam-dong-thuong-hang-hop-qua-bieu-1-kg-l294/" title="Mua sản phẩm Nấm lim xanh núi Quảng Nam dòng thượng hạng hộp quà biếu 1 kg  L294">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/nam-lim-xanh-tien-phuoc-hong-chi-l013/" title="Nấm lim xanh Tiên Phước 0.5 kg (hồng chi) L013">
-																	<img class="lazy after-lazy" alt="Nấm lim xanh Tiên Phước 0.5 kg (hồng chi) L013" src="https://onplaza.vn/images/products/2020/12/31/resized/nam-lim-xanh-tien-phuoc-hong-chi-l013_1609398040.jpg" srcset="https://onplaza.vn/images/products/2020/12/31/resized/nam-lim-xanh-tien-phuoc-hong-chi-l013_1609398040.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/nam-lim-xanh-tien-phuoc-hong-chi-l013/" title="Nấm lim xanh Tiên Phước 0.5 kg (hồng chi) L013" class="name">
-																		Nấm lim xanh Tiên Phước 0.5 kg (hồng chi) L013
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.857.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/nam-lim-xanh-tien-phuoc-hong-chi-l013/" title="Mua sản phẩm Nấm lim xanh Tiên Phước 0.5 kg (hồng chi) L013">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
-													<!--	end EACH Product				-->
-
-												</div>
-
-											</div>
-										</div>
-
-
-									</div>
-
-
-
 									<div class="clear"></div>
 
 
 									<div class="cat_item_store menu_sticky sticky_8 cls">
-										<h2 class="cat-title-main"><a href="matongnguyenchat.php" title="Dược liệu cao cấp"><span>Mật Ong Nguyên Chất</span></a></h2>
+										<?php
+											$matong = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 8");
+											$item_matong = mysqli_fetch_assoc($matong);
+										?>
+										<h2 class="cat-title-main"><a href="matongnguyenchat.php" title="Dược liệu cao cấp"><span><?= $item_matong['name_category'] ?></span></a></h2>
 										<div class="clear"></div>
 
 										<div class="product_ajj">
 											<div class="products_home_slideshow product_grid" id="products_home_slideshow_107">
-												<!--	EACH Product				-->
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
+												<!--	EACH Product		Mật ong		-->
+												<?php
+												$matong1 = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = 8");
+												foreach ($matong1 as $item_matong1) {
+												?>
+													<div class="item ">
+														<div class="frame_inner">
+															<figure class="product_image ">
 
-															<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="Mật ong rừng sữa chúa loại đặc biệt nguyên chai 1400g (Chai nhựa) MO007">
-																<img class="lazy after-lazy" alt="Mật ong rừng sữa chúa loại đặc biệt nguyên chai 1400g (Chai nhựa) MO007" src="https://onplaza.vn/images/products/2021/08/14/resized/mat-ong-rung-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007_1628916255.jpg" srcset="https://onplaza.vn/images/products/2021/08/14/resized/mat-ong-rung-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007_1628916255.jpg.webp" style="display: inline;"> </a>
+																<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="<?=$item_matong1['name_product']?>">
+																	<img class="lazy after-lazy" alt="<?=$item_matong1['name_product']?>" src="uploads/products/<?=$item_matong1['image_product']?>" srcset="uploads/products/<?=$item_matong1['image_product']?>" style="display: inline;"> </a>
 
-														</figure>
-
-
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF" href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="Mật ong rừng sữa chúa loại đặc biệt nguyên chai 1400g (Chai nhựa) MO007" class="name">
-																	Mật ong rừng sữa chúa loại đặc biệt nguyên chai
-																	1400g (Chai nhựa) MO007 </a> </h3>
-
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current" style="color:#FFE2B8">190.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">247.000₫ </span>
-															</span>
-														</div>
-
-
-
-
+															</figure>
+															<div class="name">
+																<h3><a style="color:#FFFFFF" href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="<?=$item_matong1['name_product']?>" class="name">
+																<?=$item_matong1['name_product']?></a> </h3>
+															</div>
+															<div class="price_arae">
+																<span class="price_current" style="color:#FFE2B8"><?=number_format($item_matong1['price'],0,"",".")?>₫</span>
+																<span class="price_old" style="color:#FFE2B8">
+																	<span class="item_old"><?=number_format($item_matong1['price1'],0,"",".")?>₫ </span>
+																</span>
+															</div>
+															<div class="buy_nows">
+																<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="Mua sản phẩm <?=$item_matong1['name_product']?>">
+																	Mua sản phẩm
+																</a>
+															</div>
 
 
+														</div> <!-- end .frame_inner -->
 
-														<div class="buy_nows">
-															<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/" title="Mua sản phẩm Mật ong rừng sữa chúa loại đặc biệt nguyên chai 1400g (Chai nhựa) MO007">
-																Mua sản phẩm
-															</a>
-														</div>
-
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-
+													</div>
+												<?php
+												}
+												?>
 												<!--	end EACH Product				-->
 
 											</div>
@@ -4043,14 +2506,7 @@
 										</div>
 
 									</div>
-
-
-
 									<div class="clear"></div>
-
-
-
-
 								</div>
 							</div>
 
@@ -4073,7 +2529,7 @@
 													sâu non bị chết. Đến mùa hạ từ đầu sâu ấy mọc lên một chồi thảo dài
 													2,5 - 3cm.</span></p>
 
-											<p style="text-align:center"><img class="lazy2" alt="Dược liệu đông trùng hạ thảo" height="533" width="800" src="/upload_images/images/duoc-lieu-cao-cap/dong-trung-ha-thao.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Dược liệu đông trùng hạ thảo" height="533" width="800" src="uploads/duoclieu/dong-trung-ha-thao.png">
 											</p>
 
 											<p style="text-align:center"><br>
@@ -4100,7 +2556,7 @@
 											<h2><span style="color:#d35400"><span style="font-size:16px"><strong>Dược
 															liệu Nấm linh chi Hàn Quốc</strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="Dược liệu Nấm linh chi Hàn Quốc" height="379" width="800" src="/upload_images/images/duoc-lieu-cao-cap/nam-linh-chi-han-quoc.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Dược liệu Nấm linh chi Hàn Quốc" height="379" width="800" src="uploads/duoclieu/namlinhchihanquoc.png">
 											</p>
 
 											<p style="text-align:center"><span style="font-size:14px"><em>Nấm linh chi
@@ -4150,9 +2606,9 @@
 													ngon, hạn chế rụng tóc, bổ thận, bổ gan, hạ hỏa.</span></p>
 
 											<h2><span style="color:#d35400"><span style="font-size:16px"><strong>Dược
-															liệu Nhân sâm Hàn Quốc</strong></span></span></h2>
+															liệu Nhân <?= $item_nhansam['name_category'] ?></strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="Trong Đông y dược liệu quý nhân sâm được sử dụng qua nhiều thế kỷ" height="379" width="800" src="/upload_images/images/duoc-lieu-cao-cap/nhan-sam.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="Trong Đông y dược liệu quý nhân sâm được sử dụng qua nhiều thế kỷ" height="379" width="800" src="uploads/duoclieu/nhan-sam.png"></p>
 
 											<p style="text-align:center"><br>
 												<span style="font-size:14px"><em>Ảnh: Trong Đông y dược liệu quý nhân
@@ -4182,7 +2638,7 @@
 											<h2><span style="color:#d35400"><span style="font-size:16px"><strong>Cây&nbsp;Sâm Ngọc
 															Linh</strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="Cây sâm ngọc linh nhiều năm tuối của ông đào Văn Quang" height="647" width="800" src="/upload_images/images/duoc-lieu-cao-cap/sam-ngoc-linh-tu-nhien.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Cây sâm ngọc linh nhiều năm tuối của ông đào Văn Quang" height="647" width="800" src="uploads/duoclieu/sam-ngoc-linh-tu-nhien.png">
 											</p>
 
 											<p style="text-align:center"><span style="font-size:14px">Chuyên gia chơi
@@ -4194,7 +2650,7 @@
 													lên.</span></p>
 
 											<p><span style="font-size:14px">Khi so sánh sâm Ngọc Linh của Việt Nam với
-													nhân sâm Hàn Quốc, sâm Mỹ, sâm Nhật Bản thì cho thấy hàm lượng
+													nhân <?= $item_nhansam['name_category'] ?>, sâm Mỹ, sâm Nhật Bản thì cho thấy hàm lượng
 													saponin trong sâm Ngọc Linh gấp 3,5 lần sâm Triều Tiên, gấp hơn 4
 													lần sâm Mỹ và Hàn Quốc. Các nhà khoa học còn phát hiện ra sâm Ngọc
 													Linh chứa thành phần MR2 cao nhất, đây cũng là điểm đặc thù khiến
@@ -4202,7 +2658,7 @@
 													khác.</span><br>
 												&nbsp;</p>
 
-											<p style="text-align:center"><img class="lazy2" alt="Sâm ngọc linh loại 1 .2  củ 1kg" height="600" width="800" src="/upload_images/images/duoc-lieu-cao-cap/sam-ngoc-linh-1-2-cu-1kg.jpg">
+											<p style="text-align:center"><img class="lazy2" alt="Sâm ngọc linh loại 1 .2  củ 1kg" height="600" width="800" src="uploads/duoclieu/sam-ngoc-linh-1-2-cu-1kg.png">
 											</p>
 
 											<p><span style="font-size:14px">Ngoài thành phần <strong>saponin</strong>
@@ -4214,7 +2670,7 @@
 											<h2><span style="color:#d35400"><span style="font-size:16px"><strong>Cây&nbsp;Đinh
 															lăng</strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="cây đinh lăng" height="640" width="768" src="/upload_images/images/duoc-lieu-cao-cap/cay-dinh-lang.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="cây đinh lăng" height="640" width="768" src="uploads/duoclieu/cay-dinh-lang.png"></p>
 
 											<p style="text-align:center"><span style="font-size:14px"><em>Ảnh: Đinh lăng
 														được ví như nhân sâm cho mọi nhà.</em></span></p>
@@ -4231,7 +2687,7 @@
 											<h2><span style="color:#d35400"><span style="font-size:16px"><strong>Hà thủ
 															ô</strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="Hà thủ ô - vị dược liệu quý, được sử dụng phổ biến trong Đông y" height="600" width="800" src="/upload_images/images/duoc-lieu-cao-cap/cay-ha-thu-o.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="Hà thủ ô - vị dược liệu quý, được sử dụng phổ biến trong Đông y" height="600" width="800" src="uploads/duoclieu/cay-ha-thu-o.png"></p>
 
 											<p><span style="font-size:14px">Hà thủ ô cũng là dược liệu quý khá phổ biến
 													với người dân Việt Nam, đặc biệt hà thủ ô được trồng nhiều ở các
@@ -4342,7 +2798,7 @@
 											<h2><span style="font-size:16px"><span style="color:#d35400"><strong>12.
 															Hoài sơn</strong></span></span></h2>
 
-											<p style="text-align:center"><img class="lazy2" alt="Hoài sơn" height="800" width="800" src="/upload_images/images/duoc-lieu-cao-cap/hoai-son.jpg"></p>
+											<p style="text-align:center"><img class="lazy2" alt="Hoài sơn" height="800" width="800" src="uploads/duoclieu/hoai-son.png"></p>
 
 											<p style="text-align:center"><span style="font-size:14px"><em>Ảnh: Hoài sơn
 														là vị dược liệu được dân ta sử dụng như loại thực phẩm giàu dinh
@@ -4393,7 +2849,7 @@
 							<div class="homemenu_fixed" id="menu_scroll">
 								<ul>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_1" title="Giá đông trùng hạ thảo">
+										<a href="javascript:void(0)" id="sticky_1" title="<?= $item_dongtrung['name_category'] ?>">
 											<span class="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="83.000000pt" height="84.000000pt" viewBox="0 0 83.000000 84.000000" preserveAspectRatio="xMidYMid meet">
 													<metadata>
 														Created by potrace 1.16, written by Peter Selinger 2001-2019
@@ -4417,16 +2873,16 @@
 16 8 4 59 -5 22 -2 32 11 43 24 17 25 16 54 -6z"></path>
 													</g>
 												</svg></span>
-											<span class="text_hide">Giá đông trùng hạ thảo</span>
+											<span class="text_hide"><?= $item_dongtrung['name_category'] ?></span>
 										</a>
 									</li>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_2" title="Sâm Hàn Quốc">
+										<a href="javascript:void(0)" id="sticky_2" title="<?= $item_nhansam['name_category'] ?>">
 											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30" xmlns="http://www.w3.org/2000/svg">
 													<path d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 													</path>
 												</svg></span>
-											<span class="text_hide">Sâm Hàn Quốc</span>
+											<span class="text_hide"><?= $item_nhansam['name_category'] ?></span>
 										</a>
 									</li>
 									<li class="item">
@@ -4461,7 +2917,7 @@
 										</a>
 									</li>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_4" title="Giá nấm linh chi Hàn Quốc">
+										<a href="javascript:void(0)" id="sticky_4" title="<?= $item_nam['name_category'] ?>">
 											<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
 													<g>
 														<path d="M369.9,478.1l21.5,0.6l11.6,3l8.8,4.5l8,8.6l12.3,15.9l11.2,25l7.5,22.6l1.3,17.9l-16.1,23.4l-21.3,20.2L394.8,633l-4.9,8l-29,18.9l-54.9,1.9l-50.1-2.6l-41.9-13.8c0,0-29.9-12.3-31-12.3S153,620.1,153,620.1l-13.8-15.9c0,0-9.7-11-10.3-11.4s-20.2-31.6-20.2-31.6l-17.4-31.8l-14.4-20.2l-5.2-19.6l0.9-40.7l-3.2-10.5l-25-25.2l-4.7-14.8l-14.2-42.8l7.7-100.7L49.6,229l26.2-26.7l19.8-16.1l15.5-8.8l13.1-6.7l8.2-2.8l1.3-3.9l4.3-7.7l11.2-14.8l13.3-6.5l20-12.7l13.1-9.5l15.1-12.7l13.8-5.4l12-1.9l36.8-0.6l54.2-7.1l33.1,0.6l28.2,1.7l17,3l17.6,6l5.8,1.7l16.6,0.4l10.1-4.1l25.8-5.8h35.1l28.8,5.2l26,3l26,13.6c0,0,8,3.9,8.2,4.5c0.2,0.6,16.6,4.9,16.6,4.9l18.1,12.7l13.6,7.1l7.1,3.2l5.8,6.9l0.9,3.9l8.8,8.8l21.9,9.7l25,13.3l13.1,8l15.5,8.4l12.7,10.5l9.9,10.5l16.8,20.9l23.9,20.9l5.4,5.6c0,0,8.4,0.6,9,1.5c0.6,0.9,7.5,6.5,8.6,7.5s5.6,15.1,6.2,15.7c0.6,0.6,2.8,15.3,2.8,15.3l11.2,6.5c0,0,7.7,0.2,8.6,0.9c0.9,0.6,8.2,7.1,8.6,8c0.4,0.9,19.6,16.1,19.6,16.1l25.4,22.2l15.9,13.1c0,0,4.3,11.2,4.7,13.3c0.4,2.2,12,20.6,12,20.6l10.3,17.2l1.5,7.5l12.3,16.8l1.5,13.6c0,0,0.9,33.3,0.9,34c0,0.6,5.6,26.5,5.6,28c0,1.5,4.7,14,4.5,14.8c-0.2,0.9-2.6,12.3-2.4,14c0.2,1.7-5.2,32.9-5.2,32.9l-4.1,8.4l-1.7,5.8l4.7,8.4l5.4,13.6c0,0,1.5,13.6,1.5,14.2c0,0.6-2.4,24.1-2.4,24.1l-4.1,10.8l-2.8,15.5l-6.5,14.2l-9.5,15.3l-8.2,8.8l-4.5,12l-9.9,9.9l-5.8,14.6l-4.7,9c0,0-15.9,19.4-15.7,20c0.2,0.6-12.9,12.7-12.9,12.7l-18.9,16.1c0,0-17,12.7-17.4,13.8c-0.4,1.1-11.4,9.5-11.4,9.5l-39.4,31.2l-14.8,11.2l-19.8,11.4l-25,10.1l-34.4,1.3l-21.7-2.4l-19.1-0.9l-18.1-3.9l-13.8-3.9l-48.4-28.8l-8.8-7.7l-17.2-14.4l-22.8-17.4l-10.8-13.3l-11.2-14L515.3,784L500,761.2l-9.9-12.9l-17-27.1l-7.7-19.8l-5.4-16.1l-3-16.8V645l3.2-38.1l10.5-21.7l17.6-16.3l31.8-16.3l14.6-3.9l18.9,2.8l18.5,6.5l16.8,11l9.5,8.6l13.3,28.2l-6.2,11.2l11-22.2l-12.9-23.2L570.1,550l-70.6-48.2l-11.2-18.9l-42.2-17.2l-61.1-2.6l-22.4,7.7v7.7l4.3-1.7">
@@ -4482,11 +2938,11 @@
 														</path>
 													</g>
 												</svg></span>
-											<span class="text_hide">Giá nấm linh chi Hàn Quốc</span>
+											<span class="text_hide"><?= $item_nam['name_category'] ?></span>
 										</a>
 									</li>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_5" title="Giá nhung hươu">
+										<a href="javascript:void(0)" id="sticky_5" title="<?= $item_nhunghuou['name_category'] ?>">
 											<span class="icon"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 413.11 413.11" style="enable-background:new 0 0 413.11 413.11;" xml:space="preserve">
 													<g>
 														<g>
@@ -4525,16 +2981,16 @@
 
 												</svg>
 											</span>
-											<span class="text_hide">Giá nhung hươu</span>
+											<span class="text_hide"><?= $item_nhunghuou['name_category'] ?></span>
 										</a>
 									</li>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_6" title="Bảng giá an cung ngưu">
+										<a href="javascript:void(0)" id="sticky_6" title="<?= $item_ancungnguu['name_category'] ?>">
 											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30" xmlns="http://www.w3.org/2000/svg">
 													<path d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 													</path>
 												</svg></span>
-											<span class="text_hide">Bảng giá an cung ngưu</span>
+											<span class="text_hide"><?= $item_ancungnguu['name_category'] ?></span>
 										</a>
 									</li>
 									<li class="item">
