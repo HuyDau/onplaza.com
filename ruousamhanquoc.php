@@ -620,7 +620,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=1" title="Nhân sâm hàn quốc">
                                                                 Nhân sâm hàn quốc
                                                             </a>
 															<ul class="item_lv2">
@@ -684,7 +684,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=2" title="Đông trùng hạ thảo">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=2" title="Đông trùng hạ thảo">
                                                                 Đông Trùng Hạ Thảo
                                                             </a>
 															<ul class="item_lv2">
@@ -713,7 +713,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=3" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
 															<ul class="item_lv2">
@@ -757,7 +757,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=4" title="Yến sào Khánh Hoà">
                                                                 Yến sào Khánh Hoà
                                                             </a>
 															<ul class="item_lv2">
@@ -796,7 +796,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=5" title="Nhung hươu">
                                                                 Nhung hươu
                                                             </a>
 															<ul class="item_lv2">
@@ -835,7 +835,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=6" title="An cung ngưu">
                                                                 An cung ngưu
                                                             </a>
 															<ul class="item_lv2">
@@ -854,14 +854,14 @@
 
 
 														<div class="item cls ">
-															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=7" title="Tinh dầu thông đỏ">
                                                                 Tinh dầu thông đỏ
                                                             </a>
 														</div>
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=8" title="Mật Ong Nguyên Chất">
                                                                 Mật Ong Nguyên Chất
                                                             </a>
 															<ul class="item_lv2">
@@ -894,7 +894,7 @@
 
 											<div class="sub-menu sub-menu-level1 has_child  ">
 
-												<a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
+												<a href="nhansamhanquoc.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
                                                     <span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
                                                             <g>
                                                                 <g>

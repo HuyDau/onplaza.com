@@ -567,7 +567,7 @@
 												<div class="wraper_item cls " alt="Dược liệu cao cấp" data-menu_tags="908" data-menu_idt="0" style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;" nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=1" title="Nhân sâm hàn quốc">
                                                                 Nhân sâm hàn quốc
                                                             </a>
 															<ul class="item_lv2">
@@ -607,7 +607,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=1" title="Nhân sâm hàn quốc">
                                                                 Nhân sâm hàn quốc
                                                             </a>
 															<ul class="item_lv2">
@@ -626,7 +626,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=3" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
 															<ul class="item_lv2">
@@ -654,7 +654,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=4" title="Yến sào Khánh Hoà">
                                                                 Yến sào Khánh Hoà
                                                             </a>
 															<ul class="item_lv2">
@@ -679,7 +679,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=5" title="Nhung hươu">
                                                                 Nhung hươu
                                                             </a>
 															<ul class="item_lv2">
@@ -704,7 +704,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=6" title="An cung ngưu">
                                                                 An cung ngưu
                                                             </a>
 															<ul class="item_lv2">
@@ -717,12 +717,12 @@
 															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=7" title="Tinh dầu thông đỏ">
                                                                 Tinh dầu thông đỏ
                                                             </a>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=8" title="Mật Ong Nguyên Chất">
                                                                 Mật Ong Nguyên Chất
                                                             </a>
 															<ul class="item_lv2">

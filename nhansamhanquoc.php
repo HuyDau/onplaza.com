@@ -1,3 +1,7 @@
+<?php
+session_start();
+require_once("config/config.php");
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi">
 
@@ -8,10 +12,7 @@
 
 	<meta name="description" content="Cập nhật giá bán nhân sâm hàn quốc chính hãng tại Hà Nội và Hồ Chí Minh với các loại nhân sâm Hàn, cao hồng sâm, nước hồng sâm,... sâm tẩm mật ong chính hãng giá tốt nhất thị trường ,Sâm Hàn Quốc,">
 	<meta name="keywords" content="sâm hàn quốc,nhân sâm hàn quốc,các loại sâm Hàn Quốc,giá nhân sâm,địa chỉ bán sâm,mua nhân sâm,cửa hàng nhân sâm hàn quốc hà nội,hồ chí minh,Sâm Hàn Quốc">
-
 	<meta name="dc.language" content="VN">
-
-
 	<meta name="dc.title" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
 	<meta name="dc.keywords" content="sâm hàn quốc,nhân sâm hàn quốc,các loại sâm Hàn Quốc,giá nhân sâm,địa chỉ bán sâm,mua nhân sâm,cửa hàng nhân sâm hàn quốc hà nội,hồ chí minh,Sâm Hàn Quốc">
 	<meta name="dc.subject" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
@@ -39,7 +40,7 @@
 			f.parentNode.insertBefore(j, f);
 		})(window, document, 'script', 'dataLayer', 'GTM-NSJGFXL');
 	</script>
-	
+
 	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-173996513-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -51,7 +52,7 @@
 
 		gtag('config', 'UA-173996513-1');
 	</script>
-	
+
 	<meta property="og:type" content="website">
 
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
@@ -59,10 +60,6 @@
 	<meta property="og:title" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
 	<meta property="og:url" content="nhansamhanquoc.php">
 	<meta property="og:description" content="Cập nhật giá bán nhân sâm hàn quốc chính hãng tại Hà Nội và Hồ Chí Minh với các loại nhân sâm Hàn, cao hồng sâm, nước hồng sâm,... sâm tẩm mật ong chính hãng giá tốt nhất thị trường ,Sâm Hàn Quốc,">
-
-
-
-
 
 	<link rel="canonical" href="nhansamhanquoc.php">
 
@@ -163,18 +160,12 @@
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NSJGFXL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
-
-
-
-
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
-
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
-                <i class="las la-times"></i>
-            </div>
+				<i class="las la-times"></i>
+			</div>
 			<div class="tab_login">
 				<div class="wrapper_log">
 					<ul class="login_select cls">
@@ -280,39 +271,39 @@
 										<select class="date" name="date" id="date">
 											<option value="">Ngày</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 31; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 31; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="month" name="month" id="month">
 											<option value="">Tháng</option>
 											<?php
-                                            $i;
-                                            for ($i = 1; $i <= 12; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1; $i <= 12; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 										<select class="year" name="year" id="year">
 											<option value="">Năm</option>
 											<?php
-                                            $i;
-                                            for ($i = 1970; $i <= 2023; $i++) {
-                                            ?>
-                                                <option value="<?= $i ?>"><?= $i ?></option>
-                                            <?php
-                                            }
-                                            ?>
+											$i;
+											for ($i = 1970; $i <= 2023; $i++) {
+											?>
+												<option value="<?= $i ?>"><?= $i ?></option>
+											<?php
+											}
+											?>
 										</select>
 									</div>
 
-									
+
 								</div>
 								<div class="clear"></div>
 								<div class="row-register cf " id="check_captcha">
@@ -668,9 +659,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=1" title="Nhân sâm hàn quốc">
-                                                                Nhân sâm hàn quốc
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=1" title="Nhân sâm hàn quốc">
+																Nhân sâm hàn quốc
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="nhansam6tuoi.php" title="Nhân sâm tươi 6 năm tuổi">
@@ -732,9 +723,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=2" title="Đông trùng hạ thảo">
-                                                                Đông Trùng Hạ Thảo
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=2" title="Đông trùng hạ thảo">
+																Đông Trùng Hạ Thảo
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="dongtrungtaytang.php" title="Đông trùng Tây Tạng">
@@ -761,7 +752,7 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=3" title="Nấm linh chi Hàn Quốc">
+															<a class="item_lv1" href="nhansamhanquoc.php?id=3" title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
 															<ul class="item_lv2">
@@ -805,9 +796,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=4" title="Yến sào Khánh Hoà">
-                                                                Yến sào Khánh Hoà
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=4" title="Yến sào Khánh Hoà">
+																Yến sào Khánh Hoà
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="toyentho.php" title="Tổ Yến Thô">
@@ -844,9 +835,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=5" title="Nhung hươu">
-                                                                Nhung hươu
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=5" title="Nhung hươu">
+																Nhung hươu
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="nhunghuoutuoi.php" title="Nhung hươu tươi">
@@ -883,9 +874,9 @@
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=6" title="An cung ngưu">
-                                                                An cung ngưu
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=6" title="An cung ngưu">
+																An cung ngưu
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="ancungnguutrungquoc.php" title="An cung ngưu trung quốc">
@@ -902,16 +893,16 @@
 
 
 														<div class="item cls ">
-															<a class="item_lv1" href="danhsachsanpham.php?id=7" title="Tinh dầu thông đỏ">
-                                                                Tinh dầu thông đỏ
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=7" title="Tinh dầu thông đỏ">
+																Tinh dầu thông đỏ
+															</a>
 														</div>
 
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="danhsachsanpham.php?id=8" title="Mật Ong Nguyên Chất">
-                                                                Mật Ong Nguyên Chất
-                                                            </a>
+															<a class="item_lv1" href="nhansamhanquoc.php?id=8" title="Mật Ong Nguyên Chất">
+																Mật Ong Nguyên Chất
+															</a>
 															<ul class="item_lv2">
 
 																<li><a href="matongrung.php" title="Mật Ong Rừng">
@@ -942,11 +933,11 @@
 
 											<div class="sub-menu sub-menu-level1 has_child  ">
 
-												<a href="danhsachsanpham.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
-                                                    <span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
-                                                            <g>
-                                                                <g>
-                                                                    <path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
+												<a href="nhansamhanquoc.php?id=9" class="level_0 sort sub-menu-item" data-menu_tags="909" id="menu_item_909" title="Thực phẩm chức năng">
+													<span class="icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 469.333 469.333" style="enable-background:new 0 0 469.333 469.333;" xml:space="preserve">
+															<g>
+																<g>
+																	<path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
     c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555
     c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381
     c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368
@@ -954,11 +945,11 @@
     s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299
     c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
     C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
-                                                                </g>
-                                                            </g>
+																</g>
+															</g>
 
-                                                        </svg></span>
-                                                    Thực phẩm chức năng </a>
+														</svg></span>
+													Thực phẩm chức năng </a>
 
 
 												<div class="wraper_item cls" data-menu_tags="909" data-menu_idt="1">
@@ -2303,19 +2294,11 @@
 
 								<article class="cat_summary cls">
 									<div class="summary_content">
-										<p style="text-align:center"><a href="#"><img alt="" height="452" src="/upload_images/images/2022/12/07/1310x482-TONG.jpg" width="1310"></a></p>
-
-										<p style="text-align:justify">Trong bốn loại dược liệu tốt nhất cho sức khỏe:
-											Sâm -&nbsp;nhung -&nbsp;quế&nbsp;- phụ, <strong><a href="https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html">nhân
-													sâm</a></strong> được xếp đứng đầu danh sách cho thấy có tác dụng
-											rất tốt với sức khỏe của con người. Với công nghệ hiện đại ngày nay nhân sâm
-											Hàn Quốc còn được chế biết thành những chế phẩm như cao hồng sâm, hồng sâm
-											củ&nbsp; khô, nước hồng sâm, hồng sâm tẩm mật ong, trà sâm&nbsp;... mang lại
-											sự tiện lợi khi sử dụng.&nbsp;</p>
-
-										<p style="text-align:justify">Quý khách tham khảo giá các loại sản phẩm sâm Hàn
-											phổ biến hiện nay phía dưới. Kéo xuống phía dưới để tìm hiểu thêm thông tin
-											về sâm Hàn Quốc trước khi mua.</p>
+										<?php
+										$cat = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 1");
+										$item_cat = mysqli_fetch_assoc($cat);
+										echo $item_cat['content'];
+										?>
 									</div>
 
 								</article>
@@ -2338,557 +2321,132 @@
 										</h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Nhân Sâm tươi Hàn Quốc 6 năm tuổi" src="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tuoi-han-quoc_1605339577.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tuoi-han-quoc_1605339577.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Nhân Sâm tươi Hàn Quốc 6 năm tuổi" src="uploads/portfolio/nhansamhanquoc/nhansamtuoihanquoc.png" srcset="uploads/portfolio/nhansamhanquoc/nhansamtuoihanquoc.png" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_65">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	<img class="lazy after-lazy" alt="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004" src="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004" class="name">
-																		Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.570.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/" title="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003">
-																	<img class="lazy after-lazy" alt="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003" src="https://onplaza.vn/images/products/2023/03/29/resized/ns003-avatar_1680078860.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns003-avatar_1680078860.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/" title="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003" class="name">
-																		Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg
-																		NS003 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.290.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/" title="Mua sản phẩm Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/" title="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002">
-																	<img class="lazy after-lazy" alt="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002" src="https://onplaza.vn/images/products/2023/03/29/resized/ns002-avatar_1680078851.jpg" srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns002-avatar_1680078851.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/" title="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002" class="name">
-																		Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.800.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.857.142₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/" title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/" title="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001">
-																	<img class="lazy after-lazy" alt="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001" src="https://onplaza.vn/images/products/2022/09/22/resized/3-cu_1663815939.jpg" srcset="https://onplaza.vn/images/products/2022/09/22/resized/3-cu_1663815939.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/" title="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001" class="name">
-																		Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg
-																		NS001 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">3.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">5.430.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/" title="Mua sản phẩm Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/" title="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006">
-																	<img class="lazy after-lazy" alt="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006" src="https://onplaza.vn/images/products/2021/01/05/resized/nhan-sam-tuoi-han-quoc-8-cu-kg-n006_1609835348.jpg" srcset="https://onplaza.vn/images/products/2021/01/05/resized/nhan-sam-tuoi-han-quoc-8-cu-kg-n006_1609835348.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/" title="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006" class="name">
-																		Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg
-																		NS006 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">2.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.290.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/" title="Mua sản phẩm Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/" title="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216">
-																	<img class="lazy after-lazy" alt="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216" src="https://onplaza.vn/images/products/2020/07/31/resized/hop-qua-tang-sam-nui-ngan-nam-tuoi-thuong-hang-ns216_1596180720.jpg" srcset="https://onplaza.vn/images/products/2020/07/31/resized/hop-qua-tang-sam-nui-ngan-nam-tuoi-thuong-hang-ns216_1596180720.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/" title="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216" class="name">
-																		Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng
-																		NS216 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">7.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">10.710.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/" title="Mua sản phẩm Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+													<!--	EACH Product		Nhân sâm tươi hàn quốc		-->
+													<?php
+													$nhansamtuoi = mysqli_query($conn, "select * from product where id_portfolio = 3 limit 6");
+													foreach ($nhansamtuoi as $item_nhansamtuoi) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+
+																	<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="<?= $item_nhansamtuoi['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_nhansamtuoi['name_product'] ?>" src="uploads/products/<?= $item_nhansamtuoi['image_product'] ?>" srcset="uploads/products/<?= $item_nhansamtuoi['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+
+
+
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="<?= $item_nhansamtuoi['name_product'] ?>" class="name">
+																			<?= $item_nhansamtuoi['name_product'] ?>
+																		</a> </h3>
+																</div>
+																<div class="price_arae">
+																	<?php
+																	if ($item_nhansamtuoi['price'] == 0) {
+																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
+																	} else {
+																	?>
+																		<span class='price_current' style='color:#FFE2B8'><?= number_format($item_nhansamtuoi['price1'], 0, '', '.') ?>₫</span>
+																	<?php
+																	}
+																	?>
+
+																	<?php
+																	if ($item_nhansamtuoi['price1'] == 0) {
+																		echo "";
+																	} else {
+																	?>
+																		<span class='price_old' style='color:#FFE2B8'><span class="item_old"><?= number_format($item_nhansamtuoi['price'], 0, '', '.') ?>₫</span></span>
+																	<?php
+																	}
+																	?>
+
+
+
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/" title="Mua sản phẩm <?= $item_nhansamtuoi['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+														</div>
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
-
 												</div>
-
 											</div>
 										</div>
-
-
 									</div>
-
-
-
 									<div class="clear"></div>
-
-
 									<div class="cat_item_store menu_sticky sticky_2 cls">
+
 										<h2 class="cat-title-main"><a href="samtammatong.php" title="Sâm Hàn Quốc"><span>Sâm tẩm mật ong</span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Sâm tẩm mật ong" src="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tam-mat-ong_1605340195.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tam-mat-ong_1605340195.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Sâm tẩm mật ong" src="uploads/portfolio/nhansamhanquoc/samtammatong.png" srcset="uploads/portfolio/nhansamhanquoc/samtammatong.png" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_62">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	<img class="lazy after-lazy" alt="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030" src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg" srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030" class="name">
-																		Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp
-																		Bio Apgold Hàn... </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">980.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.400.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Mua sản phẩm Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/" title="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090">
-																	<img class="lazy after-lazy" alt="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090" src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200-g-ns090_1595905573.jpg" srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200-g-ns090_1595905573.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/" title="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090" class="name">
-																		Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8
-																		củ) NS090 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">800.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.150.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/" title="Mua sản phẩm Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/" title="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287">
-																	<img class="lazy after-lazy" alt="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287" src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-tam-mat-ong-thai-lat-pocheon-200-g-ns287_1595923138.jpg" srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-tam-mat-ong-thai-lat-pocheon-200-g-ns287_1595923138.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/" title="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287" class="name">
-																		Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">980.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.400.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/" title="Mua sản phẩm Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/" title="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129">
-																	<img class="lazy after-lazy" alt="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129" src="https://onplaza.vn/images/products/2020/07/30/resized/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129_1596104186.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129_1596104186.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/" title="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129" class="name">
-																		Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ
-																		NS129 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">1.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.000.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/" title="Mua sản phẩm Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/" title="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028">
-																	<img class="lazy after-lazy" alt="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028" src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200-g-ns028_1595817774.jpg" srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200-g-ns028_1595817774.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/" title="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028" class="name">
-																		Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g
-																		NS028 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">999.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.430.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/" title="Mua sản phẩm Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/" title="Hồng sâm thái lát tẩm mật ong KGS 100g NS032">
-																	<img class="lazy after-lazy" alt="Hồng sâm thái lát tẩm mật ong KGS 100g NS032" src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-thai-lat-tam-mat-ong-kgs-100-g-ns032_1595929998.jpg" srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-thai-lat-tam-mat-ong-kgs-100-g-ns032_1595929998.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/" title="Hồng sâm thái lát tẩm mật ong KGS 100g NS032" class="name">
-																		Hồng sâm thái lát tẩm mật ong KGS 100g NS032
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">580.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">830.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/" title="Mua sản phẩm Hồng sâm thái lát tẩm mật ong KGS 100g NS032">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-
+													<!--	EACH Product		Sâm tẩm mật ong		-->
+													<?php
+													$sammatong = mysqli_query($conn, "SELECT * FROM product WHERE id_portfolio = 8 LIMIT 6");
+													foreach ($sammatong as $item_samtammatong) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+																	<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="">
+																		<img class="lazy after-lazy" alt="<?= $item_samtammatong['name_product'] ?>" src="uploads/products/<?= $item_samtammatong['image_product'] ?>" srcset="uploads/products/<?= $item_samtammatong['image_product'] ?>" style="display: inline;"> </a>
+
+																</figure>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="<?= $item_samtammatong['name_product'] ?>" class="name">
+																			<?= $item_samtammatong['name_product'] ?></a> </h3>
+																</div>
+																<div class="price_arae">
+																	<?php
+																	if ($item_samtammatong['price'] == 0) {
+																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
+																	} else {
+																	?>
+																		<span class='price_current' style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
+																	<?php
+																	}
+																	?>
+
+																	<?php
+																	if ($item_samtammatong['price1'] == 0) {
+																		echo "";
+																	} else {
+																	?>
+																		<span class='price_old' style='color:#FFE2B8'><span class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
+																	<?php
+																	}
+																	?>
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/" title="Mua sản phẩm <?= $item_samtammatong['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+
+														</div>
+													<?php
+													}
+													?>
 													<!--	end EACH Product				-->
 
 												</div>
@@ -2908,141 +2466,59 @@
 										<h2 class="cat-title-main"><a href="trasam.php" title="Sâm Hàn Quốc"><span>Trà sâm</span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Trà sâm" src="https://onplaza.vn/images/products/cat/large/banner-doc-tra-sam_1605340492.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-tra-sam_1605340492.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Trà sâm" src="uploads/portfolio/nhansamhanquoc/trasam.png" srcset="uploads/portfolio/nhansamhanquoc/trasam.png" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_60">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<!--	EACH Product		Trà Sâm		-->
+													<?php
+													$trasam = mysqli_query($conn, "SELECT * FROM product WHERE id_portfolio = 12");
+													foreach ($trasam as $item_trasam) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
+																	<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="<?= $item_trasam['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_trasam['name_product'] ?>" src="uploads/products/<?= $item_trasam ?>" srcset="uploads/products/<?= $item_trasam ?>" style="display: inline;"> </a>
+																</figure>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="<?= $item_trasam['name_product'] ?>" class="name">
+																			Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50
+																			gói NS127 </a> </h3>
+																</div>
+																<div class="price_arae">
+																	<?php
+																	if ($item_samtammatong['price'] == 0) {
+																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
+																	} else {
+																	?>
+																		<span class='price_current' style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
+																	<?php
+																	}
+																	?>
 
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127">
-																	<img class="lazy after-lazy" alt="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127" src="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-nhap-khau-han-quoc-loai-50-goi-ns127_1596101967.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-nhap-khau-han-quoc-loai-50-goi-ns127_1596101967.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127" class="name">
-																		Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50
-																		gói NS127 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">399.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">570.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="Mua sản phẩm Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/" title="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087">
-																	<img class="lazy after-lazy" alt="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087" src="https://onplaza.vn/images/products/2020/07/30/resized/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087_1596094264.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087_1596094264.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/" title="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087" class="name">
-																		Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc
-																		NS087 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">570.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/" title="Mua sản phẩm Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/" title="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080">
-																	<img class="lazy after-lazy" alt="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080" src="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-han-quoc-thuong-hang-loai-100-goi-ns080_1596083688.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-han-quoc-thuong-hang-loai-100-goi-ns080_1596083688.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/" title="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080" class="name">
-																		Trà hồng sâm Daedong Hàn Quốc thượng hạng loại
-																		100 gói NS080 </a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">650.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">930.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/" title="Mua sản phẩm Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
+																	<?php
+																	if ($item_samtammatong['price1'] == 0) {
+																		echo "";
+																	} else {
+																	?>
+																		<span class='price_old' style='color:#FFE2B8'><span class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
+																	<?php
+																	}
+																	?>
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/" title="Mua sản phẩm <?= $item_trasam['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+														</div>
+													<?php
+													}
+													?>
 
 
 													<!--	end EACH Product				-->
@@ -3064,99 +2540,61 @@
 										<h2 class="cat-title-main"><a href="keosam.php" title="Sâm Hàn Quốc"><span>Kẹo sâm</span></a></h2>
 										<div class="clear"></div>
 										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Kẹo sâm" src="https://onplaza.vn/images/products/cat/large/banner-doc-keo-sam_1605340629.jpg" srcset="https://onplaza.vn/images/products/cat/large/banner-doc-keo-sam_1605340629.jpg.webp" style="display: inline;">
+											<img class="lazy after-lazy" alt="Kẹo sâm" src="uploads/portfolio/nhansamhanquoc/keosam.png" srcset="uploads/portfolio/nhansamhanquoc/keosam.png" style="display: inline;">
 										</div>
 										<div class="banner_right">
 
 											<div class="product_ajj">
 												<div class="products_home_slideshow product_grid" id="products_home_slideshow_59">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<!--	EACH Product	Kẹo sâm			-->
+													<?php
+													$keosam = mysqli_query($conn, "SELECT * FROM product WHERE id_portfolio = 10");
+													foreach ($keosam as $item_keosam) {
+													?>
+														<div class="item ">
+															<div class="frame_inner">
+																<figure class="product_image ">
 
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063">
-																	<img class="lazy after-lazy" alt="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063" src="https://onplaza.vn/images/products/2020/07/30/resized/keo-hac-sam-han-quoc-nhap-khau-goi-300-gr-ns063_1596079370.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/keo-hac-sam-han-quoc-nhap-khau-goi-300-gr-ns063_1596079370.jpg.webp" style="display: inline;"> </a>
+																	<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="<?= $item_keosam['name_product'] ?>">
+																		<img class="lazy after-lazy" alt="<?= $item_keosam['name_product'] ?>" src="uploads/products/<?= $item_keosam['image_product'] ?>" srcset="uploads/products/<?= $item_keosam['image_product'] ?>" style="display: inline;"> </a>
 
-															</figure>
+																</figure>
+																<div class="name">
+																	<h3><a style="color:#FFFFFF" href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="<?= $item_keosam['name_product'] ?>" class="name">
+																			<?= $item_keosam['name_product'] ?>
+																		</a> </h3>
+																</div>
+																<div class="price_arae">
+																	<?php
+																	if ($item_samtammatong['price'] == 0) {
+																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
+																	} else {
+																	?>
+																		<span class='price_current' style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
+																	<?php
+																	}
+																	?>
 
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063" class="name">
-																		Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063
-																	</a> </h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">140.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="Mua sản phẩm Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/" title="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062">
-																	<img class="lazy after-lazy" alt="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062" src="https://onplaza.vn/images/products/2020/07/30/resized/keo-hong-sam-han-quoc-cao-cap-300-g-ns062_1596077380.jpg" srcset="https://onplaza.vn/images/products/2020/07/30/resized/keo-hong-sam-han-quoc-cao-cap-300-g-ns062_1596077380.jpg.webp" style="display: inline;"> </a>
-
-															</figure>
-
-
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF" href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/" title="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062" class="name">
-																		Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062 </a>
-																</h3>
-
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current" style="color:#FFE2B8">100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">140.000₫ </span>
-																</span>
-															</div>
-
-
-
-
-
-
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/" title="Mua sản phẩm Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
+																	<?php
+																	if ($item_samtammatong['price1'] == 0) {
+																		echo "";
+																	} else {
+																	?>
+																		<span class='price_old' style='color:#FFE2B8'><span class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
+																	<?php
+																	}
+																	?>
+																</div>
+																<div class="buy_nows">
+																	<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/" title="Mua sản phẩm <?= $item_keosam['name_product'] ?>">
+																		Mua sản phẩm
+																	</a>
+																</div>
+															</div> <!-- end .frame_inner -->
+														</div>
+													<?php
+													}
+													?>
 
 													<!--	end EACH Product				-->
 

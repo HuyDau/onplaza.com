@@ -392,6 +392,7 @@
 }
 .price_arae {
   position: relative;
+  display: flex;
   padding: 10px 0px 0px;
   font-size: 25px;
   font-weight: 700;
@@ -432,6 +433,7 @@
   color: #ffe1b8;
   font-size: 25px;
   font-weight: 600;
+  margin: 0 auto;
 }
 @media screen and (max-width: 800px) {
   .product_grid .item .price_current {
