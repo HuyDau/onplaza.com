@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 19, 2023 lúc 01:46 PM
+-- Thời gian đã tạo: Th7 21, 2023 lúc 11:15 AM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -40,7 +40,7 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`id_category`, `ma_category`, `name_category`, `image_category`, `content`) VALUES
-(1, 'nhansam', 'Nhân Sâm Hàn Quốc', 'nhansamhanquoc.png', '<p>Trong bốn loại dược liệu tốt nhất cho sức khỏe: S&acirc;m -&nbsp;nhung -&nbsp;quế&nbsp;- phụ,&nbsp;<strong><a href=\"https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html\">nh&acirc;n s&acirc;m</a></strong>&nbsp;được xếp đứng đầu danh s&aacute;ch cho thấy c&oacute; t&aacute;c dụng rất tốt với sức khỏe của con người. Với c&ocirc;ng nghệ hiện đại ng&agrave;y nay nh&acirc;n s&acirc;m H&agrave;n Quốc c&ograve;n được chế biết th&agrave;nh những chế phẩm như cao hồng s&acirc;m, hồng s&acirc;m củ&nbsp; kh&ocirc;, nước hồng s&acirc;m, hồng s&acirc;m tẩm mật ong, tr&agrave; s&acirc;m&nbsp;... mang lại sự tiện lợi khi sử dụng.&nbsp;</p>\r\n\r\n<p>Qu&yacute; kh&aacute;ch tham khảo gi&aacute; c&aacute;c loại sản phẩm s&acirc;m H&agrave;n phổ biến hiện nay ph&iacute;a dưới. K&eacute;o xuống ph&iacute;a dưới để t&igrave;m hiểu th&ecirc;m th&ocirc;ng tin về s&acirc;m H&agrave;n Quốc trước khi mua.</p>\r\n'),
+(1, 'nhansam', 'Nhân Sâm Hàn Quốc', 'nhansamhanquoc.png', '<p><a href=\"https://onplaza.vn/khuyen-mai.html\"><img alt=\"\" src=\"https://onplaza.vn/upload_images/images/2022/12/07/1310x482-TONG.jpg\" style=\"height:452px; width:1310px\" /></a></p>\r\n\r\n<p>Trong bốn loại dược liệu tốt nhất cho sức khỏe: S&acirc;m -&nbsp;nhung -&nbsp;quế&nbsp;- phụ,&nbsp;<strong><a href=\"https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html\">nh&acirc;n s&acirc;m</a></strong>&nbsp;được xếp đứng đầu danh s&aacute;ch cho thấy c&oacute; t&aacute;c dụng rất tốt với sức khỏe của con người. Với c&ocirc;ng nghệ hiện đại ng&agrave;y nay nh&acirc;n s&acirc;m H&agrave;n Quốc c&ograve;n được chế biết th&agrave;nh những chế phẩm như cao hồng s&acirc;m, hồng s&acirc;m củ&nbsp; kh&ocirc;, nước hồng s&acirc;m, hồng s&acirc;m tẩm mật ong, tr&agrave; s&acirc;m&nbsp;... mang lại sự tiện lợi khi sử dụng.&nbsp;</p>\r\n\r\n<p>Qu&yacute; kh&aacute;ch tham khảo gi&aacute; c&aacute;c loại sản phẩm s&acirc;m H&agrave;n phổ biến hiện nay ph&iacute;a dưới. K&eacute;o xuống ph&iacute;a dưới để t&igrave;m hiểu th&ecirc;m th&ocirc;ng tin về s&acirc;m H&agrave;n Quốc trước khi mua.</p>\r\n'),
 (2, 'dongtrung', 'Đông Trùng Hạ thảo', 'dongtrunghathao.png', '<p>C&aacute;c sản phẩm<strong>&nbsp;<a href=\"https://onplaza.vn/duoc-lieu/dong-trung-ha-thao-n46.html\">Đ&ocirc;ng tr&ugrave;ng hạ thảo</a></strong>&nbsp;được chia ra l&agrave;m 4 loại kh&aacute;c nhau: dạng nguy&ecirc;n con của T&acirc;y Tạng, dạng nấm, dạng nước v&agrave; dạng vi&ecirc;n. Trong đ&oacute;</p>\r\n\r\n<ul>\r\n	<li>Đ&ocirc;ng tr&ugrave;ng hạ thảo hộp dạng vi&ecirc;n: Gi&aacute; b&aacute;n tr&ecirc;n thị trường hiện nay l&agrave; 650.00-1.800.000 VNĐ/hộp/30 vi&ecirc;n.</li>\r\n	<li>Đ&ocirc;ng tr&ugrave;ng hạ thảo dạng nước: Gi&aacute; b&aacute;n giao động từ 900.000-1.500.000 VNĐ/hộp/ 30 g&oacute;i nước.</li>\r\n	<li>Nấm đ&ocirc;ng tr&ugrave;ng c&oacute; gi&aacute; ở mức trung b&igrave;nh khoảng 50 - 60 triệu 1kg loại tươi,</li>\r\n	<li>Nấm sấy kh&ocirc; gi&aacute; b&aacute;n khoảng 200 - 300 triệu 1kg</li>\r\n</ul>\r\n\r\n<p>V&agrave; gi&aacute; đắt đỏ nhất phải kể đến loại đ&ocirc;ng tr&ugrave;ng hạ thảo tự nhi&ecirc;n của T&acirc;y Tạng, gi&aacute; b&aacute;n&nbsp;l&ecirc;n đến gần 2 tỷ 1kg.</p>\r\n\r\n<p><strong><em>Quan trọng n&ecirc;n xem : Nghe chuy&ecirc;n gia nhận định về đ&ocirc;ng tr&ugrave;ng hạ thảo</em></strong></p>\r\n\r\n<p><iframe frameborder=\"0\" height=\"415\" sandbox=\"\" src=\"https://www.youtube.com/embed/lw76H8EineM\" title=\"YouTube video player\" width=\"760\"></iframe></p>\r\n'),
 (3, 'namlinhchi', 'Nấm Linh Chi Hàn Quốc', 'namlinhchi.png', ''),
 (4, 'yensao', 'Yến Sào Khánh Hòa', 'yensao.png', ''),
@@ -234,7 +234,8 @@ ALTER TABLE `portfolio`
 -- Chỉ mục cho bảng `product`
 --
 ALTER TABLE `product`
-  ADD PRIMARY KEY (`id_product`);
+  ADD PRIMARY KEY (`id_product`),
+  ADD KEY `product_ibfk_1` (`id_portfolio`);
 
 --
 -- Chỉ mục cho bảng `users`
@@ -284,7 +285,7 @@ ALTER TABLE `portfolio`
 -- Các ràng buộc cho bảng `product`
 --
 ALTER TABLE `product`
-  ADD CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `portfolio` (`id_portfolio`);
+  ADD CONSTRAINT `product_ibfk_1` FOREIGN KEY (`id_portfolio`) REFERENCES `portfolio` (`id_portfolio`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
