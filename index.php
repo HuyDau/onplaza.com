@@ -29,8 +29,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
         content="Dinh dưỡng Việt Pháp, Dinh dưỡng sức khỏe, Chăm sóc sức khỏe, Thế giới dinh dưỡng, Thế giới chăm sóc sức khỏe,">
     <meta name="keywords" content="">
     <meta name="dc.language" content="VN">
-    <meta name="dc.source" content="https://onplaza.vn/">
-    <meta name="dc.relation" content="https://onplaza.vn/">
+    <link type="image/x-icon" href="assets/img/logo/favicon.ico" rel="icon">
     <meta name="dc.title" content="Công Ty Onplaza - Thế giới dinh dưỡng">
     <meta name="dc.keywords" content="">
     <meta name="dc.subject" content="Công Ty Onplaza - Thế giới dinh dưỡng">
@@ -87,7 +86,6 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
     <meta content="INDEX,FOLLOW" name="robots">
     <meta name="googlebot" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
     <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
@@ -95,9 +93,6 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
     <link rel="stylesheet" href="assets/1.3.0/css/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/home.css">
-
-    <link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
-        href="https://onplaza.vn/rss.xml">
     <meta http-equiv="origin-trial"
         content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
     <script type="text/javascript" async=""
@@ -306,12 +301,6 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                             <input type="text" placeholder="Mã hiển thị" id="txtCaptcha" value="" name="txtCaptcha"
                                 maxlength="10" size="7" class="capcha txt-login">
                             <div class="clear"></div>
-                            <a href="javascript:changeCaptcha();" title="Click here to change the captcha"
-                                class="code-view">
-                                <label></label>
-                                <img id="imgCaptcha"
-                                    src="https://onplaza.vn/libraries/jquery/ajax_captcha/create_image.php">
-                            </a>
                         </div>
                         <div class="row-register submit_check">
                             <label for="submit"></label>
@@ -382,7 +371,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                     <div class="shopcart_simple block_content fl">
                         <div class="count">
-                            <a class="buy_img" href="https://onplaza.vn/gio-hang.html" title="Giỏ hàng thanh toán"
+                            <a class="buy_img" href="" title="Giỏ hàng thanh toán"
                                 rel="nofollow">
                                 <i class="las la-shopping-cart"></i>
 
@@ -426,7 +415,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                     </button>
                                     <input type="hidden" name="module" value="news">
                                     <input type="hidden" name="module" id="link_search2"
-                                        value="https://onplaza.vn/tim-kiem/keyword.html">
+                                        value="">
                                     <input type="hidden" name="view" value="search">
                                     <input type="hidden" name="Itemid" value="10">
                                 </form>
@@ -460,7 +449,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                     <div class="shopcart_simple block_content fl">
                         <div class="count">
-                            <a class="buy_img" href="https://onplaza.vn/gio-hang.html" title="Giỏ hàng thanh toán"
+                            <a class="buy_img" href="" title="Giỏ hàng thanh toán"
                                 rel="nofollow">
                                 <i class="las la-shopping-cart"></i>
 
@@ -615,7 +604,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                                                 <div class="wraper_item cls " alt="Dược liệu cao cấp"
                                                     data-menu_tags="908" data-menu_idt="0"
-                                                    style="background-image: url(https://onplaza.vn/images/menus/nen1_1595813703.png.webp); display: block;">
+                                                    style="background-image: url(); display: block;">
 
                                                     <div class="product_item cls">
 
@@ -1106,7 +1095,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                     <div id="search" class="search search-contain s_close ">
                         <div class="search-content">
-                            <form action="https://onplaza.vn/tim-kiem" name="search_form" id="search_form_home"
+                            <form action="" name="search_form" id="search_form_home"
                                 method="get" onsubmit="javascript: submit_form_search_home();return false;"> <input
                                     type="text" value="" placeholder="Nhập từ khoá tìm kiếm..." id="keyword_home"
                                     name="keyword" class="keyword input-text" autocomplete="off"> <button type="submit"
@@ -1124,7 +1113,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                         </g>
                                     </svg> </button> <input type="hidden" name="module" value="news"> <input
                                     type="hidden" name="module" id="link_search_home"
-                                    value="https://onplaza.vn/tim-kiem/keyword.html"> <input type="hidden" name="view"
+                                    value=""> <input type="hidden" name="view"
                                     value="search"> <input type="hidden" name="Itemid" value="10"> </form>
                         </div>
 
@@ -1151,7 +1140,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                             </a>
                         </li>
 
-                        <li class="level_0 sort home "><a class="menu_item_a" href="https://onplaza.vn/"
+                        <li class="level_0 sort home "><a class="menu_item_a" href=""
                                 title="Onplaza Việt Pháp - Thế Giới dinh dưỡng" rel="home">Trang chủ</a> </li>
                         <li class="level_0 sort login">
                             <a onclick="OpenLoginPopup()" class="menu_item_a" href="javascript:void(0)"
@@ -2012,34 +2001,34 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                                 <div class="frame_inner">
                                                     <figure class="product_image ">
 
-                                                        <a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
-                                                            title="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)">
+                                                        <a href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
+                                                            title="<?=$item_dongtrung['name_product']?>">
                                                             <img class="lazy after-lazy"
-                                                                alt="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)"
-                                                                src="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg"
-                                                                srcset="https://onplaza.vn/images/products/2022/12/08/resized/avata-d003_1670489130.jpg.webp"
+                                                                alt="<?=$item_dongtrung['name_product']?>"
+                                                                src="uploads/products/<?=$item_dongtrung['image_product']?>"
+                                                                srcset="uploads/products/<?=$item_dongtrung['image_product']?>"
                                                                 style="display: inline;"> </a>
                                                     </figure>
                                                     <div class="name">
 
                                                         <a style="color:#FFFFFF"
-                                                            href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
-                                                            title="Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)"
+                                                            href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
+                                                            title="<?=$item_dongtrung['name_product']?>"
                                                             class="name">
-                                                            Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)
+                                                            <?=$item_dongtrung['name_product']?>
                                                         </a>
                                                     </div>
                                                     <div class="price_arae">
                                                         <span class="price_current"
-                                                            style="color:#FFE1B8">22.000.000₫</span>
+                                                            style="color:#FFE1B8"><?=number_format($item_dongtrung['price'],0,"",".")?>₫</span>
                                                         <span class="price_old " style="color:#FFE1B8">
-                                                            <span class="item_old">32.000.000₫ </span>
+                                                            <span class="item_old"><?=number_format($item_dongtrung['price1'],0,"",".")?>₫ </span>
                                                         </span>
 
                                                     </div>
                                                     <div class="buy_nows">
-                                                        <a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
-                                                            title="Mua sản phẩm Đông trùng hạ thảo nguyên con loại 20g/hộp D003 (D400-20V1)">
+                                                        <a href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
+                                                            title="Mua sản phẩm <?=$item_dongtrung['name_product']?>">
                                                             Mua sản phẩm
                                                         </a>
                                                     </div>
@@ -2082,7 +2071,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                                 <div class="frame_inner">
                                                     <figure class="product_image ">
 
-                                                        <a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+                                                        <a href="sanpham.php?id=<?=$item_sam['id_product']?>"
                                                             title="<?= $item_sam['name_product'] ?>">
 
                                                             <img class="lazy after-lazy"
@@ -2096,7 +2085,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                                     <div class="name">
 
                                                         <a style="color:#FFFFFF"
-                                                            href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+                                                            href="sanpham.php?id=<?=$item_sam['id_product']?>"
                                                             title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004"
                                                             class="name">
                                                             <?= $item_sam['name_product'] ?> </a>
@@ -2115,8 +2104,8 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                                     </div>
 
                                                     <div class="buy_nows">
-                                                        <a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
-                                                            title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
+                                                        <a href="sanpham.php?id=<?=$item_sam['id_product']?>"
+                                                            title="Mua sản phẩm <?=$item_sam['name_product']?>">
                                                             Mua sản phẩm
                                                         </a>
                                                     </div>

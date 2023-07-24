@@ -1,3 +1,22 @@
+<?php
+session_start();
+require_once("config/config.php");
+
+
+if (isset($_GET['id'])) {
+	$id = $_GET['id'];
+
+	$prod = mysqli_query($conn, "SELECT * FROM product WHERE id_product = $id");
+	$item_prod = mysqli_fetch_assoc($prod);
+
+	// $id_cat = $item_prod['id_category'];
+	// $similar = mysqli_query($conn, "SELECT * FROM product WHERE id_category = $id_cat LIMIT 4");
+}
+
+
+
+
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="vi" xml:lang="vi" class="win-magic svg-magic">
 
@@ -6,7 +25,7 @@
 	<style id="magiczoom-reset-css" type="text/css"></style>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Đông trùng hạ thảo Tây Tạng hộp 100gr loại 500 – 600 con cao cấp</title>
+	<title><?=$item_prod['name_product']?></title>
 
 	<meta name="description"
 		content="Đông trùng hạ thảo nguyên con cao cấp hộp 100gr loại 500 – 600 con nhập khẩu 100% Tây Tạng bao gồm từng con đông trùng được tuyển chọn, chất lượng loại 1. On plaza cam kết chất lượng trên từng con, hàng đanh khô, con đông trùng to tròn, chắc mẩy, rõ các c,">
@@ -76,12 +95,12 @@
 	<meta name="googlebot" content="index,follow">
 
 	<meta property="og:image"
-		content="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg">
+		content="uploads/products/<?=$item_prod['image_product']?>">
 	<meta property="og:image:width" content="600 ">
 	<meta property="og:image:height" content="315">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-	<link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
+	<link type="image/x-icon" href="assets/img/logo/favicon.ico" rel="icon">
 	<!-- Css -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/base.css">
@@ -2094,21 +2113,14 @@
 												</li>
 												<li class="breadcrumb__item" itemprop="itemListElement"
 													itemscope="itemscope" itemtype="http://schema.org/ListItem">
-
-													<a title="Dược liệu cao cấp" href="sanphamduoclieu.php"
+													<?php
+														$id_port = $item_prod['id_portfolio'];
+														$port = mysqli_query($conn,"SELECT * FROM portfolio WHERE id_portfolio = $id_port");
+														$item_port = mysqli_fetch_assoc($port);									
+													?>
+													<a title="<?=$item_port['name_portfolio']?>" href=""
 														itemprop="item">
-														<span itemprop="name">Dược liệu cao cấp</span>
-														<meta content="2" itemprop="position">
-													</a>
-
-												</li>
-
-												<li class="breadcrumb__item" itemprop="itemListElement"
-													itemscope="itemscope" itemtype="http://schema.org/ListItem">
-
-													<a title="Giá đông trùng hạ thảo" href="dongtrunghathao.php"
-														itemprop="item">
-														<span itemprop="name">Giá đông trùng hạ thảo</span>
+														<span itemprop="name"><?=$item_port['name_portfolio']?></span>
 														<meta content="3" itemprop="position">
 													</a>
 
@@ -2117,9 +2129,9 @@
 												<li class="breadcrumb__item" itemprop="itemListElement"
 													itemscope="itemscope" itemtype="http://schema.org/ListItem">
 
-													<a title="Đông trùng Tây Tạng" href="dongtrungtaytang.php"
+													<a title="<?=$item_prod['name_product']?>" href="dongtrungtaytang.php"
 														itemprop="item">
-														<span itemprop="name">Đông trùng Tây Tạng</span>
+														<span itemprop="name"><?=$item_prod['name_product']?></span>
 														<meta content="4" itemprop="position">
 													</a>
 
@@ -2143,17 +2155,17 @@
 													<div class="magic_zoom_area">
 
 														<a id="Zoomer"
-															href="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-															data-image="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+															href="uploads/products/<?=$item_prod['image_product']?>"
+															data-image="uploads/products/<?=$item_prod['image_product']?>"
 															class="MagicZoomPlus"
 															data-options="expand: off; hint: always; textHoverZoomHint: roll over image to zoom in; zoomOn: hover">
 															<figure
 																class="mz-figure mz-hover-zoom mz-no-expand mz-no-zoom mz-ready">
-																<img src="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+																<img src="uploads/products/<?=$item_prod['image_product']?>"
 																	style="max-width: 600px; max-height: 600px;">
 																<div class="mz-lens"
 																	style="top: 0px; transform: translate(-10000px, -10000px); width: 22945px; height: 22945px;">
-																	<img src="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+																	<img src="uploads/products/<?=$item_prod['image_product']?>"
 																		style="position: absolute; top: 0px; left: 0px; width: 479px; height: 479px;">
 																</div>
 																<div class="mz-loading"></div>
@@ -2164,14 +2176,14 @@
 													<div id="sync1_wrapper">
 														<div id="no-sync1">
 															<div class="item">
-																<a href="https://onplaza.vn/images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																	id="images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+																<a href="uploads/products/<?=$item_prod['image_product']?>"
+																	id="uploads/products/<?=$item_prod['image_product']?>"
 																	rel="image_large1"
 																	class="selected cboxElement cb-image-link"
-																	title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
-																	<img src="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																		longdesc="https://onplaza.vn/images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																		alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)"
+																	title="<?=$item_prod['name_product']?>">
+																	<img src="uploads/products/<?=$item_prod['image_product']?>"
+																		longdesc="uploads/products/<?=$item_prod['image_product']?>"
+																		alt="<?=$item_prod['name_product']?>"
 																		itemprop="image">
 																</a>
 															</div>
@@ -2188,13 +2200,13 @@
 															<div class="owl-item active current"
 																style="width: 95.8px; margin-right: 0px;">
 																<div class="item">
-																	<a href="https://onplaza.vn/images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+																	<a href="uploads/products/<?=$item_prod['image_product']?>"
 																		id="images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
 																		rel="image_large" class="selected"
-																		title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
-																		<img src="https://onplaza.vn/images/products/2020/08/03/small/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																			longdesc="https://onplaza.vn/images/products/2020/08/03/original/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																			alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)"
+																		title="<?=$item_prod['name_product']?>">
+																		<img src="uploads/products/<?=$item_prod['image_product']?>"
+																			longdesc="uploads/products/<?=$item_prod['image_product']?>"
+																			alt="<?=$item_prod['name_product']?>"
 																			itemprop="image">
 																	</a>
 																</div>
@@ -2216,8 +2228,7 @@
 										</div>
 										<div class="frame_center">
 											<div class="product_name">
-												<h1 itemprop="name">Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại
-													500 – 600 con (D600-100V1) </h1>
+												<h1 itemprop="name"><?=$item_prod['name_product']?> </h1>
 												<div id="rate_fixed">
 													<span class="rate rate_head" itemprop="aggregateRating" itemscope=""
 														itemtype="http://schema.org/AggregateRating">
@@ -2299,12 +2310,12 @@
 														<link itemprop="availability" href="https://schema.org/InStock">
 														<div class="price_current" id="price" content="83000000">
 															<span class="price"><span class="text_price">Giá bán
-																	lẻ</span>83.000.000₫ </span>
+																	lẻ</span><?=number_format($item_prod['price1'],0,"",".")?>₫ </span>
 
 														</div>
 														<div class="clear"></div>
-														<meta itemprop="lowPrice" content="83000000">
-														<meta itemprop="highPrice" content="83000000">
+														<meta itemprop="lowPrice" content="<?=$item_prod['price1']?>">
+														<meta itemprop="highPrice" content="<?=$item_prod['price1']?>">
 
 														<meta itemprop="itemOffered" name="itemOffered" content="10">
 
@@ -2315,21 +2326,21 @@
 													</div>
 
 													<div>
-														<meta itemprop="mpn" content="D600-100V1">
-														<meta itemprop="sku" content="D600-100V1">
+														<meta itemprop="mpn" content="<?=$item_prod['ma_product']?>">
+														<meta itemprop="sku" content="<?=$item_prod['ma_product']?>">
 													</div>
 
 													<div class="status_quantity">
 														<span class="name_view">Mã sản phẩm </span>
 
-														<span id="codepr">: D600-100V1</span>
-														<input type="hidden" value="D600-100V1" id="hidden_code">
+														<span id="codepr">: <?=$item_prod['ma_product']?></span>
+														<input type="hidden" value="<?=$item_prod['ma_product']?>" id="hidden_code">
 
 													</div>
 													<div class="status_quantity">
 														<span class="name_view">Xuất xứ </span>
 
-														: Tây Tạng
+														: <?=$item_prod['origin']?>
 
 													</div>
 													<div class="status_quantity">
@@ -2341,7 +2352,7 @@
 													<div class="status_quantity">
 														<span class="name_view">Quy cách </span>
 
-														: 500-600 con/100gr
+														: <?=$item_prod['specifications']?>
 													</div>
 
 													<div class="_color">
@@ -2505,12 +2516,11 @@
 																		<div class="media-img ">
 																			<img class="img-responsive "
 																				src="https://onplaza.vn/images/products/2020/08/03/resized/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
-																				alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
+																				alt="<?=$item_prod['name_product']?>">
 																		</div>
 																	</div>
 																	<div class="media-body">
-																		<h2>Đông trùng hạ thảo Tây Tạng cao cấp hộp
-																			100gr loại 500 – 600 con (D600-100V1)</h2>
+																		<h2><?=$item_prod['name_product']?></h2>
 
 																		<div>
 																			<strong>Số lượng</strong>
@@ -2688,242 +2698,7 @@
 										<div class="description boxdesc" id="boxdesc">
 											<div id="box_conten_linfo">
 												<div class="box_conten_linfo_inner" itemprop="description">
-													<p style="text-align:justify"><strong>Đông trùng hạ thảo Tây Tạng
-															cao cấp hộp 100gr loại 500 – 600 con</strong> bao gồm từng
-														con đông trùng được tuyển chọn, chất lượng loại 1. On plaza cam
-														kết chất lượng trên từng con, hàng đanh khô, <a
-															href="dongtrungtaytang.php"><span
-																style="color:#3498db"><strong>con đông trùng hạ
-																	thảo</strong></span></a>&nbsp;to tròn, chắc mẩy, rõ
-														các cặp chân đốt ngấn. Với những người sành sử dụng đông trùng
-														hạ thảo nhìn có thể nhận biết được ngay đây là hàng chất lượng
-														cao.</p>
-
-													<div style="text-align:center">
-														<figure class="image" style="display:inline-block"><img
-																class="lazy2"
-																alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con"
-																src="/upload_images/images/DTHT/dtht-con-loai-500-600-100-g/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con.jpg">
-															<figcaption><em>Hình ảnh hộp Đông trùng hạ thảo Tây Tạng cao
-																	cấp 100gr loại 500 – 600 con</em></figcaption>
-														</figure>
-													</div>
-
-													<h2 style="text-align:justify"><strong>Đông trùng hạ thảo Tây Tạng
-															loại 500 – 600 con&nbsp;sở hữu&nbsp;ưu điểm vượt
-															trội</strong></h2>
-
-													<p style="text-align:justify"><strong><em>- Con đông trùng chất
-																lượng sử dụng rất dôi:</em></strong> Loại size 500 - 600
-														con/100g chưa phải là loại size to nhất mà là size trung bình
-														nhưng chất lượng tốt, số lượng nhiều mà giá bán thấp
-														hơn&nbsp;nên phù hợp với khác hàng mua về dùng (Xem thêm giá bán
-														các loại đông trùng hạ thảo khác <a
-															href="dongtrunghathao.php"><span
-																style="color:#3498db"><strong>TẠI
-																	ĐÂY</strong></span></a>). Sản phẩm đang được sử dụng
-														phổ biến trong các gia đình có điều kiện hiện nay nhất là trong
-														mùa dịch bệnh này giúp tăng cường đề kháng bảo vệ sức
-														khỏe.&nbsp;</p>
-
-													<p style="text-align:justify"><strong><em>- Hỗ trợ sức khỏe mạnh
-																mẽ:</em> </strong>Hiện có rất nhiều dòng sản phẩm đông
-														dược quý hỗ trợ nâng cao sức khỏe nhưng đông trùng hạ thảo Tây
-														Tạng vẫn là một trong những ưu tiên hàng đầu của người sử dụng.
-														Đông trùng Tây Tạng vốn nổi tiếng là sản phẩm quý hiếm từ xưa
-														tới nay với tác dụng hữu hiệu trong việc hỗ trợ tăng đề kháng,
-														bồi bổ sức khỏe tổng thể, giúp người dùng ăn ngon, ngủ tốt...
-													</p>
-
-													<p style="text-align:justify"><strong><em>- Hương vị thơm ngon đặc
-																biệt:</em></strong> Với loại đông dược nổi tiếng và đặc
-														biệt cao cấp này thì người dùng chỉ cần ăn một lần là thích ngay
-														và cảm nhận rõ rệt hiệu quả chỉ sau thời gian ngắn sử dụng. On
-														plaza cam kết hàng chuẩn nguồn gốc Tây Tạng, từng con khô mẩy,
-														khi ngửi thấy rõ rùi thơm, nếu đốt dưới lửa sẽ thấy mùi thơm đặc
-														trưng của loại dược liệu quý này.</p>
-
-													<blockquote>
-														<p><strong>Nếu quý khách đang tìm kiếm sản phẩm mua để làm quà
-																biếu tặng&nbsp;nên tham khảo sản phẩm:&nbsp;</strong><a
-																href="https://onplaza.vn/hop-qua-bieu-con-dong-trung-ha-thao-cao-cap-100gr/">Hộp
-																quà biếu đông trùng hạ thảo nguyên con cao cấp
-																100gr</a>&nbsp;<strong>được đóng gói sang trọng, phù hợp
-																làm quà biếu sếp, tặng&nbsp;đối tác</strong></p>
-													</blockquote>
-
-													<p style="text-align:justify">Đông trùng hạ thảo Tây Tạng vốn rất
-														quý và hiếm được nhiều người săn mua về dùng và làm quà biếu
-														tặng cao cấp dành tặng sếp, đối tác, doanh nghiệp...</p>
-
-													<h2 style="text-align:justify">Đặc điểm nhận biết con đông trùng hạ
-														thảo Tây Tạng</h2>
-
-													<p>Một số đặc điểm đặc trưng để nhận biết con đông trùng hạ thảo Tây
-														Tạng chuẩn, chất lượng, khách hàng cần lưu ý khi mua:</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đặc điểm nhận biết con đông trung tây tạng chính hãng 1"
-															height="709" width="700"
-															src="/upload_images/images/DTHT/pb-dtht/dac-diem-nhan-biet-dtht-tay-tang-that_01.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đặc điểm nhận biết con đông trung tây tạng chính hãng 2"
-															height="779" width="700"
-															src="/upload_images/images/DTHT/pb-dtht/dac-diem-nhan-biet-dtht-tay-tang-that_02.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đặc điểm nhận biết con đông trung tây tạng chính hãng 3"
-															height="700" width="700"
-															src="/upload_images/images/DTHT/pb-dtht/dac-diem-nhan-biet-dtht-tay-tang-that_03.jpg">
-													</p>
-
-													<p style="text-align:justify">Tìm hiểu thêm về cách nhận biết đông
-														trùng hạ thảo giả trong bài viết:&nbsp;<strong><a
-																href="https://onplaza.vn/duoc-lieu/phan-biet-dong-trung-ha-thao-that-gia-n64.html"><span
-																	style="color:#3498db">Phân biệt đông trùng hạ thảo
-																	thật giả CHUẨN từ chuyên gia</span></a></strong></p>
-
-													<h2 style="text-align:justify"><strong>Đối tượng sử dụng sản
-															phẩm</strong></h2>
-
-													<ul>
-														<li style="text-align:justify">Trẻ&nbsp;từ 15 tuổi trở lên, với
-															trẻ phát triển bình thường &nbsp;thì KHÔNG&nbsp;nên sử dụng
-														</li>
-														<li style="text-align:justify">Người thể trạng suy nhược, sức
-															khỏe yếu</li>
-														<li style="text-align:justify">Người mới ốm dậy cần được bồi bổ
-														</li>
-														<li style="text-align:justify">Người gặp các vấn đề về sinh lý,
-															hiếm muộn</li>
-														<li style="text-align:justify">Người ăn kém, hay thường xuyên
-															mất ngủ</li>
-													</ul>
-
-													<p style="text-align:justify"><em><strong>**<u>Lưu
-																	ý</u>:&nbsp;</strong></em></p>
-
-													<ul>
-														<li style="text-align:justify">Sản phẩm không phải là thuốc
-															không có tác dụng thay thế thuốc chữa bệnh.</li>
-														<li style="text-align:justify">Tác dụng của sản phẩm có thể thay
-															đổi tùy theo tình trạng cơ địa của mỗi người.</li>
-													</ul>
-
-													<h2 style="text-align:justify"><strong>Công ty Onplaza cam kết với
-															khách hàng</strong></h2>
-
-													<ul>
-														<li style="text-align:justify"><strong>ON PLAZA CAM KẾT HOÀN
-																TIỀN GẤP 10 LẦN NẾU KHÔNG PHẢI LÀ ĐÔNG TRÙNG HẠ THẢO TÂY
-																TẠNG</strong></li>
-														<li style="text-align:justify"><a
-																href="https://github.com/onplazavn">Công ty On plaza</a>
-															cam kết uy tín, chất lượng bằng 15 năm phát triển bền vững
-														</li>
-														<li style="text-align:justify">Hàng chuẩn nguồn gốc, nhập từ Tây
-															Tạng, từng con đông trùng được soi chất lượng kỹ càng</li>
-														<li style="text-align:justify">Bao kiểm định sản phẩm</li>
-														<li style="text-align:justify">Khách hàng được trực tiếp sờ,
-															ngửi, ăn thử trực tiếp tại cửa hàng để test hàng thật giả
-														</li>
-														<li style="text-align:justify">Mua về nếu khách còn băn khoăn có
-															thể trả lại shop hoàn tiền.</li>
-													</ul>
-
-													<h2 style="text-align:justify"><strong>Hình ảnh hộp đông trùng hạ
-															thảo Tây Tạng 100gr</strong></h2>
-
-													<p style="text-align:justify">Một số hình ảnh sản phẩm chi tiết của
-														sản phẩm <a href="dongtrungtaytang.php-cao-cap-hop-100gr/">Đông
-															trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600</a>
-														con:&nbsp;</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 1"
-															height="518" width="700"
-															src="/upload_images/images/DTHT/dtht-con-loai-500-600-100-g/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_01.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 2"
-															height="700" width="700"
-															src="/upload_images/images/DTHT/dtht-con-loai-500-600-100-g/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_02.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 3"
-															height="928" width="700"
-															src="/upload_images/images/DTHT/dtht-con-loai-500-600-100-g/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_03.jpg">
-													</p>
-
-													<p style="text-align:justify"><strong>Các sản phẩm đông
-															trùng&nbsp;nguyên con tại Onplaza đều được đích thân Tổng
-															giám đốc của chúng tôi sang Tây Tạng lựa chọn kỹ
-															càng:</strong></p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht"
-															height="525" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_01.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 2"
-															height="525" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_02.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 3"
-															height="525" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_03.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 4"
-															height="525" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_04.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 5"
-															height="594" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_05.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 6"
-															height="700" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_06.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 7"
-															height="854" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_07.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 8"
-															height="1200" width="675"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_08.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 9"
-															height="394" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_09.jpg">
-													</p>
-
-													<p style="text-align:center"><img class="lazy2"
-															alt="TGD Đào văn quang đích thân sang Tây tạng để lựa chọn đtht 10"
-															height="394" width="700"
-															src="/upload_images/images/DTHT/dtht-onplaza/dong-trung-ha-thao-tay-tang-nguyen-con-onplaza_10.jpg">
-													</p>
+													<?=$item_prod['des1']?>
 												</div>
 
 											</div>
@@ -2943,81 +2718,7 @@
 							<div class="wrapper_product" style="background-color:#220A00">
 								<div class="container">
 									<div class="prodetails_tab" id="prodetails_tab60">
-										<img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 1"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_01_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 2"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_02_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 3"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_03_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 4"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_04_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 5"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_05_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 6"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_06_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 7"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_07_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 8"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_08_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 9"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_09_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 10"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_10_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 11"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_11_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 12"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_12_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											src="https://onplaza.vn/images/products/2021/10/15/compress/dong-trung-ha-thao-nguyen-con-say-kho-loai-nho_20_1634263945.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 14"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_14_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 15"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_15_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 16"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_16_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 17"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_17_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 18"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_18_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 19"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_19_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 20"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_20_1628650287.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 21"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_21_1628650334.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 22"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_22_1628650334.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 23"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_23_1628650334.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 24"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_24_1628650334.jpg"
-											style="display: inline;"> <img class="lazy after-lazy"
-											alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con 25"
-											src="https://onplaza.vn/images/products/2021/08/11/compress/ad-dtht-nguyen-con-cao-cap_25_1628650334.jpg"
-											style="display: inline;">
+										<?=$item_prod['description']?>
 									</div>
 
 									<div id="prodetails_tab30" class="prodetails_tab">
@@ -3043,7 +2744,7 @@
 											<div class="comments">
 												<div class="tab_label"><span>Có <strong>0</strong> bình luận, đánh
 														giá</span> <strong>về Đông trùng hạ thảo Tây Tạng cao cấp hộp
-														100gr loại 500 – 600 con (D600-100V1)</strong>
+														100gr loại 500 – 600 con (<?=$item_prod['ma_product']?>)</strong>
 												</div>
 												<form method="post" class="comment_keyword_wrapper"
 													onsubmit="return search_comment();">
@@ -3465,10 +3166,10 @@
 														<figure class="product_image ">
 
 															<a href="dongtrungtaytang.php-cao-cap-hop-100gr/"
-																title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
+																title="<?=$item_prod['name_product']?>">
 
 																<img class="lazy after-lazy"
-																	alt="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)"
+																	alt="<?=$item_prod['name_product']?>"
 																	src="https://onplaza.vn/images/products/2020/08/03/resized/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
 																	srcset="https://onplaza.vn/images/products/2020/08/03/resized/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg.webp"
 																	style="display: inline;">
@@ -3480,20 +3181,19 @@
 
 															<a style="color:#fff"
 																href="dongtrungtaytang.php-cao-cap-hop-100gr/"
-																title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)"
+																title="<?=$item_prod['name_product']?>"
 																class="name">
-																Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 –
-																600 con... </a>
+																<?=$item_prod['name_product']?> </a>
 														</div>
 
 														<div class="price_arae">
 															<span class="price_current"
-																style="color:#FFE2B8">83.000.000₫</span>
+																style="color:#FFE2B8"><?=number_format($item_prod['price1'],0,"",".")?>₫</span>
 														</div>
 
 														<div class="buy_nows">
 															<a href="dongtrungtaytang.php-cao-cap-hop-100gr/"
-																title="Mua sản phẩm Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)">
+																title="Mua sản phẩm <?=$item_prod['name_product']?>">
 																Mua sản phẩm
 															</a>
 														</div>
@@ -4727,7 +4427,7 @@
 	</div>
 	<div class="magic-hidden-wrapper">
 		<div class="mz-zoom-window" style="top: -100000px; width: 479px; height: 479px;"><img
-				src="https://onplaza.vn/images/products/2020/08/03/large/dtht-tay-tang-hop-cao-cap-hop-100-gr-loai-500-600-con_1596443642.jpg"
+				src="uploads/products/<?=$item_prod['image_product']?>"
 				style="width: 10px; height: 10px;"></div>
 	</div>
 	<script type="text/javascript" id="">

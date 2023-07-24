@@ -92,7 +92,7 @@
     <meta property="og:image:height" content="315">
     <meta property="og:description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon">
+    <link type="image/x-icon" href="assets/img/logo/favicon.ico" rel="icon">
 
     <meta name="geo.placename" content="Hà Nội">
     <meta name="geo.region" content="VN-HN">

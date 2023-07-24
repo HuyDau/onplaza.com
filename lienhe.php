@@ -58,7 +58,7 @@
     <meta content="INDEX,FOLLOW" name="robots">
     <meta name="googlebot" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link type="image/x-icon" href="https://onplaza.vn/favicon.ico" rel="icon"> <!-- Css -->
+    <link type="image/x-icon" href="assets/img/logo/favicon.ico" rel="icon"> <!-- Css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/base.prod.css">
