@@ -1,26 +1,37 @@
 /* Index */
+
 .popup-login-resgister .tab_login .website_login .social_login .login_fb i {
-  font-size: 20px;
-  margin: auto;
+    font-size: 20px;
+    margin: auto;
 }
+
 .popup-login-resgister .tab_login .website_login .social_login .login_gg i {
-  font-size: 20px;
-  margin: auto 0;
+    font-size: 20px;
+    margin: auto 0;
 }
 
 .menu_head .wrapper_top .right_item .share_fast1 a i {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .menu_head .wrapper_top .right_item .pc_shopcart .shopcart_simple .buy_img .la-shopping-cart {
-  font-size: 20px;
-  color: var(--main-color);
+    font-size: 20px;
+    color: var(--main-color);
 }
 
 .header_wraper .home_index .menu-fixed-bar .logo_top .search_home .search-contain .search-content .button-search .la-search {
-  font-size: 20px;
-  color: var(--main-color);
+    font-size: 20px;
+    color: var(--main-color);
 }
+
 .header_wraper .home_index .menu-fixed-bar .mobile_shopcart .shopcart_simple .buy_img .la-shopping-cart {
-  font-size: 20px;
-  color: var(--main-color);
-}/*# sourceMappingURL=home.css.map */
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+
+/*# sourceMappingURL=home.css.map */
+
+.strengths_retangle2_block .item_logo {
+    width: calc(52% - 20px);
+}

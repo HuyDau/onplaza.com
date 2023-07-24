@@ -909,14 +909,9 @@
 															xml:space="preserve">
 															<g>
 																<g>
-																	<path d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664
-    c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555
-    c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381
-    c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368
-    c-1.515,1.109-2.965,2.24-4.459,3.371C79.488,250.176,0,404.821,0,458.667c0,5.888,4.779,10.667,10.667,10.667
-    s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299
-    c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752
-    C469.27,15.147,470.166,10.581,468.523,6.592z"></path>
+																	<path
+																		d="M468.523,6.592C466.88,2.603,462.976,0,458.667,0C44.694,0,0,171.563,0,245.333c0,26.539,5.888,51.328,17.515,73.664c1.792,3.456,5.333,5.653,9.216,5.739c3.669-0.107,7.531-1.941,9.472-5.333C64.15,271.104,143.296,151.893,274.006,88.555c5.355-2.56,11.755-0.363,14.293,4.907c2.56,5.312,0.341,11.712-4.949,14.272c-9.856,4.779-19.328,9.984-28.608,15.381c-3.541,2.069-6.976,4.267-10.453,6.421c-5.227,3.243-10.389,6.549-15.424,9.963c-5.013,3.371-9.963,6.827-14.827,10.368c-1.515,1.109-2.965,2.24-4.459,3.371C79.488,250.176,0,404.821,0,458.667c0,5.888,4.779,10.667,10.667,10.667s10.667-4.779,10.667-10.667c0-17.195,11.712-52.053,33.877-93.632c32.171,26.304,75.456,40.299,126.123,40.299c136.981,0,165.675-130.347,181.077-200.384c20.736-94.251,66.368-149.312,103.787-186.752C469.27,15.147,470.166,10.581,468.523,6.592z">
+																	</path>
 																</g>
 															</g>
 
@@ -2814,8 +2809,7 @@
 
 									<span class="wrapper_ap">
 										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
-											src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg"
-											srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp"
+											src="assets/img/banner/banner7.png" srcset="assets/img/banner/banner7.png"
 											style="display: inline;">
 									</span>
 
@@ -2842,8 +2836,7 @@
 											<div class="item-l">
 												<div class="isvg">
 													<img class="lazy after-lazy" alt="CÔNG TY ONPLAZA VIỆT PHÁP"
-														src="https://onplaza.vn/images/strengths/resized/logo_1590462023.png"
-														srcset="https://onplaza.vn/images/strengths/resized/logo_1590462023.png.webp"
+														src="assets/img/logo/logo.png" srcset="assets/img/logo/logo.png"
 														style="display: inline;">
 												</div>
 											</div>
@@ -2974,7 +2967,7 @@
 			<div class="clear"></div>
 
 			<div class="footer lazy after-lazy"
-				style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
+				style="background-image: url(assets/img/background/bg5.png); display: block;">
 				<footer>
 					<div class="container cls">
 
@@ -2995,9 +2988,9 @@
 											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 											<g>
 												<g>
-													<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+													<path
+														d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+													</path>
 												</g>
 											</g>
 
@@ -3045,9 +3038,9 @@
 											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 											<g>
 												<g>
-													<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+													<path
+														d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+													</path>
 												</g>
 											</g>
 
@@ -3082,30 +3075,27 @@
 											Chính sách &amp; bảo hành </span>
 										<ul id="menu-sub1" class="cls">
 											<li class="  level1  first-sitem ">
-												<a href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html"
-													title="Điều khoản mua hàng"> Điều khoản mua hàng </a>
+												<a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều khoản
+													mua hàng </a>
 											</li>
 											<li class="  level1  mid-sitem ">
 												<span> Hướng dẫn mua hàng </span>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html"
-													title="Phương thức thanh toán"> Phương thức thanh toán </a>
+												<a href="hinhthucthanhtoan.php" title="Phương thức thanh toán"> Phương
+													thức thanh toán </a>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html"
-													title="Phương thức vận chuyển"> Phương thức vận chuyển </a>
+												<a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển"> Phương
+													thức vận chuyển </a>
 											</li>
 											<li class="  level1  mid-sitem ">
 												<a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách bảo
 													mật </a>
 											</li>
 											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/ct-chinh-sach-doi-tra.html"
-													title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a>
-											</li>
-											<li class="  level1  mid-sitem ">
-												<a href="https://onplaza.vn/sitemap.xml" title="Sitemap"> Sitemap </a>
+												<a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
+													sách đổi trả hàng </a>
 											</li>
 										</ul>
 									</li>
@@ -3117,8 +3107,7 @@
 
 								<div class="share_fast_small">
 									<div class="title">Kết nối</div>
-									<div class="fb share_item"><a class="facebook-icon"
-											href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook"
+									<div class="fb share_item"><a class="facebook-icon" href="" title="Link Facebook"
 											rel="nofollow" target="_blank">
 											<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -3127,28 +3116,9 @@
 											</svg>
 										</a>
 									</div>
-									<!-- <div class="prin share_item"><a class="pinterest-icon" href="https://www.pinterest.com/onplaza/"  title="Link Pinterest" rel="nofollow" target="_blank">
-			<svg x="0px" y="0px" viewBox="0 0 310.05 310.05" style="enable-background:new 0 0 310.05 310.05;" xml:space="preserve">
-				<g>
-					<path id="" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
-					c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1
-					c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142
-					c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425
-					c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551
-					c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83
-					c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912
-					c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172
-					c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843
-					c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z"/>
-				</g>
-			</svg>
-		</a>
-		
-	</div>	 -->
-
 									<div class="tw share_item">
-										<a class="twitter-icon" href="https://twitter.com/onplazavietphap"
-											title="Link twitter" rel="nofollow" target="_blank">
+										<a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
+											target="_blank">
 											<svg height="50px" viewBox="0 0 512 512" width="50px"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -3159,8 +3129,8 @@
 									</div>
 
 									<div class="yt share_item">
-										<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
-											title="Link instagram" rel="nofollow" target="_blank">
+										<a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
+											target="_blank">
 											<svg height="15" viewBox="0 0 511 511.9" width="15"
 												xmlns="http://www.w3.org/2000/svg">
 												<path
@@ -3178,16 +3148,15 @@
 									</div>
 
 									<div class="yt share_item">
-										<a class="youtube-icon"
-											href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
-											title="Link youtube" rel="nofollow" target="_blank">
+										<a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
+											target="_blank">
 											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 												viewBox="0 0 215.094 215.094"
 												style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
-												<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
-	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>
+												<path
+													d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
+												</path>
 
 											</svg>
 										</a>
@@ -3236,22 +3205,23 @@
 					<div class="footer_im cls">
 
 						<div class="image_wrapper">
-							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=ruousamhanquoc.php"
+							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
 								title="DMCA.com Protection Status" class="dmca-badge"> <img
-									src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
-									alt="DMCA.com Protection Status"></a>
+									src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
 							<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-							<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=ruousamhanquoc.php"
+							<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
 								title="Bộ công thương" class="dmca-badge">
-								<img class="lazy item after-lazy" alt="flower"
-									src="https://onplaza.vn/images/config/dathongbao_1558687262.png"
+								<img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
 									style="display: inline;"></a>
 							<div class="info_item">
-								Công ty TNHH Onplaza Việt Pháp - Mã số thuế :0105566586, Ngày cấp: 13/10/2011,Trụ sở
+								Công ty TNHH Onplaza Việt Pháp
+								- Mã số thuế :0105566586,
+								Ngày cấp: 13/10/2011,Trụ sở
 								chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
 								Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội- Người
 								chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
-								747/2014/ATTP-CNDK </div>
+								747/2014/ATTP-CNDK
+							</div>
 						</div>
 
 					</div>

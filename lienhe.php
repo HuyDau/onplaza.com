@@ -1713,16 +1713,21 @@
             </div>
             <div class="clear"></div>
             <div class="footer lazy after-lazy"
-                style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
+                style="background-image: url(assets/img/background/bg5.png); display: block;">
                 <footer>
                     <div class="container cls">
+
                         <div class="footer_top cls">
+
                             <div class="all-hotline-ft cls">
+
                                 <div class="share_fast_small">
                                     <div class="title">HỆ THỐNG SHOWROOM</div>
                                 </div>
                                 <div class="block_content address_content">
-                                    <div class="title"> <svg width="20px" height="20px" version="1.1" id="Capa_1"
+
+                                    <div class="title">
+                                        <svg width="20px" height="20px" version="1.1" id="Capa_1"
                                             xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             viewBox="0 0 426.667 426.667"
@@ -1730,12 +1735,17 @@
                                             <g>
                                                 <g>
                                                     <path
-                                                        d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+                                                        d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
                                                     </path>
                                                 </g>
                                             </g>
-                                        </svg> Hà Nội: </div>
+
+                                        </svg>
+                                        Hà Nội:
+                                    </div>
+
                                     <ul class="item">
+
                                         <li>
                                             <p>LK: 76 Hai Bà Trưng</p>
                                         </li>
@@ -1747,8 +1757,11 @@
                                             <p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55 -
                                                 09.66.60.61.69</p>
                                         </li>
+
                                     </ul>
+
                                     <ul class="item">
+
                                         <li>
                                             <p>LK: 327 Trường Chinh</p>
                                         </li>
@@ -1760,8 +1773,11 @@
                                             <p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
                                                 09.65.69.63.64</p>
                                         </li>
+
                                     </ul>
-                                    <div class="title"> <svg width="20px" height="20px" version="1.1" id="Capa_1"
+
+                                    <div class="title">
+                                        <svg width="20px" height="20px" version="1.1" id="Capa_1"
                                             xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                             viewBox="0 0 426.667 426.667"
@@ -1769,77 +1785,100 @@
                                             <g>
                                                 <g>
                                                     <path
-                                                        d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+                                                        d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
                                                     </path>
                                                 </g>
                                             </g>
-                                        </svg> Hồ Chí Minh: </div>
+
+                                        </svg>
+                                        Hồ Chí Minh:
+                                    </div>
+
                                     <ul class="item">
+
                                         <li>
                                             <p>LK: Hồ Chí Minh</p>
                                         </li>
                                         <li>
                                             <p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 – TP.HCM
                                                 <br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
-                                                Trống Đồng )</p>
+                                                Trống Đồng )
+                                            </p>
                                         </li>
                                         <li>
                                             <p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69</p>
                                         </li>
+
                                     </ul>
+
                                 </div>
                             </div>
+
                             <div class="footer-menu cls">
                                 <ul class="menu-bottom cls">
-                                    <li class="  level0  first-item"> <span class="click-mobile"
-                                            data-id="menu-sub1"></span> <span data-id="item_1"> Chính sách &amp; bảo
-                                            hành </span>
+                                    <li class="  level0  first-item">
+                                        <span class="click-mobile" data-id="menu-sub1"></span> <span data-id="item_1">
+                                            Chính sách &amp; bảo hành </span>
                                         <ul id="menu-sub1" class="cls">
-                                            <li class="  level1  first-sitem "> <a
-                                                    href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html"
-                                                    title="Điều khoản mua hàng"> Điều khoản mua hàng </a> </li>
-                                            <li class="  level1  mid-sitem "> <span> Hướng dẫn mua hàng </span> </li>
-                                            <li class="  level1  mid-sitem "> <a
-                                                    href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html"
-                                                    title="Phương thức thanh toán"> Phương thức thanh toán </a> </li>
-                                            <li class="  level1  mid-sitem "> <a
-                                                    href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html"
-                                                    title="Phương thức vận chuyển"> Phương thức vận chuyển </a> </li>
-                                            <li class="  level1  mid-sitem "> <a href="chinhsachbaomat.php"
-                                                    title="Chính sách bảo mật"> Chính sách bảo mật </a> </li>
-                                            <li class="  level1  mid-sitem "> <a
-                                                    href="https://onplaza.vn/ct-chinh-sach-doi-tra.html"
-                                                    title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a> </li>
-                                            <li class="  level1  mid-sitem "> <a href="https://onplaza.vn/sitemap.xml"
-                                                    title="Sitemap"> Sitemap </a> </li>
+                                            <li class="  level1  first-sitem ">
+                                                <a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều khoản
+                                                    mua hàng </a>
+                                            </li>
+                                            <li class="  level1  mid-sitem ">
+                                                <span> Hướng dẫn mua hàng </span>
+                                            </li>
+                                            <li class="  level1  mid-sitem ">
+                                                <a href="hinhthucthanhtoan.php" title="Phương thức thanh toán"> Phương
+                                                    thức thanh toán </a>
+                                            </li>
+                                            <li class="  level1  mid-sitem ">
+                                                <a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển"> Phương
+                                                    thức vận chuyển </a>
+                                            </li>
+                                            <li class="  level1  mid-sitem ">
+                                                <a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách bảo
+                                                    mật </a>
+                                            </li>
+                                            <li class="  level1  mid-sitem ">
+                                                <a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
+                                                    sách đổi trả hàng </a>
+                                            </li>
                                         </ul>
                                     </li>
                                 </ul>
+
                             </div>
+
                             <div class="footer_r cls">
+
                                 <div class="share_fast_small">
                                     <div class="title">Kết nối</div>
-                                    <div class="fb share_item"><a class="facebook-icon"
-                                            href="https://www.facebook.com/congtyonplazavietphap" title="Link Facebook"
-                                            rel="nofollow" target="_blank"> <svg viewBox="0 0 512 512"
-                                                xmlns="http://www.w3.org/2000/svg">
+                                    <div class="fb share_item"><a class="facebook-icon" href="" title="Link Facebook"
+                                            rel="nofollow" target="_blank">
+                                            <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
                                                 </path>
-                                            </svg> </a> </div>
-                                    <!-- <div class="prin share_item"><a class="pinterest-icon" href="https://www.pinterest.com/onplaza/"  title="Link Pinterest" rel="nofollow" target="_blank">			<svg x="0px" y="0px" viewBox="0 0 310.05 310.05" style="enable-background:new 0 0 310.05 310.05;" xml:space="preserve">				<g>					<path id="" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176					c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1					c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142					c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425					c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551					c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83					c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912					c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172					c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843					c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z"/>				</g>			</svg>		</a>			</div>	 -->
-                                    <div class="tw share_item"> <a class="twitter-icon"
-                                            href="https://twitter.com/onplazavietphap" title="Link twitter"
-                                            rel="nofollow" target="_blank"> <svg height="50px" viewBox="0 0 512 512"
-                                                width="50px" xmlns="http://www.w3.org/2000/svg">
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="tw share_item">
+                                        <a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
+                                            target="_blank">
+                                            <svg height="50px" viewBox="0 0 512 512" width="50px"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
                                                 </path>
-                                            </svg> </a> </div>
-                                    <div class="yt share_item"> <a class="instagram-icon"
-                                            href="https://www.instagram.com/onplazavietphap/" title="Link instagram"
-                                            rel="nofollow" target="_blank"> <svg height="15" viewBox="0 0 511 511.9"
-                                                width="15" xmlns="http://www.w3.org/2000/svg">
+                                            </svg>
+                                        </a>
+                                    </div>
+
+                                    <div class="yt share_item">
+                                        <a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
+                                            target="_blank">
+                                            <svg height="15" viewBox="0 0 511 511.9" width="15"
+                                                xmlns="http://www.w3.org/2000/svg">
                                                 <path
                                                     d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
                                                 </path>
@@ -1849,63 +1888,88 @@
                                                 <path
                                                     d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
                                                 </path>
-                                            </svg> </a> </div>
-                                    <div class="yt share_item"> <a class="youtube-icon"
-                                            href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
-                                            title="Link youtube" rel="nofollow" target="_blank"> <svg version="1.1"
-                                                id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                            </svg>
+
+                                        </a>
+                                    </div>
+
+                                    <div class="yt share_item">
+                                        <a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
+                                            target="_blank">
+                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                                 viewBox="0 0 215.094 215.094"
                                                 style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
                                                 <path
-                                                    d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036	L90.547,145.583z">
+                                                    d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
                                                 </path>
-                                            </svg> </a> </div>
+
+                                            </svg>
+                                        </a>
+                                    </div>
+
                                     <div class="clear"></div>
                                 </div>
+
                                 <div class="wrap-by-fast cls">
                                     <div class="item">
+
                                         <div class="phone-left">
                                             <p class="phone-content">Onplaza </p>
                                         </div>
                                     </div>
                                     <div class="buy_fast">
+
                                         <div class="">
                                             <form action="" name="buy_fast_form" id="buy_fast_form" method="post"
                                                 onsubmit="javascript: return check_Formsubmitemail();">
-                                                <div class="cls buy_fast_body"> <input type="text" value=""
-                                                        placeholder="E-mail address..." id="email1_buy_fast"
-                                                        name="email_buy_fast" class="keyword input-text"> <button
-                                                        type="submit" class="button-buy-fast button"> Đăng ký </button>
-                                                </div> <input type="hidden" name="module" value="users"> <input
-                                                    type="hidden" name="view" value="users"> <input type="hidden"
-                                                    name="task" value="buy_fast_save"> <input type="hidden"
-                                                    name="Itemid" value="10">
+                                                <div class="cls buy_fast_body">
+                                                    <input type="text" value="" placeholder="E-mail address..."
+                                                        id="email1_buy_fast" name="email_buy_fast"
+                                                        class="keyword input-text">
+                                                    <button type="submit" class="button-buy-fast button">
+
+                                                        Đăng ký </button>
+
+                                                </div>
+                                                <input type="hidden" name="module" value="users">
+                                                <input type="hidden" name="view" value="users">
+                                                <input type="hidden" name="task" value="buy_fast_save">
+                                                <input type="hidden" name="Itemid" value="10">
                                             </form>
+
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="clear"></div>
+
                     </div>
                     <div class="footer_im cls">
-                        <div class="image_wrapper"> <a
-                                href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=lienhe.php"
+
+                        <div class="image_wrapper">
+                            <a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
                                 title="DMCA.com Protection Status" class="dmca-badge"> <img
-                                    src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
-                                    alt="DMCA.com Protection Status"></a>
-                            <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> <a
-                                href="http://online.gov.vn/Home/WebDetails/18258?refurl=lienhe.php"
-                                title="Bộ công thương" class="dmca-badge"> <img class="lazy item after-lazy"
-                                    alt="flower" src="https://onplaza.vn/images/config/dathongbao_1558687262.png"
+                                    src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
+                            <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+                            <a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
+                                title="Bộ công thương" class="dmca-badge">
+                                <img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
                                     style="display: inline;"></a>
-                            <div class="info_item"> Công ty TNHH Onplaza Việt Pháp - Mã số thuế :0105566586, Ngày cấp:
-                                13/10/2011,Trụ sở chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ,
-                                Quận Đống Đa, Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố
-                                Hà Nội- Người chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép
-                                ATVSCS: 747/2014/ATTP-CNDK </div>
+                            <div class="info_item">
+                                Công ty TNHH Onplaza Việt Pháp
+                                - Mã số thuế :0105566586,
+                                Ngày cấp: 13/10/2011,Trụ sở
+                                chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
+                                Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội- Người
+                                chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
+                                747/2014/ATTP-CNDK
+                            </div>
                         </div>
+
                     </div>
                     <div class="copyright ">
                         <div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>

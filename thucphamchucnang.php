@@ -2430,15 +2430,19 @@ require_once("config/config.php");
 				</div>
 				<div class="clear"></div>
 				<div class="footer lazy after-lazy"
-					style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
+					style="background-image: url(assets/img/background/bg5.png); display: block;">
 					<footer>
 						<div class="container cls">
+
 							<div class="footer_top cls">
+
 								<div class="all-hotline-ft cls">
+
 									<div class="share_fast_small">
 										<div class="title">HỆ THỐNG SHOWROOM</div>
 									</div>
 									<div class="block_content address_content">
+
 										<div class="title">
 											<svg width="20px" height="20px" version="1.1" id="Capa_1"
 												xmlns="http://www.w3.org/2000/svg"
@@ -2447,40 +2451,51 @@ require_once("config/config.php");
 												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 												<g>
 													<g>
-														<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+														<path
+															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+														</path>
 													</g>
 												</g>
+
 											</svg>
 											Hà Nội:
 										</div>
+
 										<ul class="item">
+
 											<li>
 												<p>LK: 76 Hai Bà Trưng</p>
 											</li>
 											<li>
 												<p>Địa chỉ:76 Hai Bà Trưng, Hoàn Kiếm, Hà Nội <br> (Cách Bệnh Biện K 50m
-													- Cách Tòa Tháp Đôi Hà Nội 60m)</p>
+													-
+													Cách Tòa Tháp Đôi Hà Nội 60m)</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55
-													- 09.66.60.61.69</p>
+													-
+													09.66.60.61.69</p>
 											</li>
+
 										</ul>
+
 										<ul class="item">
+
 											<li>
 												<p>LK: 327 Trường Chinh</p>
 											</li>
 											<li>
 												<p>Địa chỉ:327 Trường Chinh, Ngã Tư Sở, Hà Nội <br> (Cách Ngã Tư Sở
-													Khoảng 200m)</p>
+													Khoảng
+													200m)</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
 													09.65.69.63.64</p>
 											</li>
+
 										</ul>
+
 										<div class="title">
 											<svg width="20px" height="20px" version="1.1" id="Capa_1"
 												xmlns="http://www.w3.org/2000/svg"
@@ -2489,72 +2504,83 @@ require_once("config/config.php");
 												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 												<g>
 													<g>
-														<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+														<path
+															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+														</path>
 													</g>
 												</g>
+
 											</svg>
 											Hồ Chí Minh:
 										</div>
+
 										<ul class="item">
+
 											<li>
 												<p>LK: Hồ Chí Minh</p>
 											</li>
 											<li>
 												<p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 –
-													TP.HCM <br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân
-													khấu kịch Trống Đồng )</p>
+													TP.HCM
+													<br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
+													Trống Đồng )
+												</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69
 												</p>
 											</li>
+
 										</ul>
+
 									</div>
 								</div>
+
 								<div class="footer-menu cls">
 									<ul class="menu-bottom cls">
 										<li class="  level0  first-item">
 											<span class="click-mobile" data-id="menu-sub1"></span> <span
-												data-id="item_1"> Chính sách &amp; bảo hành </span>
+												data-id="item_1">
+												Chính sách &amp; bảo hành </span>
 											<ul id="menu-sub1" class="cls">
 												<li class="  level1  first-sitem ">
-													<a href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html"
-														title="Điều khoản mua hàng"> Điều khoản mua hàng </a>
+													<a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều
+														khoản
+														mua hàng </a>
 												</li>
 												<li class="  level1  mid-sitem ">
 													<span> Hướng dẫn mua hàng </span>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html"
-														title="Phương thức thanh toán"> Phương thức thanh toán </a>
+													<a href="hinhthucthanhtoan.php" title="Phương thức thanh toán">
+														Phương
+														thức thanh toán </a>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html"
-														title="Phương thức vận chuyển"> Phương thức vận chuyển </a>
+													<a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển">
+														Phương
+														thức vận chuyển </a>
 												</li>
 												<li class="  level1  mid-sitem ">
 													<a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách
-														bảo mật </a>
+														bảo
+														mật </a>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-chinh-sach-doi-tra.html"
-														title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/sitemap.xml" title="Sitemap"> Sitemap
-													</a>
+													<a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
+														sách đổi trả hàng </a>
 												</li>
 											</ul>
 										</li>
 									</ul>
+
 								</div>
+
 								<div class="footer_r cls">
+
 									<div class="share_fast_small">
 										<div class="title">Kết nối</div>
-										<div class="fb share_item"><a class="facebook-icon"
-												href="https://www.facebook.com/congtyonplazavietphap"
+										<div class="fb share_item"><a class="facebook-icon" href=""
 												title="Link Facebook" rel="nofollow" target="_blank">
 												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 													<path
@@ -2563,98 +2589,441 @@ require_once("config/config.php");
 												</svg>
 											</a>
 										</div>
-										<div id="modal_alert1" class="hide">
-											<div class="modal_alert_inner">
-												<div class="modal_alert_title">Thông báo<a class="close"
-														href="javascript:void()"
-														onclick="javascript:close_modal_alert1()">X</a></div>
-												<div class="modal_alert_body"></div>
+										<div class="tw share_item">
+											<a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
+												target="_blank">
+												<svg height="50px" viewBox="0 0 512 512" width="50px"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
+													</path>
+												</svg>
+											</a>
+										</div>
+
+										<div class="yt share_item">
+											<a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
+												target="_blank">
+												<svg height="15" viewBox="0 0 511 511.9" width="15"
+													xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
+													</path>
+													<path
+														d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
+													</path>
+													<path
+														d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
+													</path>
+												</svg>
+
+											</a>
+										</div>
+
+										<div class="yt share_item">
+											<a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
+												target="_blank">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+													xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 215.094 215.094"
+													style="enable-background:new 0 0 215.094 215.094;"
+													xml:space="preserve">
+													<path
+														d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
+													</path>
+
+												</svg>
+											</a>
+										</div>
+
+										<div class="clear"></div>
+									</div>
+
+									<div class="wrap-by-fast cls">
+										<div class="item">
+
+											<div class="phone-left">
+												<p class="phone-content">Onplaza </p>
 											</div>
 										</div>
-										<div class="benmarch noc">0.19441 sec| 1576.289 kb</div>
-										<script async="async" language="javascript" type="text/javascript"
-											src="https://onplaza.vn/cache/js/5b6f50aec6587c88a6149b5d7f41239a.js?20230704182858">
-										</script>
+										<div class="buy_fast">
+
+											<div class="">
+												<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
+													onsubmit="javascript: return check_Formsubmitemail();">
+													<div class="cls buy_fast_body">
+														<input type="text" value="" placeholder="E-mail address..."
+															id="email1_buy_fast" name="email_buy_fast"
+															class="keyword input-text">
+														<button type="submit" class="button-buy-fast button">
+
+															Đăng ký </button>
+
+													</div>
+													<input type="hidden" name="module" value="users">
+													<input type="hidden" name="view" value="users">
+													<input type="hidden" name="task" value="buy_fast_save">
+													<input type="hidden" name="Itemid" value="10">
+												</form>
+
+											</div>
+
+										</div>
 									</div>
 								</div>
-								<script type="text/javascript" id="">
-									(function(a, e, b, f, g, c, d) {
-										a[b] = a[b] || function() {
-											(a[b].q = a[b].q || []).push(arguments)
-										};
-										c = e.createElement(f);
-										c.async = 1;
-										c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt";
-										d = e.getElementsByTagName(f)[0];
-										d.parentNode.insertBefore(c, d)
-									})(window, document, "clarity", "script", "9301me865a");
-								</script>
-								<div class="autocomplete-suggestions"
-									style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
+
+							</div>
+							<div class="clear"></div>
+
+						</div>
+						<div class="footer_im cls">
+
+							<div class="image_wrapper">
+								<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
+									title="DMCA.com Protection Status" class="dmca-badge"> <img
+										src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
+								<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+								<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
+									title="Bộ công thương" class="dmca-badge">
+									<img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
+										style="display: inline;"></a>
+								<div class="info_item">
+									Công ty TNHH Onplaza Việt Pháp
+									- Mã số thuế :0105566586,
+									Ngày cấp: 13/10/2011,Trụ sở
+									chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
+									Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội-
+									Người
+									chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
+									747/2014/ATTP-CNDK
 								</div>
-								<div class="autocomplete-suggestions"
-									style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
-								</div>
-								<script type="text/javascript" id="">
-									var eventSet = !1;
-									setTimeout(function() {
-										var a = jQuery(".arcontactus-message-button");
-										if (a) a.on("click", function() {
-											eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(
-												addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0)
-										})
-									}, 1E3);
+							</div>
 
-									function addEvents1() {
-										jQuery('a[href*\x3d"m.me"]').on("click", function() {
-											window.dataLayer.push({
-												event: "chat_button"
-											})
-										})
-									}
+						</div>
+						<div class="copyright ">
+							<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
+						</div>
+					</footer>
+				</div>
+			</div>
+			<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
+				<div id="bar-inner">
+					<a class="go-top" href="#page-wrapper" title="Back to top">
+						<svg x="0px" y="0px" viewBox="0 0 284.929 284.929"
+							style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
+							<g>
+								<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
+				C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854
+				c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848
+				c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566
+				C284.929,199.378,283.984,197.188,282.082,195.285z"></path>
+							</g>
+						</svg>
+					</a>
+				</div>
+			</div> <input type="hidden" id="Itid" name="Itid" value="3">
+			<div id="loading_box">
+				<div id="loading_image"></div>
+			</div>
+			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+			<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
+				<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
+						href="https://m.me/congtyonplazavietphap" target="_blank"><span
+							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 448 512">
+								<path
+									d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
+								</path>
+							</svg></span>
+						<p>Messenger</p>
+					</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169"
+						target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 448 512">
+								<path
+									d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+								</path>
+							</svg></span>
+						<p>Zalo Chat</p>
+					</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span
+							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 448 512">
+								<path
+									d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+								</path>
+							</svg></span>
+						<p>Skype Chat</p>
+					</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com"
+						target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 512 512">
+								<path
+									d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+								</path>
+							</svg></span>
+						<p>Gửi Email</p>
+					</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span
+							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 512 512">
+								<path
+									d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+								</path>
+							</svg></span>
+						<p>Call 0932.144.888</p>
+					</a></div>
+				<div class="arcontactus-message-button" style="background-color: #c60100">
+					<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g id="Canvas" transform="translate(-825 -308)">
+								<g id="Vector">
+									<use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="#FFFFFF">
+									</use>
+								</g>
+							</g>
+							<defs>
+								<path id="path0_fill0123"
+									d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
+								</path>
+							</defs>
+						</svg>
+						<p>Liên hệ</p>
+					</div>
+					<div class="callback-state" style="color: #c60100"></div>
+					<div class="icons">
+						<div class="icons-line" style="transform: translate(-2px, 0px);"><span
+								style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+									<path
+										d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
+									</path>
+								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<path
+										d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+									</path>
+								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 448 512">
+									<path
+										d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+									</path>
+								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 512 512">
+									<path
+										d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+									</path>
+								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 512 512">
+									<path
+										d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+									</path>
+								</svg></span></div>
+					</div>
+					<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1"
+							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g id="Canvas" transform="translate(-4087 108)">
+								<g id="Vector">
+									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
+									</use>
+								</g>
+							</g>
+							<defs>
+								<path id="path0_fill"
+									d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+								</path>
+							</defs>
+						</svg></div>
+					<div class="pulsation" style="background-color: #c60100"></div>
+					<div class="pulsation" style="background-color: #c60100"></div>
+				</div>
+				<div class="arcontactus-prompt">
+					<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13"
+							viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink">
+							<g id="Canvas" transform="translate(-4087 108)">
+								<g id="Vector">
+									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
+									</use>
+								</g>
+							</g>
+							<defs>
+								<path id="path0_fill"
+									d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+								</path>
+							</defs>
+						</svg></div>
+					<div class="arcontactus-prompt-inner"></div>
+				</div>
+			</div>
+			<script>
+				//<![CDATA[
+				var arCuMessages = ["Xin chào tôi có thể giúp gì cho bạn"];
+				var arCuLoop = false;
+				var arCuCloseLastMessage = false;
+				var arCuPromptClosed = false;
+				var _arCuTimeOut = null;
+				var arCuDelayFirst = 2000;
+				var arCuTypingTime = 2000;
+				var arCuMessageTime = 4000;
+				var arCuClosedCookie = 0;
+				var arcItems = [];
+				window.addEventListener('load', function() {
+					arCuClosedCookie = arCuGetCookie('arcu-closed');
+					jQuery('#arcontactus').on('arcontactus.init', function() {
+						if (arCuClosedCookie) {
+							return false;
+						}
+						arCuShowMessages();
+					});
+					jQuery('#arcontactus').on('arcontactus.openMenu', function() {
+						clearTimeout(_arCuTimeOut);
+						arCuPromptClosed = true;
+						jQuery('#contact').contactUs('hidePrompt');
+						arCuCreateCookie('arcu-closed', 1, 30);
+					});
+					jQuery('#arcontactus').on('arcontactus.hidePrompt', function() {
+						clearTimeout(_arCuTimeOut);
+						arCuPromptClosed = true;
+						arCuCreateCookie('arcu-closed', 1, 30);
+					});
+					var arcItem = {};
+					arcItem.id = 'msg-item-1';
+					arcItem.class = 'msg-item-facebook-messenger';
+					arcItem.title = 'Messenger';
+					arcItem.icon =
+						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>';
+					arcItem.href = 'https://m.me/congtyonplazavietphap';
+					arcItem.color = '#f4e0af';
+					arcItems.push(arcItem);
+					var arcItem = {};
+					arcItem.id = 'msg-item-9';
+					arcItem.class = 'msg-item-telegram-plane';
+					arcItem.title = 'Zalo Chat';
+					arcItem.icon =
+						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>';
+					arcItem.href = 'https://zalo.me/0966606169';
+					arcItem.color = '#f4e0af';
+					arcItems.push(arcItem);
+					var arcItem = {};
+					arcItem.id = 'msg-item-6';
+					arcItem.class = 'msg-item-skype';
+					arcItem.title = 'Skype Chat';
+					arcItem.icon =
+						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"></path></svg>';
+					arcItem.href = 'skype:';
+					arcItem.color = '#f4e0af';
+					arcItems.push(arcItem);
+					var arcItem = {};
+					arcItem.id = 'msg-item-7';
+					arcItem.class = 'msg-item-envelope';
+					arcItem.title = 'Gửi Email';
+					arcItem.icon =
+						'<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>';
+					arcItem.href = 'mailto:onplazavietphap@gmail.com';
+					arcItem.color = '#f4e0af';
+					arcItems.push(arcItem);
+					var arcItem = {};
+					arcItem.id = 'msg-item-8';
+					arcItem.class = 'msg-item-phone';
+					arcItem.title = 'Call 0932.144.888';
+					arcItem.icon =
+						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>';
+					arcItem.href = 'tel:0966606169';
+					arcItem.color = '#f4e0af';
+					arcItems.push(arcItem);
+					jQuery('#arcontactus').contactUs({
+						items: arcItems
+					});
+				});
+				//]]>
+			</script>
+			<!-- end arcontactus widget -->
+			<!--  -->
+			<div id="modal_alert1" class="hide">
+				<div class="modal_alert_inner">
+					<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
+							onclick="javascript:close_modal_alert1()">X</a></div>
+					<div class="modal_alert_body"></div>
+				</div>
+			</div>
+			<div class="benmarch noc">0.18644 sec| 1456.422 kb</div>
+			<script async="async" language="javascript" type="text/javascript"
+				src="https://onplaza.vn/cache/js/55f142eedda62419413fb85343542881.js?20230704230657"></script>
+		</div>
+		<script type="text/javascript" id="">
+			(function(a, e, b, f, g, c, d) {
+				a[b] = a[b] || function() {
+					(a[b].q = a[b].q || []).push(arguments)
+				};
+				c = e.createElement(f);
+				c.async = 1;
+				c.src = "https://www.clarity.ms/tag/" + g + "?ref\x3dbwt";
+				d = e.getElementsByTagName(f)[0];
+				d.parentNode.insertBefore(c, d)
+			})(window, document, "clarity", "script", "9301me865a");
+		</script>
+		<div class="autocomplete-suggestions"
+			style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
+		</div>
+		<div class="autocomplete-suggestions"
+			style="position: absolute; display: none; max-height: 300px; z-index: 9999;">
+		</div>
+		<script type="text/javascript" id="">
+			var eventSet = !1;
+			setTimeout(function() {
+				var a = jQuery(".arcontactus-message-button");
+				if (a) a.on("click", function() {
+					eventSet || (setTimeout(addEvents1, 1E3), setTimeout(addEvents2, 1E3), setTimeout(
+						addEvents3, 1E3), setTimeout(addEvents4, 1E3), eventSet = !0)
+				})
+			}, 1E3);
 
-									function addEvents2() {
-										jQuery('a[href*\x3d"zalo.me"]').on("click", function() {
-											window.dataLayer.push({
-												event: "chat_button"
-											})
-										})
-									}
+			function addEvents1() {
+				jQuery('a[href*\x3d"m.me"]').on("click", function() {
+					window.dataLayer.push({
+						event: "chat_button"
+					})
+				})
+			}
 
-									function addEvents3() {
-										jQuery('a[href*\x3d"tel:"]').on("click", function() {
-											window.dataLayer.push({
-												event: "hotline"
-											})
-										})
-									}
+			function addEvents2() {
+				jQuery('a[href*\x3d"zalo.me"]').on("click", function() {
+					window.dataLayer.push({
+						event: "chat_button"
+					})
+				})
+			}
 
-									function addEvents4() {
-										jQuery('a[href*\x3d"skype:"]').on("click", function() {
-											window.dataLayer.push({
-												event: "chat_button"
-											})
-										})
-									};
-								</script>
-								<div
-									style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
-									<div
-										style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
-									</div>
-									<div class="g-recaptcha-bubble-arrow"
-										style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
-									</div>
-									<div class="g-recaptcha-bubble-arrow"
-										style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
-									</div>
-									<div style="z-index: 2000000000; position: relative;"><iframe
-											title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa"
-											src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci"
-											name="c-fbdxqhjq6sfd" frameborder="0" scrolling="no"
-											sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
-											style="width: 100%; height: 100%;"></iframe></div>
-								</div>
+			function addEvents3() {
+				jQuery('a[href*\x3d"tel:"]').on("click", function() {
+					window.dataLayer.push({
+						event: "hotline"
+					})
+				})
+			}
+
+			function addEvents4() {
+				jQuery('a[href*\x3d"skype:"]').on("click", function() {
+					window.dataLayer.push({
+						event: "chat_button"
+					})
+				})
+			};
+		</script>
+		<div
+			style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+			<div
+				style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+			</div>
+			<div class="g-recaptcha-bubble-arrow"
+				style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+			</div>
+			<div class="g-recaptcha-bubble-arrow"
+				style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+			</div>
+			<div style="z-index: 2000000000; position: relative;"><iframe
+					title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa"
+					src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci"
+					name="c-fbdxqhjq6sfd" frameborder="0" scrolling="no"
+					sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
+					style="width: 100%; height: 100%;"></iframe></div>
+		</div>
 </body>
 
 </html>

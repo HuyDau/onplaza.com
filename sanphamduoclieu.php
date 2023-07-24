@@ -3021,22 +3021,9 @@ require_once("config/config.php");
 													</metadata>
 													<g transform="translate(0.000000,84.000000) scale(0.100000,-0.100000)"
 														stroke="none">
-														<path d="M713 829 c-74 -21 -128 -129 -140 -279 -10 -129 -39 -151 -272 -210
--140 -35 -172 -49 -219 -94 -50 -46 -75 -102 -76 -164 -1 -42 3 -57 18 -68 28
--20 41 -18 79 15 30 27 34 28 44 13 9 -14 12 -15 27 -3 9 7 16 22 16 32 0 12
-11 24 26 29 29 11 44 6 44 -16 0 -23 30 -16 39 10 15 38 65 50 74 16 7 -28 25
--25 40 7 6 16 16 31 22 35 17 13 45 9 45 -7 0 -28 30 -15 44 20 14 32 46 49
-46 25 0 -5 9 -10 20 -10 13 0 22 9 26 28 3 15 14 43 24 62 33 65 52 150 45
-206 -10 83 8 130 76 195 50 48 59 62 59 91 0 56 -46 84 -107 67z m65 -65 c2
--16 -10 -32 -42 -59 -76 -62 -91 -95 -92 -202 0 -51 -3 -95 -5 -98 -3 -2 -15
-2 -27 11 -16 11 -20 20 -13 32 5 9 12 53 16 97 13 152 65 249 129 243 23 -2
-32 -9 34 -24z m-179 -393 c23 -17 23 -21 11 -50 -26 -65 -99 -100 -304 -150
--135 -33 -189 -55 -220 -90 -43 -48 -49 -2 -10 77 29 59 44 66 44 22 0 -20 5
--30 15 -30 11 0 15 12 15 45 0 34 5 47 19 55 30 16 41 12 41 -13 0 -30 24 -62
-39 -53 8 5 8 13 1 26 -18 33 -12 60 16 70 34 13 34 13 34 -13 0 -25 26 -67 42
--67 9 0 6 26 -8 63 -7 18 21 47 47 47 10 0 19 -7 19 -15 0 -24 23 -65 36 -65
-10 0 12 11 7 46 -4 34 -2 48 8 55 27 17 45 9 54 -23 6 -18 17 -33 25 -33 15 0
-16 8 4 59 -5 22 -2 32 11 43 24 17 25 16 54 -6z"></path>
+														<path
+															d="M713 829 c-74 -21 -128 -129 -140 -279 -10 -129 -39 -151 -272 -210-140 -35 -172 -49 -219 -94 -50 -46 -75 -102 -76 -164 -1 -42 3 -57 18 -68 28-20 41 -18 79 15 30 27 34 28 44 13 9 -14 12 -15 27 -3 9 7 16 22 16 32 0 1211 24 26 29 29 11 44 6 44 -16 0 -23 30 -16 39 10 15 38 65 50 74 16 7 -28 25-25 40 7 6 16 16 31 22 35 17 13 45 9 45 -7 0 -28 30 -15 44 20 14 32 46 4946 25 0 -5 9 -10 20 -10 13 0 22 9 26 28 3 15 14 43 24 62 33 65 52 150 45206 -10 83 8 130 76 195 50 48 59 62 59 91 0 56 -46 84 -107 67z m65 -65 c2-16 -10 -32 -42 -59 -76 -62 -91 -95 -92 -202 0 -51 -3 -95 -5 -98 -3 -2 -15 2 -27 11 -16 11 -20 20 -13 32 5 9 12 53 16 97 13 152 65 249 129 243 23 -232 -9 34 -24z m-179 -393 c23 -17 23 -21 11 -50 -26 -65 -99 -100 -304 -150-135 -33 -189 -55 -220 -90 -43 -48 -49 -2 -10 77 29 59 44 66 44 22 0 -20 5-30 15 -30 11 0 15 12 15 45 0 34 5 47 19 55 30 16 41 12 41 -13 0 -30 24 -6239 -53 8 5 8 13 1 26 -18 33 -12 60 16 70 34 13 34 13 34 -13 0 -25 26 -67 42-67 9 0 6 26 -8 63 -7 18 21 47 47 47 10 0 19 -7 19 -15 0 -24 23 -65 36 -6510 0 12 11 7 46 -4 34 -2 48 8 55 27 17 45 9 54 -23 6 -18 17 -33 25 -33 15 016 8 4 59 -5 22 -2 32 11 43 24 17 25 16 54 -6z">
+														</path>
 													</g>
 												</svg></span>
 											<span class="text_hide"><?= $item_dongtrung['name_category'] ?></span>
@@ -3061,27 +3048,9 @@ require_once("config/config.php");
 													preserveAspectRatio="xMidYMid meet">
 													<g transform="translate(0.000000,248.000000) scale(0.100000,-0.100000)"
 														stroke="none">
-														<path d="M3177 2441 c-54 -23 -63 -24 -116 -13 -85 18 -189 15 -252 -7 -93
--32 -180 -84 -235 -140 -29 -29 -57 -50 -63 -46 -6 3 -11 22 -11 40 0 46 -51
-97 -116 115 -38 11 -67 11 -149 2 -160 -18 -248 -58 -371 -172 -128 -119 -290
--216 -439 -266 -27 -9 -61 -24 -75 -34 -39 -27 -128 -70 -200 -97 -36 -13 -74
--28 -85 -33 -56 -27 -430 -140 -645 -195 -30 -7 -73 -18 -95 -24 -22 -5 -70
--15 -106 -21 -37 -5 -84 -17 -105 -26 l-39 -17 28 -8 c15 -4 123 -10 240 -13
-326 -10 391 -17 547 -62 99 -29 133 -30 310 -13 186 18 261 38 385 103 95 49
-97 49 89 23 -3 -12 -34 -62 -68 -112 -34 -49 -68 -103 -76 -120 -8 -16 -33
--46 -55 -66 -22 -20 -71 -65 -110 -100 -38 -35 -99 -86 -134 -114 -35 -27 -78
--62 -95 -76 -73 -60 -166 -119 -236 -149 -41 -18 -120 -54 -175 -80 -55 -26
--140 -66 -190 -89 -49 -23 -103 -49 -120 -57 -16 -7 -70 -31 -120 -52 -85 -37
--118 -62 -102 -78 22 -22 369 97 662 226 127 56 544 234 558 237 32 10 17 -21
--25 -52 -23 -16 -118 -93 -212 -169 -94 -77 -216 -176 -271 -220 -126 -103
--415 -387 -415 -409 0 -24 12 -21 61 16 24 18 120 85 212 148 93 62 210 145
-260 183 83 63 311 216 322 216 26 0 455 326 645 490 99 86 179 143 242 173 31
-15 61 27 67 27 18 0 58 -64 64 -100 8 -58 -48 -207 -108 -292 -191 -265 -309
--461 -349 -581 -24 -71 -21 -307 3 -307 4 0 37 60 74 132 84 167 123 220 197
-266 33 20 129 87 214 147 85 61 200 140 254 178 59 40 151 119 229 195 118
-117 133 135 175 222 68 138 83 207 83 375 0 159 -18 233 -81 326 -19 28 -34
-55 -34 60 0 5 12 28 27 52 60 96 121 265 107 300 -8 22 15 69 52 108 22 22 34
-44 32 56 -3 19 -5 18 -61 -6z"></path>
+														<path
+															d="M3177 2441 c-54 -23 -63 -24 -116 -13 -85 18 -189 15 -252 -7 -93-32 -180 -84 -235 -140 -29 -29 -57 -50 -63 -46 -6 3 -11 22 -11 40 0 46 -5197 -116 115 -38 11 -67 11 -149 2 -160 -18 -248 -58 -371 -172 -128 -119 -290-216 -439 -266 -27 -9 -61 -24 -75 -34 -39 -27 -128 -70 -200 -97 -36 -13 -74-28 -85 -33 -56 -27 -430 -140 -645 -195 -30 -7 -73 -18 -95 -24 -22 -5 -70-15 -106 -21 -37 -5 -84 -17 -105 -26 l-39 -17 28 -8 c15 -4 123 -10 240 -13326 -10 391 -17 547 -62 99 -29 133 -30 310 -13 186 18 261 38 385 103 95 4997 49 89 23 -3 -12 -34 -62 -68 -112 -34 -49 -68 -103 -76 -120 -8 -16 -33-46 -55 -66 -22 -20 -71 -65 -110 -100 -38 -35 -99 -86 -134 -114 -35 -27 -78-62 -95 -76 -73 -60 -166 -119 -236 -149 -41 -18 -120 -54 -175 -80 -55 -26-140 -66 -190 -89 -49 -23 -103 -49 -120 -57 -16 -7 -70 -31 -120 -52 -85 -37-118 -62 -102 -78 22 -22 369 97 662 226 127 56 544 234 558 237 32 10 17 -21-25 -52 -23 -16 -118 -93 -212 -169 -94 -77 -216 -176 -271 -220 -126 -103-415 -387 -415 -409 0 -24 12 -21 61 16 24 18 120 85 212 148 93 62 210 145260 183 83 63 311 216 322 216 26 0 455 326 645 490 99 86 179 143 242 173 3115 61 27 67 27 18 0 58 -64 64 -100 8 -58 -48 -207 -108 -292 -191 -265 -309-461 -349 -581 -24 -71 -21 -307 3 -307 4 0 37 60 74 132 84 167 123 220 197266 33 20 129 87 214 147 85 61 200 140 254 178 59 40 151 119 229 195 118117 133 135 175 222 68 138 83 207 83 375 0 159 -18 233 -81 326 -19 28 -3455 -34 60 0 5 12 28 27 52 60 96 121 265 107 300 -8 22 15 69 52 108 22 22 3444 32 56 -3 19 -5 18 -61 -6z">
+														</path>
 													</g>
 												</svg>
 											</span>
@@ -3239,9 +3208,9 @@ require_once("config/config.php");
 
 								}
 
-								@media screen and (max-width:650px) {
+								/* @media screen and (max-width:650px) {
 									margin: 0px -5px;
-								}
+								} */
 
 								.product_ajj .products_home_slideshow .item {
 									width: calc(calc(100% / 3) - 20px);
@@ -3488,7 +3457,7 @@ require_once("config/config.php");
 				<div class="clear"></div>
 
 				<div class="footer lazy after-lazy"
-					style="background-image: url(&quot;https://onplaza.vn/images/config/back_footer_1590467752.jpg.webp&quot;); display: block;">
+					style="background-image: url(assets/img/background/bg5.png); display: block;">
 					<footer>
 						<div class="container cls">
 
@@ -3509,9 +3478,9 @@ require_once("config/config.php");
 												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 												<g>
 													<g>
-														<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+														<path
+															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+														</path>
 													</g>
 												</g>
 
@@ -3526,11 +3495,13 @@ require_once("config/config.php");
 											</li>
 											<li>
 												<p>Địa chỉ:76 Hai Bà Trưng, Hoàn Kiếm, Hà Nội <br> (Cách Bệnh Biện K 50m
-													- Cách Tòa Tháp Đôi Hà Nội 60m)</p>
+													-
+													Cách Tòa Tháp Đôi Hà Nội 60m)</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55
-													- 09.66.60.61.69</p>
+													-
+													09.66.60.61.69</p>
 											</li>
 
 										</ul>
@@ -3542,7 +3513,8 @@ require_once("config/config.php");
 											</li>
 											<li>
 												<p>Địa chỉ:327 Trường Chinh, Ngã Tư Sở, Hà Nội <br> (Cách Ngã Tư Sở
-													Khoảng 200m)</p>
+													Khoảng
+													200m)</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
@@ -3559,9 +3531,9 @@ require_once("config/config.php");
 												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
 												<g>
 													<g>
-														<path d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333
-			C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96
-			s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z"></path>
+														<path
+															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+														</path>
 													</g>
 												</g>
 
@@ -3576,8 +3548,10 @@ require_once("config/config.php");
 											</li>
 											<li>
 												<p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 –
-													TP.HCM <br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân
-													khấu kịch Trống Đồng )</p>
+													TP.HCM
+													<br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
+													Trống Đồng )
+												</p>
 											</li>
 											<li>
 												<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69
@@ -3593,34 +3567,35 @@ require_once("config/config.php");
 									<ul class="menu-bottom cls">
 										<li class="  level0  first-item">
 											<span class="click-mobile" data-id="menu-sub1"></span> <span
-												data-id="item_1"> Chính sách &amp; bảo hành </span>
+												data-id="item_1">
+												Chính sách &amp; bảo hành </span>
 											<ul id="menu-sub1" class="cls">
 												<li class="  level1  first-sitem ">
-													<a href="https://onplaza.vn/ct-dieu-khoan-mua-hang.html"
-														title="Điều khoản mua hàng"> Điều khoản mua hàng </a>
+													<a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều
+														khoản
+														mua hàng </a>
 												</li>
 												<li class="  level1  mid-sitem ">
 													<span> Hướng dẫn mua hàng </span>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-hinh-thuc-thanh-toan.html"
-														title="Phương thức thanh toán"> Phương thức thanh toán </a>
+													<a href="hinhthucthanhtoan.php" title="Phương thức thanh toán">
+														Phương
+														thức thanh toán </a>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-hinh-thuc-van-chuyen.html"
-														title="Phương thức vận chuyển"> Phương thức vận chuyển </a>
+													<a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển">
+														Phương
+														thức vận chuyển </a>
 												</li>
 												<li class="  level1  mid-sitem ">
 													<a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách
-														bảo mật </a>
+														bảo
+														mật </a>
 												</li>
 												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/ct-chinh-sach-doi-tra.html"
-														title="Chính sách đổi trả hàng"> Chính sách đổi trả hàng </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="https://onplaza.vn/sitemap.xml" title="Sitemap"> Sitemap
-													</a>
+													<a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
+														sách đổi trả hàng </a>
 												</li>
 											</ul>
 										</li>
@@ -3632,8 +3607,7 @@ require_once("config/config.php");
 
 									<div class="share_fast_small">
 										<div class="title">Kết nối</div>
-										<div class="fb share_item"><a class="facebook-icon"
-												href="https://www.facebook.com/congtyonplazavietphap"
+										<div class="fb share_item"><a class="facebook-icon" href=""
 												title="Link Facebook" rel="nofollow" target="_blank">
 												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
 													<path
@@ -3642,28 +3616,9 @@ require_once("config/config.php");
 												</svg>
 											</a>
 										</div>
-										<!-- <div class="prin share_item"><a class="pinterest-icon" href="https://www.pinterest.com/onplaza/"  title="Link Pinterest" rel="nofollow" target="_blank">
-			<svg x="0px" y="0px" viewBox="0 0 310.05 310.05" style="enable-background:new 0 0 310.05 310.05;" xml:space="preserve">
-				<g>
-					<path id="" d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
-					c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1
-					c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142
-					c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425
-					c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551
-					c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83
-					c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912
-					c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172
-					c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843
-					c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z"/>
-				</g>
-			</svg>
-		</a>
-		
-	</div>	 -->
-
 										<div class="tw share_item">
-											<a class="twitter-icon" href="https://twitter.com/onplazavietphap"
-												title="Link twitter" rel="nofollow" target="_blank">
+											<a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
+												target="_blank">
 												<svg height="50px" viewBox="0 0 512 512" width="50px"
 													xmlns="http://www.w3.org/2000/svg">
 													<path
@@ -3674,8 +3629,8 @@ require_once("config/config.php");
 										</div>
 
 										<div class="yt share_item">
-											<a class="instagram-icon" href="https://www.instagram.com/onplazavietphap/"
-												title="Link instagram" rel="nofollow" target="_blank">
+											<a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
+												target="_blank">
 												<svg height="15" viewBox="0 0 511 511.9" width="15"
 													xmlns="http://www.w3.org/2000/svg">
 													<path
@@ -3693,17 +3648,16 @@ require_once("config/config.php");
 										</div>
 
 										<div class="yt share_item">
-											<a class="youtube-icon"
-												href="https://www.youtube.com/channel/UCkbeOd2V_R8awMKRPjhgNng"
-												title="Link youtube" rel="nofollow" target="_blank">
+											<a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
+												target="_blank">
 												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
 													xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 													viewBox="0 0 215.094 215.094"
 													style="enable-background:new 0 0 215.094 215.094;"
 													xml:space="preserve">
-													<path d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491
-	c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036
-	L90.547,145.583z"></path>
+													<path
+														d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
+													</path>
 
 												</svg>
 											</a>
@@ -3752,22 +3706,24 @@ require_once("config/config.php");
 						<div class="footer_im cls">
 
 							<div class="image_wrapper">
-								<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=sanphamduoclieu.php"
+								<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
 									title="DMCA.com Protection Status" class="dmca-badge"> <img
-										src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=18892078-af65-4c9d-8b82-addf29b3e619"
-										alt="DMCA.com Protection Status"></a>
+										src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
 								<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-								<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=sanphamduoclieu.php"
+								<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
 									title="Bộ công thương" class="dmca-badge">
-									<img class="lazy item after-lazy" alt="flower"
-										src="https://onplaza.vn/images/config/dathongbao_1558687262.png"
+									<img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
 										style="display: inline;"></a>
 								<div class="info_item">
-									Công ty TNHH Onplaza Việt Pháp - Mã số thuế :0105566586, Ngày cấp: 13/10/2011,Trụ sở
+									Công ty TNHH Onplaza Việt Pháp
+									- Mã số thuế :0105566586,
+									Ngày cấp: 13/10/2011,Trụ sở
 									chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
 									Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội-
-									Người chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
-									747/2014/ATTP-CNDK </div>
+									Người
+									chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
+									747/2014/ATTP-CNDK
+								</div>
 							</div>
 
 						</div>
