@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 24, 2023 lúc 02:06 PM
+-- Thời gian đã tạo: Th7 25, 2023 lúc 12:36 PM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -20,6 +20,29 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `onplaza`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `cart`
+--
+
+CREATE TABLE `cart` (
+  `id_cart` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL,
+  `name_kh` varchar(50) NOT NULL,
+  `sdt` int(11) NOT NULL,
+  `gmail` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `district` varchar(50) NOT NULL,
+  `ward` varchar(50) NOT NULL,
+  `detail_address` varchar(200) NOT NULL,
+  `note` varchar(255) NOT NULL,
+  `total` int(11) NOT NULL,
+  `time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `id_payment` int(11) NOT NULL,
+  `id_status` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -52,6 +75,24 @@ INSERT INTO `categories` (`id_category`, `ma_category`, `name_category`, `image_
 (11, 'sam', 'Sâm Ngọc Linh', 'samngoclinh.png', ''),
 (12, 'sam', 'Sâm Lai Châu', '', ''),
 (15, 'quabieu', 'Qùa Biếu', '', '');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `payment`
+--
+
+CREATE TABLE `payment` (
+  `id_payment` int(11) NOT NULL,
+  `name_payment` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `payment`
+--
+
+INSERT INTO `payment` (`id_payment`, `name_payment`) VALUES
+(1, 'Thanh toán khi nhận hàng');
 
 -- --------------------------------------------------------
 
@@ -194,6 +235,27 @@ INSERT INTO `product` (`id_product`, `id_portfolio`, `ma_product`, `name_product
 -- --------------------------------------------------------
 
 --
+-- Cấu trúc bảng cho bảng `status`
+--
+
+CREATE TABLE `status` (
+  `id_status` int(11) NOT NULL,
+  `name_status` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `status`
+--
+
+INSERT INTO `status` (`id_status`, `name_status`) VALUES
+(1, 'Chờ xử lý'),
+(2, 'Đã xác nhân'),
+(3, 'Hoàn thành'),
+(4, 'Hủy');
+
+-- --------------------------------------------------------
+
+--
 -- Cấu trúc bảng cho bảng `users`
 --
 
@@ -221,10 +283,23 @@ INSERT INTO `users` (`id`, `username`, `password`, `fullname`, `gmail`, `phone`,
 --
 
 --
+-- Chỉ mục cho bảng `cart`
+--
+ALTER TABLE `cart`
+  ADD KEY `id_status` (`id_status`),
+  ADD KEY `id_payment` (`id_payment`);
+
+--
 -- Chỉ mục cho bảng `categories`
 --
 ALTER TABLE `categories`
   ADD PRIMARY KEY (`id_category`);
+
+--
+-- Chỉ mục cho bảng `payment`
+--
+ALTER TABLE `payment`
+  ADD PRIMARY KEY (`id_payment`);
 
 --
 -- Chỉ mục cho bảng `portfolio`
@@ -239,6 +314,12 @@ ALTER TABLE `portfolio`
 ALTER TABLE `product`
   ADD PRIMARY KEY (`id_product`),
   ADD KEY `product_ibfk_1` (`id_portfolio`);
+
+--
+-- Chỉ mục cho bảng `status`
+--
+ALTER TABLE `status`
+  ADD PRIMARY KEY (`id_status`);
 
 --
 -- Chỉ mục cho bảng `users`
@@ -257,6 +338,12 @@ ALTER TABLE `categories`
   MODIFY `id_category` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
+-- AUTO_INCREMENT cho bảng `payment`
+--
+ALTER TABLE `payment`
+  MODIFY `id_payment` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT cho bảng `portfolio`
 --
 ALTER TABLE `portfolio`
@@ -269,6 +356,12 @@ ALTER TABLE `product`
   MODIFY `id_product` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
 
 --
+-- AUTO_INCREMENT cho bảng `status`
+--
+ALTER TABLE `status`
+  MODIFY `id_status` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
 -- AUTO_INCREMENT cho bảng `users`
 --
 ALTER TABLE `users`
@@ -277,6 +370,13 @@ ALTER TABLE `users`
 --
 -- Các ràng buộc cho các bảng đã đổ
 --
+
+--
+-- Các ràng buộc cho bảng `cart`
+--
+ALTER TABLE `cart`
+  ADD CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_status`) REFERENCES `status` (`id_status`),
+  ADD CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`id_payment`) REFERENCES `payment` (`id_payment`);
 
 --
 -- Các ràng buộc cho bảng `portfolio`
