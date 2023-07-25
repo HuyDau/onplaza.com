@@ -2297,7 +2297,7 @@ if (isset($_GET['id'])) {
 
 												<meta itemprop="brand" content="Công ty TNHH Onplaza Việt Pháp">
 
-												<form action="#" name="buy_simple_form" method="post">
+												<form action="giohang.php?action=add" name="buy_simple_form" method="POST">
 
 													<div class="region_wp cls">
 													</div>
@@ -2308,7 +2308,7 @@ if (isset($_GET['id'])) {
 														itemtype="https://schema.org/AggregateOffer">
 
 														<link itemprop="availability" href="https://schema.org/InStock">
-														<div class="price_current" id="price" content="83000000">
+														<div class="price_current" id="price" content="<?=number_format($item_prod['price1'],0,"",".")?>">
 															<span class="price"><span class="text_price">Giá bán
 																	lẻ</span><?=number_format($item_prod['price1'],0,"",".")?>₫ </span>
 
@@ -2371,7 +2371,7 @@ if (isset($_GET['id'])) {
 															<span class="name_view">Số lượng </span>
 															<div class="form-sl">
 																<span class="dec button">–</span>
-																<input name="buy_count" id="buy_count" value="1"
+																<input name="quantity[<?= $item_prod['id_product'] ?>]" id="buy_count" value="1" step="1" min="1"
 																	type="text" placeholder="Số lượng">
 																<span class="inc button">+</span>
 															</div>
@@ -2379,11 +2379,7 @@ if (isset($_GET['id'])) {
 													</div>
 													<div class="clear"></div>
 													<div id="add_buy_cart">
-
-														<a href="javascript:void(0)" onclick="add_to_cart(195)"
-															class="btn-dathang" data-toggle="modal">
-															<font>Thêm vào giỏ</font>
-														</a>
+														<button style="border: none;" class="pink_more btn-buy-222 fl" id="buy-now-222" type="submit">Thêm vào giỏ</button>
 														<button type="submit" class="btn-buy-222 fl" id="buy-now-222">
 															<span>
 																Mua nhanh </span>
@@ -3722,13 +3718,13 @@ if (isset($_GET['id'])) {
 					<div class="block_banners banners-_banner banners_0 block" id="block_id_145">
 						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
 							<div class="item">
-								<a rel="nofollow" href="lien-he.html" title="Hệ thống cửa hàng" id="banner_item_100"
+								<a rel="nofollow" href="lienhe.php" title="Hệ thống cửa hàng" id="banner_item_100"
 									class="banner_item">
 
 									<span class="wrapper_ap">
 										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
-											src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028215.jpg"
-											srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028215.jpg.webp"
+											src="assets/img/banner/banner7.png"
+											srcset="assets/img/banner/banner7.png"
 											style="display: inline;">
 									</span>
 

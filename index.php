@@ -2496,7 +2496,7 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                     <div class="block_banners banners-_banner banners_0 block" id="block_id_145">
                         <div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
                             <div class="item">
-                                <a rel="nofollow" href="lien-he.html" title="Hệ thống cửa hàng" id="banner_item_100"
+                                <a rel="nofollow" href="lienhe.php" title="Hệ thống cửa hàng" id="banner_item_100"
                                     class="banner_item">
 
                                     <span class="wrapper_ap">
