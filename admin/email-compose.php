@@ -331,7 +331,7 @@ if (isset($_GET['id'])) {
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>

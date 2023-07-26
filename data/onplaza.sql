@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 25, 2023 lúc 12:36 PM
+-- Thời gian đã tạo: Th7 26, 2023 lúc 01:36 PM
 -- Phiên bản máy phục vụ: 10.4.28-MariaDB
 -- Phiên bản PHP: 8.2.4
 
@@ -29,20 +29,49 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `cart` (
   `id_cart` int(11) NOT NULL,
-  `id_user` int(11) NOT NULL,
   `name_kh` varchar(50) NOT NULL,
   `sdt` int(11) NOT NULL,
-  `gmail` varchar(50) NOT NULL,
   `city` varchar(50) NOT NULL,
   `district` varchar(50) NOT NULL,
   `ward` varchar(50) NOT NULL,
   `detail_address` varchar(200) NOT NULL,
-  `note` varchar(255) NOT NULL,
   `total` int(11) NOT NULL,
+  `note` varchar(255) NOT NULL,
   `time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `id_payment` int(11) NOT NULL,
   `id_status` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `cart`
+--
+
+INSERT INTO `cart` (`id_cart`, `name_kh`, `sdt`, `city`, `district`, `ward`, `detail_address`, `total`, `note`, `time`, `id_payment`, `id_status`) VALUES
+(17, 'Lê Huy Dậu', 386131716, 'Thành phố Hà Nội', 'Quận Cầu Giấy', 'Phường Mai Dịch', '12 ngõ 89 Phạm Văn Đồng', 179000000, 'Ship luôn', '2023-07-26 10:17:12', 1, 3),
+(18, 'Nhữ Văn Hưng', 999999999, 'Thành phố Hà Nội', 'Huyện Thanh Trì', 'Xã Tả Thanh Oai', 'CT8C Khu Đô Thị Đại Thanh', 137160000, 'Bấm Chuông', '2023-07-26 10:17:07', 1, 3);
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `cart_detail`
+--
+
+CREATE TABLE `cart_detail` (
+  `id_detail` int(11) NOT NULL,
+  `id_cart` int(11) NOT NULL,
+  `id_product` int(11) NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `price` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `cart_detail`
+--
+
+INSERT INTO `cart_detail` (`id_detail`, `id_cart`, `id_product`, `quantity`, `price`) VALUES
+(28, 17, 41, 3, 32000000),
+(29, 17, 42, 1, 83000000),
+(30, 18, 10, 6, 22860000);
 
 -- --------------------------------------------------------
 
@@ -286,8 +315,17 @@ INSERT INTO `users` (`id`, `username`, `password`, `fullname`, `gmail`, `phone`,
 -- Chỉ mục cho bảng `cart`
 --
 ALTER TABLE `cart`
+  ADD PRIMARY KEY (`id_cart`),
   ADD KEY `id_status` (`id_status`),
   ADD KEY `id_payment` (`id_payment`);
+
+--
+-- Chỉ mục cho bảng `cart_detail`
+--
+ALTER TABLE `cart_detail`
+  ADD PRIMARY KEY (`id_detail`),
+  ADD KEY `id_product` (`id_product`),
+  ADD KEY `id_cart` (`id_cart`);
 
 --
 -- Chỉ mục cho bảng `categories`
@@ -330,6 +368,18 @@ ALTER TABLE `users`
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
 --
+
+--
+-- AUTO_INCREMENT cho bảng `cart`
+--
+ALTER TABLE `cart`
+  MODIFY `id_cart` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
+--
+-- AUTO_INCREMENT cho bảng `cart_detail`
+--
+ALTER TABLE `cart_detail`
+  MODIFY `id_detail` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT cho bảng `categories`
@@ -377,6 +427,13 @@ ALTER TABLE `users`
 ALTER TABLE `cart`
   ADD CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`id_status`) REFERENCES `status` (`id_status`),
   ADD CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`id_payment`) REFERENCES `payment` (`id_payment`);
+
+--
+-- Các ràng buộc cho bảng `cart_detail`
+--
+ALTER TABLE `cart_detail`
+  ADD CONSTRAINT `cart_detail_ibfk_1` FOREIGN KEY (`id_product`) REFERENCES `product` (`id_product`),
+  ADD CONSTRAINT `cart_detail_ibfk_2` FOREIGN KEY (`id_cart`) REFERENCES `cart` (`id_cart`);
 
 --
 -- Các ràng buộc cho bảng `portfolio`

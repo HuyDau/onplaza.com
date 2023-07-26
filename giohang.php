@@ -45,6 +45,11 @@ if (isset($_GET["action"])) {
 			break;
 	}
 }
+if(isset($_POST['order'])){
+	$name = $_POST['name'];
+	
+	var_dump($name);
+}
 
 ?>
 
@@ -142,7 +147,7 @@ if (isset($_GET["action"])) {
 	<!-- End Google Tag Manager (noscript) -->
 
 	<!-- <script src='https://www.google.com/recaptcha/api.js?hl=vi' async defer></script> -->
-
+	
 	<div class="popup-login-resgister hide">
 		<div id="popup_hide">
 			<div class="close_popup" onclick="HideLoginPopup()">
@@ -355,6 +360,7 @@ if (isset($_GET["action"])) {
 		</div>
 
 	</div>
+	
 	<div class="menu_head">
 		<div class="wrapper_top cls">
 			<div class="phone left_item">
@@ -1844,7 +1850,9 @@ if (isset($_GET["action"])) {
 				<?php
 				if (empty($_SESSION["cart"]) || !isset($_SESSION["cart"])) {
 				?>
-					<h3 class="empty_cart">Your shopping cart is empty <i class="las la-hand-point-right"></i> <a href="cake.php">Make a purchase.</a> </h3>
+					<h3 class="empty_cart">GIỎ HÀNG CỦA BẠN ĐANG TRỐNG </h3>
+					<img class="img_cart_empty" src="assets/img/logo/cart_empty.png" alt="">
+					<h3 class="empty_cart"> <a class="link_empty" href="index.php">Tiếp tục mua hàng.</a></h3>
 				<?php
 				} else {
 				?>
@@ -1859,7 +1867,7 @@ if (isset($_GET["action"])) {
 									<div id="product_cart_load_ajax">
 
 										<div class="shopcart_product">
-											<form action="#" method="post" name="shopcart">
+									
 												<div class="table-wrap">
 													<?php
 													$total = 0;
@@ -1924,13 +1932,13 @@ if (isset($_GET["action"])) {
 														<div class="total-price-inner cls">
 															<span>Thành tiền </span>
 															<span class="price"><?= number_format($total, 0, "", ".") ?>₫</span>
-															<span class="vat">(Đã bao gồm VAT nếu có)</span>
+														
 														</div>
 
 													</div>
 													<div class="_btn_mb">
 														<!-- <input class="button-cart" type="button" name="next_step" id="sub-next-buy" onclick="javascript:window.location = ''" value=""/> -->
-														<a class="button-cart" href="javascript:void(0)" onclick="buy_login()" id="buy_login" title="Đăng nhập và mua">Mua ngay</a>
+														<a class="button-cart" href="thanhtoan.php" id="buy_login" title="Đăng nhập và mua">Mua ngay</a>
 														<div class="login_buy">
 															<a href="javascript:void(0)" id="login_pop" onclick="OpenLoginPopup()" title="Đăng nhập và mua">Đăng
 																nhập và mua</a>
@@ -1944,475 +1952,9 @@ if (isset($_GET["action"])) {
 												<input type="hidden" name="module" value="products">
 												<input type="hidden" name="view" value="cart">
 												<input type="hidden" name="task" value="recal" id="task">
-											</form>
+											
 										</div>
 
-									</div>
-									<div class="buyer_info hide">
-
-										<form action="#" name="eshopcart_info" method="post" id="eshopcart_info">
-											<div class="input_check" id="next_two">
-												<div class="title_info-">Địa chỉ giao hàng</div>
-												<div class="clear"></div>
-												<div class="wrapper_next">
-
-													<div class="item cls">
-														<div class="fieldset_item_row cls">
-															<div class="form-group">
-																<div class="form_name">Họ tên</div>
-																<div class="value">
-																	<input placeholder="Họ tên (*)" type="text" name="sender_name" id="name_user" value="" class="input_text" size="30">
-																</div>
-															</div>
-														</div>
-
-														<div class="fieldset_item_row cls">
-															<div class="form-group">
-																<div class="form_name">Điện thoại</div>
-																<div class="value">
-																	<input placeholder="Điện thoại (*)" type="text" name="sender_telephone" id="telephone_user" value="" class="input_text" size="30">
-																</div>
-															</div>
-														</div>
-														<div class="fieldset_item_row cls fieldset_item_adresss">
-															<div class="form-group">
-																<div class="form_name">Tỉnh Thành</div>
-																<div class="value">
-																	<select data-placeholder="Tỉnh Thành" class="form-control " name="city_id" id="city_id">
-																		<option value="1" selected="selected">Hà Nội
-																		</option>
-																		<option value="2">Hà Giang</option>
-																		<option value="4">Cao Bằng</option>
-																		<option value="6">Bắc Kạn</option>
-																		<option value="8">Tuyên Quang</option>
-																		<option value="10">Lào Cai</option>
-																		<option value="11">Điện Biên</option>
-																		<option value="12">Lai Châu</option>
-																		<option value="14">Sơn La</option>
-																		<option value="15">Yên Bái</option>
-																		<option value="17">Hoà Bình</option>
-																		<option value="19">Thái Nguyên</option>
-																		<option value="20">Lạng Sơn</option>
-																		<option value="22">Quảng Ninh</option>
-																		<option value="24">Bắc Giang</option>
-																		<option value="25">Phú Thọ</option>
-																		<option value="26">Vĩnh Phúc</option>
-																		<option value="27">Bắc Ninh</option>
-																		<option value="30">Hải Dương</option>
-																		<option value="31">Hải Phòng</option>
-																		<option value="33">Hưng Yên</option>
-																		<option value="34">Thái Bình</option>
-																		<option value="35">Hà Nam</option>
-																		<option value="36">Nam Định</option>
-																		<option value="37">Ninh Bình</option>
-																		<option value="38">Thanh Hóa</option>
-																		<option value="40">Nghệ An</option>
-																		<option value="42">Hà Tĩnh</option>
-																		<option value="44">Quảng Bình</option>
-																		<option value="45">Quảng Trị</option>
-																		<option value="46">Thừa Thiên Huế</option>
-																		<option value="48">Đà Nẵng</option>
-																		<option value="49">Quảng Nam</option>
-																		<option value="51">Quảng Ngãi</option>
-																		<option value="52">Bình Định</option>
-																		<option value="54">Phú Yên</option>
-																		<option value="56">Khánh Hòa</option>
-																		<option value="58">Ninh Thuận</option>
-																		<option value="60">Bình Thuận</option>
-																		<option value="62">Kon Tum</option>
-																		<option value="64">Gia Lai</option>
-																		<option value="66">Đắk Lắk</option>
-																		<option value="67">Đắk Nông</option>
-																		<option value="68">Lâm Đồng</option>
-																		<option value="70">Bình Phước</option>
-																		<option value="72">Tây Ninh</option>
-																		<option value="74">Bình Dương</option>
-																		<option value="75">Đồng Nai</option>
-																		<option value="77">Bà Rịa - Vũng Tàu</option>
-																		<option value="79">Hồ Chí Minh</option>
-																		<option value="80">Long An</option>
-																		<option value="82">Tiền Giang</option>
-																		<option value="83">Bến Tre</option>
-																		<option value="84">Trà Vinh</option>
-																		<option value="86">Vĩnh Long</option>
-																		<option value="87">Đồng Tháp</option>
-																		<option value="89">An Giang</option>
-																		<option value="91">Kiên Giang</option>
-																		<option value="92">Cần Thơ</option>
-																		<option value="93">Hậu Giang</option>
-																		<option value="94">Sóc Trăng</option>
-																		<option value="95">Bạc Liêu</option>
-																		<option value="96">Cà Mau</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-														<div class="fieldset_item_row cls fieldset_item_adresss">
-															<div class="form-group">
-																<div class="form_name">Quận huyện</div>
-																<div class="value">
-																	<select data-placeholder="Quận huyện" class="form-control " name="district_id" id="district_id">
-																		<option value="1" selected="selected">Quận Ba Đình
-																		</option>
-																		<option value="2">Quận Hoàn Kiếm</option>
-																		<option value="3">Quận Tây Hồ</option>
-																		<option value="4">Quận Long Biên</option>
-																		<option value="5">Quận Cầu Giấy</option>
-																		<option value="6">Quận Đống Đa</option>
-																		<option value="7">Quận Hai Bà Trưng</option>
-																		<option value="8">Quận Hoàng Mai</option>
-																		<option value="9">Quận Thanh Xuân</option>
-																		<option value="16">Huyện Sóc Sơn</option>
-																		<option value="17">Huyện Đông Anh</option>
-																		<option value="18">Huyện Gia Lâm</option>
-																		<option value="19">Quận Nam Từ Liêm</option>
-																		<option value="20">Huyện Thanh Trì</option>
-																		<option value="21">Quận Bắc Từ Liêm</option>
-																		<option value="250">Huyện Mê Linh</option>
-																		<option value="268">Quận Hà Đông</option>
-																		<option value="269">Thị xã Sơn Tây</option>
-																		<option value="271">Huyện Ba Vì</option>
-																		<option value="272">Huyện Phúc Thọ</option>
-																		<option value="273">Huyện Đan Phượng</option>
-																		<option value="274">Huyện Hoài Đức</option>
-																		<option value="275">Huyện Quốc Oai</option>
-																		<option value="276">Huyện Thạch Thất</option>
-																		<option value="277">Huyện Chương Mỹ</option>
-																		<option value="278">Huyện Thanh Oai</option>
-																		<option value="279">Huyện Thường Tín</option>
-																		<option value="280">Huyện Phú Xuyên</option>
-																		<option value="281">Huyện Ứng Hòa</option>
-																		<option value="282">Huyện Mỹ Đức</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="item  cls">
-														<div class="fieldset_item_row cls fieldset_item_adresss">
-															<div class="form-group">
-																<div class="form_name">Xã phường</div>
-																<div class="value">
-																	<select data-placeholder="Xã phường" class="form-control " name="ward_id" id="ward_id">
-																		<option value="1" selected="selected">Phường Phúc Xá
-																		</option>
-																		<option value="4">Phường Trúc Bạch</option>
-																		<option value="6">Phường Vĩnh Phúc</option>
-																		<option value="7">Phường Cống Vị</option>
-																		<option value="8">Phường Liễu Giai</option>
-																		<option value="10">Phường Nguyễn Trung Trực</option>
-																		<option value="13">Phường Quán Thánh</option>
-																		<option value="16">Phường Ngọc Hà</option>
-																		<option value="19">Phường Điện Biên</option>
-																		<option value="22">Phường Đội Cấn</option>
-																		<option value="25">Phường Ngọc Khánh</option>
-																		<option value="28">Phường Kim Mã</option>
-																		<option value="31">Phường Giảng Võ</option>
-																		<option value="34">Phường Thành Công</option>
-																	</select>
-																</div>
-															</div>
-														</div>
-														<div class="fieldset_item_row cls">
-															<div class="form-group">
-																<div class="form_name">Địa chỉ</div>
-																<div class="value">
-																	<textarea placeholder="Địa chỉ (*)" name="sender_address" id="address_user"></textarea>
-																</div>
-															</div>
-														</div>
-														<div class="fieldset_item_row cls">
-															<div class="form-group">
-																<div class="form_name">Loại địa chỉ</div>
-																<div class="value">
-
-																	<label class="type_address1 item-iner">
-																		<input type="radio" class="address_type" id="home_address" checked="" name="type_address" value="1">
-																		<span class="radio-fake"></span>
-																		<label for="home_address">Nhà riêng / Chung
-																			cư</label>
-																	</label>
-																	<label class="type_address2 item-iner">
-																		<input type="radio" class="address_type" id="company_address" name="type_address" value="2">
-																		<span class="radio-fake"></span>
-																		<label for="company_address">Cơ quan / Công
-																			ty</label>
-																	</label>
-
-																</div>
-															</div>
-														</div>
-													</div>
-
-													<div class="__btn_buy">
-														<a class="button-submit" href="javascript:void(0);" title="" id="next_cart"> Giao tới địa chỉ này </a>
-													</div>
-												</div>
-											</div>
-											<div class="clear"></div>
-											<div id="next_three" class="hide cls">
-												<div class="item">
-													<div class="item-iner">
-														<div class="radio_box">
-															<label for="receive" class="title">Hình thức nhận hàng</label>
-															<div class="radio" id="radio_receive">
-																<span class="type_radio" onclick="check_radio(6)">
-																	<input type="radio" id="receive_6" checked="checked" name="receive" value="6">
-																	<span class="radio-fake"></span>
-																	<label for="receive_6">Thanh toán tại nhà</label>
-																</span>
-																<div class="content receive_6">
-																	<p>Thanh toán tại nhàThanh toán tại nhà&nbsp;Thanh toán
-																		tại nhàThanh toán tại nhà&nbsp;Thanh toán tại
-																		nhàThanh toán tại nhà&nbsp;Thanh toán tại nhàThanh
-																		toán tại nhà</p>
-																</div>
-															</div>
-
-															<div class="radio" id="radio_receive">
-																<span class="type_radio" onclick="check_radio(7)">
-																	<input type="radio" id="receive_7" name="receive" value="7">
-																	<span class="radio-fake"></span>
-																	<label for="receive_7">Mua hàng trực tiếp</label>
-																</span>
-																<div class="content hide receive_7">
-																	<p>Mua hàng trực tiếp&nbsp;Mua hàng trực tiếp&nbsp;Mua
-																		hàng trực tiếp&nbsp;Mua hàng trực tiếp&nbsp;Mua hàng
-																		trực tiếp</p>
-																</div>
-															</div>
-
-														</div>
-
-														<div class="radio_box">
-															<label for="receive" class="title">Hình thức thanh toán</label>
-
-															<div class="radio " id="radio_receive2">
-																<span class="type_radio" onclick="check_radio2(1)">
-																	<input type="radio" id="receive_1" checked="checked" name="name_payment_method" value="1">
-																	<span class="radio-fake"></span>
-																	<label for="receive_1">Thanh toán tiền mặt khi nhận
-																		hàng</label>
-																</span>
-																<div class="content receive_1">
-																	<p>Thanh toán tiền mặt khi nhận hàng&nbsp;Thanh toán
-																		tiền mặt khi nhận hàng&nbsp;Thanh toán tiền mặt khi
-																		nhận hàng&nbsp;Thanh toán tiền mặt khi nhận
-																		hàng&nbsp;Thanh toán tiền mặt khi nhận
-																		hàng&nbsp;Thanh toán tiền mặt khi nhận hàng</p>
-																</div>
-															</div>
-
-															<div class="radio " id="radio_receive2">
-																<span class="type_radio" onclick="check_radio2(2)">
-																	<input type="radio" id="receive_2" name="name_payment_method" value="2">
-																	<span class="radio-fake"></span>
-																	<label for="receive_2">Thanh toán bằng thẻ quốc tế Visa,
-																		Master, JCB</label>
-																</span>
-																<div class="content hide receive_2">
-																	<p>Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB&nbsp;Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB&nbsp;Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB&nbsp;Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB&nbsp;Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB&nbsp;Thanh toán bằng thẻ quốc tế Visa, Master,
-																		JCB</p>
-																</div>
-															</div>
-
-															<div class="radio " id="radio_receive2">
-																<span class="type_radio" onclick="check_radio2(3)">
-																	<input type="radio" id="receive_3" name="name_payment_method" value="3">
-																	<span class="radio-fake"></span>
-																	<label for="receive_3">Thẻ ATM nội địa/Internet Banking
-																		(Miễn phí thanh toán)</label>
-																</span>
-																<div class="content hide receive_3">
-																	<p>Thẻ ATM nội địa/Internet Banking (Miễn phí thanh
-																		toán)&nbsp;Thẻ ATM nội địa/Internet Banking (Miễn
-																		phí thanh toán)&nbsp;Thẻ ATM nội địa/Internet
-																		Banking (Miễn phí thanh toán)&nbsp;Thẻ ATM nội
-																		địa/Internet Banking (Miễn phí thanh toán)</p>
-																</div>
-															</div>
-
-															<div class="radio " id="radio_receive2">
-																<span class="type_radio" onclick="check_radio2(4)">
-																	<input type="radio" id="receive_4" name="name_payment_method" value="4">
-																	<span class="radio-fake"></span>
-																	<label for="receive_4">Thanh toán bằng MOMO <a class="link_detail" href="/thanh-toan-momo.html" title="Thanh toán bằng MOMO"> - Chi tiết </a>
-																	</label>
-																</span>
-																<div class="content hide receive_4">
-																	<p>Thanh toán bằng MOMO&nbsp;Thanh toán bằng MOMO - Chi
-																		tiết&nbsp;Thanh toán bằng MOMO - Chi tiết&nbsp;Thanh
-																		toán bằng MOMO - Chi tiết&nbsp;Thanh toán bằng MOMO
-																		- Chi tiết</p>
-																</div>
-															</div>
-
-															<div class="radio " id="radio_receive2">
-																<span class="type_radio" onclick="check_radio2(5)">
-																	<input type="radio" id="receive_5" name="name_payment_method" value="5">
-																	<span class="radio-fake"></span>
-																	<label for="receive_5">Thanh toán bằng ZaloPay <a class="link_detail" href="/thanh-toan-zalopay.html" title="Thanh toán bằng ZaloPay"> - Chi tiết </a>
-																	</label>
-																</span>
-																<div class="content hide receive_5">
-																	<p>Thanh toán bằng ZaloPay - Chi tiết&nbsp;Thanh toán
-																		bằng ZaloPay - Chi tiết&nbsp;Thanh toán bằng ZaloPay
-																		- Chi tiết&nbsp;Thanh toán bằng ZaloPay - Chi tiết
-																	</p>
-																</div>
-															</div>
-
-														</div>
-														<div class="content_box">
-															<div class="title_text">Ghi chú</div>
-															<textarea placeholder="Ghi chú" name="sender_comments" id="sender_comments"></textarea>
-														</div>
-														<div class="content_box card_code">
-															<div class="title_text">Mã giảm giá / Qùa tặng</div>
-															<input type="text" name="card_code" id="card_code" placeholder="Nhập mã giảm giá" value="" class="input_text" size="30">
-															<button type="button" onclick="myFunction_code();" class="resubmit_form">Áp dụng</button>
-														</div>
-
-														<div class="a_pay">
-															<a class="button-step button-cart" href="javascript:void(0);" onclick="javascript:submitForm();" title=""> Đặt mua </a>
-															<div class="title_check">(Xin vui lòng kiểm tra lại đơn hàng
-																trước khi đặt mua)</div>
-														</div>
-
-													</div>
-												</div>
-												<div class="item right_item">
-													<div class="top_item top_one">
-														<div class="radio_box">
-
-															<div class="iner_item left_iner">
-																<span class="title">Địa chỉ giao hàng</span>
-																<div id="address_buyer"></div>
-															</div>
-															<div class="iner_item right_iner">
-																<a href="javascript:void(0)" title="Sửa" id="edit_buyer">Sửa</a>
-
-															</div>
-															<div class="clear"></div>
-														</div>
-														<div class="radio_box radio_box2">
-
-															<div class="iner_item left_iner">
-																<span class="title">Đơn hàng <span id="quan_iner"></span></span>
-
-															</div>
-															<div class="iner_item right_iner">
-																<a href="javascript:void(0)" title="Sửa" id="edit_cart">Sửa</a>
-
-															</div>
-															<div class="clear"></div>
-
-														</div>
-													</div>
-
-													<div id="card_product">
-
-														<div class="top_item">
-															<div class="radio_box cls radio_box3">
-
-																<div class="iner_item left_iner _left_1">
-
-																	<div class="price_product">
-																		<a class="name-item" title="Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr loại 500 – 600 con (D600-100V1)" href="dongtrungtaytang.php-cao-cap-hop-100gr/">
-																			Đông trùng hạ thảo Tây Tạng cao cấp hộp 100gr
-																			loại 500 – 600 con (D600-100V1) </a>
-
-																	</div>
-
-																</div>
-
-																<div class="iner_item right_iner">
-																	<div class="price">
-																		166.000.000₫
-																	</div>
-
-																</div>
-
-																<div class="iner_item left_iner _left_2">
-
-																	<div class="price_product">
-																		<a class="name-item" title="Nấm linh chi đỏ Hàn Quốc L002" href="namlinhchido.php-han-quoc-l002/">
-																			Nấm linh chi đỏ Hàn Quốc L002 </a>
-
-																	</div>
-
-																</div>
-
-																<div class="iner_item right_iner">
-																	<div class="price">
-																		1.000.000₫
-																	</div>
-
-																</div>
-
-															</div>
-
-															<div class="clear"></div>
-															<div class="radio_box" id="price_before">
-																<div class="total-price" id="total-price">
-																	<div class="total-price-inner cls">
-																		<div class="iner_item left_iner">
-																			Tạm tính </div>
-																		<div class="iner_item right_iner">
-																			167.000.000₫
-																		</div>
-
-																	</div>
-
-																	<div class="price_sale cls" id="price_sale_up">
-																		<div class="iner_item left_iner">
-
-																			<span class="price price_chietkhau"></span>
-
-																		</div>
-																		<div class="iner_item right_iner">
-																			<div class="price"></div>
-
-																		</div>
-
-																	</div>
-
-																</div>
-															</div>
-														</div>
-														<div class="clear"></div>
-														<div class="total-price-inner cls" id="total_after">
-															<div class="iner_item left_iner total_text">
-																Tổng cộng </div>
-															<div class="iner_item right_iner right_price">
-
-																<span class="price">167.000.000₫</span>
-																<span class="vat">(Đã bao gồm VAT nếu có)</span>
-
-															</div>
-
-														</div>
-
-													</div>
-
-												</div>
-
-											</div>
-
-											<input type="hidden" name="module" value="products">
-											<input type="hidden" name="view" value="cart">
-											<!-- <input type="hidden" name="price_send" id="price_send" value=" '.$check_code-> money_dow.'"> -->
-											<input type="hidden" name="price_send_h" id="price_send_h" value="0">
-											<input type="hidden" name="code_card_send_h" id="code_card_send_h" value="0">
-											<input type="hidden" name="type_down_h" id="type_down_h" value="0">
-											<input type="hidden" name="task" value="" id="task_buyer_form">
-
-										</form>
 									</div>
 									<!--	end INFOR sender and recipient		-->
 									<script type="text/javascript">
@@ -3182,6 +2724,62 @@ if (isset($_GET["action"])) {
 		</div>
 		<div style="z-index: 2000000000; position: relative;"><iframe title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa" src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci" name="c-po5us3fjs3ip" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div>
 	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+	<script>
+		const host = "https://provinces.open-api.vn/api/";
+		var callAPI = (api) => {
+			return axios.get(api)
+				.then((response) => {
+					renderData(response.data, "city");
+				});
+		}
+		callAPI('https://provinces.open-api.vn/api/?depth=1');
+		var callApiDistrict = (api) => {
+			return axios.get(api)
+				.then((response) => {
+					renderData(response.data.districts, "district");
+				});
+		}
+		var callApiWard = (api) => {
+			return axios.get(api)
+				.then((response) => {
+					renderData(response.data.wards, "ward");
+				});
+		}
+
+		var renderData = (array, select) => {
+			let row = ' <option disable value="">Chọn</option>';
+			array.forEach(element => {
+				row += `<option data-id="${element.code}" value="${element.name}">${element.name}</option>`
+			});
+			document.querySelector("#" + select).innerHTML = row
+		}
+
+		$("#city").change(() => {
+			callApiDistrict(host + "p/" + $("#city").find(':selected').data('id') + "?depth=2");
+			printResult();
+		});
+		$("#district").change(() => {
+			callApiWard(host + "d/" + $("#district").find(':selected').data('id') + "?depth=2");
+			printResult();
+		});
+		$("#ward").change(() => {
+			printResult();
+		})
+
+		var printResult = () => {
+			if ($("#district").find(':selected').data('id') != "" && $("#city").find(':selected').data('id') != "" &&
+				$("#ward").find(':selected').data('id') != "") {
+				let result = $("#city option:selected").text() +
+					" | " + $("#district option:selected").text() + " | " +
+					$("#ward option:selected").text();
+				$("#result").text(result)
+			}
+
+		}
+	</script>
 </body>
 
 </html>

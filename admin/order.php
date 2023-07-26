@@ -350,7 +350,7 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>
@@ -389,10 +389,10 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
-                                        <li class="breadcrumb-item active">List Orders</li>
+                                        <li class="breadcrumb-item active">Danh sách đơn hàng</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">List Orders</h4>
+                                <h4 class="page-title">Danh sách đơn hàng</h4>
                             </div>
                         </div>
                     </div>
@@ -494,14 +494,14 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                     <thead>
                                         <tr>
                                             <th>STT</th>
-                                            <th>Customer Name</th>
-                                            <th>Phone Number</th>
-                                            <th>Total</th>
-                                            <th>Time</th>
-                                            <th>Payments</th>
-                                            <th>Status</th>
-                                            <th>Detail</th>
-                                            <th class="hidden-sm">Action</th>
+                                            <th>Khác hàng</th>
+                                            <th>SDT</th>
+                                            <th>Tổng tiền</th>
+                                            <th>Thời gian</th>
+                                            <th>Phương thức thanh toán</th>
+                                            <th>Trạng thái</th>
+                                            <th>Chi tiết</th>
+                                            <th class="hidden-sm">Hành động</th>
                                         </tr>
                                     </thead>
 
@@ -535,10 +535,10 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                                         <?= date("H:i:s d-M-Y", strtotime($row['time'])) ?>
                                                     </td>
                                                     <td>
-                                                        <?php $id_paymentmethods = $row['id_paymentmethods'];
-                                                        $sql_payment = mysqli_query($conn, "SELECT * FROM paymentmethods WHERE id_paymentmethods = $id_paymentmethods ");
+                                                        <?php $id_paymentmethods = $row['id_payment'];
+                                                        $sql_payment = mysqli_query($conn, "SELECT * FROM payment WHERE id_payment = $id_paymentmethods ");
                                                         $name_paymentmethods = mysqli_fetch_assoc($sql_payment);
-                                                        echo $name_paymentmethods['name_paymentmethods'] ?>
+                                                        echo $name_paymentmethods['name_payment'] ?>
                                                     </td>
                                                     <td>
                                                         <?php

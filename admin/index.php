@@ -4,115 +4,115 @@ require_once("../config/config.php");
 if (!isset($_SESSION['user_admin'])) {
     header("location: login.php");
 }
-// $day_of_firt_this_week = mysqli_query($conn,"SELECT DATE_SUB(CURDATE(), INTERVAL WEEKDAY(CURDATE()) DAY) AS first_day_of_week;");
+$day_of_firt_this_week = mysqli_query($conn,"SELECT DATE_SUB(CURDATE(), INTERVAL WEEKDAY(CURDATE()) DAY) AS first_day_of_week;");
 
-// $money_last_week = mysqli_query($conn, "SELECT * FROM cart WHERE time BETWEEN CURDATE() - INTERVAL WEEKDAY(CURDATE()) + 1 DAY - INTERVAL 1 WEEK AND CURDATE() - INTERVAL WEEKDAY(CURDATE()) DAY - INTERVAL 1 WEEK AND id_status = 3");
-// $total_last_week = 0;
-// while ($row_last_week = mysqli_fetch_array($money_last_week)) {
-//     $total_last_week += $row_last_week['total'];
-// }
+$money_last_week = mysqli_query($conn, "SELECT * FROM cart WHERE time BETWEEN CURDATE() - INTERVAL WEEKDAY(CURDATE()) + 1 DAY - INTERVAL 1 WEEK AND CURDATE() - INTERVAL WEEKDAY(CURDATE()) DAY - INTERVAL 1 WEEK AND id_status = 3");
+$total_last_week = 0;
+while ($row_last_week = mysqli_fetch_array($money_last_week)) {
+    $total_last_week += $row_last_week['total'];
+}
 
-// $money_this_week = mysqli_query($conn, "SELECT * FROM cart WHERE time BETWEEN CURDATE() - INTERVAL WEEKDAY(CURDATE()) DAY AND CURDATE() + INTERVAL (6 - WEEKDAY(CURDATE())) DAY AND id_status = 3");
-// $total_this_week = 0;
-// while ($row_this_week = mysqli_fetch_array($money_this_week)) {
-//     $total_this_week += $row_this_week['total'];
-// }
+$money_this_week = mysqli_query($conn, "SELECT * FROM cart WHERE time BETWEEN CURDATE() - INTERVAL WEEKDAY(CURDATE()) DAY AND CURDATE() + INTERVAL (6 - WEEKDAY(CURDATE())) DAY AND id_status = 3");
+$total_this_week = 0;
+while ($row_this_week = mysqli_fetch_array($money_this_week)) {
+    $total_this_week += $row_this_week['total'];
+}
 
-// $money_today = mysqli_query($conn, "SELECT * FROM `cart` WHERE DATE(time) = DATE(now()) AND id_status = 3");
-// $total_today = 0;
-// while ($row_today = mysqli_fetch_array($money_today)) {
-//     $total_today += $row_today['total'];
-// }
-// $money_month = mysqli_query($conn, "SELECT * FROM `cart` WHERE MONTH(time) = MONTH(now()) AND id_status = 3");
-// $total_month = 0;
-// while ($row_month = mysqli_fetch_array($money_month)) {
-//     $total_month += $row_month['total'];
-// }
+$money_today = mysqli_query($conn, "SELECT * FROM `cart` WHERE DATE(time) = DATE(now()) AND id_status = 3");
+$total_today = 0;
+while ($row_today = mysqli_fetch_array($money_today)) {
+    $total_today += $row_today['total'];
+}
+$money_month = mysqli_query($conn, "SELECT * FROM `cart` WHERE MONTH(time) = MONTH(now()) AND id_status = 3");
+$total_month = 0;
+while ($row_month = mysqli_fetch_array($money_month)) {
+    $total_month += $row_month['total'];
+}
 
-// $money_last_month = mysqli_query($conn, "SELECT * FROM `cart` WHERE MONTH(time) = MONTH(DATE_SUB(now(), INTERVAL 1 MONTH)) AND id_status = 3");
-// $total_last_month = 0;
-// while ($row_last_month = mysqli_fetch_array($money_last_month)) {
-//     $total_last_month += $row_last_month['total'];
-// }
-// $money = mysqli_query($conn, "SELECT * FROM cart WHERE id_status = 3");
-// $total = 0;
-// while ($row = mysqli_fetch_array($money)) {
-//     $total += $row['total'];
-// }
+$money_last_month = mysqli_query($conn, "SELECT * FROM `cart` WHERE MONTH(time) = MONTH(DATE_SUB(now(), INTERVAL 1 MONTH)) AND id_status = 3");
+$total_last_month = 0;
+while ($row_last_month = mysqli_fetch_array($money_last_month)) {
+    $total_last_month += $row_last_month['total'];
+}
+$money = mysqli_query($conn, "SELECT * FROM cart WHERE id_status = 3");
+$total = 0;
+while ($row = mysqli_fetch_array($money)) {
+    $total += $row['total'];
+}
 
-// $money_dec = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 12 AND id_status = 3");
-// $total_dec = 0;
-// while ($row_dec = mysqli_fetch_array($money_dec)) {
-//     $total_dec += $row_dec['total'];
-// }
+$money_dec = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 12 AND id_status = 3");
+$total_dec = 0;
+while ($row_dec = mysqli_fetch_array($money_dec)) {
+    $total_dec += $row_dec['total'];
+}
 
-// $money_nov = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 11 AND id_status = 3");
-// $total_nov = 0;
-// while ($row_nov = mysqli_fetch_array($money_nov)) {
-//     $total_nov += $row_nov['total'];
-// }
+$money_nov = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 11 AND id_status = 3");
+$total_nov = 0;
+while ($row_nov = mysqli_fetch_array($money_nov)) {
+    $total_nov += $row_nov['total'];
+}
 
-// $money_oct = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 10 AND id_status = 3");
-// $total_oct = 0;
-// while ($row_oct = mysqli_fetch_array($money_oct)) {
-//     $total_oct += $row_oct['total'];
-// }
+$money_oct = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 10 AND id_status = 3");
+$total_oct = 0;
+while ($row_oct = mysqli_fetch_array($money_oct)) {
+    $total_oct += $row_oct['total'];
+}
 
-// $money_sep = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 9 AND id_status = 3");
-// $total_sep = 0;
-// while ($row_sep = mysqli_fetch_array($money_sep)) {
-//     $total_sep += $row_sep['total'];
-// }
+$money_sep = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 9 AND id_status = 3");
+$total_sep = 0;
+while ($row_sep = mysqli_fetch_array($money_sep)) {
+    $total_sep += $row_sep['total'];
+}
 
-// $money_aug = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 8 AND id_status = 3");
-// $total_aug = 0;
-// while ($row_aug = mysqli_fetch_array($money_aug)) {
-//     $total_aug += $row_aug['total'];
-// }
+$money_aug = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 8 AND id_status = 3");
+$total_aug = 0;
+while ($row_aug = mysqli_fetch_array($money_aug)) {
+    $total_aug += $row_aug['total'];
+}
 
-// $money_jul = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 7 AND id_status = 3");
-// $total_jul = 0;
-// while ($row_jul = mysqli_fetch_array($money_jul)) {
-//     $total_jul += $row_jul['total'];
-// }
+$money_jul = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 7 AND id_status = 3");
+$total_jul = 0;
+while ($row_jul = mysqli_fetch_array($money_jul)) {
+    $total_jul += $row_jul['total'];
+}
 
-// $money_jun = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 6 AND id_status = 3");
-// $total_jun = 0;
-// while ($row_jun = mysqli_fetch_array($money_jun)) {
-//     $total_jun += $row_jun['total'];
-// }
+$money_jun = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 6 AND id_status = 3");
+$total_jun = 0;
+while ($row_jun = mysqli_fetch_array($money_jun)) {
+    $total_jun += $row_jun['total'];
+}
 
-// $money_may = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 5 AND id_status = 3");
-// $total_may = 0;
-// while ($row_may = mysqli_fetch_array($money_may)) {
-//     $total_may += $row_may['total'];
-// }
-// $money_apr = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 4 AND id_status = 3");
-// $total_apr = 0;
-// while ($row_apr = mysqli_fetch_array($money_apr)) {
-//     $total_apr += $row_apr['total'];
-// }
-// $money_mar = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 3 AND id_status = 3");
-// $total_mar = 0;
-// while ($row_mar = mysqli_fetch_array($money_mar)) {
-//     $total_mar += $row_mar['total'];
-// }
-// $money_feb = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 2 AND id_status = 3");
-// $total_feb = 0;
-// while ($row_feb = mysqli_fetch_array($money_feb)) {
-//     $total_feb += $row_feb['total'];
-// }
-// $money_jan = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 1 AND id_status = 3");
-// $total_jan = 0;
-// while ($row_jan = mysqli_fetch_array($money_jan)) {
-//     $total_jan += $row_jan['total'];
-// }
+$money_may = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 5 AND id_status = 3");
+$total_may = 0;
+while ($row_may = mysqli_fetch_array($money_may)) {
+    $total_may += $row_may['total'];
+}
+$money_apr = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 4 AND id_status = 3");
+$total_apr = 0;
+while ($row_apr = mysqli_fetch_array($money_apr)) {
+    $total_apr += $row_apr['total'];
+}
+$money_mar = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 3 AND id_status = 3");
+$total_mar = 0;
+while ($row_mar = mysqli_fetch_array($money_mar)) {
+    $total_mar += $row_mar['total'];
+}
+$money_feb = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 2 AND id_status = 3");
+$total_feb = 0;
+while ($row_feb = mysqli_fetch_array($money_feb)) {
+    $total_feb += $row_feb['total'];
+}
+$money_jan = mysqli_query($conn, "SELECT * FROM cart WHERE MONTH(time) = 1 AND id_status = 3");
+$total_jan = 0;
+while ($row_jan = mysqli_fetch_array($money_jan)) {
+    $total_jan += $row_jan['total'];
+}
 
-// $money_Mon = mysqli_query($conn, "SELECT * FROM cart WHERE DAYOFWEEK(time) = 2 AND WEEK(time) = WEEK(CURDATE()) AND id_status = 3");
-// $total_Mon = 0;
-// while ($row_Mon = mysqli_fetch_array($money_Mon)) {
-//     $total_Mon += $row_Mon['total'];
-// }
+$money_Mon = mysqli_query($conn, "SELECT * FROM cart WHERE DAYOFWEEK(time) = 2 AND WEEK(time) = WEEK(CURDATE()) AND id_status = 3");
+$total_Mon = 0;
+while ($row_Mon = mysqli_fetch_array($money_Mon)) {
+    $total_Mon += $row_Mon['total'];
+}
 
 ?>
 
@@ -430,7 +430,7 @@ if (!isset($_SESSION['user_admin'])) {
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>
@@ -484,24 +484,24 @@ if (!isset($_SESSION['user_admin'])) {
                             <div class="card-box">
                                 <i class="fa fa-info-circle text-muted float-right" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="More Info"></i>
                                 <h4 class="mt-0 font-16">Doanh thu</h4>
-                                <!-- <h2 class="text-primary my-4 text-center">$<span data-plugin="counterup"><?= $total ?>.00</span></h2> -->
+                                <h2 class="text-primary my-4 text-center"><span data-plugin="counterup"><?= $total ?>₫</span></h2>
                                 <div class="row mb-4">
-                                    <div class="col-6">
+                                    <div class="col-12">
                                         <p class="text-muted mb-1">Tháng này</p>
-                                        <!-- <h3 class="mt-0 font-20">$<?php echo $total_month; ?> <?php if (($total_month / 10  - 100) < 0) {
+                                        <h3 class="mt-0 font-20"><?php echo number_format($total_month,0,"","."); ?> ₫ <?php if (($total_month / 10  - 100) < 0) {
                                                                                                     echo '<small class="badge badge-light-danger font-13">' . ($total_month / 10  - 100) . "%" . '</small>';
                                                                                                 } else {
                                                                                                     echo '<small class="badge badge-light-success font-13">' . ($total_month / 10  - 100) . "%" . '</small>';
-                                                                                                } ?></h3> -->
+                                                                                                } ?></h3>
                                     </div>
 
-                                    <div class="col-6">
+                                    <div class="col-12">
                                         <p class="text-muted mb-1">Tháng trước</p>
-                                        <!-- <h3 class="mt-0 font-20">$<?php echo $total_last_month; ?> <?php if (($total_last_month / 10  - 100) < 0) {
+                                        <h3 class="mt-0 font-20"><?php echo number_format($total_last_month,0,"","."); ?>  ₫ <?php if (($total_last_month / 10  - 100) < 0) {
                                                                                                         echo '<small class="badge badge-light-danger font-13">' . ($total_last_month / 10  - 100) . "%" . '</small>';
                                                                                                     } else {
                                                                                                         echo '<small class="badge badge-light-success font-13">' . ($total_last_month / 10  - 100) . "%" . '</small>';
-                                                                                                    } ?></h3> -->
+                                                                                                    } ?></h3>
                                     </div>
                                 </div>
 
@@ -536,9 +536,9 @@ if (!isset($_SESSION['user_admin'])) {
                                     </div>
                                     <div class="col-6">
                                         <div class="text-right">
-                                            <!-- <h3 class="text-dark my-1"><span data-plugin="counterup"><?php $slq_car = mysqli_query($conn, "SELECT * FROM cart");
+                                            <h3 class="text-dark my-1"><span data-plugin="counterup"><?php $slq_car = mysqli_query($conn, "SELECT * FROM cart");
                                                                                                         $count_cart = mysqli_num_rows($slq_car);
-                                                                                                        echo $count_cart; ?></span></h3> -->
+                                                                                                        echo $count_cart; ?></span></h3>
                                             <p class="text-muted mb-1 text-truncate">Tổng đơn hàng</p>
                                         </div>
                                     </div>
@@ -555,14 +555,14 @@ if (!isset($_SESSION['user_admin'])) {
 
                             <div class="card-box">
                                 <div class="row">
-                                    <div class="col-6">
+                                    <div class="col-2">
                                         <div class="avatar-sm bg-light rounded">
                                             <i class="fe-aperture avatar-title font-22 text-purple"></i>
                                         </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-10">
                                         <div class="text-right">
-                                            <!-- <h3 class="text-dark my-1">$<span data-plugin="counterup"><?php echo $total_month; ?></span></h3> -->
+                                            <h3 class="text-dark my-1"><span data-plugin="counterup"><?= $total_month ?></span></h3>
                                             <p class="text-muted mb-1 text-truncate">Thu nhập</p>
                                         </div>
                                     </div>
@@ -600,21 +600,21 @@ if (!isset($_SESSION['user_admin'])) {
                                                     <p class="text-muted mb-0 mt-3">Thu nhập hôm nay</p>
                                                     <h2 class="font-weight-normal mb-3">
 
-                                                        <!-- <span>$<?= $total_today ?></span> -->
+                                                        <span><?= number_format($total_today,0,"",".") ?>₫</span>
                                                     </h2>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <p class="text-muted mb-0 mt-3">Current Week</p>
+                                                    <p class="text-muted mb-0 mt-3">Tuần này</p>
                                                     <h2 class="font-weight-normal mb-3">
 
-                                                        <span>$<?= $total_this_week ?></span>
+                                                        <span><?= number_format($total_this_week,0,"",".") ?>₫</span>
                                                     </h2>
                                                 </div>
                                                 <div class="col-md-4">
-                                                    <p class="text-muted mb-0 mt-3">Previous Week</p>
+                                                    <p class="text-muted mb-0 mt-3">Tuần trước</p>
                                                     <h2 class="font-weight-normal mb-3">
 
-                                                        <span>$<?= $total_last_week ?></span>
+                                                        <span><?= number_format($total_last_week,0,"",".") ?>₫</span>
                                                     </h2>
                                                 </div>
                                             </div>
@@ -801,7 +801,7 @@ if (!isset($_SESSION['user_admin'])) {
             },
             colors: ["#f0643b"],
             series: [{
-                name: "Growth",
+                name: "",
                 data: [
                     <?php echo $total_jan ?>,
                     <?php echo $total_feb ?>,
@@ -826,12 +826,12 @@ if (!isset($_SESSION['user_admin'])) {
                 }
             },
             xaxis: {
-                categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                categories: ["T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12"],
                 offsetX: 0
             },
             yaxis: {
                 title: {
-                    text: "Growth"
+                    text: ""
                 }
             },
             fill: {
@@ -910,7 +910,7 @@ if (!isset($_SESSION['user_admin'])) {
 
                 title: {
 
-                    text: "This Week"
+                    text: "Tuần này"
                 }
             },
             yaxis: {

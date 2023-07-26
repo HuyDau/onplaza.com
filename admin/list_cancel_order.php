@@ -344,7 +344,7 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>
@@ -383,10 +383,10 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
-                                        <li class="breadcrumb-item active">List Orders</li>
+                                        <li class="breadcrumb-item active">Danh sách đơn hàng</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">List Orders</h4>
+                                <h4 class="page-title">Danh sách đơn hàng</h4>
                             </div>
                         </div>
                     </div>

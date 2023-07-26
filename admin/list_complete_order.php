@@ -344,7 +344,7 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>
@@ -383,10 +383,10 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
-                                        <li class="breadcrumb-item active">List Orders</li>
+                                        <li class="breadcrumb-item active">Danh sách đơn hàng</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">List Orders</h4>
+                                <h4 class="page-title">Danh sách đơn hàng</h4>
                             </div>
                         </div>
                     </div>
@@ -473,13 +473,13 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                     <thead>
                                         <tr>
                                             <th>STT</th>
-                                            <th>Customer Name</th>
-                                            <th>Phone Number</th>
-                                            <th>Total</th>
-                                            <th>Payments</th>
-                                            <th>Time</th>
-                                            <th>Status</th>
-                                            <th>Detail</th>
+                                            <th>Khác hàng</th>
+                                            <th>SDT</th>
+                                            <th>Tổng tiền</th>
+                                            <th>Thời gian</th>
+                                            <th>Phương thức thanh toán</th>
+                                            <th>Trạng thái</th>
+                                            <th>Chi tiết</th>
                                         </tr>
                                     </thead>
 
@@ -499,7 +499,7 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
 
                                                     <td>0<?= $row['sdt'] ?></td>
                                                     <td>$<?= $row['total'] ?>.00</td>
-                                                    <td><?php  $id_paymentmethods = $row['id_paymentmethods'];$sql_payment = mysqli_query($conn,"SELECT * FROM paymentmethods WHERE id_paymentmethods = $id_paymentmethods ");$name_paymentmethods = mysqli_fetch_assoc($sql_payment);echo $name_paymentmethods['name_paymentmethods'] ?></td>
+                                                    <td><?php  $id_payment = $row['id_payment'];$sql_payment = mysqli_query($conn,"SELECT * FROM payment WHERE id_payment = $id_payment ");$name_payment = mysqli_fetch_assoc($sql_payment);echo $name_payment['name_payment'] ?></td>
                                                     
                                                     <td><?= date("H:i:s d-M-Y",strtotime($row['time'])) ?></td>
 

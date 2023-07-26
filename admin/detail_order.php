@@ -18,7 +18,7 @@ $info = mysqli_fetch_assoc($querry_info);
 
 <head>
     <meta charset="utf-8">
-    <title>Onplaza - Order Detail</title>
+    <title>Onplaza - Chi tiết hóa đơn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
     <meta content="Coderthemes" name="author">
@@ -318,12 +318,12 @@ $info = mysqli_fetch_assoc($querry_info);
                         <li>
                             <a href="javascript: void(0);">
                                 <i class=" fab fa-opencart"></i>
-                                <span> Order </span>
+                                <span> Đơn hàng </span>
                                 <span class="menu-arrow"></span>
                             </a>
                             <ul class="nav-second-level" aria-expanded="false">
                                 <li>
-                                    <a href="order.php">List Order</a>
+                                    <a href="order.php">Danh sách đơn hàng</a>
                                 </li>
                                 <li>
                                     <a href="list_complete_order.php">Danh sách đơn hàng hoàn thành</a>
@@ -362,11 +362,11 @@ $info = mysqli_fetch_assoc($querry_info);
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="javascript: void(0);">Onplaza</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Order</a></li>
-                                        <li class="breadcrumb-item active">Order Detail</li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Đ</a></li>
+                                        <li class="breadcrumb-item active">Chi tiết hóa đơn</li>
                                     </ol>
                                 </div>
-                                <h4 class="page-title">Order Detail</h4>
+                                <h4 class="page-title">Chi tiết hóa đơn</h4>
                             </div>
                         </div>
                     </div>
@@ -383,7 +383,7 @@ $info = mysqli_fetch_assoc($querry_info);
                                         <img src="assets\images\logo-2.png" alt="logo_light" height="24" class="d-print-none">
                                     </div>
                                     <div class="float-right">
-                                        <h4 class="m-0 d-print-none">Invoice</h4>
+                                        <h4 class="m-0 d-print-none">Hóa đơn</h4>
                                     </div>
                                 </div>
 
@@ -392,14 +392,13 @@ $info = mysqli_fetch_assoc($querry_info);
                                         <div class="mt-3">
                                             <p>Name: <b><?= $info['name_kh'] ?></b></p>
                                             <p>Phone Number: <b> <?= $info['sdt'] ?></b></p>
-                                            <p>Email:<b> <?= $info['gmail'] ?></b></p>
                                         </div>
 
                                     </div><!-- end col -->
                                     <div class="col-md-4 offset-md-2">
                                         <div class="mt-3 float-md-right">
-                                            <p><strong>Order Date : </strong> <span class="float-right"> &nbsp;&nbsp;&nbsp;&nbsp; <?= date('D, d-M-Y',strtotime($info['time']) ) ?></span></p>
-                                            <p><strong>Order No. : </strong> <span class="float-right">0000<?= $info['id_cart'] ?></span></p>
+                                            <p><strong>Ngày : </strong> <span class="float-right"> &nbsp;&nbsp;&nbsp;&nbsp; <?= date('D, d-M-Y',strtotime($info['time']) ) ?></span></p>
+                                            <p><strong>No. : </strong> <span class="float-right">0000<?= $info['id_cart'] ?></span></p>
                                         </div>
                                     </div><!-- end col -->
                                 </div>
@@ -407,7 +406,7 @@ $info = mysqli_fetch_assoc($querry_info);
 
                                 <div class="row mt-3">
                                     <div class="col-md-6">
-                                        <h6>Shipping Address</h6>
+                                        <h6>Địa chỉ nhận hàng</h6>
                                         <address>
                                             City: <?= $info['city'] ?><br>
                                             District: <?= $info['district'] ?><br>
@@ -419,11 +418,11 @@ $info = mysqli_fetch_assoc($querry_info);
 
                                     <div class="col-md-6">
                                         <div class="text-md-right">
-                                            <h6>Payment address</h6>
+                                            <h6>Địa chỉ thanh toán</h6>
                                             <address>
                                                 Onplaza<br>
-                                                89 Pham Van Dong<br>
-                                                Mai Dich, Cau Giay, Ha Noi<br>
+                                                327 Trường Trinh<br>
+                                                Ngã Tư Sở, Hà Nội<br>
                                                 <abbr title="Phone">BIDV:</abbr> 2151 000 2956 520
                                             </address>
                                         </div>
@@ -438,11 +437,11 @@ $info = mysqli_fetch_assoc($querry_info);
                                                 <thead>
                                                     <tr>
                                                         <th style="width: 10%">#</th>
-                                                        <th style="width: 20%">Product Name</th>
-                                                        <th style="width: 20%">Image</th>
-                                                        <th style="width: 10%">Price</th>
-                                                        <th style="width: 10%">Quantity</th>
-                                                        <th style="width: 10%">Total</th>
+                                                        <th style="width: 20%">Tên sản phẩm</th>
+                                                        <th style="width: 20%">Hình ảnh</th>
+                                                        <th style="width: 10%">Giá</th>
+                                                        <th style="width: 10%">Số lượng</th>
+                                                        <th style="width: 10%">Thành tiền</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
@@ -455,9 +454,9 @@ $info = mysqli_fetch_assoc($querry_info);
                                                             <td><?= $i++ ?></td>
                                                             <td><?= $row['name_product'] ?></td>
                                                             <td><img style="width: 70%;" src="../uploads/products/<?=$row['image_product']?>" alt=""></td>
-                                                            <td>$<?=$row['price']?>.00</td>
+                                                            <td>$<?=number_format($row['price'],0,"",".")?></td>
                                                             <td ><?=$row['quantity']?></td>
-                                                            <td >$<?=$row['price']*$row['quantity']?>.00</td>
+                                                            <td >$<?=number_format($row['price']*$row['quantity'],0,"",".")?></td>
                                                         </tr>
 
                                                     <?php
@@ -480,16 +479,12 @@ $info = mysqli_fetch_assoc($querry_info);
                                             <h6 class="text-muted">Notes:</h6>
 
                                             <small class="text-muted">
-                                                All accounts are to be paid within 7 days from receipt of
-                                                invoice. To be paid by cheque or credit card or direct payment
-                                                online. If account is not paid within 7 days the credits details
-                                                supplied as confirmation of work undertaken will be charged the
-                                                agreed quoted fee noted above.
+                                                Tất cả các tài khoản sẽ được thanh toán trong vòng 7 ngày kể từ ngày nhận hóa đơn. Được thanh toán bằng séc hoặc thẻ tín dụng hoặc thanh toán trực tiếp trực tuyến. Nếu tài khoản không được thanh toán trong vòng 7 ngày, các chi tiết tín dụng được cung cấp dưới dạng xác nhận công việc đã thực hiện sẽ bị tính phí theo thỏa thuận đã nêu ở trên.
                                             </small>
                                             <hr>
                                             <small class="text-muted">
                                                 <?php
-                                                    if($info['id_paymentmethods'] == 2){
+                                                    if($info['id_payment'] == 2){
                                                         $sql_momo = mysqli_query($conn,"SELECT * FROM momo WHERE id_cart = $id");
                                                         $info_momo = mysqli_fetch_assoc($sql_momo);
                                                         echo "Partner Code: ";
@@ -521,9 +516,9 @@ $info = mysqli_fetch_assoc($querry_info);
                                     </div> <!-- end col -->
                                     <div class="col-sm-6">
                                         <div class="float-right">
-                                            <p><b>Sub-total:</b> <span class="float-right">$<?=$total?>.00</span></p>
-                                            <p><b>Discount (5%):</b> <span class="float-right"> &nbsp;&nbsp;&nbsp; $<?=$total*0.05?>.00</span></p>
-                                            <h3>$<?=$total*0.95 ?>.00</h3>
+                                            <p><b>Tổng tiền:</b> <span class="float-right">$<?=number_format($total,0,"",".")?></span></p>
+                                            <p><b>Discount (5%):</b> <span class="float-right"> &nbsp;&nbsp;&nbsp; $<?=number_format($total,0,"",".")?></span></p>
+                                            <h3>$<?=number_format($total,0,"",".")?></h3>
                                         </div>
                                         <div class="clearfix"></div>
                                     </div> <!-- end col -->
