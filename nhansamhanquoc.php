@@ -693,7 +693,7 @@ require_once("config/config.php");
 													<div class="product_item cls">
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -750,7 +750,7 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=2"
+															<a class="item_lv1" href="dongtrunghathao.php"
 																title="Đông trùng hạ thảo">
 																Đông Trùng Hạ Thảo
 															</a>
@@ -780,7 +780,7 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=3"
+															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
@@ -823,7 +823,7 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=4"
+															<a class="item_lv1" href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
@@ -861,7 +861,7 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=5"
+															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
@@ -897,7 +897,7 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=6"
+															<a class="item_lv1" href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
@@ -917,14 +917,14 @@ require_once("config/config.php");
 														</div>
 
 														<div class="item cls ">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=7"
+															<a class="item_lv1" href="tinhdauthongdo.php"
 																title="Tinh dầu thông đỏ">
 																Tinh dầu thông đỏ
 															</a>
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=8"
+															<a class="item_lv1" href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
@@ -2285,7 +2285,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																<a href="sanpham.php?id=<?=$item_nhansamtuoi['id_product']?>"
 																	title="<?= $item_nhansamtuoi['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_nhansamtuoi['name_product'] ?>"
@@ -2297,38 +2297,32 @@ require_once("config/config.php");
 
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																		href="sanpham.php?id=<?=$item_nhansamtuoi['id_product']?>"
 																		title="<?= $item_nhansamtuoi['name_product'] ?>"
 																		class="name">
 																		<?= $item_nhansamtuoi['name_product'] ?>
 																	</a> </h3>
 															</div>
 															<div class="price_arae">
-																<?php
-																	if ($item_nhansamtuoi['price'] == 0) {
-																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
-																	} else {
+															<?php
+																if($item_nhansamtuoi['price'] != 0 && $item_nhansamtuoi['price1'] != 0){
 																	?>
-																<span class='price_current'
-																	style='color:#FFE2B8'><?= number_format($item_nhansamtuoi['price1'], 0, '', '.') ?>₫</span>
-																<?php
-																	}
-																	?>
-
-																<?php
-																	if ($item_nhansamtuoi['price1'] == 0) {
-																		echo "";
-																	} else {
-																	?>
-																<span class='price_old' style='color:#FFE2B8'><span
-																		class="item_old"><?= number_format($item_nhansamtuoi['price'], 0, '', '.') ?>₫</span></span>
-																<?php
-																	}
-																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_nhansamtuoi['price1'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_nhansamtuoi['price'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
 
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																<a href="sanpham.php?id=<?=$item_nhansamtuoi['id_product']?>"
 																	title="Mua sản phẩm <?= $item_nhansamtuoi['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2368,7 +2362,7 @@ require_once("config/config.php");
 													<div class="item ">
 														<div class="frame_inner">
 															<figure class="product_image ">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
+																<a href="sanpham.php?id=<?=$item_samtammatong['id_product']?>"
 																	title="">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_samtammatong['name_product'] ?>"
@@ -2379,37 +2373,31 @@ require_once("config/config.php");
 															</figure>
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
+																		href="sanpham.php?id=<?=$item_samtammatong['id_product']?>"
 																		title="<?= $item_samtammatong['name_product'] ?>"
 																		class="name">
 																		<?= $item_samtammatong['name_product'] ?></a>
 																</h3>
 															</div>
 															<div class="price_arae">
-																<?php
-																	if ($item_samtammatong['price'] == 0) {
-																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
-																	} else {
+															<?php
+																if($item_samtammatong['price'] != 0 && $item_samtammatong['price1'] != 0){
 																	?>
-																<span class='price_current'
-																	style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
-																<?php
-																	}
-																	?>
-
-																<?php
-																	if ($item_samtammatong['price1'] == 0) {
-																		echo "";
-																	} else {
-																	?>
-																<span class='price_old' style='color:#FFE2B8'><span
-																		class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
-																<?php
-																	}
-																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_samtammatong['price1'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_samtammatong['price'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
+																<a href="sanpham.php?id=<?=$item_samtammatong['id_product']?>"
 																	title="Mua sản phẩm <?= $item_samtammatong['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2454,47 +2442,40 @@ require_once("config/config.php");
 													<div class="item ">
 														<div class="frame_inner">
 															<figure class="product_image ">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
+																<a href="sanpham.php?id=<?=$item_trasam['id_product']?>"
 																	title="<?= $item_trasam['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_trasam['name_product'] ?>"
-																		src="uploads/products/<?= $item_trasam ?>"
-																		srcset="uploads/products/<?= $item_trasam ?>"
+																		src="uploads/products/<?= $item_trasam['image_product'] ?>"
+																		srcset="uploads/products/<?= $item_trasam['image_product'] ?>"
 																		style="display: inline;"> </a>
 															</figure>
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
+																		href="sanpham.php?id=<?=$item_trasam['id_product']?>"
 																		title="<?= $item_trasam['name_product'] ?>"
 																		class="name">
-																		Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50
-																		gói NS127 </a> </h3>
+																		<?= $item_trasam['name_product'] ?> </a> </h3>
 															</div>
 															<div class="price_arae">
-																<?php
-																	if ($item_samtammatong['price'] == 0) {
-																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
-																	} else {
+															<?php
+																if($item_trasam['price'] != 0 && $item_trasam['price1'] != 0){
 																	?>
-																<span class='price_current'
-																	style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
-																<?php
-																	}
-																	?>
-
-																<?php
-																	if ($item_samtammatong['price1'] == 0) {
-																		echo "";
-																	} else {
-																	?>
-																<span class='price_old' style='color:#FFE2B8'><span
-																		class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
-																<?php
-																	}
-																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_trasam['price1'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_trasam['price'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
+																<a href="sanpham.php?id=<?=$item_trasam['id_product']?>"
 																	title="Mua sản phẩm <?= $item_trasam['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2540,7 +2521,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
+																<a href="sanpham.php?id=<?=$item_keosam['id_product'] ?>"
 																	title="<?= $item_keosam['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_keosam['name_product'] ?>"
@@ -2551,37 +2532,31 @@ require_once("config/config.php");
 															</figure>
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
+																		href="sanpham.php?id=<?=$item_keosam['id_product'] ?>"
 																		title="<?= $item_keosam['name_product'] ?>"
 																		class="name">
 																		<?= $item_keosam['name_product'] ?>
 																	</a> </h3>
 															</div>
 															<div class="price_arae">
-																<?php
-																	if ($item_samtammatong['price'] == 0) {
-																		echo "<span class='price_current' style='color:#FFE2B8'>Liên hệ</span>";
-																	} else {
+															<?php
+																if($item_keosam['price'] != 0 && $item_keosam['price1'] != 0){
 																	?>
-																<span class='price_current'
-																	style='color:#FFE2B8'><?= number_format($item_samtammatong['price1'], 0, '', '.') ?>₫</span>
-																<?php
-																	}
-																	?>
-
-																<?php
-																	if ($item_samtammatong['price1'] == 0) {
-																		echo "";
-																	} else {
-																	?>
-																<span class='price_old' style='color:#FFE2B8'><span
-																		class="item_old"><?= number_format($item_samtammatong['price'], 0, '', '.') ?>₫</span></span>
-																<?php
-																	}
-																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_keosam['price1'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_keosam['price'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
+																<a href="sanpham.php?id=<?=$item_keosam['id_product'] ?>"
 																	title="Mua sản phẩm <?= $item_keosam['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2611,264 +2586,60 @@ require_once("config/config.php");
 										<div class="product_ajj">
 											<div class="products_home_slideshow product_grid"
 												id="products_home_slideshow_113">
-												<!--	EACH Product				-->
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
+												<!--	EACH Product	Hồng sâm			-->
+												<?php
+													$hongsam = mysqli_query($conn, "SELECT * FROM product WHERE id_portfolio = 4");
+													foreach ($hongsam as $item_hongsam) {
+													?>
+													<div class="item ">
+														<div class="frame_inner">
+															<figure class="product_image ">
 
-															<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																<img class="lazy after-lazy"
-																	alt="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035"
-																	src="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg"
-																	srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg.webp"
-																	style="display: inline;"> </a>
+																<a href="sanpham.php?id=<?=$item_hongsam['id_product'] ?>"
+																	title="<?= $item_hongsam['name_product'] ?>">
+																	<img class="lazy after-lazy"
+																		alt="<?= $item_hongsam['name_product'] ?>"
+																		src="uploads/products/<?= $item_hongsam['image_product'] ?>"
+																		srcset="uploads/products/<?= $item_hongsam['image_product'] ?>"
+																		style="display: inline;"> </a>
 
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																	title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035"
-																	class="name">
-																	Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ
-																	NS035 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">999.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.430.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																title="Mua sản phẩm Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																<img class="lazy after-lazy"
-																	alt="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223"
-																	src="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg"
-																	srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																	title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223"
-																	class="name">
-																	POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói
-																	NS223 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.200.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">2.140.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																title="Mua sản phẩm POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																<img class="lazy after-lazy"
-																	alt="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856"
-																	src="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg"
-																	srcset="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																	title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856"
-																	class="name">
-																	Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên
-																	NS856 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.300.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.690.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																title="Mua sản phẩm Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																<img class="lazy after-lazy"
-																	alt="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455"
-																	src="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg"
-																	srcset="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																	title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455"
-																	class="name">
-																	Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30
-																	(19 Củ) NS455... </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">5.400.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">10.214.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																title="Mua sản phẩm Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																title="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322">
-																<img class="lazy after-lazy"
-																	alt="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322"
-																	src="https://onplaza.vn/images/products/2020/07/27/resized/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600-g-loai-lon-ns322_1595845359.jpg"
-																	srcset="https://onplaza.vn/images/products/2020/07/27/resized/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600-g-loai-lon-ns322_1595845359.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																	title="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322"
-																	class="name">
-																	Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn)
-																	NS322 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">6.200.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">8.860.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																title="Mua sản phẩm Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																title="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064">
-																<img class="lazy after-lazy"
-																	alt="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064"
-																	src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-han-quoc-6-nam-tuoi-nguyen-cu-hop-thiec-ns064_1595842078.jpg"
-																	srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-han-quoc-6-nam-tuoi-nguyen-cu-hop-thiec-ns064_1595842078.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																	title="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064"
-																	class="name">
-																	Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g
-																	NS064 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.300.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.860.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																title="Mua sản phẩm Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
+															</figure>
+															<div class="name">
+																<h3><a style="color:#FFFFFF"
+																		href="sanpham.php?id=<?=$item_hongsam['id_product'] ?>"
+																		title="<?= $item_hongsam['name_product'] ?>"
+																		class="name">
+																		<?= $item_hongsam['name_product'] ?>
+																	</a> </h3>
+															</div>
+															<div class="price_arae">
+															<?php
+																if($item_hongsam['price'] != 0 && $item_hongsam['price1'] != 0){
+																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_hongsam['price1'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_hongsam['price'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
+															</div>
+															<div class="buy_nows">
+																<a href="sanpham.php?id=<?=$item_hongsam['id_product'] ?>"
+																	title="Mua sản phẩm <?= $item_hongsam['name_product'] ?>">
+																	Mua sản phẩm
+																</a>
+															</div>
+														</div> <!-- end .frame_inner -->
+													</div>
+													<?php
+													}
+													?>
 
 												<!--	end EACH Product				-->
 

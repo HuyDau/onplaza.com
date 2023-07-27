@@ -1,13 +1,15 @@
 <?php
-	session_start();
-	require_once("config/config.php");
+session_start();
+require_once("config/config.php");
+
+if(isset($_GET['id'])){
 	$id = $_GET['id'];
-	$prod = mysqli_query($conn, "SELECT * FROM product INNER JOIN portfolio ON product.id_portfolio = portfolio.id_portfolio WHERE id_category = $id" );
+	$port = mysqli_query($conn,"SELECT * FROM portfolio WHERE id_portfolio = $id");
+	$item_port = mysqli_fetch_assoc($port);
 
-	$item_prod = mysqli_fetch_assoc($prod);
+	$prod = mysqli_query($conn,"SELECT * FROM product WHERE id_portfolio = $id");
+}
 
-	$cat = mysqli_query($conn,"SELECT * FROM categories WHERE id_category = $id");
-	$item_cat = mysqli_fetch_assoc($cat);
 
 ?>
 <!DOCTYPE html>
@@ -16,15 +18,19 @@
 <head id="Head1" prefix="og: http://ogp.me/ns# fb:http://ogp.me/ns/fb# article:http://ogp.me/ns/article#">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Cache-control" content="public">
-	<title>Danh sách sản phẩm - <?=$item_cat['name_category']?> </title>
+	<title>[Giá Nhân Sâm Tươi Hàn Quốc 2022] loại 3, 4, 5, 6 củ 1kg</title>
+
+	<meta name="description"
+		content="Nhân sâm tươi Hàn Quốc với củ sâm to đủ 6 năm tuổi mới thu hoạch hàm lượng Saponin cao, Onplaza cung cấp nhân sâm 3 củ, 4 củ, 5 củ uy tín giá rẻ, luôn có sẵn hàng, freeship, nhiều ưu đãi hấp dẫn,Nhân Sâm tươi Hàn Quốc 6 năm tuổi,">
+	<meta name="keywords" content="Nhân Sâm tươi Hàn Quốc 6 năm tuổi">
 
 	<meta name="dc.language" content="VN">
-	<meta name="dc.title" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
-	<meta name="dc.keywords"
-		content="sâm hàn quốc,nhân sâm hàn quốc,các loại sâm Hàn Quốc,giá nhân sâm,địa chỉ bán sâm,mua nhân sâm,cửa hàng nhân sâm hàn quốc hà nội,hồ chí minh,Sâm Hàn Quốc">
-	<meta name="dc.subject" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
+
+	<meta name="dc.title" content="[Giá Nhân Sâm Tươi Hàn Quốc 2022] loại 3, 4, 5, 6 củ 1kg">
+	<meta name="dc.keywords" content="Nhân Sâm tươi Hàn Quốc 6 năm tuổi">
+	<meta name="dc.subject" content="[Giá Nhân Sâm Tươi Hàn Quốc 2022] loại 3, 4, 5, 6 củ 1kg">
 	<meta name="dc.description"
-		content="Cập nhật giá bán nhân sâm hàn quốc chính hãng tại Hà Nội và Hồ Chí Minh với các loại nhân sâm Hàn, cao hồng sâm, nước hồng sâm,... sâm tẩm mật ong chính hãng giá tốt nhất thị trường ,Sâm Hàn Quốc,">
+		content="Nhân sâm tươi Hàn Quốc với củ sâm to đủ 6 năm tuổi mới thu hoạch hàm lượng Saponin cao, Onplaza cung cấp nhân sâm 3 củ, 4 củ, 5 củ uy tín giá rẻ, luôn có sẵn hàng, freeship, nhiều ưu đãi hấp dẫn,Nhân Sâm tươi Hàn Quốc 6 năm tuổi,">
 	<!-- Google Tag Manager -->
 	<script type="text/javascript" async=""
 		src="https://www.gstatic.com/recaptcha/releases/khH7Ei3klcvfRI74FvDcfuOo/recaptcha__vi.js"
@@ -68,13 +74,16 @@
 
 	<meta property="og:site_name" content="Onplaza Việt Pháp - Thế Giới dinh dưỡng">
 	<meta property="og:locale" content="vi_VN">
-	<meta property="og:title" content="Cửa hàng nhân Sâm Hàn Quốc chính hãng các loại - Sâm Hàn Quốc">
-	<meta property="og:url" content="nhansamhanquoc.php">
+	<meta property="og:title" content="[Giá Nhân Sâm Tươi Hàn Quốc 2022] loại 3, 4, 5, 6 củ 1kg">
+	<meta property="og:url" content="nhansam6tuoi.php">
 	<meta property="og:description"
-		content="Cập nhật giá bán nhân sâm hàn quốc chính hãng tại Hà Nội và Hồ Chí Minh với các loại nhân sâm Hàn, cao hồng sâm, nước hồng sâm,... sâm tẩm mật ong chính hãng giá tốt nhất thị trường ,Sâm Hàn Quốc,">
-	<link rel="canonical" href="nhansamhanquoc.php">
+		content="Nhân sâm tươi Hàn Quốc với củ sâm to đủ 6 năm tuổi mới thu hoạch hàm lượng Saponin cao, Onplaza cung cấp nhân sâm 3 củ, 4 củ, 5 củ uy tín giá rẻ, luôn có sẵn hàng, freeship, nhiều ưu đãi hấp dẫn,Nhân Sâm tươi Hàn Quốc 6 năm tuổi,">
+
+	<link rel="canonical" href="nhansam6tuoi.php">
+
 	<meta content="INDEX,FOLLOW" name="robots">
 	<meta name="googlebot" content="index,follow">
+
 	<meta property="og:image"
 		content="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg">
 	<meta property="og:image:width" content="600 ">
@@ -82,58 +91,52 @@
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org",
-			"@type": "Corporation",
-			"name": "Nhân sâm hàn quốc Onplaza",
-			"alternateName": "Onplaza - Đơn vị chuyên cung cấp các sản phẩm nhân sâm hàn quốc như : Nhân sâm tươi, nhân sâm khô, cao hồng sâm, nước sâm..",
-			"url": "nhansamhanquoc.php",
-			"logo": "https://onplaza.vn/images/slideshow/2020/11/21/compress/banner-danh-muc-nhan-sam-hq-tong_1605926130.jpg"
-		}
-	</script>
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "LocalBusiness",
-			"name": "Công Ty TNHH Onplaza Việt Pháp",
-			"image": "https://onplaza.vn/images/config/logo_small_1590008537.png",
-			"@id": "https://onplaza.vn",
-			"url": "https://onplaza.vn/",
-			"telephone": "02466849833",
-			"priceRange": "600.000 -50.000.000",
-			"address": {
-				"@type": "PostalAddress",
-				"streetAddress": "76 Hai Bà Trưng, Cửa Nam, Hoàn Kiếm, Hà Nội",
-				"addressLocality": "Hà Nội",
-				"postalCode": "100000",
-				"addressCountry": "VN"
-			},
-			"geo": {
-				"@type": "GeoCoordinates",
-				"latitude": 21.026753,
-				"longitude": 105.844855
-			},
-			"openingHoursSpecification": {
-				"@type": "OpeningHoursSpecification",
-				"dayOfWeek": [
-					"Monday",
-					"Tuesday",
-					"Wednesday",
-					"Thursday",
-					"Friday",
-					"Saturday",
-					"Sunday"
-				],
-				"opens": "08:00",
-				"closes": "21:00"
-			},
-			"sameAs": [
-				"https://onplaza.vn/",
-				"https://www.facebook.com/congtyonplazavietphap",
-				"https://twitter.com/onplazavietphap",
-				"https://www.instagram.com/onplazavnvietphap/",
-				"https://www.youtube.com/channel/UCo5ZyjbHpK_8DPm_zm3kF5Q",
-				"https://www.linkedin.com/in/onplaza",
-				"https://www.pinterest.com/onplaza/"
-			]
+			"@type": "FAQPage",
+			"mainEntity": [{
+				"@type": "Question",
+				"name": "Sâm tươi Hàn Quốc giá bao nhiêu?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Giá nhân sâm tươi Hàn Quốc phụ thuộc vào độ tuổi của củ sâm, trọng lượng, hình dáng và thời điểm mùa vụ. Củ sâm tươi tốt nhất là đủ từ 6 năm tuổi trở lên, có các loại: 2 củ/kg, 3 củ/kg, 4 củ/kg, 5 củ/kg...đến vài chục củ/kg, Giá bán sâm tươi Hàn Quốc từ 2 triệu trở lên."
+				}
+			}, {
+				"@type": "Question",
+				"name": "Mua sâm tươi hàn quốc ở đâu?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Top 3 cửa hàng mua sâm tươi Hàn Quốc uy tín tại Hà Nội, Hồ Chí Minh:
+					1: Số 76 Hai Bà Trưng,
+					Hoàn Kiếm,
+					Hà Nội
+					2: Số 327 Trường Chinh,
+					Ngã Tư Sở,
+					Hà Nội
+					3: Số 19– 21 Cách Mạng Tháng 8– Phường Bến Thành– Quận 1– TP.HCM "
+				}
+			}, {
+				"@type": "Question",
+				"name": "Người bị cao huyết áp có dùng được sâm tươi không?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Đối với người cao huyết áp có thể sử dụng sâm tươi, tuy nhiên chỉ nên dùng khi chỉ số huyết áp đang ở mức bình thường, còn khi huyết áp đang cao không nên cho người bệnh dùng sâm để giảm huyết áp."
+				}
+			}, {
+				"@type": "Question",
+				"name": "Bà bầu có nên uống sâm tươi ngâm mật ong không?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Đối với phụ nữ mang thai nên tránh dùng nhân sâm bởi:  -
+					Trong thành phần của nhân sâm có tác dụng chống đông máu,
+					dễ gây di tật bẩm sinh cho thai nhi. -
+					Dùng nhân sâm dễ gây rối loạn giấc ngủ,
+					khiến cho bà bầu thức đêm,
+					khiến cơ thể mệt mỏi,
+					suy giảm sức khỏe,
+					tâm trạng thay đổi thất thường. -
+					Đôi khi nhân sâm gây ra tình trạng tiêu chảy,
+					dẫn đến mất nước và mệt mỏi "
+				}
+			}]
 		}
 	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
@@ -153,10 +156,11 @@
 
 	<link rel="alternate" type="application/rss+xml" title="Onplaza Việt Pháp - Thế Giới dinh dưỡng Feed"
 		href="https://onplaza.vn/rss.xml">
+
 	<meta http-equiv="origin-trial"
 		content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9">
 	<script type="text/javascript" async=""
-		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688470477561&amp;cv=11&amp;fst=1688470477561&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fgia-nhan-sam-han-quoc&amp;ref=https%3A%2F%2Fonplaza.vn%2Ftinh-dau-thong-do&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=C%E1%BB%ADa%20h%C3%A0ng%20nh%C3%A2n%20S%C3%A2m%20H%C3%A0n%20Qu%E1%BB%91c%20ch%C3%ADnh%20h%C3%A3ng%20c%C3%A1c%20lo%E1%BA%A1i%20-%20S%C3%A2m%20H%C3%A0n%20Qu%E1%BB%91c&amp;auid=568503462.1688460212&amp;uaa=x86&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B8.0.0.0%7CChromium%3B114.0.5735.199%7CGoogle%2520Chrome%3B114.0.5735.199&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4">
+		src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/578172086/?random=1688483871642&amp;cv=11&amp;fst=1688483871642&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45He36s0&amp;u_w=1366&amp;u_h=768&amp;url=https%3A%2F%2Fonplaza.vn%2Fnhan-sam-tuoi&amp;ref=https%3A%2F%2Fonplaza.vn%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=%5BGi%C3%A1%20Nh%C3%A2n%20S%C3%A2m%20T%C6%B0%C6%A1i%20H%C3%A0n%20Qu%E1%BB%91c%202022%5D%20lo%E1%BA%A1i%203%2C%204%2C%205%2C%206%20c%E1%BB%A7%201kg&amp;auid=568503462.1688460212&amp;uaa=x86&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B8.0.0.0%7CChromium%3B114.0.5735.199%7CGoogle%2520Chrome%3B114.0.5735.199&amp;uamb=0&amp;uap=Windows&amp;uapv=10.0.0&amp;uaw=0&amp;data=Event%3D%3BItems%3D%3BValue%3D&amp;rfmt=3&amp;fmt=4">
 	</script>
 	<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=vi"></script>
 </head>
@@ -214,7 +218,7 @@
 
 						</div>
 						<div class="clear"></div>
-						<input type="hidden" name="return" value="L2dpYS1uaGFuLXNhbS1oYW4tcXVvYw==">
+						<input type="hidden" name="return" value="L25oYW4tc2FtLXR1b2k=">
 						<input type="hidden" name="module" value="users">
 						<input type="hidden" name="view" value="users">
 						<input type="hidden" name="task" value="login_save">
@@ -223,7 +227,7 @@
 					</form>
 					<div class="social_login">
 						<a class="login_fb" title="Đăng nhập bằng Facebook"
-							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=b0c23585203b018e9e24eb5de1878809&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
+							href="https://www.facebook.com/v2.2/dialog/oauth?client_id=195212498275883&amp;state=ce52762b0921a9cd8eaa59f58b2f84d8&amp;response_type=code&amp;sdk=php-sdk-5.6.2&amp;redirect_uri=https%3A%2F%2Fonplaza.vn%2Fface_login.html&amp;scope=email%2Cpublic_profile">
 							<i class="lab la-facebook-f"></i>
 							Đăng nhập bằng Facebook
 
@@ -327,8 +331,8 @@
 									<div class="g-recaptcha" data-sitekey="6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci">
 										<div style="width: 304px; height: 78px;">
 											<div><iframe title="reCAPTCHA"
-													src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci&amp;co=aHR0cHM6Ly9vbnBsYXphLnZuOjQ0Mw..&amp;hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;size=normal&amp;cb=63inaikcyy46"
-													width="304" height="78" role="presentation" name="a-c4scqgc7g8s9"
+													src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci&amp;co=aHR0cHM6Ly9vbnBsYXphLnZuOjQ0Mw..&amp;hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;size=normal&amp;cb=i5svkbn30rks"
+													width="304" height="78" role="presentation" name="a-e94xndf4udyr"
 													frameborder="0" scrolling="no"
 													sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
 											</div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
@@ -351,7 +355,7 @@
 
 							</div>
 
-							<input type="hidden" name="return" value="L2dpYS1uaGFuLXNhbS1oYW4tcXVvYw==">
+							<input type="hidden" name="return" value="L25oYW4tc2FtLXR1b2k=">
 							<input type="hidden" name="module" value="users">
 							<input type="hidden" name="view" value="users">
 							<input type="hidden" name="Itemid" value="9">
@@ -395,7 +399,7 @@
 							<input type="submit" class="submitbt btn-submit" name="submitbt" value="Đồng ý">
 						</div>
 					</div>
-					<input type="hidden" name="return" value="L2dpYS1uaGFuLXNhbS1oYW4tcXVvYw==">
+					<input type="hidden" name="return" value="L25oYW4tc2FtLXR1b2k=">
 					<input type="hidden" name="module" value="users">
 					<input type="hidden" name="view" value="users">
 					<input type="hidden" name="task" value="forget_save">
@@ -694,7 +698,7 @@
 													<div class="product_item cls">
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -751,7 +755,7 @@
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=2"
+															<a class="item_lv1" href="dongtrunghathao.php"
 																title="Đông trùng hạ thảo">
 																Đông Trùng Hạ Thảo
 															</a>
@@ -781,7 +785,7 @@
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=3"
+															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
@@ -824,7 +828,7 @@
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=4"
+															<a class="item_lv1" href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
@@ -862,8 +866,7 @@
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=5"
-																title="Nhung hươu">
+															<a class="item_lv1" href="nhunghuou.php" title="Nhung hươu">
 																Nhung hươu
 															</a>
 															<ul class="item_lv2">
@@ -898,7 +901,7 @@
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=6"
+															<a class="item_lv1" href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
@@ -918,14 +921,14 @@
 														</div>
 
 														<div class="item cls ">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=7"
+															<a class="item_lv1" href="tinhdauthongdo.php"
 																title="Tinh dầu thông đỏ">
 																Tinh dầu thông đỏ
 															</a>
 														</div>
 
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=8"
+															<a class="item_lv1" href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
@@ -2111,7 +2114,9 @@
 
 					<div class="main-area main-area-1col main-area-full">
 						<div class="slideshow">
+
 						</div>
+						<div class="clear"></div>
 						<div class="breadcrumbs cls">
 							<div class="container">
 
@@ -2131,19 +2136,11 @@
 										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
 											itemtype="http://schema.org/ListItem">
 
-											<a title="Dược liệu cao cấp" href="sanphamduoclieu.php" itemprop="item">
-												<span itemprop="name">Dược liệu cao cấp</span>
-												<meta content="2" itemprop="position">
-											</a>
-
-										</li>
-
-										<li class="breadcrumb__item" itemprop="itemListElement" itemscope="itemscope"
-											itemtype="http://schema.org/ListItem">
-
-											<a title="Sâm Hàn Quốc" href="nhansamhanquoc.php" itemprop="item">
-												<span itemprop="name">Sâm Hàn Quốc</span>
-												<meta content="3" itemprop="position">
+											<a title="<?=$item_port['name_portfolio']?>"
+												href="danhsachsanpham.php?id=<?=$item_port['id_portfolio']?>"
+												itemprop="item">
+												<span itemprop="name"><?=$item_port['name_portfolio']?></span>
+												<meta content="4" itemprop="position">
 											</a>
 
 										</li>
@@ -2154,2826 +2151,1397 @@
 							</div>
 
 						</div>
-						<div class="clear"></div>
-						<input type="hidden" name="name_cat" id="name_cat" value="Sâm Hàn Quốc">
-						<div class="products-cat-frame-inner description" style="background-color:#570505">
-							<div class="field_title">
-								<div class="title-name">
-									<div class="cat-title">
-										<div class="cat-title-main" id="cat-san-pham-duoc-lieu">
 
-											<h1><?=$item_cat['name_category']?></h1>
+						<input type="hidden" name="name_cat" id="name_cat" value="Nhân Sâm tươi Hàn Quốc 6 năm tuổi">
+						<div class="products-cat-frame-inner pro_cattt description" style="background-color:#220A00">
+							<div class="filter_products_cat container">
+								<div class="block_products_filter cls">
 
-											<div class="kk-star-ratings hidden" data-id="42">
-												<div class="kksr-stars">
+									<div class="field_title field_title2">
+										<div class="title-name">
+											<div class="cat-title">
+												<div class="cat-title-main" id="cat-san-pham-duoc-lieu">
 
-													<div class="star_on">
-														<svg fill="#FF9727" width="15px" aria-hidden="true"
-															data-prefix="fas" data-icon="star" role="img"
-															xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
-															class="svg-inline--fa fa-star fa-w-18">
-															<path
-																d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																class=""></path>
-														</svg>
-													</div>
+													<h1><?=$item_port['name_portfolio']?></h1>
 
-													<div class="star_on">
-														<svg fill="#FF9727" width="15px" aria-hidden="true"
-															data-prefix="fas" data-icon="star" role="img"
-															xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
-															class="svg-inline--fa fa-star fa-w-18">
-															<path
-																d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																class=""></path>
-														</svg>
-													</div>
+													<div class="kk-star-ratings hidden" data-id="65">
+														<div class="kksr-stars">
 
-													<div class="star_on">
-														<svg fill="#FF9727" width="15px" aria-hidden="true"
-															data-prefix="fas" data-icon="star" role="img"
-															xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
-															class="svg-inline--fa fa-star fa-w-18">
-															<path
-																d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																class=""></path>
-														</svg>
-													</div>
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
 
-													<div class="star_on">
-														<svg fill="#FF9727" width="15px" aria-hidden="true"
-															data-prefix="fas" data-icon="star" role="img"
-															xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
-															class="svg-inline--fa fa-star fa-w-18">
-															<path
-																d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																class=""></path>
-														</svg>
-													</div>
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
 
-													<div class="star_on">
-														<svg fill="#dcdcdc" width="15px" aria-hidden="true"
-															data-prefix="fas" data-icon="star" role="img"
-															xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
-															class="svg-inline--fa fa-star fa-w-18">
-															<path
-																d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
-																class=""></path>
-														</svg>
-													</div>
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
 
-												</div>
-												<div class="kksr-legend">
-													<div>
-														<div class="kksr-title hidden"><?=$item_cat['name_category']?>
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
+
+															<div class="star_on">
+																<svg fill="#FF9727" width="15px" aria-hidden="true"
+																	data-prefix="fas" data-icon="star" role="img"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 576 512"
+																	class="svg-inline--fa fa-star fa-w-18">
+																	<path
+																		d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+																		class=""></path>
+																</svg>
+															</div>
+
 														</div>
-														<span content="4.1"></span>( <span></span> Evaluate )
+														<div class="kksr-legend">
+															<div>
+																<div class="kksr-title hidden">Nhân Sâm tươi Hàn Quốc 6
+																	năm tuổi</div>
+																<span content="5"></span>( <span>0</span> Evaluate )
 
+															</div>
+														</div>
 													</div>
-												</div>
-											</div>
 
+												</div>
+												<div class="clear"></div>
+											</div>
 										</div>
-										<div class="clear"></div>
+
 									</div>
 								</div>
+								<div class="show-filter_current">
+								</div>
 
-							</div>
-							<div class="container">
-
-								<article class="cat_summary cls">
-									<div class="summary_content">
-										<p style="text-align:center"><a href="#"><img alt="" height="452"
-													src="/upload_images/images/2022/12/07/1310x482-TONG.jpg"
-													width="1310"></a></p>
-
-										<p style="text-align:justify">Trong bốn loại dược liệu tốt nhất cho sức khỏe:
-											Sâm -&nbsp;nhung -&nbsp;quế&nbsp;- phụ, <strong><a
-													href="https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html">nhân
-													sâm</a></strong> được xếp đứng đầu danh sách cho thấy có tác dụng
-											rất tốt với sức khỏe của con người. Với công nghệ hiện đại ngày nay nhân sâm
-											Hàn Quốc còn được chế biết thành những chế phẩm như cao hồng sâm, hồng sâm
-											củ&nbsp; khô, nước hồng sâm, hồng sâm tẩm mật ong, trà sâm&nbsp;... mang lại
-											sự tiện lợi khi sử dụng.&nbsp;</p>
-
-										<p style="text-align:justify">Quý khách tham khảo giá các loại sản phẩm sâm Hàn
-											phổ biến hiện nay phía dưới. Kéo xuống phía dưới để tìm hiểu thêm thông tin
-											về sâm Hàn Quốc trước khi mua.</p>
-									</div>
-
-								</article>
 							</div>
 
 						</div>
 
 						<div class="clear"></div>
+
 						<div class="products-cat" id="products-cat">
 
 							<div class="container">
+								<article class="cat_summary cls">
 
-								<div class="wapper-content-page product_home_content">
-
-									<div class="cat_item_store menu_sticky sticky_1 cls">
-										<h2 class="cat-title-main"><a href="nhansam6tuoi.php"
-												title="Sâm Hàn Quốc"><span>Nhân Sâm tươi Hàn Quốc 6 năm tuổi</span></a>
-										</h2>
-										<div class="clear"></div>
-										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Nhân Sâm tươi Hàn Quốc 6 năm tuổi"
-												src="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tuoi-han-quoc_1605339577.jpg"
-												srcset="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tuoi-han-quoc_1605339577.jpg.webp"
-												style="display: inline;">
-										</div>
-										<div class="banner_right">
-
-											<div class="product_ajj">
-												<div class="products_home_slideshow product_grid"
-													id="products_home_slideshow_65">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
-																	title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	<img class="lazy after-lazy"
-																		alt="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004"
-																		src="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg"
-																		srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns004-avatar_1680078879.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
-																		title="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004"
-																		class="name">
-																		Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004
-																	</a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">2.200.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.570.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
-																	title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/"
-																	title="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003">
-																	<img class="lazy after-lazy"
-																		alt="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003"
-																		src="https://onplaza.vn/images/products/2023/03/29/resized/ns003-avatar_1680078860.jpg"
-																		srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns003-avatar_1680078860.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/"
-																		title="Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003"
-																		class="name">
-																		Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg
-																		NS003 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">2.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.290.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-6-nam-tuoi-cao-cap-5-cu-kg-ns003/"
-																	title="Mua sản phẩm Sâm tươi Hàn Quốc 6 năm tuổi cao cấp loại 5củ/kg NS003">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/"
-																	title="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002">
-																	<img class="lazy after-lazy"
-																		alt="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002"
-																		src="https://onplaza.vn/images/products/2023/03/29/resized/ns002-avatar_1680078851.jpg"
-																		srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns002-avatar_1680078851.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/"
-																		title="Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002"
-																		class="name">
-																		Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002
-																	</a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">2.800.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">4.857.142₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-loai-4-cu-kg-ns002/"
-																	title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 4 củ/kg NS002">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/"
-																	title="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001">
-																	<img class="lazy after-lazy"
-																		alt="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001"
-																		src="https://onplaza.vn/images/products/2022/09/22/resized/3-cu_1663815939.jpg"
-																		srcset="https://onplaza.vn/images/products/2022/09/22/resized/3-cu_1663815939.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/"
-																		title="Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001"
-																		class="name">
-																		Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg
-																		NS001 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">3.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">5.430.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="nhansam6tuoi.php-han-quoc-loai-cukg-ns001/"
-																	title="Mua sản phẩm Nhân sâm tươi Hàn Quốc loại cao cấp 3 củ/kg NS001">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/"
-																	title="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006">
-																	<img class="lazy after-lazy"
-																		alt="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006"
-																		src="https://onplaza.vn/images/products/2021/01/05/resized/nhan-sam-tuoi-han-quoc-8-cu-kg-n006_1609835348.jpg"
-																		srcset="https://onplaza.vn/images/products/2021/01/05/resized/nhan-sam-tuoi-han-quoc-8-cu-kg-n006_1609835348.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/"
-																		title="Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006"
-																		class="name">
-																		Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg
-																		NS006 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">2.000.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">3.290.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="nhansam6tuoi.php-han-quoc-8-cukg-ns006/"
-																	title="Mua sản phẩm Nhân Sâm Tươi Hàn Quốc Cao Cấp Loại 8 Củ/Kg NS006">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/"
-																	title="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216">
-																	<img class="lazy after-lazy"
-																		alt="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216"
-																		src="https://onplaza.vn/images/products/2020/07/31/resized/hop-qua-tang-sam-nui-ngan-nam-tuoi-thuong-hang-ns216_1596180720.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/31/resized/hop-qua-tang-sam-nui-ngan-nam-tuoi-thuong-hang-ns216_1596180720.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/"
-																		title="Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216"
-																		class="name">
-																		Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng
-																		NS216 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">7.500.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">10.710.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-nui-ngan-nam-tuoi-thuong-hang-ns216/"
-																	title="Mua sản phẩm Hộp quà tặng sâm núi ngàn năm tuổi thượng hạng NS216">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<!--	end EACH Product				-->
-
-												</div>
-
-											</div>
-										</div>
-
+									<div class="summary_content summary_content_detail">
+										<?= $item_port['content_portfolio']?>
 									</div>
 
-									<div class="clear"></div>
+								</article>
 
-									<div class="cat_item_store menu_sticky sticky_2 cls">
-										<h2 class="cat-title-main"><a href="samtammatong.php"
-												title="Sâm Hàn Quốc"><span>Sâm tẩm mật ong</span></a></h2>
+								<section class="products-cat-frame">
+									<div class="field_title">
+
+										<select class="order-select" name="order-select">
+											<option value="">Sắp xếp theo</option>
+											<option value="nhansam6tuoi.php/sap-xep-ban-chay-nhat">Bán
+												chạy nhất</option>
+											<option value="nhansam6tuoi.php/sap-xep-khuyen-mai">Khuyễn
+												mãi</option>
+											<option value="nhansam6tuoi.php/sap-xep-gia-thap-nhat">Giá
+												từ thấp tới cao</option>
+											<option value="nhansam6tuoi.php/sap-xep-gia-cao-nhat">Giá từ
+												cao tới thấp</option>
+											<option value="nhansam6tuoi.php/sap-xep-moi-nhat">Mới nhất
+											</option>
+											<option value="nhansam6tuoi.php/sap-xep-xem-nhieu">Xem nhiều
+											</option>
+
+										</select>
 										<div class="clear"></div>
-										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Sâm tẩm mật ong"
-												src="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tam-mat-ong_1605340195.jpg"
-												srcset="https://onplaza.vn/images/products/cat/large/banner-doc-sam-tam-mat-ong_1605340195.jpg.webp"
-												style="display: inline;">
-										</div>
-										<div class="banner_right">
+									</div>
+									<div class="product_grid">
+										<?php
+											foreach($prod as $item_prod){
+												?>
+										<div class="item ">
+											<div class="frame_inner">
+												<figure class="product_image ">
 
-											<div class="product_ajj">
-												<div class="products_home_slideshow product_grid"
-													id="products_home_slideshow_62">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
+													<a href="sanpham.php?id=<?=$item_prod['id_product']?>"
+														title="<?=$item_prod['name_product']?>">
+														<img class="lazy after-lazy"
+															alt="Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004"
+															src="uploads/products/<?=$item_prod['image_product']?>"
+															srcset="uploads/products/<?=$item_prod['image_product']?>"
+															style="display: inline;"> </a>
 
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
-																	title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	<img class="lazy after-lazy"
-																		alt="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030"
-																		src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030_1595820536.jpg.webp"
-																		style="display: inline;"> </a>
+												</figure>
 
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
-																		title="Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030"
-																		class="name">
-																		Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp
-																		Bio Apgold Hàn... </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">980.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.400.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-6-nam-tuoi-cao-cap-bio-apgold-han-quoc-ns030/"
-																	title="Mua sản phẩm Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold Hàn Quốc NS030">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/"
-																	title="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090">
-																	<img class="lazy after-lazy"
-																		alt="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090"
-																		src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200-g-ns090_1595905573.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200-g-ns090_1595905573.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/"
-																		title="Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090"
-																		class="name">
-																		Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8
-																		củ) NS090 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">800.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.150.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-nguyen-cu-han-quoc-tam-mat-ong-200g-8-cu-ns090/"
-																	title="Mua sản phẩm Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ) NS090">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/"
-																	title="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287">
-																	<img class="lazy after-lazy"
-																		alt="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287"
-																		src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-tam-mat-ong-thai-lat-pocheon-200-g-ns287_1595923138.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-tam-mat-ong-thai-lat-pocheon-200-g-ns287_1595923138.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/"
-																		title="Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287"
-																		class="name">
-																		Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287
-																	</a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">980.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.400.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-thai-lat-pocheon-200g-ns287/"
-																	title="Mua sản phẩm Hồng sâm tẩm mật ong thái lát Pocheon 200g NS287">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/"
-																	title="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129">
-																	<img class="lazy after-lazy"
-																		alt="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129_1596104186.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129_1596104186.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/"
-																		title="Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129"
-																		class="name">
-																		Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ
-																		NS129 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">1.400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">2.000.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-tam-mat-ong-daedong-han-quoc-loai-10-cu-ns129/"
-																	title="Mua sản phẩm Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ NS129">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/"
-																	title="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028">
-																	<img class="lazy after-lazy"
-																		alt="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028"
-																		src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200-g-ns028_1595817774.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200-g-ns028_1595817774.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/"
-																		title="Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028"
-																		class="name">
-																		Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g
-																		NS028 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">999.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">1.430.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-cao-cap-kgs-200g-ns028/"
-																	title="Mua sản phẩm Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g NS028">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/"
-																	title="Hồng sâm thái lát tẩm mật ong KGS 100g NS032">
-																	<img class="lazy after-lazy"
-																		alt="Hồng sâm thái lát tẩm mật ong KGS 100g NS032"
-																		src="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-thai-lat-tam-mat-ong-kgs-100-g-ns032_1595929998.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/28/resized/hong-sam-thai-lat-tam-mat-ong-kgs-100-g-ns032_1595929998.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/"
-																		title="Hồng sâm thái lát tẩm mật ong KGS 100g NS032"
-																		class="name">
-																		Hồng sâm thái lát tẩm mật ong KGS 100g NS032
-																	</a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">580.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">830.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/hong-sam-thai-lat-tam-mat-ong-kgs-100g-ns032/"
-																	title="Mua sản phẩm Hồng sâm thái lát tẩm mật ong KGS 100g NS032">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<!--	end EACH Product				-->
+												<div class="name">
+													<h3><a style="color:#fff"
+															href="sanpham.php?id=<?=$item_prod['id_product']?>"
+															title="<?=$item_prod['name_product']?>" class="name">
+															<?=$item_prod['name_product']?></a> </h3>
 
 												</div>
 
-											</div>
+												<div class="price_arae">
+													<?php
+                                                            if ($item_prod['price'] != 0 && $item_prod['price1'] != 0) { ?>
+													<span class="price_current"
+														style="color:#FFE1B8"><?= number_format($item_prod['price']) ?>₫</span>
+													<span class="price_old " style="color:#FFE1B8">
+														<span
+															class="item_old"><?= number_format($item_prod['price1'], 0, ",", ".") ?>₫
+														</span>
+													</span>
+													<?php
+                                                            } else {
+                                                            ?>
+													<span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span>
+													<?php
+                                                            }
+                                                            ?>
+												</div>
+
+												<div class="buy_nows">
+													<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+														title="Mua sản phẩm Sâm tươi Hàn Quốc cao cấp loại 6 củ/kg NS004">
+														Mua sản phẩm
+													</a>
+												</div>
+
+											</div> <!-- end .frame_inner -->
+
 										</div>
+										<?php
+											}
+										?>
 
-									</div>
-
-									<div class="clear"></div>
-
-									<div class="cat_item_store menu_sticky sticky_3 cls">
-										<h2 class="cat-title-main"><a href="trasam.php" title="Sâm Hàn Quốc"><span>Trà
-													sâm</span></a></h2>
 										<div class="clear"></div>
-										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Trà sâm"
-												src="https://onplaza.vn/images/products/cat/large/banner-doc-tra-sam_1605340492.jpg"
-												srcset="https://onplaza.vn/images/products/cat/large/banner-doc-tra-sam_1605340492.jpg.webp"
-												style="display: inline;">
-										</div>
-										<div class="banner_right">
-
-											<div class="product_ajj">
-												<div class="products_home_slideshow product_grid"
-													id="products_home_slideshow_60">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
-																	title="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127">
-																	<img class="lazy after-lazy"
-																		alt="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-nhap-khau-han-quoc-loai-50-goi-ns127_1596101967.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-nhap-khau-han-quoc-loai-50-goi-ns127_1596101967.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
-																		title="Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127"
-																		class="name">
-																		Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50
-																		gói NS127 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">399.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">570.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-nhap-khau-han-quoc-50-goi-ns127/"
-																	title="Mua sản phẩm Trà hồng sâm Daedong nhập khẩu Hàn Quốc loại 50 gói NS127">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/"
-																	title="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087">
-																	<img class="lazy after-lazy"
-																		alt="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087_1596094264.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087_1596094264.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/"
-																		title="Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087"
-																		class="name">
-																		Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc
-																		NS087 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">400.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">570.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-nhan-sam-linh-chi-cao-cap-nhap-khau-han-quoc-ns087/"
-																	title="Mua sản phẩm Trà nhân sâm linh chi cao cấp nhập khẩu Hàn Quốc NS087">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/"
-																	title="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080">
-																	<img class="lazy after-lazy"
-																		alt="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-han-quoc-thuong-hang-loai-100-goi-ns080_1596083688.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/tra-hong-sam-daedong-han-quoc-thuong-hang-loai-100-goi-ns080_1596083688.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/"
-																		title="Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080"
-																		class="name">
-																		Trà hồng sâm Daedong Hàn Quốc thượng hạng loại
-																		100 gói NS080 </a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">650.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">930.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/tra-hong-sam-daedong-han-quoc-thuong-hang-100-goi-ns080/"
-																	title="Mua sản phẩm Trà hồng sâm Daedong Hàn Quốc thượng hạng loại 100 gói NS080">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<!--	end EACH Product				-->
-
-												</div>
-
-											</div>
-										</div>
-
 									</div>
+									<!--end: .vertical-->
 
-									<div class="clear"></div>
+								</section>
 
-									<div class="cat_item_store menu_sticky sticky_4 cls">
-										<h2 class="cat-title-main"><a href="keosam.php" title="Sâm Hàn Quốc"><span>Kẹo
-													sâm</span></a></h2>
-										<div class="clear"></div>
-										<div class="banner_left">
-											<img class="lazy after-lazy" alt="Kẹo sâm"
-												src="https://onplaza.vn/images/products/cat/large/banner-doc-keo-sam_1605340629.jpg"
-												srcset="https://onplaza.vn/images/products/cat/large/banner-doc-keo-sam_1605340629.jpg.webp"
-												style="display: inline;">
-										</div>
-										<div class="banner_right">
-
-											<div class="product_ajj">
-												<div class="products_home_slideshow product_grid"
-													id="products_home_slideshow_59">
-													<!--	EACH Product				-->
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
-																	title="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063">
-																	<img class="lazy after-lazy"
-																		alt="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/keo-hac-sam-han-quoc-nhap-khau-goi-300-gr-ns063_1596079370.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/keo-hac-sam-han-quoc-nhap-khau-goi-300-gr-ns063_1596079370.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
-																		title="Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063"
-																		class="name">
-																		Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063
-																	</a> </h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">140.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/keo-hac-sam-han-quoc-nhap-khau-goi-300gr-ns063/"
-																	title="Mua sản phẩm Kẹo hắc sâm Hàn Quốc nhập khẩu gói 300gr NS063">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<div class="item ">
-														<div class="frame_inner">
-															<figure class="product_image ">
-
-																<a href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/"
-																	title="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062">
-																	<img class="lazy after-lazy"
-																		alt="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062"
-																		src="https://onplaza.vn/images/products/2020/07/30/resized/keo-hong-sam-han-quoc-cao-cap-300-g-ns062_1596077380.jpg"
-																		srcset="https://onplaza.vn/images/products/2020/07/30/resized/keo-hong-sam-han-quoc-cao-cap-300-g-ns062_1596077380.jpg.webp"
-																		style="display: inline;"> </a>
-
-															</figure>
-
-															<div class="name">
-																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/"
-																		title="Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062"
-																		class="name">
-																		Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062 </a>
-																</h3>
-
-															</div>
-
-															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8">100.000₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span class="item_old">140.000₫ </span>
-																</span>
-															</div>
-
-															<div class="buy_nows">
-																<a href="https://onplaza.vn/keo-hong-sam-han-quoc-cao-cap-300gr-ns062/"
-																	title="Mua sản phẩm Kẹo hồng sâm Hàn Quốc cao cấp 300gr NS062">
-																	Mua sản phẩm
-																</a>
-															</div>
-
-														</div> <!-- end .frame_inner -->
-
-													</div>
-
-													<!--	end EACH Product				-->
-
-												</div>
-
-											</div>
-										</div>
-
-									</div>
-
-									<div class="clear"></div>
-
-									<div class="cat_item_store menu_sticky sticky_5 cls">
-										<h2 class="cat-title-main"><a href="hongsamhanquoc.php"
-												title="Sâm Hàn Quốc"><span>Hồng sâm Hàn Quốc</span></a></h2>
-										<div class="clear"></div>
-
-										<div class="product_ajj">
-											<div class="products_home_slideshow product_grid"
-												id="products_home_slideshow_113">
-												<!--	EACH Product				-->
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																<img class="lazy after-lazy"
-																	alt="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035"
-																	src="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg"
-																	srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns035-avatar_1680078983.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																	title="Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035"
-																	class="name">
-																	Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ
-																	NS035 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">999.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.430.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="caohongsam.php-han-quoc-cao-cap-6-nam-tuoi-hop-2-lo-ns035/"
-																title="Mua sản phẩm Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ NS035">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																<img class="lazy after-lazy"
-																	alt="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223"
-																	src="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg"
-																	srcset="https://onplaza.vn/images/products/2023/03/29/resized/ns223-avatar_1680079003.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																	title="POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223"
-																	class="name">
-																	POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói
-																	NS223 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.200.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">2.140.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/pocheon-nuoc-hong-sam-cao-ly-nguyen-chat-80ml30-goi-ns223/"
-																title="Mua sản phẩm POCHEON nước hồng sâm Cao Ly nguyên chất 80ml30 gói NS223">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																<img class="lazy after-lazy"
-																	alt="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856"
-																	src="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg"
-																	srcset="https://onplaza.vn/images/products/2021/12/29/resized/vien-hong-sam-nhung-huou-so-1-han-quoc-hop-30-vien-ns856_1640763113.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																	title="Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856"
-																	class="name">
-																	Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên
-																	NS856 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.300.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.690.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="vienhongsam.php-nhung-huou-so-1-han-quoc-hop-30-vien-ns856/"
-																title="Mua sản phẩm Viên hồng sâm nhung hươu số 1 Hàn Quốc hộp 30 viên NS856">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																<img class="lazy after-lazy"
-																	alt="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455"
-																	src="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg"
-																	srcset="https://onplaza.vn/images/products/2022/08/18/resized/ava-ns455_1660806923.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																	title="Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455"
-																	class="name">
-																	Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30
-																	(19 Củ) NS455... </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">5.400.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">10.214.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/hong-sam-chinh-phu-cu-kho-kgc-hop-thiec-loai-hop-300g-ns455/"
-																title="Mua sản phẩm Hồng Sâm Củ Khô Chính Phủ KGC Hộp Thiếc 300g Số 30 (19 Củ)  NS455">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																title="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322">
-																<img class="lazy after-lazy"
-																	alt="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322"
-																	src="https://onplaza.vn/images/products/2020/07/27/resized/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600-g-loai-lon-ns322_1595845359.jpg"
-																	srcset="https://onplaza.vn/images/products/2020/07/27/resized/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600-g-loai-lon-ns322_1595845359.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																	title="Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322"
-																	class="name">
-																	Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn)
-																	NS322 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">6.200.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">8.860.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="https://onplaza.vn/hop-sam-cao-ly-cao-cap-6-nam-tuoi-600g-ns322/"
-																title="Mua sản phẩm Hộp sâm Cao Ly cao cấp 6 năm tuổi 600g (loại lớn) NS322">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<div class="item ">
-													<div class="frame_inner">
-														<figure class="product_image ">
-
-															<a href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																title="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064">
-																<img class="lazy after-lazy"
-																	alt="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064"
-																	src="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-han-quoc-6-nam-tuoi-nguyen-cu-hop-thiec-ns064_1595842078.jpg"
-																	srcset="https://onplaza.vn/images/products/2020/07/27/resized/hong-sam-han-quoc-6-nam-tuoi-nguyen-cu-hop-thiec-ns064_1595842078.jpg.webp"
-																	style="display: inline;"> </a>
-
-														</figure>
-
-														<div class="name">
-															<h3><a style="color:#FFFFFF"
-																	href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																	title="Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064"
-																	class="name">
-																	Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g
-																	NS064 </a> </h3>
-
-														</div>
-
-														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8">1.300.000₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span class="item_old">1.860.000₫ </span>
-															</span>
-														</div>
-
-														<div class="buy_nows">
-															<a href="hongsamhanquoc.php-6-nam-tuoi-nguyen-cu-hop-thiec-75g-ns064/"
-																title="Mua sản phẩm Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc 75g NS064">
-																Mua sản phẩm
-															</a>
-														</div>
-
-													</div> <!-- end .frame_inner -->
-
-												</div>
-
-												<!--	end EACH Product				-->
-
-											</div>
-
-										</div>
-
-									</div>
-
-									<div class="clear"></div>
-
-								</div>
 							</div>
-
-							<div class="clear"></div>
-							<div class="description_start bg_white" style="background-color:#570505">
-								<div class=" ">
-									<div class="container">
-
-										<div class="cat_description description cls" id="box_conten_linfo">
-											<div class="float-left widget-toc">
-												<p class="toc-title">Contents</p>
-
-												<ol>
-													<li><a href="#NHÂN+SÂM+HÀN+QUỐC+LÀ+GÌ?">NHÂN SÂM HÀN QUỐC LÀ GÌ?</a>
-
-														<ol>
-															<li><a href="#Đặc+điểm+cây+nhân+sâm+Hàn+Quốc">Đặc điểm cây
-																	nhân sâm Hàn Quốc</a></li>
-															<li><a href="#Hình+dáng+củ+nhân+sâm+Hàn+Quốc">Hình dáng củ
-																	nhân sâm Hàn Quốc</a></li>
-															<li><a href="#Thành+phần+trong+nhân+sâm+Hàn+Quốc">Thành phần
-																	trong nhân sâm Hàn Quốc</a></li>
-														</ol>
-													</li>
-													<li><a href="#TÁC+DỤNG+CỦA+NHÂN+SÂM+HÀN+QUỐC">TÁC DỤNG CỦA NHÂN SÂM
-															HÀN QUỐC</a></li>
-													<li><a href="#BẢNG+GIÁ+CÁC+LOẠI+NHÂN+SÂM+HÀN+QUỐC">BẢNG GIÁ CÁC LOẠI
-															NHÂN SÂM HÀN QUỐC</a>
-														<ol>
-															<li><a href="#Giá+nhân+sâm+tươi+Hàn+Quốc">Giá nhân sâm tươi
-																	Hàn Quốc</a></li>
-															<li><a href="#Giá+hồng+sâm+củ+khô">Giá hồng sâm củ khô</a>
-															</li>
-															<li><a href="#Giá+cao+hồng+sâm">Giá cao hồng sâm</a></li>
-															<li><a href="#Bảng+giá+nước+hồng+sâm">Bảng giá nước hồng
-																	sâm</a></li>
-															<li><a href="#Giá+viên+hồng+sâm">Giá viên hồng sâm</a></li>
-															<li><a href="#Giá+sâm+tẩm+mật+ong">Giá sâm tẩm mật ong</a>
-															</li>
-														</ol>
-													</li>
-													<li><a href="#ĐỐI+TƯỢNG+NÊN+SỬ+DỤNG+NHÂN+SÂM">ĐỐI TƯỢNG NÊN SỬ DỤNG
-															NHÂN SÂM</a></li>
-													<li><a href="#CỬA+HÀNG+BÁN+NHÂN+SÂM+HÀN+QUỐC+CHÍNH+HÃNG">CỬA HÀNG
-															BÁN NHÂN SÂM HÀN QUỐC CHÍNH HÃNG</a></li>
-												</ol>
-											</div>
-
-											<p style="text-align:justify">Nhân sâm&nbsp;tươi từ lâu đã được sử dụng giúp
-												bồi bổ sức khỏe, tăng cường sức đề kháng cho con người, được đánh giá
-												cao từ trước đến nay. Nhân sâm được trồng ở nhiều quốc gia khác nhau
-												nhưng được đánh giá cao và được nhiều người sử dụng nhất vẫn là các dòng
-												sản phẩm <strong><a href="nhansamhanquoc.php">nhân
-														sâm&nbsp;Hàn Quốc</a>&nbsp;&nbsp;</strong>như sâm tươi, hồng
-												sâm, nước sâm. cao sâm, viên sâm,....</p>
-
-											<p style="text-align:center"><img class="lazy2"
-													alt="Thảo dược nhân sâm  giúp bảo vệ sức khỏe" height="466"
-													width="700"
-													src="/upload_images/images/Tin-tuc/Tin-tuc-sam/nhan-sam-thao-duoc-quy-cho-suc-khoe.jpg">
-											</p>
-
-											<p style="text-align:center"><em>Nhân sâm - thảo dược quý giá cho sức
-													khỏe</em></p>
-
-											<h2 id="NHÂN+SÂM+HÀN+QUỐC+LÀ+GÌ?" style="text-align:justify"><span
-													style="font-size:18px"><strong><span style="color:#d35400">NHÂN SÂM
-															HÀN QUỐC LÀ GÌ?</span></strong></span></h2>
-
-											<p style="text-align:justify"><strong>Nhân sâm Hàn Quốc</strong>&nbsp;là một
-												loại nhân sâm sinh trưởng và phát triển ở Hàn Quốc, theo lịch sử có từ
-												3000 năm trước Công Nguyên, là vị dược liệu quý của y học cổ
-												truyền.&nbsp;Sâm Hàn Quốc (Panax ginseng) thuộc họ Araliaceae và là một
-												loại thảo dược bổ sung có nguồn gốc từ rễ cây.</p>
-
-											<h3 id="Đặc+điểm+cây+nhân+sâm+Hàn+Quốc" style="text-align:justify"><span
-													style="font-size:14px"><strong>Đặc điểm cây nhân sâm Hàn
-														Quốc</strong></span></h3>
-
-											<p style="text-align:justify">Cây nhân sâm Hàn Quốc có tổng chiều dài khoảng
-												34cm, rễ dần phát triển thành củ to, lá mọc vòng có cuống dài, lá kép
-												gồm nhiều lá chét mọc thành hình chân vịt.&nbsp;</p>
-
-											<ul>
-												<li style="text-align:justify">Nếu cây mới chỉ 1 năm (nghĩa là sau khi
-													gieo được 2 năm) thì cây chỉ có 1 lá kép với 3 lá chét</li>
-												<li style="text-align:justify">Nếu cây nhân sâm được 2 năm cũng chỉ có 1
-													lá kép với 5 lá chét.</li>
-												<li style="text-align:justify">Cây nhân sâm 3 năm có 2 lá kép</li>
-												<li style="text-align:justify">Cây nhân sâm 4 năm có 3 lá kép</li>
-												<li style="text-align:justify">Cây nhân sâm 5 năm trở lên có 4 - 5 lá
-													kép tất cả đều có 5 lá chét (đặc biệt có thể có 6 lá chét) hình
-													trứng, mép lá chét có răng cưa sâu.</li>
-											</ul>
-
-											<p style="text-align:justify">Bắt đầu từ năm thứ 3 trở đi cây nhân sâm mới
-												cho hoa, kết quả. Hoa xuất hiện vào mùa hạ. Cụm hoa hình tán mọc ở đầu
-												cành, hoa màu xanh nhạt, 5 cánh hoa, 5 nhị, bầu hạ 2 núm. Quả mọng hơi
-												dẹt to bằng hạt đậu xanh, khi chín có màu đỏ, trong chứa 2 hạt.&nbsp;
-											</p>
-
-											<p style="text-align:justify">Hạt cây sâm năm thứ 3 chưa tốt. Thường người
-												ta bấm bỏ đi cây được 4 - 5 năm mới để ra quả và lấy hạt làm giống.</p>
-
-											<p style="text-align:justify">Nhân sâm được trồng trên khắp các cánh đồng
-												của Hàn Quốc, trở thành ngành công nghiệp của quốc gia này. Sâm
-												Hàn&nbsp;trồng ở thành phố Geumsan là tốt nhất, bởi ở đây có thổ nhưỡng,
-												khí hậu vô dùng thuận lợi để trồng ra những củ nhân sâm có chất lượng
-												tốt nhất thế giới.</p>
-
-											<h3 id="Hình+dáng+củ+nhân+sâm+Hàn+Quốc" style="text-align:justify">
-												<strong><span style="font-size:14px">Hình dáng củ nhân sâm Hàn
-														Quốc</span></strong>
-											</h3>
-
-											<p>Củ <strong>nhân sâm tươi Hàn Quốc</strong> có đặc điểm phần thân và rễ
-												cái có sự tỷ lệ cân đối với nhau (củ nhân sâm có 2 nhánh rễ cái rõ ràng
-												hình dáng giống người là củ sâm quý, rất hiếm gặp, giá củ sâm này cũng
-												rất cao).</p>
-
-											<p style="text-align:center"><img class="lazy2"
-													alt="&nbsp;Củ nhân sâm tươi Hàn Quốc 6 năm tuổi hình dáng giống người là củ sâm quý, rất hiếm gặp."
-													height="411" width="700"
-													src="/upload_images/images/Tin-tuc/Tin-tuc-sam/nhan-sam-tuoi-han-quoc-6-nam-tuoi-co-hinh-dang-hinh-nguoi.jpg">
-											</p>
-
-											<p style="text-align:center"><em>&nbsp;Củ nhân sâm tươi Hàn Quốc 6 năm tuổi
-													hình dáng giống người là củ sâm quý, rất hiếm gặp</em></p>
-
-											<p style="text-align:justify">Củ sâm 6 năm tuổi chất lượng cao nhìn hài hòa
-												cân xứng, có từ 2 - 3 rễ cái với rất nhiều rễ con mọc xum xê xung quanh
-												củ. Các rễ con có các nốt sần nổi lên, rễ dai và khó bẻ gãy.</p>
-
-											<p style="text-align:justify">Thân củ sâm 6 năm tuổi to dài đặc ruột, màu
-												vàng già là sâm đầy đủ dưỡng chất. Màu sắc củ sâm thường là màu vàng
-												đậm&nbsp;hoặc vàng nhạt phụ thuộc vào khu vực đất trồng sâm, nấu sâm
-												được trồng ở nơi đất cát thì củ sâm thường có màu vàng nhạt hơn.</p>
-
-											<blockquote>
-												<p style="text-align:justify">Chúng tôi đã tải lên một số hình ảnh củ
-													nhân sâm tươi Hàn Quốc lên cộng đồng mạng xã hội ảnh Flick được
-													nhiều người đánh giá cao. Hãy xem thêm <a
-														href="https://www.flickr.com/photos/193210318@N06/albums/72157719730383140">TẠI
-														ĐÂY&nbsp;</a></p>
-											</blockquote>
-
-											<p style="text-align:justify"><strong>Củ nhân sâm Hàn Quốc</strong> đạt giá
-												trị dưỡng chất, thành phần saponin cao nhất khi <strong>củ sâm đủ 6 năm
-													tuổi</strong>, quá 6 năm tuổi củ sâm sẽ bị già hàm lượng dưỡng chất
-												giảm đi.</p>
-
-											<p style="text-align:justify">Để thu hoạch được củ nhân sâm tươi 6 năm tuổi
-												đạt chất lượng cao thì cây giống phải là từ những hạt giống khỏe, trồng
-												tại nơi thổ nhưỡng giàu dinh dưỡng và đảm bảo đất luôn được giữ ẩm thích
-												hợp để sâm sinh trưởng tốt.</p>
-
-											<p style="text-align:justify">Để thu hoạch được những củ nhân sâm tươi là
-												rất khó, phải áp dụng đúng kỹ thuật nuôi trồng theo từng năm tuổi nếu
-												không củ sâm tươi dễ bị lụi, thối khi đạt 4 - 5 năm tuổi.</p>
-
-											<p style="text-align:justify">Sau 6 năm vun trồng củ sâm tươi được thu hoạch
-												nhiều vào tháng 9, tránh làm rễ bị đứt, không phơi gió, phơi nắng để giữ
-												nguyên độ ẩm trong sâm. Sau đó chia loại sâm tốt để làm hồng sâm, loại
-												kém để làm bạch sâm.</p>
-
-											<h3 id="Thành+phần+trong+nhân+sâm+Hàn+Quốc" style="text-align:justify">
-												<strong><span style="font-size:14px">Thành phần trong nhân sâm Hàn
-														Quốc</span></strong>
-											</h3>
-
-											<ul>
-												<li style="text-align:justify">Trong nhân sâm có rất nhiều hợp chất <a
-														href="https://onplaza.vn/duoc-lieu/saponin-la-gi-tac-dung-cua-saponin-ra-sao-n365.html">saponin</a>
-													và Ginsenosides: Ro, Re, Rg1, Rg2, Rg3, Rh1, Rh2, Ra1, Ra2...Đây
-													cũng là những thành phần quan trọng và rất quý trong nhân sâm.</li>
-												<li style="text-align:justify">Thành phần tinh dầu khiến nhân sâm có mùi
-													đặc biệt</li>
-												<li style="text-align:justify">Các vitamin B1 và B2, 53% là axit
-													photphoric , 17 Axit béo (8 loại Axit Amin cần thiết nhất cho cơ
-													thể)</li>
-												<li style="text-align:justify">Các khoáng chất khác như: Sắt, Mangan,
-													Selen, Kali….giúp hỗ trợ nâng cao hệ miễn dịch</li>
-												<li style="text-align:justify">Trong nhân sâm có hàm lượng gemanium cao
-													giúp tăng hệ đề kháng.</li>
-											</ul>
-
-											<h2 id="TÁC+DỤNG+CỦA+NHÂN+SÂM+HÀN+QUỐC" style="text-align:justify"><span
-													style="font-size:18px"><strong><span style="color:#d35400">TÁC DỤNG
-															CỦA NHÂN SÂM HÀN QUỐC</span></strong></span></h2>
-
-											<p style="text-align:justify">( Các thử nghiệm dược tính của nhân sâm trên
-												động vật cũng có tác dụng trên cơ thể người)</p>
-
-											<p style="text-align:justify"><em><strong>+/ Tác dụng hỗ trợ giảm mệt mỏi hệ
-														thần kinh</strong></em></p>
-
-											<p style="text-align:justify">Tại Trung Quốc, trong bản thảo cương mục của
-												Lý Thời Trân (thế kỷ 16) có ghi thử nghiệm về tác dụng làm giảm mệt của
-												nhân sâm như sau: Cho 2 người cùng chạy, một người có ngậm miếng nhân
-												sâm một người không ngậm, sau khi chạy độ 3 - 5 dặm người không ngậm
-												nhân sâm sẽ thở mạnh còn người có ngậm nhân sâm vẫn thở như thường.</p>
-
-											<p style="text-align:justify">Tại Liên Xô, trong các năm 1949 - 1951
-												Abramôva &nbsp;có thí nghiệm &nbsp;theo phương pháp cho chuột nhắt lội
-												nước thì thấy nhân sâm có tác dụng làm chuột đỡ mệt.</p>
-
-											<p style="text-align:justify"><em><strong>+/ Tác dụng ổn định huyết áp và
-														tim</strong></em></p>
-
-											<p style="text-align:justify">Các nhà nghiên cứu Liên Xô cũ: Burkrat và
-												Xakxopov (1947) và Kixêlev (1948-1959) đã nghiên cứu nước sắc và cồn
-												nhân sâm kết luận rằng tác dụng của dung dịch nước và dung dịch rượu
-												nhân sâm như sau: Kixêlev dùng dung dịch 5%, 10% và 20% nhân sâm tiêm
-												vào tĩnh mạch thỏ và mèo thấy tác dụng hạ huyết áp, với nồng độ nhân sâm
-												phù hợp sẽ hỗ trợ giúp điều hòa huyết áp và tim.</p>
-
-											<p style="text-align:justify">Năm 1954 và 1956 một số tác giả Trung Quốc
-												cũng xác nhận trong Trung Hoa nội khoa tạp chí và Trung Hoa y học tạp
-												chí tác dụng hạ đường huyết của nhân sâm.&nbsp;</p>
-
-											<p style="text-align:justify"><strong><em>+/ Tác dụng hỗ trợ sinh trưởng và
-														nâng cao chức năng sinh lý</em></strong></p>
-
-											<p style="text-align:justify">Cho uống hoặc tiêm thuốc chế bằng nhân sâm
-												hoặc các chất lấy từ nhân sâm trên một số động vật so sánh với một số
-												động vật không dùng nhân sâm thấy trọng lượng con vật tăng lên, thời
-												gian giao cấu của con vật kéo dài, hiện tượng tình dục xuất hiện rõ rệt.
-											</p>
-
-											<p style="text-align:justify"><strong><em>+/ Tác dụng nâng sức chống đỡ bệnh
-														tật.</em></strong></p>
-
-											<p style="text-align:justify">Những thí nghiệm của Daugolnokov (1950 -
-												1952), Brekhman và Phruentov (1954 - 1957)và Abramov (1953) cho biết
-												nhân sâm có tác dụng tăng sức đề kháng của động vật đối với bệnh tật.
-											</p>
-
-											<h2 id="BẢNG+GIÁ+CÁC+LOẠI+NHÂN+SÂM+HÀN+QUỐC" style="text-align:justify">
-												<span style="font-size:18px"><strong><span style="color:#d35400">BẢNG
-															GIÁ CÁC LOẠI NHÂN SÂM HÀN QUỐC</span></strong></span>
-											</h2>
-
-											<p style="text-align:justify"><strong><em>Trên thị trường có nhiều loại sâm
-														do chế biến khác nhau như:&nbsp;</em></strong></p>
-
-											<ul>
-												<li style="text-align:justify">Củ nhân sâm tươi</li>
-												<li style="text-align:justify">Hồng sâm khô nguyên củ</li>
-												<li style="text-align:justify">Cao hồng sâm</li>
-												<li style="text-align:justify">Nước hồng sâm</li>
-												<li style="text-align:justify">Viên hồng sâm&nbsp;</li>
-												<li style="text-align:justify">Trà hồng sâm</li>
-												<li style="text-align:justify">Sâm tẩm mật ong</li>
-											</ul>
-
-											<p style="text-align:justify">Ngoài cách phân loại này, còn có cách phân
-												loại khác dựa vào màu sắc, quy trình chế biến gồm có: Bạch sâm, Hồng
-												sâm, Hắc sâm.</p>
-
-											<p style="text-align:justify">Các sản phẩm khác nhau từ nhân sâm mang đến sự
-												lựa chọn phong phú cho người dùng, mỗi loại sản phẩm lại có những lợi
-												ích sử dụng riêng biệt. Sản phẩm nhân sâm qua nhiều công đoạn chế biến
-												sẽ giúp phân tách các hợp chất saponin, nâng cao thành phần dưỡng chất
-												mang lại nhiều lợi ích cho sức khỏe.</p>
-
-											<h3 id="Giá+nhân+sâm+tươi+Hàn+Quốc" style="text-align:justify"><strong>Giá
-													nhân sâm tươi Hàn Quốc</strong></h3>
-
-											<p style="text-align:justify">Sâm tươi Hàn Quốc luôn&nbsp;có sức hút lớn
-												trên thị trường, được nhiều người lựa chọn. Củ sâm tươi có chất lượng
-												tốt nhất phải là loại sâm trên 6 năm tuổi bởi lúc này trong củ sâm mới
-												tổng hợp được hết các thành phần dưỡng chất tốt, đặc biệt là hợp chất
-												saponin. Nhân sâm tươi có mùi thơm rất đặc trưng, chỉ cần ngửi một lần
-												cũng&nbsp;sẽ không bao giờ bị lẫn với các loại củ khác. Theo kết quả
-												nghiên cứu khoa học đã chỉ ra rằng các thành phần trong sâm tươi rất tốt
-												với những người yếu sinh lí, người mới ốm dậy, người bị suy nhược cơ
-												thể,... Hiện nay, trên thị trường <strong><a
-														href="http://onplaza.vn/nhan-sam-tuoi">giá&nbsp;sâm tươi Hàn
-														Quốc</a></strong> 6 năm tuổi trở lên là từ 2 triệu trở lên, tùy
-												thuộc vào kích thước, hình dáng củ.</p>
-
-											<p style="text-align:center"><img class="lazy2"
-													alt="Bảng giá nhân sâm hàn quốc áp dụng tùy từng thời điểm"
-													height="1181" width="700"
-													src="/upload_images/images/Tin-tuc/Tin-tuc-sam/bang-gia-sam-tuoi-han-quoc.jpg">
-											</p>
-
-											<p style="text-align:center"><em>Bảng giá&nbsp;sâm tươi hàn quốc áp dụng tùy
-													từng thời điểm&nbsp;</em></p>
-
-											<p style="text-align:justify">Củ sâm tươi Hàn Quốc có thể sử dụng để ngâm
-												mật ong, ngâm rươu, thái lát pha trà uống hoặc dùng để chế biến thành
-												các món ăn như gà hầm nhân sâm, canh nhân sâm hạt sen,...</p>
-
-											<h3 id="Giá+hồng+sâm+củ+khô" style="text-align:justify"><strong>Giá hồng sâm
-													củ khô</strong></h3>
-
-											<p style="text-align:justify">Hồng sâm củ khô là một dạng chế phẩm từ sâm
-												tươi, trải qua 3 - 4 lần hấp sấy ở nhiệt độ thấp để tạo ra dòng sản phẩm
-												hồng sâm củ khô nguyên chất. Sâm tươi được lựa chọn để sản xuất hồng sâm
-												phải&nbsp;là những củ sâm trên 6 năm tuổi.&nbsp;Do đã được chế biến nên
-												hồng sâm củ khô có thể được sử dụng cho nhiều nhóm đối tượng hơn. Hiện
-												nay, trên thị trường hồng sâm củ khô nổi tiếng với các sản phẩm hộp
-												thiếc thương hiệu KGC (Sâm Chính Phủ), Deadong, Punggi,
-												Chamhansam,....&nbsp;</p>
-
-											<p style="text-align:center"><strong>Bảng giá các sản phẩm hồng sâm củ
-													khô</strong></p>
-
-											<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-												<tbody>
-													<tr>
-														<td style="text-align:center"><strong>Mã sp</strong></td>
-														<td style="text-align:center"><strong>Tên sản phẩm</strong></td>
-														<td style="text-align:center"><strong>Trọng lượng</strong></td>
-														<td style="text-align:center"><strong>Giá bán</strong></td>
-													</tr>
-													<tr>
-														<td>NS455</td>
-														<td>Hồng sâm Chính phủ củ khô KGC hộp thiếc</td>
-														<td style="text-align:center">300gr</td>
-														<td style="text-align:center">5.400.000</td>
-													</tr>
-													<tr>
-														<td>NS028</td>
-														<td>Sâm khô nguyên củ hộp sắt Daedong</td>
-														<td style="text-align:center">300gr</td>
-														<td style="text-align:center">3.400.000</td>
-													</tr>
-													<tr>
-														<td>NS322</td>
-														<td>Hộp sâm Cao Ly cao cấp 6 năm tuổi</td>
-														<td style="text-align:center">600g</td>
-														<td style="text-align:center">6.200.000</td>
-													</tr>
-													<tr>
-														<td>NS074</td>
-														<td>Hồng sâm nguyên củ sấy khô Hàn Quốc đặc biệt&nbsp;</td>
-														<td style="text-align:center">300gr</td>
-														<td style="text-align:center">2.400.000</td>
-													</tr>
-													<tr>
-														<td>NS081</td>
-														<td>Sâm nguyên củ hộp sắt Daedong hộp số 30</td>
-														<td style="text-align:center">300gr</td>
-														<td style="text-align:center">3.600.000</td>
-													</tr>
-													<tr>
-														<td>NS064</td>
-														<td>Hồng sâm Hàn Quốc 6 năm tuổi nguyên củ hộp thiếc</td>
-														<td style="text-align:center">75gr</td>
-														<td style="text-align:center">1.300.000</td>
-													</tr>
-													<tr>
-														<td>NS066</td>
-														<td>Hồng sâm nguyên củ hộp thiếc Hàn Quốc thượng hạng</td>
-														<td style="text-align:center">600gr</td>
-														<td style="text-align:center">4.500.000</td>
-													</tr>
-												</tbody>
-											</table>
-
-											<p style="text-align:justify">&nbsp;</p>
-
-											<h3 id="Giá+cao+hồng+sâm" style="text-align:justify"><strong>Giá cao hồng
-													sâm</strong></h3>
-
-											<p>Cao hồng sâm ở dạn keo đặc sệt, màu cánh gián. Từ những củ nhân sâm tươi
-												trên 6 năm tuổi&nbsp;được mang đi sơ chế, hấp cách thủy để tạo ra hồng
-												sâm, sau đó&nbsp;trải qua quá trình tinh luyện, cô đặc để tạo ra các sản
-												phẩm cao hồng sâm. Dưới đây là giá một số sản phẩm cao hồng sâm phổ biến
-												được nhập khẩu chính hãng tại Hàn Quốc và phân phối bơi Onplaza.</p>
-
-											<p style="text-align:center"><strong>Bảng giá cao hồng sâm Hàn Quốc</strong>
-											</p>
-
-											<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-												<tbody>
-													<tr>
-														<td style="text-align:center"><strong>Mã SP</strong></td>
-														<td style="text-align:center"><strong>Tên sản phẩm</strong></td>
-														<td style="text-align:center"><strong>Giá bán</strong></td>
-													</tr>
-													<tr>
-														<td>NS855</td>
-														<td>Cao hồng sâm Hàn Quốc cao cấp hũ đôi 500g*2 hộp</td>
-														<td style="text-align:center">1.900.000</td>
-													</tr>
-													<tr>
-														<td>NS037</td>
-														<td>Cao Hoàng Đế đặc biệt loại hộp màu xanh ngọc 500gr</td>
-														<td style="text-align:center">1.600.000</td>
-													</tr>
-													<tr>
-														<td>NS035</td>
-														<td>Cao hồng sâm Hàn Quốc cao cấp 6 năm tuổi hộp 2 lọ</td>
-														<td style="text-align:center">999.000</td>
-													</tr>
-													<tr>
-														<td>NS033</td>
-														<td>Cao hồng sâm Hanil Hàn Quốc cao cấp loại hộp 4 lọ</td>
-														<td style="text-align:center">1.850.000</td>
-													</tr>
-													<tr>
-														<td>NS141</td>
-														<td>Cao hắc sâm Hàn Quốc loại thượng hạng hộp 1kg</td>
-														<td style="text-align:center">1.300.000</td>
-													</tr>
-													<tr>
-														<td>NS038</td>
-														<td>Cao Hoàng Hậu đặc biệt hộp màu nâu&nbsp;loại 500g</td>
-														<td style="text-align:center">1.600.000</td>
-													</tr>
-													<tr>
-														<td>NS206</td>
-														<td>Cao hồng sâm Hàn Quốc 2 lọ hộp gỗ</td>
-														<td style="text-align:center">1.200.000</td>
-													</tr>
-												</tbody>
-											</table>
-
-											<p style="text-align:justify">&nbsp;</p>
-
-											<p style="text-align:justify">Để có hiệu quả tốt khi sử dụng cao hồng sâm
-												cần dùng đúng liều lượng với thể trạng của từng người, cụ thể:</p>
-
-											<ul>
-												<li style="text-align:justify">Với người bình thường, dùng bồi bổ sức
-													khỏe: ngày dùng 1 - 2 lần, mỗi lần 10gr, pha với 100ml nước ấm và
-													uống.</li>
-												<li style="text-align:justify">Với người bệnh: ngày dùng 2 - 3 lần, mỗi
-													lần 20gr, pha với 100ml nước ấm và uống.</li>
-											</ul>
-
-											<h3 id="Bảng+giá+nước+hồng+sâm" style="text-align:justify"><strong>Bảng giá
-													nước hồng sâm</strong></h3>
-
-											<p style="text-align:justify">Nước hồng sâm Hàn Quốc ở dạng nước vừa là một
-												loại nước giải khát vừa là nguồn bổ sung nguồn dưỡng chất cho cơ thể
-												giúp nâng cao sức khỏe, phòng ngừa bệnh tật. Nước hồng sâm gồm có thành
-												phần chính là nhân sâm 6 năm tuổi, ngoài ra còn kết hợp thêm các dược
-												liệu khác như&nbsp;linh chi, nhung hươu, đông trùng, xuyên khung, đương
-												quy, quế, ngải cứu, táo đỏ, địa hoàng…</p>
-
-											<p style="text-align:center"><strong>Bảng giá các sản phẩm nước hồng sâm Hàn
-													Quốc chính hãng</strong></p>
-
-											<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-												<tbody>
-													<tr>
-														<td style="text-align:center"><strong>Mã sp</strong></td>
-														<td style="text-align:center"><strong>Tên sản phẩm</strong></td>
-														<td style="text-align:center"><strong>Giá bán</strong></td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS223</td>
-														<td>POCHEON nước hồng sâm Cao Ly nguyên chất</td>
-														<td style="text-align:center">1.200.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS046</td>
-														<td>Nước ép hồng sâm Hàn Quốc 6 năm tuổi hộp 30 gói</td>
-														<td style="text-align:center">750.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS838</td>
-														<td>Nước hồng sâm cao cấp Hàn Quốc Pocheon Korean Drink</td>
-														<td style="text-align:center">700.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS049</td>
-														<td>Nước uống hồng sâm KGS Hàn Quốc cao cấp loại có củ</td>
-														<td style="text-align:center">400.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS057</td>
-														<td>Nước ép hồng sâm Hàn Quốc thượng hạng chai 3 lít</td>
-														<td style="text-align:center">1.800.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS130</td>
-														<td>Nước hồng sâm Daedong thượng hạng hộp 30 gói</td>
-														<td style="text-align:center">999.000</td>
-													</tr>
-													<tr>
-														<td style="text-align:center">NS048</td>
-														<td>Nước hắc sâm Hàn Quốc 100% thương hiệu Daedong</td>
-														<td style="text-align:center">2.450.000</td>
-													</tr>
-												</tbody>
-											</table>
-
-											<p style="text-align:justify">&nbsp;</p>
-
-											<h3 id="Giá+viên+hồng+sâm" style="text-align:justify"><strong>Giá viên hồng
-													sâm</strong></h3>
-
-											<p style="text-align:justify">Viên hồng sâm được sản xuất ở dạng viên nén
-												hoặc viên nhộng nên rất thuận tiện khi sử dụng. Sử dụng viên hồng sâm có
-												tác dụng không kém gì so với hồng sâm củ khô đều có tác dụng giúp tăng
-												cường sức khỏe, hồi phục thể lực, chống mệt mỏi, điều hòa nhịp tim, bổ
-												não,...&nbsp;&nbsp;</p>
-
-											<p style="text-align:center"><strong>Bảng giá viên hồng sâm chính hãng Hàn
-													Quốc</strong></p>
-
-											<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-												<tbody>
-													<tr>
-														<td style="text-align:center"><strong>Mã sp</strong></td>
-														<td style="text-align:center"><strong>Tên sản phẩm</strong></td>
-														<td style="text-align:center"><strong>Giá bán</strong></td>
-													</tr>
-													<tr>
-														<td>NS750</td>
-														<td>Viên hồng sâm cao cấp chính phủ KGC hộp 150 viên</td>
-														<td style="text-align:center">1.450.000</td>
-													</tr>
-													<tr>
-														<td>NS856</td>
-														<td>Viên hồng sâm nhung hươu cao cấp Hàn Quốc hộp 30 viên</td>
-														<td style="text-align:center">1.300.000</td>
-													</tr>
-													<tr>
-														<td>NS750</td>
-														<td>Viên hồng sâm cao cấp chính phủ KGC hộp 300 viên*600mg</td>
-														<td style="text-align:center">2.800.000</td>
-													</tr>
-													<tr>
-														<td>NS289</td>
-														<td>POCHEON Viên nang cao hồng sâm</td>
-														<td style="text-align:center">1.100.000</td>
-													</tr>
-													<tr>
-														<td>NS767</td>
-														<td>Viên hồng sâm Hwal Gi Dan chính phủ KGC 3.75g*10 viên</td>
-														<td style="text-align:center">980.000</td>
-													</tr>
-													<tr>
-														<td>NS101</td>
-														<td>Viên nang nhân sâm linh chi 120v NK</td>
-														<td style="text-align:center">750.000</td>
-													</tr>
-													<tr>
-														<td>NS452</td>
-														<td>Viên hồng sâm cao cấp chính phủ KGC lọ 800v</td>
-														<td style="text-align:center">1.540.000</td>
-													</tr>
-												</tbody>
-											</table>
-
-											<p style="text-align:justify">&nbsp;</p>
-
-											<h3 id="Giá+sâm+tẩm+mật+ong" style="text-align:justify"><strong>Giá sâm tẩm
-													mật ong</strong></h3>
-
-											<p style="text-align:justify">Sâm tẩm mật ong là sự kết hợp của củ sâm Hàn
-												Quốc với mật ong nguyên chất có công dụng vô cùng tốt với sức khỏe, sản
-												phẩm có hương vị rất thơm ngon và bổ dưỡng. Sâm tẩm mật ong gồm có 2
-												loại: Hồng sâm nguyên củ tẩm mật ong và hồng sâm thái lát tẩm mật ong, 2
-												sản phẩm này đều có công dụng như nhau.</p>
-
-											<p style="text-align:center"><strong>Bảng giá sâm tẩm mật ong Hàn
-													Quốc</strong></p>
-
-											<table border="1" cellpadding="1" cellspacing="1" style="width:500px">
-												<tbody>
-													<tr>
-														<td style="text-align:center"><strong>Mã sp</strong></td>
-														<td style="text-align:center"><strong>Tên sản phẩm</strong></td>
-														<td style="text-align:center"><strong>Giá bán</strong></td>
-													</tr>
-													<tr>
-														<td>NS030</td>
-														<td>Hồng sâm thái lát tẩm mật ong 6 năm tuổi cao cấp Bio Apgold
-														</td>
-														<td style="text-align:center">980.000</td>
-													</tr>
-													<tr>
-														<td>NS090</td>
-														<td>Hồng sâm nguyên củ Hàn Quốc tẩm mật ong 200g (8 củ)</td>
-														<td style="text-align:center">800.000</td>
-													</tr>
-													<tr>
-														<td>NS287</td>
-														<td>Hồng sâm tẩm mật ong thái lát Pocheon 200g</td>
-														<td style="text-align:center">980.000</td>
-													</tr>
-													<tr>
-														<td>NS129</td>
-														<td>Hồng sâm tẩm mật ong Daedong Hàn Quốc loại 10 củ</td>
-														<td style="text-align:center">1.400.000</td>
-													</tr>
-													<tr>
-														<td>NS028</td>
-														<td>Hồng Sâm thái lát tẩm mật ong cao cấp KGS 200g</td>
-														<td style="text-align:center">999.000</td>
-													</tr>
-													<tr>
-														<td>NS032</td>
-														<td>Hồng sâm thái lát tẩm mật ong KGS 100g</td>
-														<td style="text-align:center">580.000</td>
-													</tr>
-													<tr>
-														<td>NS286</td>
-														<td>Hồng sâm nguyên củ tẩm mật ong cao cấp Pocheon</td>
-														<td style="text-align:center">1.200.00</td>
-													</tr>
-												</tbody>
-											</table>
-
-											<p style="text-align:justify">&nbsp;</p>
-
-											<h2 id="ĐỐI+TƯỢNG+NÊN+SỬ+DỤNG+NHÂN+SÂM" style="text-align:justify"><span
-													style="font-size:18px"><span style="color:#d35400"><strong>ĐỐI TƯỢNG
-															NÊN SỬ DỤNG NHÂN SÂM</strong></span></span></h2>
-
-											<p style="text-align:justify">Nhân sâm sử dụng hiệu quả với những người thể
-												trạng yếu, mệt mỏi lâu ngày, sắc mặt xanh sao, tay chân hay đổ mồ hôi,
-												ăn uống kém.</p>
-
-											<p style="text-align:justify">Với những người lãnh cảm tình dục, gặp các vấn
-												đề về chức năng sinh lý sử dụng nhân sâm cũng giúp cải thiện tình trạng
-												đáng kể</p>
-
-											<p style="text-align:justify">Người mới ốm dậy cần bồi bổ, người già, người
-												muốn duy trì chăm sóc sức khỏe...cũng thường dùng nhân sâm.</p>
-
-											<p style="text-align:justify"><em><strong>*** Lưu ý:</strong></em></p>
-
-											<ul>
-												<li style="text-align:justify">Với người bị cảm không nên dùng nhân sâm
-												</li>
-												<li style="text-align:justify">Người bị lạnh bụng, đi ngoài cũng không
-													nên dùng nhân sâm tươi</li>
-												<li style="text-align:justify">Phụ nữ mang thai và cho con bú không nên
-													dùng nhân sâm</li>
-												<li style="text-align:justify">Trẻ nhỏ phát triển bình thường không nên
-													dùng nhân sâm (với trẻ chậm lớn thiếu cân hay ốm vặt có thể&nbsp;sử
-													dụng nhân sâm sẽ hỗ trợ cải thiện tình trạng, nhưng cần tham khảo ý
-													kiến bác sĩ trước khi dùng).</li>
-											</ul>
-
-											<h2 id="CỬA+HÀNG+BÁN+NHÂN+SÂM+HÀN+QUỐC+CHÍNH+HÃNG"
-												style="text-align:justify"><span style="font-size:18px"><span
-														style="color:#d35400"><strong>CỬA HÀNG BÁN NHÂN SÂM HÀN QUỐC
-															CHÍNH HÃNG</strong></span></span></h2>
-
-											<p style="text-align:justify">Khi mua các <strong>sản phẩm từ nhân
-													sâm</strong>&nbsp;như củ sâm tươi, củ hồng sâm khô, cao sâm, nước
-												hồng sâm, viên sâm,... người dùng lưu ý nên tìm đến các cơ sở kinh doanh
-												lớn, uy tín để mua được sản phẩm chính hãng, giá chuẩn. Mặc dù sâm được
-												bán khá phổ biến, rất dễ mua nhưng khách hàng cần hết sức thận trọng vì
-												tình trạng hàng giả hàng nhái xuất hiện tràn lan, nhiều đơn vị lợi dụng
-												nhu cầu sử dụng cao mà trà trộn hàng giả kém chất lượng nhằm kiếm lợi
-												nhuận cao.</p>
-
-											<p style="text-align:justify">Vì vậy&nbsp;người tiêu dùng cần xem xét bao bì
-												sản phẩm kỹ lưỡng, nguồn gốc phải rõ ràng, sản phẩm chính hãng có mã
-												vạch để check kiểm tra hàng thật - giả, khi mua có hóa đơn, cam kết từ
-												nhà bán.</p>
-
-											<p style="text-align:justify"><strong>Thế giới dinh dưỡng Onplaza</strong>
-											</p>
-
-											<p style="text-align:justify"><strong>Cửa hàng On-plaza</strong> tại Hà Nội
-												và Hồ Chí Minh&nbsp;còn đang phân phối rất nhiều các sản phẩm nhân sâm
-												giá trị khác như: hồng sâm củ khô, cao hồng sâm, nước hồng sâm, hồng sâm
-												tẩm mật ong, bình r.ư.ợ.u nhân sâm, bình sâm ngâm mật ong mang đến nhiều
-												lựa chọn cho khách hàng.</p>
-
-											<p style="text-align:center"><strong><em>CAM KẾT HOÀN TIỀN GẤP 10 LẦN NẾU
-														PHÁT HIỆN HÀNG GIẢ,&nbsp;HÀNG KÉM CHẤT LƯỢNG</em></strong></p>
-
-											<p style="text-align:justify"><strong>✔</strong> Chính sách giao hàng tận
-												nơi, khách nhận hàng kiểm tra hài lòng mới phải thanh toán.</p>
-
-											<p style="text-align:justify"><strong>✔</strong> Cam kết giá bán ưu đãi</p>
-
-											<p style="text-align:justify"><strong>✔</strong> Đội ngũ nhân viên tận tâm,
-												chu đáo.</p>
-
-											<p style="text-align:justify"><strong>Thông tin liên hệ:</strong></p>
-
-											<ul>
-												<li style="text-align:justify">Địa chỉ: Số 19 – 21 đường Cách Mạng Tháng
-													8, Phường Bến Thành, Quận 1, TP.HCM, Việt Nam</li>
-												<li style="text-align:justify">Hotline: 0968606169</li>
-												<li style="text-align:justify">Website: https://onplaza.vn/</li>
-												<li style="text-align:justify">Email: info@onplaza.vn</li>
-											</ul>
-
-											<p style="text-align:justify">Cập nhật thông tin về nhân sâm hàn quốc được
-												Onplaza chia sẻ thông qua</p>
-
-											<ul>
-												<li style="text-align:justify"><strong>Twitter:</strong>&nbsp;<a
-														href="https://twitter.com/i/events/1399203493127233537">https://twitter.com/i/events/1399203493127233537</a>
-												</li>
-												<li style="text-align:justify"><strong>Facebook:&nbsp;</strong><a
-														href="https://www.facebook.com/congtyonplazavietphap">https://www.facebook.com/congtyonplazavietphap</a>
-												</li>
-												<li style="text-align:justify"><strong>Aboutme:</strong><a
-														href="https://about.me/onplazavn"
-														target="_blank">https://about.me/onplazavn</a></li>
-												<li style="text-align:justify"><strong>Googlebusiness:&nbsp;</strong><a
-														href="https://onplazavietphap.business.site/posts/836990598172345019?hl=vi">https://onplazavietphap.business.site</a>
-												</li>
-											</ul>
-										</div>
-
-										<div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
-											</span></div>
-
-									</div>
-
-								</div>
-							</div>
-
-							<script type="text/javascript">
-								var cr_layout_type = 'viewList';
-								var cr_items = ["104", "119", "134"];
-							</script>
-							<div class="homemenu_fixed" id="menu_scroll">
-								<ul>
-									<li class="item">
-										<a href="javascript:void(0)" id="sticky_1"
-											title="Nhân Sâm tươi Hàn Quốc 6 năm tuổi">
-											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
-													</path>
-												</svg></span>
-											<span class="text_hide">Nhân Sâm tươi Hàn Quốc 6 năm tuổi</span>
-										</a>
-									</li>
-									<li class="item">
-										<a href="javascript:void(0)" id="sticky_2" title="Sâm tẩm mật ong">
-											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
-													</path>
-												</svg></span>
-											<span class="text_hide">Sâm tẩm mật ong</span>
-										</a>
-									</li>
-									<li class="item">
-										<a href="javascript:void(0)" id="sticky_3" title="Trà sâm">
-											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
-													</path>
-												</svg></span>
-											<span class="text_hide">Trà sâm</span>
-										</a>
-									</li>
-									<li class="item">
-										<a href="javascript:void(0)" id="sticky_4" title="Kẹo sâm">
-											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
-													</path>
-												</svg></span>
-											<span class="text_hide">Kẹo sâm</span>
-										</a>
-									</li>
-									<li class="item">
-										<a href="javascript:void(0)" id="sticky_5" title="Hồng sâm Hàn Quốc">
-											<span class="icon"><svg height="30" viewBox="-22 0 511 511.998" width="30"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
-													</path>
-												</svg></span>
-											<span class="text_hide">Hồng sâm Hàn Quốc</span>
-										</a>
-									</li>
-								</ul>
-							</div>
-
-							<style>
-								.products-cat-frame-inner .cat-title {
-									background-color: #8908085c;
-									border-bottom: 1px solid #3c1403;
-
-								}
-
-								.products-cat-frame-inner .cat-title h1 {
-									color: #F4E0AF;
-								}
-
-								.products-cat-frame-inner .summary_content {
-									color: #FFFFFF;
-								}
-
-								.products-cat-frame-inner {}
-
-								#products-cat {
-									background-color: #370008;
-								}
-
-								.product_ajj .products_home_slideshow {
-									display: flex;
-									flex-wrap: wrap;
-									margin: 0px -10px;
-
-								}
-
-								/* @media screen and (max-width:650px) {
-									margin: 0px -5px;
-								} */
-
-								.product_ajj .products_home_slideshow .item {
-									width: calc(calc(100% / 3) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-								.product_ajj .products_home_slideshow .item2 {
-									width: calc(calc(100% / 4) - 20px);
-									margin: 0px 10px 30px;
-								}
-
-								@media screen and (max-width:900px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 3) - 20px);
-										margin: 0px 10px 20px;
-										padding: 0px;
-									}
-								}
-
-								@media screen and (max-width:650px) {
-									.product_ajj .products_home_slideshow .item2 {
-										width: calc(calc(100% / 2) - 10px);
-										margin: 0px 5px 20px;
-										padding: 0px;
-									}
-								}
-
-
-								#products-cat .cat-title-main a {
-									background-color: #5D1C00;
-									color: #FFB26F;
-
-								}
-
-								#products-cat .cat-title-main a:before {
-									background-color: #471500;
-								}
-
-								.breadcrumbs {
-									background-color: #370008;
-									border: unset;
-								}
-
-								.description_start {
-									color: #FFFFFF;
-								}
-							</style>
 						</div>
+
 						<div class="clear"></div>
-					</div>
-					<!-- end.Content -->
-				</div>
-
-				<div class="clear"></div>
-
-				<!--Trên Footer-->
-
-				<div class="introdu pos_footer">
-					<div class="wraper_block">
-						<div class="block_banners banners-_banner banners_0 block" id="block_id_148">
-							<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
-								<div class="item">
-									<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101"
-										class="banner_item">
-
-										<span class="wrapper_ap">
-											<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
-												src="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg"
-												srcset="https://onplaza.vn/images/banners/compress/dia-chi-cong-cty-tnhh-onplaza-viet-phap_1601028234.jpg.webp"
-												style="display: inline;">
-										</span>
-
-									</a>
-								</div>
-
-								<div class="clear"></div>
-							</div>
-							<div class="clear"></div>
-
-						</div>
-					</div>
-				</div>
-				<div class="clear"></div>
-
-				<div class="introdu pos_strength">
-					<div class="wraper_block" style="background-color:#1C0702">
-						<div class="block_strengths strengths-_strengths strengths_0 block" id="block_id_139">
+						<div class="description_start bg_white" style="background-color:#39231A">
 							<div class="container">
-								<div class="scroll_hori">
-									<div class="strengths_retangle2_block cls">
-										<div class="item  item_logo">
-											<div class="item-inner">
-												<div class="item-l">
-													<div class="isvg">
-														<img class="lazy after-lazy" alt="CÔNG TY ONPLAZA VIỆT PHÁP"
-															src="https://onplaza.vn/images/strengths/resized/logo_1590462023.png"
-															srcset="https://onplaza.vn/images/strengths/resized/logo_1590462023.png.webp"
-															style="display: inline;">
-													</div>
-												</div>
-												<div class="item-r">
-													<div class="title" style="color: #F4E0AF">
-														CÔNG TY ONPLAZA VIỆT PHÁP </div>
 
-												</div>
-											</div>
-										</div>
+								<div class="cat_description description cls" id="box_conten_linfo">
+									<div class="float-left widget-toc">
+										<p class="toc-title">Contents</p>
 
-										<div class="item ">
-											<div class="item-inner">
-												<div class="item-l">
-													<div class="isvg">
-														<svg version="1.1" id="Capa_1"
-															xmlns="http://www.w3.org/2000/svg"
-															xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-															viewBox="0 0 511.999 511.999"
-															style="enable-background:new 0 0 511.999 511.999;"
-															xml:space="preserve">
-															<g>
-																<g>
-																	<path
-																		d="M374.821,0c-74.434,0-134.984,62.55-134.984,136.984c0,30.992,10.619,60.901,29.997,84.848v87.28l94.003-37.584 			c3.618,0.293,7.279,0.439,10.985,0.439c74.434,0,136.984-60.55,136.984-134.984S449.256,0,374.821,0z M329.827,151.982H299.83 			v-29.997h29.997V151.982z M389.82,151.982h-29.997v-29.997h29.997V151.982z M449.813,151.982h-29.997v-29.997h29.997V151.982z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<polygon
-																		points="364.085,304.675 321.668,347.106 448.687,474.125 491.351,431.94 		">
-																	</polygon>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<polygon
-																		points="79.865,20.455 37.44,62.879 164.699,190.137 207.131,147.72 		">
-																	</polygon>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M19.287,87.143c-33.934,66.566-22.13,147.566,31.372,201.054l172.949,172.949c33.482,33.482,77.804,50.868,122.593,50.853 			c26.815,0,53.671-6.616,78.6-19.343C358.955,426.827,77.855,145.713,19.287,87.143z">
-																	</path>
-																</g>
-															</g>
-														</svg>
-													</div>
-												</div>
-												<div class="item-r">
-													<div class="title" style="color: #F4E0AF">
-														Hỗ trợ 24/7 </div>
-
-												</div>
-											</div>
-										</div>
-
-										<div class="item ">
-											<div class="item-inner">
-												<div class="item-l">
-													<div class="isvg">
-														<svg version="1.1" id="Capa_1"
-															xmlns="http://www.w3.org/2000/svg"
-															xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-															viewBox="0 0 512 512"
-															style="enable-background:new 0 0 512 512;"
-															xml:space="preserve">
-															<g>
-																<g>
-																	<path
-																		d="M393.542,219.688c-0.973,2.383-1.519,4.983-1.519,7.711v31.152h32.975v-38.863H393.542z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M0,219.688v87.403c0,24.162,19.656,43.819,43.818,43.819h239.189v-47.358v-30.001h19.014v-46.152 			c0-2.592,0.097-5.162,0.273-7.711H0z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M381.18,52.461H43.818C19.656,52.461,0,72.117,0,96.279v17.236v1.001h424.998v-1.001V96.279 			C424.998,72.117,405.341,52.461,381.18,52.461z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M0,144.517v42.168v3.002h308.653c6.395-17.555,17.123-33.043,30.882-45.17H0z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M412.504,146.916c-44.377,0-80.481,36.105-80.481,80.483v46.152h30.001v-46.152c0-27.836,22.646-50.482,50.48-50.482 			s50.481,22.647,50.481,50.482v46.152h30.001v-46.152C492.986,183.021,456.881,146.916,412.504,146.916z">
-																	</path>
-																</g>
-															</g>
-															<g>
-																<g>
-																	<path
-																		d="M313.007,303.552v155.988H512V303.552H313.007z M427.504,397.182v32.575h-30.001v-32.575 			c-10.471-5.442-17.644-16.385-17.644-28.98c0-18,14.644-32.645,32.645-32.645s32.645,14.644,32.645,32.645 			C445.148,380.796,437.975,391.74,427.504,397.182z">
-																	</path>
-																</g>
-															</g>
-														</svg>
-													</div>
-												</div>
-												<div class="item-r">
-													<div class="title" style="color: #F4E0AF">
-														Bảo mật thanh toán </div>
-
-												</div>
-											</div>
-										</div>
-
+										<ol>
+											<li><a href="#CÁCH+NHẬN+BIẾT+SỐ+TUỔI+CỦA+CỦ+NHÂN+SÂM+TƯƠI">CÁCH NHẬN BIẾT SỐ
+													TUỔI CỦA CỦ NHÂN SÂM TƯƠI</a></li>
+											<li><a href="#ĐỊA+CHỈ+MUA+SÂM+TƯƠI+HÀN+QUỐC+CHUẨN">ĐỊA CHỈ MUA SÂM TƯƠI HÀN
+													QUỐC CHUẨN</a></li>
+											<li><a href="#CÔNG+DỤNG+CỦA+NHÂN+SÂM+TƯƠI+HÀN+QUỐC">CÔNG DỤNG CỦA NHÂN SÂM
+													TƯƠI HÀN QUỐC</a></li>
+											<li><a href="#CÁCH+SỬ+DỤNG+NHÂN+SÂM+TƯƠI">CÁCH SỬ DỤNG NHÂN SÂM TƯƠI</a>
+												<ol>
+													<li><a href="#Sâm+tươi+ngâm+mật+ong">Sâm tươi ngâm mật ong</a></li>
+													<li><a href="#Nhân+sâm+tươi+ngâm+r.ư.ợ.u">Nhân sâm tươi ngâm
+															r.ư.ợ.u</a></li>
+													<li><a href="#Pha+trà">Pha trà</a></li>
+													<li><a href="#Dùng+nhân+sâm+tươi+chế+biến+thành+món+ăn">Dùng nhân
+															sâm tươi chế biến thành món ăn</a></li>
+												</ol>
+											</li>
+											<li><a href="#ĐỐI+TƯỢNG+NÊN+DÙNG+-+KHÔNG+NÊN+DÙNG+NHÂN+SÂM+TƯƠI">ĐỐI TƯỢNG
+													NÊN DÙNG - KHÔNG NÊN DÙNG NHÂN SÂM TƯƠI</a></li>
+											<li><a href="#CÁCH+BẢO+QUẢN+NHÂN+SÂM+TƯƠI">CÁCH BẢO QUẢN NHÂN SÂM TƯƠI</a>
+											</li>
+											<li><a href="#MỘT+SỐ+CÂU+HỎI+THƯỜNG+GẶP+KHI+SỬ+DỤNG+NHÂN+SÂM+TƯƠI">MỘT SỐ
+													CÂU HỎI THƯỜNG GẶP KHI SỬ DỤNG NHÂN SÂM TƯƠI</a>
+												<ol>
+													<li><a
+															href="#✔️&nbsp;&nbsp;Người+bị+cao+huyết+áp+có+dùng+được+sâm+tươi+không?">✔️&nbsp;&nbsp;Người
+															bị cao huyết áp có dùng được sâm tươi không?</a></li>
+													<li><a href="#✔️&nbsp;+Bà+bầu+có+nên+uống+sâm+tươi+mật+ong+không?">✔️&nbsp;
+															Bà bầu có nên uống sâm tươi mật ong không?</a></li>
+												</ol>
+											</li>
+										</ol>
 									</div>
 
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="clear"></div>
+									<p style="text-align:justify">Trong <a href="nhansamhanquoc.php"><strong>các loại
+												sâm Hàn
+												Quốc</strong></a> thì <strong>sâm tươi</strong>&nbsp;từ xưa đến nay luôn
+										được đánh giá rất cao, những giá trị của nhân sâm đối sức khỏe đã được giới khoa
+										học công nhận: hỗ trợ tăng tế bào máu, hỗ trợ hồi phục các tổn thương trong cơ
+										thể, cường hệ miễn dịch từ đó mà có thể phòng ngừa được bệnh tật, hồi phục thể
+										trạng. Vậy để biết<strong> </strong>giá sâm tươi Hàn Quốc là bao nhiêu? Địa chỉ
+										mua sâm chuẩn và cách nhận biết số tuổi của củ sâm tươi Hàn Quốc như thế nào thì
+										quý vị không nên bỏ qua bài viết này.</p>
 
-				<div class="footer lazy after-lazy"
-					style="background-image: url(assets/img/background/bg5.png); display: block;">
-					<footer>
-						<div class="container cls">
+									<h2 id="CÁCH+NHẬN+BIẾT+SỐ+TUỔI+CỦA+CỦ+NHÂN+SÂM+TƯƠI" style="text-align:justify">
+										<span style="font-size:18px"><span style="color:#d35400"><strong>CÁCH NHẬN BIẾT
+													SỐ TUỔI CỦA CỦ NHÂN SÂM TƯƠI</strong></span></span>
+									</h2>
 
-							<div class="footer_top cls">
+									<p style="text-align:justify">➢<em><strong> Nguồn gốc:</strong></em></p>
 
-								<div class="all-hotline-ft cls">
+									<p style="text-align:justify">Nhân sâm Hàn Quốc được mang đi trồng ở nhiều nước điển
+										hình như Trung Quốc, Nhật Bản, Mỹ, Ấn Độ, vùng Viễn Đông Nga. Tuy nhiên Hàn
+										Quốc, Triều Tiên là quốc gia là nơi có điều kiện khí hậu thuận lợi nhất giúp
+										nhân sâm phát triển và tổng hợp được nhiều thành phần saponin trong nhân sâm bởi
+										thế thị trường thế giới chỉ chuộng nhân sâm tại Hàn Quốc và Triều Tiên.</p>
 
-									<div class="share_fast_small">
-										<div class="title">HỆ THỐNG SHOWROOM</div>
-									</div>
-									<div class="block_content address_content">
+									<p style="text-align:justify">Nhân sâm Hàn Quốc đạt hàm lượng saponin cao nhất chỉ
+										khi củ sâm đủ 6 năm tuổi.</p>
 
-										<div class="title">
-											<svg width="20px" height="20px" version="1.1" id="Capa_1"
-												xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 426.667 426.667"
-												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
-												<g>
-													<g>
-														<path
-															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
-														</path>
-													</g>
-												</g>
+									<p style="text-align:center"><img class="lazy2"
+											alt="Nhân sâm tươi Hàn Quốc 6 năm tuổi - món quà ý nghĩa cho sức khỏe"
+											height="595" width="800"
+											src="/upload_images/images/Tin-tuc/Tin-tuc-sam/nhan-sam-tuoi.jpg"></p>
 
-											</svg>
-											Hà Nội:
-										</div>
+									<p style="text-align:center"><em>Nhân sâm tươi Hàn Quốc 6 năm tuổi - món quà ý nghĩa
+											cho sức khỏe</em></p>
 
-										<ul class="item">
+									<p style="text-align:justify"><strong>➢ Nhận biết tuổi của củ sâm tươi:</strong></p>
 
-											<li>
-												<p>LK: 76 Hai Bà Trưng</p>
-											</li>
-											<li>
-												<p>Địa chỉ:76 Hai Bà Trưng, Hoàn Kiếm, Hà Nội <br> (Cách Bệnh Biện K 50m
-													-
-													Cách Tòa Tháp Đôi Hà Nội 60m)</p>
-											</li>
-											<li>
-												<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55
-													-
-													09.66.60.61.69</p>
-											</li>
+									<p style="text-align:justify">Để nhận biết tuổi sâm cần có&nbsp; nhiều kinh nghiệm,
+										sau đây một số chia sẻ của Onplaza giúp khách hàng lựa chọn được củ sâm chuẩn
+										đẹp, đủ tuổi</p>
 
-										</ul>
+									<ul>
+										<li style="text-align:justify">Củ sâm 1 năm tuổi thì phần đầu sẽ có 1 chồi (mắt
+											sâm), chưa phân nhánh rễ</li>
+										<li style="text-align:justify">Củ sâm 2 năm tuổi phần đầu có 2 chồi (mắt)</li>
+										<li style="text-align:justify">Tương tự, củ sâm 4 năm có 2 chồi; củ sâm 5 năm có
+											3 chồi; củ sâm 6 năm có 3 - 4 chồi (mắt)</li>
+										<li style="text-align:justify">Khi cắt ngang củ sâm, để 5 - 10 phút rồi lấy tay
+											xoa lên mặt sâm sẽ thấy các đường vân sâm nổi lên sâm đủ 6 năm tuổi sẽ có 5
+											đường vân, sâm 3 tuổi có 2 đường vân</li>
+									</ul>
 
-										<ul class="item">
+									<p style="text-align:justify">Bên trong ruột của củ sâm 6 năm thấy bề mặt có độ mịn
+										màng chặt chẽ còn củ sâm non kết cấu bên trong sẽ không chặt chẽ. Để củ sâm sinh
+										trưởng đạt 6 năm tuổi đòi hỏi phải được chăm sóc kỹ lưỡng chuẩn kỹ thuật, nếu
+										không củ sâm thường chỉ đạt 4 - 5 tuổi sẽ bị sâu bệnh tấn công và phải thu
+										hoạch, hàm lượng saponin lúc này không đạt tối đa.</p>
 
-											<li>
-												<p>LK: 327 Trường Chinh</p>
-											</li>
-											<li>
-												<p>Địa chỉ:327 Trường Chinh, Ngã Tư Sở, Hà Nội <br> (Cách Ngã Tư Sở
-													Khoảng
-													200m)</p>
-											</li>
-											<li>
-												<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
-													09.65.69.63.64</p>
-											</li>
+									<p style="text-align:center"><img class="lazy2"
+											alt="Người dùng khi mua lưu ý nhận diện sâm Hàn Quốc và sâm Trung Quốc"
+											height="733" width="521"
+											src="https://onplaza.vn/upload_images/images/Tin-tuc/Tin-tuc-sam/cach-nhan-biet-sam-tot-cu-sam-dep-co-hinh-dang-giong-nguoi.jpg">
+									</p>
 
-										</ul>
+									<p style="text-align:justify">&nbsp;</p>
 
-										<div class="title">
-											<svg width="20px" height="20px" version="1.1" id="Capa_1"
-												xmlns="http://www.w3.org/2000/svg"
-												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-												viewBox="0 0 426.667 426.667"
-												style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
-												<g>
-													<g>
-														<path
-															d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
-														</path>
-													</g>
-												</g>
+									<p style="text-align:justify">➢<em><strong> Đặc điểm nhân sâm tươi Hàn Quốc 6 năm
+												tuổi:</strong></em></p>
 
-											</svg>
-											Hồ Chí Minh:
-										</div>
+									<p style="text-align:justify">Nhân sâm có đặc điểm là mùa xuân sẽ đâm chồi phát
+										triển đến mùa đông thì cuống chồi đó sẽ khô queo đi và rụng để lại một mấu (gọi
+										là mắt sâm), sang mùa xuân tiếp theo chồi khác lại mọc lên và lại rụng đi vào
+										mùa đông. Như vậy củ sâm 6 năm tuổi thì trên phần đầu củ thường có 3 - 4 mắt
+										sâm, không có đủ rõ 6 mắt vì khi củ càng to sẽ che đi chồi (mắt) của những năm
+										đầu tiên.</p>
 
-										<ul class="item">
+									<p style="text-align:justify">Củ sâm 6 năm nhìn sẽ thấy rất già màu, có màu vàng
+										ngà.</p>
 
-											<li>
-												<p>LK: Hồ Chí Minh</p>
-											</li>
-											<li>
-												<p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 –
-													TP.HCM
-													<br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
-													Trống Đồng )
-												</p>
-											</li>
-											<li>
-												<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69
-												</p>
-											</li>
+									<p style="text-align:justify">Khu vực thu được nhân sâm 6 năm tuổi giàu thành phần
+										saponin thường là ở khu vực phía Bắc nơi tiếp giáp với Triều Tiên, màu củ sâm ở
+										đây cũng sẽ vàng sậm hơn.</p>
 
-										</ul>
+									<p style="text-align:justify">Củ sâm 6 năm tuổi khi cầm thấy chắc tay, phần thân và
+										phần chân nhánh cân đối, rễ xum xuê, củ nhân sâm đẹp là củ có 2 chân dưới rõ
+										ràng rất giống hình người (củ nhân sâm như thế này rất hiếm gặp).</p>
 
-									</div>
-								</div>
+									<h2 id="ĐỊA+CHỈ+MUA+SÂM+TƯƠI+HÀN+QUỐC+CHUẨN" style="text-align:justify"><span
+											style="font-size:18px"><span style="color:#d35400"><strong>ĐỊA CHỈ MUA SÂM
+													TƯƠI HÀN QUỐC CHUẨN</strong></span></span></h2>
 
-								<div class="footer-menu cls">
-									<ul class="menu-bottom cls">
-										<li class="  level0  first-item">
-											<span class="click-mobile" data-id="menu-sub1"></span> <span
-												data-id="item_1">
-												Chính sách &amp; bảo hành </span>
-											<ul id="menu-sub1" class="cls">
-												<li class="  level1  first-sitem ">
-													<a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều
-														khoản
-														mua hàng </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<span> Hướng dẫn mua hàng </span>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="hinhthucthanhtoan.php" title="Phương thức thanh toán">
-														Phương
-														thức thanh toán </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển">
-														Phương
-														thức vận chuyển </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách
-														bảo
-														mật </a>
-												</li>
-												<li class="  level1  mid-sitem ">
-													<a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
-														sách đổi trả hàng </a>
-												</li>
-											</ul>
+									<p style="text-align:justify"><strong>Mua sâm tươi Hàn Quốc ở đâu?</strong> Hiện
+										nay, trên thị trường có nhiều đơn vị, người bán lẻ mua sâm tươi Trung Quốc để
+										trộn hoặc gắn mác thành sâm tươi Hàn Quốc đế bán với giá cao hơn. Do đó, để đảm
+										bảo được hiệu quả và chất lượng khi sử dụng sâm tươi Hàn Quốc cần phải tìm mua
+										được địa chỉ bán sâm tươi chuẩn, có cam kết rõ ràng với khách hàng.</p>
+
+									<p style="text-align:justify"><strong>Công ty Thế giới dinh dưỡng Onplaza</strong>
+									</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;&nbsp;</em></strong>Cam kết nhân
+										sâm tươi chuẩn 6 năm tuổi, được nhập trực tiếp từ các nông trại tại Hàn Quốc,
+										không qua bất kỳ đơn vị trung gian.</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;</em></strong> Cam kết mức giá ưu
+										đãi nhất thị trường</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;</em></strong>Từng củ nhân sâm
+										được tuyển chọn kỹ lưỡng, củ to đẹp nhiều rễ xum xuê</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;</em></strong>Cam kết không phải
+										hàng chợ, hàng trôi nổi bên Hàn Quốc.</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;</em></strong> Chính sách giao
+										hàng toàn quốc</p>
+
+									<p style="text-align:justify"><strong><em>✔️&nbsp;</em></strong>Khách nhận hàng,
+										kiểm tra hài lòng mới phải thanh toán.</p>
+
+									<p style="text-align:justify">Liên hệ:</p>
+
+									<ul>
+										<li style="text-align:justify">Địa chỉ: Số 19 – 21 đường Cách Mạng Tháng 8,
+											Phường Bến Thành, Quận 1, TP.HCM, Việt Nam</li>
+										<li style="text-align:justify">Hotline: 0968606169</li>
+										<li style="text-align:justify">Website: https://onplaza.vn/</li>
+										<li style="text-align:justify">Email: info@onplaza.vn</li>
+									</ul>
+
+									<p style="text-align:justify">Theo dõi các mạng xã hội của chúng tôi để cập nhật
+										thông tin</p>
+
+									<ul>
+										<li style="text-align:justify"><strong>Twitter:</strong>&nbsp;<a
+												href="https://twitter.com/onplazavietphap">https://twitter.com/onplazavietphap</a>
+										</li>
+										<li style="text-align:justify"><strong>Facebook:</strong><a
+												href="https://www.facebook.com/congtyonplazavietphap">https://www.facebook.com/congtyonplazavietphap</a>
+										</li>
+										<li style="text-align:justify"><strong>Pinterest:&nbsp;</strong><a
+												href="https://www.pinterest.com/onplaza/"
+												target="_blank">https://www.pinterest.com/onplaza/</a></li>
+										<li style="text-align:justify"><strong>Googlebusiness:&nbsp;</strong><a
+												href="https://onplazavietphap.business.site/posts/1850397211999904852?hl=vi">https://onplazavietphap.business.site</a>
 										</li>
 									</ul>
 
+									<p style="text-align:center"><strong>Bảng giá nhân sâm tươi Hàn Quốc tại
+											Onplaza</strong></p>
+
+									<p style="text-align:center"><a
+											href="https://www.flickr.com/photos/193210318@N06/51376699756/in/album-72157719730383140/"><img
+												class="lazy2" alt="Giá nhân sâm tươi 6 năm tuổi" height="1181"
+												width="700"
+												src="/upload_images/images/Tin-tuc/Tin-tuc-sam/bang-gia-sam-tuoi-tai-he-thong-onplaza-607x1024.jpg"></a>
+									</p>
+
+									<p style="text-align:center"><em>Giá 1kg&nbsp;nhân sâm tươi Hàn Quốc các loại tại Hà
+											Nội, Hồ Chí Minh (tại thời điểm viết bài)</em></p>
+
+									<h2 id="CÔNG+DỤNG+CỦA+NHÂN+SÂM+TƯƠI+HÀN+QUỐC" style="text-align:justify"><span
+											style="font-size:18px"><span style="color:#d35400"><strong>CÔNG DỤNG CỦA
+													NHÂN SÂM TƯƠI HÀN QUỐC</strong></span></span></h2>
+
+									<p style="text-align:justify">Theo GS. Đỗ Tất lợi - Những cây thuốc và vị thuốc Việt
+										Nam - NXB Y học - 2006, trang 804-808, Nhân sâm được coi là một loại dược liệu
+										đứng đầu trong các vị thuốc bổ, trong đó nhân sâm Triều tiên là nổi tiếng hơn cả
+										về chất lượng. Theo Đông y, nhân sâm có <em><a
+												href="https://onplaza.vn/tin-tuc-sam/nhan-sam-n47.html">tác dụng của
+												nhân sâm</a></em> giúp bổ các tạng tâm, can, tỳ, phế, thận, yên tinh
+										thần, định hồn phách, làm giảm sợ hãi, ích khí, trừ tà khí, giúp sáng mắt. Dùng
+										lâu giúp nhẹ mình, tăng tuổi thọ, giảm ho suyễn.</p>
+
+									<p style="text-align:justify">Nhân sâm với thành phần gồm các hoạt chất saponin quý
+										cùng rất nhiều các nguyên tố vi lượng Fe, Mn, Co, Se, K…nhiều loại axit béo,
+										vitamin cần thiết cho cơ thể giúp bổ khí và bổ huyết. Vì vậy có thể sử dụng nhân
+										sâm cho hầu hết các nhóm đối tượng để hỗ trợ tăng cường khí huyết, đặc biệt với
+										người gầy yếu hay mệt mỏi, người chức năng sinh lý kém, người già ăn ngủ
+										kém...khi khí và huyết được lưu thông tốt sẽ làm giảm mệt mỏi, cơ thể hồi phục,
+										tăng tỉnh táo, hỗ trợ giảm quá trình lão hóa, hỗ trợ nâng cao sức khỏe tổng thể.
+									</p>
+
+									<p style="text-align:center"><img class="lazy2"
+											alt="Hàm lượng saponin trong nhân sâm đạt cao nhất khi sâm đủ 6 năm tuổi."
+											height="643" width="700"
+											src="/upload_images/images/Tin-tuc/Tin-tuc-sam/thanh-phan-nhan-sam1.jpg">
+									</p>
+
+									<p style="text-align:center"><em>Hàm lượng saponin trong nhân sâm đạt cao nhất khi
+											sâm đủ 6 năm tuổi</em></p>
+
+									<h2 id="CÁCH+SỬ+DỤNG+NHÂN+SÂM+TƯƠI" style="text-align:justify"><span
+											style="font-size:18px"><strong><span style="color:#d35400">CÁCH SỬ DỤNG NHÂN
+													SÂM TƯƠI</span></strong></span></h2>
+
+									<h3 id="Sâm+tươi+ngâm+mật+ong" style="text-align:justify"><span
+											style="font-size:14px"><strong>Sâm tươi ngâm mật ong</strong></span></h3>
+
+									<p style="text-align:justify">Nhân sâm tươi&nbsp;ngâm cùng mật ong mang lại hiệu quả
+										rất tuyệt vời, hương vị thơm ngon ai cũng rất ưa chuộng. Mỗi ngày múc ít nước
+										mật ong cùng 2 - 3 lát nhân sâm khuấy đều với 150ml nước nóng ấm rồi thưởng
+										thức. Với người kiêng ăn đường thì có thể ăn nhiều sâm ít mật ong.</p>
+
+									<p style="text-align:justify">Người dùng có thể mua sâm tươi về tự ngâm với mật ong
+										sau 1 tháng là có thể sử dụng &nbsp;hoặc có thể mua bình sâm mật ong ngâm sẵn về
+										dùng được ngay.</p>
+
+									<h3 id="Nhân+sâm+tươi+ngâm+r.ư.ợ.u" style="text-align:justify"><span
+											style="font-size:14px"><strong>Nhân sâm tươi ngâm r.ư.ợ.u</strong></span>
+									</h3>
+
+									<p style="text-align:justify">Các bình r.ư.ợ.u sâm rất được các quý ông ưa chuộng,
+										bình sâm không chỉ có giá trị chăm sóc sức khỏe mà còn là bình sâm phong thủy
+										mang lại may mắn cho gia chủ. Đặt bình r.ư.ợ.u sâm to đẹp trong căn phòng khách
+										sẽ tăng sự sang trọng tạo điểm nhấn độc đáo thu hút bất kỳ vị khách nào khi bước
+										chân vào nhà bạn.</p>
+
+									<p style="text-align:justify">Sâm được lựa chọn để ngâm r.ư.ợ.u thường là loại 3
+										củ/kg hoặc 4 củ/kg, sâm to đẹp chất lượng cao, khi ngâm trong bình các củ sâm
+										được tạo thế cẩn thận đảm bảo tính thẩm mỹ, cao cấp.</p>
+
+									<p style="text-align:center"><img class="lazy2"
+											alt="&nbsp;Bình r.ư.ợ.u sâm Hàn Quốc bổ dưỡng còn mang ý nghĩa phong thủy, mang lại may mắn."
+											height="739" width="700"
+											src="/upload_images/images/Tin-tuc/Tin-tuc-sam/ct-3_02.jpg"></p>
+
+									<p style="text-align:center"><em>&nbsp;Bình r.ư.ợ.u sâm Hàn Quốc bổ dưỡng còn mang ý
+											nghĩa phong thủy, mang lại may mắn</em></p>
+
+									<h3 id="Pha+trà" style="text-align:justify"><span style="font-size:14px"><strong>Pha
+												trà</strong></span></h3>
+
+									<p style="text-align:justify">Nhân sâm tươi dùng để hãm trà cũng là làm khá thông
+										dụng được nhiều người yêu thích. Củ sâm tươi được thái thành các lát mỏng, mỗi
+										lần hãm cho 3 - 4 lát sâm tươi hãm với nước sôi trong vòng 15 phút rồi thưởng
+										thức.</p>
+
+									<p style="text-align:justify">Nước nhân sâm bổ dưỡng hương thơm ngát tự nhiên uống
+										xong sẽ thấy tâm trạng trở nên thư thái, khỏe mạnh giải tỏa căng thẳng, mệt mỏi.
+									</p>
+
+									<h3 id="Dùng+nhân+sâm+tươi+chế+biến+thành+món+ăn" style="text-align:justify">
+										<strong><span style="font-size:14px">Dùng nhân sâm tươi chế biến thành món
+												ăn</span></strong>
+									</h3>
+
+									<p style="text-align:justify">Củ nhân sâm tươi cắt lát hầm cùng: gà, chim cút, canh
+										móng giò, cháo, canh nhân sâm hạt sen...rất bổ dưỡng để bồi bổ sức khỏe đặc biệt
+										với người mới ốm dậy. Xem hướng dẫn chi tiết các nấu các món ăn với nhân sâm
+										tươi tại bài:&nbsp;<a
+											href="https://onplaza.vn/tin-tuc-sam/cach-su-dung-nhan-sam-n49.html">5 cách
+											sử dụng nhân sâm thông dụng hiệu quả nhất</a></p>
+
+									<h2 id="ĐỐI+TƯỢNG+NÊN+DÙNG+-+KHÔNG+NÊN+DÙNG+NHÂN+SÂM+TƯƠI"
+										style="text-align:justify"><span style="color:#d35400"><span
+												style="font-size:18px"><strong>ĐỐI TƯỢNG NÊN DÙNG - KHÔNG NÊN DÙNG NHÂN
+													SÂM TƯƠI</strong></span></span></h2>
+
+									<p style="text-align:justify">Sâm tươi Hàn Quốc là một loại dược liệu tự nhiên vô
+										cùng tốt nếu được dùng cho các đúng đối ttượng, đủ liều lượng. Theo các tài liệu
+										được ghi lại trong những cuốn sách Đông y, nhân sâm có tác dụng bổ khí, bổ
+										huyết, tăng sự tỉnh táo, giảm căng thẳng thần kinh, dùng trị chứng chân khí suy
+										yếu, cơ thể mệt mỏi, người gầy yếu, mới ốm dậy.... Do đó, nhân sâm tươi được
+										<strong>KHUYÊN DÙNG</strong>&nbsp;cho các nhóm đối tượng:
+									</p>
+
+									<ul>
+										<li style="text-align:justify">Những người có sức khỏe và sức đề kháng yếu</li>
+										<li style="text-align:justify">Người lao động căng thẳng, mệt mỏi, hay
+											bị&nbsp;stress</li>
+										<li style="text-align:justify">Nhóm người có nguy cơ bị tiểu đường cao</li>
+										<li style="text-align:justify">Người bị các bệnh về tim mạch, huyết áp thấp</li>
+									</ul>
+
+									<p style="text-align:justify">Khi sử dụng sâm tươi cần hết sức lưu ý, <strong>KHÔNG
+											DÙNG</strong> cho những nhóm đối tượng sau:</p>
+
+									<ul>
+										<li style="text-align:justify">Người lạnh bụng, thể hàn, đau bụng ỉa chảy, đầy
+											bụng, trướng hơi...không nên dùng nhân sâm.</li>
+										<li style="text-align:justify">Những bệnh về hô hấp do tà khí gây nên như ho,
+											sốt, viêm phế quản có đờm dãi, khí úng trệ gây ho, khó thở cấp... nếu dùng
+											nhân sâm sẽ làm bệnh nặng thêm.</li>
+										<li style="text-align:justify">Sau khi dùng nhân sâm không ăn củ cải và đồ hải
+											sản</li>
+										<li style="text-align:justify">Người lớn uống liên tục mỗi ngày trên 0,3 g bột
+											củ nhân sâm có thể bị mất ngủ, trầm cảm, giảm cân.</li>
+										<li style="text-align:justify">Trẻ còn bú uống 0,03-0,06 g sâm sẽ có biểu hiện
+											trúng độc, quấy khóc không yên, u uất, mặt bệch rồi tím tái, cơ co giật, thở
+											gấp, tim đập chậm, tiếng tim mờ, nôn ra chất như cà phê. Trẻ nhỏ phát triển
+											bình thường không nên dùng.</li>
+										<li style="text-align:justify">Phụ nữ mang thai và đang cho con bú không nên
+											dùng</li>
+										<li style="text-align:justify">Không dùng nhân sâm thay thế cho t.h.u.ố.c chữa
+											bệnh</li>
+										<li style="text-align:justify">Dùng sâm ban ngày, không dùng vào buổi tối gây
+											mất ngủ</li>
+									</ul>
+
+									<p style="text-align:justify">Sâm tươi có tính hàn, để giảm bớt tính hàn, các nhà
+										khoa học nghiên cứu ra dòng <strong><a href="hongsamhanquoc.php">hồng
+												sâm</a></strong> củ khô
+										có tính ấm, có thể sử dụng thường xuyên giúp làm ấm cơ thể, bồi bổ sức khỏe.</p>
+
+									<h2 id="CÁCH+BẢO+QUẢN+NHÂN+SÂM+TƯƠI" style="text-align:justify"><span
+											style="font-size:18px"><span style="color:#d35400"><strong>CÁCH BẢO QUẢN
+													NHÂN SÂM TƯƠI</strong></span></span></h2>
+
+									<p style="text-align:justify">Nhân sâm tươi khi mua về cần rửa sạch rồi cho vào túi
+										bóng buộc chặt để trong ngăn mát tủ lạnh. Nhân sâm tươi có thể bảo quản 7 - 10
+										ngày trong tủ lạnh. Mỗi lần dùng đem củ sâm ra thái thành các lát mỏng.</p>
+
+									<p style="text-align:justify">Cách rửa củ sâm tươi: Cho cả củ sâm &nbsp;vào chậu để
+										rửa, có thể dùng bàn chải nhỏ để chà sạch các ngóc ngách củ sâm, rửa nhiều lần
+										nước cho đến khi củ sâm thật sạch.</p>
+
+									<p style="text-align:justify">➤&nbsp;<strong><em>Chú ý tránh để sâm tươi lâu bên
+												ngoài không khí sẽ khiến sâm dễ bị hỏng</em></strong></p>
+
+									<h2 id="MỘT+SỐ+CÂU+HỎI+THƯỜNG+GẶP+KHI+SỬ+DỤNG+NHÂN+SÂM+TƯƠI"
+										style="text-align:justify"><span style="font-size:18px"><span
+												style="color:#d35400"><strong>MỘT SỐ CÂU HỎI THƯỜNG GẶP KHI SỬ DỤNG NHÂN
+													SÂM TƯƠI</strong></span></span></h2>
+
+									<h3 id="✔️&nbsp;&nbsp;Người+bị+cao+huyết+áp+có+dùng+được+sâm+tươi+không?"
+										style="text-align:justify"><strong><em>✔️&nbsp;</em>&nbsp;Người bị cao huyết áp
+											có dùng được sâm tươi không?</strong></h3>
+
+									<p style="text-align:justify">Người bị cao huyết áp có dùng được sâm tươi không? Đối
+										với người bị cao huyết áp vẫn có thể sử dụng sâm tươi nhưng dùng trong thời điểm
+										huyết áp đang ở trang thái bình thường, còn khi chỉ số huyết áp đang ở mức cao
+										thì TUYỆT ĐỐI không được cho người bệnh dùng sâm vì sẽ làm cho nhịp tim co bóp
+										nhanh hơn, gây tình trạng bệnh nặng hơn. Ngoài ra, với người cao huyết áp có thể
+										sử dụng thêm các sản phẩm được chế biến từ sâm như hồng sâm, nước hồng sâm, cao
+										hồng sâm,.... không nên sử dụng các sản phẩm cao sâm nguyên chất 100%.</p>
+
+									<h3 id="✔️&nbsp;+Bà+bầu+có+nên+uống+sâm+tươi+mật+ong+không?"
+										style="text-align:justify"><strong>✔️&nbsp; Bà bầu có nên uống sâm tươi mật ong
+											không?</strong></h3>
+
+									<p style="text-align:justify">Đối với phụ nữ mang thai nên tránh dùng nhân sâm
+										bởi:&nbsp;</p>
+
+									<ul>
+										<li style="text-align:justify">Trong thành phần của nhân sâm có tác
+											dụng&nbsp;chống đông máu, dễ gây di tật bẩm sinh cho thai nhi.</li>
+										<li style="text-align:justify">Dùng nhân sâm dễ gây rối loạn giấc ngủ, khiến cho
+											bà bầu thức đêm, khiến cơ thể mệt mỏi, suy giảm sức khỏe, tâm trạng thay đổi
+											thất thường.</li>
+										<li style="text-align:justify">Đôi khi nhân sâm gây ra tình trạng tiêu chảy, dẫn
+											đến mất nước và mệt mỏi</li>
+									</ul>
 								</div>
 
-								<div class="footer_r cls">
-
-									<div class="share_fast_small">
-										<div class="title">Kết nối</div>
-										<div class="fb share_item"><a class="facebook-icon" href=""
-												title="Link Facebook" rel="nofollow" target="_blank">
-												<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
-													</path>
-												</svg>
-											</a>
-										</div>
-										<div class="tw share_item">
-											<a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
-												target="_blank">
-												<svg height="50px" viewBox="0 0 512 512" width="50px"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
-													</path>
-												</svg>
-											</a>
-										</div>
-
-										<div class="yt share_item">
-											<a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
-												target="_blank">
-												<svg height="15" viewBox="0 0 511 511.9" width="15"
-													xmlns="http://www.w3.org/2000/svg">
-													<path
-														d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
-													</path>
-													<path
-														d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
-													</path>
-													<path
-														d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
-													</path>
-												</svg>
-
-											</a>
-										</div>
-
-										<div class="yt share_item">
-											<a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
-												target="_blank">
-												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-													viewBox="0 0 215.094 215.094"
-													style="enable-background:new 0 0 215.094 215.094;"
-													xml:space="preserve">
-													<path
-														d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
-													</path>
-
-												</svg>
-											</a>
-										</div>
-
-										<div class="clear"></div>
-									</div>
-
-									<div class="wrap-by-fast cls">
-										<div class="item">
-
-											<div class="phone-left">
-												<p class="phone-content">Onplaza </p>
-											</div>
-										</div>
-										<div class="buy_fast">
-
-											<div class="">
-												<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
-													onsubmit="javascript: return check_Formsubmitemail();">
-													<div class="cls buy_fast_body">
-														<input type="text" value="" placeholder="E-mail address..."
-															id="email1_buy_fast" name="email_buy_fast"
-															class="keyword input-text">
-														<button type="submit" class="button-buy-fast button">
-
-															Đăng ký </button>
-
-													</div>
-													<input type="hidden" name="module" value="users">
-													<input type="hidden" name="view" value="users">
-													<input type="hidden" name="task" value="buy_fast_save">
-													<input type="hidden" name="Itemid" value="10">
-												</form>
-
-											</div>
-
-										</div>
-									</div>
-								</div>
-
+								<!-- <div class="readmore " id="readmore_desc"><span class="closed">Xem thêm
+		</span></div> -->
 							</div>
-							<div class="clear"></div>
 
 						</div>
-						<div class="footer_im cls">
 
-							<div class="image_wrapper">
-								<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
-									title="DMCA.com Protection Status" class="dmca-badge"> <img
-										src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
-								<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-								<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
-									title="Bộ công thương" class="dmca-badge">
-									<img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
-										style="display: inline;"></a>
-								<div class="info_item">
-									Công ty TNHH Onplaza Việt Pháp
-									- Mã số thuế :0105566586,
-									Ngày cấp: 13/10/2011,Trụ sở
-									chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
-									Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội-
-									Người
-									chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
-									747/2014/ATTP-CNDK
-								</div>
-							</div>
+						<script type="text/javascript">
+							var cr_layout_type = 'viewList';
+							var cr_items = ["104", "101", "100"];
+						</script>
 
-						</div>
-						<div class="copyright ">
-							<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
-						</div>
-					</footer>
+						<style>
+							.products-cat-frame-inner .cat-title {
+								background-color: #220A005c;
+								text-align: left;
+								padding-bottom: 0px;
+
+
+							}
+
+							.products-cat-frame-inner .cat-title h1 {
+								color: #FFB26F;
+							}
+
+							.products-cat-frame-inner .summary_content {
+								color: #;
+								padding-top: 0px;
+							}
+
+							.products-cat-frame-inner {}
+
+							#products-cat {
+								background-color: #220A00;
+							}
+
+							.product_ajj .products_home_slideshow {
+								display: flex;
+								flex-wrap: wrap;
+								margin: 0px -10px;
+
+							}
+
+							.products-cat-frame .product_grid .item {
+								width: calc(calc(100% / 3) - 20px);
+								margin: 0px 10px 30px;
+							}
+
+							@media screen and (max-width:900px) {
+								.products-cat-frame .product_grid .item {
+									width: calc(calc(100% / 3) - 20px);
+									margin: 0px 10px 20px;
+									padding: 0px;
+								}
+							}
+
+							@media screen and (max-width:650px) {
+								.products-cat-frame .product_grid .item {
+									width: calc(calc(100% / 2) - 10px);
+									margin: 0px 5px 20px;
+									padding: 0px;
+								}
+							}
+
+							/* .products-cat-frame .product_grid .item2{
+			width: calc(calc(100% / ) - 20px);
+			margin: 0px 10px 30px;
+			} */
+
+
+							#products-cat .cat-title-main a {
+								background-color: #5D1C00;
+								color: #FFB26F;
+
+							}
+
+							#products-cat .cat-title-main a:before {
+								background-color: #471500;
+							}
+
+							.breadcrumbs {
+								background-color: #370008;
+								border: unset;
+							}
+
+							.description_start {
+								color: #FFFFFF;
+							}
+
+							.block_products_filter .field_item {
+								background: #5B0000;
+							}
+
+							.block_products_filter .field_label .item a {
+								color: #FFFFFF;
+							}
+
+							.block_products_filter .field_label .item a:before {
+								background: #FFFFFF;
+							}
+
+
+							.block_products_filter .field_item {
+								border: 1px solid #BB0101;
+							}
+
+							.block_products_filter .field_item .field_name {
+								border-right: 1px solid #BB0101;
+							}
+						</style>
+					</div>
+					<div class="clear"></div>
 				</div>
-
+				<!-- end.Content -->
 			</div>
 
-			<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
-				<div id="bar-inner">
-					<a class="go-top" href="#page-wrapper" title="Back to top">
-						<svg x="0px" y="0px" viewBox="0 0 284.929 284.929"
-							style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
-							<g>
-								<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
+			<div class="clear"></div>
+
+			<!--Trên Footer-->
+
+			<div class="introdu pos_footer">
+				<div class="wraper_block">
+					<div class="block_banners banners-_banner banners_0 block" id="block_id_148">
+						<div class="banners_wrapper cls banners-default_wrapper block_inner block_banner_banner">
+							<div class="item">
+								<a rel="nofollow" href="" title="Hệ thống cửa hàng" id="banner_item_101"
+									class="banner_item">
+
+									<span class="wrapper_ap">
+										<img class="lazy after-lazy" alt="Hệ thống cửa hàng"
+											src="assets/img/banner/banner7.png" srcset="assets/img/banner/banner7.png"
+											style="display: inline;">
+									</span>
+
+								</a>
+							</div>
+
+							<div class="clear"></div>
+						</div>
+						<div class="clear"></div>
+
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<div class="introdu pos_strength">
+				<div class="wraper_block" style="background-color:#1C0702">
+					<div class="block_strengths strengths-_strengths strengths_0 block" id="block_id_139">
+						<div class="container">
+							<div class="scroll_hori">
+								<div class="strengths_retangle2_block cls">
+									<div class="item  item_logo">
+										<div class="item-inner">
+											<div class="item-l">
+												<div class="isvg">
+													<img class="lazy after-lazy" alt="CÔNG TY ONPLAZA VIỆT PHÁP"
+														src="assets/img/logo/logo.png" srcset="assets/img/logo/logo.png"
+														style="display: inline;">
+												</div>
+											</div>
+											<div class="item-r">
+												<div class="title" style="color: #F4E0AF">
+													CÔNG TY ONPLAZA VIỆT PHÁP </div>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="item ">
+										<div class="item-inner">
+											<div class="item-l">
+												<div class="isvg">
+													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+														xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														viewBox="0 0 511.999 511.999"
+														style="enable-background:new 0 0 511.999 511.999;"
+														xml:space="preserve">
+														<g>
+															<g>
+																<path
+																	d="M374.821,0c-74.434,0-134.984,62.55-134.984,136.984c0,30.992,10.619,60.901,29.997,84.848v87.28l94.003-37.584 			c3.618,0.293,7.279,0.439,10.985,0.439c74.434,0,136.984-60.55,136.984-134.984S449.256,0,374.821,0z M329.827,151.982H299.83 			v-29.997h29.997V151.982z M389.82,151.982h-29.997v-29.997h29.997V151.982z M449.813,151.982h-29.997v-29.997h29.997V151.982z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<polygon
+																	points="364.085,304.675 321.668,347.106 448.687,474.125 491.351,431.94 		">
+																</polygon>
+															</g>
+														</g>
+														<g>
+															<g>
+																<polygon
+																	points="79.865,20.455 37.44,62.879 164.699,190.137 207.131,147.72 		">
+																</polygon>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M19.287,87.143c-33.934,66.566-22.13,147.566,31.372,201.054l172.949,172.949c33.482,33.482,77.804,50.868,122.593,50.853 			c26.815,0,53.671-6.616,78.6-19.343C358.955,426.827,77.855,145.713,19.287,87.143z">
+																</path>
+															</g>
+														</g>
+													</svg>
+												</div>
+											</div>
+											<div class="item-r">
+												<div class="title" style="color: #F4E0AF">
+													Hỗ trợ 24/7 </div>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="item ">
+										<div class="item-inner">
+											<div class="item-l">
+												<div class="isvg">
+													<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+														xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+														xml:space="preserve">
+														<g>
+															<g>
+																<path
+																	d="M393.542,219.688c-0.973,2.383-1.519,4.983-1.519,7.711v31.152h32.975v-38.863H393.542z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M0,219.688v87.403c0,24.162,19.656,43.819,43.818,43.819h239.189v-47.358v-30.001h19.014v-46.152 			c0-2.592,0.097-5.162,0.273-7.711H0z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M381.18,52.461H43.818C19.656,52.461,0,72.117,0,96.279v17.236v1.001h424.998v-1.001V96.279 			C424.998,72.117,405.341,52.461,381.18,52.461z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M0,144.517v42.168v3.002h308.653c6.395-17.555,17.123-33.043,30.882-45.17H0z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M412.504,146.916c-44.377,0-80.481,36.105-80.481,80.483v46.152h30.001v-46.152c0-27.836,22.646-50.482,50.48-50.482 			s50.481,22.647,50.481,50.482v46.152h30.001v-46.152C492.986,183.021,456.881,146.916,412.504,146.916z">
+																</path>
+															</g>
+														</g>
+														<g>
+															<g>
+																<path
+																	d="M313.007,303.552v155.988H512V303.552H313.007z M427.504,397.182v32.575h-30.001v-32.575 			c-10.471-5.442-17.644-16.385-17.644-28.98c0-18,14.644-32.645,32.645-32.645s32.645,14.644,32.645,32.645 			C445.148,380.796,437.975,391.74,427.504,397.182z">
+																</path>
+															</g>
+														</g>
+													</svg>
+												</div>
+											</div>
+											<div class="item-r">
+												<div class="title" style="color: #F4E0AF">
+													Bảo mật thanh toán </div>
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<div class="footer lazy after-lazy"
+				style="background-image: url(assets/img/background/bg5.png); display: block;">
+				<footer>
+					<div class="container cls">
+
+						<div class="footer_top cls">
+
+							<div class="all-hotline-ft cls">
+
+								<div class="share_fast_small">
+									<div class="title">HỆ THỐNG SHOWROOM</div>
+								</div>
+								<div class="block_content address_content">
+
+									<div class="title">
+										<svg width="20px" height="20px" version="1.1" id="Capa_1"
+											xmlns="http://www.w3.org/2000/svg"
+											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 426.667 426.667"
+											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+											<g>
+												<g>
+													<path
+														d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+													</path>
+												</g>
+											</g>
+
+										</svg>
+										Hà Nội:
+									</div>
+
+									<ul class="item">
+
+										<li>
+											<p>LK: 76 Hai Bà Trưng</p>
+										</li>
+										<li>
+											<p>Địa chỉ:76 Hai Bà Trưng, Hoàn Kiếm, Hà Nội <br> (Cách Bệnh Biện K 50m -
+												Cách Tòa Tháp Đôi Hà Nội 60m)</p>
+										</li>
+										<li>
+											<p class="phone"> ĐT: 024.35.66.88.99 - 024.36.555.888 - 024 39.99.77.55 -
+												09.66.60.61.69</p>
+										</li>
+
+									</ul>
+
+									<ul class="item">
+
+										<li>
+											<p>LK: 327 Trường Chinh</p>
+										</li>
+										<li>
+											<p>Địa chỉ:327 Trường Chinh, Ngã Tư Sở, Hà Nội <br> (Cách Ngã Tư Sở Khoảng
+												200m)</p>
+										</li>
+										<li>
+											<p class="phone"> ĐT: 024.36.555.777 - 024.32.333.666 - 024.66.849.833 -
+												09.65.69.63.64</p>
+										</li>
+
+									</ul>
+
+									<div class="title">
+										<svg width="20px" height="20px" version="1.1" id="Capa_1"
+											xmlns="http://www.w3.org/2000/svg"
+											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+											viewBox="0 0 426.667 426.667"
+											style="enable-background:new 0 0 426.667 426.667;" xml:space="preserve">
+											<g>
+												<g>
+													<path
+														d="M213.333,0C130.88,0,64,66.88,64,149.333c0,112,149.333,277.333,149.333,277.333s149.333-165.333,149.333-277.333 C362.667,66.88,295.787,0,213.333,0z M213.333,202.667c-29.44,0-53.333-23.893-53.333-53.333S183.893,96,213.333,96 s53.333,23.893,53.333,53.333S242.773,202.667,213.333,202.667z">
+													</path>
+												</g>
+											</g>
+
+										</svg>
+										Hồ Chí Minh:
+									</div>
+
+									<ul class="item">
+
+										<li>
+											<p>LK: Hồ Chí Minh</p>
+										</li>
+										<li>
+											<p>Địa chỉ:Số 19 – 21 Cách Mạng Tháng 8 – Phường Bến Thành – Quận 1 – TP.HCM
+												<br> (Cách Ngã Sáu Phù Đổng Thiên Vương 10m – Đối diện sân khấu kịch
+												Trống Đồng )
+											</p>
+										</li>
+										<li>
+											<p class="phone"> ĐT: 028.35.060.888 - 028.62.838.999 - 09.68.60.61.69</p>
+										</li>
+
+									</ul>
+
+								</div>
+							</div>
+
+							<div class="footer-menu cls">
+								<ul class="menu-bottom cls">
+									<li class="  level0  first-item">
+										<span class="click-mobile" data-id="menu-sub1"></span> <span data-id="item_1">
+											Chính sách &amp; bảo hành </span>
+										<ul id="menu-sub1" class="cls">
+											<li class="  level1  first-sitem ">
+												<a href="dieukhoanmuahang.php" title="Điều khoản mua hàng"> Điều khoản
+													mua hàng </a>
+											</li>
+											<li class="  level1  mid-sitem ">
+												<span> Hướng dẫn mua hàng </span>
+											</li>
+											<li class="  level1  mid-sitem ">
+												<a href="hinhthucthanhtoan.php" title="Phương thức thanh toán"> Phương
+													thức thanh toán </a>
+											</li>
+											<li class="  level1  mid-sitem ">
+												<a href="hinhthucvanchuyen.php" title="Phương thức vận chuyển"> Phương
+													thức vận chuyển </a>
+											</li>
+											<li class="  level1  mid-sitem ">
+												<a href="chinhsachbaomat.php" title="Chính sách bảo mật"> Chính sách bảo
+													mật </a>
+											</li>
+											<li class="  level1  mid-sitem ">
+												<a href="chinhsachdoitra.php" title="Chính sách đổi trả hàng"> Chính
+													sách đổi trả hàng </a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+
+							</div>
+
+							<div class="footer_r cls">
+
+								<div class="share_fast_small">
+									<div class="title">Kết nối</div>
+									<div class="fb share_item"><a class="facebook-icon" href="" title="Link Facebook"
+											rel="nofollow" target="_blank">
+											<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="m437 0h-362c-41.351562 0-75 33.648438-75 75v362c0 41.351562 33.648438 75 75 75h151v-181h-60v-90h60v-61c0-49.628906 40.371094-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.351562 0 75-33.648438 75-75v-362c0-41.351562-33.648438-75-75-75zm0 0">
+												</path>
+											</svg>
+										</a>
+									</div>
+									<div class="tw share_item">
+										<a class="twitter-icon" href="" title="Link twitter" rel="nofollow"
+											target="_blank">
+											<svg height="50px" viewBox="0 0 512 512" width="50px"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="m475.074219 0h-438.148438c-20.394531 0-36.925781 16.53125-36.925781 36.925781v438.148438c0 20.394531 16.53125 36.925781 36.925781 36.925781h438.148438c20.394531 0 36.925781-16.53125 36.925781-36.925781v-438.148438c0-20.394531-16.53125-36.925781-36.925781-36.925781zm-102.1875 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0">
+												</path>
+											</svg>
+										</a>
+									</div>
+
+									<div class="yt share_item">
+										<a class="instagram-icon" href="" title="Link instagram" rel="nofollow"
+											target="_blank">
+											<svg height="15" viewBox="0 0 511 511.9" width="15"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0">
+												</path>
+												<path
+													d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0">
+												</path>
+												<path
+													d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0">
+												</path>
+											</svg>
+
+										</a>
+									</div>
+
+									<div class="yt share_item">
+										<a class="youtube-icon" href="" title="Link youtube" rel="nofollow"
+											target="_blank">
+											<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												viewBox="0 0 215.094 215.094"
+												style="enable-background:new 0 0 215.094 215.094;" xml:space="preserve">
+												<path
+													d="M28.302,32.547C12.673,32.547,0,45.22,0,60.849v93.396c0,15.629,12.673,28.302,28.302,28.302h158.491 c15.629,0,28.301-12.673,28.301-28.302V60.849c0-15.629-12.672-28.302-28.301-28.302H28.302z M90.547,145.583V69.511l50,38.036 L90.547,145.583z">
+												</path>
+
+											</svg>
+										</a>
+									</div>
+
+									<div class="clear"></div>
+								</div>
+
+								<div class="wrap-by-fast cls">
+									<div class="item">
+
+										<div class="phone-left">
+											<p class="phone-content">Onplaza </p>
+										</div>
+									</div>
+									<div class="buy_fast">
+
+										<div class="">
+											<form action="" name="buy_fast_form" id="buy_fast_form" method="post"
+												onsubmit="javascript: return check_Formsubmitemail();">
+												<div class="cls buy_fast_body">
+													<input type="text" value="" placeholder="E-mail address..."
+														id="email1_buy_fast" name="email_buy_fast"
+														class="keyword input-text">
+													<button type="submit" class="button-buy-fast button">
+
+														Đăng ký </button>
+
+												</div>
+												<input type="hidden" name="module" value="users">
+												<input type="hidden" name="view" value="users">
+												<input type="hidden" name="task" value="buy_fast_save">
+												<input type="hidden" name="Itemid" value="10">
+											</form>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+					<div class="footer_im cls">
+
+						<div class="image_wrapper">
+							<a href="https://www.dmca.com/Protection/Status.aspx?ID=18892078-af65-4c9d-8b82-addf29b3e619&amp;refurl=https://onplaza.vn/"
+								title="DMCA.com Protection Status" class="dmca-badge"> <img
+									src="assets/img/logo/logo2.png" alt="DMCA.com Protection Status"></a>
+							<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+							<a href="http://online.gov.vn/Home/WebDetails/18258?refurl=https://onplaza.vn/"
+								title="Bộ công thương" class="dmca-badge">
+								<img class="lazy item after-lazy" alt="flower" src="assets/img/logo/logo3.png"
+									style="display: inline;"></a>
+							<div class="info_item">
+								Công ty TNHH Onplaza Việt Pháp
+								- Mã số thuế :0105566586,
+								Ngày cấp: 13/10/2011,Trụ sở
+								chính : Tầng 1, Số nhà 59, ngõ 508, đường Láng, tổ 9B, Phường Láng Hạ, Quận Đống Đa,
+								Thành Phố Hà Nội, Việt Nam. <br> Nơi cấp: Sở kế hoạch và đầu tư thành phố Hà Nội- Người
+								chịu trách nhiệm:ĐÀO VĂN QUANG - Điện thoại:02466849833 - Giấy phép ATVSCS:
+								747/2014/ATTP-CNDK
+							</div>
+						</div>
+
+					</div>
+					<div class="copyright ">
+						<div class="container">© Copyright 2020 <span>ONPLAZA Viet Phap</span></div>
+					</div>
+				</footer>
+			</div>
+
+		</div>
+
+		<div id="fixed-bar" style="position: fixed; bottom: 100px; display: none;">
+			<div id="bar-inner">
+				<a class="go-top" href="#page-wrapper" title="Back to top">
+					<svg x="0px" y="0px" viewBox="0 0 284.929 284.929"
+						style="enable-background:new 0 0 284.929 284.929;" xml:space="preserve">
+						<g>
+							<path d="M282.082,195.285L149.028,62.24c-1.901-1.903-4.088-2.856-6.562-2.856s-4.665,0.953-6.567,2.856L2.856,195.285
 				C0.95,197.191,0,199.378,0,201.853c0,2.474,0.953,4.664,2.856,6.566l14.272,14.271c1.903,1.903,4.093,2.854,6.567,2.854
 				c2.474,0,4.664-0.951,6.567-2.854l112.204-112.202l112.208,112.209c1.902,1.903,4.093,2.848,6.563,2.848
 				c2.478,0,4.668-0.951,6.57-2.848l14.274-14.277c1.902-1.902,2.847-4.093,2.847-6.566
 				C284.929,199.378,283.984,197.188,282.082,195.285z"></path>
+						</g>
+					</svg>
+				</a>
+			</div>
+		</div>
+
+		<input type="hidden" id="Itid" name="Itid" value="9">
+
+		<div id="loading_box">
+			<div id="loading_image"></div>
+		</div>
+
+		<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
+		<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
+			<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
+					href="https://m.me/congtyonplazavietphap" target="_blank"><span
+						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path
+								d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
+							</path>
+						</svg></span>
+					<p>Messenger</p>
+				</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169"
+					target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 448 512">
+							<path
+								d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+							</path>
+						</svg></span>
+					<p>Zalo Chat</p>
+				</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span
+						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path
+								d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
+							</path>
+						</svg></span>
+					<p>Skype Chat</p>
+				</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com"
+					target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 512 512">
+							<path
+								d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
+							</path>
+						</svg></span>
+					<p>Gửi Email</p>
+				</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span
+						style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+							<path
+								d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+							</path>
+						</svg></span>
+					<p>Call 0932.144.888</p>
+				</a></div>
+			<div class="arcontactus-message-button" style="background-color: #c60100">
+				<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
+						xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g id="Canvas" transform="translate(-825 -308)">
+							<g id="Vector">
+								<use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="#FFFFFF"></use>
 							</g>
-						</svg>
-					</a>
+						</g>
+						<defs>
+							<path id="path0_fill0123"
+								d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
+							</path>
+						</defs>
+					</svg>
+					<p>Liên hệ</p>
 				</div>
-			</div>
-
-			<input type="hidden" id="Itid" name="Itid" value="9">
-
-			<div id="loading_box">
-				<div id="loading_image"></div>
-			</div>
-
-			<script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-			<div id="arcontactus" class="arcontactus-widget arcontactus-message right lg active">
-				<div class="messangers-block lg"><a class="messanger msg-item-facebook-messenger" id="msg-item-1"
-						href="https://m.me/congtyonplazavietphap" target="_blank"><span
-							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 448 512">
+				<div class="callback-state" style="color: #c60100"></div>
+				<div class="icons">
+					<div class="icons-line" style="transform: translate(-2px, 0px);"><span style="color: #c60100"><svg
+								xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
 								<path
 									d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
 								</path>
-							</svg></span>
-						<p>Messenger</p>
-					</a><a class="messanger msg-item-telegram-plane" id="msg-item-9" href="https://zalo.me/0966606169"
-						target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 448 512">
 								<path
 									d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
 								</path>
-							</svg></span>
-						<p>Zalo Chat</p>
-					</a><a class="messanger msg-item-skype" id="msg-item-6" href="skype:" target="_blank"><span
-							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 448 512">
 								<path
 									d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
 								</path>
-							</svg></span>
-						<p>Skype Chat</p>
-					</a><a class="messanger msg-item-envelope" id="msg-item-7" href="mailto:onplazavietphap@gmail.com"
-						target="_blank"><span style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 512 512">
 								<path
 									d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
 								</path>
-							</svg></span>
-						<p>Gửi Email</p>
-					</a><a class="messanger msg-item-phone" id="msg-item-8" href="tel:0966606169" target="_blank"><span
-							style="background-color:#f4e0af"><svg xmlns="http://www.w3.org/2000/svg"
+							</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 512 512">
 								<path
 									d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
 								</path>
-							</svg></span>
-						<p>Call 0932.144.888</p>
-					</a></div>
-				<div class="arcontactus-message-button" style="background-color: #c60100">
-					<div class="static hide"><svg width="20" height="20" viewBox="0 0 20 20" version="1.1"
-							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-825 -308)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill0123" transform="translate(825 308)" fill="#FFFFFF">
-									</use>
-								</g>
-							</g>
-							<defs>
-								<path id="path0_fill0123"
-									d="M 19 4L 17 4L 17 13L 4 13L 4 15C 4 15.55 4.45 16 5 16L 16 16L 20 20L 20 5C 20 4.45 19.55 4 19 4ZM 15 10L 15 1C 15 0.45 14.55 0 14 0L 1 0C 0.45 0 0 0.45 0 1L 0 15L 4 11L 14 11C 14.55 11 15 10.55 15 10Z">
-								</path>
-							</defs>
-						</svg>
-						<p>Liên hệ</p>
-					</div>
-					<div class="callback-state" style="color: #c60100"></div>
-					<div class="icons">
-						<div class="icons-line" style="transform: translate(-194px, 0px);"><span
-								style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-									<path
-										d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 448 512">
-									<path
-										d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 448 512">
-									<path
-										d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 512 512">
-									<path
-										d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z">
-									</path>
-								</svg></span><span style="color: #c60100"><svg xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 512 512">
-									<path
-										d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-									</path>
-								</svg></span></div>
-					</div>
-					<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1"
-							xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-4087 108)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
-									</use>
-								</g>
-							</g>
-							<defs>
-								<path id="path0_fill"
-									d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
-								</path>
-							</defs>
-						</svg></div>
-					<div class="pulsation" style="background-color: #c60100"></div>
-					<div class="pulsation" style="background-color: #c60100"></div>
+							</svg></span></div>
 				</div>
-				<div class="arcontactus-prompt">
-					<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13"
-							viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
-							xmlns:xlink="http://www.w3.org/1999/xlink">
-							<g id="Canvas" transform="translate(-4087 108)">
-								<g id="Vector">
-									<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
-									</use>
-								</g>
+				<div class="arcontactus-close"><svg width="12" height="13" viewBox="0 0 14 14" version="1.1"
+						xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g id="Canvas" transform="translate(-4087 108)">
+							<g id="Vector">
+								<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
+								</use>
 							</g>
-							<defs>
-								<path id="path0_fill"
-									d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
-								</path>
-							</defs>
-						</svg></div>
-					<div class="arcontactus-prompt-inner"></div>
-				</div>
+						</g>
+						<defs>
+							<path id="path0_fill"
+								d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+							</path>
+						</defs>
+					</svg></div>
+				<div class="pulsation" style="background-color: #c60100"></div>
+				<div class="pulsation" style="background-color: #c60100"></div>
 			</div>
-			<script>
-				//<![CDATA[
-				var arCuMessages = ["Xin chào tôi có thể giúp gì cho bạn"];
-				var arCuLoop = false;
-				var arCuCloseLastMessage = false;
-				var arCuPromptClosed = false;
-				var _arCuTimeOut = null;
-				var arCuDelayFirst = 2000;
-				var arCuTypingTime = 2000;
-				var arCuMessageTime = 4000;
-				var arCuClosedCookie = 0;
-				var arcItems = [];
-				window.addEventListener('load', function() {
-					arCuClosedCookie = arCuGetCookie('arcu-closed');
-					jQuery('#arcontactus').on('arcontactus.init', function() {
-						if (arCuClosedCookie) {
-							return false;
-						}
-						arCuShowMessages();
-					});
-					jQuery('#arcontactus').on('arcontactus.openMenu', function() {
-						clearTimeout(_arCuTimeOut);
-						arCuPromptClosed = true;
-						jQuery('#contact').contactUs('hidePrompt');
-						arCuCreateCookie('arcu-closed', 1, 30);
-					});
-					jQuery('#arcontactus').on('arcontactus.hidePrompt', function() {
-						clearTimeout(_arCuTimeOut);
-						arCuPromptClosed = true;
-						arCuCreateCookie('arcu-closed', 1, 30);
-					});
-					var arcItem = {};
-					arcItem.id = 'msg-item-1';
-					arcItem.class = 'msg-item-facebook-messenger';
-					arcItem.title = 'Messenger';
-					arcItem.icon =
-						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>';
-					arcItem.href = 'https://m.me/congtyonplazavietphap';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-9';
-					arcItem.class = 'msg-item-telegram-plane';
-					arcItem.title = 'Zalo Chat';
-					arcItem.icon =
-						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>';
-					arcItem.href = 'https://zalo.me/0966606169';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-6';
-					arcItem.class = 'msg-item-skype';
-					arcItem.title = 'Skype Chat';
-					arcItem.icon =
-						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"></path></svg>';
-					arcItem.href = 'skype:';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-7';
-					arcItem.class = 'msg-item-envelope';
-					arcItem.title = 'Gửi Email';
-					arcItem.icon =
-						'<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>';
-					arcItem.href = 'mailto:onplazavietphap@gmail.com';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					var arcItem = {};
-					arcItem.id = 'msg-item-8';
-					arcItem.class = 'msg-item-phone';
-					arcItem.title = 'Call 0932.144.888';
-					arcItem.icon =
-						'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>';
-					arcItem.href = 'tel:0966606169';
-					arcItem.color = '#f4e0af';
-					arcItems.push(arcItem);
-					jQuery('#arcontactus').contactUs({
-						items: arcItems
-					});
-				});
-				//]]>
-			</script>
-			<!-- end arcontactus widget -->
-			<!--  -->
-
-			<div id="modal_alert1" class="hide">
-				<div class="modal_alert_inner">
-					<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
-							onclick="javascript:close_modal_alert1()">X</a></div>
-					<div class="modal_alert_body"></div>
-				</div>
+			<div class="arcontactus-prompt">
+				<div class="arcontactus-prompt-close" style="color: #c60100"><svg width="12" height="13"
+						viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink">
+						<g id="Canvas" transform="translate(-4087 108)">
+							<g id="Vector">
+								<use xlink:href="#path0_fill" transform="translate(4087 -108)" fill="currentColor">
+								</use>
+							</g>
+						</g>
+						<defs>
+							<path id="path0_fill"
+								d="M 14 1.41L 12.59 0L 7 5.59L 1.41 0L 0 1.41L 5.59 7L 0 12.59L 1.41 14L 7 8.41L 12.59 14L 14 12.59L 8.41 7L 14 1.41Z">
+							</path>
+						</defs>
+					</svg></div>
+				<div class="arcontactus-prompt-inner"></div>
 			</div>
-			<div class="benmarch noc">0.13232 sec| 1781.375 kb</div>
-			<script async="async" language="javascript" type="text/javascript"
-				src="https://onplaza.vn/cache/js/4b846753f08f87047cf3d32752308f45.js?20230704183437"></script>
 		</div>
+		<script>
+			//<![CDATA[
+			var arCuMessages = ["Xin chào tôi có thể giúp gì cho bạn"];
+			var arCuLoop = false;
+			var arCuCloseLastMessage = false;
+			var arCuPromptClosed = false;
+			var _arCuTimeOut = null;
+			var arCuDelayFirst = 2000;
+			var arCuTypingTime = 2000;
+			var arCuMessageTime = 4000;
+			var arCuClosedCookie = 0;
+			var arcItems = [];
+			window.addEventListener('load', function() {
+				arCuClosedCookie = arCuGetCookie('arcu-closed');
+				jQuery('#arcontactus').on('arcontactus.init', function() {
+					if (arCuClosedCookie) {
+						return false;
+					}
+					arCuShowMessages();
+				});
+				jQuery('#arcontactus').on('arcontactus.openMenu', function() {
+					clearTimeout(_arCuTimeOut);
+					arCuPromptClosed = true;
+					jQuery('#contact').contactUs('hidePrompt');
+					arCuCreateCookie('arcu-closed', 1, 30);
+				});
+				jQuery('#arcontactus').on('arcontactus.hidePrompt', function() {
+					clearTimeout(_arCuTimeOut);
+					arCuPromptClosed = true;
+					arCuCreateCookie('arcu-closed', 1, 30);
+				});
+				var arcItem = {};
+				arcItem.id = 'msg-item-1';
+				arcItem.class = 'msg-item-facebook-messenger';
+				arcItem.title = 'Messenger';
+				arcItem.icon =
+					'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M224 32C15.9 32-77.5 278 84.6 400.6V480l75.7-42c142.2 39.8 285.4-59.9 285.4-198.7C445.8 124.8 346.5 32 224 32zm23.4 278.1L190 250.5 79.6 311.6l121.1-128.5 57.4 59.6 110.4-61.1-121.1 128.5z"></path></svg>';
+				arcItem.href = 'https://m.me/congtyonplazavietphap';
+				arcItem.color = '#f4e0af';
+				arcItems.push(arcItem);
+				var arcItem = {};
+				arcItem.id = 'msg-item-9';
+				arcItem.class = 'msg-item-telegram-plane';
+				arcItem.title = 'Zalo Chat';
+				arcItem.icon =
+					'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"></path></svg>';
+				arcItem.href = 'https://zalo.me/0966606169';
+				arcItem.color = '#f4e0af';
+				arcItems.push(arcItem);
+				var arcItem = {};
+				arcItem.id = 'msg-item-6';
+				arcItem.class = 'msg-item-skype';
+				arcItem.title = 'Skype Chat';
+				arcItem.icon =
+					'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path  d="M424.7 299.8c2.9-14 4.7-28.9 4.7-43.8 0-113.5-91.9-205.3-205.3-205.3-14.9 0-29.7 1.7-43.8 4.7C161.3 40.7 137.7 32 112 32 50.2 32 0 82.2 0 144c0 25.7 8.7 49.3 23.3 68.2-2.9 14-4.7 28.9-4.7 43.8 0 113.5 91.9 205.3 205.3 205.3 14.9 0 29.7-1.7 43.8-4.7 19 14.6 42.6 23.3 68.2 23.3 61.8 0 112-50.2 112-112 .1-25.6-8.6-49.2-23.2-68.1zm-194.6 91.5c-65.6 0-120.5-29.2-120.5-65 0-16 9-30.6 29.5-30.6 31.2 0 34.1 44.9 88.1 44.9 25.7 0 42.3-11.4 42.3-26.3 0-18.7-16-21.6-42-28-62.5-15.4-117.8-22-117.8-87.2 0-59.2 58.6-81.1 109.1-81.1 55.1 0 110.8 21.9 110.8 55.4 0 16.9-11.4 31.8-30.3 31.8-28.3 0-29.2-33.5-75-33.5-25.7 0-42 7-42 22.5 0 19.8 20.8 21.8 69.1 33 41.4 9.3 90.7 26.8 90.7 77.6 0 59.1-57.1 86.5-112 86.5z"></path></svg>';
+				arcItem.href = 'skype:';
+				arcItem.color = '#f4e0af';
+				arcItems.push(arcItem);
+				var arcItem = {};
+				arcItem.id = 'msg-item-7';
+				arcItem.class = 'msg-item-envelope';
+				arcItem.title = 'Gửi Email';
+				arcItem.icon =
+					'<svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"></path></svg>';
+				arcItem.href = 'mailto:onplazavietphap@gmail.com';
+				arcItem.color = '#f4e0af';
+				arcItems.push(arcItem);
+				var arcItem = {};
+				arcItem.id = 'msg-item-8';
+				arcItem.class = 'msg-item-phone';
+				arcItem.title = 'Call 0932.144.888';
+				arcItem.icon =
+					'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"></path></svg>';
+				arcItem.href = 'tel:0966606169';
+				arcItem.color = '#f4e0af';
+				arcItems.push(arcItem);
+				jQuery('#arcontactus').contactUs({
+					items: arcItems
+				});
+			});
+			//]]>
+		</script>
+		<!-- end arcontactus widget -->
+		<!--  -->
+
+		<div id="modal_alert1" class="hide">
+			<div class="modal_alert_inner">
+				<div class="modal_alert_title">Thông báo<a class="close" href="javascript:void()"
+						onclick="javascript:close_modal_alert1()">X</a></div>
+				<div class="modal_alert_body"></div>
+			</div>
+		</div>
+		<div class="benmarch noc">0.27161 sec| 1672.391 kb</div>
+		<script async="async" language="javascript" type="text/javascript"
+			src="https://onplaza.vn/cache/js/a80e02fb2d6ef083bdfbde78afedf826.js?20230704221750"></script>
 	</div>
 	<script type="text/javascript" id="">
 		(function(a, e, b, f, g, c, d) {
@@ -5047,7 +3615,7 @@
 		<div style="z-index: 2000000000; position: relative;"><iframe
 				title="hình ảnh xác thực reCAPTCHA sẽ hết hạn sau 2 phút nữa"
 				src="https://www.google.com/recaptcha/api2/bframe?hl=vi&amp;v=khH7Ei3klcvfRI74FvDcfuOo&amp;k=6LfXf7EZAAAAABfEi0Temws_OYe1V04I8kR2ovci"
-				name="c-c4scqgc7g8s9" frameborder="0" scrolling="no"
+				name="c-e94xndf4udyr" frameborder="0" scrolling="no"
 				sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"
 				style="width: 100%; height: 100%;"></iframe></div>
 	</div>

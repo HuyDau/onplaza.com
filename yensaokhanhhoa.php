@@ -653,7 +653,7 @@
 													nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -697,7 +697,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -721,7 +721,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=3"
+															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
@@ -755,7 +755,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=4"
+															<a class="item_lv1" href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
@@ -785,7 +785,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=5"
+															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
@@ -813,7 +813,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=6"
+															<a class="item_lv1" href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
@@ -829,13 +829,13 @@
 															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=7"
+															<a class="item_lv1" href="tinhdauthongdo.php"
 																title="Tinh dầu thông đỏ">
 																Tinh dầu thông đỏ
 															</a>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=8"
+															<a class="item_lv1" href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>

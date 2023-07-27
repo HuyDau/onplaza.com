@@ -22,6 +22,7 @@ if (isset($_POST['add'])) {
     $portfolio_code = $_POST['portfolio-code'];
     $portfolio_name = $_POST['portfolio-name'];
     $id_category = $_POST['portfolio-category'];
+    $content = $_POST['content'];
 
 
     $result1 = mysqli_query($conn, "SELECT * FROM portfolio WHERE name_portfolio = '$portfolio_name' ");
@@ -29,7 +30,7 @@ if (isset($_POST['add'])) {
     if ( mysqli_num_rows($result1) > 0) {
         echo "<script>window.alert('Danh mục sản phẩm tồn tại !');</script>";
     } else {
-        $add_category = "INSERT INTO `portfolio`(`id_portfolio`,`id_category`, `ma_portfolio`, `name_portfolio`) VALUES ('','$id_category','$portfolio_code','$portfolio_name')";
+        $add_category = "INSERT INTO `portfolio`(`id_portfolio`,`id_category`, `ma_portfolio`, `name_portfolio`,`content_portfolio`) VALUES ('','$id_category','$portfolio_code','$portfolio_name','$content')";
         $querry_add_category = mysqli_query($conn, $add_category);
         if ($querry_add_category) {
             echo "<script>window.alert('Thêm thành công!');window.location.href = 'portfolio.php'</script>";
@@ -68,6 +69,7 @@ $sql_category = mysqli_query($conn, "SELECT * FROM categories");
     <link href="assets\css\style.css" rel="stylesheet" type="text/css">
 
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <script src="assets/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -321,7 +323,7 @@ $sql_category = mysqli_query($conn, "SELECT * FROM categories");
                                     <a href="category.php">Danh mục</a>
                                 </li>
                                 <li>
-                                    <a href="portfolio.php">Danh mụcsản phẩm</a>
+                                    <a href="portfolio.php">Danh mục sản phẩm</a>
                                 </li>
                                 <li>
                                     <a href="product.php">Sản phẩm</a>
@@ -456,6 +458,15 @@ $sql_category = mysqli_query($conn, "SELECT * FROM categories");
                                             <input class="form-control form-white" placeholder="Nhập tên Danh mục sản phẩm ..." type="text" name="portfolio-name" value="<?php if (isset($var['name_portfolio'])) {
                                                                                                                                                             echo $var['name_portfolio'];
                                                                                                                                                         } ?>">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Nội dung: </label>
+                                            <textarea name="content" id="editor" cols="80" rows="10">
+
+                                            </textarea>
+                                            <script>
+                                                CKEDITOR.replace('editor')
+                                            </script>
                                         </div>
                                         <div class="text-right pt-2">
                                             <button type="button" class="btn btn-light " data-dismiss="modal" name="close">Đóng</button>

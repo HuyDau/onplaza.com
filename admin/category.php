@@ -25,12 +25,13 @@ if (isset($_POST['add'])) {
     $image = $_FILES['image']['name'];
     $image_tmp = $_FILES['image']['tmp_name'];
 
+    $content = $_POST['content'];
     $result1 = mysqli_query($conn, "SELECT * FROM categories WHERE name_category = '$category_name' ");
 
     if ( mysqli_num_rows($result1) > 0) {
         echo "<script>window.alert('Danh mục tồn tại !');</script>";
     } else {
-        $add_category = "INSERT INTO `categories`(`id_category`, `ma_category`, `name_category`, `image_category`) VALUES ('','$category_code','$category_name','$image')";
+        $add_category = "INSERT INTO `categories`(`id_category`, `ma_category`, `name_category`, `image_category`,`content`) VALUES ('','$category_code','$category_name','$image','$content')";
         $querry_add_category = mysqli_query($conn, $add_category);
         if ($querry_add_category) {
             echo "<script>window.alert('Thêm thành công!');window.location.href = 'category.php'</script>";

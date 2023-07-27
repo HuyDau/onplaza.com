@@ -16,11 +16,12 @@ if (isset($_POST['edit_portfolio'])) {
     $portfolio_code = $_POST['portfolio-code'];
     $portfolio_name = $_POST['portfolio-name'];
     $id_category = $_POST['portfolio-category'];
+    $content = $_POST['content'];
     $result1 = mysqli_query($conn, "SELECT * FROM portfolio WHERE name_portfolio = '$portfolio_name' ");
 
 
     $id = $_GET['id'];
-    $edit = "UPDATE portfolio SET ma_portfolio = '$portfolio_code', id_category = '$id_category' , name_portfolio = '$portfolio_name' WHERE id_portfolio = $id";
+    $edit = "UPDATE portfolio SET ma_portfolio = '$portfolio_code', id_category = '$id_category' , name_portfolio = '$portfolio_name', content_portfolio = '$content' WHERE id_portfolio = $id";
     $query_edit = mysqli_query($conn, $edit);
     if ($query_edit) {
         echo "<script>window.alert('Lưu thành công!');window.location.href = 'portfolio.php'</script>";
@@ -48,6 +49,8 @@ if (isset($_POST['edit_portfolio'])) {
     <link href="assets\css\icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\app.min.css" rel="stylesheet" type="text/css">
     <link href="assets\css\style.css" rel="stylesheet" type="text/css">
+
+    <script src="assets/ckeditor/ckeditor.js"></script>
 </head>
 
 <body>
@@ -419,6 +422,15 @@ if (isset($_POST['edit_portfolio'])) {
                                         <input class="form-control form-white" placeholder="Nhập tên danh mục ..." type="text" name="portfolio-name" value="<?php if (isset($row_info['name_portfolio'])) {
                                                                                                                                                                 echo $row_info['name_portfolio'];
                                                                                                                                                             } ?>">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="">Nội dung: </label>
+                                        <textarea name="content" id="editor" cols="80" rows="10">
+                                            <?php if(isset( $row_info['content_portfolio'])){echo  $row_info['content_portfolio'];} ?>
+                                        </textarea>
+                                        <script>
+                                            CKEDITOR.replace('editor')
+                                        </script>
                                     </div>
                                     <div class="text-right pt-2">
                                         <button type="button" class="btn btn-light " data-dismiss="modal"><a style="color: white;" href="portfolio.php">Trở về</a></button>

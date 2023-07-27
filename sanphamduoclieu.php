@@ -578,7 +578,7 @@ require_once("config/config.php");
 													nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân Sâm Hàn Quốc">
 																Nhân Sâm Hàn Quốc
 															</a>
@@ -622,7 +622,7 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân Sâm Hàn Quốc">
 																Nhân Sâm Hàn Quốc
 															</a>
@@ -646,7 +646,7 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=3"
+															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
@@ -680,7 +680,7 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=4"
+															<a class="item_lv1" href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
@@ -710,7 +710,7 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=5"
+															<a class="item_lv1" href="nhunghuou.php"
 																title="Nhung hươu">
 																Nhung hươu
 															</a>
@@ -738,7 +738,7 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=6"
+															<a class="item_lv1" href="ancungnguu.php"
 																title="An cung ngưu">
 																An cung ngưu
 															</a>
@@ -754,13 +754,13 @@ require_once("config/config.php");
 															</ul>
 														</div>
 														<div class="item cls ">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=7"
+															<a class="item_lv1" href="tinhdauthongdo.php"
 																title="Tinh dầu thông đỏ">
 																Tinh dầu thông đỏ
 															</a>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=8"
+															<a class="item_lv1" href="matongnguyenchat.php"
 																title="Mật Ong Nguyên Chất">
 																Mật Ong Nguyên Chất
 															</a>
@@ -2130,7 +2130,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
+																<a href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
 																	title="<?= $item_dongtrung['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_dongtrung['name_product'] ?>"
@@ -2142,7 +2142,7 @@ require_once("config/config.php");
 
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
+																		href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
 																		title="<?= $item_dongtrung['name_product'] ?>"
 																		class="name">
 																		<?= $item_dongtrung['name_product'] ?> </a>
@@ -2151,6 +2151,9 @@ require_once("config/config.php");
 															</div>
 
 															<div class="price_arae">
+																<?php
+																	if($item_dongtrung['price'] != 0 && $item_dongtrung['price1'] != 0){
+																		?>
 																<span class="price_current"
 																	style="color:#FFE2B8"><?= number_format($item_dongtrung['price'], 0, ".", "") ?>₫</span>
 																<span class="price_old" style="color:#FFE2B8">
@@ -2158,10 +2161,15 @@ require_once("config/config.php");
 																		class="item_old"><?= number_format($item_dongtrung['price1'], 0, ".", "") ?>₫
 																	</span>
 																</span>
+																<?php
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/dong-trung-ha-thao-nguyen-con-loai-20ghop-d003/"
+																<a href="sanpham.php?id=<?=$item_dongtrung['id_product']?>"
 																	title="Mua sản phẩm <?= $item_dongtrung['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2213,7 +2221,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																<a href="sanpham.php?id=<?=$item_nhansam1['id_product']?>"
 																	title="<?= $item_nhansam1['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_nhansam1['name_product'] ?>"
@@ -2225,7 +2233,7 @@ require_once("config/config.php");
 
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																		href="sanpham.php?id=<?=$item_nhansam1['id_product']?>"
 																		title="<?= $item_nhansam1['name_product'] ?>"
 																		class="name">
 																		<?= $item_nhansam1['name_product'] ?>
@@ -2234,6 +2242,9 @@ require_once("config/config.php");
 															</div>
 
 															<div class="price_arae">
+																<?php
+																	if($item_nhansam1['price'] != 0 && $item_nhansam1['price1'] != 0){
+																		?>
 																<span class="price_current"
 																	style="color:#FFE2B8"><?= number_format($item_nhansam1['price'], 0, "", ".") ?>₫</span>
 																<span class="price_old" style="color:#FFE2B8">
@@ -2241,9 +2252,15 @@ require_once("config/config.php");
 																		class="item_old"><?= number_format($item_nhansam1['price1'], 0, "", ".") ?>₫
 																	</span>
 																</span>
+
+																<?php
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/sam-tuoi-han-quoc-cao-cap-6-cu-kg-ns004/"
+																<a href="sanpham.php?id=<?=$item_nhansam1['id_product']?>"
 																	title="Mua sản phẩm <?= $item_nhansam1['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2292,7 +2309,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/"
+																<a href="sanpham.php?id=<?=$item_yensao1['id_product']?>"
 																	title="<?= $item_yensao1['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_yensao1['name_product'] ?>"
@@ -2304,7 +2321,7 @@ require_once("config/config.php");
 
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/"
+																		href="sanpham.php?id=<?=$item_yensao1['id_product']?>"
 																		title="<?= $item_yensao1['name_product'] ?>"
 																		class="name">
 																		<?= $item_yensao1['name_product'] ?> </a> </h3>
@@ -2312,6 +2329,9 @@ require_once("config/config.php");
 															</div>
 
 															<div class="price_arae">
+																<?php
+																	if($item_yensao1['price'] != 0 && $item_yensao1['price1'] != 0){
+																		?>
 																<span class="price_current"
 																	style="color:#FFE2B8"><?= number_format($item_yensao1['price'], 0, "", ".") ?>₫</span>
 																<span class="price_old" style="color:#FFE2B8">
@@ -2319,10 +2339,15 @@ require_once("config/config.php");
 																		class="item_old"><?= number_format($item_yensao1['price1'], 0, "", ".") ?>₫
 																	</span>
 																</span>
+																<?php
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/yen-trang-tinh-che-khanh-hoa-hop-100g-y014/"
+																<a href="sanpham.php?id=<?=$item_yensao1['id_product']?>"
 																	title="Mua sản phẩm <?= $item_yensao1['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2374,7 +2399,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/"
+																<a href="sanpham.php?id=<?=$item_nam1['id_product']?>"
 																	title="<?= $item_nam1['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_nam1['name_product'] ?>"
@@ -2386,7 +2411,7 @@ require_once("config/config.php");
 
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/"
+																		href="sanpham.php?id=<?=$item_nam1['id_product']?>"
 																		title="<?= $item_nam1['name_product'] ?>"
 																		class="name">
 																		<?= $item_nam1['name_product'] ?></a> </h3>
@@ -2394,6 +2419,9 @@ require_once("config/config.php");
 															</div>
 
 															<div class="price_arae">
+																<?php
+																	if($item_nam1['price'] != 0 && $item_nam1['price1'] != 0){
+																		?>
 																<span class="price_current"
 																	style="color:#FFE2B8"><?= number_format($item_nam1['price'], 0, "", ".") ?>₫</span>
 																<span class="price_old" style="color:#FFE2B8">
@@ -2401,9 +2429,14 @@ require_once("config/config.php");
 																		class="item_old"><?= number_format($item_nam1['price1'], 0, "", ".") ?>₫
 																	</span>
 																</span>
+																<?php
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 															<div class="buy_nows">
-																<a href="namlinhchihanquoc.php-han-quoc-loai-dac-biet-dong-hop-1kg-l052/"
+																<a href="sanpham.php?id=<?=$item_nam1['id_product']?>"
 																	title="Mua sản phẩm <?= $item_nam1['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2449,7 +2482,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/"
+																<a href="sanpham.php?id=<?=$item_nhunghuou1['id_product']?>"
 																	title="<?= $item_nhunghuou1['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_nhunghuou1['name_product'] ?>"
@@ -2460,23 +2493,31 @@ require_once("config/config.php");
 															</figure>
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/"
+																		href="sanpham.php?id=<?=$item_nhunghuou1['id_product']?>"
 																		title="<?= $item_nhunghuou1['name_product'] ?>"
 																		class="name">
 																		<?= $item_nhunghuou1['name_product'] ?> </a>
 																</h3>
 															</div>
 															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8"><?= number_format($item_nhunghuou1['price'], 0, "", ".") ?>₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span
-																		class="item_old"><?= number_format($item_nhunghuou1['price1'], 0, "", ".") ?>₫
-																	</span>
-																</span>
+																<?php
+																	if($item_nhunghuou1['price'] != 0 && $item_nhunghuou1['price1'] != 0){
+																		?>
+																			<span class="price_current"
+																				style="color:#FFE2B8"><?= number_format($item_nhunghuou1['price'], 0, "", ".") ?>₫</span>
+																			<span class="price_old" style="color:#FFE2B8">
+																				<span
+																					class="item_old"><?= number_format($item_nhunghuou1['price1'], 0, "", ".") ?>₫
+																				</span>
+																			</span>
+																		<?php
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 															<div class="buy_nows">
-																<a href="nhunghuoutuoi.php-hoang-da-san-ban-nh009/"
+																<a href="sanpham.php?id=<?=$item_nhunghuou1['id_product']?>"
 																	title="Mua sản phẩm <?= $item_nhunghuou1['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2529,7 +2570,7 @@ require_once("config/config.php");
 														<div class="frame_inner">
 															<figure class="product_image ">
 
-																<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/"
+																<a href="sanpham.php?id=<?=$item_ancungnguu1['id_product']?>"
 																	title="<?= $item_ancungnguu1['name_product'] ?>">
 																	<img class="lazy after-lazy"
 																		alt="<?= $item_ancungnguu1['name_product'] ?>"
@@ -2540,23 +2581,32 @@ require_once("config/config.php");
 															</figure>
 															<div class="name">
 																<h3><a style="color:#FFFFFF"
-																		href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/"
+																		href="sanpham.php?id=<?=$item_ancungnguu1['id_product']?>"
 																		title="<?= $item_ancungnguu1['name_product'] ?>"
 																		class="name">
 																		<?= $item_ancungnguu1['name_product'] ?> </a>
 																</h3>
 															</div>
 															<div class="price_arae">
-																<span class="price_current"
-																	style="color:#FFE2B8"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫</span>
-																<span class="price_old" style="color:#FFE2B8">
-																	<span
-																		class="item_old"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫
-																	</span>
-																</span>
+																<?php
+																	if($item_ancungnguu1['price'] != 0 && $item_ancungnguu1['price1'] != 0){
+																		?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?= number_format($item_ancungnguu1['price'], 0, "", ".") ?>₫
+																			</span>
+																		</span>
+																		<?php
+
+																	}else{
+																		?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																	}
+																?>
 															</div>
 															<div class="buy_nows">
-																<a href="https://onplaza.vn/vien-an-cung-nguu-hoang-hoan-han-quoc-hinh-to-ken-a030/"
+																<a href="sanpham.php?id=<?=$item_ancungnguu1['id_product']?>"
 																	title="Mua sản phẩm <?= $item_ancungnguu1['name_product'] ?>">
 																	Mua sản phẩm
 																</a>
@@ -2601,7 +2651,7 @@ require_once("config/config.php");
 													<div class="frame_inner">
 														<figure class="product_image ">
 
-															<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/"
+															<a href="sanpham.php?id=<?=$item_matong1['id_product']?>"
 																title="<?=$item_matong1['name_product']?>">
 																<img class="lazy after-lazy"
 																	alt="<?=$item_matong1['name_product']?>"
@@ -2612,22 +2662,30 @@ require_once("config/config.php");
 														</figure>
 														<div class="name">
 															<h3><a style="color:#FFFFFF"
-																	href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/"
+																	href="sanpham.php?id=<?=$item_matong1['id_product']?>"
 																	title="<?=$item_matong1['name_product']?>"
 																	class="name">
 																	<?=$item_matong1['name_product']?></a> </h3>
 														</div>
 														<div class="price_arae">
-															<span class="price_current"
-																style="color:#FFE2B8"><?=number_format($item_matong1['price'],0,"",".")?>₫</span>
-															<span class="price_old" style="color:#FFE2B8">
-																<span
-																	class="item_old"><?=number_format($item_matong1['price1'],0,"",".")?>₫
-																</span>
-															</span>
+															<?php
+																if($item_matong1['price'] != 0 && $item_matong1['price1'] != 0){
+																	?>
+																		<span class="price_current"
+																			style="color:#FFE2B8"><?=number_format($item_matong1['price'],0,"",".")?>₫</span>
+																		<span class="price_old" style="color:#FFE2B8">
+																			<span
+																				class="item_old"><?=number_format($item_matong1['price1'],0,"",".")?>₫
+																			</span>
+																		</span>
+																	<?php
+																}else{
+																	?><span style="margin: 0 auto;color: #FFE2B8;">Liên hệ</span><?php
+																}
+															?>
 														</div>
 														<div class="buy_nows">
-															<a href="matongrung.php-sua-chua-loai-dac-biet-nguyen-chai-1400g-chai-nhua-mo007/"
+															<a href="sanpham.php?id=<?=$item_matong1['id_product']?>"
 																title="Mua sản phẩm <?=$item_matong1['name_product']?>">
 																Mua sản phẩm
 															</a>
@@ -3010,15 +3068,11 @@ require_once("config/config.php");
 							<div class="homemenu_fixed" id="menu_scroll">
 								<ul>
 									<li class="item">
-										<a href="javascript:void(0)" id="sticky_1"
-											title="<?= $item_dongtrung['name_category'] ?>">
+										<a href="javascript:void(0)" id="sticky_1" title="">
 											<span class="icon"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
 													width="83.000000pt" height="84.000000pt"
 													viewBox="0 0 83.000000 84.000000"
 													preserveAspectRatio="xMidYMid meet">
-													<metadata>
-														Created by potrace 1.16, written by Peter Selinger 2001-2019
-													</metadata>
 													<g transform="translate(0.000000,84.000000) scale(0.100000,-0.100000)"
 														stroke="none">
 														<path
@@ -3026,7 +3080,10 @@ require_once("config/config.php");
 														</path>
 													</g>
 												</svg></span>
-											<span class="text_hide"><?= $item_dongtrung['name_category'] ?></span>
+											<span class="text_hide"><?php
+											$dongtrung = mysqli_query($conn, "SELECT * FROM categories WHERE id_category = 2");
+											$item_dongtrung = mysqli_fetch_assoc($dongtrung); 
+											echo $item_dongtrung['name_category']?></span>
 										</a>
 									</li>
 									<li class="item">
@@ -3038,7 +3095,11 @@ require_once("config/config.php");
 														d="m414.707031 38.105469c-9.679687-19.546875-28.664062-31.691407-31.242187-33.277344l-7.859375-4.828125-7.855469 4.828125c-2.582031 1.585937-21.570312 13.734375-31.25 33.285156-21.828125-1.617187-42.601562 7.957031-45.367188 9.292969l-9.148437 4.402344.617187 9.113281h-27.03125c-24.816406 0-45.011718 20.195313-45.011718 45.011719 0 4.925781.859375 9.71875 2.5625 14.355468-20.84375 19.773438-32.570313 46.714844-32.570313 75.671876v70.042968c-6.921875 3.273438-14.476562 4.980469-22.207031 4.980469-53.941406 0-97.828125 43.882813-97.828125 97.828125v21.75l20.335937-7.726562c36.6875-13.941407 75.125-21.269532 114.320313-21.796876-13.929687 18.492188-35.933594 29.976563-59.632813 29.976563h-37.210937c-53.929687 0-97.828125 45-97.828125 99.230469v21.75l20.332031-7.726563c40.558594-15.414062 80.558594-23.226562 118.890625-23.226562h25.824219c64.035156 0 121.71875-36.6875 149.03125-94.105469 44.5-12.769531 76.03125-54.027344 76.03125-100.953125v-90.023437c0-6.984376-.679687-13.84375-2.023437-20.550782 20.9375 7.679688 44.226562 3.558594 47.566406 2.902344l9.929687-1.949219 1.914063-9.933593c.644531-3.351563 4.894531-27.789063-3.707032-49.136719 21.117188-18.210938 23.15625-51.636719 23.328126-55.746094l.40625-9.714844-8.699219-4.335937c-2.695313-1.34375-22.925781-10.992188-44.617188-9.390625zm-121.449219 322.902343h-37.6875v30h22.273438c-24.738281 37.105469-66.53125 60.027344-112.296875 60.027344h-25.820313c-34.300781 0-69.660156 5.652344-105.429687 16.832032 9.351563-26.933594 34.902344-46.839844 64.03125-46.839844h37.210937c45.148438 0 83.453126-28.613282 98.28125-68.835938l3.199219-8.640625c-6.980469-7.339843-6.390625-6.964843-13.609375-15.433593-11.242187 1.738281-17.640625 2.882812-23.667968 2.882812-35.921876 0-71.296876 5.230469-105.472657 15.574219 9.226563-26.503907 34.464844-45.582031 64.078125-45.582031 30.355469 0 48.480469-16.359376 52.210938-18.253907v-11.753906h60.019531v-30.011719h-60.019531v-45.011718c0-23.746094 11.128906-45.628907 30.53125-60.042969l12.226562-9.085938-9.265625-12.085937c-2.34375-3.058594-3.480469-5.9375-3.480469-8.808594 0-8.273438 6.730469-15.003906 15.003907-15.003906h33.6875c3.605469 9.3125 9.148437 19.070312 17.660156 26.371094-8.597656 21.34375-4.347656 45.777343-3.703125 49.125l1.914062 9.933593 9.925782 1.953125c12.449218 2.441406 29.285156 2.519532 43.0625-1.433594 1.648437 6.167969 2.484375 12.546876 2.484375 19.078126v15.003906h-60.019531v30.011718h60.019531v45.011719c0 5.117188-.542969 10.132813-1.542969 15.003907h-58.476562v30h44.925781c-20.742188 27.605468-48.941407 28.757812-52.253907 30.015624zm128.828126-264.582031c-.46875.265625-.53125.265625-24.90625 8.476563l15.289062 16.964844c6.015625 6.671874 7.269531 18.71875 7.058594 28.03125-9.5.253906-22.152344-.972657-28.707032-7.53125-1.367187-1.363282-1.976562-2.703126-15.210937-24.09375-13.226563 21.371093-13.84375 22.726562-15.21875 24.101562-6.511719 6.507812-19.035156 7.808594-28.6875 7.542969-.203125-9.175781.984375-21.328125 7.042969-28.050781l15.289062-16.964844c-24.667968-8.304688-24.4375-8.207032-24.910156-8.476563-7.972656-4.601562-12.472656-16.375-14.714844-25.757812 8.1875-2.382813 18.855469-4.132813 26.867188-1.226563l16.773437 6.085938 3.117188-17.570313c1.476562-8.3125 8.371093-16.195312 14.441406-21.566406 6.03125 5.34375 12.960937 13.25 14.4375 21.566406l3.117187 17.570313 16.773438-6.085938c7.972656-2.894531 18.351562-1.148437 26.246094 1.214844-1.972656 9.351562-6.164063 21.191406-14.097656 25.769531zm0 0">
 													</path>
 												</svg></span>
-											<span class="text_hide"><?= $item_nhansam['name_category'] ?></span>
+											<span class="text_hide"><?php
+												
+												echo $item_nhansam['name_category'] ;
+											
+											?></span>
 										</a>
 									</li>
 									<li class="item">

@@ -611,7 +611,7 @@
 													nhansamhanquoc.php>
 													<div class="product_item cls">
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -655,7 +655,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=1"
+															<a class="item_lv1" href="nhansamhanquoc.php"
 																title="Nhân sâm hàn quốc">
 																Nhân sâm hàn quốc
 															</a>
@@ -679,7 +679,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=3"
+															<a class="item_lv1" href="namlinhchihanquoc.php"
 																title="Nấm linh chi Hàn Quốc">
 																Nấm linh chi Hàn Quốc
 															</a>
@@ -713,7 +713,7 @@
 															</ul>
 														</div>
 														<div class="item cls cat_item2">
-															<a class="item_lv1" href="nhansamhanquoc.php?id=4"
+															<a class="item_lv1" href="yensaokhanhhoa.php"
 																title="Yến sào Khánh Hoà">
 																Yến sào Khánh Hoà
 															</a>
