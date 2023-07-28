@@ -18,14 +18,14 @@ if (isset($_POST['order'])) {
     $orderProduct = array();
     while ($row = mysqli_fetch_array($products)) {
         $orderProduct[] = $row;
-        $total += $row["price"] * $_POST["quantity"][$row["id_product"]];
+        $total += $row["price1"] * $_POST["quantity"][$row["id_product"]];
     }
     $add_cart = mysqli_query($conn, "INSERT INTO `cart`(`id_cart`, `name_kh`, `sdt`, `city`, `district`, `ward`, `detail_address`, `total`, `note`, `time`, `id_payment`, `id_status`) VALUES 
     (NULL,'$name','$sdt','$city','$district','$ward','$detail_address','$total','$note',CURRENT_TIMESTAMP(),'1','1')");
     $cart_id = $conn->insert_id;
     $insertString = "";
     foreach ($orderProduct as $key => $product) {
-        $insertString .= "(NULL, '" . $cart_id . "', '" . $product['id_product'] . "','" . $_POST['quantity'][$product['id_product']] . "', '" . $product['price'] . "')";
+        $insertString .= "(NULL, '" . $cart_id . "', '" . $product['id_product'] . "','" . $_POST['quantity'][$product['id_product']] . "', '" . $product['price1'] . "')";
         if ($key != count($orderProduct) - 1) {
             $insertString .= ",";
         }

@@ -1740,9 +1740,9 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
                                                         <div class="price_arae">
                                                         <?php
                                                             if ($item_dongtrung['price'] != 0 && $item_dongtrung['price1'] != 0) { ?>
-                                                                <span class="price_current" style="color:#FFE1B8"><?= number_format($item_dongtrung['price']) ?>₫</span>
+                                                                <span class="price_current" style="color:#FFE1B8"><?= number_format($item_dongtrung['price1']) ?>₫</span>
                                                                 <span class="price_old " style="color:#FFE1B8">
-                                                                    <span class="item_old"><?= number_format($item_dongtrung['price1'], 0, ",", ".") ?>₫
+                                                                    <span class="item_old"><?= number_format($item_dongtrung['price'], 0, ",", ".") ?>₫
                                                                     </span>
                                                                 </span>
                                                             <?php
@@ -1812,9 +1812,9 @@ $sql_portfolio_samlaichau = mysqli_query($conn, "SELECT * FROM portfolio INNER J
 
                                                             <?php
                                                             if ($item_sam['price'] != 0 && $item_sam['price1'] != 0) { ?>
-                                                                <span class="price_current" style="color:#FFE1B8"><?= number_format($item_sam['price']) ?>₫</span>
+                                                                <span class="price_current" style="color:#FFE1B8"><?= number_format($item_sam['price1']) ?>₫</span>
                                                                 <span class="price_old " style="color:#FFE1B8">
-                                                                    <span class="item_old"><?= number_format($item_sam['price1'], 0, ",", ".") ?>₫
+                                                                    <span class="item_old"><?= number_format($item_sam['price'], 0, ",", ".") ?>₫
                                                                     </span>
                                                                 </span>
                                                             <?php

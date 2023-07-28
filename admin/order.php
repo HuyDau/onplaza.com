@@ -527,8 +527,8 @@ $count_cancel_o = mysqli_num_rows($sql_count_cancel_o);
                                                         <?= $row['sdt'] ?>
                                                     </td>
 
-                                                    <td>$
-                                                        <?= $row['total'] ?>.00
+                                                    <td>
+                                                        <?= number_format($row['total'],0,"",".") ?>₫
                                                     </td>
 
                                                     <td>

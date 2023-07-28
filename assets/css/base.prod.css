@@ -397,6 +397,10 @@
   font-size: 25px;
   font-weight: 700;
 }
+.price_arae span{
+  margin: 0 auto;
+}
+
 @media (max-width: 414px) {
   .price_arae {
     font-size: 20px;
